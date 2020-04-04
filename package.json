@@ -1,0 +1,19 @@
+{
+  "name": "yogurt-css-documentation",
+  "version": "1.0.0",
+  "description": "The documentation for Yogurt CSS low-level CSS framework.",
+  "author": "Loouis Low <loouis@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "node ./node_modules/docpress/bin/docpress b",
+    "serve": "node ./node_modules/docpress/bin/docpress s"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {
+    "docpress": "^0.8.1",
+    "git-update-ghpages": "^1.3.0"
+  },
+  "dependencies": {}
+}
