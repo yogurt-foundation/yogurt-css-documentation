@@ -10,4 +10,4 @@ Utilities for manipulating how a background image behaves when scrolling.
 |:--|:--|:--|
 | bg-fixed |  | background-attachment: fixed |
 | bg-local |  | background-attachment: local |
-| .bg-scroll |  | background-attachment: scroll |
+| bg-scroll |  | background-attachment: scroll |
