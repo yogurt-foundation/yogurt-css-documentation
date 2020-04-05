@@ -1,3 +1,5 @@
+> Interactivity
+
 ## Pointer Events
 
 Utilities for controlling whether an element responds to pointer events.

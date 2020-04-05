@@ -1,3 +1,5 @@
+> Sizing
+
 ## Width
 
 Utilities for setting the width of an element

@@ -1,3 +1,5 @@
+> Sizing
+
 ## Max Height
 
 Utilities for setting the maximum height of an element

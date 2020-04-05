@@ -1,3 +1,5 @@
+> Typography
+
 ## Font Style
 
 Utilities for controlling the font weight of an element.

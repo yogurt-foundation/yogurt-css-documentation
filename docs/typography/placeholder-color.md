@@ -1,3 +1,5 @@
+> Typography
+
 ## Placeholder Color
 
 Utilities for controlling the color of placeholder text.

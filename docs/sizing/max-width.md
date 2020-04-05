@@ -1,3 +1,5 @@
+> Sizing
+
 ## Max Width
 
 Utilities for setting the maximum width of an element

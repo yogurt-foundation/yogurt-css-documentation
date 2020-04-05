@@ -1,3 +1,5 @@
+> Effects
+
 ## Opacity
 
 Utilities for controlling the opacity of an element.

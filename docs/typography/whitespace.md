@@ -1,3 +1,5 @@
+> Typography
+
 ## Whitespace
 
 Utilities for controlling an element's white-space property.

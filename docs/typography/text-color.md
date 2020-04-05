@@ -1,3 +1,5 @@
+> Typography
+
 ## Text Color
 
 Utilities for controlling the text color of an element.

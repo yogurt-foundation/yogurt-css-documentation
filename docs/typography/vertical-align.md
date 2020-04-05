@@ -1,3 +1,5 @@
+> Typography
+
 ## Vertical Align
 
 Utilities for controlling the vertical alignment of an inline or table-cell box.

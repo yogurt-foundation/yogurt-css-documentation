@@ -1,3 +1,5 @@
+> Typography
+
 ## Text Align
 
 Utilities for controlling the alignment of text.

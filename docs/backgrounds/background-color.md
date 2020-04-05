@@ -1,3 +1,5 @@
+> Backgrounds
+
 ## Background Color
 
 Utilities for controlling an element's background color.

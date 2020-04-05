@@ -1112,7 +1112,8 @@ ul.heading-list .hlink:before {
     display: block;
     width: 100%;
     overflow: auto;
-    height: 300px
+    max-height: 300px;
+    min-height: 50px;
 }
 
 .markdown-body table th {
