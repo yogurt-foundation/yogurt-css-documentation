@@ -1,6 +1,6 @@
 > Typography
 
-## List Stype Position
+## List Style Position
 
 Utilities for manipulating the position of bullets/numbers in lists.
 

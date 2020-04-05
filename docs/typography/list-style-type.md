@@ -1,6 +1,6 @@
 > Typography
 
-## List Stype Type
+## List Style Type
 
 Utilities for manipulating the bullet/number style of a list.
 
