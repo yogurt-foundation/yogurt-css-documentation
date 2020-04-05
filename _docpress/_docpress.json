@@ -54,11 +54,6 @@
                     "id": "using-yogurt-via-build-tool"
                   },
                   {
-                    "title": "Using Yogurt via Playground",
-                    "depth": 3,
-                    "id": "using-yogurt-via-playground"
-                  },
-                  {
                     "title": "Using Yogurt via CDN",
                     "depth": 3,
                     "id": "using-yogurt-via-cdn"
@@ -884,11 +879,6 @@
               "title": "Using Yogurt via Build Tool",
               "depth": 3,
               "id": "using-yogurt-via-build-tool"
-            },
-            {
-              "title": "Using Yogurt via Playground",
-              "depth": 3,
-              "id": "using-yogurt-via-playground"
             },
             {
               "title": "Using Yogurt via CDN",
