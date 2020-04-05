@@ -18,6 +18,20 @@ $ npm i && npm run build
 
 Once the build process is done. You can extract the  minified `yogurt.css` from `dist/` directory to use in your project. (See [Customization](../customization/configuration.md)).
 
+### Using Yogurt via Playground
+
+```bash
+$ git clone https://github.com/yogurt-foundation/playground.git
+$ cd playground
+$ yarn && yarn start
+```
+
+[Yogurt Playground](https://github.com/yogurt-foundation/playground) is a developer tool also an HTML/CSS/JS IDE for testing and prototyping with all the Yogurt foundation frameworks and libraries, including [Yogurt CSS](https://github.com/yogurt-foundation/yogurt-css), [FX-Filter](https://github.com/yogurt-foundation/fx-filter), [FX-Gradient](https://github.com/yogurt-foundation/fx-gradient), [FX-Motion](https://github.com/yogurt-foundation/fx-motion). If you have an idea and want to draft something small without setting up a new project. Yogurt Playground is for you.
+
+<p align="center">
+  <img src="https://yogurt-css-documentation.netlify.com/assets/yogurt_playground_screenshot_01.png" height="auto" width="auto">
+</p>
+
 ### Using Yogurt via CDN
 
 ```html
@@ -31,4 +45,5 @@ Once the build process is done. You can extract the  minified `yogurt.css` from 
 **Note:** The CDN builds is large (705kb compressed, 105kb gzipped), the sizes will be different when you are customizing with the build tool. Using the build tool to exclude utilities or exclude variants from utilities that you don't need to reduce file size. (See [Customization](../customization/configuration.md)).
 
 **Note:** Using in-browser on-demand-cache to permanently store the Yogurt CSS with PWA (Progress Web App) feature. So that it only loads once maybe for its lifetime and also without the internet connection for the next load, this vastly improves load speed, reduce bandwidth and load time. (See examples [FX-Filter Previewer](https://fx-filter-previewer.netlify.com/), [FX-Gradient Previewer](https://fx-gradient-previewer.netlify.com/)).
+
 

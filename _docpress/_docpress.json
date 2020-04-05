@@ -54,29 +54,14 @@
                     "id": "using-yogurt-via-build-tool"
                   },
                   {
+                    "title": "Using Yogurt via Playground",
+                    "depth": 3,
+                    "id": "using-yogurt-via-playground"
+                  },
+                  {
                     "title": "Using Yogurt via CDN",
                     "depth": 3,
                     "id": "using-yogurt-via-cdn"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Playground",
-            "source": "docs/getting-started/playground.md",
-            "url": "getting-started/playground.html",
-            "slug": "getting-startedplayground",
-            "headings": [
-              {
-                "title": "Playground",
-                "depth": 2,
-                "id": "playground",
-                "headings": [
-                  {
-                    "title": "Using Yogurt via Build Tool",
-                    "depth": 3,
-                    "id": "using-yogurt-via-build-tool"
                   }
                 ]
               }
@@ -901,29 +886,14 @@
               "id": "using-yogurt-via-build-tool"
             },
             {
+              "title": "Using Yogurt via Playground",
+              "depth": 3,
+              "id": "using-yogurt-via-playground"
+            },
+            {
               "title": "Using Yogurt via CDN",
               "depth": 3,
               "id": "using-yogurt-via-cdn"
-            }
-          ]
-        }
-      ]
-    },
-    "getting-started/playground.html": {
-      "source": "docs/getting-started/playground.md",
-      "title": "Playground - Introduction",
-      "pageTitle": "Playground",
-      "slug": "getting-startedplayground",
-      "headings": [
-        {
-          "title": "Playground",
-          "depth": 2,
-          "id": "playground",
-          "headings": [
-            {
-              "title": "Using Yogurt via Build Tool",
-              "depth": 3,
-              "id": "using-yogurt-via-build-tool"
             }
           ]
         }
@@ -1617,7 +1587,6 @@
   "sources": {
     "docs/introduction.md": "index.html",
     "docs/getting-started/installation.md": "getting-started/installation.html",
-    "docs/getting-started/playground.md": "getting-started/playground.html",
     "docs/core-concepts/utility-design.md": "core-concepts/utility-design.html",
     "docs/core-concepts/responsive-design.md": "core-concepts/responsive-design.html",
     "docs/core-concepts/pseudo-class-variants.md": "core-concepts/pseudo-class-variants.html",

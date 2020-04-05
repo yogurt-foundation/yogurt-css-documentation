@@ -24,13 +24,13 @@
                         <ul class="heading-list -depth-2">
                           <li class="heading-item -depth-3"><a class="hlink link-using-yogurt-via-build-tool" href="#using-yogurt-via-build-tool">Using Yogurt via Build Tool</a>
                           </li>
+                          <li class="heading-item -depth-3"><a class="hlink link-using-yogurt-via-playground" href="#using-yogurt-via-playground">Using Yogurt via Playground</a>
+                          </li>
                           <li class="heading-item -depth-3"><a class="hlink link-using-yogurt-via-cdn" href="#using-yogurt-via-cdn">Using Yogurt via CDN</a>
                           </li>
                         </ul>
                       </li>
                     </ul>
-                  </li>
-                  <li class="menu-item -level-2"><a class="link title  link-getting-startedplayground" href="../getting-started/playground.html">Playground</a>
                   </li>
                 </ul>
               </li>
@@ -292,6 +292,15 @@ $ <span class="pl-c1">cd</span> yogurt-css
 $ npm i &amp;&amp; npm run build
 </code></pre>
 <p>Once the build process is done. You can extract the  minified <code>yogurt.css</code> from <code>dist/</code> directory to use in your project. (See <a href="../customization/configuration.html">Customization</a>).</p>
+<h3 id="using-yogurt-via-playground">Using Yogurt via Playground</h3>
+<pre><code class="lang-bash">$ git <span class="pl-c1">clone</span> https://github.com/yogurt-foundation/playground.git
+$ <span class="pl-c1">cd</span> playground
+$ yarn &amp;&amp; yarn start
+</code></pre>
+<p><a href="https://github.com/yogurt-foundation/playground">Yogurt Playground</a> is a developer tool also an HTML/CSS/JS IDE for testing and prototyping with all the Yogurt foundation frameworks and libraries, including <a href="https://github.com/yogurt-foundation/yogurt-css">Yogurt CSS</a>, <a href="https://github.com/yogurt-foundation/fx-filter">FX-Filter</a>, <a href="https://github.com/yogurt-foundation/fx-gradient">FX-Gradient</a>, <a href="https://github.com/yogurt-foundation/fx-motion">FX-Motion</a>. If you have an idea and want to draft something small without setting up a new project. Yogurt Playground is for you.</p>
+<p align="center">
+  <img src="https://yogurt-css-documentation.netlify.com/assets/yogurt_playground_screenshot_01.png" height="auto" width="auto">
+</p>
 <h3 id="using-yogurt-via-cdn">Using Yogurt via CDN</h3>
 <pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">defer</span> <span class="hljs-attr">href</span>=<span class="pl-s">&quot;https://unpkg.com/yogurt-css@1.0.2/dist/yogurt.css&quot;</span> 
       <span class="hljs-attr">rel</span>=<span class="pl-s">&quot;stylesheet&quot;</span>
@@ -305,7 +314,7 @@ $ npm i &amp;&amp; npm run build
         </div>
         <div class="footer-nav">
           <div class="left"><a href="../index.html"><span class="title">Introduction</span></a></div>
-          <div class="right"><a href="../getting-started/playground.html"><span class="label">Next: </span><span class="title">Playground</span></a></div>
+          <div class="right"><a href="../core-concepts/utility-design.html"><span class="label">Next: </span><span class="title">Utility Design</span></a></div>
         </div>
       </div>
     </div>
