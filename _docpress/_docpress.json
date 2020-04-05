@@ -54,11 +54,6 @@
                     "id": "using-yogurt-via-build-tool"
                   },
                   {
-                    "title": "Using Yogurt via Playground",
-                    "depth": 3,
-                    "id": "using-yogurt-via-playground"
-                  },
-                  {
                     "title": "Using Yogurt via CDN",
                     "depth": 3,
                     "id": "using-yogurt-via-cdn"
@@ -379,341 +374,103 @@
             "title": "Font Family",
             "source": "docs/typography/font-family.md",
             "url": "typography/font-family.html",
-            "slug": "typographyfont-family",
-            "headings": [
-              {
-                "title": "Font Family",
-                "depth": 2,
-                "id": "font-family",
-                "headings": [
-                  {
-                    "title": "Usage",
-                    "depth": 3,
-                    "id": "usage"
-                  }
-                ]
-              }
-            ]
+            "slug": "typographyfont-family"
           },
           {
             "title": "Font Size",
             "source": "docs/typography/font-size.md",
             "url": "typography/font-size.html",
-            "slug": "typographyfont-size",
-            "headings": [
-              {
-                "title": "Font Size",
-                "depth": 2,
-                "id": "font-size",
-                "headings": [
-                  {
-                    "title": "Usage",
-                    "depth": 3,
-                    "id": "usage"
-                  }
-                ]
-              }
-            ]
+            "slug": "typographyfont-size"
           },
           {
             "title": "Font Smoothing",
             "source": "docs/typography/font-smoothing.md",
             "url": "typography/font-smoothing.html",
-            "slug": "typographyfont-smoothing",
-            "headings": [
-              {
-                "title": "Font Smoothing",
-                "depth": 2,
-                "id": "font-smoothing",
-                "headings": [
-                  {
-                    "title": "Usage",
-                    "depth": 3,
-                    "id": "usage"
-                  }
-                ]
-              }
-            ]
+            "slug": "typographyfont-smoothing"
           },
           {
             "title": "Font Style",
             "source": "docs/typography/font-style.md",
             "url": "typography/font-style.html",
-            "slug": "typographyfont-style",
-            "headings": [
-              {
-                "title": "Font Style",
-                "depth": 2,
-                "id": "font-style",
-                "headings": [
-                  {
-                    "title": "Usage",
-                    "depth": 3,
-                    "id": "usage"
-                  }
-                ]
-              }
-            ]
+            "slug": "typographyfont-style"
           },
           {
             "title": "Font Weight",
             "source": "docs/typography/font-weight.md",
             "url": "typography/font-weight.html",
-            "slug": "typographyfont-weight",
-            "headings": [
-              {
-                "title": "Font Style",
-                "depth": 2,
-                "id": "font-style",
-                "headings": [
-                  {
-                    "title": "Usage",
-                    "depth": 3,
-                    "id": "usage"
-                  }
-                ]
-              }
-            ]
+            "slug": "typographyfont-weight"
           },
           {
             "title": "Letter Spacing",
             "source": "docs/typography/letter-spacing.md",
             "url": "typography/letter-spacing.html",
-            "slug": "typographyletter-spacing",
-            "headings": [
-              {
-                "title": "Letter Spacing",
-                "depth": 2,
-                "id": "letter-spacing",
-                "headings": [
-                  {
-                    "title": "Usage",
-                    "depth": 3,
-                    "id": "usage"
-                  }
-                ]
-              }
-            ]
+            "slug": "typographyletter-spacing"
           },
           {
             "title": "Line Height",
             "source": "docs/typography/line-height.md",
             "url": "typography/line-height.html",
-            "slug": "typographyline-height",
-            "headings": [
-              {
-                "title": "Line Height",
-                "depth": 2,
-                "id": "line-height",
-                "headings": [
-                  {
-                    "title": "Usage",
-                    "depth": 3,
-                    "id": "usage"
-                  }
-                ]
-              }
-            ]
+            "slug": "typographyline-height"
           },
           {
             "title": "List Style Type",
             "source": "docs/typography/list-style-type.md",
             "url": "typography/list-style-type.html",
-            "slug": "typographylist-style-type",
-            "headings": [
-              {
-                "title": "List Stype Type",
-                "depth": 2,
-                "id": "list-stype-type",
-                "headings": [
-                  {
-                    "title": "Usage",
-                    "depth": 3,
-                    "id": "usage"
-                  }
-                ]
-              }
-            ]
+            "slug": "typographylist-style-type"
           },
           {
             "title": "List Style Position",
             "source": "docs/typography/list-style-position.md",
             "url": "typography/list-style-position.html",
-            "slug": "typographylist-style-position",
-            "headings": [
-              {
-                "title": "List Stype Position",
-                "depth": 2,
-                "id": "list-stype-position",
-                "headings": [
-                  {
-                    "title": "Usage",
-                    "depth": 3,
-                    "id": "usage"
-                  }
-                ]
-              }
-            ]
+            "slug": "typographylist-style-position"
           },
           {
             "title": "Placeholder Color",
             "source": "docs/typography/placeholder-color.md",
             "url": "typography/placeholder-color.html",
-            "slug": "typographyplaceholder-color",
-            "headings": [
-              {
-                "title": "Placeholder Color",
-                "depth": 2,
-                "id": "placeholder-color",
-                "headings": [
-                  {
-                    "title": "Usage",
-                    "depth": 3,
-                    "id": "usage"
-                  }
-                ]
-              }
-            ]
+            "slug": "typographyplaceholder-color"
           },
           {
             "title": "Text Align",
             "source": "docs/typography/text-align.md",
             "url": "typography/text-align.html",
-            "slug": "typographytext-align",
-            "headings": [
-              {
-                "title": "Text Align",
-                "depth": 2,
-                "id": "text-align",
-                "headings": [
-                  {
-                    "title": "Usage",
-                    "depth": 3,
-                    "id": "usage"
-                  }
-                ]
-              }
-            ]
+            "slug": "typographytext-align"
           },
           {
             "title": "Text Color",
             "source": "docs/typography/text-color.md",
             "url": "typography/text-color.html",
-            "slug": "typographytext-color",
-            "headings": [
-              {
-                "title": "Text Color",
-                "depth": 2,
-                "id": "text-color",
-                "headings": [
-                  {
-                    "title": "Usage",
-                    "depth": 3,
-                    "id": "usage"
-                  }
-                ]
-              }
-            ]
+            "slug": "typographytext-color"
           },
           {
             "title": "Text Decoration",
             "source": "docs/typography/text-decoration.md",
             "url": "typography/text-decoration.html",
-            "slug": "typographytext-decoration",
-            "headings": [
-              {
-                "title": "Text Decoration",
-                "depth": 2,
-                "id": "text-decoration",
-                "headings": [
-                  {
-                    "title": "Usage",
-                    "depth": 3,
-                    "id": "usage"
-                  }
-                ]
-              }
-            ]
+            "slug": "typographytext-decoration"
           },
           {
             "title": "Text Transform",
             "source": "docs/typography/text-transform.md",
             "url": "typography/text-transform.html",
-            "slug": "typographytext-transform",
-            "headings": [
-              {
-                "title": "Text Transform",
-                "depth": 2,
-                "id": "text-transform",
-                "headings": [
-                  {
-                    "title": "Usage",
-                    "depth": 3,
-                    "id": "usage"
-                  }
-                ]
-              }
-            ]
+            "slug": "typographytext-transform"
           },
           {
             "title": "Vertical Align",
             "source": "docs/typography/vertical-align.md",
             "url": "typography/vertical-align.html",
-            "slug": "typographyvertical-align",
-            "headings": [
-              {
-                "title": "Vertical Align",
-                "depth": 2,
-                "id": "vertical-align",
-                "headings": [
-                  {
-                    "title": "Usage",
-                    "depth": 3,
-                    "id": "usage"
-                  }
-                ]
-              }
-            ]
+            "slug": "typographyvertical-align"
           },
           {
             "title": "Whitespace",
             "source": "docs/typography/whitespace.md",
             "url": "typography/whitespace.html",
-            "slug": "typographywhitespace",
-            "headings": [
-              {
-                "title": "Whitespace",
-                "depth": 2,
-                "id": "whitespace",
-                "headings": [
-                  {
-                    "title": "Usage",
-                    "depth": 3,
-                    "id": "usage"
-                  }
-                ]
-              }
-            ]
+            "slug": "typographywhitespace"
           },
           {
             "title": "Word Break",
             "source": "docs/typography/word-break.md",
             "url": "typography/word-break.html",
-            "slug": "typographyword-break",
-            "headings": [
-              {
-                "title": "Word Break",
-                "depth": 2,
-                "id": "word-break",
-                "headings": [
-                  {
-                    "title": "Usage",
-                    "depth": 3,
-                    "id": "usage"
-                  }
-                ]
-              }
-            ]
+            "slug": "typographyword-break"
           }
         ]
       },
@@ -863,201 +620,61 @@
             "title": "Flex Direction",
             "source": "docs/flexbox/flex-direction.md",
             "url": "flexbox/flex-direction.html",
-            "slug": "flexboxflex-direction",
-            "headings": [
-              {
-                "title": "Flex Direction",
-                "depth": 2,
-                "id": "flex-direction",
-                "headings": [
-                  {
-                    "title": "Usage",
-                    "depth": 3,
-                    "id": "usage"
-                  }
-                ]
-              }
-            ]
+            "slug": "flexboxflex-direction"
           },
           {
             "title": "Flex Wrap",
             "source": "docs/flexbox/flex-wrap.md",
             "url": "flexbox/flex-wrap.html",
-            "slug": "flexboxflex-wrap",
-            "headings": [
-              {
-                "title": "Flex Wrap",
-                "depth": 2,
-                "id": "flex-wrap",
-                "headings": [
-                  {
-                    "title": "Usage",
-                    "depth": 3,
-                    "id": "usage"
-                  }
-                ]
-              }
-            ]
+            "slug": "flexboxflex-wrap"
           },
           {
             "title": "Align Items",
             "source": "docs/flexbox/align-items.md",
             "url": "flexbox/align-items.html",
-            "slug": "flexboxalign-items",
-            "headings": [
-              {
-                "title": "Align Items",
-                "depth": 2,
-                "id": "align-items",
-                "headings": [
-                  {
-                    "title": "Usage",
-                    "depth": 3,
-                    "id": "usage"
-                  }
-                ]
-              }
-            ]
+            "slug": "flexboxalign-items"
           },
           {
             "title": "Align Content",
             "source": "docs/flexbox/align-content.md",
             "url": "flexbox/align-content.html",
-            "slug": "flexboxalign-content",
-            "headings": [
-              {
-                "title": "Align Content",
-                "depth": 2,
-                "id": "align-content",
-                "headings": [
-                  {
-                    "title": "Usage",
-                    "depth": 3,
-                    "id": "usage"
-                  }
-                ]
-              }
-            ]
+            "slug": "flexboxalign-content"
           },
           {
             "title": "Align Self",
             "source": "docs/flexbox/align-self.md",
             "url": "flexbox/align-self.html",
-            "slug": "flexboxalign-self",
-            "headings": [
-              {
-                "title": "Align Self",
-                "depth": 2,
-                "id": "align-self",
-                "headings": [
-                  {
-                    "title": "Usage",
-                    "depth": 3,
-                    "id": "usage"
-                  }
-                ]
-              }
-            ]
+            "slug": "flexboxalign-self"
           },
           {
             "title": "Justify Content",
             "source": "docs/flexbox/justify-content.md",
             "url": "flexbox/justify-content.html",
-            "slug": "flexboxjustify-content",
-            "headings": [
-              {
-                "title": "Justify Content",
-                "depth": 2,
-                "id": "justify-content",
-                "headings": [
-                  {
-                    "title": "Usage",
-                    "depth": 3,
-                    "id": "usage"
-                  }
-                ]
-              }
-            ]
+            "slug": "flexboxjustify-content"
           },
           {
             "title": "Flex",
             "source": "docs/flexbox/flex.md",
             "url": "flexbox/flex.html",
-            "slug": "flexboxflex",
-            "headings": [
-              {
-                "title": "Flex",
-                "depth": 2,
-                "id": "flex",
-                "headings": [
-                  {
-                    "title": "Usage",
-                    "depth": 3,
-                    "id": "usage"
-                  }
-                ]
-              }
-            ]
+            "slug": "flexboxflex"
           },
           {
             "title": "Flex Grow",
             "source": "docs/flexbox/flex-grow.md",
             "url": "flexbox/flex-grow.html",
-            "slug": "flexboxflex-grow",
-            "headings": [
-              {
-                "title": "Flex Grow",
-                "depth": 2,
-                "id": "flex-grow",
-                "headings": [
-                  {
-                    "title": "Usage",
-                    "depth": 3,
-                    "id": "usage"
-                  }
-                ]
-              }
-            ]
+            "slug": "flexboxflex-grow"
           },
           {
             "title": "Flex Shrink",
             "source": "docs/flexbox/flex-shrink.md",
             "url": "flexbox/flex-shrink.html",
-            "slug": "flexboxflex-shrink",
-            "headings": [
-              {
-                "title": "Flex Shrink",
-                "depth": 2,
-                "id": "flex-shrink",
-                "headings": [
-                  {
-                    "title": "Usage",
-                    "depth": 3,
-                    "id": "usage"
-                  }
-                ]
-              }
-            ]
+            "slug": "flexboxflex-shrink"
           },
           {
             "title": "Order",
             "source": "docs/flexbox/order.md",
             "url": "flexbox/order.html",
-            "slug": "flexboxorder",
-            "headings": [
-              {
-                "title": "Order",
-                "depth": 2,
-                "id": "order",
-                "headings": [
-                  {
-                    "title": "Usage",
-                    "depth": 3,
-                    "id": "usage"
-                  }
-                ]
-              }
-            ]
+            "slug": "flexboxorder"
           }
         ]
       },
@@ -1262,11 +879,6 @@
               "title": "Using Yogurt via Build Tool",
               "depth": 3,
               "id": "using-yogurt-via-build-tool"
-            },
-            {
-              "title": "Using Yogurt via Playground",
-              "depth": 3,
-              "id": "using-yogurt-via-playground"
             },
             {
               "title": "Using Yogurt via CDN",
@@ -1569,341 +1181,103 @@
       "source": "docs/typography/font-family.md",
       "title": "Font Family - Introduction",
       "pageTitle": "Font Family",
-      "slug": "typographyfont-family",
-      "headings": [
-        {
-          "title": "Font Family",
-          "depth": 2,
-          "id": "font-family",
-          "headings": [
-            {
-              "title": "Usage",
-              "depth": 3,
-              "id": "usage"
-            }
-          ]
-        }
-      ]
+      "slug": "typographyfont-family"
     },
     "typography/font-size.html": {
       "source": "docs/typography/font-size.md",
       "title": "Font Size - Introduction",
       "pageTitle": "Font Size",
-      "slug": "typographyfont-size",
-      "headings": [
-        {
-          "title": "Font Size",
-          "depth": 2,
-          "id": "font-size",
-          "headings": [
-            {
-              "title": "Usage",
-              "depth": 3,
-              "id": "usage"
-            }
-          ]
-        }
-      ]
+      "slug": "typographyfont-size"
     },
     "typography/font-smoothing.html": {
       "source": "docs/typography/font-smoothing.md",
       "title": "Font Smoothing - Introduction",
       "pageTitle": "Font Smoothing",
-      "slug": "typographyfont-smoothing",
-      "headings": [
-        {
-          "title": "Font Smoothing",
-          "depth": 2,
-          "id": "font-smoothing",
-          "headings": [
-            {
-              "title": "Usage",
-              "depth": 3,
-              "id": "usage"
-            }
-          ]
-        }
-      ]
+      "slug": "typographyfont-smoothing"
     },
     "typography/font-style.html": {
       "source": "docs/typography/font-style.md",
       "title": "Font Style - Introduction",
       "pageTitle": "Font Style",
-      "slug": "typographyfont-style",
-      "headings": [
-        {
-          "title": "Font Style",
-          "depth": 2,
-          "id": "font-style",
-          "headings": [
-            {
-              "title": "Usage",
-              "depth": 3,
-              "id": "usage"
-            }
-          ]
-        }
-      ]
+      "slug": "typographyfont-style"
     },
     "typography/font-weight.html": {
       "source": "docs/typography/font-weight.md",
       "title": "Font Weight - Introduction",
       "pageTitle": "Font Weight",
-      "slug": "typographyfont-weight",
-      "headings": [
-        {
-          "title": "Font Style",
-          "depth": 2,
-          "id": "font-style",
-          "headings": [
-            {
-              "title": "Usage",
-              "depth": 3,
-              "id": "usage"
-            }
-          ]
-        }
-      ]
+      "slug": "typographyfont-weight"
     },
     "typography/letter-spacing.html": {
       "source": "docs/typography/letter-spacing.md",
       "title": "Letter Spacing - Introduction",
       "pageTitle": "Letter Spacing",
-      "slug": "typographyletter-spacing",
-      "headings": [
-        {
-          "title": "Letter Spacing",
-          "depth": 2,
-          "id": "letter-spacing",
-          "headings": [
-            {
-              "title": "Usage",
-              "depth": 3,
-              "id": "usage"
-            }
-          ]
-        }
-      ]
+      "slug": "typographyletter-spacing"
     },
     "typography/line-height.html": {
       "source": "docs/typography/line-height.md",
       "title": "Line Height - Introduction",
       "pageTitle": "Line Height",
-      "slug": "typographyline-height",
-      "headings": [
-        {
-          "title": "Line Height",
-          "depth": 2,
-          "id": "line-height",
-          "headings": [
-            {
-              "title": "Usage",
-              "depth": 3,
-              "id": "usage"
-            }
-          ]
-        }
-      ]
+      "slug": "typographyline-height"
     },
     "typography/list-style-type.html": {
       "source": "docs/typography/list-style-type.md",
       "title": "List Style Type - Introduction",
       "pageTitle": "List Style Type",
-      "slug": "typographylist-style-type",
-      "headings": [
-        {
-          "title": "List Stype Type",
-          "depth": 2,
-          "id": "list-stype-type",
-          "headings": [
-            {
-              "title": "Usage",
-              "depth": 3,
-              "id": "usage"
-            }
-          ]
-        }
-      ]
+      "slug": "typographylist-style-type"
     },
     "typography/list-style-position.html": {
       "source": "docs/typography/list-style-position.md",
       "title": "List Style Position - Introduction",
       "pageTitle": "List Style Position",
-      "slug": "typographylist-style-position",
-      "headings": [
-        {
-          "title": "List Stype Position",
-          "depth": 2,
-          "id": "list-stype-position",
-          "headings": [
-            {
-              "title": "Usage",
-              "depth": 3,
-              "id": "usage"
-            }
-          ]
-        }
-      ]
+      "slug": "typographylist-style-position"
     },
     "typography/placeholder-color.html": {
       "source": "docs/typography/placeholder-color.md",
       "title": "Placeholder Color - Introduction",
       "pageTitle": "Placeholder Color",
-      "slug": "typographyplaceholder-color",
-      "headings": [
-        {
-          "title": "Placeholder Color",
-          "depth": 2,
-          "id": "placeholder-color",
-          "headings": [
-            {
-              "title": "Usage",
-              "depth": 3,
-              "id": "usage"
-            }
-          ]
-        }
-      ]
+      "slug": "typographyplaceholder-color"
     },
     "typography/text-align.html": {
       "source": "docs/typography/text-align.md",
       "title": "Text Align - Introduction",
       "pageTitle": "Text Align",
-      "slug": "typographytext-align",
-      "headings": [
-        {
-          "title": "Text Align",
-          "depth": 2,
-          "id": "text-align",
-          "headings": [
-            {
-              "title": "Usage",
-              "depth": 3,
-              "id": "usage"
-            }
-          ]
-        }
-      ]
+      "slug": "typographytext-align"
     },
     "typography/text-color.html": {
       "source": "docs/typography/text-color.md",
       "title": "Text Color - Introduction",
       "pageTitle": "Text Color",
-      "slug": "typographytext-color",
-      "headings": [
-        {
-          "title": "Text Color",
-          "depth": 2,
-          "id": "text-color",
-          "headings": [
-            {
-              "title": "Usage",
-              "depth": 3,
-              "id": "usage"
-            }
-          ]
-        }
-      ]
+      "slug": "typographytext-color"
     },
     "typography/text-decoration.html": {
       "source": "docs/typography/text-decoration.md",
       "title": "Text Decoration - Introduction",
       "pageTitle": "Text Decoration",
-      "slug": "typographytext-decoration",
-      "headings": [
-        {
-          "title": "Text Decoration",
-          "depth": 2,
-          "id": "text-decoration",
-          "headings": [
-            {
-              "title": "Usage",
-              "depth": 3,
-              "id": "usage"
-            }
-          ]
-        }
-      ]
+      "slug": "typographytext-decoration"
     },
     "typography/text-transform.html": {
       "source": "docs/typography/text-transform.md",
       "title": "Text Transform - Introduction",
       "pageTitle": "Text Transform",
-      "slug": "typographytext-transform",
-      "headings": [
-        {
-          "title": "Text Transform",
-          "depth": 2,
-          "id": "text-transform",
-          "headings": [
-            {
-              "title": "Usage",
-              "depth": 3,
-              "id": "usage"
-            }
-          ]
-        }
-      ]
+      "slug": "typographytext-transform"
     },
     "typography/vertical-align.html": {
       "source": "docs/typography/vertical-align.md",
       "title": "Vertical Align - Introduction",
       "pageTitle": "Vertical Align",
-      "slug": "typographyvertical-align",
-      "headings": [
-        {
-          "title": "Vertical Align",
-          "depth": 2,
-          "id": "vertical-align",
-          "headings": [
-            {
-              "title": "Usage",
-              "depth": 3,
-              "id": "usage"
-            }
-          ]
-        }
-      ]
+      "slug": "typographyvertical-align"
     },
     "typography/whitespace.html": {
       "source": "docs/typography/whitespace.md",
       "title": "Whitespace - Introduction",
       "pageTitle": "Whitespace",
-      "slug": "typographywhitespace",
-      "headings": [
-        {
-          "title": "Whitespace",
-          "depth": 2,
-          "id": "whitespace",
-          "headings": [
-            {
-              "title": "Usage",
-              "depth": 3,
-              "id": "usage"
-            }
-          ]
-        }
-      ]
+      "slug": "typographywhitespace"
     },
     "typography/word-break.html": {
       "source": "docs/typography/word-break.md",
       "title": "Word Break - Introduction",
       "pageTitle": "Word Break",
-      "slug": "typographyword-break",
-      "headings": [
-        {
-          "title": "Word Break",
-          "depth": 2,
-          "id": "word-break",
-          "headings": [
-            {
-              "title": "Usage",
-              "depth": 3,
-              "id": "usage"
-            }
-          ]
-        }
-      ]
+      "slug": "typographyword-break"
     },
     "spacing/margin.html": {
       "source": "docs/spacing/margin.md",
@@ -2023,201 +1397,61 @@
       "source": "docs/flexbox/flex-direction.md",
       "title": "Flex Direction - Introduction",
       "pageTitle": "Flex Direction",
-      "slug": "flexboxflex-direction",
-      "headings": [
-        {
-          "title": "Flex Direction",
-          "depth": 2,
-          "id": "flex-direction",
-          "headings": [
-            {
-              "title": "Usage",
-              "depth": 3,
-              "id": "usage"
-            }
-          ]
-        }
-      ]
+      "slug": "flexboxflex-direction"
     },
     "flexbox/flex-wrap.html": {
       "source": "docs/flexbox/flex-wrap.md",
       "title": "Flex Wrap - Introduction",
       "pageTitle": "Flex Wrap",
-      "slug": "flexboxflex-wrap",
-      "headings": [
-        {
-          "title": "Flex Wrap",
-          "depth": 2,
-          "id": "flex-wrap",
-          "headings": [
-            {
-              "title": "Usage",
-              "depth": 3,
-              "id": "usage"
-            }
-          ]
-        }
-      ]
+      "slug": "flexboxflex-wrap"
     },
     "flexbox/align-items.html": {
       "source": "docs/flexbox/align-items.md",
       "title": "Align Items - Introduction",
       "pageTitle": "Align Items",
-      "slug": "flexboxalign-items",
-      "headings": [
-        {
-          "title": "Align Items",
-          "depth": 2,
-          "id": "align-items",
-          "headings": [
-            {
-              "title": "Usage",
-              "depth": 3,
-              "id": "usage"
-            }
-          ]
-        }
-      ]
+      "slug": "flexboxalign-items"
     },
     "flexbox/align-content.html": {
       "source": "docs/flexbox/align-content.md",
       "title": "Align Content - Introduction",
       "pageTitle": "Align Content",
-      "slug": "flexboxalign-content",
-      "headings": [
-        {
-          "title": "Align Content",
-          "depth": 2,
-          "id": "align-content",
-          "headings": [
-            {
-              "title": "Usage",
-              "depth": 3,
-              "id": "usage"
-            }
-          ]
-        }
-      ]
+      "slug": "flexboxalign-content"
     },
     "flexbox/align-self.html": {
       "source": "docs/flexbox/align-self.md",
       "title": "Align Self - Introduction",
       "pageTitle": "Align Self",
-      "slug": "flexboxalign-self",
-      "headings": [
-        {
-          "title": "Align Self",
-          "depth": 2,
-          "id": "align-self",
-          "headings": [
-            {
-              "title": "Usage",
-              "depth": 3,
-              "id": "usage"
-            }
-          ]
-        }
-      ]
+      "slug": "flexboxalign-self"
     },
     "flexbox/justify-content.html": {
       "source": "docs/flexbox/justify-content.md",
       "title": "Justify Content - Introduction",
       "pageTitle": "Justify Content",
-      "slug": "flexboxjustify-content",
-      "headings": [
-        {
-          "title": "Justify Content",
-          "depth": 2,
-          "id": "justify-content",
-          "headings": [
-            {
-              "title": "Usage",
-              "depth": 3,
-              "id": "usage"
-            }
-          ]
-        }
-      ]
+      "slug": "flexboxjustify-content"
     },
     "flexbox/flex.html": {
       "source": "docs/flexbox/flex.md",
       "title": "Flex - Introduction",
       "pageTitle": "Flex",
-      "slug": "flexboxflex",
-      "headings": [
-        {
-          "title": "Flex",
-          "depth": 2,
-          "id": "flex",
-          "headings": [
-            {
-              "title": "Usage",
-              "depth": 3,
-              "id": "usage"
-            }
-          ]
-        }
-      ]
+      "slug": "flexboxflex"
     },
     "flexbox/flex-grow.html": {
       "source": "docs/flexbox/flex-grow.md",
       "title": "Flex Grow - Introduction",
       "pageTitle": "Flex Grow",
-      "slug": "flexboxflex-grow",
-      "headings": [
-        {
-          "title": "Flex Grow",
-          "depth": 2,
-          "id": "flex-grow",
-          "headings": [
-            {
-              "title": "Usage",
-              "depth": 3,
-              "id": "usage"
-            }
-          ]
-        }
-      ]
+      "slug": "flexboxflex-grow"
     },
     "flexbox/flex-shrink.html": {
       "source": "docs/flexbox/flex-shrink.md",
       "title": "Flex Shrink - Introduction",
       "pageTitle": "Flex Shrink",
-      "slug": "flexboxflex-shrink",
-      "headings": [
-        {
-          "title": "Flex Shrink",
-          "depth": 2,
-          "id": "flex-shrink",
-          "headings": [
-            {
-              "title": "Usage",
-              "depth": 3,
-              "id": "usage"
-            }
-          ]
-        }
-      ]
+      "slug": "flexboxflex-shrink"
     },
     "flexbox/order.html": {
       "source": "docs/flexbox/order.md",
       "title": "Order - Introduction",
       "pageTitle": "Order",
-      "slug": "flexboxorder",
-      "headings": [
-        {
-          "title": "Order",
-          "depth": 2,
-          "id": "order",
-          "headings": [
-            {
-              "title": "Usage",
-              "depth": 3,
-              "id": "usage"
-            }
-          ]
-        }
-      ]
+      "slug": "flexboxorder"
     },
     "interactivity/appearance.html": {
       "source": "docs/interactivity/appearance.md",
