@@ -5,6 +5,7 @@
 - **Getting Started**
 
   - [Installation](getting-started/installation.md)
+  - [Playground](getting-started/playground.md)
 
 - **Core Concepts**
 

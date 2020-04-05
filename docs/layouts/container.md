@@ -2,19 +2,11 @@
 
 A component for fixing an element's width to the current breakpoint.
 
-### Class
+### Usage
 
-```
-container 
-```
-
-> without `prefix` and `modifier`.
-
-### Options
-
-| class | breakpoint | properties |
+| class | breakpoint | css properties |
 |---|---|---|
-| .container | none | width: 100% |
+| container | none | width: 100% |
 |   | xs (320px) | max-width: 320px |
 |   | sm (640px) | max-width: 640px |
 |   | md (768px) | max-width: 768px |
@@ -23,17 +15,4 @@ container
 |   | 2k (1920px) | max-width: 1920px |
 |   | 4k (3840px) | max-width: 3840px |
 
-### Usage
-
-```html
-<y class="container">
-  ...
-</y>
-```
-
-```html
-<y class="sm:container">
-  ...
-</y>
-```
 

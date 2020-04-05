@@ -20,6 +20,8 @@
                 <ul class="submenu">
                   <li class="menu-item -level-2"><a class="link title  link-getting-startedinstallation" href="../getting-started/installation.html">Installation</a>
                   </li>
+                  <li class="menu-item -level-2"><a class="link title  link-getting-startedplayground" href="../getting-started/playground.html">Playground</a>
+                  </li>
                 </ul>
               </li>
               <li class="menu-item -level-1 -parent"><span class="title">Core Concepts</span>
@@ -55,6 +57,14 @@
                   <li class="menu-item -level-2"><a class="link title  link-layoutsdisplay" href="../layouts/display.html">Display</a>
                   </li>
                   <li class="menu-item -level-2"><a class="link title -active link-layoutsfloat" href="../layouts/float.html">Float</a>
+                    <ul class="headings heading-list">
+                      <li class="heading-item -depth-2"><a class="hlink link-float" href="#float">Float</a>
+                        <ul class="heading-list -depth-2">
+                          <li class="heading-item -depth-3"><a class="hlink link-usage" href="#usage">Usage</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
                   </li>
                   <li class="menu-item -level-2"><a class="link title  link-layoutsclear" href="../layouts/clear.html">Clear</a>
                   </li>
@@ -268,7 +278,41 @@
               <!-- span.title Open in GitHub--><span class="icon -github"></span></a>
           </div>
         </div>
-        <div class="markdown-body">
+        <div class="markdown-body"><h2 id="float">Float</h2>
+<p>Utilities for controlling the wrapping of content around an element.</p>
+<h3 id="usage">Usage</h3>
+<table>
+<thead>
+<tr>
+<th>class</th>
+<th></th>
+<th>css properties</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>float-right</td>
+<td></td>
+<td>float: right</td>
+</tr>
+<tr>
+<td>float-left</td>
+<td></td>
+<td>float: left</td>
+</tr>
+<tr>
+<td>float-none</td>
+<td></td>
+<td>float: none</td>
+</tr>
+<tr>
+<td>clearfix</td>
+<td></td>
+<td>&amp;::after { content: &#x201C;&#x201D;; display: table; clear: both; }</td>
+</tr>
+</tbody>
+</table>
+
         </div>
         <div class="footer-nav">
           <div class="left"><a href="../layouts/display.html"><span class="title">Display</span></a></div>
