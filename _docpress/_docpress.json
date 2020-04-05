@@ -5,7 +5,653 @@
         "title": "Introduction",
         "source": "docs/introduction.md",
         "url": "index.html",
-        "slug": "index"
+        "slug": "index",
+        "headings": [
+          {
+            "title": "Introduction",
+            "depth": 3,
+            "id": "introduction"
+          },
+          {
+            "title": "Concept",
+            "depth": 3,
+            "id": "concept"
+          },
+          {
+            "title": "Tag",
+            "depth": 3,
+            "id": "tag"
+          },
+          {
+            "title": "Best Practice",
+            "depth": 3,
+            "id": "best-practice"
+          }
+        ]
+      },
+      {
+        "title": "Getting Started",
+        "sections": [
+          {
+            "title": "Installation",
+            "source": "docs/getting-started/installation.md",
+            "url": "getting-started/installation.html",
+            "slug": "getting-startedinstallation",
+            "headings": [
+              {
+                "title": "Installation",
+                "depth": 3,
+                "id": "installation"
+              },
+              {
+                "title": "Using Yogurt via Build Tool",
+                "depth": 3,
+                "id": "using-yogurt-via-build-tool"
+              },
+              {
+                "title": "Using Yogurt via CDN",
+                "depth": 3,
+                "id": "using-yogurt-via-cdn"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Core Concepts",
+        "sections": [
+          {
+            "title": "Utility Design",
+            "source": "docs/core-concepts/utility-design.md",
+            "url": "core-concepts/utility-design.html",
+            "slug": "core-conceptsutility-design"
+          },
+          {
+            "title": "Responsive Design",
+            "source": "docs/core-concepts/responsive-design.md",
+            "url": "core-concepts/responsive-design.html",
+            "slug": "core-conceptsresponsive-design"
+          },
+          {
+            "title": "Pseudo-Class Variants",
+            "source": "docs/core-concepts/pseudo-class-variants.md",
+            "url": "core-concepts/pseudo-class-variants.html",
+            "slug": "core-conceptspseudo-class-variants"
+          }
+        ]
+      },
+      {
+        "title": "Customization",
+        "sections": [
+          {
+            "title": "Configuration",
+            "source": "docs/customization/configuration.md",
+            "url": "customization/configuration.html",
+            "slug": "customizationconfiguration"
+          },
+          {
+            "title": "Breakpoints",
+            "source": "docs/customization/breakpoints.md",
+            "url": "customization/breakpoints.html",
+            "slug": "customizationbreakpoints"
+          },
+          {
+            "title": "Colors",
+            "source": "docs/customization/colors.md",
+            "url": "customization/colors.html",
+            "slug": "customizationcolors"
+          },
+          {
+            "title": "Spacing",
+            "source": "docs/customization/spacing.md",
+            "url": "customization/spacing.html",
+            "slug": "customizationspacing"
+          },
+          {
+            "title": "Variants",
+            "source": "docs/customization/variants.md",
+            "url": "customization/variants.html",
+            "slug": "customizationvariants"
+          }
+        ]
+      },
+      {
+        "title": "Layout",
+        "sections": [
+          {
+            "title": "Container",
+            "source": "docs/layouts/container.md",
+            "url": "layouts/container.html",
+            "slug": "layoutscontainer"
+          },
+          {
+            "title": "Box Sizing",
+            "source": "docs/layouts/box-sizing.md",
+            "url": "layouts/box-sizing.html",
+            "slug": "layoutsbox-sizing"
+          },
+          {
+            "title": "Display",
+            "source": "docs/layouts/display.md",
+            "url": "layouts/display.html",
+            "slug": "layoutsdisplay"
+          },
+          {
+            "title": "Float",
+            "source": "docs/layouts/float.md",
+            "url": "layouts/float.html",
+            "slug": "layoutsfloat"
+          },
+          {
+            "title": "Clear",
+            "source": "docs/layouts/clear.md",
+            "url": "layouts/clear.html",
+            "slug": "layoutsclear"
+          },
+          {
+            "title": "Object Fit",
+            "source": "docs/layouts/object-fit.md",
+            "url": "layouts/object-fit.html",
+            "slug": "layoutsobject-fit"
+          },
+          {
+            "title": "Object Position",
+            "source": "docs/layouts/object-position.md",
+            "url": "layouts/object-position.html",
+            "slug": "layoutsobject-position"
+          },
+          {
+            "title": "Overflow",
+            "source": "docs/layouts/overflow.md",
+            "url": "layouts/overflow.html",
+            "slug": "layoutsoverflow"
+          },
+          {
+            "title": "Position",
+            "source": "docs/layouts/position.md",
+            "url": "layouts/position.html",
+            "slug": "layoutsposition"
+          },
+          {
+            "title": "Top/Bottom/Left/Right",
+            "source": "docs/layouts/tblr.md",
+            "url": "layouts/tblr.html",
+            "slug": "layoutstblr"
+          },
+          {
+            "title": "Visibility",
+            "source": "docs/layouts/visibility.md",
+            "url": "layouts/visibility.html",
+            "slug": "layoutsvisibility"
+          },
+          {
+            "title": "Z-Index",
+            "source": "docs/layouts/z-index.md",
+            "url": "layouts/z-index.html",
+            "slug": "layoutsz-index"
+          }
+        ]
+      },
+      {
+        "title": "Typography",
+        "sections": [
+          {
+            "title": "Font Family",
+            "source": "docs/typography/font-family.md",
+            "url": "typography/font-family.html",
+            "slug": "typographyfont-family"
+          },
+          {
+            "title": "Font Size",
+            "source": "docs/typography/font-size.md",
+            "url": "typography/font-size.html",
+            "slug": "typographyfont-size"
+          },
+          {
+            "title": "Font Smoothing",
+            "source": "docs/typography/font-smoothing.md",
+            "url": "typography/font-smoothing.html",
+            "slug": "typographyfont-smoothing"
+          },
+          {
+            "title": "Font Style",
+            "source": "docs/typography/font-style.md",
+            "url": "typography/font-style.html",
+            "slug": "typographyfont-style"
+          },
+          {
+            "title": "Font Weight",
+            "source": "docs/typography/font-weight.md",
+            "url": "typography/font-weight.html",
+            "slug": "typographyfont-weight"
+          },
+          {
+            "title": "Letter Spacing",
+            "source": "docs/typography/letter-spacing.md",
+            "url": "typography/letter-spacing.html",
+            "slug": "typographyletter-spacing"
+          },
+          {
+            "title": "Line Height",
+            "source": "docs/typography/line-height.md",
+            "url": "typography/line-height.html",
+            "slug": "typographyline-height"
+          },
+          {
+            "title": "List Style Type",
+            "source": "docs/typography/list-style-type.md",
+            "url": "typography/list-style-type.html",
+            "slug": "typographylist-style-type"
+          },
+          {
+            "title": "List Style Position",
+            "source": "docs/typography/list-style-position.md",
+            "url": "typography/list-style-position.html",
+            "slug": "typographylist-style-position"
+          },
+          {
+            "title": "Placeholder Color",
+            "source": "docs/typography/placeholder-color.md",
+            "url": "typography/placeholder-color.html",
+            "slug": "typographyplaceholder-color"
+          },
+          {
+            "title": "Text Align",
+            "source": "docs/typography/text-align.md",
+            "url": "typography/text-align.html",
+            "slug": "typographytext-align"
+          },
+          {
+            "title": "Text Color",
+            "source": "docs/typography/text-color.md",
+            "url": "typography/text-color.html",
+            "slug": "typographytext-color"
+          },
+          {
+            "title": "Text Decoration",
+            "source": "docs/typography/text-decoration.md",
+            "url": "typography/text-decoration.html",
+            "slug": "typographytext-decoration"
+          },
+          {
+            "title": "Text Transform",
+            "source": "docs/typography/text-transform.md",
+            "url": "typography/text-transform.html",
+            "slug": "typographytext-transform"
+          },
+          {
+            "title": "Vertical Align",
+            "source": "docs/typography/vertical-align.md",
+            "url": "typography/vertical-align.html",
+            "slug": "typographyvertical-align"
+          },
+          {
+            "title": "Whitespace",
+            "source": "docs/typography/whitespace.md",
+            "url": "typography/whitespace.html",
+            "slug": "typographywhitespace"
+          },
+          {
+            "title": "Word Break",
+            "source": "docs/typography/word-break.md",
+            "url": "typography/word-break.html",
+            "slug": "typographyword-break"
+          }
+        ]
+      },
+      {
+        "title": "Spacing",
+        "sections": [
+          {
+            "title": "Margin",
+            "source": "docs/spacing/margin.md",
+            "url": "spacing/margin.html",
+            "slug": "spacingmargin"
+          },
+          {
+            "title": "Padding",
+            "source": "docs/spacing/padding.md",
+            "url": "spacing/padding.html",
+            "slug": "spacingpadding"
+          }
+        ]
+      },
+      {
+        "title": "Backgrounds",
+        "sections": [
+          {
+            "title": "Background Attachment",
+            "source": "docs/backgrounds/background-attachment.md",
+            "url": "backgrounds/background-attachment.html",
+            "slug": "backgroundsbackground-attachment"
+          },
+          {
+            "title": "Background Color",
+            "source": "docs/backgrounds/background-color.md",
+            "url": "backgrounds/background-color.html",
+            "slug": "backgroundsbackground-color"
+          },
+          {
+            "title": "Background Position",
+            "source": "docs/backgrounds/background-position.md",
+            "url": "backgrounds/background-position.html",
+            "slug": "backgroundsbackground-position"
+          },
+          {
+            "title": "Background Repeat",
+            "source": "docs/backgrounds/background-repeat.md",
+            "url": "backgrounds/background-repeat.html",
+            "slug": "backgroundsbackground-repeat"
+          },
+          {
+            "title": "Background Size",
+            "source": "docs/backgrounds/background-size.md",
+            "url": "backgrounds/background-size.html",
+            "slug": "backgroundsbackground-size"
+          }
+        ]
+      },
+      {
+        "title": "Borders",
+        "sections": [
+          {
+            "title": "Border Color",
+            "source": "docs/borders/border-color.md",
+            "url": "borders/border-color.html",
+            "slug": "bordersborder-color"
+          },
+          {
+            "title": "Border Style",
+            "source": "docs/borders/border-style.md",
+            "url": "borders/border-style.html",
+            "slug": "bordersborder-style"
+          },
+          {
+            "title": "Border Width",
+            "source": "docs/borders/border-width.md",
+            "url": "borders/border-width.html",
+            "slug": "bordersborder-width"
+          },
+          {
+            "title": "Border Radius",
+            "source": "docs/borders/border-radius.md",
+            "url": "borders/border-radius.html",
+            "slug": "bordersborder-radius"
+          }
+        ]
+      },
+      {
+        "title": "Effects",
+        "sections": [
+          {
+            "title": "Box Shadow",
+            "source": "docs/effects/box-shadow.md",
+            "url": "effects/box-shadow.html",
+            "slug": "effectsbox-shadow"
+          },
+          {
+            "title": "Opacity",
+            "source": "docs/effects/opacity.md",
+            "url": "effects/opacity.html",
+            "slug": "effectsopacity"
+          }
+        ]
+      },
+      {
+        "title": "Sizing",
+        "sections": [
+          {
+            "title": "Width",
+            "source": "docs/sizing/width.md",
+            "url": "sizing/width.html",
+            "slug": "sizingwidth"
+          },
+          {
+            "title": "Min Width",
+            "source": "docs/sizing/min-width.md",
+            "url": "sizing/min-width.html",
+            "slug": "sizingmin-width"
+          },
+          {
+            "title": "Max Width",
+            "source": "docs/sizing/max-width.md",
+            "url": "sizing/max-width.html",
+            "slug": "sizingmax-width"
+          },
+          {
+            "title": "Height",
+            "source": "docs/sizing/height.md",
+            "url": "sizing/height.html",
+            "slug": "sizingheight"
+          },
+          {
+            "title": "Min Height",
+            "source": "docs/sizing/min-height.md",
+            "url": "sizing/min-height.html",
+            "slug": "sizingmin-height"
+          },
+          {
+            "title": "Max Height",
+            "source": "docs/sizing/max-height.md",
+            "url": "sizing/max-height.html",
+            "slug": "sizingmax-height"
+          }
+        ]
+      },
+      {
+        "title": "Flexbox",
+        "sections": [
+          {
+            "title": "Flex Direction",
+            "source": "docs/flexbox/flex-direction.md",
+            "url": "flexbox/flex-direction.html",
+            "slug": "flexboxflex-direction"
+          },
+          {
+            "title": "Flex Wrap",
+            "source": "docs/flexbox/flex-wrap.md",
+            "url": "flexbox/flex-wrap.html",
+            "slug": "flexboxflex-wrap"
+          },
+          {
+            "title": "Align Items",
+            "source": "docs/flexbox/align-items.md",
+            "url": "flexbox/align-items.html",
+            "slug": "flexboxalign-items"
+          },
+          {
+            "title": "Align Content",
+            "source": "docs/flexbox/align-content.md",
+            "url": "flexbox/align-content.html",
+            "slug": "flexboxalign-content"
+          },
+          {
+            "title": "Align Self",
+            "source": "docs/flexbox/align-self.md",
+            "url": "flexbox/align-self.html",
+            "slug": "flexboxalign-self"
+          },
+          {
+            "title": "Justify Content",
+            "source": "docs/flexbox/justify-content.md",
+            "url": "flexbox/justify-content.html",
+            "slug": "flexboxjustify-content"
+          },
+          {
+            "title": "Flex",
+            "source": "docs/flexbox/flex.md",
+            "url": "flexbox/flex.html",
+            "slug": "flexboxflex"
+          },
+          {
+            "title": "Flex Grow",
+            "source": "docs/flexbox/flex-grow.md",
+            "url": "flexbox/flex-grow.html",
+            "slug": "flexboxflex-grow"
+          },
+          {
+            "title": "Flex Shrink",
+            "source": "docs/flexbox/flex-shrink.md",
+            "url": "flexbox/flex-shrink.html",
+            "slug": "flexboxflex-shrink"
+          },
+          {
+            "title": "Order",
+            "source": "docs/flexbox/order.md",
+            "url": "flexbox/order.html",
+            "slug": "flexboxorder"
+          }
+        ]
+      },
+      {
+        "title": "Interactivity",
+        "sections": [
+          {
+            "title": "Appearance",
+            "source": "docs/interactivity/appearance.md",
+            "url": "interactivity/appearance.html",
+            "slug": "interactivityappearance"
+          },
+          {
+            "title": "Cursor",
+            "source": "docs/interactivity/cursor.md",
+            "url": "interactivity/cursor.html",
+            "slug": "interactivitycursor"
+          },
+          {
+            "title": "Outine",
+            "source": "docs/interactivity/outline.md",
+            "url": "interactivity/outline.html",
+            "slug": "interactivityoutline"
+          },
+          {
+            "title": "Pointer Events",
+            "source": "docs/interactivity/pointer-events.md",
+            "url": "interactivity/pointer-events.html",
+            "slug": "interactivitypointer-events"
+          },
+          {
+            "title": "Resize",
+            "source": "docs/interactivity/resize.md",
+            "url": "interactivity/resize.html",
+            "slug": "interactivityresize"
+          },
+          {
+            "title": "User Select",
+            "source": "docs/interactivity/user-select.md",
+            "url": "interactivity/user-select.html",
+            "slug": "interactivityuser-select"
+          }
+        ]
+      },
+      {
+        "title": "Filters",
+        "sections": [
+          {
+            "title": "Filter Compose",
+            "source": "docs/filters/filter-compose.md",
+            "url": "filters/filter-compose.html",
+            "slug": "filtersfilter-compose"
+          }
+        ]
+      },
+      {
+        "title": "Transforms",
+        "sections": [
+          {
+            "title": "Rotate",
+            "source": "docs/transforms/rotate.md",
+            "url": "transforms/rotate.html",
+            "slug": "transformsrotate"
+          },
+          {
+            "title": "Scale",
+            "source": "docs/transforms/scale.md",
+            "url": "transforms/scale.html",
+            "slug": "transformsscale"
+          },
+          {
+            "title": "Skew",
+            "source": "docs/transforms/skew.md",
+            "url": "transforms/skew.html",
+            "slug": "transformsskew"
+          },
+          {
+            "title": "Transform Origin",
+            "source": "docs/transforms/transform-origin.md",
+            "url": "transforms/transform-origin.html",
+            "slug": "transformstransform-origin"
+          },
+          {
+            "title": "Translate",
+            "source": "docs/transforms/translate.md",
+            "url": "transforms/translate.html",
+            "slug": "transformstranslate"
+          }
+        ]
+      },
+      {
+        "title": "Transitions",
+        "sections": [
+          {
+            "title": "Transition Property",
+            "source": "docs/transitions/transition-property.md",
+            "url": "transitions/transition-property.html",
+            "slug": "transitionstransition-property"
+          },
+          {
+            "title": "Transition Duration",
+            "source": "docs/transitions/transition-duration.md",
+            "url": "transitions/transition-duration.html",
+            "slug": "transitionstransition-duration"
+          },
+          {
+            "title": "Transition Timing",
+            "source": "docs/transitions/transition-timing.md",
+            "url": "transitions/transition-timing.html",
+            "slug": "transitionstransition-timing"
+          }
+        ]
+      },
+      {
+        "title": "Tables",
+        "sections": [
+          {
+            "title": "Border Collapse",
+            "source": "docs/tables/border-collapse.md",
+            "url": "tables/border-collapse.html",
+            "slug": "tablesborder-collapse"
+          },
+          {
+            "title": "Table Layout",
+            "source": "docs/tables/table-layout.md",
+            "url": "tables/table-layout.html",
+            "slug": "tablestable-layout"
+          }
+        ]
+      },
+      {
+        "title": "SVG",
+        "sections": [
+          {
+            "title": "Fill",
+            "source": "docs/svg/fill.md",
+            "url": "svg/fill.html",
+            "slug": "svgfill"
+          },
+          {
+            "title": "Stroke",
+            "source": "docs/svg/stroke.md",
+            "url": "svg/stroke.html",
+            "slug": "svgstroke"
+          },
+          {
+            "title": "Stroke Width",
+            "source": "docs/svg/stroke-width.md",
+            "url": "svg/stroke-width.html",
+            "slug": "svgstroke-width"
+          }
+        ]
       }
     ]
   },
@@ -14,11 +660,661 @@
       "source": "docs/introduction.md",
       "title": "Introduction",
       "pageTitle": "Introduction",
-      "slug": "index"
+      "slug": "index",
+      "headings": [
+        {
+          "title": "Introduction",
+          "depth": 3,
+          "id": "introduction"
+        },
+        {
+          "title": "Concept",
+          "depth": 3,
+          "id": "concept"
+        },
+        {
+          "title": "Tag",
+          "depth": 3,
+          "id": "tag"
+        },
+        {
+          "title": "Best Practice",
+          "depth": 3,
+          "id": "best-practice"
+        }
+      ]
+    },
+    "getting-started/installation.html": {
+      "source": "docs/getting-started/installation.md",
+      "title": "Installation - Introduction",
+      "pageTitle": "Installation",
+      "slug": "getting-startedinstallation",
+      "headings": [
+        {
+          "title": "Installation",
+          "depth": 3,
+          "id": "installation"
+        },
+        {
+          "title": "Using Yogurt via Build Tool",
+          "depth": 3,
+          "id": "using-yogurt-via-build-tool"
+        },
+        {
+          "title": "Using Yogurt via CDN",
+          "depth": 3,
+          "id": "using-yogurt-via-cdn"
+        }
+      ]
+    },
+    "core-concepts/utility-design.html": {
+      "source": "docs/core-concepts/utility-design.md",
+      "title": "Utility Design - Introduction",
+      "pageTitle": "Utility Design",
+      "slug": "core-conceptsutility-design"
+    },
+    "core-concepts/responsive-design.html": {
+      "source": "docs/core-concepts/responsive-design.md",
+      "title": "Responsive Design - Introduction",
+      "pageTitle": "Responsive Design",
+      "slug": "core-conceptsresponsive-design"
+    },
+    "core-concepts/pseudo-class-variants.html": {
+      "source": "docs/core-concepts/pseudo-class-variants.md",
+      "title": "Pseudo-Class Variants - Introduction",
+      "pageTitle": "Pseudo-Class Variants",
+      "slug": "core-conceptspseudo-class-variants"
+    },
+    "customization/configuration.html": {
+      "source": "docs/customization/configuration.md",
+      "title": "Configuration - Introduction",
+      "pageTitle": "Configuration",
+      "slug": "customizationconfiguration"
+    },
+    "customization/breakpoints.html": {
+      "source": "docs/customization/breakpoints.md",
+      "title": "Breakpoints - Introduction",
+      "pageTitle": "Breakpoints",
+      "slug": "customizationbreakpoints"
+    },
+    "customization/colors.html": {
+      "source": "docs/customization/colors.md",
+      "title": "Colors - Introduction",
+      "pageTitle": "Colors",
+      "slug": "customizationcolors"
+    },
+    "customization/spacing.html": {
+      "source": "docs/customization/spacing.md",
+      "title": "Spacing - Introduction",
+      "pageTitle": "Spacing",
+      "slug": "customizationspacing"
+    },
+    "customization/variants.html": {
+      "source": "docs/customization/variants.md",
+      "title": "Variants - Introduction",
+      "pageTitle": "Variants",
+      "slug": "customizationvariants"
+    },
+    "layouts/container.html": {
+      "source": "docs/layouts/container.md",
+      "title": "Container - Introduction",
+      "pageTitle": "Container",
+      "slug": "layoutscontainer"
+    },
+    "layouts/box-sizing.html": {
+      "source": "docs/layouts/box-sizing.md",
+      "title": "Box Sizing - Introduction",
+      "pageTitle": "Box Sizing",
+      "slug": "layoutsbox-sizing"
+    },
+    "layouts/display.html": {
+      "source": "docs/layouts/display.md",
+      "title": "Display - Introduction",
+      "pageTitle": "Display",
+      "slug": "layoutsdisplay"
+    },
+    "layouts/float.html": {
+      "source": "docs/layouts/float.md",
+      "title": "Float - Introduction",
+      "pageTitle": "Float",
+      "slug": "layoutsfloat"
+    },
+    "layouts/clear.html": {
+      "source": "docs/layouts/clear.md",
+      "title": "Clear - Introduction",
+      "pageTitle": "Clear",
+      "slug": "layoutsclear"
+    },
+    "layouts/object-fit.html": {
+      "source": "docs/layouts/object-fit.md",
+      "title": "Object Fit - Introduction",
+      "pageTitle": "Object Fit",
+      "slug": "layoutsobject-fit"
+    },
+    "layouts/object-position.html": {
+      "source": "docs/layouts/object-position.md",
+      "title": "Object Position - Introduction",
+      "pageTitle": "Object Position",
+      "slug": "layoutsobject-position"
+    },
+    "layouts/overflow.html": {
+      "source": "docs/layouts/overflow.md",
+      "title": "Overflow - Introduction",
+      "pageTitle": "Overflow",
+      "slug": "layoutsoverflow"
+    },
+    "layouts/position.html": {
+      "source": "docs/layouts/position.md",
+      "title": "Position - Introduction",
+      "pageTitle": "Position",
+      "slug": "layoutsposition"
+    },
+    "layouts/tblr.html": {
+      "source": "docs/layouts/tblr.md",
+      "title": "Top/Bottom/Left/Right - Introduction",
+      "pageTitle": "Top/Bottom/Left/Right",
+      "slug": "layoutstblr"
+    },
+    "layouts/visibility.html": {
+      "source": "docs/layouts/visibility.md",
+      "title": "Visibility - Introduction",
+      "pageTitle": "Visibility",
+      "slug": "layoutsvisibility"
+    },
+    "layouts/z-index.html": {
+      "source": "docs/layouts/z-index.md",
+      "title": "Z-Index - Introduction",
+      "pageTitle": "Z-Index",
+      "slug": "layoutsz-index"
+    },
+    "typography/font-family.html": {
+      "source": "docs/typography/font-family.md",
+      "title": "Font Family - Introduction",
+      "pageTitle": "Font Family",
+      "slug": "typographyfont-family"
+    },
+    "typography/font-size.html": {
+      "source": "docs/typography/font-size.md",
+      "title": "Font Size - Introduction",
+      "pageTitle": "Font Size",
+      "slug": "typographyfont-size"
+    },
+    "typography/font-smoothing.html": {
+      "source": "docs/typography/font-smoothing.md",
+      "title": "Font Smoothing - Introduction",
+      "pageTitle": "Font Smoothing",
+      "slug": "typographyfont-smoothing"
+    },
+    "typography/font-style.html": {
+      "source": "docs/typography/font-style.md",
+      "title": "Font Style - Introduction",
+      "pageTitle": "Font Style",
+      "slug": "typographyfont-style"
+    },
+    "typography/font-weight.html": {
+      "source": "docs/typography/font-weight.md",
+      "title": "Font Weight - Introduction",
+      "pageTitle": "Font Weight",
+      "slug": "typographyfont-weight"
+    },
+    "typography/letter-spacing.html": {
+      "source": "docs/typography/letter-spacing.md",
+      "title": "Letter Spacing - Introduction",
+      "pageTitle": "Letter Spacing",
+      "slug": "typographyletter-spacing"
+    },
+    "typography/line-height.html": {
+      "source": "docs/typography/line-height.md",
+      "title": "Line Height - Introduction",
+      "pageTitle": "Line Height",
+      "slug": "typographyline-height"
+    },
+    "typography/list-style-type.html": {
+      "source": "docs/typography/list-style-type.md",
+      "title": "List Style Type - Introduction",
+      "pageTitle": "List Style Type",
+      "slug": "typographylist-style-type"
+    },
+    "typography/list-style-position.html": {
+      "source": "docs/typography/list-style-position.md",
+      "title": "List Style Position - Introduction",
+      "pageTitle": "List Style Position",
+      "slug": "typographylist-style-position"
+    },
+    "typography/placeholder-color.html": {
+      "source": "docs/typography/placeholder-color.md",
+      "title": "Placeholder Color - Introduction",
+      "pageTitle": "Placeholder Color",
+      "slug": "typographyplaceholder-color"
+    },
+    "typography/text-align.html": {
+      "source": "docs/typography/text-align.md",
+      "title": "Text Align - Introduction",
+      "pageTitle": "Text Align",
+      "slug": "typographytext-align"
+    },
+    "typography/text-color.html": {
+      "source": "docs/typography/text-color.md",
+      "title": "Text Color - Introduction",
+      "pageTitle": "Text Color",
+      "slug": "typographytext-color"
+    },
+    "typography/text-decoration.html": {
+      "source": "docs/typography/text-decoration.md",
+      "title": "Text Decoration - Introduction",
+      "pageTitle": "Text Decoration",
+      "slug": "typographytext-decoration"
+    },
+    "typography/text-transform.html": {
+      "source": "docs/typography/text-transform.md",
+      "title": "Text Transform - Introduction",
+      "pageTitle": "Text Transform",
+      "slug": "typographytext-transform"
+    },
+    "typography/vertical-align.html": {
+      "source": "docs/typography/vertical-align.md",
+      "title": "Vertical Align - Introduction",
+      "pageTitle": "Vertical Align",
+      "slug": "typographyvertical-align"
+    },
+    "typography/whitespace.html": {
+      "source": "docs/typography/whitespace.md",
+      "title": "Whitespace - Introduction",
+      "pageTitle": "Whitespace",
+      "slug": "typographywhitespace"
+    },
+    "typography/word-break.html": {
+      "source": "docs/typography/word-break.md",
+      "title": "Word Break - Introduction",
+      "pageTitle": "Word Break",
+      "slug": "typographyword-break"
+    },
+    "spacing/margin.html": {
+      "source": "docs/spacing/margin.md",
+      "title": "Margin - Introduction",
+      "pageTitle": "Margin",
+      "slug": "spacingmargin"
+    },
+    "spacing/padding.html": {
+      "source": "docs/spacing/padding.md",
+      "title": "Padding - Introduction",
+      "pageTitle": "Padding",
+      "slug": "spacingpadding"
+    },
+    "backgrounds/background-attachment.html": {
+      "source": "docs/backgrounds/background-attachment.md",
+      "title": "Background Attachment - Introduction",
+      "pageTitle": "Background Attachment",
+      "slug": "backgroundsbackground-attachment"
+    },
+    "backgrounds/background-color.html": {
+      "source": "docs/backgrounds/background-color.md",
+      "title": "Background Color - Introduction",
+      "pageTitle": "Background Color",
+      "slug": "backgroundsbackground-color"
+    },
+    "backgrounds/background-position.html": {
+      "source": "docs/backgrounds/background-position.md",
+      "title": "Background Position - Introduction",
+      "pageTitle": "Background Position",
+      "slug": "backgroundsbackground-position"
+    },
+    "backgrounds/background-repeat.html": {
+      "source": "docs/backgrounds/background-repeat.md",
+      "title": "Background Repeat - Introduction",
+      "pageTitle": "Background Repeat",
+      "slug": "backgroundsbackground-repeat"
+    },
+    "backgrounds/background-size.html": {
+      "source": "docs/backgrounds/background-size.md",
+      "title": "Background Size - Introduction",
+      "pageTitle": "Background Size",
+      "slug": "backgroundsbackground-size"
+    },
+    "borders/border-color.html": {
+      "source": "docs/borders/border-color.md",
+      "title": "Border Color - Introduction",
+      "pageTitle": "Border Color",
+      "slug": "bordersborder-color"
+    },
+    "borders/border-style.html": {
+      "source": "docs/borders/border-style.md",
+      "title": "Border Style - Introduction",
+      "pageTitle": "Border Style",
+      "slug": "bordersborder-style"
+    },
+    "borders/border-width.html": {
+      "source": "docs/borders/border-width.md",
+      "title": "Border Width - Introduction",
+      "pageTitle": "Border Width",
+      "slug": "bordersborder-width"
+    },
+    "borders/border-radius.html": {
+      "source": "docs/borders/border-radius.md",
+      "title": "Border Radius - Introduction",
+      "pageTitle": "Border Radius",
+      "slug": "bordersborder-radius"
+    },
+    "effects/box-shadow.html": {
+      "source": "docs/effects/box-shadow.md",
+      "title": "Box Shadow - Introduction",
+      "pageTitle": "Box Shadow",
+      "slug": "effectsbox-shadow"
+    },
+    "effects/opacity.html": {
+      "source": "docs/effects/opacity.md",
+      "title": "Opacity - Introduction",
+      "pageTitle": "Opacity",
+      "slug": "effectsopacity"
+    },
+    "sizing/width.html": {
+      "source": "docs/sizing/width.md",
+      "title": "Width - Introduction",
+      "pageTitle": "Width",
+      "slug": "sizingwidth"
+    },
+    "sizing/min-width.html": {
+      "source": "docs/sizing/min-width.md",
+      "title": "Min Width - Introduction",
+      "pageTitle": "Min Width",
+      "slug": "sizingmin-width"
+    },
+    "sizing/max-width.html": {
+      "source": "docs/sizing/max-width.md",
+      "title": "Max Width - Introduction",
+      "pageTitle": "Max Width",
+      "slug": "sizingmax-width"
+    },
+    "sizing/height.html": {
+      "source": "docs/sizing/height.md",
+      "title": "Height - Introduction",
+      "pageTitle": "Height",
+      "slug": "sizingheight"
+    },
+    "sizing/min-height.html": {
+      "source": "docs/sizing/min-height.md",
+      "title": "Min Height - Introduction",
+      "pageTitle": "Min Height",
+      "slug": "sizingmin-height"
+    },
+    "sizing/max-height.html": {
+      "source": "docs/sizing/max-height.md",
+      "title": "Max Height - Introduction",
+      "pageTitle": "Max Height",
+      "slug": "sizingmax-height"
+    },
+    "flexbox/flex-direction.html": {
+      "source": "docs/flexbox/flex-direction.md",
+      "title": "Flex Direction - Introduction",
+      "pageTitle": "Flex Direction",
+      "slug": "flexboxflex-direction"
+    },
+    "flexbox/flex-wrap.html": {
+      "source": "docs/flexbox/flex-wrap.md",
+      "title": "Flex Wrap - Introduction",
+      "pageTitle": "Flex Wrap",
+      "slug": "flexboxflex-wrap"
+    },
+    "flexbox/align-items.html": {
+      "source": "docs/flexbox/align-items.md",
+      "title": "Align Items - Introduction",
+      "pageTitle": "Align Items",
+      "slug": "flexboxalign-items"
+    },
+    "flexbox/align-content.html": {
+      "source": "docs/flexbox/align-content.md",
+      "title": "Align Content - Introduction",
+      "pageTitle": "Align Content",
+      "slug": "flexboxalign-content"
+    },
+    "flexbox/align-self.html": {
+      "source": "docs/flexbox/align-self.md",
+      "title": "Align Self - Introduction",
+      "pageTitle": "Align Self",
+      "slug": "flexboxalign-self"
+    },
+    "flexbox/justify-content.html": {
+      "source": "docs/flexbox/justify-content.md",
+      "title": "Justify Content - Introduction",
+      "pageTitle": "Justify Content",
+      "slug": "flexboxjustify-content"
+    },
+    "flexbox/flex.html": {
+      "source": "docs/flexbox/flex.md",
+      "title": "Flex - Introduction",
+      "pageTitle": "Flex",
+      "slug": "flexboxflex"
+    },
+    "flexbox/flex-grow.html": {
+      "source": "docs/flexbox/flex-grow.md",
+      "title": "Flex Grow - Introduction",
+      "pageTitle": "Flex Grow",
+      "slug": "flexboxflex-grow"
+    },
+    "flexbox/flex-shrink.html": {
+      "source": "docs/flexbox/flex-shrink.md",
+      "title": "Flex Shrink - Introduction",
+      "pageTitle": "Flex Shrink",
+      "slug": "flexboxflex-shrink"
+    },
+    "flexbox/order.html": {
+      "source": "docs/flexbox/order.md",
+      "title": "Order - Introduction",
+      "pageTitle": "Order",
+      "slug": "flexboxorder"
+    },
+    "interactivity/appearance.html": {
+      "source": "docs/interactivity/appearance.md",
+      "title": "Appearance - Introduction",
+      "pageTitle": "Appearance",
+      "slug": "interactivityappearance"
+    },
+    "interactivity/cursor.html": {
+      "source": "docs/interactivity/cursor.md",
+      "title": "Cursor - Introduction",
+      "pageTitle": "Cursor",
+      "slug": "interactivitycursor"
+    },
+    "interactivity/outline.html": {
+      "source": "docs/interactivity/outline.md",
+      "title": "Outine - Introduction",
+      "pageTitle": "Outine",
+      "slug": "interactivityoutline"
+    },
+    "interactivity/pointer-events.html": {
+      "source": "docs/interactivity/pointer-events.md",
+      "title": "Pointer Events - Introduction",
+      "pageTitle": "Pointer Events",
+      "slug": "interactivitypointer-events"
+    },
+    "interactivity/resize.html": {
+      "source": "docs/interactivity/resize.md",
+      "title": "Resize - Introduction",
+      "pageTitle": "Resize",
+      "slug": "interactivityresize"
+    },
+    "interactivity/user-select.html": {
+      "source": "docs/interactivity/user-select.md",
+      "title": "User Select - Introduction",
+      "pageTitle": "User Select",
+      "slug": "interactivityuser-select"
+    },
+    "filters/filter-compose.html": {
+      "source": "docs/filters/filter-compose.md",
+      "title": "Filter Compose - Introduction",
+      "pageTitle": "Filter Compose",
+      "slug": "filtersfilter-compose"
+    },
+    "transforms/rotate.html": {
+      "source": "docs/transforms/rotate.md",
+      "title": "Rotate - Introduction",
+      "pageTitle": "Rotate",
+      "slug": "transformsrotate"
+    },
+    "transforms/scale.html": {
+      "source": "docs/transforms/scale.md",
+      "title": "Scale - Introduction",
+      "pageTitle": "Scale",
+      "slug": "transformsscale"
+    },
+    "transforms/skew.html": {
+      "source": "docs/transforms/skew.md",
+      "title": "Skew - Introduction",
+      "pageTitle": "Skew",
+      "slug": "transformsskew"
+    },
+    "transforms/transform-origin.html": {
+      "source": "docs/transforms/transform-origin.md",
+      "title": "Transform Origin - Introduction",
+      "pageTitle": "Transform Origin",
+      "slug": "transformstransform-origin"
+    },
+    "transforms/translate.html": {
+      "source": "docs/transforms/translate.md",
+      "title": "Translate - Introduction",
+      "pageTitle": "Translate",
+      "slug": "transformstranslate"
+    },
+    "transitions/transition-property.html": {
+      "source": "docs/transitions/transition-property.md",
+      "title": "Transition Property - Introduction",
+      "pageTitle": "Transition Property",
+      "slug": "transitionstransition-property"
+    },
+    "transitions/transition-duration.html": {
+      "source": "docs/transitions/transition-duration.md",
+      "title": "Transition Duration - Introduction",
+      "pageTitle": "Transition Duration",
+      "slug": "transitionstransition-duration"
+    },
+    "transitions/transition-timing.html": {
+      "source": "docs/transitions/transition-timing.md",
+      "title": "Transition Timing - Introduction",
+      "pageTitle": "Transition Timing",
+      "slug": "transitionstransition-timing"
+    },
+    "tables/border-collapse.html": {
+      "source": "docs/tables/border-collapse.md",
+      "title": "Border Collapse - Introduction",
+      "pageTitle": "Border Collapse",
+      "slug": "tablesborder-collapse"
+    },
+    "tables/table-layout.html": {
+      "source": "docs/tables/table-layout.md",
+      "title": "Table Layout - Introduction",
+      "pageTitle": "Table Layout",
+      "slug": "tablestable-layout"
+    },
+    "svg/fill.html": {
+      "source": "docs/svg/fill.md",
+      "title": "Fill - Introduction",
+      "pageTitle": "Fill",
+      "slug": "svgfill"
+    },
+    "svg/stroke.html": {
+      "source": "docs/svg/stroke.md",
+      "title": "Stroke - Introduction",
+      "pageTitle": "Stroke",
+      "slug": "svgstroke"
+    },
+    "svg/stroke-width.html": {
+      "source": "docs/svg/stroke-width.md",
+      "title": "Stroke Width - Introduction",
+      "pageTitle": "Stroke Width",
+      "slug": "svgstroke-width"
     }
   },
   "sources": {
     "docs/introduction.md": "index.html",
-    "docs/docma.json": "docma.json"
+    "docs/getting-started/installation.md": "getting-started/installation.html",
+    "docs/core-concepts/utility-design.md": "core-concepts/utility-design.html",
+    "docs/core-concepts/responsive-design.md": "core-concepts/responsive-design.html",
+    "docs/core-concepts/pseudo-class-variants.md": "core-concepts/pseudo-class-variants.html",
+    "docs/customization/configuration.md": "customization/configuration.html",
+    "docs/customization/breakpoints.md": "customization/breakpoints.html",
+    "docs/customization/colors.md": "customization/colors.html",
+    "docs/customization/spacing.md": "customization/spacing.html",
+    "docs/customization/variants.md": "customization/variants.html",
+    "docs/layouts/container.md": "layouts/container.html",
+    "docs/layouts/box-sizing.md": "layouts/box-sizing.html",
+    "docs/layouts/display.md": "layouts/display.html",
+    "docs/layouts/float.md": "layouts/float.html",
+    "docs/layouts/clear.md": "layouts/clear.html",
+    "docs/layouts/object-fit.md": "layouts/object-fit.html",
+    "docs/layouts/object-position.md": "layouts/object-position.html",
+    "docs/layouts/overflow.md": "layouts/overflow.html",
+    "docs/layouts/position.md": "layouts/position.html",
+    "docs/layouts/tblr.md": "layouts/tblr.html",
+    "docs/layouts/visibility.md": "layouts/visibility.html",
+    "docs/layouts/z-index.md": "layouts/z-index.html",
+    "docs/typography/font-family.md": "typography/font-family.html",
+    "docs/typography/font-size.md": "typography/font-size.html",
+    "docs/typography/font-smoothing.md": "typography/font-smoothing.html",
+    "docs/typography/font-style.md": "typography/font-style.html",
+    "docs/typography/font-weight.md": "typography/font-weight.html",
+    "docs/typography/letter-spacing.md": "typography/letter-spacing.html",
+    "docs/typography/line-height.md": "typography/line-height.html",
+    "docs/typography/list-style-type.md": "typography/list-style-type.html",
+    "docs/typography/list-style-position.md": "typography/list-style-position.html",
+    "docs/typography/placeholder-color.md": "typography/placeholder-color.html",
+    "docs/typography/text-align.md": "typography/text-align.html",
+    "docs/typography/text-color.md": "typography/text-color.html",
+    "docs/typography/text-decoration.md": "typography/text-decoration.html",
+    "docs/typography/text-transform.md": "typography/text-transform.html",
+    "docs/typography/vertical-align.md": "typography/vertical-align.html",
+    "docs/typography/whitespace.md": "typography/whitespace.html",
+    "docs/typography/word-break.md": "typography/word-break.html",
+    "docs/spacing/margin.md": "spacing/margin.html",
+    "docs/spacing/padding.md": "spacing/padding.html",
+    "docs/backgrounds/background-attachment.md": "backgrounds/background-attachment.html",
+    "docs/backgrounds/background-color.md": "backgrounds/background-color.html",
+    "docs/backgrounds/background-position.md": "backgrounds/background-position.html",
+    "docs/backgrounds/background-repeat.md": "backgrounds/background-repeat.html",
+    "docs/backgrounds/background-size.md": "backgrounds/background-size.html",
+    "docs/borders/border-color.md": "borders/border-color.html",
+    "docs/borders/border-style.md": "borders/border-style.html",
+    "docs/borders/border-width.md": "borders/border-width.html",
+    "docs/borders/border-radius.md": "borders/border-radius.html",
+    "docs/effects/box-shadow.md": "effects/box-shadow.html",
+    "docs/effects/opacity.md": "effects/opacity.html",
+    "docs/sizing/width.md": "sizing/width.html",
+    "docs/sizing/min-width.md": "sizing/min-width.html",
+    "docs/sizing/max-width.md": "sizing/max-width.html",
+    "docs/sizing/height.md": "sizing/height.html",
+    "docs/sizing/min-height.md": "sizing/min-height.html",
+    "docs/sizing/max-height.md": "sizing/max-height.html",
+    "docs/flexbox/flex-direction.md": "flexbox/flex-direction.html",
+    "docs/flexbox/flex-wrap.md": "flexbox/flex-wrap.html",
+    "docs/flexbox/align-items.md": "flexbox/align-items.html",
+    "docs/flexbox/align-content.md": "flexbox/align-content.html",
+    "docs/flexbox/align-self.md": "flexbox/align-self.html",
+    "docs/flexbox/justify-content.md": "flexbox/justify-content.html",
+    "docs/flexbox/flex.md": "flexbox/flex.html",
+    "docs/flexbox/flex-grow.md": "flexbox/flex-grow.html",
+    "docs/flexbox/flex-shrink.md": "flexbox/flex-shrink.html",
+    "docs/flexbox/order.md": "flexbox/order.html",
+    "docs/interactivity/appearance.md": "interactivity/appearance.html",
+    "docs/interactivity/cursor.md": "interactivity/cursor.html",
+    "docs/interactivity/outline.md": "interactivity/outline.html",
+    "docs/interactivity/pointer-events.md": "interactivity/pointer-events.html",
+    "docs/interactivity/resize.md": "interactivity/resize.html",
+    "docs/interactivity/user-select.md": "interactivity/user-select.html",
+    "docs/filters/filter-compose.md": "filters/filter-compose.html",
+    "docs/transforms/rotate.md": "transforms/rotate.html",
+    "docs/transforms/scale.md": "transforms/scale.html",
+    "docs/transforms/skew.md": "transforms/skew.html",
+    "docs/transforms/transform-origin.md": "transforms/transform-origin.html",
+    "docs/transforms/translate.md": "transforms/translate.html",
+    "docs/transitions/transition-property.md": "transitions/transition-property.html",
+    "docs/transitions/transition-duration.md": "transitions/transition-duration.html",
+    "docs/transitions/transition-timing.md": "transitions/transition-timing.html",
+    "docs/tables/border-collapse.md": "tables/border-collapse.html",
+    "docs/tables/table-layout.md": "tables/table-layout.html",
+    "docs/svg/fill.md": "svg/fill.html",
+    "docs/svg/stroke.md": "svg/stroke.html",
+    "docs/svg/stroke-width.md": "svg/stroke-width.html",
+    "docs/docpress.json": "docpress.json",
+    "docs/assets/promo_2.jpg": "assets/promo_2.jpg",
+    "docs/assets/style.css": "assets/style.css"
   }
 }

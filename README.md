@@ -3,3 +3,7 @@
 # yogurt-css-documentation
 
 > Work in progress
+
+### _support
+
+[Read the documentation](https://yogurt-css-documentation.netlify.com).

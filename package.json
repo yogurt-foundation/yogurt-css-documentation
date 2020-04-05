@@ -5,11 +5,14 @@
   "author": "Loouis Low <loouis@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "node ./node_modules/docpress/bin/docpress b",
+    "build": "node ./node_modules/docpress/bin/docpress b && cp ./docs/assets/style.css ./_docpress/assets/",
     "serve": "node ./node_modules/docpress/bin/docpress s"
   },
   "directories": {
     "doc": "docs"
+  },
+  "docpress": {
+    "github": "yogurt-foundation/yogurt-css-documentation"
   },
   "devDependencies": {
     "docpress": "^0.8.1",
