@@ -54,6 +54,11 @@
                     "id": "using-yogurt-via-build-tool"
                   },
                   {
+                    "title": "Using Yogurt via Playground",
+                    "depth": 3,
+                    "id": "using-yogurt-via-playground"
+                  },
+                  {
                     "title": "Using Yogurt via CDN",
                     "depth": 3,
                     "id": "using-yogurt-via-cdn"
@@ -620,61 +625,201 @@
             "title": "Flex Direction",
             "source": "docs/flexbox/flex-direction.md",
             "url": "flexbox/flex-direction.html",
-            "slug": "flexboxflex-direction"
+            "slug": "flexboxflex-direction",
+            "headings": [
+              {
+                "title": "Flex Direction",
+                "depth": 2,
+                "id": "flex-direction",
+                "headings": [
+                  {
+                    "title": "Usage",
+                    "depth": 3,
+                    "id": "usage"
+                  }
+                ]
+              }
+            ]
           },
           {
             "title": "Flex Wrap",
             "source": "docs/flexbox/flex-wrap.md",
             "url": "flexbox/flex-wrap.html",
-            "slug": "flexboxflex-wrap"
+            "slug": "flexboxflex-wrap",
+            "headings": [
+              {
+                "title": "Flex Wrap",
+                "depth": 2,
+                "id": "flex-wrap",
+                "headings": [
+                  {
+                    "title": "Usage",
+                    "depth": 3,
+                    "id": "usage"
+                  }
+                ]
+              }
+            ]
           },
           {
             "title": "Align Items",
             "source": "docs/flexbox/align-items.md",
             "url": "flexbox/align-items.html",
-            "slug": "flexboxalign-items"
+            "slug": "flexboxalign-items",
+            "headings": [
+              {
+                "title": "Align Items",
+                "depth": 2,
+                "id": "align-items",
+                "headings": [
+                  {
+                    "title": "Usage",
+                    "depth": 3,
+                    "id": "usage"
+                  }
+                ]
+              }
+            ]
           },
           {
             "title": "Align Content",
             "source": "docs/flexbox/align-content.md",
             "url": "flexbox/align-content.html",
-            "slug": "flexboxalign-content"
+            "slug": "flexboxalign-content",
+            "headings": [
+              {
+                "title": "Align Content",
+                "depth": 2,
+                "id": "align-content",
+                "headings": [
+                  {
+                    "title": "Usage",
+                    "depth": 3,
+                    "id": "usage"
+                  }
+                ]
+              }
+            ]
           },
           {
             "title": "Align Self",
             "source": "docs/flexbox/align-self.md",
             "url": "flexbox/align-self.html",
-            "slug": "flexboxalign-self"
+            "slug": "flexboxalign-self",
+            "headings": [
+              {
+                "title": "Align Self",
+                "depth": 2,
+                "id": "align-self",
+                "headings": [
+                  {
+                    "title": "Usage",
+                    "depth": 3,
+                    "id": "usage"
+                  }
+                ]
+              }
+            ]
           },
           {
             "title": "Justify Content",
             "source": "docs/flexbox/justify-content.md",
             "url": "flexbox/justify-content.html",
-            "slug": "flexboxjustify-content"
+            "slug": "flexboxjustify-content",
+            "headings": [
+              {
+                "title": "Justify Content",
+                "depth": 2,
+                "id": "justify-content",
+                "headings": [
+                  {
+                    "title": "Usage",
+                    "depth": 3,
+                    "id": "usage"
+                  }
+                ]
+              }
+            ]
           },
           {
             "title": "Flex",
             "source": "docs/flexbox/flex.md",
             "url": "flexbox/flex.html",
-            "slug": "flexboxflex"
+            "slug": "flexboxflex",
+            "headings": [
+              {
+                "title": "Flex",
+                "depth": 2,
+                "id": "flex",
+                "headings": [
+                  {
+                    "title": "Usage",
+                    "depth": 3,
+                    "id": "usage"
+                  }
+                ]
+              }
+            ]
           },
           {
             "title": "Flex Grow",
             "source": "docs/flexbox/flex-grow.md",
             "url": "flexbox/flex-grow.html",
-            "slug": "flexboxflex-grow"
+            "slug": "flexboxflex-grow",
+            "headings": [
+              {
+                "title": "Flex Grow",
+                "depth": 2,
+                "id": "flex-grow",
+                "headings": [
+                  {
+                    "title": "Usage",
+                    "depth": 3,
+                    "id": "usage"
+                  }
+                ]
+              }
+            ]
           },
           {
             "title": "Flex Shrink",
             "source": "docs/flexbox/flex-shrink.md",
             "url": "flexbox/flex-shrink.html",
-            "slug": "flexboxflex-shrink"
+            "slug": "flexboxflex-shrink",
+            "headings": [
+              {
+                "title": "Flex Shrink",
+                "depth": 2,
+                "id": "flex-shrink",
+                "headings": [
+                  {
+                    "title": "Usage",
+                    "depth": 3,
+                    "id": "usage"
+                  }
+                ]
+              }
+            ]
           },
           {
             "title": "Order",
             "source": "docs/flexbox/order.md",
             "url": "flexbox/order.html",
-            "slug": "flexboxorder"
+            "slug": "flexboxorder",
+            "headings": [
+              {
+                "title": "Order",
+                "depth": 2,
+                "id": "order",
+                "headings": [
+                  {
+                    "title": "Usage",
+                    "depth": 3,
+                    "id": "usage"
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -879,6 +1024,11 @@
               "title": "Using Yogurt via Build Tool",
               "depth": 3,
               "id": "using-yogurt-via-build-tool"
+            },
+            {
+              "title": "Using Yogurt via Playground",
+              "depth": 3,
+              "id": "using-yogurt-via-playground"
             },
             {
               "title": "Using Yogurt via CDN",
@@ -1397,61 +1547,201 @@
       "source": "docs/flexbox/flex-direction.md",
       "title": "Flex Direction - Introduction",
       "pageTitle": "Flex Direction",
-      "slug": "flexboxflex-direction"
+      "slug": "flexboxflex-direction",
+      "headings": [
+        {
+          "title": "Flex Direction",
+          "depth": 2,
+          "id": "flex-direction",
+          "headings": [
+            {
+              "title": "Usage",
+              "depth": 3,
+              "id": "usage"
+            }
+          ]
+        }
+      ]
     },
     "flexbox/flex-wrap.html": {
       "source": "docs/flexbox/flex-wrap.md",
       "title": "Flex Wrap - Introduction",
       "pageTitle": "Flex Wrap",
-      "slug": "flexboxflex-wrap"
+      "slug": "flexboxflex-wrap",
+      "headings": [
+        {
+          "title": "Flex Wrap",
+          "depth": 2,
+          "id": "flex-wrap",
+          "headings": [
+            {
+              "title": "Usage",
+              "depth": 3,
+              "id": "usage"
+            }
+          ]
+        }
+      ]
     },
     "flexbox/align-items.html": {
       "source": "docs/flexbox/align-items.md",
       "title": "Align Items - Introduction",
       "pageTitle": "Align Items",
-      "slug": "flexboxalign-items"
+      "slug": "flexboxalign-items",
+      "headings": [
+        {
+          "title": "Align Items",
+          "depth": 2,
+          "id": "align-items",
+          "headings": [
+            {
+              "title": "Usage",
+              "depth": 3,
+              "id": "usage"
+            }
+          ]
+        }
+      ]
     },
     "flexbox/align-content.html": {
       "source": "docs/flexbox/align-content.md",
       "title": "Align Content - Introduction",
       "pageTitle": "Align Content",
-      "slug": "flexboxalign-content"
+      "slug": "flexboxalign-content",
+      "headings": [
+        {
+          "title": "Align Content",
+          "depth": 2,
+          "id": "align-content",
+          "headings": [
+            {
+              "title": "Usage",
+              "depth": 3,
+              "id": "usage"
+            }
+          ]
+        }
+      ]
     },
     "flexbox/align-self.html": {
       "source": "docs/flexbox/align-self.md",
       "title": "Align Self - Introduction",
       "pageTitle": "Align Self",
-      "slug": "flexboxalign-self"
+      "slug": "flexboxalign-self",
+      "headings": [
+        {
+          "title": "Align Self",
+          "depth": 2,
+          "id": "align-self",
+          "headings": [
+            {
+              "title": "Usage",
+              "depth": 3,
+              "id": "usage"
+            }
+          ]
+        }
+      ]
     },
     "flexbox/justify-content.html": {
       "source": "docs/flexbox/justify-content.md",
       "title": "Justify Content - Introduction",
       "pageTitle": "Justify Content",
-      "slug": "flexboxjustify-content"
+      "slug": "flexboxjustify-content",
+      "headings": [
+        {
+          "title": "Justify Content",
+          "depth": 2,
+          "id": "justify-content",
+          "headings": [
+            {
+              "title": "Usage",
+              "depth": 3,
+              "id": "usage"
+            }
+          ]
+        }
+      ]
     },
     "flexbox/flex.html": {
       "source": "docs/flexbox/flex.md",
       "title": "Flex - Introduction",
       "pageTitle": "Flex",
-      "slug": "flexboxflex"
+      "slug": "flexboxflex",
+      "headings": [
+        {
+          "title": "Flex",
+          "depth": 2,
+          "id": "flex",
+          "headings": [
+            {
+              "title": "Usage",
+              "depth": 3,
+              "id": "usage"
+            }
+          ]
+        }
+      ]
     },
     "flexbox/flex-grow.html": {
       "source": "docs/flexbox/flex-grow.md",
       "title": "Flex Grow - Introduction",
       "pageTitle": "Flex Grow",
-      "slug": "flexboxflex-grow"
+      "slug": "flexboxflex-grow",
+      "headings": [
+        {
+          "title": "Flex Grow",
+          "depth": 2,
+          "id": "flex-grow",
+          "headings": [
+            {
+              "title": "Usage",
+              "depth": 3,
+              "id": "usage"
+            }
+          ]
+        }
+      ]
     },
     "flexbox/flex-shrink.html": {
       "source": "docs/flexbox/flex-shrink.md",
       "title": "Flex Shrink - Introduction",
       "pageTitle": "Flex Shrink",
-      "slug": "flexboxflex-shrink"
+      "slug": "flexboxflex-shrink",
+      "headings": [
+        {
+          "title": "Flex Shrink",
+          "depth": 2,
+          "id": "flex-shrink",
+          "headings": [
+            {
+              "title": "Usage",
+              "depth": 3,
+              "id": "usage"
+            }
+          ]
+        }
+      ]
     },
     "flexbox/order.html": {
       "source": "docs/flexbox/order.md",
       "title": "Order - Introduction",
       "pageTitle": "Order",
-      "slug": "flexboxorder"
+      "slug": "flexboxorder",
+      "headings": [
+        {
+          "title": "Order",
+          "depth": 2,
+          "id": "order",
+          "headings": [
+            {
+              "title": "Usage",
+              "depth": 3,
+              "id": "usage"
+            }
+          ]
+        }
+      ]
     },
     "interactivity/appearance.html": {
       "source": "docs/interactivity/appearance.md",

@@ -1,0 +1,13 @@
+## Flex Direction
+
+Utilities for controlling the direction of flex items.
+
+### Usage
+
+| class |  | css properties |
+|---|---|---|
+| flex-row |  | flex-direction: row |
+| flex-row-reverse |  | flex-direction: row-reverse |
+| flex-col |  | flex-direction: column |
+| flex-col-reverse |  | flex-direction: column-reverse |
+
