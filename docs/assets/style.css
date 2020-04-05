@@ -1139,7 +1139,8 @@ ul.heading-list .hlink:before {
 .markdown-body img {
     max-width: 100%;
     box-sizing: content-box;
-    background-color: #fff
+    background-color: #fff;
+    border-radius: 10px
 }
 
 .markdown-body code {
