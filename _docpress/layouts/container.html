@@ -49,6 +49,18 @@
               <li class="menu-item -level-1 -parent"><span class="title">Layout</span>
                 <ul class="submenu">
                   <li class="menu-item -level-2"><a class="link title -active link-layoutscontainer" href="../layouts/container.html">Container</a>
+                    <ul class="headings heading-list">
+                      <li class="heading-item -depth-2"><a class="hlink link-container" href="#container">Container</a>
+                        <ul class="heading-list -depth-2">
+                          <li class="heading-item -depth-3"><a class="hlink link-class" href="#class">Class</a>
+                          </li>
+                          <li class="heading-item -depth-3"><a class="hlink link-options" href="#options">Options</a>
+                          </li>
+                          <li class="heading-item -depth-3"><a class="hlink link-usage" href="#usage">Usage</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
                   </li>
                   <li class="menu-item -level-2"><a class="link title  link-layoutsbox-sizing" href="../layouts/box-sizing.html">Box Sizing</a>
                   </li>
@@ -268,7 +280,76 @@
               <!-- span.title Open in GitHub--><span class="icon -github"></span></a>
           </div>
         </div>
-        <div class="markdown-body">
+        <div class="markdown-body"><h2 id="container">Container</h2>
+<p>A component for fixing an element&#x2019;s width to the current breakpoint.</p>
+<h3 id="class">Class</h3>
+<pre><code>container 
+</code></pre>
+<blockquote>
+<p>without <code>prefix</code> and <code>modifier</code>.</p>
+</blockquote>
+<h3 id="options">Options</h3>
+<table>
+<thead>
+<tr>
+<th>class</th>
+<th>breakpoint</th>
+<th>properties</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>.container</td>
+<td>none</td>
+<td>width: 100%</td>
+</tr>
+<tr>
+<td></td>
+<td>xs (320px)</td>
+<td>max-width: 320px</td>
+</tr>
+<tr>
+<td></td>
+<td>sm (640px)</td>
+<td>max-width: 640px</td>
+</tr>
+<tr>
+<td></td>
+<td>md (768px)</td>
+<td>max-width: 768px</td>
+</tr>
+<tr>
+<td></td>
+<td>lg (1024px)</td>
+<td>max-width: 1024px</td>
+</tr>
+<tr>
+<td></td>
+<td>xl (1280px)</td>
+<td>max-width: 1280px</td>
+</tr>
+<tr>
+<td></td>
+<td>2k (1920px)</td>
+<td>max-width: 1920px</td>
+</tr>
+<tr>
+<td></td>
+<td>4k (3840px)</td>
+<td>max-width: 3840px</td>
+</tr>
+</tbody>
+</table>
+<h3 id="usage">Usage</h3>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">y</span> <span class="hljs-attr">class</span>=<span class="pl-s">&quot;container&quot;</span>&gt;</span>
+  ...
+<span class="hljs-tag">&lt;/<span class="hljs-name">y</span>&gt;</span>
+</code></pre>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">y</span> <span class="hljs-attr">class</span>=<span class="pl-s">&quot;sm:container&quot;</span>&gt;</span>
+  ...
+<span class="hljs-tag">&lt;/<span class="hljs-name">y</span>&gt;</span>
+</code></pre>
+
         </div>
         <div class="footer-nav">
           <div class="left"><a href="../customization/variants.html"><span class="title">Variants</span></a></div>

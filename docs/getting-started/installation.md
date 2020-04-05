@@ -1,4 +1,4 @@
-### Installation
+## Installation
 
 ### Using Yogurt via Build Tool
 

@@ -18,9 +18,14 @@
             "id": "concept"
           },
           {
-            "title": "Tag",
+            "title": "Tag Shorthand",
             "depth": 3,
-            "id": "tag"
+            "id": "tag-shorthand"
+          },
+          {
+            "title": "Tag Design",
+            "depth": 3,
+            "id": "tag-design"
           },
           {
             "title": "Best Practice",
@@ -40,18 +45,20 @@
             "headings": [
               {
                 "title": "Installation",
-                "depth": 3,
-                "id": "installation"
-              },
-              {
-                "title": "Using Yogurt via Build Tool",
-                "depth": 3,
-                "id": "using-yogurt-via-build-tool"
-              },
-              {
-                "title": "Using Yogurt via CDN",
-                "depth": 3,
-                "id": "using-yogurt-via-cdn"
+                "depth": 2,
+                "id": "installation",
+                "headings": [
+                  {
+                    "title": "Using Yogurt via Build Tool",
+                    "depth": 3,
+                    "id": "using-yogurt-via-build-tool"
+                  },
+                  {
+                    "title": "Using Yogurt via CDN",
+                    "depth": 3,
+                    "id": "using-yogurt-via-cdn"
+                  }
+                ]
               }
             ]
           }
@@ -122,7 +129,31 @@
             "title": "Container",
             "source": "docs/layouts/container.md",
             "url": "layouts/container.html",
-            "slug": "layoutscontainer"
+            "slug": "layoutscontainer",
+            "headings": [
+              {
+                "title": "Container",
+                "depth": 2,
+                "id": "container",
+                "headings": [
+                  {
+                    "title": "Class",
+                    "depth": 3,
+                    "id": "class"
+                  },
+                  {
+                    "title": "Options",
+                    "depth": 3,
+                    "id": "options"
+                  },
+                  {
+                    "title": "Usage",
+                    "depth": 3,
+                    "id": "usage"
+                  }
+                ]
+              }
+            ]
           },
           {
             "title": "Box Sizing",
@@ -673,9 +704,14 @@
           "id": "concept"
         },
         {
-          "title": "Tag",
+          "title": "Tag Shorthand",
           "depth": 3,
-          "id": "tag"
+          "id": "tag-shorthand"
+        },
+        {
+          "title": "Tag Design",
+          "depth": 3,
+          "id": "tag-design"
         },
         {
           "title": "Best Practice",
@@ -692,18 +728,20 @@
       "headings": [
         {
           "title": "Installation",
-          "depth": 3,
-          "id": "installation"
-        },
-        {
-          "title": "Using Yogurt via Build Tool",
-          "depth": 3,
-          "id": "using-yogurt-via-build-tool"
-        },
-        {
-          "title": "Using Yogurt via CDN",
-          "depth": 3,
-          "id": "using-yogurt-via-cdn"
+          "depth": 2,
+          "id": "installation",
+          "headings": [
+            {
+              "title": "Using Yogurt via Build Tool",
+              "depth": 3,
+              "id": "using-yogurt-via-build-tool"
+            },
+            {
+              "title": "Using Yogurt via CDN",
+              "depth": 3,
+              "id": "using-yogurt-via-cdn"
+            }
+          ]
         }
       ]
     },
@@ -759,7 +797,31 @@
       "source": "docs/layouts/container.md",
       "title": "Container - Introduction",
       "pageTitle": "Container",
-      "slug": "layoutscontainer"
+      "slug": "layoutscontainer",
+      "headings": [
+        {
+          "title": "Container",
+          "depth": 2,
+          "id": "container",
+          "headings": [
+            {
+              "title": "Class",
+              "depth": 3,
+              "id": "class"
+            },
+            {
+              "title": "Options",
+              "depth": 3,
+              "id": "options"
+            },
+            {
+              "title": "Usage",
+              "depth": 3,
+              "id": "usage"
+            }
+          ]
+        }
+      ]
     },
     "layouts/box-sizing.html": {
       "source": "docs/layouts/box-sizing.md",

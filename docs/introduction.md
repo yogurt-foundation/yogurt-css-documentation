@@ -31,7 +31,7 @@ A colossal low-level utility CSS framework for crafting beautiful and elegant us
 
 The `margin`, `padding`, `font-size` and so on are considered utility components. Using the human-friendly CSS class naming (e.g. `border-` instead of `b-`) combines with values makes perfect sense to mix among the utilities to form a complex styling. The value is usually linear changing the properties of a utility in a very precise manipulation, which gives you low-level control over this framework. Almost all utilities can be configured with the responsive option, by combining the screen size `prefix` with a utility (e.g. `sm:text-md`, the text size in `md` value only activate on screen size `sm` as in screen width 640px).
 
-### Tag
+### Tag Shorthand
 
 Yogurt CSS use `<y>` tag to replacing the use of `<div>` tag, which you still can use the `<div>` tag. The `<y>` is a branding and also to reduce letters from `<div>`. For example,
 
@@ -42,6 +42,26 @@ Yogurt CSS use `<y>` tag to replacing the use of `<div>` tag, which you still ca
 ```
 
 You can use `<y>` tag for almost everything, except for some standard HTML tags that cannot be replaced with `<div>`.
+
+### Tag Design
+
+Yogurt CSS tag design consists of 3 components, 
+
+```html
+{prefix}:{class}-{modifier}
+```
+
+- **prefix** ~ by adding `:` before the class, allow you to configure the utility variants such as `responsive`, `hover`, `group-hover`, `active`, and `focus`.
+- **class** ~ is an utility class name.
+- **modifier** ~ by adding `-` after the class, allow you to configure the utility values such as text size, color shades, spacing, effects and so on.
+
+```html
+<!-- Example -->
+<y class="hover:text-charcoal-100">
+  Text change color when hovered!
+</y>
+```
+
 
 ### Best Practice
 

@@ -1111,26 +1111,29 @@ ul.heading-list .hlink:before {
 .markdown-body table {
     display: block;
     width: 100%;
-    overflow: auto
+    overflow: auto;
 }
 
 .markdown-body table th {
-    font-weight: 700
+    font-weight: 700;
+    font-size: 0.9em
 }
 
 .markdown-body table td,
 .markdown-body table th {
-    padding: 6px 13px;
-    border: 1px solid #ddd
+    padding: 5px 50px;
+    border: 0 solid #ddd;
+    font-size: 0.9em
+    
 }
 
 .markdown-body table tr {
-    background-color: #fff;
-    border-top: 1px solid #ccc
+    background-color: white;
+    border-top: 1px solid #cccccc80
 }
 
 .markdown-body table tr: nth-child(2n) {
-    background-color: #f8f8f8
+    background-color: black
 }
 
 .markdown-body img {
@@ -1187,7 +1190,7 @@ ul.heading-list .hlink:before {
     color: #fff;
     font-weight: 700;
     background-color: #2d3748;
-    border-radius: 3px
+    border-radius: 10px
 }
 
 .markdown-body pre code {

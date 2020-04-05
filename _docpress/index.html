@@ -20,7 +20,9 @@
                   </li>
                   <li class="heading-item -depth-3"><a class="hlink link-concept" href="#concept">Concept</a>
                   </li>
-                  <li class="heading-item -depth-3"><a class="hlink link-tag" href="#tag">Tag</a>
+                  <li class="heading-item -depth-3"><a class="hlink link-tag-shorthand" href="#tag-shorthand">Tag Shorthand</a>
+                  </li>
+                  <li class="heading-item -depth-3"><a class="hlink link-tag-design" href="#tag-design">Tag Design</a>
                   </li>
                   <li class="heading-item -depth-3"><a class="hlink link-best-practice" href="#best-practice">Best Practice</a>
                   </li>
@@ -306,13 +308,27 @@
 <p><strong>Yogurt CSS</strong> using the humanized naming convention such as <code>font-size</code>, <code>padding</code>, <code>margin</code>, <code>line-height</code>, <code>color</code>, and so on, easy to reason about, easy to manipulate and more readable code. <strong>Yogurt CSS</strong> also delivers a balance between consistency and flexibility design without overwriting existing stylesheets and unlike other frameworks. Play well with your CSS, library, and frameworks. No side effects. Support up to 4k screen size enabled by default.</p>
 <h3 id="concept">Concept</h3>
 <p>The <code>margin</code>, <code>padding</code>, <code>font-size</code> and so on are considered utility components. Using the human-friendly CSS class naming (e.g. <code>border-</code> instead of <code>b-</code>) combines with values makes perfect sense to mix among the utilities to form a complex styling. The value is usually linear changing the properties of a utility in a very precise manipulation, which gives you low-level control over this framework. Almost all utilities can be configured with the responsive option, by combining the screen size <code>prefix</code> with a utility (e.g. <code>sm:text-md</code>, the text size in <code>md</code> value only activate on screen size <code>sm</code> as in screen width 640px).</p>
-<h3 id="tag">Tag</h3>
+<h3 id="tag-shorthand">Tag Shorthand</h3>
 <p>Yogurt CSS use <code>&lt;y&gt;</code> tag to replacing the use of <code>&lt;div&gt;</code> tag, which you still can use the <code>&lt;div&gt;</code> tag. The <code>&lt;y&gt;</code> is a branding and also to reduce letters from <code>&lt;div&gt;</code>. For example,</p>
 <pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">y</span>&gt;</span>
   Hello World!
 <span class="hljs-tag">&lt;/<span class="hljs-name">y</span>&gt;</span>
 </code></pre>
 <p>You can use <code>&lt;y&gt;</code> tag for almost everything, except for some standard HTML tags that cannot be replaced with <code>&lt;div&gt;</code>.</p>
+<h3 id="tag-design">Tag Design</h3>
+<p>Yogurt CSS tag design consists of 3 components,</p>
+<pre><code class="lang-html">{prefix}:{class}-{modifier}
+</code></pre>
+<ul>
+<li><strong>prefix</strong> ~ by adding <code>:</code> before the class, allow you to configure the utility variants such as <code>responsive</code>, <code>hover</code>, <code>group-hover</code>, <code>active</code>, and <code>focus</code>.</li>
+<li><strong>class</strong> ~ is an utility class name.</li>
+<li><strong>modifier</strong> ~ by adding <code>-</code> after the class, allow you to configure the utility values such as text size, color shades, spacing, effects and so on.</li>
+</ul>
+<pre><code class="lang-html"><span class="pl-c">&lt;!-- Example --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">y</span> <span class="hljs-attr">class</span>=<span class="pl-s">&quot;hover:text-charcoal-100&quot;</span>&gt;</span>
+  Text change color when hovered!
+<span class="hljs-tag">&lt;/<span class="hljs-name">y</span>&gt;</span>
+</code></pre>
 <h3 id="best-practice">Best Practice</h3>
 <p>When writing HTML with Yogurt CSS, the best way is to put the <code>class=&quot;&quot;</code> to a top <strong>vertical formation</strong> as the highest priority this is to give better reading visibility. Suggesting the <code>id=&quot;&quot;</code> will be the last.</p>
 <pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">y</span> <span class="hljs-attr">class</span>=<span class="pl-s">&quot;...&quot;</span>
