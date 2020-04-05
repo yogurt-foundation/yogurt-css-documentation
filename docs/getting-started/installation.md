@@ -64,7 +64,7 @@ Get to know how to tuning the framework that suit to your project:
 
 Start learning these utilities better to use the framework:
 
-> Navigate to your left menu.
+> Navigate from left menu.
 
 - Backgrounds
 - Borders
