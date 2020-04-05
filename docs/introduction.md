@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://yogurt-css-documentation.netlify.com/assets/yogurt_promo_01.jpg" height="auto" width="auto">
+  <img src="https://yogurt-css-documentation.netlify.com/assets/yogurt_promo_02.jpg" height="auto" width="auto">
 </p>
 
 A colossal low-level utility CSS framework for crafting beautiful and elegant user interface at an atomic level without writing a single line of CSS.
