@@ -46,4 +46,38 @@ $ yarn && yarn start
 
 **Note:** Using in-browser on-demand-cache to permanently store the Yogurt CSS with PWA (Progress Web App) feature. So that it only loads once maybe for its lifetime and also without the internet connection for the next load, this vastly improves load speed, reduce bandwidth and load time. (See examples [FX-Filter Previewer](https://fx-filter-previewer.netlify.com/), [FX-Gradient Previewer](https://fx-gradient-previewer.netlify.com/)).
 
+### What's next?
+
+Get to know the framework by understanding below 3 core concepts:
+
+- [Utility Design](../core-concepts/utility-design.md)
+- [Responsive Design](../core-concepts/responsive-design.md)
+- [Pseudo-Class Variant](../core-concepts/pseudo-class-variants.md)
+
+Get to know how to tuning the framework that suit to your project:
+
+- [Configuration](../customization/configuration.md)
+- [Breakpoints](../customization/breakpoints.md)
+- [Colors](../customization/colors.md)
+- [Spacing](../customization/spacing.md)
+- [Variants](../customization/variants.md)
+
+Start learning these utilities better to use the framework:
+
+> Navigate to your left menu.
+
+- Backgrounds
+- Borders
+- Effects
+- Filters
+- Flexbox
+- Interactivity
+- Layouts
+- Sizing
+- Spacing
+- SVG
+- Tables
+- Transforms
+- Transitions
+- Typography
 
