@@ -5,7 +5,7 @@ Utilities for controlling the display box type of an element.
 ### Usage
 
 | class |  | css properties |
-|---|---|---|
+|:--|:--|:--|
 | block |  | display: block |
 | hidden |  | display: none |
 | inline |  | display: inline |

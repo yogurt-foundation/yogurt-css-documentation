@@ -5,7 +5,7 @@ Utilities for controlling how an individual flex item is positioned along its co
 ### Usage
 
 | class |  | css properties |
-|---|---|---|
+|:--|:--|:--|
 | self-auto |  | align-self: auto |
 | self-start |  | align-self: flex-start |
 | self-center |  | align-self: center |

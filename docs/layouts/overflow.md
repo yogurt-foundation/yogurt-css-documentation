@@ -5,7 +5,7 @@ Utilities for controlling how an element handles content that is too large for t
 ### Usage
 
 | class |  | css properties |
-|---|---|---|
+|:--|:--|:--|
 | overflow-auto |  | overflow: auto |
 | overflow-hidden |  | overflow: hidden |
 | overflow-visible |  | overflow: visible |

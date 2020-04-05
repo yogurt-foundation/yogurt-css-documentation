@@ -5,7 +5,7 @@ A component for fixing an element's width to the current breakpoint.
 ### Usage
 
 | class | breakpoint | css properties |
-|---|---|---|
+|:--|:--|:--|
 | container | none | width: 100% |
 |   | xs (320px) | max-width: 320px |
 |   | sm (640px) | max-width: 640px |

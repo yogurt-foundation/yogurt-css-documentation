@@ -5,7 +5,7 @@ Utilities for controlling how flex items are positioned along a container's main
 ### Usage
 
 | class |  | css properties |
-|---|---|---|
+|:--|:--|:--|
 | justify-start |  | justify-content: flex-start |
 | justify-center |  | justify-content: center |
 | justify-end |  | justify-content: flex-end |

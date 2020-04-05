@@ -1112,6 +1112,7 @@ ul.heading-list .hlink:before {
     display: block;
     width: 100%;
     overflow: auto;
+    height: 300px
 }
 
 .markdown-body table th {
@@ -1121,10 +1122,13 @@ ul.heading-list .hlink:before {
 
 .markdown-body table td,
 .markdown-body table th {
-    padding: 5px 50px;
+    padding: 5px 40px;
     border: 0 solid #ddd;
-    font-size: 0.9em
-    
+    font-size: 0.9em;
+    white-space: nowrap;
+    max-width: 600px;
+    width: 100vw;
+    min-width: 120px;
 }
 
 .markdown-body table tr {
@@ -1284,9 +1288,11 @@ ul.heading-list .hlink:before {
 
 .markdown-body {
     margin: 0 auto;
-    max-width: 768px;
+    max-width: 100%;
     overflow: visible;
-    padding-bottom: 64px
+    padding-bottom: 64px;
+    padding-left: 30px;
+    padding-right: 30px
 }
 
 .markdown-body {
@@ -1456,7 +1462,7 @@ ul.heading-list .hlink:before {
 }
 
 .toc-menu::-webkit-scrollbar {
-    width: 9px
+    width: 13px
 }
 
 .toc-menu::-webkit-scrollbar-thumb {

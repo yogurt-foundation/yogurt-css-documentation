@@ -5,7 +5,7 @@ Utilities for controlling the order of flex items.
 ### Usage
 
 | class |  | css properties |
-|---|---|---|
+|:--|:--|:--|
 | order-first |  | order: -9999 |
 | order-last |  | order: 9999 |
 | order-none |  | order: 0 |

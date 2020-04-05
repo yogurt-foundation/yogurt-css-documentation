@@ -5,7 +5,7 @@ Utilities for controlling the stack order of an element.
 ### Usage
 
 | class |  | css properties |
-|---|---|---|
+|:--|:--|:--|
 | z-0 |  | z-index: 0 |
 | .z-10 |  | z-index: 10 |
 | z-20 |  | z-index: 20 |

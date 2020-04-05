@@ -379,103 +379,341 @@
             "title": "Font Family",
             "source": "docs/typography/font-family.md",
             "url": "typography/font-family.html",
-            "slug": "typographyfont-family"
+            "slug": "typographyfont-family",
+            "headings": [
+              {
+                "title": "Font Family",
+                "depth": 2,
+                "id": "font-family",
+                "headings": [
+                  {
+                    "title": "Usage",
+                    "depth": 3,
+                    "id": "usage"
+                  }
+                ]
+              }
+            ]
           },
           {
             "title": "Font Size",
             "source": "docs/typography/font-size.md",
             "url": "typography/font-size.html",
-            "slug": "typographyfont-size"
+            "slug": "typographyfont-size",
+            "headings": [
+              {
+                "title": "Font Size",
+                "depth": 2,
+                "id": "font-size",
+                "headings": [
+                  {
+                    "title": "Usage",
+                    "depth": 3,
+                    "id": "usage"
+                  }
+                ]
+              }
+            ]
           },
           {
             "title": "Font Smoothing",
             "source": "docs/typography/font-smoothing.md",
             "url": "typography/font-smoothing.html",
-            "slug": "typographyfont-smoothing"
+            "slug": "typographyfont-smoothing",
+            "headings": [
+              {
+                "title": "Font Smoothing",
+                "depth": 2,
+                "id": "font-smoothing",
+                "headings": [
+                  {
+                    "title": "Usage",
+                    "depth": 3,
+                    "id": "usage"
+                  }
+                ]
+              }
+            ]
           },
           {
             "title": "Font Style",
             "source": "docs/typography/font-style.md",
             "url": "typography/font-style.html",
-            "slug": "typographyfont-style"
+            "slug": "typographyfont-style",
+            "headings": [
+              {
+                "title": "Font Style",
+                "depth": 2,
+                "id": "font-style",
+                "headings": [
+                  {
+                    "title": "Usage",
+                    "depth": 3,
+                    "id": "usage"
+                  }
+                ]
+              }
+            ]
           },
           {
             "title": "Font Weight",
             "source": "docs/typography/font-weight.md",
             "url": "typography/font-weight.html",
-            "slug": "typographyfont-weight"
+            "slug": "typographyfont-weight",
+            "headings": [
+              {
+                "title": "Font Style",
+                "depth": 2,
+                "id": "font-style",
+                "headings": [
+                  {
+                    "title": "Usage",
+                    "depth": 3,
+                    "id": "usage"
+                  }
+                ]
+              }
+            ]
           },
           {
             "title": "Letter Spacing",
             "source": "docs/typography/letter-spacing.md",
             "url": "typography/letter-spacing.html",
-            "slug": "typographyletter-spacing"
+            "slug": "typographyletter-spacing",
+            "headings": [
+              {
+                "title": "Letter Spacing",
+                "depth": 2,
+                "id": "letter-spacing",
+                "headings": [
+                  {
+                    "title": "Usage",
+                    "depth": 3,
+                    "id": "usage"
+                  }
+                ]
+              }
+            ]
           },
           {
             "title": "Line Height",
             "source": "docs/typography/line-height.md",
             "url": "typography/line-height.html",
-            "slug": "typographyline-height"
+            "slug": "typographyline-height",
+            "headings": [
+              {
+                "title": "Line Height",
+                "depth": 2,
+                "id": "line-height",
+                "headings": [
+                  {
+                    "title": "Usage",
+                    "depth": 3,
+                    "id": "usage"
+                  }
+                ]
+              }
+            ]
           },
           {
             "title": "List Style Type",
             "source": "docs/typography/list-style-type.md",
             "url": "typography/list-style-type.html",
-            "slug": "typographylist-style-type"
+            "slug": "typographylist-style-type",
+            "headings": [
+              {
+                "title": "List Stype Type",
+                "depth": 2,
+                "id": "list-stype-type",
+                "headings": [
+                  {
+                    "title": "Usage",
+                    "depth": 3,
+                    "id": "usage"
+                  }
+                ]
+              }
+            ]
           },
           {
             "title": "List Style Position",
             "source": "docs/typography/list-style-position.md",
             "url": "typography/list-style-position.html",
-            "slug": "typographylist-style-position"
+            "slug": "typographylist-style-position",
+            "headings": [
+              {
+                "title": "List Stype Position",
+                "depth": 2,
+                "id": "list-stype-position",
+                "headings": [
+                  {
+                    "title": "Usage",
+                    "depth": 3,
+                    "id": "usage"
+                  }
+                ]
+              }
+            ]
           },
           {
             "title": "Placeholder Color",
             "source": "docs/typography/placeholder-color.md",
             "url": "typography/placeholder-color.html",
-            "slug": "typographyplaceholder-color"
+            "slug": "typographyplaceholder-color",
+            "headings": [
+              {
+                "title": "Placeholder Color",
+                "depth": 2,
+                "id": "placeholder-color",
+                "headings": [
+                  {
+                    "title": "Usage",
+                    "depth": 3,
+                    "id": "usage"
+                  }
+                ]
+              }
+            ]
           },
           {
             "title": "Text Align",
             "source": "docs/typography/text-align.md",
             "url": "typography/text-align.html",
-            "slug": "typographytext-align"
+            "slug": "typographytext-align",
+            "headings": [
+              {
+                "title": "Text Align",
+                "depth": 2,
+                "id": "text-align",
+                "headings": [
+                  {
+                    "title": "Usage",
+                    "depth": 3,
+                    "id": "usage"
+                  }
+                ]
+              }
+            ]
           },
           {
             "title": "Text Color",
             "source": "docs/typography/text-color.md",
             "url": "typography/text-color.html",
-            "slug": "typographytext-color"
+            "slug": "typographytext-color",
+            "headings": [
+              {
+                "title": "Text Color",
+                "depth": 2,
+                "id": "text-color",
+                "headings": [
+                  {
+                    "title": "Usage",
+                    "depth": 3,
+                    "id": "usage"
+                  }
+                ]
+              }
+            ]
           },
           {
             "title": "Text Decoration",
             "source": "docs/typography/text-decoration.md",
             "url": "typography/text-decoration.html",
-            "slug": "typographytext-decoration"
+            "slug": "typographytext-decoration",
+            "headings": [
+              {
+                "title": "Text Decoration",
+                "depth": 2,
+                "id": "text-decoration",
+                "headings": [
+                  {
+                    "title": "Usage",
+                    "depth": 3,
+                    "id": "usage"
+                  }
+                ]
+              }
+            ]
           },
           {
             "title": "Text Transform",
             "source": "docs/typography/text-transform.md",
             "url": "typography/text-transform.html",
-            "slug": "typographytext-transform"
+            "slug": "typographytext-transform",
+            "headings": [
+              {
+                "title": "Text Transform",
+                "depth": 2,
+                "id": "text-transform",
+                "headings": [
+                  {
+                    "title": "Usage",
+                    "depth": 3,
+                    "id": "usage"
+                  }
+                ]
+              }
+            ]
           },
           {
             "title": "Vertical Align",
             "source": "docs/typography/vertical-align.md",
             "url": "typography/vertical-align.html",
-            "slug": "typographyvertical-align"
+            "slug": "typographyvertical-align",
+            "headings": [
+              {
+                "title": "Vertical Align",
+                "depth": 2,
+                "id": "vertical-align",
+                "headings": [
+                  {
+                    "title": "Usage",
+                    "depth": 3,
+                    "id": "usage"
+                  }
+                ]
+              }
+            ]
           },
           {
             "title": "Whitespace",
             "source": "docs/typography/whitespace.md",
             "url": "typography/whitespace.html",
-            "slug": "typographywhitespace"
+            "slug": "typographywhitespace",
+            "headings": [
+              {
+                "title": "Whitespace",
+                "depth": 2,
+                "id": "whitespace",
+                "headings": [
+                  {
+                    "title": "Usage",
+                    "depth": 3,
+                    "id": "usage"
+                  }
+                ]
+              }
+            ]
           },
           {
             "title": "Word Break",
             "source": "docs/typography/word-break.md",
             "url": "typography/word-break.html",
-            "slug": "typographyword-break"
+            "slug": "typographyword-break",
+            "headings": [
+              {
+                "title": "Word Break",
+                "depth": 2,
+                "id": "word-break",
+                "headings": [
+                  {
+                    "title": "Usage",
+                    "depth": 3,
+                    "id": "usage"
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -1331,103 +1569,341 @@
       "source": "docs/typography/font-family.md",
       "title": "Font Family - Introduction",
       "pageTitle": "Font Family",
-      "slug": "typographyfont-family"
+      "slug": "typographyfont-family",
+      "headings": [
+        {
+          "title": "Font Family",
+          "depth": 2,
+          "id": "font-family",
+          "headings": [
+            {
+              "title": "Usage",
+              "depth": 3,
+              "id": "usage"
+            }
+          ]
+        }
+      ]
     },
     "typography/font-size.html": {
       "source": "docs/typography/font-size.md",
       "title": "Font Size - Introduction",
       "pageTitle": "Font Size",
-      "slug": "typographyfont-size"
+      "slug": "typographyfont-size",
+      "headings": [
+        {
+          "title": "Font Size",
+          "depth": 2,
+          "id": "font-size",
+          "headings": [
+            {
+              "title": "Usage",
+              "depth": 3,
+              "id": "usage"
+            }
+          ]
+        }
+      ]
     },
     "typography/font-smoothing.html": {
       "source": "docs/typography/font-smoothing.md",
       "title": "Font Smoothing - Introduction",
       "pageTitle": "Font Smoothing",
-      "slug": "typographyfont-smoothing"
+      "slug": "typographyfont-smoothing",
+      "headings": [
+        {
+          "title": "Font Smoothing",
+          "depth": 2,
+          "id": "font-smoothing",
+          "headings": [
+            {
+              "title": "Usage",
+              "depth": 3,
+              "id": "usage"
+            }
+          ]
+        }
+      ]
     },
     "typography/font-style.html": {
       "source": "docs/typography/font-style.md",
       "title": "Font Style - Introduction",
       "pageTitle": "Font Style",
-      "slug": "typographyfont-style"
+      "slug": "typographyfont-style",
+      "headings": [
+        {
+          "title": "Font Style",
+          "depth": 2,
+          "id": "font-style",
+          "headings": [
+            {
+              "title": "Usage",
+              "depth": 3,
+              "id": "usage"
+            }
+          ]
+        }
+      ]
     },
     "typography/font-weight.html": {
       "source": "docs/typography/font-weight.md",
       "title": "Font Weight - Introduction",
       "pageTitle": "Font Weight",
-      "slug": "typographyfont-weight"
+      "slug": "typographyfont-weight",
+      "headings": [
+        {
+          "title": "Font Style",
+          "depth": 2,
+          "id": "font-style",
+          "headings": [
+            {
+              "title": "Usage",
+              "depth": 3,
+              "id": "usage"
+            }
+          ]
+        }
+      ]
     },
     "typography/letter-spacing.html": {
       "source": "docs/typography/letter-spacing.md",
       "title": "Letter Spacing - Introduction",
       "pageTitle": "Letter Spacing",
-      "slug": "typographyletter-spacing"
+      "slug": "typographyletter-spacing",
+      "headings": [
+        {
+          "title": "Letter Spacing",
+          "depth": 2,
+          "id": "letter-spacing",
+          "headings": [
+            {
+              "title": "Usage",
+              "depth": 3,
+              "id": "usage"
+            }
+          ]
+        }
+      ]
     },
     "typography/line-height.html": {
       "source": "docs/typography/line-height.md",
       "title": "Line Height - Introduction",
       "pageTitle": "Line Height",
-      "slug": "typographyline-height"
+      "slug": "typographyline-height",
+      "headings": [
+        {
+          "title": "Line Height",
+          "depth": 2,
+          "id": "line-height",
+          "headings": [
+            {
+              "title": "Usage",
+              "depth": 3,
+              "id": "usage"
+            }
+          ]
+        }
+      ]
     },
     "typography/list-style-type.html": {
       "source": "docs/typography/list-style-type.md",
       "title": "List Style Type - Introduction",
       "pageTitle": "List Style Type",
-      "slug": "typographylist-style-type"
+      "slug": "typographylist-style-type",
+      "headings": [
+        {
+          "title": "List Stype Type",
+          "depth": 2,
+          "id": "list-stype-type",
+          "headings": [
+            {
+              "title": "Usage",
+              "depth": 3,
+              "id": "usage"
+            }
+          ]
+        }
+      ]
     },
     "typography/list-style-position.html": {
       "source": "docs/typography/list-style-position.md",
       "title": "List Style Position - Introduction",
       "pageTitle": "List Style Position",
-      "slug": "typographylist-style-position"
+      "slug": "typographylist-style-position",
+      "headings": [
+        {
+          "title": "List Stype Position",
+          "depth": 2,
+          "id": "list-stype-position",
+          "headings": [
+            {
+              "title": "Usage",
+              "depth": 3,
+              "id": "usage"
+            }
+          ]
+        }
+      ]
     },
     "typography/placeholder-color.html": {
       "source": "docs/typography/placeholder-color.md",
       "title": "Placeholder Color - Introduction",
       "pageTitle": "Placeholder Color",
-      "slug": "typographyplaceholder-color"
+      "slug": "typographyplaceholder-color",
+      "headings": [
+        {
+          "title": "Placeholder Color",
+          "depth": 2,
+          "id": "placeholder-color",
+          "headings": [
+            {
+              "title": "Usage",
+              "depth": 3,
+              "id": "usage"
+            }
+          ]
+        }
+      ]
     },
     "typography/text-align.html": {
       "source": "docs/typography/text-align.md",
       "title": "Text Align - Introduction",
       "pageTitle": "Text Align",
-      "slug": "typographytext-align"
+      "slug": "typographytext-align",
+      "headings": [
+        {
+          "title": "Text Align",
+          "depth": 2,
+          "id": "text-align",
+          "headings": [
+            {
+              "title": "Usage",
+              "depth": 3,
+              "id": "usage"
+            }
+          ]
+        }
+      ]
     },
     "typography/text-color.html": {
       "source": "docs/typography/text-color.md",
       "title": "Text Color - Introduction",
       "pageTitle": "Text Color",
-      "slug": "typographytext-color"
+      "slug": "typographytext-color",
+      "headings": [
+        {
+          "title": "Text Color",
+          "depth": 2,
+          "id": "text-color",
+          "headings": [
+            {
+              "title": "Usage",
+              "depth": 3,
+              "id": "usage"
+            }
+          ]
+        }
+      ]
     },
     "typography/text-decoration.html": {
       "source": "docs/typography/text-decoration.md",
       "title": "Text Decoration - Introduction",
       "pageTitle": "Text Decoration",
-      "slug": "typographytext-decoration"
+      "slug": "typographytext-decoration",
+      "headings": [
+        {
+          "title": "Text Decoration",
+          "depth": 2,
+          "id": "text-decoration",
+          "headings": [
+            {
+              "title": "Usage",
+              "depth": 3,
+              "id": "usage"
+            }
+          ]
+        }
+      ]
     },
     "typography/text-transform.html": {
       "source": "docs/typography/text-transform.md",
       "title": "Text Transform - Introduction",
       "pageTitle": "Text Transform",
-      "slug": "typographytext-transform"
+      "slug": "typographytext-transform",
+      "headings": [
+        {
+          "title": "Text Transform",
+          "depth": 2,
+          "id": "text-transform",
+          "headings": [
+            {
+              "title": "Usage",
+              "depth": 3,
+              "id": "usage"
+            }
+          ]
+        }
+      ]
     },
     "typography/vertical-align.html": {
       "source": "docs/typography/vertical-align.md",
       "title": "Vertical Align - Introduction",
       "pageTitle": "Vertical Align",
-      "slug": "typographyvertical-align"
+      "slug": "typographyvertical-align",
+      "headings": [
+        {
+          "title": "Vertical Align",
+          "depth": 2,
+          "id": "vertical-align",
+          "headings": [
+            {
+              "title": "Usage",
+              "depth": 3,
+              "id": "usage"
+            }
+          ]
+        }
+      ]
     },
     "typography/whitespace.html": {
       "source": "docs/typography/whitespace.md",
       "title": "Whitespace - Introduction",
       "pageTitle": "Whitespace",
-      "slug": "typographywhitespace"
+      "slug": "typographywhitespace",
+      "headings": [
+        {
+          "title": "Whitespace",
+          "depth": 2,
+          "id": "whitespace",
+          "headings": [
+            {
+              "title": "Usage",
+              "depth": 3,
+              "id": "usage"
+            }
+          ]
+        }
+      ]
     },
     "typography/word-break.html": {
       "source": "docs/typography/word-break.md",
       "title": "Word Break - Introduction",
       "pageTitle": "Word Break",
-      "slug": "typographyword-break"
+      "slug": "typographyword-break",
+      "headings": [
+        {
+          "title": "Word Break",
+          "depth": 2,
+          "id": "word-break",
+          "headings": [
+            {
+              "title": "Usage",
+              "depth": 3,
+              "id": "usage"
+            }
+          ]
+        }
+      ]
     },
     "spacing/margin.html": {
       "source": "docs/spacing/margin.md",

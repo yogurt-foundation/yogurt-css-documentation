@@ -5,7 +5,7 @@ Utilities for controlling how a replaced element's content should be positioned 
 ### Usage
 
 | class |  | css properties |
-|---|---|---|
+|:--|:--|:--|
 | object-bottom |  | object-position: bottom |
 | object-center |  | object-position: center |
 | object-left |  | object-position: left |
