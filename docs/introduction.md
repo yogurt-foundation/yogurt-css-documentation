@@ -53,7 +53,7 @@ Yogurt CSS tag design consists of 3 components,
 ```
 
 - **prefix** ~ by adding `:` before the class, allow you to manipulate the utility variants such as `responsive`, `hover`, `group-hover`, `active`, and `focus`.
-- **class** ~ is an utility class name.
+- **class** ~ is an utility class name (e.g. text, border, flex, cursor and so on).
 - **modifier** ~ by adding `-` after the class, allow you to precisely manipulate the utility values such as text size, color shades, spacing, effects, filters and so on.
 
 ```html
