@@ -25,7 +25,7 @@ A colossal low-level utility CSS framework for crafting beautiful and elegant us
 
 ### Introduction
 
-**Yogurt CSS** using the humanized naming convention such as `font-size`, `padding`, `margin`, `line-height`, `color`, and so on, easy to reason about, easy to manipulate and more readable code. **Yogurt CSS** also delivers a balance between consistency and flexibility design without overwriting existing stylesheets and unlike other frameworks. Play well with your CSS, library, and frameworks. No side effects. Support up to 4k screen size enabled by default.
+**Yogurt CSS** using the humanized naming convention such as `font-size`, `padding`, `margin`, `line-height`, `color`, and so on, easy to reason about, easy to manipulate and more readable code. Yogurt CSS also delivers a balance between consistency and flexibility design without overwriting existing stylesheets and unlike other frameworks. Play well with your CSS, library, and frameworks. No side effects. Support up to 4k screen size enabled by default.
 
 ### Concept
 
