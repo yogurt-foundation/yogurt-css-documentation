@@ -2,7 +2,7 @@
 
 ## Border Color
 
-Utilities for controlling the color of an element's borders.
+Utilities for manipulating the color of an element's borders.
 
 ### Usage
 

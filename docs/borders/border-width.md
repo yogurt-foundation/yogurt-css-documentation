@@ -2,7 +2,7 @@
 
 ## Border Width
 
-Utilities for controlling the width of an element's borders.
+Utilities for manipulating the width of an element's borders.
 
 ### Usage
 

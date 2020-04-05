@@ -2,7 +2,7 @@
 
 ## Align Content
 
-Utilities for controlling how lines are positioned in multi-line flex containers.
+Utilities for manipulating how lines are positioned in multi-line flex containers.
 
 ### Usage
 

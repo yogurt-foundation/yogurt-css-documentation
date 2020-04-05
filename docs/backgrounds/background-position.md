@@ -2,7 +2,7 @@
 
 ## Background Position
 
-Utilities for controlling the position of an element's background image.
+Utilities for manipulating the position of an element's background image.
 
 ### Usage
 

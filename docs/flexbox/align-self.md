@@ -2,7 +2,7 @@
 
 ## Align Self
 
-Utilities for controlling how an individual flex item is positioned along its container's cross axis.
+Utilities for manipulating how an individual flex item is positioned along its container's cross axis.
 
 ### Usage
 

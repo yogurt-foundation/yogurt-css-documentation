@@ -2,7 +2,7 @@
 
 ## Text Decoration
 
-Utilities for controlling the decoration of text.
+Utilities for manipulating the decoration of text.
 
 ### Usage
 

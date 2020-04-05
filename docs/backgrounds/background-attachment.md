@@ -2,7 +2,7 @@
 
 ## Background Attachment
 
-Utilities for controlling how a background image behaves when scrolling.
+Utilities for manipulating how a background image behaves when scrolling.
 
 ### Usage
 

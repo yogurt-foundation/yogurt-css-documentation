@@ -2,7 +2,7 @@
 
 ## Justify Content
 
-Utilities for controlling how flex items are positioned along a container's main axis.
+Utilities for manipulating how flex items are positioned along a container's main axis.
 
 ### Usage
 

@@ -2,7 +2,7 @@
 
 ## Border Style
 
-Utilities for controlling the style of an element's borders.
+Utilities for manipulating the style of an element's borders.
 
 ### Usage
 

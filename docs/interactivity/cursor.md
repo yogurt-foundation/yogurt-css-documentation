@@ -2,7 +2,7 @@
 
 ## Cursor
 
-Utilities for controlling the cursor style when hovering over an element.
+Utilities for manipulating the cursor style when hovering over an element.
 
 ### Usage
 

@@ -2,7 +2,7 @@
 
 ## Font Style
 
-Utilities for controlling the style of text.
+Utilities for manipulating the style of text.
 
 ### Usage
 

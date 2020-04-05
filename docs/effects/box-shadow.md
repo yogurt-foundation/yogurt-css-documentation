@@ -2,7 +2,7 @@
 
 ## Box Shadow
 
-Utilities for controlling the box shadow of an element.
+Utilities for manipulating the box shadow of an element.
 
 ### Usage
 

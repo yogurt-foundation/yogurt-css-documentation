@@ -2,7 +2,7 @@
 
 ## Transition Duration
 
-Utilities for controlling the duration of CSS transitions
+Utilities for manipulating the duration of CSS transitions
 
 ### Usage
 

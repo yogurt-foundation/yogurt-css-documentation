@@ -2,7 +2,7 @@
 
 ## Order
 
-Utilities for controlling the order of flex items.
+Utilities for manipulating the order of flex items.
 
 ### Usage
 

@@ -46,7 +46,7 @@ You can use `<y>` tag for almost everything, except for some standard HTML tags 
 
 ### Tag Design
 
-Yogurt CSS tag design consists of 3 components, 
+Yogurt CSS tag design consists of 3 components,
 
 ```html
 {prefix}:{class}-{modifier}

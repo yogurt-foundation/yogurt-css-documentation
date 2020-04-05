@@ -2,7 +2,7 @@
 
 ## Pointer Events
 
-Utilities for controlling whether an element responds to pointer events.
+Utilities for manipulating whether an element responds to pointer events.
 
 ### Usage
 

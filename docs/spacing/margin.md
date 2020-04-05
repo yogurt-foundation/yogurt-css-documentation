@@ -2,7 +2,7 @@
 
 ## Margin
 
-Utilities for controlling an element's margin.
+Utilities for manipulating an element's margin.
 
 ### Usage
 

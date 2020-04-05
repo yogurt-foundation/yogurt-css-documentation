@@ -2,7 +2,7 @@
 
 ## Flex Shrink
 
-Utilities for controlling how flex items shrink.
+Utilities for manipulating how flex items shrink.
 
 ### Usage
 

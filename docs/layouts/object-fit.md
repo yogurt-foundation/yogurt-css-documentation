@@ -2,7 +2,7 @@
 
 ## Object Fit
 
-Utilities for controlling how a replaced element's content should be resized.
+Utilities for manipulating how a replaced element's content should be resized.
 
 ### Usage
 

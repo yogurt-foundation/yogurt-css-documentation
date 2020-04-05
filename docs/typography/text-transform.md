@@ -2,7 +2,7 @@
 
 ## Text Transform
 
-Utilities for controlling the transformation of text.
+Utilities for manipulating the transformation of text.
 
 ### Usage
 

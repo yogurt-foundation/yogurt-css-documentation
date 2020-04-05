@@ -2,7 +2,7 @@
 
 ## List Stype Position
 
-Utilities for controlling the position of bullets/numbers in lists.
+Utilities for manipulating the position of bullets/numbers in lists.
 
 ### Usage
 

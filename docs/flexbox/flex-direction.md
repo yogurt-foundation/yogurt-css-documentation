@@ -2,7 +2,7 @@
 
 ## Flex Direction
 
-Utilities for controlling the direction of flex items.
+Utilities for manipulating the direction of flex items.
 
 ### Usage
 

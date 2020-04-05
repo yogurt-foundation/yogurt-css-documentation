@@ -2,7 +2,7 @@
 
 ## Resize
 
-Utilities for controlling how an element can be resized.
+Utilities for manipulating how an element can be resized.
 
 ### Usage
 

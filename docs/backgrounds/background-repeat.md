@@ -2,7 +2,7 @@
 
 ## Background Repeat
 
-Utilities for controlling the repetition of an element's background image.
+Utilities for manipulating the repetition of an element's background image.
 
 ### Usage
 

@@ -2,7 +2,7 @@
 
 ## Vertical Align
 
-Utilities for controlling the vertical alignment of an inline or table-cell box.
+Utilities for manipulating the vertical alignment of an inline or table-cell box.
 
 ### Usage
 

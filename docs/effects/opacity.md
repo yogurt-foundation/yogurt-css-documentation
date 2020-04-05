@@ -2,7 +2,7 @@
 
 ## Opacity
 
-Utilities for controlling the opacity of an element.
+Utilities for manipulating the opacity of an element.
 
 ### Usage
 

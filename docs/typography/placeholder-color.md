@@ -2,7 +2,7 @@
 
 ## Placeholder Color
 
-Utilities for controlling the color of placeholder text.
+Utilities for manipulating the color of placeholder text.
 
 ### Usage
 

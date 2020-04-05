@@ -2,7 +2,7 @@
 
 ## List Stype Type
 
-Utilities for controlling the bullet/number style of a list.
+Utilities for manipulating the bullet/number style of a list.
 
 ### Usage
 

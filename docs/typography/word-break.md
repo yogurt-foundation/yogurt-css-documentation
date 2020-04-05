@@ -2,7 +2,7 @@
 
 ## Word Break
 
-Utilities for controlling word breaks in an element.
+Utilities for manipulating word breaks in an element.
 
 ### Usage
 

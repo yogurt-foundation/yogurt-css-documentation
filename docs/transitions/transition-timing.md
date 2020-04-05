@@ -2,7 +2,7 @@
 
 ## Transition Timing
 
-Utilities for controlling the easing of CSS transitions
+Utilities for manipulating the easing of CSS transitions
 
 ### Usage
 

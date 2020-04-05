@@ -2,7 +2,7 @@
 
 ## Flex Wrap
 
-Utilities for controlling how flex items wrap.
+Utilities for manipulating how flex items wrap.
 
 ### Usage
 

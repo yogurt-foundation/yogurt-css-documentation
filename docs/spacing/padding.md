@@ -2,7 +2,7 @@
 
 ## Padding
 
-Utilities for controlling an element's padding
+Utilities for manipulating an element's padding
 
 ### Usage
 

@@ -2,7 +2,7 @@
 
 ## Outline
 
-Utilities for controlling an element's outline.
+Utilities for manipulating an element's outline.
 
 ### Usage
 

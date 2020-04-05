@@ -2,7 +2,7 @@
 
 ## Font Family
 
-Utilities for controlling the font family of an element.
+Utilities for manipulating the font family of an element.
 
 ### Usage
 

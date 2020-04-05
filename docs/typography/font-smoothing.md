@@ -2,7 +2,7 @@
 
 ## Font Smoothing
 
-Utilities for controlling the font smoothing of an element.
+Utilities for manipulating the font smoothing of an element.
 
 ### Usage
 

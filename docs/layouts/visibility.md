@@ -2,7 +2,7 @@
 
 ## Visibility
 
-Utilities for controlling the visibility of an element.
+Utilities for manipulating the visibility of an element.
 
 ### Usage
 

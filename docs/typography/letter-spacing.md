@@ -2,7 +2,7 @@
 
 ## Letter Spacing
 
-Utilities for controlling the letter spacing of an element.
+Utilities for manipulating the letter spacing of an element.
 
 ### Usage
 
