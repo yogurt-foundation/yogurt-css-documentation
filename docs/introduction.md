@@ -68,6 +68,7 @@ Yogurt CSS tag design consists of 3 components,
 When writing HTML with Yogurt CSS, the best way is to put the `class=""` to a top **vertical formation** as the highest priority this is to give better reading visibility. Suggesting the `id=""` will be the last.
 
 ```html
+<!-- Example -->
 <y class="..."
    title="..."
    id="...">
