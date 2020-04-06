@@ -96,6 +96,11 @@
                     "title": "Modern Breakpoints",
                     "depth": 3,
                     "id": "modern-breakpoints"
+                  },
+                  {
+                    "title": "Customizing Breakpoints",
+                    "depth": 3,
+                    "id": "customizing-breakpoints"
                   }
                 ]
               }
@@ -1864,6 +1869,11 @@
               "title": "Modern Breakpoints",
               "depth": 3,
               "id": "modern-breakpoints"
+            },
+            {
+              "title": "Customizing Breakpoints",
+              "depth": 3,
+              "id": "customizing-breakpoints"
             }
           ]
         }

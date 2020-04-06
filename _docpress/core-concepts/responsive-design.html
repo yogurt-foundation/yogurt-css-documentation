@@ -34,6 +34,8 @@
                           </li>
                           <li class="heading-item -depth-3"><a class="hlink link-modern-breakpoints" href="#modern-breakpoints">Modern Breakpoints</a>
                           </li>
+                          <li class="heading-item -depth-3"><a class="hlink link-customizing-breakpoints" href="#customizing-breakpoints">Customizing Breakpoints</a>
+                          </li>
                         </ul>
                       </li>
                     </ul>
@@ -338,6 +340,24 @@
   ...
 <span class="hljs-tag">&lt;/<span class="hljs-name">y</span>&gt;</span>
 </code></pre>
+<h3 id="customizing-breakpoints">Customizing Breakpoints</h3>
+<p>To completely customize breakpoints is in the <code>_constant.scss</code> file,</p>
+<pre><code class="lang-scss"><span class="pl-c">// _constants.scss</span>
+<span class="hljs-variable">$screens</span>:
+  (xs, <span class="hljs-number">320px</span>), // (primitive)
+  (sm, <span class="hljs-number">640px</span>),
+  (md, <span class="hljs-number">768px</span>),
+  (lg, <span class="hljs-number">1024px</span>),
+  (xl, <span class="hljs-number">1280px</span>),
+  (\<span class="hljs-number">32</span>k, <span class="hljs-number">1920px</span>), // <span class="hljs-number">2</span>k
+  (\<span class="hljs-number">33</span>k, <span class="hljs-number">2560px</span>), // <span class="hljs-number">3</span>k
+  (\<span class="hljs-number">34</span>k, <span class="hljs-number">3840px</span>), // <span class="hljs-number">4</span>k
+  (\<span class="hljs-number">35</span>k, <span class="hljs-number">5120px</span>), // <span class="hljs-number">5</span>k
+  (\<span class="hljs-number">36</span>k, <span class="hljs-number">5760px</span>), // <span class="hljs-number">6</span>k
+  (\<span class="hljs-number">37</span>k, <span class="hljs-number">7000px</span>), // <span class="hljs-number">7</span>k
+  (\<span class="hljs-number">38</span>k, <span class="hljs-number">7680px</span>); <span class="pl-c">// 8k</span>
+</code></pre>
+<p>Learn more in the <a href="../customization/breakpoints.html">customizing breakpoints</a> page.</p>
 
         </div>
         <div class="footer-nav">
