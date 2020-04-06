@@ -51,7 +51,7 @@ $ yarn && yarn start
 
 Get to know the framework by understanding below 3 core concepts:
 
-- [Utility Design](../core-concepts/utility-by-design.md)
+- [Utility By Design](../core-concepts/utility-by-design.md)
 - [Responsive Design](../core-concepts/responsive-design.md)
 - [Pseudo-Class Variant](../core-concepts/pseudo-class-variants.md)
 
