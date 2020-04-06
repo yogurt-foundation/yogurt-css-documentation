@@ -101,11 +101,6 @@
                     "title": "Customizing Breakpoints",
                     "depth": 3,
                     "id": "customizing-breakpoints"
-                  },
-                  {
-                    "title": "Create Custom Responsive",
-                    "depth": 3,
-                    "id": "create-custom-responsive"
                   }
                 ]
               }
@@ -1913,11 +1908,6 @@
               "title": "Customizing Breakpoints",
               "depth": 3,
               "id": "customizing-breakpoints"
-            },
-            {
-              "title": "Create Custom Responsive",
-              "depth": 3,
-              "id": "create-custom-responsive"
             }
           ]
         }

@@ -102,7 +102,7 @@ Learn more in the [customizing breakpoints](../customization/breakpoints.md) pag
 
 Not all responsive utilities are having all sorts of pseudo-class variants enabled by default, this is to control the default package file size from getting larger. But, you can create your own responsive variants for pseudo-classes.
 
-For example, each utility module file has a variant section that consists of `hover`, `focus`, `active` and so on. You need to add `@include()` function to a specific placeholder following by the `UTILITY_NAME` (e.g. fontSize), last add the arguments `"", "", ""` to look like below to enable the variant you need.
+For example, each utility module file has a variant section that consists of `hover`, `focus`, `active` and so on. You need to add `@include()` function to a specific placeholder following by the `UTILITY_NAME` (e.g. textColorBlack), last add the arguments `"", "", ""` to look like below to enable the variant you need.
 
 ```scss
 // @file `_responsive.scss`

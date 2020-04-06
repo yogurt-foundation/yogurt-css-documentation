@@ -36,8 +36,6 @@
                           </li>
                           <li class="heading-item -depth-3"><a class="hlink link-customizing-breakpoints" href="#customizing-breakpoints">Customizing Breakpoints</a>
                           </li>
-                          <li class="heading-item -depth-3"><a class="hlink link-create-custom-responsive" href="#create-custom-responsive">Create Custom Responsive</a>
-                          </li>
                         </ul>
                       </li>
                     </ul>
@@ -363,7 +361,7 @@
 <p>Learn more in the <a href="../customization/breakpoints.html">customizing breakpoints</a> page.</p>
 <h3 id="create-custom-responsive">Create Custom Responsive</h3>
 <p>Not all responsive utilities are having all sorts of pseudo-class variants enabled by default, this is to control the default package file size from getting larger. But, you can create your own responsive variants for pseudo-classes.</p>
-<p>For example, each utility module file has a variant section that consists of <code>hover</code>, <code>focus</code>, <code>active</code> and so on. You need to add <code>@include()</code> function to a specific placeholder following by the <code>UTILITY_NAME</code> (e.g. fontSize), last add the arguments <code>&quot;&quot;, &quot;&quot;, &quot;&quot;</code> to look like below to enable the variant you need.</p>
+<p>For example, each utility module file has a variant section that consists of <code>hover</code>, <code>focus</code>, <code>active</code> and so on. You need to add <code>@include()</code> function to a specific placeholder following by the <code>UTILITY_NAME</code> (e.g. textColorBlack), last add the arguments <code>&quot;&quot;, &quot;&quot;, &quot;&quot;</code> to look like below to enable the variant you need.</p>
 <pre><code class="lang-scss"><span class="pl-c">// @file `_responsive.scss`</span>
 
 <span class="pl-c">// hover</span>

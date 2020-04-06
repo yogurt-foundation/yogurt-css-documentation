@@ -53,25 +53,25 @@ Add the `active:` prefix to an utility to enable on-active.
 
 Not all utilities are having all sorts of pseudo-class variants enabled by default, this is to control the default package file size from getting larger. But, you can create your own variants for pseudo-classes.
 
-For example, each utility module file has a variant section that consists of `hover`, `focus`, `active` and so on. You need to add `@include()` function to a specific placeholder following by the `UTILITY_NAME` (e.g. fontSize), last add the arguments `"", "", ""` to look like below to enable the variant you need.
+For example, each utility module file has a variant section that consists of `hover`, `focus`, `active` and so on. You need to add `@include()` function to a specific placeholder following by the `UTILITY_NAME` (e.g. textColorBlack), last add the arguments `"", "", ""` to look like below to enable the variant you need.
 
 ```scss
 // @file `utilities/typography/_fontSize.scss`
 
 // hover
-@include UTILITY_NAME(".hover\\:", ":hover", "");
+@include textColorBlack(".hover\\:", ":hover", "");
 
 // focus
-@include UTILITY_NAME(".focus\\:", ":focus", "");
+@include textColorBlack(".focus\\:", ":focus", "");
 
 // active
-@include UTILITY_NAME(".active\\:", ":active", "");
+@include textColorBlack(".active\\:", ":active", "");
 
 // visited
-@include UTILITY_NAME(".visited\\:", ":visited", "");
+@include textColorBlack(".visited\\:", ":visited", "");
 
 // disabled
-@include UTILITY_NAME(".disabled\\:", ":disabled", "");
+@include textColorBlack(".disabled\\:", ":disabled", "");
 
 ```
 
