@@ -79,7 +79,8 @@ To prefix the breakpoint name (e.g. `sm`, `md`, `lg`) before the `{class}` or `c
 To completely customize breakpoints is in the `_constant.scss` file,
 
 ```scss
-// _constants.scss
+// @file _constants.scss
+
 $screens:
   (xs, 320px), // (primitive)
   (sm, 640px),
