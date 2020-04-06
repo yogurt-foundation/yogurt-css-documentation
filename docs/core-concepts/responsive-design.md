@@ -79,7 +79,7 @@ To prefix the breakpoint name (e.g. `sm`, `md`, `lg`) before the `{class}` or `c
 To completely customize breakpoints is in the `_constant.scss` file,
 
 ```scss
-// @file _constants.scss
+// @file `_constants.scss`
 
 $screens:
   (xs, 320px), // (primitive)
@@ -97,3 +97,36 @@ $screens:
 ```
 
 Learn more in the [customizing breakpoints](../customization/breakpoints.md) page.
+
+### Create Custom Responsive
+
+Not all responsive utilities are having all sorts of pseudo-class variants enabled by default, this is to control the default package file size from getting larger. But, you can create your own responsive variants for pseudo-classes.
+
+For example, each utility module file has a variant section that consists of `hover`, `focus`, `active` and so on. You need to add `@include()` function to a specific placeholder following by the `UTILITY_NAME` (e.g. fontSize), last add the arguments `"", "", ""` to look like below to enable the variant you need.
+
+```scss
+// @file `_responsive.scss`
+
+// hover
+
+@include textColorBlack(".#{$screen}\\:hover\\:", ":hover", "");
+
+// focus
+
+@include textColorBlack(".#{$screen}\\:focus\\:", ":focus", "");
+
+// active
+
+@include textColorBlack(".#{$screen}\\:active\\:", ":active", "");
+
+// visited
+
+@include textColorBlack(".#{$screen}\\:visited\\:", ":visited", "");
+
+// disabled
+
+@include textColorBlack(".#{$screen}\\:disabled\\:", ":disabled", "");
+
+```
+
+Learn more in the [customizing variants](../customization/variants.md) page.
