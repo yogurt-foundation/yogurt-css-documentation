@@ -88,12 +88,12 @@ $screens:
   (lg, 1024px),
   (xl, 1280px),
   (\32k, 1920px), // 2k
-  (\33k, 2560px), // 3k
+  (\33k, 2560px), // 3k (optional)
   (\34k, 3840px), // 4k
-  (\35k, 5120px), // 5k
-  (\36k, 5760px), // 6k
-  (\37k, 7000px), // 7k
-  (\38k, 7680px); // 8k
+  (\35k, 5120px), // 5k (optional)
+  (\36k, 5760px), // 6k (optional)
+  (\37k, 7000px), // 7k (optional)
+  (\38k, 7680px); // 8k (optional)
 ```
 
 Learn more in the [customizing breakpoints](../customization/breakpoints.md) page.
