@@ -108,23 +108,18 @@ For example, each utility module file has a variant section that consists of `ho
 // @file `_responsive.scss`
 
 // hover
-
 @include textColorBlack(".#{$screen}\\:hover\\:", ":hover", "");
 
 // focus
-
 @include textColorBlack(".#{$screen}\\:focus\\:", ":focus", "");
 
 // active
-
 @include textColorBlack(".#{$screen}\\:active\\:", ":active", "");
 
 // visited
-
 @include textColorBlack(".#{$screen}\\:visited\\:", ":visited", "");
 
 // disabled
-
 @include textColorBlack(".#{$screen}\\:disabled\\:", ":disabled", "");
 
 ```
