@@ -135,7 +135,6 @@ For example, each utility module file has a variant section that consists of `ho
 
 // disabled
 @include opacity(".#{$screen}\\:disabled\\:", ":disabled", "");
-
 ```
 
 Learn more in the [customizing variants](../customization/variants.md) page.
