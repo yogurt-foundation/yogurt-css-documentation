@@ -58,7 +58,7 @@ To add breakpoint to an utility is by follow the **tag design** introduced early
 {prefix}:{class}-{modifier}
 ```
 
-To prefix the breakpoint name (e.g. `sm`, `md`, `lg`) before the `{class}` followed by the `:` symbol.
+To prefix the breakpoint name (e.g. `sm`, `md`, `lg`) before the `{class}` or `class name` followed by the `:` symbol.
 
 ```html
 <!-- Examples -->
