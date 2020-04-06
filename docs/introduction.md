@@ -1,13 +1,13 @@
 <y class="pb-4">
   <img class="w-full h-full rounded-lg"
-       src="https://yogurt-css-documentation.netlify.com/assets/yogurt_promo_02.jpg">
+       src="https://yogurt-css-documentation.netlify.com/assets/yogurt_promo.jpg">
 </y>
 
 <y class="pb-4 text-lg">
   A colossal low-level utility CSS framework for crafting beautiful and elegant user interface at an atomic level without writing a single line of CSS.
 </y>
 
-> Version 1.0.2-solidcore, 05 April 2020
+> Version 1.0.3-solidcore, 07 April 2020
 
 > The `SOLID CORE` means the next major Yogurt CSS update is depending on any major release of the CSS version. It also means you will less frequently updating the framework for your frontend development. Which makes this utility framework a futureproof.
 
