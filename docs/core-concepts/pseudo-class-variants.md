@@ -53,7 +53,7 @@ Add the `active:` prefix to an utility to enable on-active.
 
 Not all utilities are having all sorts of pseudo-class variants enabled by default, this is to control the default package file size from getting larger. But, you can create your own variants for pseudo-classes.
 
-For example, each utility module file has a variant section that consists of `hover`, `focus`, `active` and so on. You need to add `@include()` function to an utility module (e.g. `_fontSize.scss`) file under the `/* Variants */` section to a specific placeholder following by the `UTILITY_NAME` (e.g. textColorBlack), last add the arguments `"", "", ""` to look like below to enable the variant you need.
+For example, each utility module file has a variant section that consists of `hover`, `focus`, `active` and so on. You need to add `@include()` function to an utility module (e.g. `_fontSize.scss`) file under the `/* Variants */` section to a specific placeholder following by the `UTILITY_NAME` (e.g. fontSize), last add the arguments `"", "", ""` to look like below to enable the variant you need.
 
 ```scss
 // @file `utilities/typography/_fontSize.scss`
@@ -61,19 +61,19 @@ For example, each utility module file has a variant section that consists of `ho
 /* Variants */
 
 // hover
-@include textColorBlack(".hover\\:", ":hover", "");
+@include fontSize(".hover\\:", ":hover", "");
 
 // focus
-@include textColorBlack(".focus\\:", ":focus", "");
+@include fontSize(".focus\\:", ":focus", "");
 
 // active
-@include textColorBlack(".active\\:", ":active", "");
+@include fontSize(".active\\:", ":active", "");
 
 // visited
-@include textColorBlack(".visited\\:", ":visited", "");
+@include fontSize(".visited\\:", ":visited", "");
 
 // disabled
-@include textColorBlack(".disabled\\:", ":disabled", "");
+@include fontSize(".disabled\\:", ":disabled", "");
 ```
 
 Learn more in the [customizing variants](../customization/variants.md) page.
