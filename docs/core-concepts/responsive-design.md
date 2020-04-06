@@ -100,27 +100,41 @@ Learn more in the [customizing breakpoints](../customization/breakpoints.md) pag
 
 ### Create Custom Responsive
 
-Not all responsive utilities are having all sorts of pseudo-class variants enabled by default, this is to control the default package file size from getting larger. But, you can create your own responsive variants for pseudo-classes.
-
-For example, each utility module file has a variant section that consists of `hover`, `focus`, `active` and so on. You need to add `@include()` function to a specific placeholder following by the `UTILITY_NAME` (e.g. textColorBlack), last add the arguments `"", "", ""` to look like below to enable the variant you need.
+To create responsive to an utility. You need to add `@include()` function into `_responsive.scss` file under the `/* Default */` section, following by the `UTILITY_NAME` (e.g. padding), last add the arguments `".#{$screen}\\:", "", ""` to look like below to enable it.
 
 ```scss
 // @file `_responsive.scss`
 
+/* Default */
+
+@include padding(".#{$screen}\\:", "", "");
+
+@include margin(".#{$screen}\\:", "", "", "");
+```
+
+Not all responsive utilities are having all sorts of pseudo-class variants enabled by default, this is to control the default package file size from getting larger. But, you can create your own responsive variants for pseudo-classes.
+
+For example, each utility module file has a variant section that consists of `hover`, `focus`, `active` and so on. You need to add `@include()` function into `_responsive.scss` file under the `/* Variants */` section to a specific placeholder (e.g. `// hover`) following by the `UTILITY_NAME` (e.g. opacity), last add the arguments `".#{$screen}\\:PSEUDO-CLASS\\:", "PSEUDO-CLASS", ""` to look like below to enable the variant with responsive you need.
+
+```scss
+// @file `_responsive.scss`
+
+/* Variants */
+
 // hover
-@include textColorBlack(".#{$screen}\\:hover\\:", ":hover", "");
+@include opacity(".#{$screen}\\:hover\\:", ":hover", "");
 
 // focus
-@include textColorBlack(".#{$screen}\\:focus\\:", ":focus", "");
+@include opacity(".#{$screen}\\:focus\\:", ":focus", "");
 
 // active
-@include textColorBlack(".#{$screen}\\:active\\:", ":active", "");
+@include opacity(".#{$screen}\\:active\\:", ":active", "");
 
 // visited
-@include textColorBlack(".#{$screen}\\:visited\\:", ":visited", "");
+@include opacity(".#{$screen}\\:visited\\:", ":visited", "");
 
 // disabled
-@include textColorBlack(".#{$screen}\\:disabled\\:", ":disabled", "");
+@include opacity(".#{$screen}\\:disabled\\:", ":disabled", "");
 
 ```
 
