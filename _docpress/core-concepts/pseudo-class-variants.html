@@ -29,6 +29,20 @@
                   <li class="menu-item -level-2"><a class="link title  link-core-conceptsresponsive-design" href="../core-concepts/responsive-design.html">Responsive Design</a>
                   </li>
                   <li class="menu-item -level-2"><a class="link title -active link-core-conceptspseudo-class-variants" href="../core-concepts/pseudo-class-variants.html">Pseudo-Class Variants</a>
+                    <ul class="headings heading-list">
+                      <li class="heading-item -depth-2"><a class="hlink link-pseudo-class-variants" href="#pseudo-class-variants">Pseudo-Class Variants</a>
+                        <ul class="heading-list -depth-2">
+                          <li class="heading-item -depth-3"><a class="hlink link-hover" href="#hover">Hover</a>
+                          </li>
+                          <li class="heading-item -depth-3"><a class="hlink link-group-hover" href="#group-hover">Group-Hover</a>
+                          </li>
+                          <li class="heading-item -depth-3"><a class="hlink link-focus" href="#focus">Focus</a>
+                          </li>
+                          <li class="heading-item -depth-3"><a class="hlink link-active" href="#active">Active</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
                   </li>
                 </ul>
               </li>
@@ -269,8 +283,40 @@
           </div>
         </div>
         <div class="markdown-body"><blockquote>
-<p>Pseudo-Class Variants</p>
+<p>Core Concepts</p>
 </blockquote>
+<h2 id="pseudo-class-variants">Pseudo-Class Variants</h2>
+<p>Using utilities to style and add effects to elements when on hover, group-hover, focus, active, disabled or visited.</p>
+<h3 id="hover">Hover</h3>
+<p>Add the <code>hover:</code> prefix to an utility to enable on-hover.</p>
+<pre><code class="lang-html"><span class="pl-c">&lt;!-- Example --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">y</span> <span class="hljs-attr">class</span>=<span class="pl-s">&quot;text-charcoal-100 hover:text-white bg-white hover:bg-charcoal-100&quot;</span>&gt;</span>
+  Hover me!
+<span class="hljs-tag">&lt;/<span class="hljs-name">y</span>&gt;</span>
+</code></pre>
+<h3 id="group-hover">Group-Hover</h3>
+<p>Add <code>group</code> class to the parent element and add the <code>group-hover:</code> prefix to an utility on the child element to enable group-hover.</p>
+<pre><code class="lang-html"><span class="pl-c">&lt;!-- Example --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">y</span> <span class="hljs-attr">class</span>=<span class="pl-s">&quot;group bg-charcoal-100 hover:bg-orange-400&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">y</span> <span class="hljs-attr">class</span>=<span class="pl-s">&quot;group-hover:text-white&quot;</span>&gt;</span>
+    This is a text!
+  <span class="hljs-tag">&lt;/<span class="hljs-name">y</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">y</span>&gt;</span>
+</code></pre>
+<h3 id="focus">Focus</h3>
+<p>Add the <code>focus:</code> prefix to an utility to enable on-focus.</p>
+<pre><code class="lang-html"><span class="pl-c">&lt;!-- Example --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">class</span>=<span class="pl-s">&quot;bg-gray-100 focus:bg-charcoal-100 border-transparent focus:border-gray-200&quot;</span> 
+       <span class="hljs-attr">placeholder</span>=<span class="pl-s">&quot;Focus me!&quot;</span>&gt;</span>
+
+</code></pre>
+<h3 id="active">Active</h3>
+<p>Add the <code>active:</code> prefix to an utility to enable on-active.</p>
+<pre><code class="lang-html"><span class="pl-c">&lt;!-- Example --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="pl-s">&quot;bg-charcoal-100 active:bg-red-400 text-white&quot;</span>&gt;</span>
+  Click me!
+<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+</code></pre>
 
         </div>
         <div class="footer-nav">

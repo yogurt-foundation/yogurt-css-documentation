@@ -110,7 +110,36 @@
             "title": "Pseudo-Class Variants",
             "source": "docs/core-concepts/pseudo-class-variants.md",
             "url": "core-concepts/pseudo-class-variants.html",
-            "slug": "core-conceptspseudo-class-variants"
+            "slug": "core-conceptspseudo-class-variants",
+            "headings": [
+              {
+                "title": "Pseudo-Class Variants",
+                "depth": 2,
+                "id": "pseudo-class-variants",
+                "headings": [
+                  {
+                    "title": "Hover",
+                    "depth": 3,
+                    "id": "hover"
+                  },
+                  {
+                    "title": "Group-Hover",
+                    "depth": 3,
+                    "id": "group-hover"
+                  },
+                  {
+                    "title": "Focus",
+                    "depth": 3,
+                    "id": "focus"
+                  },
+                  {
+                    "title": "Active",
+                    "depth": 3,
+                    "id": "active"
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -1883,7 +1912,36 @@
       "source": "docs/core-concepts/pseudo-class-variants.md",
       "title": "Pseudo-Class Variants - Introduction",
       "pageTitle": "Pseudo-Class Variants",
-      "slug": "core-conceptspseudo-class-variants"
+      "slug": "core-conceptspseudo-class-variants",
+      "headings": [
+        {
+          "title": "Pseudo-Class Variants",
+          "depth": 2,
+          "id": "pseudo-class-variants",
+          "headings": [
+            {
+              "title": "Hover",
+              "depth": 3,
+              "id": "hover"
+            },
+            {
+              "title": "Group-Hover",
+              "depth": 3,
+              "id": "group-hover"
+            },
+            {
+              "title": "Focus",
+              "depth": 3,
+              "id": "focus"
+            },
+            {
+              "title": "Active",
+              "depth": 3,
+              "id": "active"
+            }
+          ]
+        }
+      ]
     },
     "customization/configuration.html": {
       "source": "docs/customization/configuration.md",
