@@ -1,6 +1,6 @@
 <y class="pb-4">
   <img class="w-full h-full rounded-lg"
-       src="assets/yogurt_promo_02.jpg">
+       src="https://yogurt-css-documentation.netlify.com/assets/yogurt_promo_02.jpg">
 </y>
 
 <y class="pb-4 text-lg">

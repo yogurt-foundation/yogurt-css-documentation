@@ -30,7 +30,7 @@ $ yarn && yarn start
 
 <y>
   <img class="w-full h-full rounded-lg"
-       src="../assets/yogurt_playground_screenshot_01.png">
+       src="https://yogurt-css-documentation.netlify.com/assets/yogurt_playground_screenshot_01.png">
 </y>
 
 ### Using Yogurt via CDN
