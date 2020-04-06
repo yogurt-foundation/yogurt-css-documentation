@@ -114,6 +114,8 @@
 - **Filters**
 
   - [Filter Compose](filters/filter-compose.md)
+  - [Blur](filters/filter-blur.md)
+  - [Invert](filters/filter-invert.md)
 
 - **Transforms**
 

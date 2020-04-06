@@ -101,6 +101,11 @@
                     "title": "Customizing Breakpoints",
                     "depth": 3,
                     "id": "customizing-breakpoints"
+                  },
+                  {
+                    "title": "Create Custom Responsive",
+                    "depth": 3,
+                    "id": "create-custom-responsive"
                   }
                 ]
               }
@@ -1530,6 +1535,46 @@
                 ]
               }
             ]
+          },
+          {
+            "title": "Blur",
+            "source": "docs/filters/filter-blur.md",
+            "url": "filters/filter-blur.html",
+            "slug": "filtersfilter-blur",
+            "headings": [
+              {
+                "title": "Filter Blur",
+                "depth": 2,
+                "id": "filter-blur",
+                "headings": [
+                  {
+                    "title": "Class",
+                    "depth": 3,
+                    "id": "class"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Invert",
+            "source": "docs/filters/filter-invert.md",
+            "url": "filters/filter-invert.html",
+            "slug": "filtersfilter-invert",
+            "headings": [
+              {
+                "title": "Filter Blur",
+                "depth": 2,
+                "id": "filter-blur",
+                "headings": [
+                  {
+                    "title": "Class",
+                    "depth": 3,
+                    "id": "class"
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -1908,6 +1953,11 @@
               "title": "Customizing Breakpoints",
               "depth": 3,
               "id": "customizing-breakpoints"
+            },
+            {
+              "title": "Create Custom Responsive",
+              "depth": 3,
+              "id": "create-custom-responsive"
             }
           ]
         }
@@ -3283,6 +3333,46 @@
         }
       ]
     },
+    "filters/filter-blur.html": {
+      "source": "docs/filters/filter-blur.md",
+      "title": "Blur - Introduction",
+      "pageTitle": "Blur",
+      "slug": "filtersfilter-blur",
+      "headings": [
+        {
+          "title": "Filter Blur",
+          "depth": 2,
+          "id": "filter-blur",
+          "headings": [
+            {
+              "title": "Class",
+              "depth": 3,
+              "id": "class"
+            }
+          ]
+        }
+      ]
+    },
+    "filters/filter-invert.html": {
+      "source": "docs/filters/filter-invert.md",
+      "title": "Invert - Introduction",
+      "pageTitle": "Invert",
+      "slug": "filtersfilter-invert",
+      "headings": [
+        {
+          "title": "Filter Blur",
+          "depth": 2,
+          "id": "filter-blur",
+          "headings": [
+            {
+              "title": "Class",
+              "depth": 3,
+              "id": "class"
+            }
+          ]
+        }
+      ]
+    },
     "transforms/rotate.html": {
       "source": "docs/transforms/rotate.md",
       "title": "Rotate - Introduction",
@@ -3620,6 +3710,8 @@
     "docs/interactivity/resize.md": "interactivity/resize.html",
     "docs/interactivity/user-select.md": "interactivity/user-select.html",
     "docs/filters/filter-compose.md": "filters/filter-compose.html",
+    "docs/filters/filter-blur.md": "filters/filter-blur.html",
+    "docs/filters/filter-invert.md": "filters/filter-invert.html",
     "docs/transforms/rotate.md": "transforms/rotate.html",
     "docs/transforms/scale.md": "transforms/scale.html",
     "docs/transforms/skew.md": "transforms/skew.html",
@@ -3638,7 +3730,6 @@
     "docs/favicon.png": "favicon.png",
     "docs/assets/style.css": "assets/style.css",
     "docs/assets/yogurt_playground_screenshot_01.png": "assets/yogurt_playground_screenshot_01.png",
-    "docs/assets/yogurt_promo_01.jpg": "assets/yogurt_promo_01.jpg",
-    "docs/assets/yogurt_promo_02.jpg": "assets/yogurt_promo_02.jpg"
+    "docs/assets/yogurt_promo.jpg": "assets/yogurt_promo.jpg"
   }
 }

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="../assets/style.css?t=90051322">
     <script src="../assets/script.js?t=93f1a66c"></script>
-    <title>Installation - Introduction</title>
+    <title>Blur - Introduction</title>
     <meta name="viewport" content="width=device-width">
   </head>
   <body class="-menu-visible">
@@ -18,17 +18,7 @@
               </li>
               <li class="menu-item -level-1 -parent"><span class="title">Getting Started</span>
                 <ul class="submenu">
-                  <li class="menu-item -level-2"><a class="link title -active link-getting-startedinstallation" href="../getting-started/installation.html">Installation</a>
-                    <ul class="headings heading-list">
-                      <li class="heading-item -depth-3"><a class="hlink link-using-yogurt-via-build-tool" href="#using-yogurt-via-build-tool">Using Yogurt via Build Tool</a>
-                      </li>
-                      <li class="heading-item -depth-3"><a class="hlink link-using-yogurt-via-playground" href="#using-yogurt-via-playground">Using Yogurt via Playground</a>
-                      </li>
-                      <li class="heading-item -depth-3"><a class="hlink link-using-yogurt-via-cdn" href="#using-yogurt-via-cdn">Using Yogurt via CDN</a>
-                      </li>
-                      <li class="heading-item -depth-3"><a class="hlink link-what's-next" href="#what's-next">What's next?</a>
-                      </li>
-                    </ul>
+                  <li class="menu-item -level-2"><a class="link title  link-getting-startedinstallation" href="../getting-started/installation.html">Installation</a>
                   </li>
                 </ul>
               </li>
@@ -224,7 +214,15 @@
                 <ul class="submenu">
                   <li class="menu-item -level-2"><a class="link title  link-filtersfilter-compose" href="../filters/filter-compose.html">Filter Compose</a>
                   </li>
-                  <li class="menu-item -level-2"><a class="link title  link-filtersfilter-blur" href="../filters/filter-blur.html">Blur</a>
+                  <li class="menu-item -level-2"><a class="link title -active link-filtersfilter-blur" href="../filters/filter-blur.html">Blur</a>
+                    <ul class="headings heading-list">
+                      <li class="heading-item -depth-2"><a class="hlink link-filter-blur" href="#filter-blur">Filter Blur</a>
+                        <ul class="heading-list -depth-2">
+                          <li class="heading-item -depth-3"><a class="hlink link-class" href="#class">Class</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
                   </li>
                   <li class="menu-item -level-2"><a class="link title  link-filtersfilter-invert" href="../filters/filter-invert.html">Invert</a>
                   </li>
@@ -276,89 +274,89 @@
           </li>
         </ul>
       </div>
-      <div class="body page-getting-startedinstallation">
+      <div class="body page-filtersfilter-blur">
         <div class="header-nav">
           <div class="right"><a class="iconlink" href="https://github.com/yogurt-foundation/yogurt-css" data-title="yogurt-foundation/yogurt-css">
               <!-- span.title Open in GitHub--><span class="icon -github"></span></a>
           </div>
         </div>
         <div class="markdown-body"><blockquote>
-<p>Installation</p>
+<p>Filters</p>
 </blockquote>
-<h3 id="using-yogurt-via-build-tool">Using Yogurt via Build Tool</h3>
-<pre><code class="lang-bash">$ git <span class="pl-c1">clone</span> https://github.com/yogurt-foundation/yogurt-css.git
-$ <span class="pl-c1">cd</span> yogurt-css
-$ yarn &amp;&amp; yarn build
-</code></pre>
-<p>In this document is recommended <code>yarn</code>, you can choose to <code>npm</code> that came with the NodeJS installation.</p>
-<pre><code class="lang-bash">$ git <span class="pl-c1">clone</span> https://github.com/yogurt-foundation/yogurt-css.git
-$ <span class="pl-c1">cd</span> yogurt-css
-$ npm i &amp;&amp; npm run build
-</code></pre>
-<p>Once the build process is done. You can extract the  minified <code>yogurt.css</code> from <code>dist/</code> directory to use in your project. (See <a href="../customization/configuration.html">Customization</a>).</p>
-<h3 id="using-yogurt-via-playground">Using Yogurt via Playground</h3>
-<pre><code class="lang-bash">$ git <span class="pl-c1">clone</span> https://github.com/yogurt-foundation/playground.git
-$ <span class="pl-c1">cd</span> playground
-$ yarn &amp;&amp; yarn start
-</code></pre>
-<p><a href="https://github.com/yogurt-foundation/playground">Yogurt Playground</a> is a developer tool also an HTML/CSS/JS IDE for testing and prototyping with all the Yogurt foundation frameworks and libraries, including <a href="https://github.com/yogurt-foundation/yogurt-css">Yogurt CSS</a>, <a href="https://github.com/yogurt-foundation/fx-filter">FX-Filter</a>, <a href="https://github.com/yogurt-foundation/fx-gradient">FX-Gradient</a>, <a href="https://github.com/yogurt-foundation/fx-motion">FX-Motion</a>. If you have an idea and want to draft something small without setting up a new project. Yogurt Playground is for you.</p>
-<y>
-  <img class="w-full h-full rounded-lg" src="https://yogurt-css-documentation.netlify.com/assets/yogurt_playground_screenshot_01.png">
-</y>
-<h3 id="using-yogurt-via-cdn">Using Yogurt via CDN</h3>
-<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">defer</span> <span class="hljs-attr">href</span>=<span class="pl-s">&quot;https://unpkg.com/yogurt-css@1.0.2/dist/yogurt.css&quot;</span> 
-      <span class="hljs-attr">rel</span>=<span class="pl-s">&quot;stylesheet&quot;</span>
-      <span class="hljs-attr">rel</span>=<span class="pl-s">&quot;preload&quot;</span>
-      <span class="hljs-attr">as</span>=<span class="pl-s">&quot;style&quot;</span>
-      <span class="hljs-attr">media</span>=<span class="pl-s">&quot;all&quot;</span>&gt;</span>
-</code></pre>
-<p><strong>Note:</strong> The CDN builds is large (539kb compressed, 88kb gzipped), the sizes will be different when you are customizing with the build tool. Using the build tool to exclude utilities or exclude variants from utilities that you don&#x2019;t need to reduce file size. (See <a href="../customization/configuration.html">Customization</a>).</p>
-<p><strong>Note:</strong> Using in-browser on-demand-cache to permanently store the Yogurt CSS with PWA (Progress Web App) feature. So that it only loads once maybe for its lifetime and also without the internet connection for the next load, this vastly improves load speed, reduce bandwidth and load time. (See examples <a href="https://fx-filter-previewer.netlify.com/">FX-Filter Previewer</a>, <a href="https://fx-gradient-previewer.netlify.com/">FX-Gradient Previewer</a>).</p>
-<h3 id="what&apos;s-next">What&#x2019;s next?</h3>
-<p>Get to know the framework by understanding below 3 core concepts:</p>
-<ul>
-<li><a href="../core-concepts/utility-by-design.html">Utility By Design</a></li>
-<li><a href="../core-concepts/responsive-design.html">Responsive Design</a></li>
-<li><a href="../core-concepts/pseudo-class-variants.html">Pseudo-Class Variant</a></li>
-</ul>
-<p>Get to know how to tuning the framework that suit to your project:</p>
-<ul>
-<li><a href="../customization/configuration.html">Configuration</a></li>
-<li><a href="../customization/breakpoints.html">Breakpoints</a></li>
-<li><a href="../customization/colors.html">Colors</a></li>
-<li><a href="../customization/spacing.html">Spacing</a></li>
-<li><a href="../customization/variants.html">Variants</a></li>
-</ul>
-<p>Start learning these utilities better to use the framework:</p>
-<y class="relative max-w-xxs mb-4 px-4 py-2 text-sm text-orange-600 bg-orange-200 border border-orange-300 rounded">
-  <y class="mx-auto flex">
-   <y class="flex justify-center items-center mr-2 p-1 w-5 h-5 font-semibold text-orange-200 bg-orange-500 rounded-full">
-    !  
-   </y>
-   Navigate from left menu.
-  </y>
-</y>
-<ul class="list-disc">
-  <li>Backgrounds</li>
-  <li>Borders</li>
-  <li>Effects</li>
-  <li>Filters</li>
-  <li>Flexbox</li>
-  <li>Interactivity</li>
-  <li>Layouts</li>
-  <li>Sizing</li>
-  <li>Spacing</li>
-  <li>SVG</li>
-  <li>Tables</li>
-  <li>Transforms</li>
-  <li>Transitions</li>
-  <li>Typography</li>
-</ul>
+<h2 id="filter-blur">Filter Blur</h2>
+<p>Utility for manipulating blur effects apply to almost all elements.</p>
+<h3 id="class">Class</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">class</th>
+<th style="text-align:left"></th>
+<th style="text-align:left">css properties</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">blur-0</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">filter: blur(0px)</td>
+</tr>
+<tr>
+<td style="text-align:left">blur-1</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">filter: blur(2px)</td>
+</tr>
+<tr>
+<td style="text-align:left">blur-2</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">filter: blur(4px)</td>
+</tr>
+<tr>
+<td style="text-align:left">blur-3</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">filter: blur(6px)</td>
+</tr>
+<tr>
+<td style="text-align:left">blur-4</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">filter: blur(8px)</td>
+</tr>
+<tr>
+<td style="text-align:left">blur-5</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">filter: blur(10px)</td>
+</tr>
+<tr>
+<td style="text-align:left">blur-6</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">filter: blur(12px)</td>
+</tr>
+<tr>
+<td style="text-align:left">blur-7</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">filter: blur(14px)</td>
+</tr>
+<tr>
+<td style="text-align:left">blur-8</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">filter: blur(16px)</td>
+</tr>
+<tr>
+<td style="text-align:left">blur-9</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">filter: blur(18px)</td>
+</tr>
+<tr>
+<td style="text-align:left">blur-10</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">filter: blur(20px)</td>
+</tr>
+</tbody>
+</table>
 
         </div>
         <div class="footer-nav">
-          <div class="left"><a href="../index.html"><span class="title">Introduction</span></a></div>
-          <div class="right"><a href="../core-concepts/utility-by-design.html"><span class="label">Next: </span><span class="title">Utility By Design</span></a></div>
+          <div class="left"><a href="../filters/filter-compose.html"><span class="title">Filter Compose</span></a></div>
+          <div class="right"><a href="../filters/filter-invert.html"><span class="label">Next: </span><span class="title">Invert</span></a></div>
         </div>
       </div>
     </div>
