@@ -305,20 +305,20 @@
 </code></pre>
 <h3 id="create-custom-variants">Create Custom Variants</h3>
 <p>Not all utilities are having all sorts of pseudo-class variants enabled by default, this is to control the default package file size from getting larger. But, you can create your own variants for pseudo-classes.</p>
-<p>For example, each utility module file has a variant section that consists of <code>global</code>, <code>hover</code>, <code>focus</code>, <code>active</code>. You will need to add <code>@include()</code> function to the variant section following by the <code>UTILITY_NAME</code> (e.g. fontSize) and last add the arguments <code>&quot;&quot;, &quot;&quot;, &quot;.&quot;</code> to look like below to enable the variant you need.</p>
+<p>For example, each utility module file has a variant section that consists of <code>global</code>, <code>hover</code>, <code>focus</code>, <code>active</code>. You will need to add <code>@include()</code> function to the variant section following by the <code>UTILITY_NAME</code> (e.g. fontSize) and last add the arguments <code>&quot;&quot;, &quot;&quot;, &quot;&quot;</code> to look like below to enable the variant you need.</p>
 <pre><code class="lang-scss"><span class="pl-c">// module `utilities/typography/_fontSize.scss`</span>
 
 <span class="pl-c">/* hover */</span>
 
-<span class="pl-k">@include</span> UTILITY_NAME(<span class="pl-s">&quot;&quot;</span>, <span class="pl-s">&quot;&quot;</span>, <span class="pl-s">&quot;.&quot;</span>)
+<span class="pl-k">@include</span> UTILITY_NAME(<span class="pl-s">&quot;.hover\\:&quot;</span>, <span class="pl-s">&quot;:hover&quot;</span>, <span class="pl-s">&quot;&quot;</span>)
 
 /* focus */
 
-<span class="pl-k">@include</span> UTILITY_NAME(<span class="pl-s">&quot;&quot;</span>, <span class="pl-s">&quot;&quot;</span>, <span class="pl-s">&quot;.&quot;</span>)
+<span class="pl-k">@include</span> UTILITY_NAME(<span class="pl-s">&quot;.focus\\:&quot;</span>, <span class="pl-s">&quot;:focus&quot;</span>, <span class="pl-s">&quot;&quot;</span>)
 
 /* active */
 
-<span class="pl-k">@include</span> UTILITY_NAME(<span class="pl-s">&quot;&quot;</span>, <span class="pl-s">&quot;&quot;</span>, <span class="pl-s">&quot;.&quot;</span>)
+<span class="pl-k">@include</span> UTILITY_NAME(<span class="pl-s">&quot;.active\\:&quot;</span>, <span class="pl-s">&quot;:active&quot;</span>, <span class="pl-s">&quot;&quot;</span>)
 
 </code></pre>
 <p>Learn more in the <a href="../customization/variants.html">customizing variants</a> page.</p>
