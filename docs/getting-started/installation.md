@@ -29,7 +29,7 @@ $ yarn && yarn start
 [Yogurt Playground](https://github.com/yogurt-foundation/playground) is a developer tool also an HTML/CSS/JS IDE for testing and prototyping with all the Yogurt foundation frameworks and libraries, including [Yogurt CSS](https://github.com/yogurt-foundation/yogurt-css), [FX-Filter](https://github.com/yogurt-foundation/fx-filter), [FX-Gradient](https://github.com/yogurt-foundation/fx-gradient), [FX-Motion](https://github.com/yogurt-foundation/fx-motion). If you have an idea and want to draft something small without setting up a new project. Yogurt Playground is for you.
 
 <p align="center">
-  <img src="https://yogurt-css-documentation.netlify.com/assets/yogurt_playground_screenshot_01.png" height="auto" width="auto">
+  <img src="../assets/yogurt_playground_screenshot_01.png" height="auto" width="auto">
 </p>
 
 ### Using Yogurt via CDN

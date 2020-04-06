@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://yogurt-css-documentation.netlify.com/assets/yogurt_promo_02.jpg" height="auto" width="auto">
+  <img src="assets/yogurt_promo_02.jpg" height="auto" width="auto">
 </p>
 
 A colossal low-level utility CSS framework for crafting beautiful and elegant user interface at an atomic level without writing a single line of CSS.
@@ -76,7 +76,5 @@ When writing HTML with Yogurt CSS, the best way is to put the `class=""` to a to
   Hello World!
 </y>
 ```
-
-[**Read the documentation and start using Yogurt!**](getting-started/installation.md)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/07b893f5-2d17-413d-a3b6-e657ef9dbef3/deploy-status)](https://app.netlify.com/sites/yogurt-css-documentation/deploys)

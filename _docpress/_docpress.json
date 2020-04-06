@@ -57,6 +57,11 @@
                 "title": "Using Yogurt via CDN",
                 "depth": 3,
                 "id": "using-yogurt-via-cdn"
+              },
+              {
+                "title": "What's next?",
+                "depth": 3,
+                "id": "what's-next"
               }
             ]
           }
@@ -515,9 +520,9 @@
             "slug": "typographylist-style-type",
             "headings": [
               {
-                "title": "List Stype Type",
+                "title": "List Style Type",
                 "depth": 2,
-                "id": "list-stype-type",
+                "id": "list-style-type",
                 "headings": [
                   {
                     "title": "Usage",
@@ -535,9 +540,9 @@
             "slug": "typographylist-style-position",
             "headings": [
               {
-                "title": "List Stype Position",
+                "title": "List Style Position",
                 "depth": 2,
-                "id": "list-stype-position",
+                "id": "list-style-position",
                 "headings": [
                   {
                     "title": "Usage",
@@ -1806,6 +1811,11 @@
           "title": "Using Yogurt via CDN",
           "depth": 3,
           "id": "using-yogurt-via-cdn"
+        },
+        {
+          "title": "What's next?",
+          "depth": 3,
+          "id": "what's-next"
         }
       ]
     },
@@ -2244,9 +2254,9 @@
       "slug": "typographylist-style-type",
       "headings": [
         {
-          "title": "List Stype Type",
+          "title": "List Style Type",
           "depth": 2,
-          "id": "list-stype-type",
+          "id": "list-style-type",
           "headings": [
             {
               "title": "Usage",
@@ -2264,9 +2274,9 @@
       "slug": "typographylist-style-position",
       "headings": [
         {
-          "title": "List Stype Position",
+          "title": "List Style Position",
           "depth": 2,
-          "id": "list-stype-position",
+          "id": "list-style-position",
           "headings": [
             {
               "title": "Usage",
