@@ -4,7 +4,7 @@
 
 Utilities for manipulating the box shadow of an element.
 
-### Usage
+### Class
 
 | class |  | css properties |
 |:--|:--|:--|

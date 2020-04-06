@@ -4,7 +4,7 @@
 
 Utilities for manipulating whether an element responds to pointer events.
 
-### Usage
+### Class
 
 | class |  | css properties |
 |:--|:--|:--|

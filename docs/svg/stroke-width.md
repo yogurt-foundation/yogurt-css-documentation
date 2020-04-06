@@ -2,9 +2,9 @@
 
 ## Stroke Width
 
-Utilities for styling the stroke width of SVG elements
+Utilities for styling the stroke width of SVG elements.
 
-### Usage
+### Class
 
 | class |  | css properties |
 |:--|:--|:--|

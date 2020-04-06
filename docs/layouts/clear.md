@@ -4,7 +4,7 @@
 
 Utilities for manipulating the wrapping of content around an element.
 
-### Usage
+### Class
 
 | class |  | css properties |
 |:--|:--|:--|

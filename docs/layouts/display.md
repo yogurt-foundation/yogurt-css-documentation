@@ -4,7 +4,7 @@
 
 Utilities for manipulating the display box type of an element.
 
-### Usage
+### Class
 
 | class |  | css properties |
 |:--|:--|:--|

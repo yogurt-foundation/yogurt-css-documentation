@@ -2,9 +2,9 @@
 
 ## Max Width
 
-Utilities for setting the maximum width of an element
+Utilities for setting the maximum width of an element.
 
-### Usage
+### Class
 
 | class |  | css properties |
 |:--|:--|:--|

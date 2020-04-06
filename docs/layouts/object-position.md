@@ -4,7 +4,7 @@
 
 Utilities for manipulating how a replaced element's content should be positioned within its container.
 
-### Usage
+### Class
 
 | class |  | css properties |
 |:--|:--|:--|

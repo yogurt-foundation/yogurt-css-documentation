@@ -4,7 +4,7 @@
 
 Utilities for manipulating the placement of positioned elements.
 
-### Usage
+### Class
 
 | class |  | css properties |
 |:--|:--|:--|

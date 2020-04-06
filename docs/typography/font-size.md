@@ -4,7 +4,7 @@
 
 Utilities for manipulating the font size of an element.
 
-### Usage
+### Class
 
 | class |   | css properties |
 |:--|:--|:--|

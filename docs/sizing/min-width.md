@@ -2,9 +2,9 @@
 
 ## Min Width
 
-Utilities for setting the minimum width of an element
+Utilities for setting the minimum width of an element.
 
-### Usage
+### Class
 
 | class |  | css properties |
 |:--|:--|:--|

@@ -4,7 +4,7 @@
 
 Utilities for manipulating the decoration of text.
 
-### Usage
+### Class
 
 | class |   | css properties |
 |:--|:--|:--|

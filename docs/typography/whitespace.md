@@ -4,7 +4,7 @@
 
 Utilities for manipulating an element's white-space property.
 
-### Usage
+### Class
 
 | class |   | css properties |
 |:--|:--|:--|

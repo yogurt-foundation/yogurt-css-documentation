@@ -4,7 +4,7 @@
 
 Utilities for manipulating an element's outline.
 
-### Usage
+### Class
 
 | class |  | css properties |
 |:--|:--|:--|

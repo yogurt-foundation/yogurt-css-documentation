@@ -4,7 +4,7 @@
 
 Utilities for manipulating the visibility of an element.
 
-### Usage
+### Class
 
 | class |  | css properties |
 |:--|:--|:--|

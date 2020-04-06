@@ -4,7 +4,7 @@
 
 Utilities for manipulating the color of placeholder text.
 
-### Usage
+### Class
 
 | class |   | css properties |
 |:--|:--|:--|

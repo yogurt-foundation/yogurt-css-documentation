@@ -4,7 +4,7 @@
 
 Utilities for manipulating how an element can be resized.
 
-### Usage
+### Class
 
 | class |  | css properties |
 |:--|:--|:--|

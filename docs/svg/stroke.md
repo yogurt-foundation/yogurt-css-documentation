@@ -2,9 +2,9 @@
 
 ## Stroke
 
-Utilities for styling the stroke of SVG elements
+Utilities for styling the stroke of SVG elements.
 
-### Usage
+### Class
 
 | class |  | css properties |
 |:--|:--|:--|

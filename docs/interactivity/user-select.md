@@ -4,7 +4,7 @@
 
 Utilities for manipulating whether the user can select text in an element.
 
-### Usage
+### Class
 
 | class |  | css properties |
 |:--|:--|:--|

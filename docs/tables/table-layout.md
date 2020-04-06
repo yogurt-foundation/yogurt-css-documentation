@@ -2,9 +2,9 @@
 
 ## Table Layout
 
-Utilities for manipulating the table layout algorithm
+Utilities for manipulating the table layout algorithm.
 
-### Usage
+### Class
 
 | class |  | css properties |
 |:--|:--|:--|

@@ -4,7 +4,7 @@
 
 Utilities for manipulating how flex items are positioned along a container's cross axis.
 
-### Usage
+### Class
 
 | class |  | css properties |
 |:--|:--|:--|

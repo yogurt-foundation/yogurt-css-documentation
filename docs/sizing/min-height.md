@@ -2,9 +2,9 @@
 
 ## Min Height
 
-Utilities for setting the minimum height of an element
+Utilities for setting the minimum height of an element.
 
-### Usage
+### Class
 
 | class |  | css properties |
 |:--|:--|:--|

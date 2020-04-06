@@ -2,9 +2,9 @@
 
 ## Fill
 
-Utilities for styling the fill of SVG elements
+Utilities for styling the fill of SVG elements.
 
-### Usage
+### Class
 
 | class |  | css properties |
 |:--|:--|:--|

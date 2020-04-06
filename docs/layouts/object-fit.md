@@ -4,7 +4,7 @@
 
 Utilities for manipulating how a replaced element's content should be resized.
 
-### Usage
+### Class
 
 | class |  | css properties |
 |:--|:--|:--|

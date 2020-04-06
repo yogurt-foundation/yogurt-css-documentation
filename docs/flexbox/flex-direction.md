@@ -4,7 +4,7 @@
 
 Utilities for manipulating the direction of flex items.
 
-### Usage
+### Class
 
 | class |  | css properties |
 |:--|:--|:--|

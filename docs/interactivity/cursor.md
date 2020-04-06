@@ -4,7 +4,7 @@
 
 Utilities for manipulating the cursor style when hovering over an element.
 
-### Usage
+### Class
 
 | class |  | css properties |
 |:--|:--|:--|

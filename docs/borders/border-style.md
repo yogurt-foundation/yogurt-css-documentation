@@ -4,7 +4,7 @@
 
 Utilities for manipulating the style of an element's borders.
 
-### Usage
+### Class
 
 | class |  | css properties |
 |:--|:--|:--|

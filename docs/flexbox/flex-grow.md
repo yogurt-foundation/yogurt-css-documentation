@@ -4,7 +4,7 @@
 
 Utilities for manipulating how flex items grow.
 
-### Usage
+### Class
 
 | class |  | css properties |
 |:--|:--|:--|

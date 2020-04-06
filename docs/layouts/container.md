@@ -4,7 +4,7 @@
 
 A component for fixing an element's width to the current breakpoint.
 
-### Usage
+### Class
 
 | class | breakpoint | css properties |
 |:--|:--|:--|

@@ -4,7 +4,7 @@
 
 Utilities for manipulating word breaks in an element.
 
-### Usage
+### Class
 
 | class |   | css properties |
 |:--|:--|:--|

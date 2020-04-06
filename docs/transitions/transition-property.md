@@ -2,9 +2,9 @@
 
 ## Transition Property
 
-Utilities for manipulating which CSS properties transition
+Utilities for manipulating which CSS properties transition.
 
-### Usage
+### Class
 
 | class |   | css properties |
 |:--|:--|:--|

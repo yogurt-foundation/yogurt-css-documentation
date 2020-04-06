@@ -2,9 +2,9 @@
 
 ## Max Height
 
-Utilities for setting the maximum height of an element
+Utilities for setting the maximum height of an element.
 
-### Usage
+### Class
 
 | class |  | css properties |
 |:--|:--|:--|

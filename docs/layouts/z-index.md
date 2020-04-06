@@ -4,7 +4,7 @@
 
 Utilities for manipulating the stack order of an element.
 
-### Usage
+### Class
 
 | class |  | css properties |
 |:--|:--|:--|

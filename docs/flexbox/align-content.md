@@ -4,7 +4,7 @@
 
 Utilities for manipulating how lines are positioned in multi-line flex containers.
 
-### Usage
+### Class
 
 | class |  | css properties |
 |:--|:--|:--|

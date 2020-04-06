@@ -4,7 +4,7 @@
 
 Utilities for manipulating the alignment of text.
 
-### Usage
+### Class
 
 | class |   | css properties |
 |:--|:--|:--|

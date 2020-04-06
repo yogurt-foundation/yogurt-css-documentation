@@ -4,7 +4,7 @@
 
 Utilities for manipulating how flex items shrink.
 
-### Usage
+### Class
 
 | class |  | css properties |
 |:--|:--|:--|

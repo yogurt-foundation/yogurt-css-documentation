@@ -4,7 +4,7 @@
 
 Utilities for manipulating the position of an element's background image.
 
-### Usage
+### Class
 
 | class |  | css properties |
 |:--|:--|:--|

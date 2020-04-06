@@ -2,9 +2,9 @@
 
 ## Filter Compose
 
-Utility for manipulating brightness, contrast and saturate effects apply to almost all elements
+Utility for manipulating brightness, contrast and saturate effects apply to almost all elements.
 
-### Usage
+### Class
 
 | class |  | css properties |
 |:--|:--|:--|

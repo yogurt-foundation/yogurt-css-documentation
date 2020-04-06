@@ -140,9 +140,9 @@
                 "id": "container",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -160,9 +160,9 @@
                 "id": "box-sizing",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -180,9 +180,9 @@
                 "id": "display",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -200,9 +200,9 @@
                 "id": "float",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -220,9 +220,9 @@
                 "id": "clear",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -240,9 +240,9 @@
                 "id": "object-fit",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -260,9 +260,9 @@
                 "id": "object-position",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -280,9 +280,9 @@
                 "id": "overflow",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -300,9 +300,9 @@
                 "id": "position",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -320,9 +320,9 @@
                 "id": "top-right-bottom-left",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -340,9 +340,9 @@
                 "id": "visibility",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -360,9 +360,9 @@
                 "id": "z-index",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -385,9 +385,9 @@
                 "id": "font-family",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -405,9 +405,9 @@
                 "id": "font-size",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -425,9 +425,9 @@
                 "id": "font-smoothing",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -445,9 +445,9 @@
                 "id": "font-style",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -465,9 +465,9 @@
                 "id": "font-style",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -485,9 +485,9 @@
                 "id": "letter-spacing",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -505,9 +505,9 @@
                 "id": "line-height",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -525,9 +525,9 @@
                 "id": "list-style-type",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -545,9 +545,9 @@
                 "id": "list-style-position",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -565,9 +565,9 @@
                 "id": "placeholder-color",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -585,9 +585,9 @@
                 "id": "text-align",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -605,9 +605,9 @@
                 "id": "text-color",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -625,9 +625,9 @@
                 "id": "text-decoration",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -645,9 +645,9 @@
                 "id": "text-transform",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -665,9 +665,9 @@
                 "id": "vertical-align",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -685,9 +685,9 @@
                 "id": "whitespace",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -705,9 +705,9 @@
                 "id": "word-break",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -730,9 +730,9 @@
                 "id": "margin",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -750,9 +750,9 @@
                 "id": "padding",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -775,9 +775,9 @@
                 "id": "background-attachment",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -795,9 +795,9 @@
                 "id": "background-color",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -815,9 +815,9 @@
                 "id": "background-position",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -835,9 +835,9 @@
                 "id": "background-repeat",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -855,9 +855,9 @@
                 "id": "background-size",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -880,9 +880,9 @@
                 "id": "border-color",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -900,9 +900,9 @@
                 "id": "border-style",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -920,9 +920,9 @@
                 "id": "border-width",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -940,9 +940,9 @@
                 "id": "border-radius",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -965,9 +965,9 @@
                 "id": "box-shadow",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -985,9 +985,9 @@
                 "id": "opacity",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -1010,9 +1010,9 @@
                 "id": "width",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -1030,9 +1030,9 @@
                 "id": "min-width",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -1050,9 +1050,9 @@
                 "id": "max-width",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -1070,9 +1070,9 @@
                 "id": "height",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -1090,9 +1090,9 @@
                 "id": "min-height",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -1110,9 +1110,9 @@
                 "id": "max-height",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -1135,9 +1135,9 @@
                 "id": "flex-direction",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -1155,9 +1155,9 @@
                 "id": "flex-wrap",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -1175,9 +1175,9 @@
                 "id": "align-items",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -1195,9 +1195,9 @@
                 "id": "align-content",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -1215,9 +1215,9 @@
                 "id": "align-self",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -1235,9 +1235,9 @@
                 "id": "justify-content",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -1255,9 +1255,9 @@
                 "id": "flex",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -1275,9 +1275,9 @@
                 "id": "flex-grow",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -1295,9 +1295,9 @@
                 "id": "flex-shrink",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -1315,9 +1315,9 @@
                 "id": "order",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -1340,9 +1340,9 @@
                 "id": "appearance",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -1360,9 +1360,9 @@
                 "id": "cursor",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -1380,9 +1380,9 @@
                 "id": "outline",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -1400,9 +1400,9 @@
                 "id": "pointer-events",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -1420,9 +1420,9 @@
                 "id": "resize",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -1440,9 +1440,9 @@
                 "id": "user-select",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -1465,9 +1465,9 @@
                 "id": "filter-compose",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -1490,9 +1490,9 @@
                 "id": "rotate",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -1510,9 +1510,9 @@
                 "id": "scale",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -1530,9 +1530,9 @@
                 "id": "skew",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -1550,9 +1550,9 @@
                 "id": "transform-origin",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -1570,9 +1570,9 @@
                 "id": "translate",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -1595,9 +1595,9 @@
                 "id": "transition-property",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -1615,9 +1615,9 @@
                 "id": "transition-duration",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -1635,9 +1635,9 @@
                 "id": "transition-timing",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -1660,9 +1660,9 @@
                 "id": "border-collapse",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -1680,9 +1680,9 @@
                 "id": "table-layout",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -1705,9 +1705,9 @@
                 "id": "fill",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -1725,9 +1725,9 @@
                 "id": "stroke",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -1745,9 +1745,9 @@
                 "id": "stroke-width",
                 "headings": [
                   {
-                    "title": "Usage",
+                    "title": "Class",
                     "depth": 3,
-                    "id": "usage"
+                    "id": "class"
                   }
                 ]
               }
@@ -1879,9 +1879,9 @@
           "id": "container",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -1899,9 +1899,9 @@
           "id": "box-sizing",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -1919,9 +1919,9 @@
           "id": "display",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -1939,9 +1939,9 @@
           "id": "float",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -1959,9 +1959,9 @@
           "id": "clear",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -1979,9 +1979,9 @@
           "id": "object-fit",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -1999,9 +1999,9 @@
           "id": "object-position",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2019,9 +2019,9 @@
           "id": "overflow",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2039,9 +2039,9 @@
           "id": "position",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2059,9 +2059,9 @@
           "id": "top-right-bottom-left",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2079,9 +2079,9 @@
           "id": "visibility",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2099,9 +2099,9 @@
           "id": "z-index",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2119,9 +2119,9 @@
           "id": "font-family",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2139,9 +2139,9 @@
           "id": "font-size",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2159,9 +2159,9 @@
           "id": "font-smoothing",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2179,9 +2179,9 @@
           "id": "font-style",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2199,9 +2199,9 @@
           "id": "font-style",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2219,9 +2219,9 @@
           "id": "letter-spacing",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2239,9 +2239,9 @@
           "id": "line-height",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2259,9 +2259,9 @@
           "id": "list-style-type",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2279,9 +2279,9 @@
           "id": "list-style-position",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2299,9 +2299,9 @@
           "id": "placeholder-color",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2319,9 +2319,9 @@
           "id": "text-align",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2339,9 +2339,9 @@
           "id": "text-color",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2359,9 +2359,9 @@
           "id": "text-decoration",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2379,9 +2379,9 @@
           "id": "text-transform",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2399,9 +2399,9 @@
           "id": "vertical-align",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2419,9 +2419,9 @@
           "id": "whitespace",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2439,9 +2439,9 @@
           "id": "word-break",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2459,9 +2459,9 @@
           "id": "margin",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2479,9 +2479,9 @@
           "id": "padding",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2499,9 +2499,9 @@
           "id": "background-attachment",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2519,9 +2519,9 @@
           "id": "background-color",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2539,9 +2539,9 @@
           "id": "background-position",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2559,9 +2559,9 @@
           "id": "background-repeat",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2579,9 +2579,9 @@
           "id": "background-size",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2599,9 +2599,9 @@
           "id": "border-color",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2619,9 +2619,9 @@
           "id": "border-style",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2639,9 +2639,9 @@
           "id": "border-width",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2659,9 +2659,9 @@
           "id": "border-radius",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2679,9 +2679,9 @@
           "id": "box-shadow",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2699,9 +2699,9 @@
           "id": "opacity",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2719,9 +2719,9 @@
           "id": "width",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2739,9 +2739,9 @@
           "id": "min-width",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2759,9 +2759,9 @@
           "id": "max-width",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2779,9 +2779,9 @@
           "id": "height",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2799,9 +2799,9 @@
           "id": "min-height",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2819,9 +2819,9 @@
           "id": "max-height",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2839,9 +2839,9 @@
           "id": "flex-direction",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2859,9 +2859,9 @@
           "id": "flex-wrap",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2879,9 +2879,9 @@
           "id": "align-items",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2899,9 +2899,9 @@
           "id": "align-content",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2919,9 +2919,9 @@
           "id": "align-self",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2939,9 +2939,9 @@
           "id": "justify-content",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2959,9 +2959,9 @@
           "id": "flex",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2979,9 +2979,9 @@
           "id": "flex-grow",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -2999,9 +2999,9 @@
           "id": "flex-shrink",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -3019,9 +3019,9 @@
           "id": "order",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -3039,9 +3039,9 @@
           "id": "appearance",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -3059,9 +3059,9 @@
           "id": "cursor",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -3079,9 +3079,9 @@
           "id": "outline",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -3099,9 +3099,9 @@
           "id": "pointer-events",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -3119,9 +3119,9 @@
           "id": "resize",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -3139,9 +3139,9 @@
           "id": "user-select",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -3159,9 +3159,9 @@
           "id": "filter-compose",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -3179,9 +3179,9 @@
           "id": "rotate",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -3199,9 +3199,9 @@
           "id": "scale",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -3219,9 +3219,9 @@
           "id": "skew",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -3239,9 +3239,9 @@
           "id": "transform-origin",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -3259,9 +3259,9 @@
           "id": "translate",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -3279,9 +3279,9 @@
           "id": "transition-property",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -3299,9 +3299,9 @@
           "id": "transition-duration",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -3319,9 +3319,9 @@
           "id": "transition-timing",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -3339,9 +3339,9 @@
           "id": "border-collapse",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -3359,9 +3359,9 @@
           "id": "table-layout",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -3379,9 +3379,9 @@
           "id": "fill",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -3399,9 +3399,9 @@
           "id": "stroke",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -3419,9 +3419,9 @@
           "id": "stroke-width",
           "headings": [
             {
-              "title": "Usage",
+              "title": "Class",
               "depth": 3,
-              "id": "usage"
+              "id": "class"
             }
           ]
         }
@@ -3518,6 +3518,7 @@
     "docs/svg/stroke.md": "svg/stroke.html",
     "docs/svg/stroke-width.md": "svg/stroke-width.html",
     "docs/docpress.json": "docpress.json",
+    "docs/assets/__style.css": "assets/__style.css",
     "docs/assets/style.css": "assets/style.css",
     "docs/assets/yogurt_playground_screenshot_01.png": "assets/yogurt_playground_screenshot_01.png",
     "docs/assets/yogurt_promo_01.jpg": "assets/yogurt_promo_01.jpg",

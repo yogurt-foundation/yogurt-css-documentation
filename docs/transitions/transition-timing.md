@@ -2,9 +2,9 @@
 
 ## Transition Timing
 
-Utilities for manipulating the easing of CSS transitions
+Utilities for manipulating the easing of CSS transitions.
 
-### Usage
+### Class
 
 | class |   | css properties |
 |:--|:--|:--|

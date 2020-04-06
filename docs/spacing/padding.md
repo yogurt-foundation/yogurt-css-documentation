@@ -2,9 +2,9 @@
 
 ## Padding
 
-Utilities for manipulating an element's padding
+Utilities for manipulating an element's padding.
 
-### Usage
+### Class
 
 | class |  | css properties |
 |:--|:--|:--|

@@ -4,7 +4,7 @@
 
 Utilities for manipulating the vertical alignment of an inline or table-cell box.
 
-### Usage
+### Class
 
 | class |   | css properties |
 |:--|:--|:--|

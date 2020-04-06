@@ -2,9 +2,9 @@
 
 ## Scale
 
-Utilities for scaling elements with transform
+Utilities for scaling elements with transform.
 
-### Usage
+### Class
 
 | class |  | css properties |
 |:--|:--|:--|

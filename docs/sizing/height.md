@@ -2,9 +2,9 @@
 
 ## Height
 
-Utilities for setting the height of an element
+Utilities for setting the height of an element.
 
-### Usage
+### Class
 
 | class |  | css properties |
 |:--|:--|:--|

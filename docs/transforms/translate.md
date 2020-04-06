@@ -4,7 +4,7 @@
 
 Utilities for translating elements with transform
 
-### Usage
+### Class
 
 | class |  | css properties |
 |:--|:--|:--|

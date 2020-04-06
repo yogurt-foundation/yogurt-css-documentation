@@ -4,7 +4,7 @@
 
 Utilities for manipulating how flex items wrap.
 
-### Usage
+### Class
 
 | class |  | css properties |
 |:--|:--|:--|

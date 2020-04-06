@@ -2,9 +2,9 @@
 
 ## Skew
 
-Utilities for skewing elements with transform
+Utilities for skewing elements with transform.
 
-### Usage
+### Class
 
 | class |  | css properties |
 |:--|:--|:--|

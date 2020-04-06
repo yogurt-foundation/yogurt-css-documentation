@@ -2,9 +2,9 @@
 
 ## Rotate
 
-Utilities for rotating elements with transform
+Utilities for rotating elements with transform.
 
-### Usage
+### Class
 
 | class |  | css properties |
 |:--|:--|:--|

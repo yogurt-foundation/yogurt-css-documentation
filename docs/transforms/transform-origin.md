@@ -4,7 +4,7 @@
 
 Utilities for specifying the origin for an element's transformations.
 
-### Usage
+### Class
 
 | class |  | css properties |
 |:--|:--|:--|

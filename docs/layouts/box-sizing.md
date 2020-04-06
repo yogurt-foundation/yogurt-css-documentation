@@ -4,7 +4,7 @@
 
 Utilities for manipulating how the browser should calculate an element's total size.
 
-### Usage
+### Class
 
 | class |  | css properties |
 |:--|:--|:--|

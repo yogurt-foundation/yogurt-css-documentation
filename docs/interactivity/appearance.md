@@ -4,7 +4,7 @@
 
 Utilities for suppressing native form control styling.
 
-### Usage
+### Class
 
 | class |  | css properties |
 |:--|:--|:--|

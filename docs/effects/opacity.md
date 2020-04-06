@@ -4,7 +4,7 @@
 
 Utilities for manipulating the opacity of an element.
 
-### Usage
+### Class
 
 | class |  | css properties |
 |:--|:--|:--|

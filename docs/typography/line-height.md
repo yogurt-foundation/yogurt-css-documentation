@@ -4,7 +4,7 @@
 
 Utilities for manipulating the depth (line height) of an element.
 
-### Usage
+### Class
 
 | class |   | css properties |
 |:--|:--|:--|
