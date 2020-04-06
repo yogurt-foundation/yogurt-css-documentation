@@ -24,4 +24,3 @@ Utilities for manipulating the display box type of an element.
 | table-row-group |  | display: table-row-group |
 | table-row |  | display: table-row |
 
-

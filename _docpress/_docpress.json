@@ -80,7 +80,26 @@
             "title": "Responsive Design",
             "source": "docs/core-concepts/responsive-design.md",
             "url": "core-concepts/responsive-design.html",
-            "slug": "core-conceptsresponsive-design"
+            "slug": "core-conceptsresponsive-design",
+            "headings": [
+              {
+                "title": "Responsive Design",
+                "depth": 2,
+                "id": "responsive-design",
+                "headings": [
+                  {
+                    "title": "Common Breakpoints",
+                    "depth": 3,
+                    "id": "common-breakpoints"
+                  },
+                  {
+                    "title": "Modern Breakpoints",
+                    "depth": 3,
+                    "id": "modern-breakpoints"
+                  }
+                ]
+              }
+            ]
           },
           {
             "title": "Pseudo-Class Variants",
@@ -1829,7 +1848,26 @@
       "source": "docs/core-concepts/responsive-design.md",
       "title": "Responsive Design - Introduction",
       "pageTitle": "Responsive Design",
-      "slug": "core-conceptsresponsive-design"
+      "slug": "core-conceptsresponsive-design",
+      "headings": [
+        {
+          "title": "Responsive Design",
+          "depth": 2,
+          "id": "responsive-design",
+          "headings": [
+            {
+              "title": "Common Breakpoints",
+              "depth": 3,
+              "id": "common-breakpoints"
+            },
+            {
+              "title": "Modern Breakpoints",
+              "depth": 3,
+              "id": "modern-breakpoints"
+            }
+          ]
+        }
+      ]
     },
     "core-concepts/pseudo-class-variants.html": {
       "source": "docs/core-concepts/pseudo-class-variants.md",
@@ -3518,7 +3556,6 @@
     "docs/svg/stroke.md": "svg/stroke.html",
     "docs/svg/stroke-width.md": "svg/stroke-width.html",
     "docs/docpress.json": "docpress.json",
-    "docs/assets/__style.css": "assets/__style.css",
     "docs/assets/style.css": "assets/style.css",
     "docs/assets/yogurt_playground_screenshot_01.png": "assets/yogurt_playground_screenshot_01.png",
     "docs/assets/yogurt_promo_01.jpg": "assets/yogurt_promo_01.jpg",

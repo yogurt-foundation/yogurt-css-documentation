@@ -27,6 +27,16 @@
                   <li class="menu-item -level-2"><a class="link title  link-core-conceptsutility-design" href="../core-concepts/utility-design.html">Utility Design</a>
                   </li>
                   <li class="menu-item -level-2"><a class="link title -active link-core-conceptsresponsive-design" href="../core-concepts/responsive-design.html">Responsive Design</a>
+                    <ul class="headings heading-list">
+                      <li class="heading-item -depth-2"><a class="hlink link-responsive-design" href="#responsive-design">Responsive Design</a>
+                        <ul class="heading-list -depth-2">
+                          <li class="heading-item -depth-3"><a class="hlink link-common-breakpoints" href="#common-breakpoints">Common Breakpoints</a>
+                          </li>
+                          <li class="heading-item -depth-3"><a class="hlink link-modern-breakpoints" href="#modern-breakpoints">Modern Breakpoints</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
                   </li>
                   <li class="menu-item -level-2"><a class="link title  link-core-conceptspseudo-class-variants" href="../core-concepts/pseudo-class-variants.html">Pseudo-Class Variants</a>
                   </li>
@@ -269,8 +279,65 @@
           </div>
         </div>
         <div class="markdown-body"><blockquote>
-<p>Responsive Design</p>
+<p>Core Concepts</p>
 </blockquote>
+<h2 id="responsive-design">Responsive Design</h2>
+<p>Craft an adaptive user interface with responsive utility variants.</p>
+<p>Every utility class in Yogurt can be configured instantly with different breakpoints without leaving your HTML and without even using the <code>@media</code> in your CSS.</p>
+<h3 id="common-breakpoints">Common Breakpoints</h3>
+<p>These are the default breakpoints covering for almost all common device resolutions.</p>
+<pre><code class="lang-css"><span class="pl-c">/* Extra Small (xs) (primitive) */</span>
+<span class="pl-k">@media</span> (<span class="pl-e">min-width:</span> <span class="hljs-number">320px</span>) { ... }
+
+<span class="pl-c">/* Small (sm) */</span>
+<span class="pl-k">@media</span> (<span class="pl-e">min-width:</span> <span class="hljs-number">640px</span>) { ... }
+
+<span class="pl-c">/* Medium (md) */</span>
+<span class="pl-k">@media</span> (<span class="pl-e">min-width:</span> <span class="hljs-number">768px</span>) { ... }
+
+<span class="pl-c">/* Large (lg) */</span>
+<span class="pl-k">@media</span> (<span class="pl-e">min-width:</span> <span class="hljs-number">1024px</span>) { ... }
+
+<span class="pl-c">/* Extra Large (xl) */</span>
+<span class="pl-k">@media</span> (<span class="pl-e">min-width:</span> <span class="hljs-number">1280px</span>) { ... }
+</code></pre>
+<h3 id="modern-breakpoints">Modern Breakpoints</h3>
+<p>These are the breakpoints for new modern ultra-widescreen size and not enabled by default. It will come in handy when designing a user interface specifically for ultra-wide screens.</p>
+<pre><code class="lang-css">
+<span class="pl-c">/* 3k */</span>
+<span class="pl-k">@media</span> (<span class="pl-e">min-width:</span> <span class="hljs-number">2560px</span>) { ... }
+
+<span class="pl-c">/* 4k */</span>
+<span class="pl-k">@media</span> (<span class="pl-e">min-width:</span> <span class="hljs-number">3840px</span>) { ... }
+
+<span class="pl-c">/* 5k */</span>
+<span class="pl-k">@media</span> (<span class="pl-e">min-width:</span> <span class="hljs-number">5120px</span>) { ... }
+
+<span class="pl-c">/* 6k */</span>
+<span class="pl-k">@media</span> (<span class="pl-e">min-width:</span> <span class="hljs-number">5760px</span>) { ... }
+
+<span class="pl-c">/* 7k */</span>
+<span class="pl-k">@media</span> (<span class="pl-e">min-width:</span> <span class="hljs-number">7000px</span>) { ... }
+
+<span class="pl-c">/* 8k */</span>
+<span class="pl-k">@media</span> (<span class="pl-e">min-width:</span> <span class="hljs-number">7680px</span>) { ... }
+</code></pre>
+<p>To add breakpoint to an utility is by follow the <strong>tag design</strong> introduced early in the <a href="../index.html">Introduction</a> page.</p>
+<pre><code class="lang-html">{prefix}:{class}-{modifier}
+</code></pre>
+<p>To prefix the breakpoint name (e.g. <code>sm</code>, <code>md</code>, <code>lg</code>) before the <code>{class}</code> followed by the <code>:</code> symbol.</p>
+<pre><code class="lang-html"><span class="pl-c">&lt;!-- Examples --&gt;</span>
+
+<span class="pl-c">&lt;!-- font size is xl on small screen, md on large screen--&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">y</span> <span class="hljs-attr">class</span>=<span class="pl-s">&quot;sm:text-xl lg:text-md&quot;</span>&gt;</span>
+  ...
+<span class="hljs-tag">&lt;/<span class="hljs-name">y</span>&gt;</span>
+
+<span class="pl-c">&lt;!-- background color is charcoal on small screen, red on large screen --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">y</span> <span class="hljs-attr">class</span>=<span class="pl-s">&quot;sm:bg-charcoal-100 lg:bg-red-400&quot;</span>&gt;</span>
+  ...
+<span class="hljs-tag">&lt;/<span class="hljs-name">y</span>&gt;</span>
+</code></pre>
 
         </div>
         <div class="footer-nav">

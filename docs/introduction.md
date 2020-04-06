@@ -1,27 +1,42 @@
-<p align="center">
-  <img src="assets/yogurt_promo_02.jpg" height="auto" width="auto">
-</p>
+<y class="pb-4">
+  <img class="w-full h-full rounded-lg"
+       src="assets/yogurt_promo_02.jpg">
+</y>
 
-A colossal low-level utility CSS framework for crafting beautiful and elegant user interface at an atomic level without writing a single line of CSS.
+<y class="pb-4 text-lg">
+  A colossal low-level utility CSS framework for crafting beautiful and elegant user interface at an atomic level without writing a single line of CSS.
+</y>
 
 > Version 1.0.2-solidcore, 05 April 2020
 
 > The `SOLID CORE` means the next major Yogurt CSS update is depending on any major release of the CSS version. It also means you will less frequently updating the framework for your frontend development. Which makes this utility framework a futureproof.
 
-<p align="left">
-  <img src="https://badgen.net/github/release/yogurt-foundation/yogurt-css">
-  <img src="https://badgen.net/github/releases/yogurt-foundation/yogurt-css">
-  <img src="https://badgen.net/github/assets-dl/yogurt-foundation/yogurt-css">
-  <img src="https://badgen.net/github/branches/yogurt-foundation/yogurt-css">
-  <img src="https://badgen.net/github/forks/yogurt-foundation/yogurt-css">
-  <img src="https://badgen.net/github/stars/yogurt-foundation/yogurt-css">
-  <img src="https://badgen.net/github/watchers/yogurt-foundation/yogurt-css">
-  <img src="https://badgen.net/github/tag/yogurt-foundation/yogurt-css">
-  <img src="https://badgen.net/github/commits/yogurt-foundation/yogurt-css">
-  <img src="https://badgen.net/github/last-commit/yogurt-foundation/yogurt-css">
-  <img src="https://badgen.net/github/contributors/yogurt-foundation/yogurt-css">
-  <img src="https://badgen.net/github/license/yogurt-foundation/yogurt-css">
-</p>
+<y class="flex flex-wrap items-center">
+  <img class="p-1" 
+       src="https://badgen.net/github/release/yogurt-foundation/yogurt-css">
+  <img class="p-1" 
+       src="https://badgen.net/github/releases/yogurt-foundation/yogurt-css">
+  <img class="p-1" 
+       src="https://badgen.net/github/assets-dl/yogurt-foundation/yogurt-css">
+  <img class="p-1" 
+       src="https://badgen.net/github/branches/yogurt-foundation/yogurt-css">
+  <img class="p-1" 
+       src="https://badgen.net/github/forks/yogurt-foundation/yogurt-css">
+  <img class="p-1" 
+       src="https://badgen.net/github/stars/yogurt-foundation/yogurt-css">
+  <img class="p-1" 
+       src="https://badgen.net/github/watchers/yogurt-foundation/yogurt-css">
+  <img class="p-1" 
+       src="https://badgen.net/github/tag/yogurt-foundation/yogurt-css">
+  <img class="p-1" 
+       src="https://badgen.net/github/commits/yogurt-foundation/yogurt-css">
+  <img class="p-1" 
+       src="https://badgen.net/github/last-commit/yogurt-foundation/yogurt-css">
+  <img class="p-1" 
+       src="https://badgen.net/github/contributors/yogurt-foundation/yogurt-css">
+  <img class="p-1" 
+       src="https://badgen.net/github/license/yogurt-foundation/yogurt-css">
+</y>
 
 ### Introduction
 

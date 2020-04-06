@@ -633,7 +633,7 @@ ul.heading-list .hlink:before {
 }
 
 .markdown-body .pl-k {
-    color: #a71d5d
+    color: #ff3492
 }
 
 .markdown-body .pl-pds,
@@ -1145,7 +1145,6 @@ ul.heading-list .hlink:before {
     max-width: 100%;
     box-sizing: content-box;
     background-color: #fff;
-    border-radius: 5px
 }
 
 .markdown-body code {
