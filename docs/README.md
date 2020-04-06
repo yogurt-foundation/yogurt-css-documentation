@@ -8,7 +8,7 @@
 
 - **Core Concepts**
 
-  - [Utility Design](core-concepts/utility-design.md)
+  - [Utility By Design](core-concepts/utility-design.md)
   - [Responsive Design](core-concepts/responsive-design.md)
   - [Pseudo-Class Variants](core-concepts/pseudo-class-variants.md)
 

@@ -1,9 +1,0 @@
-{
-  "lang": "en",
-  "docs": "docs",
-  "dist": "_docpress",
-  "github": "yogurt-foundation/yogurt-css",
-  "markdown": {
-    "typographer": true
-  }
-}
