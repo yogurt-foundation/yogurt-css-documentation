@@ -60,15 +60,23 @@ For example, each utility module file has a variant section that consists of `ho
 
 // hover
 
-@include UTILITY_NAME(".hover\\:", ":hover", "")
+@include UTILITY_NAME(".hover\\:", ":hover", "");
 
 // focus
 
-@include UTILITY_NAME(".focus\\:", ":focus", "")
+@include UTILITY_NAME(".focus\\:", ":focus", "");
 
 // active
 
-@include UTILITY_NAME(".active\\:", ":active", "")
+@include UTILITY_NAME(".active\\:", ":active", "");
+
+// visited
+
+@include UTILITY_NAME(".visited\\:", ":visited", "");
+
+// disabled
+
+@include UTILITY_NAME(".disabled\\:", ":disabled", "");
 
 ```
 
