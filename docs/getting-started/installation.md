@@ -74,7 +74,7 @@ Start learning these utilities better to use the framework:
   </y>
 </y>
 
-<ul class="list-none">
+<ul class="list-disc">
   <li>Backgrounds</li>
   <li>Borders</li>
   <li>Effects</li>
