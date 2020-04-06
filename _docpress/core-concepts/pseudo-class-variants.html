@@ -29,22 +29,6 @@
                   <li class="menu-item -level-2"><a class="link title  link-core-conceptsresponsive-design" href="../core-concepts/responsive-design.html">Responsive Design</a>
                   </li>
                   <li class="menu-item -level-2"><a class="link title -active link-core-conceptspseudo-class-variants" href="../core-concepts/pseudo-class-variants.html">Pseudo-Class Variants</a>
-                    <ul class="headings heading-list">
-                      <li class="heading-item -depth-2"><a class="hlink link-pseudo-class-variants" href="#pseudo-class-variants">Pseudo-Class Variants</a>
-                        <ul class="heading-list -depth-2">
-                          <li class="heading-item -depth-3"><a class="hlink link-hover" href="#hover">Hover</a>
-                          </li>
-                          <li class="heading-item -depth-3"><a class="hlink link-group-hover" href="#group-hover">Group-Hover</a>
-                          </li>
-                          <li class="heading-item -depth-3"><a class="hlink link-focus" href="#focus">Focus</a>
-                          </li>
-                          <li class="heading-item -depth-3"><a class="hlink link-active" href="#active">Active</a>
-                          </li>
-                          <li class="heading-item -depth-3"><a class="hlink link-create-custom-variants" href="#create-custom-variants">Create Custom Variants</a>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
                   </li>
                 </ul>
               </li>
@@ -324,11 +308,7 @@
 <p>For example, each utility module file has a variant section that consists of <code>global</code>, <code>hover</code>, <code>focus</code>, <code>active</code>. You will need to add <code>@include()</code> function to the variant section following by the <code>UTILITY_NAME</code> (e.g. fontSize) and last add the arguments <code>&quot;&quot;, &quot;&quot;, &quot;.&quot;</code> to look like below to enable the variant you need.</p>
 <pre><code class="lang-scss"><span class="pl-c">// module `utilities/typography/_fontSize.scss`</span>
 
-<span class="pl-c">/* global */</span>
-
-<span class="pl-k">@include</span> UTILITY_NAME(<span class="pl-s">&quot;&quot;</span>, <span class="pl-s">&quot;&quot;</span>, <span class="pl-s">&quot;.&quot;</span>)
-
-/* hover */
+<span class="pl-c">/* hover */</span>
 
 <span class="pl-k">@include</span> UTILITY_NAME(<span class="pl-s">&quot;&quot;</span>, <span class="pl-s">&quot;&quot;</span>, <span class="pl-s">&quot;.&quot;</span>)
 

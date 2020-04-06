@@ -58,10 +58,6 @@ For example, each utility module file has a variant section that consists of `gl
 ```scss
 // module `utilities/typography/_fontSize.scss`
 
-/* global */
-
-@include UTILITY_NAME("", "", ".")
-
 /* hover */
 
 @include UTILITY_NAME("", "", ".")
