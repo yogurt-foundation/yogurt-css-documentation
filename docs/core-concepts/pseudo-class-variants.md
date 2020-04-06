@@ -56,7 +56,7 @@ Not all utilities are having all sorts of pseudo-class variants enabled by defau
 For example, each utility module file has a variant section that consists of `global`, `hover`, `focus`, `active`. You will need to add `@include()` function to the variant section following by the `UTILITY_NAME` (e.g. fontSize) and last add the arguments `"", "", "."` to look like below to enable the variant you need.
 
 ```scss
-<!-- module `utilities/typography/_fontSize.scss` -->
+// module `utilities/typography/_fontSize.scss`
 
 /* global */
 
