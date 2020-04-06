@@ -43,7 +43,7 @@ $ yarn && yarn start
       media="all">
 ```
 
-**Note:** The CDN builds is large (705kb compressed, 105kb gzipped), the sizes will be different when you are customizing with the build tool. Using the build tool to exclude utilities or exclude variants from utilities that you don't need to reduce file size. (See [Customization](../customization/configuration.md)).
+**Note:** The CDN builds is large (539kb compressed, 88kb gzipped), the sizes will be different when you are customizing with the build tool. Using the build tool to exclude utilities or exclude variants from utilities that you don't need to reduce file size. (See [Customization](../customization/configuration.md)).
 
 **Note:** Using in-browser on-demand-cache to permanently store the Yogurt CSS with PWA (Progress Web App) feature. So that it only loads once maybe for its lifetime and also without the internet connection for the next load, this vastly improves load speed, reduce bandwidth and load time. (See examples [FX-Filter Previewer](https://fx-filter-previewer.netlify.com/), [FX-Gradient Previewer](https://fx-gradient-previewer.netlify.com/)).
 
