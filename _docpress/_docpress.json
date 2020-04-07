@@ -71,10 +71,10 @@
         "title": "Core Concepts",
         "sections": [
           {
-            "title": "Utility By Design",
-            "source": "docs/core-concepts/utility-by-design.md",
-            "url": "core-concepts/utility-by-design.html",
-            "slug": "core-conceptsutility-by-design",
+            "title": "Utility",
+            "source": "docs/core-concepts/utility.md",
+            "url": "core-concepts/utility.html",
+            "slug": "core-conceptsutility",
             "headings": [
               {
                 "title": "Utility By Design",
@@ -91,10 +91,10 @@
             ]
           },
           {
-            "title": "Responsive Design",
-            "source": "docs/core-concepts/responsive-design.md",
-            "url": "core-concepts/responsive-design.html",
-            "slug": "core-conceptsresponsive-design",
+            "title": "Responsive",
+            "source": "docs/core-concepts/responsive.md",
+            "url": "core-concepts/responsive.html",
+            "slug": "core-conceptsresponsive",
             "headings": [
               {
                 "title": "Responsive Design",
@@ -1936,11 +1936,11 @@
         }
       ]
     },
-    "core-concepts/utility-by-design.html": {
-      "source": "docs/core-concepts/utility-by-design.md",
-      "title": "Utility By Design - Introduction",
-      "pageTitle": "Utility By Design",
-      "slug": "core-conceptsutility-by-design",
+    "core-concepts/utility.html": {
+      "source": "docs/core-concepts/utility.md",
+      "title": "Utility - Introduction",
+      "pageTitle": "Utility",
+      "slug": "core-conceptsutility",
       "headings": [
         {
           "title": "Utility By Design",
@@ -1956,11 +1956,11 @@
         }
       ]
     },
-    "core-concepts/responsive-design.html": {
-      "source": "docs/core-concepts/responsive-design.md",
-      "title": "Responsive Design - Introduction",
-      "pageTitle": "Responsive Design",
-      "slug": "core-conceptsresponsive-design",
+    "core-concepts/responsive.html": {
+      "source": "docs/core-concepts/responsive.md",
+      "title": "Responsive - Introduction",
+      "pageTitle": "Responsive",
+      "slug": "core-conceptsresponsive",
       "headings": [
         {
           "title": "Responsive Design",
@@ -3665,8 +3665,8 @@
   "sources": {
     "docs/introduction.md": "index.html",
     "docs/getting-started/installation.md": "getting-started/installation.html",
-    "docs/core-concepts/utility-by-design.md": "core-concepts/utility-by-design.html",
-    "docs/core-concepts/responsive-design.md": "core-concepts/responsive-design.html",
+    "docs/core-concepts/utility.md": "core-concepts/utility.html",
+    "docs/core-concepts/responsive.md": "core-concepts/responsive.html",
     "docs/core-concepts/pseudo-class-variants.md": "core-concepts/pseudo-class-variants.html",
     "docs/customization/configuration.md": "customization/configuration.html",
     "docs/customization/breakpoints.md": "customization/breakpoints.html",
