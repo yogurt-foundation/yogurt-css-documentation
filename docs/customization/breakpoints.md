@@ -1,1 +1,3 @@
-> Breakpoints
+> Customization
+
+## Breakpoints

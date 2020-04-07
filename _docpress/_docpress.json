@@ -82,14 +82,9 @@
                 "id": "utility",
                 "headings": [
                   {
-                    "title": "Writing in Usual Way",
+                    "title": "At A Glance",
                     "depth": 3,
-                    "id": "writing-in-usual-way"
-                  },
-                  {
-                    "title": "Writing in Yogurt Way",
-                    "depth": 3,
-                    "id": "writing-in-yogurt-way"
+                    "id": "at-a-glance"
                   }
                 ]
               }
@@ -1953,14 +1948,9 @@
           "id": "utility",
           "headings": [
             {
-              "title": "Writing in Usual Way",
+              "title": "At A Glance",
               "depth": 3,
-              "id": "writing-in-usual-way"
-            },
-            {
-              "title": "Writing in Yogurt Way",
-              "depth": 3,
-              "id": "writing-in-yogurt-way"
+              "id": "at-a-glance"
             }
           ]
         }

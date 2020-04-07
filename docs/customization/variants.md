@@ -1,1 +1,3 @@
-> Variants
+> Customization
+
+## Variants
