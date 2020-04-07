@@ -82,9 +82,14 @@
                 "id": "utility",
                 "headings": [
                   {
-                    "title": "At A Glance",
+                    "title": "Writing Styles",
                     "depth": 3,
-                    "id": "at-a-glance"
+                    "id": "writing-styles"
+                  },
+                  {
+                    "title": "Benefit",
+                    "depth": 3,
+                    "id": "benefit"
                   }
                 ]
               }
@@ -174,31 +179,66 @@
             "title": "Configuration",
             "source": "docs/customization/configuration.md",
             "url": "customization/configuration.html",
-            "slug": "customizationconfiguration"
+            "slug": "customizationconfiguration",
+            "headings": [
+              {
+                "title": "Configuration",
+                "depth": 2,
+                "id": "configuration"
+              }
+            ]
           },
           {
             "title": "Breakpoints",
             "source": "docs/customization/breakpoints.md",
             "url": "customization/breakpoints.html",
-            "slug": "customizationbreakpoints"
+            "slug": "customizationbreakpoints",
+            "headings": [
+              {
+                "title": "Breakpoints",
+                "depth": 2,
+                "id": "breakpoints"
+              }
+            ]
           },
           {
             "title": "Colors",
             "source": "docs/customization/colors.md",
             "url": "customization/colors.html",
-            "slug": "customizationcolors"
+            "slug": "customizationcolors",
+            "headings": [
+              {
+                "title": "Colors",
+                "depth": 2,
+                "id": "colors"
+              }
+            ]
           },
           {
             "title": "Spacing",
             "source": "docs/customization/spacing.md",
             "url": "customization/spacing.html",
-            "slug": "customizationspacing"
+            "slug": "customizationspacing",
+            "headings": [
+              {
+                "title": "Spacing",
+                "depth": 2,
+                "id": "spacing"
+              }
+            ]
           },
           {
             "title": "Variants",
             "source": "docs/customization/variants.md",
             "url": "customization/variants.html",
-            "slug": "customizationvariants"
+            "slug": "customizationvariants",
+            "headings": [
+              {
+                "title": "Variants",
+                "depth": 2,
+                "id": "variants"
+              }
+            ]
           }
         ]
       },
@@ -1948,9 +1988,14 @@
           "id": "utility",
           "headings": [
             {
-              "title": "At A Glance",
+              "title": "Writing Styles",
               "depth": 3,
-              "id": "at-a-glance"
+              "id": "writing-styles"
+            },
+            {
+              "title": "Benefit",
+              "depth": 3,
+              "id": "benefit"
             }
           ]
         }
@@ -2035,31 +2080,66 @@
       "source": "docs/customization/configuration.md",
       "title": "Configuration - Introduction",
       "pageTitle": "Configuration",
-      "slug": "customizationconfiguration"
+      "slug": "customizationconfiguration",
+      "headings": [
+        {
+          "title": "Configuration",
+          "depth": 2,
+          "id": "configuration"
+        }
+      ]
     },
     "customization/breakpoints.html": {
       "source": "docs/customization/breakpoints.md",
       "title": "Breakpoints - Introduction",
       "pageTitle": "Breakpoints",
-      "slug": "customizationbreakpoints"
+      "slug": "customizationbreakpoints",
+      "headings": [
+        {
+          "title": "Breakpoints",
+          "depth": 2,
+          "id": "breakpoints"
+        }
+      ]
     },
     "customization/colors.html": {
       "source": "docs/customization/colors.md",
       "title": "Colors - Introduction",
       "pageTitle": "Colors",
-      "slug": "customizationcolors"
+      "slug": "customizationcolors",
+      "headings": [
+        {
+          "title": "Colors",
+          "depth": 2,
+          "id": "colors"
+        }
+      ]
     },
     "customization/spacing.html": {
       "source": "docs/customization/spacing.md",
       "title": "Spacing - Introduction",
       "pageTitle": "Spacing",
-      "slug": "customizationspacing"
+      "slug": "customizationspacing",
+      "headings": [
+        {
+          "title": "Spacing",
+          "depth": 2,
+          "id": "spacing"
+        }
+      ]
     },
     "customization/variants.html": {
       "source": "docs/customization/variants.md",
       "title": "Variants - Introduction",
       "pageTitle": "Variants",
-      "slug": "customizationvariants"
+      "slug": "customizationvariants",
+      "headings": [
+        {
+          "title": "Variants",
+          "depth": 2,
+          "id": "variants"
+        }
+      ]
     },
     "layouts/container.html": {
       "source": "docs/layouts/container.md",

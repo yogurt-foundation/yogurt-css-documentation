@@ -2,9 +2,13 @@
 
 ## Utility
 
-The idea of how utility mean or work in the Yogurt CSS framework. To get you to understand it in more comprehensive way, let have a look at below the two HTML and CSS writing examples.
+Meaning, creating a complex component from a bunch of small functional building blocks with the Yogurt CSS framework.
 
-### Writing in Usual Way
+Each utility property can be configured for different values such as `text size`, `spacing`. And also can be configured for `responsive` and have different `variants` such as `hover`, `focus`, `active`, and so on.
+
+### Writing Styles
+
+The idea of how utility is actually work in the Yogurt CSS framework. To get you to understand it in more comprehensive way, let have a look at below the two HTML and CSS writing examples.
 
 Usually, CSS is written in a separate CSS file with file extension `.css` or in a `<style>` tag inside of the `<head>` tag, or write CSS is inside of an HTML tag, using the style attribute as inline style. Like an example below:
 
@@ -83,11 +87,7 @@ Usually, CSS is written in a separate CSS file with file extension `.css` or in 
 </style>
 ```
 
-### Writing in Yogurt Way
-
 When styling the elements with Yogurt, you don't have to write like the example above in a traditional way. You can create your styling to your component right away in the HTML instead. 
-
-Styling with Yogurt benefits from writing less code, your CSS file never grows, your design always maintain a balance between consistency and flexibility design that you never have to worry about overwriting existing stylesheets.
 
 <y class="mx-auto my-8 max-w-xs">
   <y class="flex justify-center items-center px-4 py-8 bg-white rounded-lg shadow-md">
@@ -112,4 +112,13 @@ Styling with Yogurt benefits from writing less code, your CSS file never grows, 
 </y>
 ```
 
-If you wonder why using the `<y>` tag instead of `<div>` tag, see `tag shorthand`, `tag design` and `best practice` in the [introduction page](../introduction.md).
+To find out more about the `tag shorthand`, `tag design` and `best practice` in Yogurt (See [Introduction](../introduction.md).
+
+### Benefit
+
+Styling with Yogurt CSS framework, you benefits from:
+
+- Writing less, clean and shorter code in your HTML.
+- Your CSS file will never grows and no new stylesheet needed.
+- Your design always maintain a balance between consistency and flexibility design.
+- You never have to worry about overwriting existing stylesheets nightmare.
