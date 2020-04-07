@@ -85,7 +85,9 @@ Usually, CSS is written in a separate CSS file with file extension `.css` or in 
 
 ### Writing in Yogurt Way
 
-When styling the elements with Yogurt, you don't have to write like the example above in a traditional way. You can create your styling to your component right away in the HTML instead. Styling with Yogurt benefits from writing less code, your CSS file never grows, you never have to worry about overwriting stylesheet frustration. Like an example below:
+When styling the elements with Yogurt, you don't have to write like the example above in a traditional way. You can create your styling to your component right away in the HTML instead. 
+
+Styling with Yogurt benefits from writing less code, your CSS file never grows, your design always maintain a balance between consistency and flexibility design that you never have to worry about overwriting existing stylesheets.
 
 <y class="mx-auto my-8 max-w-xs">
   <y class="flex justify-center items-center px-4 py-8 bg-white rounded-lg shadow-md">
@@ -110,4 +112,4 @@ When styling the elements with Yogurt, you don't have to write like the example 
 </y>
 ```
 
-Well, just that. If you wonder why using the `<y>` tag instead of `<div>` tag, see `tag shorthand`, `tag design` and `best practice` in the [introduction page](../introduction.md).
+If you wonder why using the `<y>` tag instead of `<div>` tag, see `tag shorthand`, `tag design` and `best practice` in the [introduction page](../introduction.md).
