@@ -77,14 +77,14 @@
             "slug": "core-conceptsutility",
             "headings": [
               {
-                "title": "Utility By Design",
+                "title": "Utility",
                 "depth": 2,
-                "id": "utility-by-design",
+                "id": "utility",
                 "headings": [
                   {
-                    "title": "Utilities At A Glance",
+                    "title": "At A Glance",
                     "depth": 3,
-                    "id": "utilities-at-a-glance"
+                    "id": "at-a-glance"
                   }
                 ]
               }
@@ -1943,14 +1943,14 @@
       "slug": "core-conceptsutility",
       "headings": [
         {
-          "title": "Utility By Design",
+          "title": "Utility",
           "depth": 2,
-          "id": "utility-by-design",
+          "id": "utility",
           "headings": [
             {
-              "title": "Utilities At A Glance",
+              "title": "At A Glance",
               "depth": 3,
-              "id": "utilities-at-a-glance"
+              "id": "at-a-glance"
             }
           ]
         }

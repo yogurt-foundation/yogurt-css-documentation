@@ -1,8 +1,10 @@
 > Core Concepts
 
-## Utility By Design
+## Utility
 
-### Utilities At A Glance
+### At A Glance
+
+These are the Yogurt utilities that giving you the tool to craft a robust, beautiful and elegant user interface.
 
 - **Layout** ([Container](../layouts/container.md), [Box Sizing](../layouts/box-sizing.md), [Display](../layouts/display.md), [Float](../layouts/float.md), [Clear](../layouts/clear.md), [Object Fit](../layouts/object-fit.md), [Object Position](../layouts/object-position.md), [Overflow](../layouts/overflow.md), [Position](../layouts/position.md), [Top/Bottom/Left/Right](../layouts/tblr.md), [Visibility](../layouts/visibility.md), [Z-Index](../layouts/z-index.md))
 - **Typography** ([Font Family](../typography/font-family.md), [Font Size](../typography/font-size.md), [Font Smoothing](../typography/font-smoothing.md), [Font Style](../typography/font-style.md), [Font Weight](../typography/font-weight.md), [Letter Spacing](../typography/letter-spacing.md), [Line Height](../typography/line-height.md), [List Style Type](../typography/list-style-type.md), [List Style Position](../typography/list-style-position.md), [Placeholder Color](../typography/placeholder-color.md), [Text Align](../typography/text-align.md), [Text Color](../typography/text-color.md), [Text Decoration](../typography/text-decoration.md), [Text Transform](../typography/text-transform.md), [Vertical Align](../typography/vertical-align.md), [Whitespace](../typography/whitespace.md), [Word Break](../typography/word-break.md))
