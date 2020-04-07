@@ -1,6 +1,6 @@
 > Core Concepts
 
-## Responsive Design
+## Responsive
 
 Craft an adaptive user interface with responsive utility variants.
 
