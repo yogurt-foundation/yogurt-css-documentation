@@ -112,7 +112,7 @@ When styling the elements with Yogurt, you don't have to write like the example 
 </y>
 ```
 
-To find out more about the `tag shorthand`, `tag design` and `best practice` in Yogurt (See [Introduction](../introduction.md).
+To find out more about the **tag shorthand**, **tag design** and **best practice** (See [Introduction](../introduction.md)).
 
 ### Benefit
 
