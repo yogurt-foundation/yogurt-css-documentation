@@ -28,7 +28,9 @@
                     <ul class="headings heading-list">
                       <li class="heading-item -depth-2"><a class="hlink link-utility" href="#utility">Utility</a>
                         <ul class="heading-list -depth-2">
-                          <li class="heading-item -depth-3"><a class="hlink link-at-a-glance" href="#at-a-glance">At A Glance</a>
+                          <li class="heading-item -depth-3"><a class="hlink link-writing-in-usual-way" href="#writing-in-usual-way">Writing in Usual Way</a>
+                          </li>
+                          <li class="heading-item -depth-3"><a class="hlink link-writing-in-yogurt-way" href="#writing-in-yogurt-way">Writing in Yogurt Way</a>
                           </li>
                         </ul>
                       </li>
@@ -284,24 +286,102 @@
 <p>Core Concepts</p>
 </blockquote>
 <h2 id="utility">Utility</h2>
-<h3 id="at-a-glance">At A Glance</h3>
-<p>These are the Yogurt utilities that giving you the tool to craft a robust, beautiful and elegant user interface.</p>
-<ul>
-<li><strong>Layout</strong> (<a href="../layouts/container.html">Container</a>, <a href="../layouts/box-sizing.html">Box Sizing</a>, <a href="../layouts/display.html">Display</a>, <a href="../layouts/float.html">Float</a>, <a href="../layouts/clear.html">Clear</a>, <a href="../layouts/object-fit.html">Object Fit</a>, <a href="../layouts/object-position.html">Object Position</a>, <a href="../layouts/overflow.html">Overflow</a>, <a href="../layouts/position.html">Position</a>, <a href="../layouts/tblr.html">Top/Bottom/Left/Right</a>, <a href="../layouts/visibility.html">Visibility</a>, <a href="../layouts/z-index.html">Z-Index</a>)</li>
-<li><strong>Typography</strong> (<a href="../typography/font-family.html">Font Family</a>, <a href="../typography/font-size.html">Font Size</a>, <a href="../typography/font-smoothing.html">Font Smoothing</a>, <a href="../typography/font-style.html">Font Style</a>, <a href="../typography/font-weight.html">Font Weight</a>, <a href="../typography/letter-spacing.html">Letter Spacing</a>, <a href="../typography/line-height.html">Line Height</a>, <a href="../typography/list-style-type.html">List Style Type</a>, <a href="../typography/list-style-position.html">List Style Position</a>, <a href="../typography/placeholder-color.html">Placeholder Color</a>, <a href="../typography/text-align.html">Text Align</a>, <a href="../typography/text-color.html">Text Color</a>, <a href="../typography/text-decoration.html">Text Decoration</a>, <a href="../typography/text-transform.html">Text Transform</a>, <a href="../typography/vertical-align.html">Vertical Align</a>, <a href="../typography/whitespace.html">Whitespace</a>, <a href="../typography/word-break.html">Word Break</a>)</li>
-<li><strong>Spacing</strong> (<a href="../spacing/margin.html">Margin</a>, <a href="../spacing/padding.html">Padding</a>)</li>
-<li><strong>Backgrounds</strong> (<a href="../backgrounds/background-attachment.html">Background Attachment</a>, <a href="../backgrounds/background-color.html">Background Color</a>, <a href="../backgrounds/background-position.html">Background Position</a>, <a href="../backgrounds/background-repeat.html">Background Repeat</a>, <a href="../backgrounds/background-size.html">Background Size</a>)</li>
-<li><strong>Borders</strong> (<a href="../borders/border-color.html">Border Color</a>, <a href="../borders/border-style.html">Border Style</a>, <a href="../borders/border-width.html">Border Width</a>, <a href="../borders/border-radius.html">Border Radius</a>)</li>
-<li><strong>Effects</strong> (<a href="../effects/box-shadow.html">Box Shadow</a>, <a href="../effects/opacity.html">Opacity</a>)</li>
-<li><strong>Sizing</strong> (<a href="../sizing/width.html">Width</a>, <a href="../sizing/min-width.html">Min Width</a>, <a href="../sizing/max-width.html">Max Width</a>, <a href="../sizing/height.html">Height</a>, <a href="../sizing/min-height.html">Min Height</a>, <a href="../sizing/max-height.html">Max Height</a>)</li>
-<li><strong>Flexbox</strong> (<a href="../flexbox/flex-direction.html">Flex Direction</a>, <a href="../flexbox/flex-wrap.html">Flex Wrap</a>, <a href="../flexbox/align-items.html">Align Items</a>, <a href="../flexbox/align-content.html">Align Content</a>, <a href="../flexbox/align-self.html">Align Self</a>, <a href="../flexbox/justify-content.html">Justify Content</a>, <a href="../flexbox/flex.html">Flex</a>, <a href="../flexbox/flex-grow.html">Flex Grow</a>, <a href="../flexbox/flex-shrink.html">Flex Shrink</a>, <a href="../flexbox/order.html">Order</a>)</li>
-<li><strong>Interactivity</strong> (<a href="../interactivity/appearance.html">Appearance</a>, <a href="../interactivity/cursor.html">Cursor</a>, <a href="../interactivity/outline.html">Outine</a>, <a href="../interactivity/pointer-events.html">Pointer Events</a>, <a href="../interactivity/resize.html">Resize</a>, <a href="../interactivity/user-select.html">User Select</a>)</li>
-<li><span class="p-1 text-xs text-white font-semibold bg-orange-400 rounded">NEW</span> <strong>Filters</strong> (<a href="../filters/filter-compose.html">Filter Compose</a>, <a href="../filters/filter-blur.html">Blur</a>, <a href="../filters/filter-invert.html">Invert</a>)</li>
-<li><strong>Transforms</strong> (<a href="../transforms/rotate.html">Rotate</a>, <a href="../transforms/scale.html">Scale</a>, <a href="../transforms/skew.html">Skew</a>, <a href="../transforms/transform-origin.html">Transform Origin</a>, <a href="../transforms/translate.html">Translate</a>)</li>
-<li><strong>Transitions</strong> (<a href="../transitions/transition-property.html">Transition Property</a>, <a href="../transitions/transition-duration.html">Transition Duration</a>, <a href="../transitions/transition-timing.html">Transition Timing</a>)</li>
-<li><strong>Tables</strong> (<a href="../tables/border-collapse.html">Border Collapse</a>, <a href="../tables/table-layout.html">Table Layout</a>)</li>
-<li><strong>SVG</strong> (<a href="../svg/fill.html">Fill</a>, <a href="../svg/stroke.html">Stroke</a>, <a href="../svg/stroke-width.html">Stroke Width</a>)</li>
-</ul>
+<p>The idea of how utility mean or work in the Yogurt CSS framework. To get you to understand it in more comprehensive way, let have a look at below the two HTML and CSS writing examples.</p>
+<h3 id="writing-in-usual-way">Writing in Usual Way</h3>
+<p>Usually, CSS is written in a separate CSS file with file extension <code>.css</code> or in a <code>&lt;style&gt;</code> tag inside of the <code>&lt;head&gt;</code> tag, or write CSS is inside of an HTML tag, using the style attribute as inline style. Like an example below:</p>
+<div class="box-panel">
+  <div class="box-content">
+    <img src="https://i.pravatar.cc/100">
+    <span>
+      John Doe
+    </span>
+  </div>
+</div>
+<style>
+  .box-panel {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    margin: 2rem auto;
+    max-width: 300px;
+    padding: 2rem 1rem;
+  }
+  .box-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-content img {
+    background-color: #edf2f7;
+    border-radius: 100%;
+    height: 4rem;
+    width: 4rem;
+    margin-right: 1rem;
+  }
+  .box-content span {
+    color: #262626;
+    font-size: 1.125em;
+  }
+</style>
+<pre><code class="lang-html"><span class="pl-c">&lt;!-- Example --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="pl-s">&quot;box-panel&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="pl-s">&quot;box-content&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="pl-s">&quot;https://i.pravatar.cc/100&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>
+      John Doe
+    <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+  <span class="hljs-selector-class">.box-panel</span> {
+    <span class="pl-e">background-color</span>: <span class="hljs-number">#fff</span>;
+    <span class="pl-e">border-radius</span>: <span class="hljs-number">0.5rem</span>;
+    <span class="pl-e">box-shadow</span>: <span class="hljs-number">0</span> <span class="hljs-number">4px</span> <span class="hljs-number">6px</span> -<span class="hljs-number">1px</span> <span class="pl-c1">rgba</span>(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0.1</span>), <span class="hljs-number">0</span> <span class="hljs-number">2px</span> <span class="hljs-number">4px</span> -<span class="hljs-number">1px</span> <span class="pl-c1">rgba</span>(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0.06</span>);
+    <span class="pl-e">margin</span>: <span class="hljs-number">2rem</span> auto;
+    <span class="pl-e">max-width</span>: <span class="hljs-number">300px</span>;
+    <span class="pl-e">padding</span>: <span class="hljs-number">2rem</span> <span class="hljs-number">1rem</span>;
+  }
+  <span class="hljs-selector-class">.box-content</span> {
+    <span class="pl-e">display</span>: flex;
+    <span class="pl-e">justify-content</span>: center;
+    <span class="pl-e">align-items</span>: center;
+  }
+  <span class="hljs-selector-class">.box-content</span> <span class="hljs-selector-tag">img</span> {
+    <span class="pl-e">background-color</span>: <span class="hljs-number">#edf2f7</span>;
+    <span class="pl-e">border-radius</span>: <span class="hljs-number">100%</span>;
+    <span class="pl-e">height</span>: <span class="hljs-number">4rem</span>;
+    <span class="pl-e">width</span>: <span class="hljs-number">4rem</span>;
+    <span class="pl-e">margin-right</span>: <span class="hljs-number">1rem</span>;
+  }
+  <span class="hljs-selector-class">.box-content</span> <span class="hljs-selector-tag">span</span> {
+    <span class="pl-e">color</span>: <span class="hljs-number">#262626</span>;
+    <span class="pl-e">font-size</span>: <span class="hljs-number">1.125em</span>;
+  }
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+</code></pre>
+<h3 id="writing-in-yogurt-way">Writing in Yogurt Way</h3>
+<p>When styling the elements with Yogurt, you don&#x2019;t have to write like the example above in a traditional way. You can create your styling to your component right away in the HTML instead. Styling with Yogurt benefits from writing less code, your CSS file never grows, you never have to worry about overwriting stylesheet frustration. Like an example below:</p>
+<y class="mx-auto my-8 max-w-xs">
+  <y class="flex justify-center items-center px-4 py-8 bg-white rounded-lg shadow-md">
+    <img class="h-16 w-16 rounded-full object-cover object-center overflow-hidden" src="https://i.pravatar.cc/100">
+    <y class="px-4 text-charcoal-100 text-lg">
+      John Doe
+    </y>
+  </y>
+</y>
+<pre><code class="lang-html"><span class="pl-c">&lt;!-- Example --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">y</span> <span class="hljs-attr">class</span>=<span class="pl-s">&quot;mx-auto my-8 max-w-xs&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">y</span> <span class="hljs-attr">class</span>=<span class="pl-s">&quot;flex justify-center items-center px-4 py-8 bg-white rounded-lg shadow-md&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="pl-s">&quot;h-16 w-16 rounded-full object-cover object-center overflow-hidden&quot;</span>
+         <span class="hljs-attr">src</span>=<span class="pl-s">&quot;https://i.pravatar.cc/100&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">y</span> <span class="hljs-attr">class</span>=<span class="pl-s">&quot;px-4 text-charcoal-100 text-lg&quot;</span>&gt;</span>
+      John Doe
+    <span class="hljs-tag">&lt;/<span class="hljs-name">y</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">y</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">y</span>&gt;</span>
+</code></pre>
+<p>Well, just that. If you wonder why using the <code>&lt;y&gt;</code> tag instead of <code>&lt;div&gt;</code> tag, see <code>tag shorthand</code>, <code>tag design</code> and <code>best practice</code> in the <a href="../index.html">introduction page</a>.</p>
 
         </div>
         <div class="footer-nav">

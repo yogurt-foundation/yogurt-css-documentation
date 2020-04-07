@@ -2,22 +2,112 @@
 
 ## Utility
 
-### At A Glance
+The idea of how utility mean or work in the Yogurt CSS framework. To get you to understand it in more comprehensive way, let have a look at below the two HTML and CSS writing examples.
 
-These are the Yogurt utilities that giving you the tool to craft a robust, beautiful and elegant user interface.
+### Writing in Usual Way
 
-- **Layout** ([Container](../layouts/container.md), [Box Sizing](../layouts/box-sizing.md), [Display](../layouts/display.md), [Float](../layouts/float.md), [Clear](../layouts/clear.md), [Object Fit](../layouts/object-fit.md), [Object Position](../layouts/object-position.md), [Overflow](../layouts/overflow.md), [Position](../layouts/position.md), [Top/Bottom/Left/Right](../layouts/tblr.md), [Visibility](../layouts/visibility.md), [Z-Index](../layouts/z-index.md))
-- **Typography** ([Font Family](../typography/font-family.md), [Font Size](../typography/font-size.md), [Font Smoothing](../typography/font-smoothing.md), [Font Style](../typography/font-style.md), [Font Weight](../typography/font-weight.md), [Letter Spacing](../typography/letter-spacing.md), [Line Height](../typography/line-height.md), [List Style Type](../typography/list-style-type.md), [List Style Position](../typography/list-style-position.md), [Placeholder Color](../typography/placeholder-color.md), [Text Align](../typography/text-align.md), [Text Color](../typography/text-color.md), [Text Decoration](../typography/text-decoration.md), [Text Transform](../typography/text-transform.md), [Vertical Align](../typography/vertical-align.md), [Whitespace](../typography/whitespace.md), [Word Break](../typography/word-break.md))
-- **Spacing** ([Margin](../spacing/margin.md), [Padding](../spacing/padding.md))
-- **Backgrounds** ([Background Attachment](../backgrounds/background-attachment.md), [Background Color](../backgrounds/background-color.md), [Background Position](../backgrounds/background-position.md), [Background Repeat](../backgrounds/background-repeat.md), [Background Size](../backgrounds/background-size.md))
-- **Borders** ([Border Color](../borders/border-color.md), [Border Style](../borders/border-style.md), [Border Width](../borders/border-width.md), [Border Radius](../borders/border-radius.md))
-- **Effects** ([Box Shadow](../effects/box-shadow.md), [Opacity](../effects/opacity.md))
-- **Sizing** ([Width](../sizing/width.md), [Min Width](../sizing/min-width.md), [Max Width](../sizing/max-width.md), [Height](../sizing/height.md), [Min Height](../sizing/min-height.md), [Max Height](../sizing/max-height.md))
-- **Flexbox** ([Flex Direction](../flexbox/flex-direction.md), [Flex Wrap](../flexbox/flex-wrap.md), [Align Items](../flexbox/align-items.md), [Align Content](../flexbox/align-content.md), [Align Self](../flexbox/align-self.md), [Justify Content](../flexbox/justify-content.md), [Flex](../flexbox/flex.md), [Flex Grow](../flexbox/flex-grow.md), [Flex Shrink](../flexbox/flex-shrink.md), [Order](../flexbox/order.md))
-- **Interactivity** ([Appearance](../interactivity/appearance.md), [Cursor](../interactivity/cursor.md), [Outine](../interactivity/outline.md), [Pointer Events](../interactivity/pointer-events.md), [Resize](../interactivity/resize.md), [User Select](../interactivity/user-select.md))
-- <span class="p-1 text-xs text-white font-semibold bg-orange-400 rounded">NEW</span> **Filters** ([Filter Compose](../filters/filter-compose.md), [Blur](../filters/filter-blur.md), [Invert](../filters/filter-invert.md))
-- **Transforms** ([Rotate](../transforms/rotate.md), [Scale](../transforms/scale.md), [Skew](../transforms/skew.md), [Transform Origin](../transforms/transform-origin.md), [Translate](../transforms/translate.md))
-- **Transitions** ([Transition Property](../transitions/transition-property.md), [Transition Duration](../transitions/transition-duration.md), [Transition Timing](../transitions/transition-timing.md))
-- **Tables** ([Border Collapse](../tables/border-collapse.md), [Table Layout](../tables/table-layout.md))
-- **SVG** ([Fill](../svg/fill.md), [Stroke](../svg/stroke.md), [Stroke Width](../svg/stroke-width.md))
+Usually, CSS is written in a separate CSS file with file extension `.css` or in a `<style>` tag inside of the `<head>` tag, or write CSS is inside of an HTML tag, using the style attribute as inline style. Like an example below:
 
+<div class="box-panel">
+  <div class="box-content">
+    <img src="https://i.pravatar.cc/100">
+    <span>
+      John Doe
+    </span>
+  </div>
+</div>
+
+<style>
+  .box-panel {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    margin: 2rem auto;
+    max-width: 300px;
+    padding: 2rem 1rem;
+  }
+  .box-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-content img {
+    background-color: #edf2f7;
+    border-radius: 100%;
+    height: 4rem;
+    width: 4rem;
+    margin-right: 1rem;
+  }
+  .box-content span {
+    color: #262626;
+    font-size: 1.125em;
+  }
+</style>
+
+```html
+<!-- Example -->
+<div class="box-panel">
+  <div class="box-content">
+    <img src="https://i.pravatar.cc/100">
+    <span>
+      John Doe
+    </span>
+  </div>
+</div>
+
+<style>
+  .box-panel {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    margin: 2rem auto;
+    max-width: 300px;
+    padding: 2rem 1rem;
+  }
+  .box-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-content img {
+    background-color: #edf2f7;
+    border-radius: 100%;
+    height: 4rem;
+    width: 4rem;
+    margin-right: 1rem;
+  }
+  .box-content span {
+    color: #262626;
+    font-size: 1.125em;
+  }
+</style>
+```
+
+### Writing in Yogurt Way
+
+When styling the elements with Yogurt, you don't have to write like the example above in a traditional way. You can create your styling to your component right away in the HTML instead. Styling with Yogurt benefits from writing less code, your CSS file never grows, you never have to worry about overwriting stylesheet frustration. Like an example below:
+
+<y class="mx-auto my-8 max-w-xs">
+  <y class="flex justify-center items-center px-4 py-8 bg-white rounded-lg shadow-md">
+    <img class="h-16 w-16 rounded-full object-cover object-center overflow-hidden"
+         src="https://i.pravatar.cc/100">
+    <y class="px-4 text-charcoal-100 text-lg">
+      John Doe
+    </y>
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<y class="mx-auto my-8 max-w-xs">
+  <y class="flex justify-center items-center px-4 py-8 bg-white rounded-lg shadow-md">
+    <img class="h-16 w-16 rounded-full object-cover object-center overflow-hidden"
+         src="https://i.pravatar.cc/100">
+    <y class="px-4 text-charcoal-100 text-lg">
+      John Doe
+    </y>
+  </y>
+</y>
+```
+
+Well, just that. If you wonder why using the `<y>` tag instead of `<div>` tag, see `tag shorthand`, `tag design` and `best practice` in the [introduction page](../introduction.md).
