@@ -74,7 +74,21 @@
             "title": "Utility By Design",
             "source": "docs/core-concepts/utility-by-design.md",
             "url": "core-concepts/utility-by-design.html",
-            "slug": "core-conceptsutility-by-design"
+            "slug": "core-conceptsutility-by-design",
+            "headings": [
+              {
+                "title": "Utility By Design",
+                "depth": 2,
+                "id": "utility-by-design",
+                "headings": [
+                  {
+                    "title": "Utilities At A Glance",
+                    "depth": 3,
+                    "id": "utilities-at-a-glance"
+                  }
+                ]
+              }
+            ]
           },
           {
             "title": "Responsive Design",
@@ -1926,7 +1940,21 @@
       "source": "docs/core-concepts/utility-by-design.md",
       "title": "Utility By Design - Introduction",
       "pageTitle": "Utility By Design",
-      "slug": "core-conceptsutility-by-design"
+      "slug": "core-conceptsutility-by-design",
+      "headings": [
+        {
+          "title": "Utility By Design",
+          "depth": 2,
+          "id": "utility-by-design",
+          "headings": [
+            {
+              "title": "Utilities At A Glance",
+              "depth": 3,
+              "id": "utilities-at-a-glance"
+            }
+          ]
+        }
+      ]
     },
     "core-concepts/responsive-design.html": {
       "source": "docs/core-concepts/responsive-design.md",

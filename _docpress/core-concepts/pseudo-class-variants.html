@@ -325,24 +325,25 @@
 </code></pre>
 <h3 id="create-custom-variants">Create Custom Variants</h3>
 <p>Not all utilities are having all sorts of pseudo-class variants enabled by default, this is to control the default package file size from getting larger. But, you can create your own variants for pseudo-classes.</p>
-<p>For example, each utility module file has a variant section that consists of <code>hover</code>, <code>focus</code>, <code>active</code> and so on. You need to add <code>@include()</code> function to a specific placeholder following by the <code>UTILITY_NAME</code> (e.g. textColorBlack), last add the arguments <code>&quot;&quot;, &quot;&quot;, &quot;&quot;</code> to look like below to enable the variant you need.</p>
+<p>For example, each utility module file has a variant section that consists of <code>hover</code>, <code>focus</code>, <code>active</code> and so on. You need to add <code>@include()</code> function to an utility module (e.g. <code>_fontSize.scss</code>) file under the <code>/* Variants */</code> section to a specific placeholder following by the <code>UTILITY_NAME</code> (e.g. fontSize), last add the arguments <code>&quot;&quot;, &quot;&quot;, &quot;&quot;</code> to look like below to enable the variant you need.</p>
 <pre><code class="lang-scss"><span class="pl-c">// @file `utilities/typography/_fontSize.scss`</span>
 
+<span class="pl-c">/* Variants */</span>
+
 <span class="pl-c">// hover</span>
-<span class="pl-k">@include</span> textColorBlack(<span class="pl-s">&quot;.hover\\:&quot;</span>, <span class="pl-s">&quot;:hover&quot;</span>, <span class="pl-s">&quot;&quot;</span>);
+<span class="pl-k">@include</span> fontSize(<span class="pl-s">&quot;.hover\\:&quot;</span>, <span class="pl-s">&quot;:hover&quot;</span>, <span class="pl-s">&quot;&quot;</span>);
 
 <span class="pl-c">// focus</span>
-<span class="pl-k">@include</span> textColorBlack(<span class="pl-s">&quot;.focus\\:&quot;</span>, <span class="pl-s">&quot;:focus&quot;</span>, <span class="pl-s">&quot;&quot;</span>);
+<span class="pl-k">@include</span> fontSize(<span class="pl-s">&quot;.focus\\:&quot;</span>, <span class="pl-s">&quot;:focus&quot;</span>, <span class="pl-s">&quot;&quot;</span>);
 
 <span class="pl-c">// active</span>
-<span class="pl-k">@include</span> textColorBlack(<span class="pl-s">&quot;.active\\:&quot;</span>, <span class="pl-s">&quot;:active&quot;</span>, <span class="pl-s">&quot;&quot;</span>);
+<span class="pl-k">@include</span> fontSize(<span class="pl-s">&quot;.active\\:&quot;</span>, <span class="pl-s">&quot;:active&quot;</span>, <span class="pl-s">&quot;&quot;</span>);
 
 <span class="pl-c">// visited</span>
-<span class="pl-k">@include</span> textColorBlack(<span class="pl-s">&quot;.visited\\:&quot;</span>, <span class="pl-s">&quot;:visited&quot;</span>, <span class="pl-s">&quot;&quot;</span>);
+<span class="pl-k">@include</span> fontSize(<span class="pl-s">&quot;.visited\\:&quot;</span>, <span class="pl-s">&quot;:visited&quot;</span>, <span class="pl-s">&quot;&quot;</span>);
 
 <span class="pl-c">// disabled</span>
-<span class="pl-k">@include</span> textColorBlack(<span class="pl-s">&quot;.disabled\\:&quot;</span>, <span class="pl-s">&quot;:disabled&quot;</span>, <span class="pl-s">&quot;&quot;</span>);
-
+<span class="pl-k">@include</span> fontSize(<span class="pl-s">&quot;.disabled\\:&quot;</span>, <span class="pl-s">&quot;:disabled&quot;</span>, <span class="pl-s">&quot;&quot;</span>);
 </code></pre>
 <p>Learn more in the <a href="../customization/variants.html">customizing variants</a> page.</p>
 
