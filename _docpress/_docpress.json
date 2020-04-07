@@ -97,9 +97,9 @@
             "slug": "core-conceptsresponsive",
             "headings": [
               {
-                "title": "Responsive Design",
+                "title": "Responsive",
                 "depth": 2,
-                "id": "responsive-design",
+                "id": "responsive",
                 "headings": [
                   {
                     "title": "Common Breakpoints",
@@ -1963,9 +1963,9 @@
       "slug": "core-conceptsresponsive",
       "headings": [
         {
-          "title": "Responsive Design",
+          "title": "Responsive",
           "depth": 2,
-          "id": "responsive-design",
+          "id": "responsive",
           "headings": [
             {
               "title": "Common Breakpoints",
