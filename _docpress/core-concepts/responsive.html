@@ -366,35 +366,37 @@
 </code></pre>
 <p>Learn more in the <a href="../customization/breakpoints.html">customizing breakpoints</a> page.</p>
 <h3 id="create-custom-responsive">Create Custom Responsive</h3>
-<p>To create responsive to an utility. You need to add <code>@include()</code> function into <code>_responsive.scss</code> file under the <code>/* Default */</code> section, following by the <code>UTILITY_NAME</code> (e.g. padding), last add the arguments <code>&quot;.#{$screen}\\:&quot;, &quot;&quot;, &quot;&quot;</code> to look like below to enable it.</p>
+<h4 id="responsive-without-variants">Responsive Without Variants</h4>
+<p>To create responsive to an utility. You need to add <code>@include()</code> function into <code>_responsive.scss</code> file under the <code>/* Default */</code> section, following by the utility name (e.g. <code>padding</code>), last add the arguments to look like below to enable it.</p>
 <pre><code class="lang-scss"><span class="pl-c">// @file `_responsive.scss`</span>
 
 <span class="pl-c">/* Default */</span>
 
-<span class="pl-k">@include</span> padding(<span class="pl-s">&quot;.#{$screen}\\:&quot;</span>, <span class="pl-s">&quot;&quot;</span>, <span class="pl-s">&quot;&quot;</span>);
+<span class="pl-k">@include</span> padding(<span class="hljs-variable">$prefix-responsive</span>, <span class="hljs-variable">$pseudo-false</span>, <span class="hljs-variable">$class-false</span>);
 
-<span class="pl-k">@include</span> margin(<span class="pl-s">&quot;.#{$screen}\\:&quot;</span>, <span class="pl-s">&quot;&quot;</span>, <span class="pl-s">&quot;&quot;</span>, <span class="pl-s">&quot;&quot;</span>);
+<span class="pl-k">@include</span> margin(<span class="hljs-variable">$prefix-responsive</span>, <span class="hljs-variable">$pseudo-false</span>, <span class="hljs-variable">$class-false</span>);
 </code></pre>
+<h4 id="responsive-with-variants">Responsive With Variants</h4>
 <p>Not all responsive utilities are having all sorts of pseudo-class variants enabled by default, this is to control the default package file size from getting larger. But, you can create your own responsive variants for pseudo-classes.</p>
-<p>For example, each utility module file has a variant section that consists of <code>hover</code>, <code>focus</code>, <code>active</code> and so on. You need to add <code>@include()</code> function into <code>_responsive.scss</code> file under the <code>/* Variants */</code> section to a specific placeholder (e.g. <code>// hover</code>) following by the <code>UTILITY_NAME</code> (e.g. opacity), last add the arguments <code>&quot;.#{$screen}\\:PSEUDO-CLASS\\:&quot;, &quot;PSEUDO-CLASS&quot;, &quot;&quot;</code> to look like below to enable the variant with responsive you need.</p>
+<p>For example, each utility module file has a variant section that consists of <code>hover</code>, <code>focus</code>, <code>active</code> and so on. You need to add <code>@include()</code> function into <code>_responsive.scss</code> file under the <code>/* Variants */</code> section to a specific placeholder (e.g. <code>// hover</code>) following by the utility name (e.g. <code>opacity</code>), last add the arguments to look like below to enable the variant with responsive you need.</p>
 <pre><code class="lang-scss"><span class="pl-c">// @file `_responsive.scss`</span>
 
 <span class="pl-c">/* Variants */</span>
 
 <span class="pl-c">// hover</span>
-<span class="pl-k">@include</span> opacity(<span class="pl-s">&quot;.#{$screen}\\:hover\\:&quot;</span>, <span class="pl-s">&quot;:hover&quot;</span>, <span class="pl-s">&quot;&quot;</span>);
+<span class="pl-k">@include</span> opacity(<span class="hljs-variable">$prefix-responsive-hover</span>, <span class="hljs-variable">$pseudo-hover</span>, <span class="hljs-variable">$class-false</span>);
 
 <span class="pl-c">// focus</span>
-<span class="pl-k">@include</span> opacity(<span class="pl-s">&quot;.#{$screen}\\:focus\\:&quot;</span>, <span class="pl-s">&quot;:focus&quot;</span>, <span class="pl-s">&quot;&quot;</span>);
+<span class="pl-k">@include</span> opacity(<span class="hljs-variable">$prefix-responsive-focus</span>, <span class="hljs-variable">$pseudo-focus</span>, <span class="hljs-variable">$class-false</span>);
 
 <span class="pl-c">// active</span>
-<span class="pl-k">@include</span> opacity(<span class="pl-s">&quot;.#{$screen}\\:active\\:&quot;</span>, <span class="pl-s">&quot;:active&quot;</span>, <span class="pl-s">&quot;&quot;</span>);
+<span class="pl-k">@include</span> opacity(<span class="hljs-variable">$prefix-responsive-active</span>, <span class="hljs-variable">$pseudo-active</span>, <span class="hljs-variable">$class-false</span>);
 
 <span class="pl-c">// visited</span>
-<span class="pl-k">@include</span> opacity(<span class="pl-s">&quot;.#{$screen}\\:visited\\:&quot;</span>, <span class="pl-s">&quot;:visited&quot;</span>, <span class="pl-s">&quot;&quot;</span>);
+<span class="pl-k">@include</span> opacity(<span class="hljs-variable">$prefix-responsive-visited</span>, <span class="hljs-variable">$pseudo-visited</span>, <span class="hljs-variable">$class-false</span>);
 
 <span class="pl-c">// disabled</span>
-<span class="pl-k">@include</span> opacity(<span class="pl-s">&quot;.#{$screen}\\:disabled\\:&quot;</span>, <span class="pl-s">&quot;:disabled&quot;</span>, <span class="pl-s">&quot;&quot;</span>);
+<span class="pl-k">@include</span> opacity(<span class="hljs-variable">$prefix-responsive-disabled</span>, <span class="hljs-variable">$pseudo-disabled</span>, <span class="hljs-variable">$class-false</span>);
 </code></pre>
 <p>Learn more in the <a href="../customization/variants.html">customizing variants</a> page.</p>
 

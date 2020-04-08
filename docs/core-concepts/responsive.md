@@ -100,6 +100,8 @@ Learn more in the [customizing breakpoints](../customization/breakpoints.md) pag
 
 ### Create Custom Responsive
 
+#### Responsive Without Variants
+
 To create responsive to an utility. You need to add `@include()` function into `_responsive.scss` file under the `/* Default */` section, following by the utility name (e.g. `padding`), last add the arguments to look like below to enable it.
 
 ```scss
@@ -111,6 +113,8 @@ To create responsive to an utility. You need to add `@include()` function into `
 
 @include margin($prefix-responsive, $pseudo-false, $class-false);
 ```
+
+#### Responsive With Variants
 
 Not all responsive utilities are having all sorts of pseudo-class variants enabled by default, this is to control the default package file size from getting larger. But, you can create your own responsive variants for pseudo-classes.
 
