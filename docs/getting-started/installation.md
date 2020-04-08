@@ -26,7 +26,7 @@ $ cd playground
 $ yarn && yarn start
 ```
 
-[Yogurt Playground](https://github.com/yogurt-foundation/playground) is a developer tool also an HTML/CSS/JS IDE for testing and prototyping with all the Yogurt foundation frameworks and libraries, including [Yogurt CSS](https://github.com/yogurt-foundation/yogurt-css), [FX-Filter](https://github.com/yogurt-foundation/fx-filter), [FX-Gradient](https://github.com/yogurt-foundation/fx-gradient), [FX-Motion](https://github.com/yogurt-foundation/fx-motion). If you have an idea and want to draft something small without setting up a new project. Yogurt Playground is for you.
+[Yogurt Playground](https://github.com/yogurt-foundation/playground) is a developer tool also an HTML/CSS/JS IDE for testing and prototyping with all the Yogurt foundation frameworks and libraries, including [Yogurt CSS](https://github.com/yogurt-foundation/yogurt-css), [FX-Filter](https://github.com/yogurt-foundation/fx-filter), [FX-Gradient](https://github.com/yogurt-foundation/fx-gradient), [FX-Motion](https://github.com/yogurt-foundation/fx-motion). If you have an idea and want to draft something small without setting up a new project, then Yogurt Playground is for you.
 
 <y>
   <img class="w-full h-full rounded-lg"
