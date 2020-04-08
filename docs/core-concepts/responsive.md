@@ -102,43 +102,49 @@ Learn more in the [customizing breakpoints](../customization/breakpoints.md) pag
 
 #### Responsive Without Variants
 
-To create responsive to an utility. You need to add `@include()` function into `_responsive.scss` file under the `/* Default */` section, following by the utility name (e.g. `padding`), last add the arguments to look like below to enable it.
+To create responsive to a utility is to adding the `@include()` function following by the utility name (e.g. `padding`) and then the arguments into `responsive/_default.scss` module file.
+
+This is a `@include()` function look like in Yogurt:
 
 ```scss
-// @file `_responsive.scss`
+@include utilityName(prefix[variants|false], pseudo[variants|false], class[true|false], negative[true|false]); 
+```
 
-/* Default */
+For example, to enable responsive for `padding` utility without adding the pseudo-class variants:
+
+```scss
+// Example
+// @file `responsive/_default.scss`
 
 @include padding($prefix-responsive, $pseudo-false, $class-false);
-
-@include margin($prefix-responsive, $pseudo-false, $class-false);
 ```
 
 #### Responsive With Variants
 
 Not all responsive utilities are having all sorts of pseudo-class variants enabled by default, this is to control the default package file size from getting larger. But, you can create your own responsive variants for pseudo-classes.
 
-For example, each utility module file has a variant section that consists of `hover`, `focus`, `active` and so on. You need to add `@include()` function into `_responsive.scss` file under the `/* Variants */` section to a specific placeholder (e.g. `// hover`) following by the utility name (e.g. `opacity`), last add the arguments to look like below to enable the variant with responsive you need.
+To create responsive with variants, there are separate files for each pseudo-classes.
 
 ```scss
-// @file `_responsive.scss`
+// @file `responsive/variants/_hover.scss`
 
-/* Variants */
-
-// hover
 @include opacity($prefix-responsive-hover, $pseudo-hover, $class-false);
 
-// focus
+// @file `responsive/variants/_focus.scss`
+
 @include opacity($prefix-responsive-focus, $pseudo-focus, $class-false);
 
-// active
+// @file `responsive/variants/_active.scss`
+
 @include opacity($prefix-responsive-active, $pseudo-active, $class-false);
 
-// visited
+// @file `responsive/variants/_visited.scss`
+
 @include opacity($prefix-responsive-visited, $pseudo-visited, $class-false);
 
-// disabled
+// @file `responsive/variants/_disabled.scss`
+
 @include opacity($prefix-responsive-disabled, $pseudo-disabled, $class-false);
 ```
 
-Learn more in the [customizing variants](../customization/variants.md) page.
+Learn more in the [configuration](../customization/configuration.md) and [customizing variants](../customization/variants.md) pages.
