@@ -4,7 +4,7 @@
 
 Meaning, creating a complex component from a bunch of small functional building blocks with the Yogurt CSS framework.
 
-Each utility property can be configured for different conditions such as the value of the `text size`, `spacing`, `color`, and also can be configured for `responsive` to have different `variants` such as `hover`, `focus`, `active`, and so on.
+Each utility property can be configured for different conditions such as the value of the text size, spacing, color, also can be configured to respond to different screen sizes and different types of interactivity such as hover, focus, active, and so on or both.
 
 ### Writing Styles
 
