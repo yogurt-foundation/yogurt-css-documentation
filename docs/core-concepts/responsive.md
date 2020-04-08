@@ -100,21 +100,21 @@ Learn more in the [customizing breakpoints](../customization/breakpoints.md) pag
 
 ### Create Custom Responsive
 
-To create responsive to an utility. You need to add `@include()` function into `_responsive.scss` file under the `/* Default */` section, following by the `UTILITY_NAME` (e.g. padding), last add the arguments `".#{$screen}\\:", "", ""` to look like below to enable it.
+To create responsive to an utility. You need to add `@include()` function into `_responsive.scss` file under the `/* Default */` section, following by the utility name (e.g. `padding`), last add the arguments to look like below to enable it.
 
 ```scss
 // @file `_responsive.scss`
 
 /* Default */
 
-@include padding(".#{$screen}\\:", "", "");
+@include padding($prefix-responsive, $pseudo-false, $class-false);
 
-@include margin(".#{$screen}\\:", "", "", "");
+@include margin($prefix-responsive, $pseudo-false, $class-false);
 ```
 
 Not all responsive utilities are having all sorts of pseudo-class variants enabled by default, this is to control the default package file size from getting larger. But, you can create your own responsive variants for pseudo-classes.
 
-For example, each utility module file has a variant section that consists of `hover`, `focus`, `active` and so on. You need to add `@include()` function into `_responsive.scss` file under the `/* Variants */` section to a specific placeholder (e.g. `// hover`) following by the `UTILITY_NAME` (e.g. opacity), last add the arguments `".#{$screen}\\:PSEUDO-CLASS\\:", "PSEUDO-CLASS", ""` to look like below to enable the variant with responsive you need.
+For example, each utility module file has a variant section that consists of `hover`, `focus`, `active` and so on. You need to add `@include()` function into `_responsive.scss` file under the `/* Variants */` section to a specific placeholder (e.g. `// hover`) following by the utility name (e.g. `opacity`), last add the arguments to look like below to enable the variant with responsive you need.
 
 ```scss
 // @file `_responsive.scss`
@@ -122,19 +122,19 @@ For example, each utility module file has a variant section that consists of `ho
 /* Variants */
 
 // hover
-@include opacity(".#{$screen}\\:hover\\:", ":hover", "");
+@include opacity($prefix-responsive-hover, $pseudo-hover, $class-false);
 
 // focus
-@include opacity(".#{$screen}\\:focus\\:", ":focus", "");
+@include opacity($prefix-responsive-focus, $pseudo-focus, $class-false);
 
 // active
-@include opacity(".#{$screen}\\:active\\:", ":active", "");
+@include opacity($prefix-responsive-active, $pseudo-active, $class-false);
 
 // visited
-@include opacity(".#{$screen}\\:visited\\:", ":visited", "");
+@include opacity($prefix-responsive-visited, $pseudo-visited, $class-false);
 
 // disabled
-@include opacity(".#{$screen}\\:disabled\\:", ":disabled", "");
+@include opacity($prefix-responsive-disabled, $pseudo-disabled, $class-false);
 ```
 
 Learn more in the [customizing variants](../customization/variants.md) page.
