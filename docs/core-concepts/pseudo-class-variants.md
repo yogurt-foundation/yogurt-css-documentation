@@ -75,4 +75,6 @@ Same like [responsive](../core-concepts/responsive.md), the different is the fil
 @include fontSize($prefix-disabled, $pseudo-disabled, $class-false);
 ```
 
+**Note:** Some utility has `negative` value and require to add `negative[true|false]` argument into `@include()` function.
+
 Learn more in the [configuration](../customization/configuration.md) and [customizing variants](../customization/variants.md) pages.

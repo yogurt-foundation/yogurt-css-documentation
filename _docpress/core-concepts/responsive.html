@@ -367,7 +367,7 @@
 <p>Learn more in the <a href="../customization/breakpoints.html">customizing breakpoints</a> page.</p>
 <h3 id="create-custom-responsive">Create Custom Responsive</h3>
 <h4 id="responsive-without-variants">Responsive Without Variants</h4>
-<p>To create responsive to a utility is to adding the <code>@include()</code> function following by the utility name (e.g. <code>padding</code>) and then the arguments into <code>responsive//default/_default.scss</code> module file.</p>
+<p>To create responsive to a utility is to adding the <code>@include()</code> function following by the utility name (e.g. <code>padding</code>) and then the arguments into <code>responsive/default/_default.scss</code> module file.</p>
 <p>This is a <code>@include()</code> function look like in Yogurt:</p>
 <pre><code class="lang-scss"><span class="pl-k">@include</span> utilityName(prefix[variants|false], pseudo[variants|false], class[true|false], negative[true|false]); 
 </code></pre>
@@ -377,6 +377,7 @@
 
 <span class="pl-k">@include</span> padding(<span class="hljs-variable">$prefix-responsive</span>, <span class="hljs-variable">$pseudo-false</span>, <span class="hljs-variable">$class-false</span>);
 </code></pre>
+<p><strong>Note:</strong> Some utility has <code>negative</code> value and require to add <code>negative[true|false]</code> argument into <code>@include()</code> function.</p>
 <h4 id="responsive-with-variants">Responsive With Variants</h4>
 <p>Not all responsive utilities are having all sorts of pseudo-class variants enabled by default, this is to control the default package file size from getting larger. But, you can create your own responsive variants for pseudo-classes.</p>
 <p>To create responsive with variants, there are separate files for each pseudo-classes.</p>
