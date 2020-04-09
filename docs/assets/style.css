@@ -1368,7 +1368,7 @@ ul.heading-list .hlink:before {
 }
 
 .-menu-visible .menu-toggle {
-  width: 229px;
+  width: 225px;
   background-color: #fff;
   transition: color .4s linear
 }
