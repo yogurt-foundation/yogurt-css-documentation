@@ -2,7 +2,7 @@
 
 ## Utility
 
-Meaning, creating a complex component from a bunch of small functional building blocks with the Yogurt CSS framework.
+Yogurt is a utility-centric framework. Meaning, creating a complex component from a bunch of small functional CSS building blocks.
 
 Each utility property can be configured for different conditions such as the value of the text size, spacing, color shades, also can be configured to respond to different screen sizes and different types of interactivity such as hover, focus, active, and so on or both.
 
@@ -118,7 +118,9 @@ To find out more about the **tag shorthand**, **tag design** and **best practice
 
 Styling with Yogurt CSS framework, you benefits from:
 
+- blazing fast prototyping and production-ready.
 - Writing less, clean and shorter code in your HTML.
 - Your CSS file will never grows and no new stylesheet needed.
 - Your design always maintain a balance between consistency and flexibility design.
 - You never have to worry about overwriting existing stylesheets nightmare.
+
