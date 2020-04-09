@@ -102,7 +102,7 @@ Learn more in the [customizing breakpoints](../customization/breakpoints.md) pag
 
 #### Responsive Without Variants
 
-To create responsive to a utility is to adding the `@include()` function following by the utility name (e.g. `padding`) and then the arguments into `responsive/_default.scss` module file.
+To create responsive to a utility is to adding the `@include()` function following by the utility name (e.g. `padding`) and then the arguments into `responsive//default/_default.scss` module file.
 
 This is a `@include()` function look like in Yogurt:
 
