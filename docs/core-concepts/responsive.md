@@ -114,7 +114,7 @@ For example, to enable responsive for `padding` utility without adding the pseud
 
 ```scss
 // Example
-// @file `responsive/_default.scss`
+// @file `responsive/default/_default.scss`
 
 @include padding($prefix-responsive, $pseudo-false, $class-false);
 ```

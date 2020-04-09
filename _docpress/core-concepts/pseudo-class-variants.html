@@ -324,25 +324,26 @@
 <span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
 </code></pre>
 <h3 id="create-custom-variants">Create Custom Variants</h3>
-<p>Same like <a href="responsive.html">responsive</a>, the different is the file location. To create custom variants to a utility, you need look into specific utility directory (e.g. <code>/typography/_fontSize.scss</code>), and then add a new <code>@include()</code> function with defined utility name (e.g. <code>fontSize</code>), last the arguments into the placeholder (e.g. <code>// hover</code>).</p>
-<pre><code class="lang-scss"><span class="pl-c">// @file `utilities/typography/_fontSize.scss`</span>
+<p>Same like <a href="responsive.html">responsive</a>, the different is the file location. To create custom variants to a utility, look into directory <code>/utilities/variants/</code>, and then add a new <code>@include()</code> function with defined utility name (e.g. <code>fontSize</code>), last the arguments into the variant file (e.g. <code>_hover.scss</code>).</p>
+<pre><code class="lang-scss"><span class="pl-c">// @file `utilities/variants/_hover.scss`</span>
 
-<span class="pl-c">/* Variants */</span>
+<span class="pl-k">@include</span> fontSize(<span class="hljs-variable">$prefix-hover</span>, <span class="hljs-variable">$pseudo-hover</span>, <span class="hljs-variable">$class-false</span>);
 
-  <span class="pl-c">// hover</span>
-  <span class="pl-k">@include</span> fontSize(<span class="hljs-variable">$prefix-hover</span>, <span class="hljs-variable">$pseudo-hover</span>, <span class="hljs-variable">$class-false</span>);
+<span class="pl-c">// @file `utilities/variants/_focus.scss`</span>
 
-  <span class="pl-c">// focus</span>
-  <span class="pl-k">@include</span> fontSize(<span class="hljs-variable">$prefix-focus</span>, <span class="hljs-variable">$pseudo-focus</span>, <span class="hljs-variable">$class-false</span>);
+<span class="pl-k">@include</span> fontSize(<span class="hljs-variable">$prefix-focus</span>, <span class="hljs-variable">$pseudo-focus</span>, <span class="hljs-variable">$class-false</span>);
 
-  <span class="pl-c">// active</span>
-  <span class="pl-k">@include</span> fontSize(<span class="hljs-variable">$prefix-active</span>, <span class="hljs-variable">$pseudo-active</span>, <span class="hljs-variable">$class-false</span>);
+<span class="pl-c">// @file `utilities/variants/_active.scss`</span>
 
-  <span class="pl-c">// visited</span>
-  <span class="pl-k">@include</span> fontSize(<span class="hljs-variable">$prefix-visited</span>, <span class="hljs-variable">$pseudo-visited</span>, <span class="hljs-variable">$class-false</span>);
+<span class="pl-k">@include</span> fontSize(<span class="hljs-variable">$prefix-active</span>, <span class="hljs-variable">$pseudo-active</span>, <span class="hljs-variable">$class-false</span>);
 
-  <span class="pl-c">// disabled</span>
-  <span class="pl-k">@include</span> fontSize(<span class="hljs-variable">$prefix-disabled</span>, <span class="hljs-variable">$pseudo-disabled</span>, <span class="hljs-variable">$class-false</span>);
+<span class="pl-c">// @file `utilities/variants/_visited.scss`</span>
+
+<span class="pl-k">@include</span> fontSize(<span class="hljs-variable">$prefix-visited</span>, <span class="hljs-variable">$pseudo-visited</span>, <span class="hljs-variable">$class-false</span>);
+
+<span class="pl-c">// @file `utilities/variants/_disabled.scss`</span>
+
+<span class="pl-k">@include</span> fontSize(<span class="hljs-variable">$prefix-disabled</span>, <span class="hljs-variable">$pseudo-disabled</span>, <span class="hljs-variable">$class-false</span>);
 </code></pre>
 <p>Learn more in the <a href="../customization/configuration.html">configuration</a> and <a href="../customization/variants.html">customizing variants</a> pages.</p>
 
