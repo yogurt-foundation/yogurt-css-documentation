@@ -4,9 +4,9 @@
 
 Yogurt will generate thousand of CSS classes which leads to increasing the file size, in order to create a complete experience for the prototyping environment that your project not actually using them all. There are ways to either reducing the Yogurt file size or permanently caching it or adopting both.
 
-### Purge Unused CSS
+### Purge Unused Classes
 
-Implement the Node module from [PurgeCSS](https://purgecss.com/), which is the most recommended and effective way to strip down unused CSS classes in Yogurt and vastly reducing the CSS file size. With this, you can [configure](../customization/configuration.md) Yogurt to enable all utilities possible without worrying about the file size. Below is an example setting of [PurgeCSS using Gulp](https://purgecss.com/plugins/gulp.html) in `gulpfile.js`.
+Implement the Node module from [PurgeCSS](https://purgecss.com/), which is the most recommended and effective way to strip down unused CSS classes in Yogurt and vastly reducing the CSS file size. With this, you can [configure](../customization/configuration.md) Yogurt to enable all utilities possible without worrying about the file size. Below is an example setting of [PurgeCSS using Gulp](https://purgecss.com/plugins/gulp.html) in the `gulpfile.js` file.
 
 ```js
 // Example
@@ -19,7 +19,7 @@ gulp.task('purge-css', () => {
         ],
         // make compatible for `Yogurt CSS`
         defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || [],
-        whitelistPatterns: [/-webkit-scrollbar-thumb$/]
+        whitelistPatterns: ['/-webkit-scrollbar-thumb$/']
     }))
     .pipe(rename('style.css'))
     .pipe(gulp.dest('dist/assets/css'))

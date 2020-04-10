@@ -77,9 +77,9 @@
                 "id": "file-size-control"
               },
               {
-                "title": "Purge Unused CSS",
+                "title": "Purge Unused Classes",
                 "depth": 3,
-                "id": "purge-unused-css"
+                "id": "purge-unused-classes"
               },
               {
                 "title": "On-demand Caching",
@@ -2011,9 +2011,9 @@
           "id": "file-size-control"
         },
         {
-          "title": "Purge Unused CSS",
+          "title": "Purge Unused Classes",
           "depth": 3,
-          "id": "purge-unused-css"
+          "id": "purge-unused-classes"
         },
         {
           "title": "On-demand Caching",

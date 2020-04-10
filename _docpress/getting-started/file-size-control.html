@@ -24,7 +24,7 @@
                     <ul class="headings heading-list">
                       <li class="heading-item -depth-3"><a class="hlink link-file-size-control" href="#file-size-control">File Size Control</a>
                       </li>
-                      <li class="heading-item -depth-3"><a class="hlink link-purge-unused-css" href="#purge-unused-css">Purge Unused CSS</a>
+                      <li class="heading-item -depth-3"><a class="hlink link-purge-unused-classes" href="#purge-unused-classes">Purge Unused Classes</a>
                       </li>
                       <li class="heading-item -depth-3"><a class="hlink link-on-demand-caching" href="#on-demand-caching">On-demand Caching</a>
                       </li>
@@ -287,8 +287,8 @@
 </blockquote>
 <h3 id="file-size-control">File Size Control</h3>
 <p>Yogurt will generate thousand of CSS classes which leads to increasing the file size, in order to create a complete experience for the prototyping environment that your project not actually using them all. There are ways to either reducing the Yogurt file size or permanently caching it or adopting both.</p>
-<h3 id="purge-unused-css">Purge Unused CSS</h3>
-<p>Implement the Node module from <a href="https://purgecss.com/">PurgeCSS</a>, which is the most recommended and effective way to strip down unused CSS classes in Yogurt and vastly reducing the CSS file size. With this, you can <a href="../customization/configuration.html">configure</a> Yogurt to enable all utilities possible without worrying about the file size. Below is an example setting of <a href="https://purgecss.com/plugins/gulp.html">PurgeCSS using Gulp</a> in <code>gulpfile.js</code>.</p>
+<h3 id="purge-unused-classes">Purge Unused Classes</h3>
+<p>Implement the Node module from <a href="https://purgecss.com/">PurgeCSS</a>, which is the most recommended and effective way to strip down unused CSS classes in Yogurt and vastly reducing the CSS file size. With this, you can <a href="../customization/configuration.html">configure</a> Yogurt to enable all utilities possible without worrying about the file size. Below is an example setting of <a href="https://purgecss.com/plugins/gulp.html">PurgeCSS using Gulp</a> in the <code>gulpfile.js</code> file.</p>
 <pre><code class="lang-js"><span class="pl-c">// Example</span>
 <span class="pl-k">const</span> purgeCss = <span class="pl-c1">require</span>(<span class="pl-s">&apos;gulp-purgecss&apos;</span>)
 gulp.task(<span class="pl-s">&apos;purge-css&apos;</span>, () =&gt; {
@@ -299,7 +299,7 @@ gulp.task(<span class="pl-s">&apos;purge-css&apos;</span>, () =&gt; {
         ],
         <span class="pl-c">// make compatible for `Yogurt CSS`</span>
         <span class="hljs-attr">defaultExtractor</span>: <span class="hljs-function"><span class="hljs-params">content</span> =&gt;</span> content.match(<span class="hljs-regexp">/[\w-/:]+(?&lt;!:)/g</span>) || [],
-        <span class="hljs-attr">whitelistPatterns</span>: [<span class="hljs-regexp">/-webkit-scrollbar-thumb$/</span>]
+        <span class="hljs-attr">whitelistPatterns</span>: [<span class="pl-s">&apos;/-webkit-scrollbar-thumb$/&apos;</span>]
     }))
     .pipe(rename(<span class="pl-s">&apos;style.css&apos;</span>))
     .pipe(gulp.dest(<span class="pl-s">&apos;dist/assets/css&apos;</span>))
