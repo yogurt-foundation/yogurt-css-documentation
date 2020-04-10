@@ -64,6 +64,29 @@
                 "id": "what's-next"
               }
             ]
+          },
+          {
+            "title": "File Size Control",
+            "source": "docs/getting-started/file-size-control.md",
+            "url": "getting-started/file-size-control.html",
+            "slug": "getting-startedfile-size-control",
+            "headings": [
+              {
+                "title": "File Size Control",
+                "depth": 3,
+                "id": "file-size-control"
+              },
+              {
+                "title": "Purge Unused CSS",
+                "depth": 3,
+                "id": "purge-unused-css"
+              },
+              {
+                "title": "On-demand Caching",
+                "depth": 3,
+                "id": "on-demand-caching"
+              }
+            ]
           }
         ]
       },
@@ -1976,6 +1999,29 @@
         }
       ]
     },
+    "getting-started/file-size-control.html": {
+      "source": "docs/getting-started/file-size-control.md",
+      "title": "File Size Control - Introduction",
+      "pageTitle": "File Size Control",
+      "slug": "getting-startedfile-size-control",
+      "headings": [
+        {
+          "title": "File Size Control",
+          "depth": 3,
+          "id": "file-size-control"
+        },
+        {
+          "title": "Purge Unused CSS",
+          "depth": 3,
+          "id": "purge-unused-css"
+        },
+        {
+          "title": "On-demand Caching",
+          "depth": 3,
+          "id": "on-demand-caching"
+        }
+      ]
+    },
     "core-concepts/utility.html": {
       "source": "docs/core-concepts/utility.md",
       "title": "Utility - Introduction",
@@ -3745,6 +3791,7 @@
   "sources": {
     "docs/introduction.md": "index.html",
     "docs/getting-started/installation.md": "getting-started/installation.html",
+    "docs/getting-started/file-size-control.md": "getting-started/file-size-control.html",
     "docs/core-concepts/utility.md": "core-concepts/utility.html",
     "docs/core-concepts/responsive.md": "core-concepts/responsive.html",
     "docs/core-concepts/pseudo-class-variants.md": "core-concepts/pseudo-class-variants.html",

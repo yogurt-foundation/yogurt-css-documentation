@@ -5,6 +5,7 @@
 - **Getting Started**
 
   - [Installation](getting-started/installation.md)
+  - [File Size Control](getting-started/file-size-control.md)
 
 - **Core Concepts**
 

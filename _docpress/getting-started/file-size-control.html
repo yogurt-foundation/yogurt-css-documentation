@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="../assets/style.css?t=90051322">
     <script src="../assets/script.js?t=93f1a66c"></script>
-    <title>Spacing - Introduction</title>
+    <title>File Size Control - Introduction</title>
     <meta name="viewport" content="width=device-width">
   </head>
   <body class="-menu-visible">
@@ -20,7 +20,15 @@
                 <ul class="submenu">
                   <li class="menu-item -level-2"><a class="link title  link-getting-startedinstallation" href="../getting-started/installation.html">Installation</a>
                   </li>
-                  <li class="menu-item -level-2"><a class="link title  link-getting-startedfile-size-control" href="../getting-started/file-size-control.html">File Size Control</a>
+                  <li class="menu-item -level-2"><a class="link title -active link-getting-startedfile-size-control" href="../getting-started/file-size-control.html">File Size Control</a>
+                    <ul class="headings heading-list">
+                      <li class="heading-item -depth-3"><a class="hlink link-file-size-control" href="#file-size-control">File Size Control</a>
+                      </li>
+                      <li class="heading-item -depth-3"><a class="hlink link-purge-unused-css" href="#purge-unused-css">Purge Unused CSS</a>
+                      </li>
+                      <li class="heading-item -depth-3"><a class="hlink link-on-demand-caching" href="#on-demand-caching">On-demand Caching</a>
+                      </li>
+                    </ul>
                   </li>
                 </ul>
               </li>
@@ -42,11 +50,7 @@
                   </li>
                   <li class="menu-item -level-2"><a class="link title  link-customizationcolors" href="../customization/colors.html">Colors</a>
                   </li>
-                  <li class="menu-item -level-2"><a class="link title -active link-customizationspacing" href="../customization/spacing.html">Spacing</a>
-                    <ul class="headings heading-list">
-                      <li class="heading-item -depth-2"><a class="hlink link-spacing" href="#spacing">Spacing</a>
-                      </li>
-                    </ul>
+                  <li class="menu-item -level-2"><a class="link title  link-customizationspacing" href="../customization/spacing.html">Spacing</a>
                   </li>
                   <li class="menu-item -level-2"><a class="link title  link-customizationvariants" href="../customization/variants.html">Variants</a>
                   </li>
@@ -272,21 +276,46 @@
           </li>
         </ul>
       </div>
-      <div class="body page-customizationspacing">
+      <div class="body page-getting-startedfile-size-control">
         <div class="header-nav">
           <div class="right"><a class="iconlink" href="https://github.com/yogurt-foundation/yogurt-css" data-title="yogurt-foundation/yogurt-css">
               <!-- span.title Open in GitHub--><span class="icon -github"></span></a>
           </div>
         </div>
         <div class="markdown-body"><blockquote>
-<p>Customization</p>
+<p>Installation</p>
 </blockquote>
-<h2 id="spacing">Spacing</h2>
+<h3 id="file-size-control">File Size Control</h3>
+<p>Yogurt will generate thousand of CSS classes which leads to increasing the file size, in order to create a complete experience for the prototyping environment that your project not actually using them all. There are ways to either reducing the Yogurt file size or permanently caching it or adopting both.</p>
+<h3 id="purge-unused-css">Purge Unused CSS</h3>
+<p>Implement the Node module from <a href="https://purgecss.com/">PurgeCSS</a>, which is the most recommended and effective way to strip down unused CSS classes in Yogurt and vastly reducing the CSS file size. With this, you can <a href="../customization/configuration.html">configure</a> Yogurt to enable all utilities possible without worrying about the file size. Below is an example setting of <a href="https://purgecss.com/plugins/gulp.html">PurgeCSS using Gulp</a> in <code>gulpfile.js</code>.</p>
+<pre><code class="lang-js"><span class="pl-c">// Example</span>
+<span class="pl-k">const</span> purgeCss = <span class="pl-c1">require</span>(<span class="pl-s">&apos;gulp-purgecss&apos;</span>)
+gulp.task(<span class="pl-s">&apos;purge-css&apos;</span>, () =&gt; {
+  <span class="pl-k">return</span> gulp.src(<span class="pl-s">&apos;src/assets/css/yogurt.css&apos;</span>)
+    .pipe(purgeCss({
+        <span class="hljs-attr">content</span>: [
+          <span class="pl-s">&apos;src/views/**/*.html&apos;</span>
+        ],
+        <span class="pl-c">// make compatible for `Yogurt CSS`</span>
+        <span class="hljs-attr">defaultExtractor</span>: <span class="hljs-function"><span class="hljs-params">content</span> =&gt;</span> content.match(<span class="hljs-regexp">/[\w-/:]+(?&lt;!:)/g</span>) || [],
+        <span class="hljs-attr">whitelistPatterns</span>: [<span class="hljs-regexp">/-webkit-scrollbar-thumb$/</span>]
+    }))
+    .pipe(rename(<span class="pl-s">&apos;style.css&apos;</span>))
+    .pipe(gulp.dest(<span class="pl-s">&apos;dist/assets/css&apos;</span>))
+})
+</code></pre>
+<h3 id="on-demand-caching">On-demand Caching</h3>
+<p>Another modern method is using <strong>in-browser on-demand-cache</strong> to permanently store the Yogurt CSS with <strong>PWA (Progress Web App)</strong> feature. So that it only loads once maybe for its lifetime and also without the internet connection for the next load, this vastly improves load speed, reduce bandwidth and load time. (See example projects <a href="https://fx-filter-previewer.netlify.com/">FX-Filter Previewer</a>, <a href="https://fx-gradient-previewer.netlify.com/">FX-Gradient Previewer</a>).</p>
+<h4 id="experience-both-ways">Experience Both Ways</h4>
+<p>To try it out in action that including all that above methods, create a new <a href="https://github.com/loouislow81/krugurt">Krugurt.js</a> app and see it for yourself. The <code>Krugurt.js</code> boilerplate has already preloaded the <code>PurgeCSS</code> and <code>On-demand-caching mechanism</code>.</p>
+<pre><code class="lang-bash">$ npx create-krugurt-app my-new-app
+</code></pre>
 
         </div>
         <div class="footer-nav">
-          <div class="left"><a href="../customization/colors.html"><span class="title">Colors</span></a></div>
-          <div class="right"><a href="../customization/variants.html"><span class="label">Next: </span><span class="title">Variants</span></a></div>
+          <div class="left"><a href="../getting-started/installation.html"><span class="title">Installation</span></a></div>
+          <div class="right"><a href="../core-concepts/utility.html"><span class="label">Next: </span><span class="title">Utility</span></a></div>
         </div>
       </div>
     </div>
