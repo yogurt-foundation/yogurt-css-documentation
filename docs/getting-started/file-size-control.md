@@ -30,7 +30,7 @@ gulp.task('purge-css', () => {
 
 Another modern method is using **in-browser on-demand-cache** to permanently store the Yogurt CSS with **PWA (Progress Web App)** feature. So that it only loads once maybe for its lifetime and also without the internet connection for the next load, this vastly improves load speed, reduce bandwidth and load time. (See example projects [FX-Filter Previewer](https://fx-filter-previewer.netlify.com/), [FX-Gradient Previewer](https://fx-gradient-previewer.netlify.com/)).
 
-#### Experience Both Ways
+#### Real World Applications
 
 To try it out in action that including all that above methods, create a new [Krugurt.js](https://github.com/loouislow81/krugurt) app and see it for yourself. The `Krugurt.js` boilerplate has already preloaded the `PurgeCSS` and `On-demand-caching mechanism`.
 
