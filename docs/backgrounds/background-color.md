@@ -6,8 +6,8 @@ Utilities for manipulating an element's background color.
 
 ### Class
 
-| class |   | css properties |
-|:--|:--|:--|
+| class |  | css properties |  |
+|:--|:--|:--|:-:|
 | bg-transparent |  | background-color: transparent | <y class="px-2 bg-transparent text-white font-semibold">Sample</y> |
 | bg-black |  | background-color: #000 | <y class="px-2 bg-black text-white font-semibold">Sample</y> |
 | bg-white |  | background-color: #fff | <y class="px-2 text-white bg-gray-900 font-semibold">Sample</y> |
