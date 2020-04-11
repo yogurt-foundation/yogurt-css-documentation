@@ -1138,7 +1138,7 @@ ul.heading-list .hlink:before {
 }
 
 .markdown-body table tr:nth-child(2n) {
-  background-color: #e5e5e542
+  background-color: transparent
 }
 
 .markdown-body img {
