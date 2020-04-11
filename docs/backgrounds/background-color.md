@@ -10,7 +10,7 @@ Utilities for manipulating an element's background color.
 |:--|:--|:--|:-:|
 | bg-transparent |  | background-color: transparent | <y class="w-16 h-16 rounded bg-transparent shadow"></y> |
 | bg-white |  | background-color: #fff | <y class="w-16 h-16 rounded bg-white shadow"></y> |
-| bg-black-100 |  | background-color: #b9b9b9 | <y class="w-16 h-16 rounded bg-black-100 "></y> |
+| bg-black-100 |  | background-color: #b9b9b9 | <y class="w-16 h-auto rounded bg-black-100 "></y> |
 | bg-black-200 |  | background-color: #a2a2a2 | <y class="w-16 h-16 rounded bg-black-200 "></y> |
 | bg-black-300 |  | background-color: #8b8b8b | <y class="w-16 h-16 rounded bg-black-300 "></y> |
 | bg-black-400 |  | background-color: #737373 | <y class="w-16 h-16 rounded bg-black-400 "></y> |
