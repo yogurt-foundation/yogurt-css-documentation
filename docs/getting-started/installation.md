@@ -1,9 +1,5 @@
 > Installation
 
-<p class="codepen" data-height="360" data-theme-id="dark" data-default-tab="html,result" data-user="loouislow81" data-slug-hash="VwvYgQo" style="height: 360px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="VwvYgQo">
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-
 ### Using Yogurt via Build Tool
 
 ```bash
