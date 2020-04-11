@@ -519,23 +519,22 @@ html {
   content: attr(data-title);
   display: inline-block;
   position: absolute;
-  bottom: -48px;
+  bottom: -30px;
   right: 24px;
   font-size: 13px;
-  padding: 3px 10px;
-  background: rgba(17, 17, 17, .8);
-  color: #fff;
-  border: solid 1px rgba(17, 17, 17, .2);
+  padding: 5px 10px;
+  background: #abacaf;
+  color: #ffffff;
+  border: solid 1px rgb(162, 163, 167);
   border-radius: 2px;
   text-decoration: none;
-  height: 22px;
-  line-height: 22px;
+  height: 30px;
   width: auto;
   white-space: nowrap;
   pointer-events: none;
   opacity: 0;
   transition: opacity 150ms linear, transform 150ms linear;
-  transform: translate3d(0, -8px, 0)
+  transform: translate3d(0, -8px, 0);
 }
 
 .header-nav .iconlink[data-title]:hover:before {
