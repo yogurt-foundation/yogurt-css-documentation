@@ -1132,6 +1132,46 @@
                 ]
               }
             ]
+          },
+          {
+            "title": "Mix Blend",
+            "source": "docs/effects/mix-blend.md",
+            "url": "effects/mix-blend.html",
+            "slug": "effectsmix-blend",
+            "headings": [
+              {
+                "title": "Mix Blend",
+                "depth": 2,
+                "id": "mix-blend",
+                "headings": [
+                  {
+                    "title": "Class",
+                    "depth": 3,
+                    "id": "class"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Background Blend",
+            "source": "docs/effects/background-blend.md",
+            "url": "effects/background-blend.html",
+            "slug": "effectsbackground-blend",
+            "headings": [
+              {
+                "title": "Background Blend",
+                "depth": 2,
+                "id": "background-blend",
+                "headings": [
+                  {
+                    "title": "Class",
+                    "depth": 3,
+                    "id": "class"
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -3027,6 +3067,46 @@
         }
       ]
     },
+    "effects/mix-blend.html": {
+      "source": "docs/effects/mix-blend.md",
+      "title": "Mix Blend - Introduction",
+      "pageTitle": "Mix Blend",
+      "slug": "effectsmix-blend",
+      "headings": [
+        {
+          "title": "Mix Blend",
+          "depth": 2,
+          "id": "mix-blend",
+          "headings": [
+            {
+              "title": "Class",
+              "depth": 3,
+              "id": "class"
+            }
+          ]
+        }
+      ]
+    },
+    "effects/background-blend.html": {
+      "source": "docs/effects/background-blend.md",
+      "title": "Background Blend - Introduction",
+      "pageTitle": "Background Blend",
+      "slug": "effectsbackground-blend",
+      "headings": [
+        {
+          "title": "Background Blend",
+          "depth": 2,
+          "id": "background-blend",
+          "headings": [
+            {
+              "title": "Class",
+              "depth": 3,
+              "id": "class"
+            }
+          ]
+        }
+      ]
+    },
     "sizing/width.html": {
       "source": "docs/sizing/width.md",
       "title": "Width - Introduction",
@@ -3842,6 +3922,8 @@
     "docs/borders/border-radius.md": "borders/border-radius.html",
     "docs/effects/box-shadow.md": "effects/box-shadow.html",
     "docs/effects/opacity.md": "effects/opacity.html",
+    "docs/effects/mix-blend.md": "effects/mix-blend.html",
+    "docs/effects/background-blend.md": "effects/background-blend.html",
     "docs/sizing/width.md": "sizing/width.html",
     "docs/sizing/min-width.md": "sizing/min-width.html",
     "docs/sizing/max-width.md": "sizing/max-width.html",

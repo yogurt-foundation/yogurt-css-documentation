@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="../assets/style.css?t=90051322">
     <script src="../assets/script.js?t=93f1a66c"></script>
-    <title>Z-Index - Introduction</title>
+    <title>Background Blend - Introduction</title>
     <meta name="viewport" content="width=device-width">
   </head>
   <body class="-menu-visible">
@@ -72,15 +72,7 @@
                   </li>
                   <li class="menu-item -level-2"><a class="link title  link-layoutsvisibility" href="../layouts/visibility.html">Visibility</a>
                   </li>
-                  <li class="menu-item -level-2"><a class="link title -active link-layoutsz-index" href="../layouts/z-index.html">Z-Index</a>
-                    <ul class="headings heading-list">
-                      <li class="heading-item -depth-2"><a class="hlink link-z-index" href="#z-index">Z-Index</a>
-                        <ul class="heading-list -depth-2">
-                          <li class="heading-item -depth-3"><a class="hlink link-class" href="#class">Class</a>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
+                  <li class="menu-item -level-2"><a class="link title  link-layoutsz-index" href="../layouts/z-index.html">Z-Index</a>
                   </li>
                 </ul>
               </li>
@@ -164,7 +156,15 @@
                   </li>
                   <li class="menu-item -level-2"><a class="link title  link-effectsmix-blend" href="../effects/mix-blend.html">Mix Blend</a>
                   </li>
-                  <li class="menu-item -level-2"><a class="link title  link-effectsbackground-blend" href="../effects/background-blend.html">Background Blend</a>
+                  <li class="menu-item -level-2"><a class="link title -active link-effectsbackground-blend" href="../effects/background-blend.html">Background Blend</a>
+                    <ul class="headings heading-list">
+                      <li class="heading-item -depth-2"><a class="hlink link-background-blend" href="#background-blend">Background Blend</a>
+                        <ul class="heading-list -depth-2">
+                          <li class="heading-item -depth-3"><a class="hlink link-class" href="#class">Class</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
                   </li>
                 </ul>
               </li>
@@ -280,17 +280,17 @@
           </li>
         </ul>
       </div>
-      <div class="body page-layoutsz-index">
+      <div class="body page-effectsbackground-blend">
         <div class="header-nav">
           <div class="right"><a class="iconlink" href="https://github.com/yogurt-foundation/yogurt-css" data-title="yogurt-foundation/yogurt-css">
               <!-- span.title Open in GitHub--><span class="icon -github"></span></a>
           </div>
         </div>
         <div class="markdown-body"><blockquote>
-<p>Layouts</p>
+<p>Effects</p>
 </blockquote>
-<h2 id="z-index">Z-Index</h2>
-<p>Utilities for manipulating the stack order of an element.</p>
+<h2 id="background-blend">Background Blend</h2>
+<p>Utilities for manipulating blend the background layers (image or color) of an element.</p>
 <h3 id="class">Class</h3>
 <table>
 <thead>
@@ -302,47 +302,92 @@
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left">z-0</td>
+<td style="text-align:left">bg-blend-normal</td>
 <td style="text-align:left"></td>
-<td style="text-align:left">z-index: 0</td>
+<td style="text-align:left">background-blend-mode: normal</td>
 </tr>
 <tr>
-<td style="text-align:left">z-10</td>
+<td style="text-align:left">bg-blend-multiply</td>
 <td style="text-align:left"></td>
-<td style="text-align:left">z-index: 10</td>
+<td style="text-align:left">background-blend-mode: multiply</td>
 </tr>
 <tr>
-<td style="text-align:left">z-20</td>
+<td style="text-align:left">bg-blend-screen</td>
 <td style="text-align:left"></td>
-<td style="text-align:left">z-index: 20</td>
+<td style="text-align:left">background-blend-mode: screen</td>
 </tr>
 <tr>
-<td style="text-align:left">z-30</td>
+<td style="text-align:left">bg-blend-overlay</td>
 <td style="text-align:left"></td>
-<td style="text-align:left">z-index: 30</td>
+<td style="text-align:left">background-blend-mode: overlay</td>
 </tr>
 <tr>
-<td style="text-align:left">z-40</td>
+<td style="text-align:left">bg-blend-darken</td>
 <td style="text-align:left"></td>
-<td style="text-align:left">z-index: 40</td>
+<td style="text-align:left">background-blend-mode: darken</td>
 </tr>
 <tr>
-<td style="text-align:left">z-50</td>
+<td style="text-align:left">bg-blend-lighten</td>
 <td style="text-align:left"></td>
-<td style="text-align:left">z-index: 50</td>
+<td style="text-align:left">background-blend-mode: lighten</td>
 </tr>
 <tr>
-<td style="text-align:left">z-auto</td>
+<td style="text-align:left">bg-blend-color</td>
 <td style="text-align:left"></td>
-<td style="text-align:left">z-index: auto</td>
+<td style="text-align:left">background-blend-mode: color</td>
+</tr>
+<tr>
+<td style="text-align:left">bg-blend-color-dodge</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">background-blend-mode: color-dodge</td>
+</tr>
+<tr>
+<td style="text-align:left">bg-blend-color-burn</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">background-blend-mode: color-burn</td>
+</tr>
+<tr>
+<td style="text-align:left">bg-blend-hard-light</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">background-blend-mode: hard-light</td>
+</tr>
+<tr>
+<td style="text-align:left">bg-blend-soft-light</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">background-blend-mode: soft-light</td>
+</tr>
+<tr>
+<td style="text-align:left">bg-blend-difference</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">background-blend-mode: difference</td>
+</tr>
+<tr>
+<td style="text-align:left">bg-blend-exclusion</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">background-blend-mode: exclusion</td>
+</tr>
+<tr>
+<td style="text-align:left">bg-blend-hue</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">background-blend-mode: hue</td>
+</tr>
+<tr>
+<td style="text-align:left">bg-blend-saturation</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">background-blend-mode: saturation</td>
+</tr>
+<tr>
+<td style="text-align:left">bg-blend-luminosity</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">background-blend-mode: luminosity</td>
 </tr>
 </tbody>
 </table>
 
         </div>
         <div class="footer-nav">
-          <div class="left"><a href="../layouts/visibility.html"><span class="title">Visibility</span></a></div>
-          <div class="right"><a href="../typography/font-family.html"><span class="label">Next: </span><span class="title">Font Family</span></a></div>
+          <div class="left"><a href="../effects/mix-blend.html"><span class="title">Mix Blend</span></a></div>
+          <div class="right"><a href="../sizing/width.html"><span class="label">Next: </span><span class="title">Width</span></a></div>
         </div>
       </div>
     </div>

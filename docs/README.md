@@ -80,6 +80,8 @@
 
   - [Box Shadow](effects/box-shadow.md)
   - [Opacity](effects/opacity.md)
+  - [Mix Blend](effects/mix-blend.md)
+  - [Background Blend](effects/background-blend.md)
 
 - **Sizing**
 
