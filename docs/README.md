@@ -79,6 +79,7 @@
 - **Effects**
 
   - [Box Shadow](effects/box-shadow.md)
+  - [Box Shadow Color](effects/box-shadow-color.md)
   - [Opacity](effects/opacity.md)
   - [Mix Blend](effects/mix-blend.md)
   - [Background Blend](effects/background-blend.md)

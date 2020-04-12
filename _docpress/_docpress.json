@@ -1114,6 +1114,26 @@
             ]
           },
           {
+            "title": "Box Shadow Color",
+            "source": "docs/effects/box-shadow-color.md",
+            "url": "effects/box-shadow-color.html",
+            "slug": "effectsbox-shadow-color",
+            "headings": [
+              {
+                "title": "Box Shadow Color",
+                "depth": 2,
+                "id": "box-shadow-color",
+                "headings": [
+                  {
+                    "title": "Class",
+                    "depth": 3,
+                    "id": "class"
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "title": "Opacity",
             "source": "docs/effects/opacity.md",
             "url": "effects/opacity.html",
@@ -3047,6 +3067,26 @@
         }
       ]
     },
+    "effects/box-shadow-color.html": {
+      "source": "docs/effects/box-shadow-color.md",
+      "title": "Box Shadow Color - Introduction",
+      "pageTitle": "Box Shadow Color",
+      "slug": "effectsbox-shadow-color",
+      "headings": [
+        {
+          "title": "Box Shadow Color",
+          "depth": 2,
+          "id": "box-shadow-color",
+          "headings": [
+            {
+              "title": "Class",
+              "depth": 3,
+              "id": "class"
+            }
+          ]
+        }
+      ]
+    },
     "effects/opacity.html": {
       "source": "docs/effects/opacity.md",
       "title": "Opacity - Introduction",
@@ -3921,6 +3961,7 @@
     "docs/borders/border-width.md": "borders/border-width.html",
     "docs/borders/border-radius.md": "borders/border-radius.html",
     "docs/effects/box-shadow.md": "effects/box-shadow.html",
+    "docs/effects/box-shadow-color.md": "effects/box-shadow-color.html",
     "docs/effects/opacity.md": "effects/opacity.html",
     "docs/effects/mix-blend.md": "effects/mix-blend.html",
     "docs/effects/background-blend.md": "effects/background-blend.html",
@@ -3965,7 +4006,9 @@
     "docs/docpress.json": "docpress.json",
     "docs/favicon.ico": "favicon.ico",
     "docs/favicon.png": "favicon.png",
+    "docs/assets/__style.css": "assets/__style.css",
     "docs/assets/style.css": "assets/style.css",
+    "docs/assets/yogurt.css": "assets/yogurt.css",
     "docs/assets/yogurt_playground_screenshot_01.png": "assets/yogurt_playground_screenshot_01.png",
     "docs/assets/yogurt_promo.jpg": "assets/yogurt_promo.jpg"
   }

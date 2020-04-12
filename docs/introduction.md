@@ -19,6 +19,12 @@
   <img class="p-1" 
        src="https://badgen.net/github/assets-dl/yogurt-foundation/yogurt-css">
   <img class="p-1" 
+       src="https://badgen.net/npm/dw/yogurt-css">
+  <img class="p-1" 
+       src="https://badgen.net/npm/dm/yogurt-css">
+  <img class="p-1" 
+       src="https://badgen.net/npm/dy/yogurt-css">
+  <img class="p-1" 
        src="https://badgen.net/github/branches/yogurt-foundation/yogurt-css">
   <img class="p-1" 
        src="https://badgen.net/github/forks/yogurt-foundation/yogurt-css">
