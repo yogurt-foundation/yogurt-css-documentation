@@ -8,6 +8,7 @@ Utilities for manipulating the font size of an element.
 
 | class |   | css properties |
 |:--|:--|:--|
+| text-auto |  | (Adaptive font size base on screen size) |
 | text-xs |  | font-size: .75rem |
 | text-sm |  | font-size: .875rem |
 | text-md |  | font-size: 1rem |
