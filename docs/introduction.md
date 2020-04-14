@@ -12,6 +12,11 @@
 > The `SOLID CORE` means the next major Yogurt CSS update is depending on any major release of the CSS version. It also means you will less frequently updating the framework for your frontend development. Which makes this utility framework a futureproof.
 
 <y class="flex flex-wrap items-center">
+  <a href="https://discord.gg/jEaq55" 
+     target="_blank">
+    <img title="Join the chat at https://discord.gg/jEaq55" 
+         src="https://img.shields.io/badge/DISCORD-JOIN_CHANNEL_%E2%86%92-7289da.svg?style=flat">
+  </a>
   <img class="p-1" 
        src="https://badgen.net/github/release/yogurt-foundation/yogurt-css">
   <img class="p-1" 
