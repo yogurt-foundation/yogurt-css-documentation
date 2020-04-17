@@ -1,6 +1,6 @@
 > Filters
 
-## Filter Blur
+## Filter Invert
 
 Utility for manipulating invert effects apply to almost all elements.
 
