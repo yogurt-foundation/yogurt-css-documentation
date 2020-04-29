@@ -36,7 +36,7 @@ $ yarn && yarn start
 ### Using Yogurt via CDN
 
 ```html
-<link defer href="https://unpkg.com/yogurt-css@1.0.5/dist/yogurt-1.0.5_solidcore.min.css" 
+<link defer href="https://unpkg.com/yogurt-css@1.0.6/dist/yogurt-1.0.6_solidcore.min.css" 
       rel="stylesheet"
       rel="preload"
       as="style"
