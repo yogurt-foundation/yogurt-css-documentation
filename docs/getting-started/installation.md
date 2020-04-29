@@ -36,14 +36,14 @@ $ yarn && yarn start
 ### Using Yogurt via CDN
 
 ```html
-<link defer href="https://unpkg.com/yogurt-css@1.0.4/dist/yogurt.css" 
+<link defer href="https://unpkg.com/yogurt-css@1.0.5/dist/yogurt-1.0.5_solidcore.min.css" 
       rel="stylesheet"
       rel="preload"
       as="style"
       media="all">
 ```
 
-**Note:** The CDN builds is large (573kb compressed, 96kb gzipped), the sizes will be different when you are customizing with the build tool. Using the build tool to exclude utilities or exclude variants from utilities that you don't need to reduce file size. (See [File Size Control](../getting-started/file-size-control.md) and [Customization](../customization/configuration.md)).
+**Note:** The CDN builds is large (585kb compressed, 99kb gzipped), the sizes will be different when you are customizing with the build tool. Using the build tool to exclude utilities or exclude variants from utilities that you don't need to reduce file size. (See [File Size Control](../getting-started/file-size-control.md) and [Customization](../customization/configuration.md)).
 
 ### What's next?
 

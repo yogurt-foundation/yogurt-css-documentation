@@ -1700,9 +1700,9 @@
             "slug": "filtersfilter-invert",
             "headings": [
               {
-                "title": "Filter Blur",
+                "title": "Filter Invert",
                 "depth": 2,
-                "id": "filter-blur",
+                "id": "filter-invert",
                 "headings": [
                   {
                     "title": "Class",
@@ -3634,9 +3634,9 @@
       "slug": "filtersfilter-invert",
       "headings": [
         {
-          "title": "Filter Blur",
+          "title": "Filter Invert",
           "depth": 2,
-          "id": "filter-blur",
+          "id": "filter-invert",
           "headings": [
             {
               "title": "Class",
@@ -4008,7 +4008,7 @@
     "docs/favicon.png": "favicon.png",
     "docs/assets/__style.css": "assets/__style.css",
     "docs/assets/style.css": "assets/style.css",
-    "docs/assets/yogurt.css": "assets/yogurt.css",
+    "docs/assets/yogurt-1.0.5_solidcore.min.css": "assets/yogurt-1.0.5_solidcore.min.css",
     "docs/assets/yogurt_playground_screenshot_01.png": "assets/yogurt_playground_screenshot_01.png",
     "docs/assets/yogurt_promo.jpg": "assets/yogurt_promo.jpg"
   }
