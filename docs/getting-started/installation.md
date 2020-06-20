@@ -63,28 +63,18 @@ Get to know how to tuning the framework that suit to your project:
 
 Start learning these utilities better to use the framework:
 
-<y class="relative max-w-xxs mb-4 px-4 py-2 text-sm text-orange-600 bg-orange-200 border border-orange-300 rounded">
-  <y class="mx-auto flex">
-   <y class="flex justify-center items-center mr-2 p-1 w-5 h-5 font-semibold text-orange-200 bg-orange-500 rounded-full">
-    !  
-   </y>
-   Navigate from left menu.
-  </y>
-</y>
+- [Backgrounds](../backgrounds/background-attachment.md)
+- [Borders](../borders/border-color.md)
+- [Effects](../effects/background-blend.md)
+- [Filters](../filters/filter-blur.md)
+- [Flexbox](../flexbox/align-content.md)
+- [Interactivity](../interactivity/appearance.md)
+- [Layouts](../layouts/box-sizing.md)
+- [Sizing](../sizing/height.md)
+- [Spacing](../spacing/margin.md)
+- [SVG](../svg/fill.md)
+- [Tables](../tables/border-collapse.md)
+- [Transforms](../transforms/rotate.md)
+- [Transitions](../transitions/transition-duration.md)
+- [Typography](../typography/font-family.md)
 
-<ul class="list-disc">
-  <li>Backgrounds</li>
-  <li>Borders</li>
-  <li>Effects</li>
-  <li>Filters</li>
-  <li>Flexbox</li>
-  <li>Interactivity</li>
-  <li>Layouts</li>
-  <li>Sizing</li>
-  <li>Spacing</li>
-  <li>SVG</li>
-  <li>Tables</li>
-  <li>Transforms</li>
-  <li>Transitions</li>
-  <li>Typography</li>
-</ul>
