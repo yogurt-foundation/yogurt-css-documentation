@@ -2,7 +2,7 @@
 
 ## Align Items
 
-Utilities for manipulating how flex items are positioned along a container's cross axis.
+Utilities for sets flex items position along a container's cross axis.
 
 ### Class
 

@@ -2,7 +2,7 @@
 
 ## Max Width
 
-Utilities for setting the maximum width of an element.
+Utilities for sets the maximum width of an element.
 
 ### Class
 

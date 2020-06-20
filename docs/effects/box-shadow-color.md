@@ -2,7 +2,7 @@
 
 ## Box Shadow Color
 
-Utilities for manipulating the box shadow color of an element.
+Utilities for sets the shadow color.
 
 ### Class
  

@@ -2,7 +2,7 @@
 
 ## Scale
 
-Utilities for scaling elements with transform.
+Utilities for scales an element that has transform applied.
 
 ### Class
 

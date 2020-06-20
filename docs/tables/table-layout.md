@@ -2,7 +2,7 @@
 
 ## Table Layout
 
-Utilities for manipulating the table layout algorithm.
+Utilities for defines the algorithm used to layout table cells, rows and columns.
 
 ### Class
 

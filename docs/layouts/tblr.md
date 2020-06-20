@@ -2,7 +2,7 @@
 
 ## Top / Right / Bottom / Left
 
-Utilities for manipulating the placement of positioned elements.
+Utility for sets the placement of a positioned element.
 
 ### Class
 

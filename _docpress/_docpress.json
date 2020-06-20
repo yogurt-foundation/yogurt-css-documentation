@@ -1994,6 +1994,31 @@
             ]
           }
         ]
+      },
+      {
+        "title": "Accessibility",
+        "sections": [
+          {
+            "title": "Screen Reader",
+            "source": "docs/accessibility/screen-reader.md",
+            "url": "accessibility/screen-reader.html",
+            "slug": "accessibilityscreen-reader",
+            "headings": [
+              {
+                "title": "Screen Reader",
+                "depth": 2,
+                "id": "screen-reader",
+                "headings": [
+                  {
+                    "title": "Class",
+                    "depth": 3,
+                    "id": "class"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -3906,6 +3931,26 @@
           ]
         }
       ]
+    },
+    "accessibility/screen-reader.html": {
+      "source": "docs/accessibility/screen-reader.md",
+      "title": "Screen Reader - Introduction",
+      "pageTitle": "Screen Reader",
+      "slug": "accessibilityscreen-reader",
+      "headings": [
+        {
+          "title": "Screen Reader",
+          "depth": 2,
+          "id": "screen-reader",
+          "headings": [
+            {
+              "title": "Class",
+              "depth": 3,
+              "id": "class"
+            }
+          ]
+        }
+      ]
     }
   },
   "sources": {
@@ -4003,6 +4048,7 @@
     "docs/svg/fill.md": "svg/fill.html",
     "docs/svg/stroke.md": "svg/stroke.html",
     "docs/svg/stroke-width.md": "svg/stroke-width.html",
+    "docs/accessibility/screen-reader.md": "accessibility/screen-reader.html",
     "docs/docpress.json": "docpress.json",
     "docs/favicon.ico": "favicon.ico",
     "docs/favicon.png": "favicon.png",

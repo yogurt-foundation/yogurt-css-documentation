@@ -2,7 +2,7 @@
 
 ## Opacity
 
-Utilities for manipulating the opacity of an element.
+Utilities for sets the transparency of an element.
 
 ### Class
 

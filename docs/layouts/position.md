@@ -2,7 +2,7 @@
 
 ## Position
 
-Utilities for manipulating how an element is positioned in the DOM.
+Utility for sets an element's position.
 
 ### Class
 

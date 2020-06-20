@@ -2,7 +2,7 @@
 
 ## List Style Position
 
-Utilities for manipulating the position of bullets/numbers in lists.
+Utilities for sets the position of a list's bullets.
 
 ### Class
 

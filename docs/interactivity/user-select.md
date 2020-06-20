@@ -2,7 +2,7 @@
 
 ## User Select
 
-Utilities for manipulating whether the user can select text in an element.
+Utilities for controls whether the user can select text.
 
 ### Class
 

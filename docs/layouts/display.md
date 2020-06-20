@@ -2,7 +2,7 @@
 
 ## Display
 
-Utilities for manipulating the display box type of an element.
+Utility for sets the display box type of an element.
 
 ### Class
 

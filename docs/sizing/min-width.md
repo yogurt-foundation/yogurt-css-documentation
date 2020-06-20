@@ -2,7 +2,7 @@
 
 ## Min Width
 
-Utilities for setting the minimum width of an element.
+Utilities for sets the minimum width of an element.
 
 ### Class
 

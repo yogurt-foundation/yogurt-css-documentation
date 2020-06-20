@@ -2,7 +2,7 @@
 
 ## Box Sizing
 
-Utilities for manipulating how the browser should calculate an element's total size.
+Utility for sets how the total width and height of an element is calculated.
 
 ### Class
 

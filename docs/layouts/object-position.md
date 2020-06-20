@@ -2,7 +2,7 @@
 
 ## Object Position
 
-Utilities for manipulating how a replaced element's content should be positioned within its container.
+Utility for sets the alignment of the selected replaced element.
 
 ### Class
 

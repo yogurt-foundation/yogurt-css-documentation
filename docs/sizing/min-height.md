@@ -2,7 +2,7 @@
 
 ## Min Height
 
-Utilities for setting the minimum height of an element.
+Utilities for sets the miminum height of an element.
 
 ### Class
 

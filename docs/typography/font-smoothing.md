@@ -2,7 +2,7 @@
 
 ## Font Smoothing
 
-Utilities for manipulating the font smoothing of an element.
+Utilities for sets the antialiasing of the font.
 
 ### Class
 

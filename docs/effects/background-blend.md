@@ -2,7 +2,7 @@
 
 ## Background Blend
 
-Utilities for manipulating blend the background layers (image or color) of an element.
+Utilities for sets the blending mode of each background layer (color or image).
 
 ### Class
 

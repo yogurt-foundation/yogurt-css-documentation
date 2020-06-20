@@ -2,7 +2,7 @@
 
 ## Text Transform
 
-Utilities for manipulating the transformation of text.
+Utilities for sets the capitalization of text.
 
 ### Class
 

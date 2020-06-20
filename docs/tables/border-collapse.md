@@ -2,7 +2,7 @@
 
 ## Border Collapse
 
-Utilities for manipulating whether table borders should collapse or be separated.
+Utilities for collapse or separate table borders.
 
 ### Class
 

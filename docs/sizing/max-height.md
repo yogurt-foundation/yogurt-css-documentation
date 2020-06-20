@@ -2,7 +2,7 @@
 
 ## Max Height
 
-Utilities for setting the maximum height of an element.
+Utilities for sets the maximum height of an element.
 
 ### Class
 

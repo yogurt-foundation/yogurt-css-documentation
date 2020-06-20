@@ -2,7 +2,7 @@
 
 ## Clear
 
-Utilities for manipulating the wrapping of content around an element.
+Utility for set whether an element is moved below preceding floated elements.
 
 ### Class
 

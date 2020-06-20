@@ -2,7 +2,7 @@
 
 ## Margin
 
-Utilities for manipulating an element's margin.
+Utilities for controls margin (and negative margin) in 0.25rem increments.
 
 ### Class
 

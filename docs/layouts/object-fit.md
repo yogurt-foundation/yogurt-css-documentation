@@ -2,7 +2,7 @@
 
 ## Object Fit
 
-Utilities for manipulating how a replaced element's content should be resized.
+Utility for sets how the content of a replaced element (img or video tag) should be resized.
 
 ### Class
 

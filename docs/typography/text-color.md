@@ -2,7 +2,7 @@
 
 ## Text Color
 
-Utilities for manipulating the text color of an element.
+Utilities for sets the text color.
 
 ### Class
 

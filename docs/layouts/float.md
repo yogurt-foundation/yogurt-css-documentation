@@ -2,7 +2,7 @@
 
 ## Float
 
-Utilities for manipulating the wrapping of content around an element.
+Utility for sets an element's placement to a side of its container and allows content to wrap around it.
 
 ### Class
 

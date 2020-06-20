@@ -2,7 +2,7 @@
 
 ## Font Style
 
-Utilities for manipulating the style of text.
+Utilities for sets the style of the font.
 
 ### Class
 

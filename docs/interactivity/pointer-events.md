@@ -2,7 +2,7 @@
 
 ## Pointer Events
 
-Utilities for manipulating whether an element responds to pointer events.
+Utilities for specifies whether an element is the target of mouse events.
 
 ### Class
 

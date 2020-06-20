@@ -2,7 +2,7 @@
 
 ## Font Family
 
-Utilities for manipulating the font family of an element.
+Utilities for sets the font family.
 
 ### Class
 

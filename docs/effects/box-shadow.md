@@ -2,7 +2,7 @@
 
 ## Box Shadow
 
-Utilities for manipulating the box shadow of an element.
+Utilities for sets the box-shadow property attaches one or more shadows to an element.
 
 ### Class
 

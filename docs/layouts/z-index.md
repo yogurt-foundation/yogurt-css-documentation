@@ -2,7 +2,7 @@
 
 ## Z-Index
 
-Utilities for manipulating the stack order of an element.
+Utility for sets the z order (stack order) of a positioned element.
 
 ### Class
 

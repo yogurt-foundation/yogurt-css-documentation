@@ -2,7 +2,7 @@
 
 ## List Style Type
 
-Utilities for manipulating the bullet/number style of a list.
+Utilities for sets the bullet style of a list.
 
 ### Class
 

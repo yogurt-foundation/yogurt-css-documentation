@@ -2,7 +2,7 @@
 
 ## Text Decoration
 
-Utilities for manipulating the decoration of text.
+Utilities for sets the text-decoration of an element.
 
 ### Class
 

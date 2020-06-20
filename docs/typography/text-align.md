@@ -2,7 +2,7 @@
 
 ## Text Align
 
-Utilities for manipulating the alignment of text.
+Utilities for sets the alignment of text.
 
 ### Class
 

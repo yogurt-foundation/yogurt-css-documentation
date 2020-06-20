@@ -2,7 +2,7 @@
 
 ## Placeholder Color
 
-Utilities for manipulating the color of placeholder text.
+Utilities for sets the placeholder color using the ::placeholder pseudo element.
 
 ### Class
 

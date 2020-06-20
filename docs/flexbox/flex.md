@@ -2,7 +2,7 @@
 
 ## Flex
 
-Utilities for manipulating how flex items both grow and shrink.
+Utilities for controls how flex items grow and shrink.
 
 ### Class
 

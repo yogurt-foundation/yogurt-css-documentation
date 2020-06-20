@@ -2,7 +2,7 @@
 
 ## Outline
 
-Utilities for manipulating an element's outline.
+Utilities for sets native browser outline style to reset.
 
 ### Class
 

@@ -2,7 +2,7 @@
 
 ## Background Size
 
-Utilities for manipulating the background size of an element's background image.
+Utilities for sets background size of a background image.
 
 ### Class
 

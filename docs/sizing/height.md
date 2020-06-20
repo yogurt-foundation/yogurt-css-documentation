@@ -2,7 +2,7 @@
 
 ## Height
 
-Utilities for setting the height of an element.
+Utilities for sets the height of an element.
 
 ### Class
 

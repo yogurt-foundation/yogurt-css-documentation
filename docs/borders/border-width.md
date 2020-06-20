@@ -2,7 +2,7 @@
 
 ## Border Width
 
-Utilities for manipulating the width of an element's borders.
+Utilities for sets border width in increments of 1px.
 
 ### Class
 

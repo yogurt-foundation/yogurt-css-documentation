@@ -2,7 +2,7 @@
 
 ## Visibility
 
-Utilities for manipulating the visibility of an element.
+Utility for show or hide without affecting the layout of the document.
 
 ### Class
 

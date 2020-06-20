@@ -2,7 +2,7 @@
 
 ## Padding
 
-Utilities for manipulating an element's padding.
+Utilities for controls padding in 0.25rem increments.
 
 ### Class
 

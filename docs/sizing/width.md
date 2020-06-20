@@ -2,7 +2,7 @@
 
 ## Width
 
-Utilities for setting the width of an element.
+Utilities for sets the width of an element.
 
 ### Class
 

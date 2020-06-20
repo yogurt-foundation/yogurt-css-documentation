@@ -2,7 +2,7 @@
 
 ## Border Radius
 
-Utilities for manipulating the border radius of an element.
+Utilities for sets border radius.
 
 ### Class
 

@@ -2,7 +2,7 @@
 
 ## Appearance
 
-Utilities for suppressing native form control styling.
+Utilities for disables native styling based on the native browser theme.
 
 ### Class
 

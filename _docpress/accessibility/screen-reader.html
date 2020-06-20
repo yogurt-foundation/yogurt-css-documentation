@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="../assets/style.css?t=90051322">
     <script src="../assets/script.js?t=93f1a66c"></script>
-    <title>Configuration - Introduction</title>
+    <title>Screen Reader - Introduction</title>
     <meta name="viewport" content="width=device-width">
   </head>
   <body class="-menu-visible">
@@ -36,11 +36,7 @@
               </li>
               <li class="menu-item -level-1 -parent"><span class="title">Customization</span>
                 <ul class="submenu">
-                  <li class="menu-item -level-2"><a class="link title -active link-customizationconfiguration" href="../customization/configuration.html">Configuration</a>
-                    <ul class="headings heading-list">
-                      <li class="heading-item -depth-2"><a class="hlink link-configuration" href="#configuration">Configuration</a>
-                      </li>
-                    </ul>
+                  <li class="menu-item -level-2"><a class="link title  link-customizationconfiguration" href="../customization/configuration.html">Configuration</a>
                   </li>
                   <li class="menu-item -level-2"><a class="link title  link-customizationbreakpoints" href="../customization/breakpoints.html">Breakpoints</a>
                   </li>
@@ -276,7 +272,15 @@
               </li>
               <li class="menu-item -level-1 -parent"><span class="title">Accessibility</span>
                 <ul class="submenu">
-                  <li class="menu-item -level-2"><a class="link title  link-accessibilityscreen-reader" href="../accessibility/screen-reader.html">Screen Reader</a>
+                  <li class="menu-item -level-2"><a class="link title -active link-accessibilityscreen-reader" href="../accessibility/screen-reader.html">Screen Reader</a>
+                    <ul class="headings heading-list">
+                      <li class="heading-item -depth-2"><a class="hlink link-screen-reader" href="#screen-reader">Screen Reader</a>
+                        <ul class="heading-list -depth-2">
+                          <li class="heading-item -depth-3"><a class="hlink link-class" href="#class">Class</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
                   </li>
                 </ul>
               </li>
@@ -284,21 +288,43 @@
           </li>
         </ul>
       </div>
-      <div class="body page-customizationconfiguration">
+      <div class="body page-accessibilityscreen-reader">
         <div class="header-nav">
           <div class="right"><a class="iconlink" href="https://github.com/yogurt-foundation/yogurt-css" data-title="yogurt-foundation/yogurt-css">
               <!-- span.title Open in GitHub--><span class="icon -github"></span></a>
           </div>
         </div>
         <div class="markdown-body"><blockquote>
-<p>Customization</p>
+<p>Accessibility</p>
 </blockquote>
-<h2 id="configuration">Configuration</h2>
+<h2 id="screen-reader">Screen Reader</h2>
+<p>Utility for controls whether an element is visually hidden but still accessible to screen readers.</p>
+<h3 id="class">Class</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">class</th>
+<th style="text-align:left"></th>
+<th style="text-align:left">css properties</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">sr-only</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; white-space: nowrap; border-width: 0;</td>
+</tr>
+<tr>
+<td style="text-align:left">not-sr-only</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">position: static; width: auto; height: auto; padding: 0; margin: 0; overflow: visible; clip: auto; white-space: normal;</td>
+</tr>
+</tbody>
+</table>
 
         </div>
         <div class="footer-nav">
-          <div class="left"><a href="../core-concepts/pseudo-class-variants.html"><span class="title">Pseudo-Class Variants</span></a></div>
-          <div class="right"><a href="../customization/breakpoints.html"><span class="label">Next: </span><span class="title">Breakpoints</span></a></div>
+          <div class="left"><a href="../svg/stroke-width.html"><span class="title">Stroke Width</span></a></div>
         </div>
       </div>
     </div>

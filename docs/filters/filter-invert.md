@@ -2,7 +2,7 @@
 
 ## Filter Invert
 
-Utility for manipulating invert effects apply to almost all elements.
+Utility for sets filter invert effect to an element.
 
 ### Class
   

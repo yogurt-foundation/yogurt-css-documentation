@@ -2,7 +2,7 @@
 
 ## Fill
 
-Utilities for styling the fill of SVG elements.
+Utilities for sets the color to paint an SVG.
 
 ### Class
 

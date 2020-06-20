@@ -2,7 +2,7 @@
 
 ## Rotate
 
-Utilities for rotating elements with transform.
+Utilities for rotates an element that has transform applied.
 
 ### Class
 

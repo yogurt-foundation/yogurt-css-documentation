@@ -2,7 +2,7 @@
 
 ## Resize
 
-Utilities for manipulating how an element can be resized.
+Utilities for sets whether an element is resizable, along with direction.
 
 ### Class
 

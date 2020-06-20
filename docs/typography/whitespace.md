@@ -2,7 +2,7 @@
 
 ## Whitespace
 
-Utilities for manipulating an element's white-space property.
+Utilities for sets the whitespace of an element.
 
 ### Class
 

@@ -2,7 +2,7 @@
 
 ## Transform Origin
 
-Utilities for specifying the origin for an element's transformations.
+Utilities for sets the origin of an element's transforms.
 
 ### Class
 

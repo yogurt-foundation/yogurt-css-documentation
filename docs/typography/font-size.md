@@ -2,7 +2,7 @@
 
 ## Font Size
 
-Utilities for manipulating the font size of an element.
+Utilities for sets the font size.
 
 ### Class
 

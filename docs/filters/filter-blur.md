@@ -2,7 +2,7 @@
 
 ## Filter Blur
 
-Utility for manipulating blur effects apply to almost all elements.
+Utility for sets filter blur effect to an element.
 
 ### Class
   

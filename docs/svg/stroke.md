@@ -2,7 +2,7 @@
 
 ## Stroke
 
-Utilities for styling the stroke of SVG elements.
+Utilities for sets the outline color of an SVG.
 
 ### Class
 

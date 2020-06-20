@@ -2,7 +2,7 @@
 
 ## Background Color
 
-Utilities for manipulating an element's background color.
+Utilities for sets background color.
 
 ### Class
 

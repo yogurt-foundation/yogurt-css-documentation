@@ -2,7 +2,7 @@
 
 ## Skew
 
-Utilities for skewing elements with transform.
+Utilities for skews an element that has transform applied.
 
 ### Class
 

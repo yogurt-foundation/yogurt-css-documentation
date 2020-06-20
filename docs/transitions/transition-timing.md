@@ -2,7 +2,7 @@
 
 ## Transition Timing
 
-Utilities for manipulating the easing of CSS transitions.
+Utilities for sets the easing function of transition animations.
 
 ### Class
 

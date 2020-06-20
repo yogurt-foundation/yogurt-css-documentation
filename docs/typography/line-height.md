@@ -2,7 +2,7 @@
 
 ## Line Height
 
-Utilities for manipulating the depth (line height) of an element.
+Utilities for sets the line height.
 
 ### Class
 

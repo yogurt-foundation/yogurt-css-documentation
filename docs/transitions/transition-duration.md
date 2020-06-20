@@ -2,7 +2,7 @@
 
 ## Transition Duration
 
-Utilities for manipulating the duration of CSS transitions.
+Utilities for sets the length of time for a transition animations to complete.
 
 ### Class
 

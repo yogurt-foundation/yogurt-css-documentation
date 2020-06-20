@@ -146,3 +146,8 @@
   - [Stroke](svg/stroke.md)
   - [Stroke Width](svg/stroke-width.md)
 
+- **Accessibility**
+
+  - [Screen Reader](accessibility/screen-reader.md)
+
+

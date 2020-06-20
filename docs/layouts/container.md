@@ -2,7 +2,7 @@
 
 ## Container
 
-A component for fixing an element's width to the current breakpoint.
+Utility for set max-width to match min-width of the current breakpoint.
 
 ### Class
 

@@ -77,4 +77,5 @@ Start learning these utilities better to use the framework:
 - [Transforms](../transforms/rotate.md)
 - [Transitions](../transitions/transition-duration.md)
 - [Typography](../typography/font-family.md)
+- [Accessibility](../accessibility/screen-reader.md)
 

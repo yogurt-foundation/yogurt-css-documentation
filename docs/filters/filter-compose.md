@@ -2,7 +2,7 @@
 
 ## Filter Compose
 
-Utility for manipulating brightness, contrast and saturate effects apply to almost all elements.
+Utility for sets mixed filters (brightness, contrast, saturate) in order to an element.
 
 ### Class
 

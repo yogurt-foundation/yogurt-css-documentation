@@ -2,7 +2,7 @@
 
 ## Transition Property
 
-Utilities for manipulating which CSS properties transition.
+Utilities for sets the css properties affected by transition animations.
 
 ### Class
 

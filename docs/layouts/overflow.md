@@ -2,7 +2,7 @@
 
 ## Overflow
 
-Utilities for manipulating how an element handles content that is too large for the container.
+Utility for sets how to handle content that's too big for it's container.
 
 ### Class
 

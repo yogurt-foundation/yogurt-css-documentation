@@ -2,7 +2,7 @@
 
 ## Mix Blend
 
-Utilities for manipulating blend the (not background) layers (image or color) of an element.
+Utilities for sets how an element's content should blend with its direct parent background.
 
 ### Class
 

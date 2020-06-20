@@ -2,7 +2,7 @@
 
 ## Translate
 
-Utilities for translating elements with transform
+Utilities for translate an element that has transform applied.
 
 ### Class
 

@@ -2,7 +2,7 @@
 
 ## Font Style
 
-Utilities for manipulating the font weight of an element.
+Utilities for sets the font weight.
 
 ### Class
 
