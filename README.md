@@ -4,6 +4,10 @@
 
 > Work in progress
 
+### _todo
+
+- show example for each utilities.
+
 ### _support
 
 [Read the documentation](https://yogurt-css-documentation.netlify.com).
