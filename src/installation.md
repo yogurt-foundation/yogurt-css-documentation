@@ -17,7 +17,7 @@ layout: default
       media="all">
 ```
 
-**Note:** The CDN builds is large (585kb compressed, 99kb gzipped), the sizes will be different when you are customizing with the build tool. Using the build tool to exclude utilities or exclude variants from utilities that you don't need to reduce file size. (See [File Size Control](/file-size-control)).
+**Note:** The CDN build is large (585kb compressed, 99kb gzipped), the sizes will be different when you are customizing with the build tool. Using the build tool to exclude utilities or exclude variants from utilities that you don't need to reduce file size. (See [File Size Control](/file-size-control)).
 
 ### Using Yogurt via Build Tool
 
