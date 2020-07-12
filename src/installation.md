@@ -29,12 +29,6 @@ $ yarn && yarn build
 
 In this document is recommended `yarn`, you can choose to `npm` that came with the NodeJS installation.
 
-```bash
-$ git clone https://github.com/yogurt-foundation/yogurt-css.git
-$ cd yogurt-css
-$ npm i && npm run build
-```
-
 Once the build process is done. You can extract the minified `yogurt.css` file from `dist/` directory to use in your project.
 
 ### Using Yogurt via Playground
@@ -57,5 +51,3 @@ Download the precompiled desktop apps without going through the building process
   <img class="w-full h-full rounded-lg"
        src="/images/content/yogurt_playground_screenshot_01.png">
 </y>
-
-
