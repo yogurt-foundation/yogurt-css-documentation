@@ -1,0 +1,13 @@
+---
+hidden: true
+permalink: /api/search.json
+---
+[
+{% for page in collections.searchPages %}
+  {
+     "title":"{{page.data.title}}",
+     "url":"{{page.url}}",
+     "content":"{% searchContent page %}"
+  }{% if loop.last != true %},{% endif %}
+{% endfor %}
+]

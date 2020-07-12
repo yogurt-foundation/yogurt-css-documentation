@@ -1,0 +1,128 @@
+$headerHeight: 4rem;
+$headerMargin: 2rem;
+
+$easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
+$easeOutQuint: cubic-bezier(0.230, 1.000, 0.320, 1.000);
+$easeInOutQuint: cubic-bezier(0.860, 0.000, 0.070, 1.000);
+
+html {
+  font-size: 16px;
+}
+
+:target {
+  scroll-margin-top: $headerHeight + $headerMargin;
+}
+
+a,
+button {
+  touch-action: manipulation !important;
+  -webkit-tap-highlight-color: darken( #edf2f7, 15%);
+}
+
+.no-transition,
+.no-transition * {
+  transition: none !important;
+}
+
+// sidebar
+.nav-link {
+  color: #4a5568;
+  width: 100%;
+  display: inline-block;
+}
+
+.nav-link:hover {
+  color: #1a202c;
+}
+
+.nav-link.selected {
+  color: #f7fafc;
+  background-color: #2d3748;
+  border-radius: 0.25rem;
+}
+
+// External links
+.exernal-link-icon {
+  display: inline-block;
+  margin-left: 0.25rem;
+  vertical-align: text-bottom;
+  opacity: 0.75;
+}
+
+.exernal-link-icon svg {
+  height: 1rem;
+}
+
+.exernal-link-icon path {
+  fill: currentColor;
+}
+
+// Advertising
+#carbonads {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  z-index: 10;
+  text-align: left;
+  font-size: 0.875rem;
+}
+
+#carbonads .carbon-img img {
+  width: 130px;
+  height: 100px;
+  margin: 0 0 10px 0;
+  border: 0;
+  box-shadow: none;
+}
+
+#carbonads .carbon-text {
+  color: #4a5568;
+}
+
+#carbonads .carbon-poweredby {
+  display: block;
+  margin-top: 10px;
+  color: #a0aec0;
+}
+
+
+// Directional hover effect
+.r-anchor {
+  position: relative;
+}
+
+.r-anchor-label {
+  position: relative;
+  z-index: 2;
+}
+
+.r-anchor-background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+  border-radius: 0.25rem;
+  z-index: -1;
+  background-color: #e2e8f0;
+  transition: opacity 0.2s $easeOutQuint,
+  visibility 0.2s $easeOutQuint,
+  transform 0.3s $easeOutQuint;
+}
+
+.r-anchor.hover .r-anchor-background {
+  opacity: 1;
+  transform: none !important;
+  visibility: visible;
+  transition: transform 0.3s $easeOutQuint;
+}
+
+.search-result .r-anchor-background {
+  background-color: #edf2f7;
+}
+
+ul {
+  list-style-type: none;
+}

@@ -1,0 +1,78 @@
+<header class="header {% if id == "home" %}sticky{% else %}fixed{% endif %} flex h-16 items-center top-0 w-full z-30 bg-gray-100 py-2 shadow">
+  <y class="w-full relative max-w-screen-xl mx-auto px-6 flex flex-row items-center justify-between">
+
+    <y class="header-left mr-4 flex-shrink-0">
+
+      <a class="header-logo block"
+         href="/"
+         title="Yogurt CSS documentation home">
+
+        <img class="hidden sm:block"
+             src="/images/logo/logo_full.png"
+             alt="Yougrt CSS"
+             style="width: 142px">
+
+        <img class="block sm:hidden"
+             src="/images/logo/logo_small.png"
+             alt="Yogurt CSS"
+             style="width: 40px">
+      </a>
+
+    </y>
+
+    <y class="search relative flex-grow max-w-3xl sm:mr-16">
+
+      <input class="search-input appearance-none w-full inline-block py-1 px-4 bg-gray-300 border-2 border-gray-300 outline-none rounded-lg placeholder-gray-600 text-gray-800 hover:text-gray-900 focus:border-yellow-400 focus:bg-white"
+             placeholder="Search Yogurt..." />
+
+      <y class="search-results overflow-hidden fixed left-4 right-4 top-100 bg-white p-2 mt-2 rounded-lg shadow-2xl text-sm lg:absolute lg:left-auto lg:right-auto lg:min-w-full"
+           data-state="no-term"></y>
+
+    </y>
+
+    <nav class="header-nav hidden lg:flex">
+
+      <ul class="menu flex flex-col lg:flex-row items-center list-reset">
+
+        <li>
+          <a class="inline-block px-3 py-3 text-gray-800 hover:text-gray-900 rounded align-middle"
+             href="{{ site.urls.github }}"
+             target="_blank"
+             title="Github">
+
+            {% include "images/icons/github.svg" %}
+
+          </a>
+        </li>
+
+      </ul>
+
+    </nav>
+
+    <nav class="header-nav lg:hidden flex">
+      <ul class="menu flex flex-row items-center list-reset text-sm">
+
+        <li>
+          <a class="inline-block p-2 mr-1 text-gray-800 hover:text-gray-900 rounded align-middle"
+             href="{{ site.urls.github }}"
+             target="_blank">
+
+            {% include "images/icons/github.svg" %}
+
+          </a>
+        </li>
+
+        <li>
+          <button class="menu-toggle inline-block py-1 pl-2">
+            <svg viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+              <line class="line1" x1="0" y1="8" x2="24" y2="8" style="stroke: #000; stroke-width: 2" />
+              <line class="line2" x1="0" y1="16" x2="24" y2="16" style="stroke: #000; stroke-width: 2" />
+            </svg>
+          </button>
+        </li>
+
+      </ul>
+    </nav>
+
+  </y>
+</header>

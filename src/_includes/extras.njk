@@ -1,0 +1,68 @@
+<y class="hidden extras inset-0 lg:-mb-0 sticky top-16 h-full w-1/5 lg:block">
+  <y class="text-sm px-6 pl-6 pt-6">
+
+    {% if helpers.environment == "production" %}
+
+    <y class="mb-4 pb-4 border-b border-gray-300">
+
+    </y>
+
+    {% endif %}
+
+    <y class="mb-4 pb-4 border-b border-gray-300">
+
+      <ul class="-ml-8">
+
+        <y class="block text-sm sm:text-xs mb-2 uppercase font-semibold text-gray-500">
+          What's next?
+        </y>
+
+        {% for data in extras.more %}
+
+          <li class="mb-4">
+
+            <y class="py-2 text-sm">
+
+              {{ data.label }}
+
+            </y>
+
+            <ul class="-ml-10">
+
+              {% for item in data.items %}
+
+              {% set is_current_page = page.url | replace('/', '') == item.url | replace('/', '') %}
+
+              <li class="mb-px">
+
+                <a class="nav-link -mx-1 px-1 hover:font-semibold hover:underline {{ item.class }} {% if is_current_page %}selected{% endif %}"
+                   href="{{ item.url | safe }}"
+                   {% if is_current_page %}
+                   aria-current="page"
+                   {% endif %}>
+
+                  {{ item.label }}
+
+                  {% if item.external %}
+                    <span class="exernal-link-icon">
+                      {% include "images/icons/arrow-right.svg" %}
+                    </span>
+                  {% endif %}
+
+                </a>
+
+              </li>
+
+              {% endfor %}
+
+            </ul>
+          </li>
+
+        {% endfor %}
+
+      </ul>
+
+    </y>
+
+  </y>
+</y>
