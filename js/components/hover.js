@@ -71,11 +71,6 @@ document.addEventListener('mousemove', () => {
     let ox = event.pageX - lastMouseX;
     let oy = event.pageY - lastMouseY;
 
-    // let longestMovement = Math.max( Math.abs( ox ), Math.abs( oy ) );
-
-    // let sx = ox/longestMovement;
-    // let sy = oy/longestMovement;
-
     pointerDirectionX = ox / 6;
     pointerDirectionY = oy / 6;
 
