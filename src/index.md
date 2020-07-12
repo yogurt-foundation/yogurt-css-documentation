@@ -119,3 +119,5 @@ When writing HTML with Yogurt CSS, the best way is to put the `class=""` to a to
   Hello World!
 </y>
 ```
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/07b893f5-2d17-413d-a3b6-e657ef9dbef3/deploy-status)](https://app.netlify.com/sites/yogurt-css-documentation/deploys)
