@@ -1,0 +1,428 @@
+{
+  "sections": [
+    {
+      "label": "Getting Started",
+      "items": [
+        {
+          "label": "Introduction",
+          "url": "/"
+        },
+        {
+          "label": "Installation",
+          "url": "/installation/"
+        },
+        {
+          "label": "File Size Control",
+          "url": "/file-size-control/"
+        }
+      ]
+    },
+    {
+      "label": "Layout",
+      "items": [
+        {
+          "label": "Container",
+          "url": "/container/"
+        },
+        {
+          "label": "Box Sizing",
+          "url": "/box-sizing/"
+        },
+        {
+          "label": "Display",
+          "url": "/display/"
+        },
+        {
+          "label": "Float",
+          "url": "/float/"
+        },
+        {
+          "label": "Clear",
+          "url": "/clear/"
+        },
+        {
+          "label": "Object Fit",
+          "url": "/object-fit/"
+        },
+        {
+          "label": "Object Position",
+          "url": "/object-position/"
+        },
+        {
+          "label": "Overflow",
+          "url": "/overflow/"
+        },
+        {
+          "label": "Position",
+          "url": "/position/"
+        },
+        {
+          "label": "Top/Bottom/Left/Right",
+          "url": "/top-bottom-left-right/"
+        },
+        {
+          "label": "Visibility",
+          "url": "/visibility/"
+        },
+        {
+          "label": "Z-Index",
+          "url": "/z-index/"
+        }
+      ]
+    },
+    {
+      "label": "Typography",
+      "items": [
+        {
+          "label": "Font Family",
+          "url": "/font-family/"
+        },
+        {
+          "label": "Font Size",
+          "url": "/font-size/"
+        },
+        {
+          "label": "Font Smoothing",
+          "url": "/font-smoothing/"
+        },
+        {
+          "label": "Font Style",
+          "url": "/font-style/"
+        },
+        {
+          "label": "Font Weight",
+          "url": "/font-weight/"
+        },
+        {
+          "label": "Letter Spacing",
+          "url": "/letter-spacing/"
+        },
+        {
+          "label": "Line Height",
+          "url": "/line-height/"
+        },
+        {
+          "label": "List Style Type",
+          "url": "/list-style-type/"
+        },
+        {
+          "label": "List Style Position",
+          "url": "/list-style-position/"
+        },
+        {
+          "label": "Placeholder Color",
+          "url": "/placeholder-color/"
+        },
+        {
+          "label": "Text Align",
+          "url": "/text-align/"
+        },
+        {
+          "label": "Text Color",
+          "url": "/text-color/"
+        },
+        {
+          "label": "Text Decoration",
+          "url": "/text-decoration/"
+        },
+        {
+          "label": "Text Transform",
+          "url": "/text-transform/"
+        },
+        {
+          "label": "Vertical Align",
+          "url": "/vertical-align/"
+        },
+        {
+          "label": "Whitespace",
+          "url": "/whitespace/"
+        },
+        {
+          "label": "Word Break",
+          "url": "/word-break/"
+        }
+      ]
+    },
+    {
+      "label": "Spacing",
+      "items": [
+        {
+          "label": "Margin",
+          "url": "/margin/"
+        },
+        {
+          "label": "Padding",
+          "url": "/padding/"
+        }
+      ]
+    },
+    {
+      "label": "Backgrounds",
+      "items": [
+        {
+          "label": "Background Attachment",
+          "url": "/background-attachment/"
+        },
+        {
+          "label": "Background Color",
+          "url": "/background-color/"
+        },
+        {
+          "label": "Background Position",
+          "url": "/background-position/"
+        },
+        {
+          "label": "Background Repeat",
+          "url": "/background-repeat/"
+        },
+        {
+          "label": "Background Size",
+          "url": "/background-size/"
+        }
+      ]
+    },
+    {
+      "label": "Borders",
+      "items": [
+        {
+          "label": "Border Color",
+          "url": "/border-color/"
+        },
+        {
+          "label": "Border Style",
+          "url": "/border-style/"
+        },
+        {
+          "label": "Border Width",
+          "url": "/border-width/"
+        },
+        {
+          "label": "Border Radius",
+          "url": "/border-radius/"
+        }
+      ]
+    },
+    {
+      "label": "Effects",
+      "items": [
+        {
+          "label": "Box Shadow",
+          "url": "/box-shadow/"
+        },
+        {
+          "label": "Box Shadow Color",
+          "url": "/box-shadow-color/"
+        },
+        {
+          "label": "Opacity",
+          "url": "/opacity/"
+        },
+        {
+          "label": "Mix Blend",
+          "url": "/mix-blend/"
+        },
+        {
+          "label": "Background Blend",
+          "url": "/background-blend/"
+        }
+      ]
+    },
+    {
+      "label": "Sizing",
+      "items": [
+        {
+          "label": "Width",
+          "url": "/width/"
+        },
+        {
+          "label": "Min Width",
+          "url": "/min-width/"
+        },
+        {
+          "label": "Max Width",
+          "url": "/max-width/"
+        },
+        {
+          "label": "Height",
+          "url": "/height/"
+        },
+        {
+          "label": "Min Height",
+          "url": "/min-height/"
+        },
+        {
+          "label": "Max Height",
+          "url": "/max-height/"
+        }
+      ]
+    },
+    {
+      "label": "Flexbox",
+      "items": [
+        {
+          "label": "Flex Direction",
+          "url": "/flex-direction/"
+        },
+        {
+          "label": "Flex Wrap",
+          "url": "/flex-wrap/"
+        },
+        {
+          "label": "Align Items",
+          "url": "/align-items/"
+        },
+        {
+          "label": "Align Content",
+          "url": "/align-content/"
+        },
+        {
+          "label": "Justify Content",
+          "url": "/justify-content/"
+        },
+        {
+          "label": "Flex",
+          "url": "/flex/"
+        },
+        {
+          "label": "Flex Grow",
+          "url": "/flex-grow/"
+        },
+        {
+          "label": "Flex Shrink",
+          "url": "/flex-shrink/"
+        },
+        {
+          "label": "Order",
+          "url": "/order/"
+        }
+      ]
+    },
+    {
+      "label": "Interactivity",
+      "items": [
+        {
+          "label": "Appearance",
+          "url": "/appearance/"
+        },
+        {
+          "label": "Cursor",
+          "url": "/cursor/"
+        },
+        {
+          "label": "Outline",
+          "url": "/outline/"
+        },
+        {
+          "label": "Pointer Events",
+          "url": "/pointer-events/"
+        },
+        {
+          "label": "Resize",
+          "url": "/resize/"
+        },
+        {
+          "label": "User Select",
+          "url": "/user-select/"
+        }
+      ]
+    },
+    {
+      "label": "Filters",
+      "items": [
+        {
+          "label": "Filter Compose",
+          "url": "/filter-compose/"
+        },
+        {
+          "label": "Blur",
+          "url": "/filter-blur/"
+        },
+        {
+          "label": "Invert",
+          "url": "/filter-invert/"
+        }
+      ]
+    },
+    {
+      "label": "Transforms",
+      "items": [
+        {
+          "label": "Rotate",
+          "url": "/rotate/"
+        },
+        {
+          "label": "Scale",
+          "url": "/scale/"
+        },
+        {
+          "label": "Skew",
+          "url": "/skew/"
+        },
+        {
+          "label": "Transform Origin",
+          "url": "/transform-origin/"
+        },
+        {
+          "label": "Translate",
+          "url": "/translate/"
+        }
+      ]
+    },
+    {
+      "label": "Transitions",
+      "items": [
+        {
+          "label": "Transition Property",
+          "url": "/transition-property/"
+        },
+        {
+          "label": "Transition Duration",
+          "url": "/transition-duration/"
+        },
+        {
+          "label": "Transition Timing",
+          "url": "/transition-timing/"
+        }
+      ]
+    },
+    {
+      "label": "Tables",
+      "items": [
+        {
+          "label": "Border Collapse",
+          "url": "/border-collapse/"
+        },
+        {
+          "label": "Table Layout",
+          "url": "/table-layout/"
+        }
+      ]
+    },
+    {
+      "label": "SVG",
+      "items": [
+        {
+          "label": "Fill",
+          "url": "/fill/"
+        },
+        {
+          "label": "Stroke",
+          "url": "/stroke/"
+        },
+        {
+          "label": "Stroke Width",
+          "url": "/stroke-width/"
+        }
+      ]
+    },
+    {
+      "label": "Accessibility",
+      "items": [
+        {
+          "label": "Screen Reader",
+          "url": "/screen-reader/"
+        }
+      ]
+    }
+  ]
+}

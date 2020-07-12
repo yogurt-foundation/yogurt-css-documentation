@@ -1,0 +1,31 @@
+code {
+
+  &.language-html {
+    color: #686e77;
+  }
+
+}
+
+span {
+
+  &.token.comment {
+    color: #a0aec0;
+  }
+
+  &.token.tag {
+    color: #686e77;
+  }
+
+  &.token.attr-name {
+    color: #686e77;
+  }
+
+  &.token.attr-value {
+    color: #2d3748;
+  }
+
+  &.token.punctuation {
+    color: #686e77;
+  }
+
+}

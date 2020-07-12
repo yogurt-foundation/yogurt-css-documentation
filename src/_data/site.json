@@ -1,0 +1,20 @@
+{
+    "name": "Yogurt CSS Documentation",
+    "url": "https://yogurt-css-documentation.netlify.app",
+    "urls": {
+        "discord": "https://discord.gg/A62YjNR",
+        "github": "https://github.com/yogurt-foundation/yogurt-css-documentation",
+        "laboratory": "https://github.com/yogurt-foundation/laboratory"
+    },
+    "author": {
+        "name": "Loouis Low",
+        "email": "loouis@gmail.com",
+        "handle": "@loouislow"
+    },
+    "images": {
+        "logo": "/images/logo/favicon.png",
+        "favicon": "/images/favicon.png",
+        "twitter": "/images/meta/yogurt-twitter-profile.png",
+        "og": "/images/meta/yogurt-og-card.png"
+    }
+}

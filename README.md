@@ -6,8 +6,8 @@
 
 ### _todo
 
-- show example for each utilities.
+- show examples for each utilities.
 
 ### _support
 
-[Read the documentation](https://yogurt-css-documentation.netlify.com).
+[Read the documentation](https://yogurt-css-documentation.netlify.app).
