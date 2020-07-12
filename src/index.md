@@ -7,7 +7,7 @@ layout: default
 
 <y class="-mt-12 pb-4">
   <img class="w-full h-full rounded-lg opacity-75"
-       src="images/yogurt_promo.jpg"
+       src="images/content/yogurt_promo.jpg"
        alt="Yogurt">
 </y>
 
