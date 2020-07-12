@@ -2,10 +2,10 @@
 id: home
 title: Welcome
 description: Documentation for open source Yogurt CSS framework.
-layout: default
+layout: home
 ---
 
-<y class="-mt-12 pb-4">
+<y class="-mt-12__ pb-4">
   <img class="w-full h-full rounded-lg opacity-75"
        src="images/content/yogurt_promo.jpg"
        alt="Yogurt">
@@ -25,44 +25,6 @@ A colossal low-level utility CSS framework for crafting beautiful and elegant us
 
 <y class="text-sm text-gray-600 depth-tight">
   The `SOLID CORE` means the next major Yogurt CSS update is depending on any major release of the CSS version. It also means you will less frequently updating the framework for your frontend development. Which makes this utility framework a futureproof.
-</y>
-
-<y class="my-4 flex flex-wrap items-center">
-  <a href="https://discord.gg/A62YjNR"
-     target="_blank">
-    <img title="Join the chat at https://discord.gg/A62YjNR"
-         src="https://img.shields.io/badge/DISCORD-JOIN_CHANNEL_%E2%86%92-7289da.svg?style=flat">
-  </a>
-  <img class="p-px"
-       src="https://badgen.net/github/release/yogurt-foundation/yogurt-css">
-  <img class="p-px"
-       src="https://badgen.net/github/releases/yogurt-foundation/yogurt-css">
-  <img class="p-px"
-       src="https://badgen.net/github/assets-dl/yogurt-foundation/yogurt-css">
-  <img class="p-px"
-       src="https://badgen.net/npm/dw/yogurt-css">
-  <img class="p-px"
-       src="https://badgen.net/npm/dm/yogurt-css">
-  <img class="p-px"
-       src="https://badgen.net/npm/dy/yogurt-css">
-  <img class="p-px"
-       src="https://badgen.net/github/branches/yogurt-foundation/yogurt-css">
-  <img class="p-px"
-       src="https://badgen.net/github/forks/yogurt-foundation/yogurt-css">
-  <img class="p-px"
-       src="https://badgen.net/github/stars/yogurt-foundation/yogurt-css">
-  <img class="p-px"
-       src="https://badgen.net/github/watchers/yogurt-foundation/yogurt-css">
-  <img class="p-px"
-       src="https://badgen.net/github/tag/yogurt-foundation/yogurt-css">
-  <img class="p-px"
-       src="https://badgen.net/github/commits/yogurt-foundation/yogurt-css">
-  <img class="p-px"
-       src="https://badgen.net/github/last-commit/yogurt-foundation/yogurt-css">
-  <img class="p-px"
-       src="https://badgen.net/github/contributors/yogurt-foundation/yogurt-css">
-  <img class="p-px"
-       src="https://badgen.net/github/license/yogurt-foundation/yogurt-css">
 </y>
 
 ### Introduction
@@ -119,5 +81,38 @@ When writing HTML with Yogurt CSS, the best way is to put the `class=""` to a to
   Hello World!
 </y>
 ```
+
+<y class="pt-6 flex flex-wrap items-center">
+  <img class="p-px"
+       src="https://badgen.net/github/release/yogurt-foundation/yogurt-css">
+  <img class="p-px"
+       src="https://badgen.net/github/releases/yogurt-foundation/yogurt-css">
+  <img class="p-px"
+       src="https://badgen.net/github/assets-dl/yogurt-foundation/yogurt-css">
+  <img class="p-px"
+       src="https://badgen.net/npm/dw/yogurt-css">
+  <img class="p-px"
+       src="https://badgen.net/npm/dm/yogurt-css">
+  <img class="p-px"
+       src="https://badgen.net/npm/dy/yogurt-css">
+  <img class="p-px"
+       src="https://badgen.net/github/branches/yogurt-foundation/yogurt-css">
+  <img class="p-px"
+       src="https://badgen.net/github/forks/yogurt-foundation/yogurt-css">
+  <img class="p-px"
+       src="https://badgen.net/github/stars/yogurt-foundation/yogurt-css">
+  <img class="p-px"
+       src="https://badgen.net/github/watchers/yogurt-foundation/yogurt-css">
+  <img class="p-px"
+       src="https://badgen.net/github/tag/yogurt-foundation/yogurt-css">
+  <img class="p-px"
+       src="https://badgen.net/github/commits/yogurt-foundation/yogurt-css">
+  <img class="p-px"
+       src="https://badgen.net/github/last-commit/yogurt-foundation/yogurt-css">
+  <img class="p-px"
+       src="https://badgen.net/github/contributors/yogurt-foundation/yogurt-css">
+  <img class="p-px"
+       src="https://badgen.net/github/license/yogurt-foundation/yogurt-css">
+</y>
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/07b893f5-2d17-413d-a3b6-e657ef9dbef3/deploy-status)](https://app.netlify.com/sites/yogurt-css-documentation/deploys)
