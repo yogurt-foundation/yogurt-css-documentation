@@ -13,7 +13,7 @@
     },
     "images": {
         "logo": "/images/logo/favicon.png",
-        "favicon": "/images/favicon.png",
+        "favicon": "/images/logo/favicon.png",
         "twitter": "/images/meta/yogurt-twitter-profile.png",
         "og": "/images/meta/yogurt-og-card.png"
     }
