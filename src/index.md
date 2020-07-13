@@ -5,15 +5,13 @@ description: Documentation for open source Yogurt CSS framework.
 layout: home
 ---
 
-<y class="-mt-12__ pb-4">
+<y class="pb-4">
   <img class="w-full h-full rounded-lg opacity-75"
        src="images/content/yogurt_promo.jpg"
        alt="Yogurt">
 </y>
 
-A colossal low-level utility CSS framework for crafting beautiful and elegant user interface at an atomic level without writing a single line of CSS.
-
-<y class="my-4 p-4 text-sm text-gray-600 bg-gray-200">
+<y class="hidden my-4 p-4 text-sm text-gray-600 bg-gray-200">
   <span class="mr-4 p-2 text-gray-700 bg-gray-400 rounded">
     20 June 2020
   </span>
@@ -21,10 +19,6 @@ A colossal low-level utility CSS framework for crafting beautiful and elegant us
   <strong>
     1.0.7-solidcore
   </strong>
-</y>
-
-<y class="text-sm text-gray-600 depth-tight">
-  The `SOLID CORE` means the next major Yogurt CSS update is depending on any major release of the CSS version. It also means you will less frequently updating the framework for your frontend development. Which makes this utility framework a futureproof.
 </y>
 
 ### Introduction
@@ -35,7 +29,7 @@ Yogurt does not include any kind of component classes, unlike many other CSS fra
 
 ### Concept
 
-The `margin`, `padding`, `font-size` and so on are calling the utility components. Using the human-friendly CSS class naming (e.g. `border-` instead of `b-`) combines with values make perfect sense to mix among the utilities to form a complex styling. The value is usually linear changing the properties of a utility in a very precise manipulation, which gives you low-level control over this framework. Almost all utilities can be configured with the responsive option, by combining the screen size `prefix` with a utility (e.g. `sm:text-md`, the text size in `md` value only activate on screen size `sm` as in screen width 640px).
+The `margin`, `padding`, `font-size` and so on are calling the utility components. Using the human-friendly CSS class naming combines with values make perfect sense to mix among the utilities to form a complex styling. The value is usually linear changing the properties of a utility in a very precise manipulation, which gives you low-level control over this framework. Almost all utilities can be configured with the responsive option, by combining the screen size `prefix` with a utility (e.g. `sm:text-md`, the text size in `md` value only activate on screen size `sm` as in screen width 640px).
 
 ### Tag Shorthand
 
@@ -82,37 +76,15 @@ When writing HTML with Yogurt CSS, the best way is to put the `class=""` to a to
 </y>
 ```
 
-<y class="pt-6 flex flex-wrap items-center">
-  <img class="p-px"
-       src="https://badgen.net/github/release/yogurt-foundation/yogurt-css">
-  <img class="p-px"
-       src="https://badgen.net/github/releases/yogurt-foundation/yogurt-css">
-  <img class="p-px"
-       src="https://badgen.net/github/assets-dl/yogurt-foundation/yogurt-css">
-  <img class="p-px"
-       src="https://badgen.net/npm/dw/yogurt-css">
-  <img class="p-px"
-       src="https://badgen.net/npm/dm/yogurt-css">
-  <img class="p-px"
-       src="https://badgen.net/npm/dy/yogurt-css">
-  <img class="p-px"
-       src="https://badgen.net/github/branches/yogurt-foundation/yogurt-css">
-  <img class="p-px"
-       src="https://badgen.net/github/forks/yogurt-foundation/yogurt-css">
-  <img class="p-px"
-       src="https://badgen.net/github/stars/yogurt-foundation/yogurt-css">
-  <img class="p-px"
-       src="https://badgen.net/github/watchers/yogurt-foundation/yogurt-css">
-  <img class="p-px"
-       src="https://badgen.net/github/tag/yogurt-foundation/yogurt-css">
-  <img class="p-px"
-       src="https://badgen.net/github/commits/yogurt-foundation/yogurt-css">
-  <img class="p-px"
-       src="https://badgen.net/github/last-commit/yogurt-foundation/yogurt-css">
-  <img class="p-px"
-       src="https://badgen.net/github/contributors/yogurt-foundation/yogurt-css">
-  <img class="p-px"
-       src="https://badgen.net/github/license/yogurt-foundation/yogurt-css">
+<a href="/installation">
+  Read more about the Installation
+  <span class="exernal-link-icon">
+    {% include "images/icons/arrow-right.svg" %}
+  </span>
+</a>
+
+<y class="py-6 text-xs text-gray-600 depth-tight">
+  The `SOLID CORE` means the next major Yogurt CSS update is depending on any major release of the CSS version. It also means you will less frequently updating the framework for your frontend development. Which makes this utility framework a futureproof.
 </y>
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/07b893f5-2d17-413d-a3b6-e657ef9dbef3/deploy-status)](https://app.netlify.com/sites/yogurt-css-documentation/deploys)

@@ -22,7 +22,7 @@
 
               <li class="mb-px">
 
-                <a class="nav-link -mx-2 p-2 {{ item.class }} {% if is_current_page %}selected{% endif %}"
+                <a class="nav-link -mx-2 p-2 {{ item.class }} {% if is_current_page %} selected {% endif %}"
                    href="{{ item.url | safe }}"
                    {% if is_current_page %}
                    aria-current="page"
