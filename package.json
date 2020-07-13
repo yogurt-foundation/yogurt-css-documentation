@@ -12,7 +12,11 @@
     "url": "git+https://github.com/yogurt-foundation/yogurt-css-documentation.git"
   },
   "keywords": [
-    ""
+    "yogurt-css",
+    "netlify",
+    "nunjunks",
+    "markdown",
+    "markdown-to-html"
   ],
   "author": {
     "name": "Loouis Low",
