@@ -1,5 +1,6 @@
 .search-results {
   display: none;
+  height: 50vh;
 }
 
 .search-visible .search-results[data-state="no-results"],
@@ -28,3 +29,4 @@
 .divider:last-child {
   display: none;
 }
+
