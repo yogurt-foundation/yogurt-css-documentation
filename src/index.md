@@ -11,16 +11,6 @@ layout: home
        alt="Yogurt">
 </y>
 
-<y class="hidden my-4 p-4 text-sm text-gray-600 bg-gray-200">
-  <span class="mr-4 p-2 text-gray-700 bg-gray-400 rounded">
-    20 June 2020
-  </span>
-  Version
-  <strong>
-    1.0.7-solidcore
-  </strong>
-</y>
-
 ### Introduction
 
 Yogurt is a CSS framework for crafting custom UI designs by using very smaller building block to build a component, even a basic component like a button can look entirely different from one to another in your material designs and having a complex template design that you'd end up needing to override the CSS will only make the creation process more frustrating.

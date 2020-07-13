@@ -58,7 +58,7 @@ Add the `active:` prefix to an utility to enable on-active.
 
 ### Create Custom Variants
 
-Same like [responsive](../core-concepts/responsive.md), the different is the file location. To create custom variants to a utility, look into directory `/utilities/variants/`, and then add a new `@include()` function with defined utility name (e.g. `fontSize`), last the arguments into the variant file (e.g. `_hover.scss`).
+Same like [responsive](/responsive), the different is the file location. To create custom variants to a utility, look into directory `/utilities/variants/`, and then add a new `@include()` function with defined utility name (e.g. `fontSize`), last the arguments into the variant file (e.g. `_hover.scss`).
 
 ```scss
 // @file `utilities/variants/_hover.scss`
