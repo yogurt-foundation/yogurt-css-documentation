@@ -5,23 +5,37 @@
      target="_blank"
      rel="noopener"
      title="More unpolished utilities are in the laboratory.">
-    Laboratory
+    @Laboratory
   </a>
-  
-  <a class="p-2 hover:font-semibold text-gray-700 hover:text-gray-900 hover:font-semibold hover:underline"
+
+  <a class="mx-1 p-2 opacity-25 hover:opacity-75"
      href="{{ site.urls.discord }}"
      target="_blank"
      rel="noopener"
-     title="Join Discord channel">
-    Discord
+     title="Discord">
+
+    {% include "images/icons/discord.svg" %}
+
   </a>
 
-  <a class="p-2 hover:font-semibold text-gray-700 hover:text-gray-900 hover:font-semibold hover:underline"
+  <a class="hidden mx-1 p-2 opacity-25 hover:opacity-75"
+     href="{{ site.urls.discord }}"
+     target="_blank"
+     rel="noopener"
+     title="Twitter">
+
+    {% include "images/icons/twitter.svg" %}
+
+  </a>
+
+  <a class="mx-1 p-2 opacity-25 hover:opacity-75"
      href="{{ site.urls.github }}"
      target="_blank"
      rel="noopener"
-     title="Visit yogurt.css repo @Github">
-    GitHub
+     title="Github">
+
+    {% include "images/icons/github.svg" %}
+
   </a>
 
 </footer>
