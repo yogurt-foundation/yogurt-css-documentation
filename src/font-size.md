@@ -25,4 +25,6 @@ Utility for sets the font size.
 | text-4xl |  | font-size: 2.25rem |
 | text-5xl |  | font-size: 3rem |
 | text-6xl |  | font-size: 4rem |
+| text-7xl |  | font-size: 5rem |
+| text-8xl |  | font-size: 6rem |
 

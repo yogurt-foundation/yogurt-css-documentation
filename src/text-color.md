@@ -125,4 +125,32 @@ Utility for sets the text color.
 | text-pink-700 |  | color: #b83280 | <y class="px-2 text-lg text-pink-700 bg-white font-semibold">Text</y> |
 | text-pink-800 |  | color: #97266d | <y class="px-2 text-lg text-pink-800 bg-white font-semibold">Text</y> |
 | text-pink-900 |  | color: #702459 | <y class="px-2 text-lg text-pink-900 bg-white font-semibold">Text</y> |
+| text-khaki-100 |  | color: #f9f7f4 | <y class="px-2 text-lg text-khaki-100 bg-white font-semibold">Text</y> |
+| text-khaki-200 |  | color: #f0ebe4 | <y class="px-2 text-lg text-khaki-200 bg-white font-semibold">Text</y> |
+| text-khaki-300 |  | color: #e7dfd3 | <y class="px-2 text-lg text-khaki-300 bg-white font-semibold">Text</y> |
+| text-khaki-400 |  | color: #d5c8b2 | <y class="px-2 text-lg text-khaki-400 bg-white font-semibold">Text</y> |
+| text-khaki-500 |  | color: #c3b091 | <y class="px-2 text-lg text-khaki-500 bg-white font-semibold">Text</y> |
+| text-khaki-600 |  | color: #b09e83 | <y class="px-2 text-lg text-khaki-600 bg-white font-semibold">Text</y> |
+| text-khaki-700 |  | color: #756a57 | <y class="px-2 text-lg text-khaki-700 bg-white font-semibold">Text</y> |
+| text-khaki-800 |  | color: #584f41 | <y class="px-2 text-lg text-khaki-800 bg-white font-semibold">Text</y> |
+| text-khaki-900 |  | color: #3b352c | <y class="px-2 text-lg text-khaki-900 bg-white font-semibold">Text</y> |
+| text-amber-100 |  | color: #fff9e6 | <y class="px-2 text-lg text-amber-100 bg-white font-semibold">Text</y> |
+| text-amber-200 |  | color: #fff0bf | <y class="px-2 text-lg text-amber-200 bg-white font-semibold">Text</y> |
+| text-amber-300 |  | color: #ffe799 | <y class="px-2 text-lg text-amber-300 bg-white font-semibold">Text</y> |
+| text-amber-400 |  | color: #ffd54d | <y class="px-2 text-lg text-amber-400 bg-white font-semibold">Text</y> |
+| text-amber-500 |  | color: #ffc300 | <y class="px-2 text-lg text-amber-500 bg-white font-semibold">Text</y> |
+| text-amber-600 |  | color: #e6b000 | <y class="px-2 text-lg text-amber-600 bg-white font-semibold">Text</y> |
+| text-amber-700 |  | color: #997500 | <y class="px-2 text-lg text-amber-700 bg-white font-semibold">Text</y> |
+| text-amber-800 |  | color: #735800 | <y class="px-2 text-lg text-amber-800 bg-white font-semibold">Text</y> |
+| text-amber-900 |  | color: #4d3b00 | <y class="px-2 text-lg text-amber-900 bg-white font-semibold">Text</y> |
+| text-nero-100 |  | color: #e9e9e9 | <y class="px-2 text-lg text-nero-100 bg-white font-semibold">Text</y> |
+| text-nero-200 |  | color: #c7c8c9 | <y class="px-2 text-lg text-nero-200 bg-white font-semibold">Text</y> |
+| text-nero-300 |  | color: #a6a7a8 | <y class="px-2 text-lg text-nero-300 bg-white font-semibold">Text</y> |
+| text-nero-400 |  | color: #636466 | <y class="px-2 text-lg text-nero-400 bg-white font-semibold">Text</y> |
+| text-nero-500 |  | color: #202225 | <y class="px-2 text-lg text-nero-500 bg-white font-semibold">Text</y> |
+| text-nero-600 |  | color: #1d1f21 | <y class="px-2 text-lg text-nero-600 bg-white font-semibold">Text</y> |
+| text-nero-700 |  | color: #131416 | <y class="px-2 text-lg text-nero-700 bg-white font-semibold">Text</y> |
+| text-nero-800 |  | color: #0e0f11 | <y class="px-2 text-lg text-nero-800 bg-white font-semibold">Text</y> |
+| text-nero-900 |  | color: #0a0a0b | <y class="px-2 text-lg text-nero-900 bg-white font-semibold">Text</y> |
+
 
