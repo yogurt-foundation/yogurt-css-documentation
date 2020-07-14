@@ -13,10 +13,10 @@ Utility for sets an element's placement to a side of its container and allows co
 
 ### Class
 
-| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css properties</span> |
-|:--|:--|:--|
-| float-right |  | float: right |
-| float-left |  | float: left |
-| float-none |  | float: none |
-| clearfix |  | &::after { content: ""; display: table; clear: both; } |
+| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
+|:--|:--|
+| float-right | float: right |
+| float-left | float: left |
+| float-none | float: none |
+| clearfix | <y>&::after { content: ""; display: table; clear: both; }</y> |
 

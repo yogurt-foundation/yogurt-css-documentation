@@ -13,18 +13,18 @@ Utility for sets the font size.
 
 ### Class
 
-| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css properties</span> |
-|:--|:--|:--|
-| text-xs |  | font-size: .75rem |
-| text-sm |  | font-size: .875rem |
-| text-md |  | font-size: 1rem |
-| text-lg |  | font-size: 1.125rem |
-| text-xl |  | font-size: 1.25rem |
-| text-2xl |  | font-size: 1.5rem |
-| text-3xl |  | font-size: 1.875rem |
-| text-4xl |  | font-size: 2.25rem |
-| text-5xl |  | font-size: 3rem |
-| text-6xl |  | font-size: 4rem |
-| text-7xl |  | font-size: 5rem |
-| text-8xl |  | font-size: 6rem |
+| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> | |
+|:--|:--|:-:|
+| text-xs | font-size: .75rem | <span class="text-xs">Text</span> |
+| text-sm | font-size: .875rem | <span class="text-sm">Text</span> |
+| text-md | font-size: 1rem | <span class="text-md">Text</span> |
+| text-lg | font-size: 1.125rem | <span class="text-lg">Text</span> |
+| text-xl | font-size: 1.25rem | <span class="text-xl">Text</span> |
+| text-2xl | font-size: 1.5rem | <span class="text-2xl">Text</span> |
+| text-3xl | font-size: 1.875rem | <span class="text-3xl">Text</span> |
+| text-4xl | font-size: 2.25rem | <span class="text-4xl">Text</span> |
+| text-5xl | font-size: 3rem | <span class="text-5xl">Text</span> |
+| text-6xl | font-size: 4rem | <span class="text-6xl">Text</span> |
+| text-7xl | font-size: 5rem | <span class="text-7xl">Text</span> |
+| text-8xl | font-size: 6rem | <span class="text-8xl">Text</span> |
 
