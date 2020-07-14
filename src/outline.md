@@ -13,8 +13,8 @@ Utility for sets native browser outline style to reset.
 
 ### Class
 
-| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css properties</span> |
-|:--|:--|:--|
-| outline-none |  | outline: 0 |
+| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
+|:--|:--|
+| outline-none | outline: 0 |
 
 

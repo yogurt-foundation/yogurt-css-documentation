@@ -13,8 +13,8 @@ Utility for sets the text-decoration of an element.
 
 ### Class
 
-| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css properties</span> |
-|:--|:--|:--|
-| underline |  | text-decoration: underline |
-| line-through |  | text-decoration: line-through |
-| no-underline |  | text-decoration: none |
+| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
+|:--|:--|
+| underline | text-decoration: underline |
+| line-through | text-decoration: line-through |
+| no-underline | text-decoration: none |
