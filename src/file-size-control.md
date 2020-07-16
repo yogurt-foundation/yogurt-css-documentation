@@ -33,6 +33,12 @@ gulp.task('purge-css', () => {
 })
 ```
 
+Optionally to use the dedicated scaffolding app to create a new project with PurgeCSS built-in on-the-go.
+
+```bash
+$ npx create-yogurt-app my-new-project
+```
+
 ### On-demand Caching
 
 Another modern method is using **in-browser on-demand-cache** to permanently store the Yogurt CSS with **PWA (Progress Web App)** feature. So that it only loads once maybe for its lifetime and also without the internet connection for the next load, this vastly improves load speed, reduce bandwidth and load time. (See example projects: [FX-Filter Previewer](https://fx-filter-previewer.netlify.com/), [FX-Gradient Previewer](https://fx-gradient-previewer.netlify.com/)).
