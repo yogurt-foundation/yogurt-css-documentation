@@ -1,7 +1,7 @@
 ---
 id: font-family
 title: Font Family
-description: Utility for sets the font family.
+description: Utilities for sets the font family.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Font Family
 
-Utility for sets the font family.
+Utilities for sets the font family.
 
 ### Class
 

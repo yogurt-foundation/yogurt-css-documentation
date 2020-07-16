@@ -1,7 +1,7 @@
 ---
 id: min-height
 title: Min Height
-description: Utility for sets the miminum height of an element.
+description: Utilities for sets the miminum height of an element.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Min Height
 
-Utility for sets the miminum height of an element.
+Utilities for sets the miminum height of an element.
 
 ### Class
 

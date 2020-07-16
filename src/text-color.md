@@ -1,7 +1,7 @@
 ---
 id: text-color
 title: Text Color
-description: Utility for sets the text color.
+description: Utilities for sets the text color.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Text Color
 
-Utility for sets the text color.
+Utilities for sets the text color.
 
 ### Class
 

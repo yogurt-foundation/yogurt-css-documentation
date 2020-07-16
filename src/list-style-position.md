@@ -1,7 +1,7 @@
 ---
 id: list-style-position
 title: List Style Position
-description: Utility for sets the position of a list's bullets.
+description: Utilities for sets the position of a list's bullets.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## List Style Position
 
-Utility for sets the position of a list's bullets.
+Utilities for sets the position of a list's bullets.
 
 ### Class
 

@@ -1,7 +1,7 @@
 ---
 id: flex
 title: Flex
-description: Utility for controls how flex items grow and shrink.
+description: Utilities for controls how flex items grow and shrink.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Flex
 
-Utility for controls how flex items grow and shrink.
+Utilities for controls how flex items grow and shrink.
 
 ### Class
 

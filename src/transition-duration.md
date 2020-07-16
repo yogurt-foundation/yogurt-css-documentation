@@ -1,7 +1,7 @@
 ---
 id: transition-duration
 title: Transition Duration
-description: Utility for sets the length of time for a transition animations to complete.
+description: Utilities for sets the length of time for a transition animations to complete.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Transition Duration
 
-Utility for sets the length of time for a transition animations to complete.
+Utilities for sets the length of time for a transition animations to complete.
 
 ### Class
 

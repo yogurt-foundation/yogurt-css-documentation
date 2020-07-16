@@ -1,7 +1,7 @@
 ---
 id: stroke-width
 title: Stroke Width
-description: Utility for sets the outline width of an SVG.
+description: Utilities for sets the outline width of an SVG.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Stroke Width
 
-Utility for sets the outline width of an SVG.
+Utilities for sets the outline width of an SVG.
 
 ### Class
 

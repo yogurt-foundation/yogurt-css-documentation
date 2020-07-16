@@ -1,7 +1,7 @@
 ---
 id: transition-timing
 title: Transition Timing
-description: Utility for sets the easing function of transition animations.
+description: Utilities for sets the easing function of transition animations.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Transition Timing
 
-Utility for sets the easing function of transition animations.
+Utilities for sets the easing function of transition animations.
 
 ### Class
 

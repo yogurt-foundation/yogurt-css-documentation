@@ -1,7 +1,7 @@
 ---
 id: padding
 title: Padding
-description: Utility for controls padding in 0.25rem increments.
+description: Utilities for controls padding in 0.25rem increments.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Padding
 
-Utility for controls padding in 0.25rem increments.
+Utilities for controls padding in 0.25rem increments.
 
 ### Class
 

@@ -1,7 +1,7 @@
 ---
 id: clear
 title: Clear
-description: Utility for set whether an element is moved below preceding floated elements.
+description: Utilities for set whether an element is moved below preceding floated elements.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Clear
 
-Utility for set whether an element is moved below preceding floated elements.
+Utilities for set whether an element is moved below preceding floated elements.
 
 ### Class
 

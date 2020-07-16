@@ -1,7 +1,7 @@
 ---
 id: line-height
 title: Line Height
-description: Utility for sets the line height.
+description: Utilities for sets the line height.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Line Height
 
-Utility for sets the line height.
+Utilities for sets the line height.
 
 ### Class
 

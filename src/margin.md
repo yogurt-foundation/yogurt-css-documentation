@@ -1,7 +1,7 @@
 ---
 id: margin
 title: Margin
-description: Utility for controls margin (and negative margin) in 0.25rem increments.
+description: Utilities for controls margin (and negative margin) in 0.25rem increments.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Margin
 
-Utility for controls margin (and negative margin) in 0.25rem increments.
+Utilities for controls margin (and negative margin) in 0.25rem increments.
 
 ### Class
 

@@ -1,7 +1,7 @@
 ---
 id: align-self
 title: Align Self
-description: Utility for controls how an individual flex item is positioned along container's cross axis.
+description: Utilities for controls how an individual flex item is positioned along container's cross axis.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Align Self
 
-Utility for controls how an individual flex item is positioned along container's cross axis.
+Utilities for controls how an individual flex item is positioned along container's cross axis.
 
 ### Class
 

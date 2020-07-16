@@ -1,7 +1,7 @@
 ---
 id: font-size
 title: Font Size
-description: Utility for sets the font size.
+description: Utilities for sets the font size.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Font Size
 
-Utility for sets the font size.
+Utilities for sets the font size.
 
 ### Class
 

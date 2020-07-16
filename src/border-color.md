@@ -1,7 +1,7 @@
 ---
 id: border-color
 title: Border Color
-description: Utility for sets border color.
+description: Utilities for sets border color.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Border Color
 
-Utility for sets border color.
+Utilities for sets border color.
 
 ### Class
 

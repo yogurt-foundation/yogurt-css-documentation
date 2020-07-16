@@ -1,7 +1,7 @@
 ---
 id: background-position
 title: Background Position
-description: Utility for sets position of a background image.
+description: Utilities for sets position of a background image.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Background Position
 
-Utility for sets position of a background image.
+Utilities for sets position of a background image.
 
 ### Class
 

@@ -1,7 +1,7 @@
 ---
 id: translate
 title: Translate
-description: Utility for translate an element that has transform applied.
+description: Utilities for translate an element that has transform applied.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Translate
 
-Utility for translate an element that has transform applied.
+Utilities for translate an element that has transform applied.
 
 ### Class
 

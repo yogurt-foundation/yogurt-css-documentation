@@ -1,7 +1,7 @@
 ---
 id: flex-wrap
 title: Flex Wrap
-description: Utility for creates how flex items wrap.
+description: Utilities for creates how flex items wrap.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Flex Wrap
 
-Utility for creates how flex items wrap.
+Utilities for creates how flex items wrap.
 
 ### Class
 

@@ -1,7 +1,7 @@
 ---
 id: appearance
 title: Appearance
-description: Utility for disables native styling based on the native browser theme.
+description: Utilities for disables native styling based on the native browser theme.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Appearance
 
-Utility for disables native styling based on the native browser theme.
+Utilities for disables native styling based on the native browser theme.
 
 ### Class
 

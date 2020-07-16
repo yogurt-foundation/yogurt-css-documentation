@@ -1,7 +1,7 @@
 ---
 id: max-height
 title: Max Height
-description: Utility for sets the maximum height of an element.
+description: Utilities for sets the maximum height of an element.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Max Height
 
-Utility for sets the maximum height of an element.
+Utilities for sets the maximum height of an element.
 
 ### Class
 

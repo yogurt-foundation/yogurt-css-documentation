@@ -1,7 +1,7 @@
 ---
 id: flex-grow
 title: Flex Grow
-description: Utility for controls how flex items grow.
+description: Utilities for controls how flex items grow.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Flex Grow
 
-Utility for controls how flex items grow.
+Utilities for controls how flex items grow.
 
 ### Class
 

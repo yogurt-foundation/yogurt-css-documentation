@@ -1,7 +1,7 @@
 ---
 id: line-style-type
 title: List Style Type
-description: Utility for sets the bullet style of a list.
+description: Utilities for sets the bullet style of a list.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## List Style Type
 
-Utility for sets the bullet style of a list.
+Utilities for sets the bullet style of a list.
 
 ### Class
 

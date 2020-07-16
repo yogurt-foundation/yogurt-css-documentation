@@ -1,7 +1,7 @@
 ---
 id: stroke
 title: Stroke
-description: Utility for sets the outline color of an SVG.
+description: Utilities for sets the outline color of an SVG.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Stroke
 
-Utility for sets the outline color of an SVG.
+Utilities for sets the outline color of an SVG.
 
 ### Class
 

@@ -1,7 +1,7 @@
 ---
 id: z-index
 title: Z-Index
-description: Utility for sets the z order (stack order) of a positioned element.
+description: Utilities for sets the z order (stack order) of a positioned element.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Z-Index
 
-Utility for sets the z order (stack order) of a positioned element.
+Utilities for sets the z order (stack order) of a positioned element.
 
 ### Class
 

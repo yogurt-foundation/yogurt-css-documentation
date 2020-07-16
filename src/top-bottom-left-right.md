@@ -1,7 +1,7 @@
 ---
 id: top-bottom-left-right
 title: Top / Right / Bottom / Left
-description: Utility for sets the placement of a positioned element.
+description: Utilities for sets the placement of a positioned element.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Top / Right / Bottom / Left
 
-Utility for sets the placement of a positioned element.
+Utilities for sets the placement of a positioned element.
 
 ### Class
 

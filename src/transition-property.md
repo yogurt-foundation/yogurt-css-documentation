@@ -1,7 +1,7 @@
 ---
 id: transition-property
 title: Transition Property
-description: Utility for sets the css properties affected by transition animations.
+description: Utilities for sets the css properties affected by transition animations.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Transition Property
 
-Utility for sets the css properties affected by transition animations.
+Utilities for sets the css properties affected by transition animations.
 
 ### Class
 

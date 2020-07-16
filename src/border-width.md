@@ -1,7 +1,7 @@
 ---
 id: border-width
 title: Border Width
-description: Utility for sets border width in increments of 1px.
+description: Utilities for sets border width in increments of 1px.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Border Width
 
-Utility for sets border width in increments of 1px.
+Utilities for sets border width in increments of 1px.
 
 ### Class
 

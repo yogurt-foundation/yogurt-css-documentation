@@ -1,7 +1,7 @@
 ---
 id: text-transform
 title: Text Transform
-description: Utility for sets the capitalization of text.
+description: Utilities for sets the capitalization of text.
 layout: default
 ---
 
@@ -9,13 +9,13 @@ layout: default
 
 ## Text Transform
 
-Utility for sets the capitalization of text.
+Utilities for sets the capitalization of text.
 
 ### Class
 
-| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
-|:--|:--|
-| uppercase | text-transform: uppercase |
-| lowercase | text-transform: lowercase |
-| capitalize | text-transform: capitalize |
-| normal-case | text-transform: none |
+| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> | |
+|:--|:--|:-:|
+| uppercase | text-transform: uppercase | <y class="text-lg uppercase">text</y> |
+| lowercase | text-transform: lowercase | <y class="text-lg lowercase">TEXT</y> |
+| capitalize | text-transform: capitalize | <y class="text-lg capitalize">text</y> |
+| normal-case | text-transform: none | <y class="text-lg none">text</y> |

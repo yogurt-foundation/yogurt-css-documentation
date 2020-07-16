@@ -1,7 +1,7 @@
 ---
 id: max-width
 title: Max Width
-description: Utility for sets the maximum width of an element.
+description: Utilities for sets the maximum width of an element.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Max Width
 
-Utility for sets the maximum width of an element.
+Utilities for sets the maximum width of an element.
 
 ### Class
 

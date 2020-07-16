@@ -1,7 +1,7 @@
 ---
 id: background-blend
 title: Background Blend
-description: Utility for sets the blending mode of each background layer (color or image).
+description: Utilities for sets the blending mode of each background layer (color or image).
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Background Blend
 
-Utility for sets the blending mode of each background layer (color or image).
+Utilities for sets the blending mode of each background layer (color or image).
 
 ### Class
 

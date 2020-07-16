@@ -1,7 +1,7 @@
 ---
 id: rotate
 title: Rotate
-description: Utility for rotates an element that has transform applied.
+description: Utilities for rotates an element that has transform applied.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Rotate
 
-Utility for rotates an element that has transform applied.
+Utilities for rotates an element that has transform applied.
 
 ### Class
 

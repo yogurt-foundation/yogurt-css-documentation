@@ -1,7 +1,7 @@
 ---
 id: object-position
 title: Object Position
-description: Utility for sets the alignment of the selected replaced element.
+description: Utilities for sets the alignment of the selected replaced element.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Object Position
 
-Utility for sets the alignment of the selected replaced element.
+Utilities for sets the alignment of the selected replaced element.
 
 ### Class
 

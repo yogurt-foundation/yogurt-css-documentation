@@ -1,7 +1,7 @@
 ---
 id: opacity
 title: Opacity
-description: Utility for sets the transparency of an element.
+description: Utilities for sets the transparency of an element.
 layout: default
 ---
 
@@ -9,14 +9,14 @@ layout: default
 
 ## Opacity
 
-Utility for sets the transparency of an element.
+Utilities for sets the transparency of an element.
 
 ### Class
 
-| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
-|:--|:--|
-| opacity-100 | opacity: 1 |
-| opacity-75 | opacity: .75 |
-| opacity-50 | opacity: .5 |
-| opacity-25 | opacity: .25 |
-| opacity-0 | opacity: 0 |
+| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> | |
+|:--|:--|:-:|
+| opacity-100 | opacity: 1 | <y class="w-16 h-8 p-1 inline-block text-white bg-charcoal-100 rounded opacity-100">Text</y> |
+| opacity-75 | opacity: .75 | <y class="w-16 h-8 p-1 inline-block text-white bg-charcoal-100 rounded opacity-75">Text</y> |
+| opacity-50 | opacity: .5 | <y class="w-16 h-8 p-1 inline-block text-white bg-charcoal-100 rounded opacity-50">Text</y> |
+| opacity-25 | opacity: .25 | <y class="w-16 h-8 p-1 inline-block text-white bg-charcoal-100 rounded opacity-25">Text</y> |
+| opacity-0 | opacity: 0 | <y class="w-16 h-8 p-1 inline-block text-white bg-charcoal-100 rounded opacity-0">Text</y> |

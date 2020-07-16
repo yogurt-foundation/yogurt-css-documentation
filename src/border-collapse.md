@@ -1,7 +1,7 @@
 ---
 id: border-collapse
 title: Border Collapse
-description: Utility for collapse or separate table borders.
+description: Utilities for collapse or separate table borders.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Border Collapse
 
-Utility for collapse or separate table borders.
+Utilities for collapse or separate table borders.
 
 ### Class
 

@@ -1,7 +1,7 @@
 ---
 id: float
 title: Float
-description: Utility for sets an element's placement to a side of its container and allows content to wrap around it.
+description: Utilities for sets an element's placement to a side of its container and allows content to wrap around it.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Float
 
-Utility for sets an element's placement to a side of its container and allows content to wrap around it.
+Utilities for sets an element's placement to a side of its container and allows content to wrap around it.
 
 ### Class
 

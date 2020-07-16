@@ -1,7 +1,7 @@
 ---
 id: skew
 title: Skew
-description: Utility for skews an element that has transform applied.
+description: Utilities for skews an element that has transform applied.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Skew
 
-Utility for skews an element that has transform applied.
+Utilities for skews an element that has transform applied.
 
 ### Class
 

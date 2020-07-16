@@ -1,7 +1,7 @@
 ---
 id: user-select
 title: User Select
-description: Utility for controls whether the user can select text.
+description: Utilities for controls whether the user can select text.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## User Select
 
-Utility for controls whether the user can select text.
+Utilities for controls whether the user can select text.
 
 ### Class
 

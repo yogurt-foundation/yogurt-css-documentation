@@ -1,7 +1,7 @@
 ---
 id: backgorund-attachment
 title: Background Attachment
-description: Utility for sets behaviour of backgorund images when scrolling.
+description: Utilities for sets behaviour of backgorund images when scrolling.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Background Attachment
 
-Utility for sets behaviour of backgorund images when scrolling.
+Utilities for sets behaviour of backgorund images when scrolling.
 
 ### Class
 

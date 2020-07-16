@@ -1,7 +1,7 @@
 ---
 id: min-width
 title: Min Width
-description: Utility for sets the minimum width of an element.
+description: Utilities for sets the minimum width of an element.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Min Width
 
-Utility for sets the minimum width of an element.
+Utilities for sets the minimum width of an element.
 
 ### Class
 

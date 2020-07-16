@@ -1,7 +1,7 @@
 ---
 id: container
 title: Container
-description: Utility for set max-width to match min-width of the current breakpoint.
+description: Utilities for set max-width to match min-width of the current breakpoint.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Container
 
-Utility for set max-width to match min-width of the current breakpoint.
+Utilities for set max-width to match min-width of the current breakpoint.
 
 ### Class
 

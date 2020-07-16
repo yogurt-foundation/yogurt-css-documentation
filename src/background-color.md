@@ -1,7 +1,7 @@
 ---
 id: background-color
 title: Background Color
-description: Utility for sets background color.
+description: Utilities for sets background color.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Background Color
 
-Utility for sets background color.
+Utilities for sets background color.
 
 ### Class
 

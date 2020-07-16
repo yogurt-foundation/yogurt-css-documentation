@@ -1,7 +1,7 @@
 ---
 id: width
 title: Width
-description: Utility for sets the width of an element.
+description: Utilities for sets the width of an element.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Width
 
-Utility for sets the width of an element.
+Utilities for sets the width of an element.
 
 ### Class
 

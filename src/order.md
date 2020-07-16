@@ -1,7 +1,7 @@
 ---
 id: order
 title: Order
-description: Utility for controls how flex items are ordered.
+description: Utilities for controls how flex items are ordered.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Order
 
-Utility for controls how flex items are ordered.
+Utilities for controls how flex items are ordered.
 
 ### Class
 

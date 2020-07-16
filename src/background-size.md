@@ -1,7 +1,7 @@
 ---
 id: background-size
 title: Background Size
-description: Utility for sets background size of a background image.
+description: Utilities for sets background size of a background image.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Background Size
 
-Utility for sets background size of a background image.
+Utilities for sets background size of a background image.
 
 ### Class
 

@@ -1,7 +1,7 @@
 ---
 id: box-shadow-color
 title: Box Shadow Color
-description: Utility for sets the shadow color.
+description: Utilities for sets the shadow color.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Box Shadow Color
 
-Utility for sets the shadow color.
+Utilities for sets the shadow color.
 
 ### Class
 

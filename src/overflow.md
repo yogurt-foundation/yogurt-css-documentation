@@ -1,7 +1,7 @@
 ---
 id: overflow
 title: Overflow
-description: Utility for sets how to handle content that's too big for it's container.
+description: Utilities for sets how to handle content that's too big for it's container.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Overflow
 
-Utility for sets how to handle content that's too big for it's container.
+Utilities for sets how to handle content that's too big for it's container.
 
 ### Class
 

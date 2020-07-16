@@ -1,7 +1,7 @@
 ---
 id: filter-blur
 title: Filter Blur
-description: Utility for sets filter blur effect to an element.
+description: Utilities for sets filter blur effect to an element.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Filter Blur
 
-Utility for sets filter blur effect to an element.
+Utilities for sets filter blur effect to an element.
 
 ### Class
 

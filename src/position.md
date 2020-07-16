@@ -1,7 +1,7 @@
 ---
 id: position
 title: Position
-description: Utility for sets an element's position.
+description: Utilities for sets an element's position.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Position
 
-Utility for sets an element's position.
+Utilities for sets an element's position.
 
 ### Class
 

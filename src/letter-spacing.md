@@ -1,7 +1,7 @@
 ---
 id: letter-spacing
 title: Letter Spacing
-description: Utility for sets the spacing between letters.
+description: Utilities for sets the spacing between letters.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Letter Spacing
 
-Utility for sets the spacing between letters.
+Utilities for sets the spacing between letters.
 
 ### Class
 

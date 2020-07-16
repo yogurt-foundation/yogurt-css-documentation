@@ -1,7 +1,7 @@
 ---
 id: vertical-align
 title: Vertical Align
-description: Utility for sets the vertical alignment of an inline or table-cell box.
+description: Utilities for sets the vertical alignment of an inline or table-cell box.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Vertical Align
 
-Utility for sets the vertical alignment of an inline or table-cell box.
+Utilities for sets the vertical alignment of an inline or table-cell box.
 
 ### Class
 
