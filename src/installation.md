@@ -22,14 +22,8 @@ layout: default
 ### Using Yogurt via Build Tool
 
 ```bash
-$ git clone https://github.com/yogurt-foundation/yogurt-css.git
-$ cd yogurt-css
-$ yarn && yarn build
+$ npx create-yogurt-app my-new-project
 ```
-
-In this document is recommended `yarn`, you can choose to `npm` that came with the NodeJS installation.
-
-Once the build process is done. You can extract the minified `yogurt.css` file from `dist/` directory to use in your project.
 
 ### Using Yogurt via Playground
 
