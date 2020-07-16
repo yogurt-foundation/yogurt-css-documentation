@@ -21,21 +21,21 @@
 
           <li class="mb-4">
 
-            <y class="py-2 text-sm">
+            <y class="py-2 text-sm font-semibold">
 
               {{ data.label }}
 
             </y>
 
-            <ul class="-ml-10">
+            <ul class="-ml-3">
 
               {% for item in data.items %}
 
               {% set is_current_page = page.url | replace('/', '') == item.url | replace('/', '') %}
 
-              <li class="mb-px">
+              <li class="mb-px list-disc">
 
-                <a class="nav-link -mx-1 px-1 hover:font-semibold hover:underline {{ item.class }} {% if is_current_page %}selected{% endif %}"
+                <a class="nav-link -mx-1 px-2 py-1 hover:font-semibold hover:underline {{ item.class }} {% if is_current_page %} selected {% endif %} transition duration-300 ease-in-out rounded"
                    href="{{ item.url | safe }}"
                    {% if is_current_page %}
                    aria-current="page"
