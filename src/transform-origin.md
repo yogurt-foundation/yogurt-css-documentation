@@ -1,7 +1,7 @@
 ---
 id: transform-origin
 title: Transform Origin
-description: Utility for sets the origin of an element's transforms.
+description: Utilities for sets the origin of an element's transforms.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Transform Origin
 
-Utility for sets the origin of an element's transforms.
+Utilities for sets the origin of an element's transforms.
 
 ### Class
 

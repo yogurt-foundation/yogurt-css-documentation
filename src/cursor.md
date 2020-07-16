@@ -1,7 +1,7 @@
 ---
 id: cursor
 title: Cursor
-description: Utility for changes the cursor when hovering over an element.
+description: Utilities for changes the cursor when hovering over an element.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Cursor
 
-Utility for changes the cursor when hovering over an element.
+Utilities for changes the cursor when hovering over an element.
 
 ### Class
 

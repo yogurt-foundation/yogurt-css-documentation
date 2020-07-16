@@ -1,7 +1,7 @@
 ---
 id: resize
 title: Resize
-description: Utility for sets whether an element is resizable, along with direction.
+description: Utilities for sets whether an element is resizable, along with direction.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Resize
 
-Utility for sets whether an element is resizable, along with direction.
+Utilities for sets whether an element is resizable, along with direction.
 
 ### Class
 

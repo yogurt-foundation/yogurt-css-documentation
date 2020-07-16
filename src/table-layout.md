@@ -1,7 +1,7 @@
 ---
 id: tab-layout
 title: Table Layout
-description: Utility for defines the algorithm used to layout table cells, rows and columns.
+description: Utilities for defines the algorithm used to layout table cells, rows and columns.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Table Layout
 
-Utility for defines the algorithm used to layout table cells, rows and columns.
+Utilities for defines the algorithm used to layout table cells, rows and columns.
 
 ### Class
 

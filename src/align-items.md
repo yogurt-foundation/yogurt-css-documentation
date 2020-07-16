@@ -1,7 +1,7 @@
 ---
 id: align-item
 title: Align Items
-description: Utility for sets flex items position along a container's cross axis.
+description: Utilities for sets flex items position along a container's cross axis.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Align Items
 
-Utility for sets flex items position along a container's cross axis.
+Utilities for sets flex items position along a container's cross axis.
 
 ### Class
 

@@ -1,7 +1,7 @@
 ---
 id: filter-invert
 title: Filter Invert
-description: Utility for sets filter invert effect to an element.
+description: Utilities for sets filter invert effect to an element.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Filter Invert
 
-Utility for sets filter invert effect to an element.
+Utilities for sets filter inverts effect to an element.
 
 ### Class
 

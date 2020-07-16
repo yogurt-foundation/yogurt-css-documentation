@@ -1,7 +1,7 @@
 ---
 id: visibility
 title: Visibility
-description: Utility for show or hide without affecting the layout of the document.
+description: Utilities for show or hide without affecting the layout of the document.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Visibility
 
-Utility for show or hide without affecting the layout of the document.
+Utilities for show or hide without affecting the layout of the document.
 
 ### Class
 

@@ -1,7 +1,7 @@
 ---
 id: fill
 title: SVG
-description: Utility for sets the color to paint an SVG.
+description: Utilities for sets the color to paint an SVG.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Fill
 
-Utility for sets the color to paint an SVG.
+Utilities for sets the color to paint an SVG.
 
 ### Class
 

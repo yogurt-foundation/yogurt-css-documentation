@@ -1,7 +1,7 @@
 ---
 id: font-style
 title: Font Style
-description: Utility for sets the style of the font.
+description: Utilities for sets the style of the font.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Font Style
 
-Utility for sets the style of the font.
+Utilities for sets the style of the font.
 
 ### Class
 

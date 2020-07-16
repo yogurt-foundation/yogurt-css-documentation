@@ -1,7 +1,7 @@
 ---
 id: flex-direction
 title: Flex Direction
-description: Utility for sets direction of flex items.
+description: Utilities for sets direction of flex items.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Flex Direction
 
-Utility for sets direction of flex items.
+Utilities for sets direction of flex items.
 
 ### Class
 

@@ -1,7 +1,7 @@
 ---
 id: border-radius
 title: Border Radius
-description: Utility for sets border radius.
+description: Utilities for sets border radius.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Border Radius
 
-Utility for sets border radius.
+Utilities for sets border radius.
 
 ### Class
 

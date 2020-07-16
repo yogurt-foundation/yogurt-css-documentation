@@ -1,7 +1,7 @@
 ---
 id: border-style
 title: Border Style
-description: Utility for sets border style.
+description: Utilities for sets border style.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Border Style
 
-Utility for sets border style.
+Utilities for sets border style.
 
 ### Class
 

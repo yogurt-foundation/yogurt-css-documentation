@@ -1,7 +1,7 @@
 ---
 id: screen-reader
 title: Screen Reader
-description: Utility for controls whether an element is visually hidden but still accessible to screen readers.
+description: Utilities for controls whether an element is visually hidden but still accessible to screen readers.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Screen Reader
 
-Utility for controls whether an element is visually hidden but still accessible to screen readers.
+Utilities for controls whether an element is visually hidden but still accessible to screen readers.
 
 ### Class
 

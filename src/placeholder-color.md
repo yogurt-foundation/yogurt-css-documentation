@@ -1,7 +1,7 @@
 ---
 id: placeholder-color
 title: Placeholder Color
-description: Utility for sets the placeholder color using the ::placeholder pseudo element.
+description: Utilities for sets the placeholder color using the ::placeholder pseudo element.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Placeholder Color
 
-Utility for sets the placeholder color using the ::placeholder pseudo element.
+Utilities for sets the placeholder color using the ::placeholder pseudo element.
 
 ### Class
 

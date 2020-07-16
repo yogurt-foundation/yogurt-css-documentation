@@ -1,7 +1,7 @@
 ---
 id: scale
 title: Scale
-description: Utility for scales an element that has transform applied.
+description: Utilities for scales an element that has transform applied.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Scale
 
-Utility for scales an element that has transform applied.
+Utilities for scales an element that has transform applied.
 
 ### Class
 

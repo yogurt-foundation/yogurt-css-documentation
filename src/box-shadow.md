@@ -1,7 +1,7 @@
 ---
 id: box-shadow
 title: Box Shadow
-description: Utility for sets the box-shadow property attaches one or more shadows to an element.
+description: Utilities for sets the box-shadow property attaches one or more shadows to an element.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Box Shadow
 
-Utility for sets the box-shadow property attaches one or more shadows to an element.
+Utilities for sets the box-shadow property attaches one or more shadows to an element.
 
 ### Class
 

@@ -1,7 +1,7 @@
 ---
 id: font-smoothing
 title: Font Smoothing
-description: Utility for sets the antialiasing of the font.
+description: Utilities for sets the antialiasing of the font.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Font Smoothing
 
-Utility for sets the antialiasing of the font.
+Utilities for sets the antialiasing of the font.
 
 ### Class
 

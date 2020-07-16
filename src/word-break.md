@@ -1,7 +1,7 @@
 ---
 id: word-break
 title: Word Break
-description: Utility for sets the word breaks of an element.
+description: Utilities for sets the word breaks of an element.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Word Break
 
-Utility for sets the word breaks of an element.
+Utilities for sets the word breaks of an element.
 
 ### Class
 

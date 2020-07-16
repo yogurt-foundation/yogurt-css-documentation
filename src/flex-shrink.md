@@ -1,7 +1,7 @@
 ---
 id: flex-shrink
 title: Flex Shrink
-description: Utility for controls how flex items shrink.
+description: Utilities for controls how flex items shrink.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Flex Shrink
 
-Utility for controls how flex items shrink.
+Utilities for controls how flex items shrink.
 
 ### Class
 

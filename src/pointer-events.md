@@ -1,7 +1,7 @@
 ---
 id: pointer-events
 title: Pointer Events
-description: Utility for specifies whether an element is the target of mouse events.
+description: Utilities for specifies whether an element is the target of mouse events.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Pointer Events
 
-Utility for specifies whether an element is the target of mouse events.
+Utilities for specifies whether an element is the target of mouse events.
 
 ### Class
 

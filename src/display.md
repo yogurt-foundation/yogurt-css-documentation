@@ -1,7 +1,7 @@
 ---
 id: display
 title: Display
-description: Utility for sets the display box type of an element.
+description: Utilities for sets the display box type of an element.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Display
 
-Utility for sets the display box type of an element.
+Utilities for sets the display box type of an element.
 
 ### Class
 

@@ -1,7 +1,7 @@
 ---
 id: height
 title: Height
-description: Utility for sets the height of an element.
+description: Utilities for sets the height of an element.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Height
 
-Utility for sets the height of an element.
+Utilities for sets the height of an element.
 
 ### Class
 

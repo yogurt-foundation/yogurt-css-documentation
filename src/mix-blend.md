@@ -1,7 +1,7 @@
 ---
 id: mix-blend
 title: Mix Blend
-description: Utility for sets how an element's content should blend with its direct parent background.
+description: Utilities for sets how an element's content should blend with its direct parent background.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Mix Blend
 
-Utility for sets how an element's content should blend with its direct parent background.
+Utilities for sets how an element's content should blend with its direct parent background.
 
 ### Class
 

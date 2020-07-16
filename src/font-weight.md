@@ -1,7 +1,7 @@
 ---
 id: font-weight
 title: Font Style
-description: Utility for sets the font weight.
+description: Utilities for sets the font weight.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Font Style
 
-Utility for sets the font weight.
+Utilities for sets the font weight.
 
 ### Class
 

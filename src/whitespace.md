@@ -1,7 +1,7 @@
 ---
 id: whitespace
 title: Whitespace
-description: Utility for sets the whitespace of an element.
+description: Utilities for sets the whitespace of an element.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Whitespace
 
-Utility for sets the whitespace of an element.
+Utilities for sets the whitespace of an element.
 
 ### Class
 
