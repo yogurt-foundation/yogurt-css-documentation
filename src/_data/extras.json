@@ -12,71 +12,10 @@
         {
           "label": "Pseudo-Class Variants",
           "url": "/pseudo-class-variants/"
-        }
-      ]
-    },
-    {
-      "label": "Start learning these utilities:",
-      "items": [
-        {
-          "label": "Layouts",
-          "url": "/container"
         },
         {
-          "label": "Typography",
-          "url": "/font-family"
-        },
-        {
-          "label": "Spacing",
-          "url": "/margin"
-        },
-        {
-          "label": "Backgrounds",
-          "url": "/background-attachment"
-        },
-        {
-          "label": "Borders",
-          "url": "/border-color"
-        },
-        {
-          "label": "Effects",
-          "url": "/box-shadow"
-        },
-        {
-          "label": "Sizing",
-          "url": "/width"
-        },
-        {
-          "label": "Flexbox",
-          "url": "/flex-direction"
-        },
-        {
-          "label": "Interactivity",
-          "url": "/appearance"
-        },
-        {
-          "label": "Filters",
-          "url": "/filter-compose"
-        },
-        {
-          "label": "Transforms",
-          "url": "/rotate"
-        },
-        {
-          "label": "Transitions",
-          "url": "/transition-property"
-        },
-        {
-          "label": "Tables",
-          "url": "/border-collapse"
-        },
-        {
-          "label": "SVG",
-          "url": "/fill"
-        },
-        {
-          "label": "Accessibility",
-          "url": "/screen-reader"
+          "label": "Customize Utilities",
+          "url": "/customize-utilities/"
         }
       ]
     }
