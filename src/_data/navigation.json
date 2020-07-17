@@ -220,6 +220,10 @@
         {
           "label": "Background Blend",
           "url": "/background-blend/"
+        },
+        {
+          "label": "Gradient",
+          "url": "/gradient/"
         }
       ]
     },

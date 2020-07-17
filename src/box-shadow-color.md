@@ -9,7 +9,7 @@ layout: default
 
 ## Box Shadow Color
 
-Utilities for sets the shadow color.
+Utilities for sets the shadow color to an element.
 
 ### Class
 

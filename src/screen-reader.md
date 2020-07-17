@@ -7,7 +7,7 @@ layout: default
 
 > Accessibility
 
-## Screen Reader
+## Screen Reader <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.7</span>
 
 Utilities for controls whether an element is visually hidden but still accessible to screen readers.
 
