@@ -7,7 +7,7 @@ layout: default
 
 > Filters
 
-## Filter Blur
+## Blur
 
 Utilities for sets filter blur effect to an element.
 
