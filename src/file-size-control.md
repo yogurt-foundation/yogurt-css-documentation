@@ -5,7 +5,7 @@ description: Ways to reduce the use of Yogurt CSS utilities.
 layout: default
 ---
 
-> Getting Started
+> Customization
 
 ### File Size Control
 
