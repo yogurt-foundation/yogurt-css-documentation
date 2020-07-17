@@ -7,7 +7,7 @@ layout: default
 
 > Filters
 
-## Filter Compose
+## Compose
 
 Utilities for sets mixed filters (brightness, contrast, saturate) in order to an element.
 

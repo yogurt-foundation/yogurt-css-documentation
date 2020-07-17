@@ -7,7 +7,7 @@ layout: default
 
 > Filters
 
-## Filter Invert
+## Invert
 
 Utilities for sets filter inverts effect to an element.
 
