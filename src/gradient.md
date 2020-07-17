@@ -7,7 +7,7 @@ layout: default
 
 > Effects
 
-## Gradient
+## Gradient <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.8</span>
 
 Utilities for sets the gradient preset diagonally to an element.
 
