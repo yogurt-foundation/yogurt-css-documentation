@@ -19,11 +19,15 @@ layout: default
 
 **Note:** The CDN build is large, the sizes will be different when you are customizing with the build tool (See [Customize Utilties](/customize-utilities)). Using the build tool to exclude utilities or exclude variants from utilities that you don't need to reduce file size. (See [File Size Control](/file-size-control)).
 
-### Using Yogurt via Build Tool
+### Using Yogurt via CLI
+
+To create a new project, run:
 
 ```bash
 $ npx create-yogurt-app my-new-project
 ```
+
+This CLI gives you an optional tool to quickly installs and sets up a new frontend project with essential automation build tools such as preprocessors, compressors, etc.
 
 ### Using Yogurt via Playground
 
