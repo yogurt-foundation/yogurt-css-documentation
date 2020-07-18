@@ -13,7 +13,7 @@ Utilities for sets the alignment of text.
 
 ### Class
 
-| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> | |
+| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
 |:--|:--|
 | text-left | text-align: left |
 | text-center | text-align: center |
