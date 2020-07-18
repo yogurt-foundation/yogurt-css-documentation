@@ -149,6 +149,10 @@
         {
           "label": "Padding",
           "url": "/padding/"
+        },
+        {
+          "label": "Equal",
+          "url": "/equal/"
         }
       ]
     },
