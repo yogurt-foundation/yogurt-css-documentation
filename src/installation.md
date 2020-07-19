@@ -29,6 +29,11 @@ $ npx create-yogurt-app my-new-project
 
 This CLI gives you an optional tool to quickly installs and sets up a new frontend project with essential automation build tools such as preprocessors, compressors, etc.
 
+<y class="py-4">
+  <img class="w-full h-full rounded-lg"
+       src="/images/content/yogurt_cli_screenshot_01.png">
+</y>
+
 ### Using Yogurt via Playground
 
 [Yogurt Playground](https://github.com/yogurt-foundation/playground) is a developer tool also an HTML/CSS IDE for testing and prototyping with all the Yogurt frameworks and other libraries, [FX-Filter](https://github.com/yogurt-foundation/fx-filter), [FX-Gradient](https://github.com/yogurt-foundation/fx-gradient), [FX-Motion](https://github.com/yogurt-foundation/fx-motion). If you have an idea and want to draft something small without setting up a new project, then Yogurt Playground is for you.
