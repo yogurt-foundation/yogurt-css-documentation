@@ -18,5 +18,5 @@ Utilities for sets an element's placement to a side of its container and allows 
 | float-right | float: right |
 | float-left | float: left |
 | float-none | float: none |
-| clearfix | <y>&::after { content: ""; display: table; clear: both; }</y> |
+| clearfix | &::after { <br> content: ""; <br> display: table; <br> clear: both; } |
 
