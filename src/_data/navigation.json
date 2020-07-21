@@ -207,6 +207,10 @@
         {
           "label": "Dissect Color",
           "url": "/dissect-color/"
+        },
+        {
+          "label": "Dissect Opacity",
+          "url": "/dissect-opacity/"
         }
       ]
     },
