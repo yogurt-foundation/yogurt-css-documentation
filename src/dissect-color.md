@@ -7,7 +7,7 @@ layout: default
 
 > Borders
 
-## Dissect Color
+## Dissect Color <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.8</span>
 
 Utilities for sets border color on each child elements of its parent.
 
