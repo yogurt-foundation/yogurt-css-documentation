@@ -199,6 +199,14 @@
         {
           "label": "Border Radius",
           "url": "/border-radius/"
+        },
+        {
+          "label": "Dissect",
+          "url": "/dissect/"
+        },
+        {
+          "label": "Dissect Color",
+          "url": "/dissect-color/"
         }
       ]
     },
