@@ -10,7 +10,7 @@ layout: default
 ### Using Yogurt via CDN
 
 ```html
-<link defer href="https://unpkg.com/yogurt-css@1.0.7/dist/yogurt-1.0.7_solidcore.min.css"
+<link defer href="https://unpkg.com/yogurt-css@1.0.8/dist/yogurt-1.0.8_solidcore.min.css"
       rel="stylesheet"
       rel="preload"
       as="style"
@@ -18,6 +18,17 @@ layout: default
 ```
 
 **Note:** The CDN build is large, the sizes will be different when you are customizing with the build tool (See [Customize Utilties](/customize-utilities)). Using the build tool to exclude utilities or exclude variants from utilities that you don't need to reduce file size. (See [File Size Control](/file-size-control)).
+
+### Using Yogurt via Package Manager
+
+You can include the Yogurt CSS file from the `node_modules` directory with an HTML `<link>` tag.
+
+```bash
+# YARN
+$ yarn add yogurt-css
+# NPM
+$ npm i yogurt-css
+````
 
 ### Using Yogurt via CLI
 
