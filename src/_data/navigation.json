@@ -178,6 +178,10 @@
         {
           "label": "Background Size",
           "url": "/background-size/"
+        },
+        {
+          "label": "Background Opacity",
+          "url": "/background-opacity/"
         }
       ]
     },
