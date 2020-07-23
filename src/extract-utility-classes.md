@@ -87,3 +87,19 @@ You can mix `@extend` with CSS Pseudo Variants,
     .shadow;
 }
 ```
+
+You can write in full `Sassy` way, if you prefer the best practice,
+
+```scss
+.btn {
+  @extend
+    .bg-khaki-600;
+
+  &:hover {
+    @extend
+      .bg-khaki-700,
+      .shadow-lg;
+  }
+}
+```
+
