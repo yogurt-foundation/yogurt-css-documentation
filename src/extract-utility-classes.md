@@ -19,7 +19,10 @@ Yogurt purely built on top of the SASS or SCSS ([Sassy CSS](Sass-lang.com)). By 
     <strong>
       @extend
     </strong>
-    function. (See, [Installation](/installation)).
+    function. (See
+    <a href="/installation">
+      Installation
+    </a>.)
 </y>
 
 ### @extend
