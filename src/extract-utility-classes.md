@@ -19,7 +19,7 @@ Yogurt purely built on top of the SASS or SCSS ([Sassy CSS](Sass-lang.com)). By 
     <strong>
       @extend
     </strong>
-    function.
+    function. (See, [Installation](/installation)).
 </y>
 
 ### @extend
@@ -31,12 +31,6 @@ When using the **@extend `<selector ...>`** function in your custom CSS, some un
 - pseudo class `hover:text-khaki-100` is written as `.hover\:text-khaki-100`.
 - pseudo class with responsive `md:hover:text-khaki-100` is written as `.md\:hover\:text-khaki-100`.
 - responsive `md:text-khaki-100` is written as `.md\:text-khaki-100`.
-
-**Option:** Without install and set up manually Sass/SCSS preprocessor yourself, but to have all the essential build tools. Run the command to create a new Yogurt project instantly.
-
-```bash
-$ npx create-yogurt-app my-new-project
-```
 
 ### Examples
 
