@@ -15,6 +15,10 @@
           "url": "/pseudo-class-variants/"
         },
         {
+          "label": "Extract Utility Classes",
+          "url": "/extract-utility-classes"
+        },
+        {
           "label": "File Size Control",
           "url": "/file-size-control/"
         },
