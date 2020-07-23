@@ -7,25 +7,40 @@ layout: default
 
 > Core Concept
 
-### Extract Utility Classes
+## Extract Utility Classes
 
 Yogurt purely built on top of the SASS or SCSS ([Sassy CSS](Sass-lang.com)). By using the existing Sassy `@extend` function allows you to expose any Yogurt utility classes to your custom CSS.
 
-#### Some Rules
+<y class="my-4 p-3 border-l-8 border-orange-600 text-orange-600 bg-orange-200">
+  <span class="font-semibold">
+    Note:
+  </span>
+    Require Sass/SCSS preprocessor to use the
+    <strong>
+      @extend
+    </strong>
+    function.
+</y>
+
+### @extend
 
 When using the **@extend `<selector ...>`** function in your custom CSS, some unconventional rules that you need follow:
 
-```html
-.{prefix1}\:{prefix2}\:{class}-{modifier}
-```
-
-- the separator `:` is written as `\:`.
+- separator `:` is written as `\:`.
 - utility class `text-khaki-100` is written as `.text-khaki-100`.
 - pseudo class `hover:text-khaki-100` is written as `.hover\:text-khaki-100`.
 - pseudo class with responsive `md:hover:text-khaki-100` is written as `.md\:hover\:text-khaki-100`.
 - responsive `md:text-khaki-100` is written as `.md\:text-khaki-100`.
 
-#### How To `@extend`
+**Option:** Without install and set up manually Sass/SCSS preprocessor yourself, but to have all the essential build tools. Run the command to create a new Yogurt project instantly.
+
+```bash
+$ npx create-yogurt-app my-new-project
+```
+
+### Examples
+
+You can create new or refactor existing CSS with Yogurt utility classes,
 
 ```scss
 // Example in .scss
@@ -61,6 +76,8 @@ You can mix `@extend` with normal CSS,
   padding: 1rem 1rem;
 }
 ```
+
+You can mix `@extend` with CSS Pseudo Variants,
 
 ```scss
 .btn-large:hover {
