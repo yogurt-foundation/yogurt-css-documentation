@@ -38,20 +38,16 @@ To create a new project, run:
 $ npx create-yogurt-app my-new-project
 ```
 
-This CLI gives you an optional tool to quickly installs and sets up a new frontend project with essential automation build tools such as preprocessors, compressors, etc.
+The CLI gives you an optional tool to quickly installs and sets up a new frontend project with essential build tools such as preprocessors, compressors, etc.
 
-If you install the `create-yogurt-app` package locally,
+If you install the `create-yogurt-app` package to run locally,
 
 ```bash
 # Yarn
 $ yarn global add create-yogurt-app
 # NPM
 $ npm i -g create-yogurt-app
-```
-
-Run this command to create new Yogurt project,
-
-```bash
+# Create new project
 $ yogurt my-new-project
 ```
 
