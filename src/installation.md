@@ -40,13 +40,13 @@ $ npx create-yogurt-app my-new-project
 
 This CLI gives you an optional tool to quickly installs and sets up a new frontend project with essential automation build tools such as preprocessors, compressors, etc.
 
-If you install the `yogurt-css` package locally,
+If you install the `create-yogurt-app` package locally,
 
 ```bash
 # Yarn
-$ yarn global add yogurt-css
+$ yarn global add create-yogurt-app
 # NPM
-$ npm i -g yogurt-css
+$ npm i -g create-yogurt-app
 ```
 
 Run this command to create new Yogurt project,
