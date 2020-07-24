@@ -15,12 +15,12 @@ Utilities for scales an element that has transform applied.
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
 |:--|:--|
-| scale-0 | --transform-scale-x: 0 <br> --transform-scale-y: 0 |
-| scale-50 | --transform-scale-x: .5 <br> --transform-scale-y: .5 |
-| scale-75 | --transform-scale-x: .75 <br> --transform-scale-y: .75 |
-| scale-90 | --transform-scale-x: .9 <br> --transform-scale-y: .9 |
-| scale-95 | --transform-scale-x: .95 <br> --transform-scale-y: .95 |
-| scale-100 | --transform-scale-x: 1 <br> --transform-scale-y: 1 |
+| scale-0 | --transform-scale-x: 0; <br> --transform-scale-y: 0 |
+| scale-50 | --transform-scale-x: .5; <br> --transform-scale-y: .5 |
+| scale-75 | --transform-scale-x: .75; <br> --transform-scale-y: .75 |
+| scale-90 | --transform-scale-x: .9; <br> --transform-scale-y: .9 |
+| scale-95 | --transform-scale-x: .95; <br> --transform-scale-y: .95 |
+| scale-100 | --transform-scale-x: 1; <br> --transform-scale-y: 1 |
 | scale-105 | --transform-scale-x: 1.05; <br> --transform-scale-y: 1.05 |
 | scale-110 | --transform-scale-x: 1.1; <br> --transform-scale-y: 1.1|
 | scale-125 | --transform-scale-x: 1.25; <br> --transform-scale-y: 1.25 |

@@ -121,8 +121,7 @@
     margin-bottom: 1rem;
     margin-left: -0.1rem;
     margin-right: -0.1rem;
-    padding: 1rem;
-    // max-height: 50vh;
+    padding: 1rem; // max-height: 50vh;
     overflow: auto;
     background-color: #e2e8f0;
     border-radius: 0.5rem;
@@ -159,19 +158,23 @@
 }
 
 .article>table {
-  // display: block;
   overflow: auto;
   margin: 1rem;
   border-width: 0.0625em;
   border-color: #e2e8f0;
   border-radius: 0.25rem;
+  min-height: 10vh;
+  max-height: 60vh;
+  overflow-y: scroll;
+  overflow-x: auto;
+  display: block;
 
   th {
     padding: 1rem;
-    vertical-align: top;
-    // border-width: 0.0625em;
+    vertical-align: top; // border-width: 0.0625em;
     border-color: #e2e8f0;
     font-weight: 500;
+    min-width: 200px;
   }
 
   td {
@@ -182,6 +185,19 @@
 
   tr {
     background-color: transparent;
+
+    td:first-child {
+      width: 200px;
+    }
+
+    td:nth-child(2) {
+      width: 100%;
+    }
+
+    td:last-child {
+      min-width: 50px;
+      max-width: 50px;
+    }
   }
 
   tr:nth-child(2n) {

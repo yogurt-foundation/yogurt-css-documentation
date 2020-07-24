@@ -23,3 +23,4 @@ Utilities for set max-width to match min-width of the current breakpoint.
 |   | xl (1280px) | max-width: 1280px |
 |   | 2k (1920px) | max-width: 1920px |
 |   | 4k (3840px) | max-width: 3840px |
+

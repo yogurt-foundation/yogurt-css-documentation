@@ -14,7 +14,7 @@ Utilities for sets background color.
 ### Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |  |
-|:--|:--|:--|:-:|
+|:--|:--|:-:|
 | bg-transparent | background-color: transparent | <y class="w-16 h-8 rounded bg-transparent"></y> |
 | bg-white | background-color: #fff | <y class="w-16 h-8 rounded bg-white shadow"></y> |
 | bg-black-100 | background-color: #b9b9b9 | <y class="w-16 h-8 rounded bg-black-100 "></y> |
