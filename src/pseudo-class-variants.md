@@ -21,6 +21,7 @@ Add the `hover:` prefix to an utility to enable on-hover.
   Hover me!
 </y>
 ```
+
 ### Group-Hover
 
 Add `group` class to the parent element and add the `group-hover:` prefix to an utility on the child element to enable group-hover.
