@@ -1,7 +1,7 @@
 ---
 id: pseudo-class-variant
 title: Pseudo-Class Variants
-description: Using utilities to style and add effects to elements when on hover, group-hover, focus, active, disabled or visited.
+description: Using utilities to style and add effects to elements when on hover, group-hover, focus, active, disabled, or visited.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Pseudo-Class Variants
 
-Using utilities to style and add effects to elements when on hover, group-hover, focus, active, disabled or visited.
+Using utilities to style and add effects to elements when on hover, group-hover, focus, active, disabled, or visited.
 
 ### Hover
 
