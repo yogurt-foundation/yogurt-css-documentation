@@ -9,15 +9,15 @@ layout: default
 
 ## Utility
 
-Yogurt is a utility-centric framework. Meaning, creating a complex component from a bunch of small functional CSS building blocks.
+Yogurt is a utility-centric framework. Which, creating a complex component from a bunch of small functional CSS building blocks.
 
-Each utility property can be configured for different conditions such as the value of the text size, spacing, color shades, also can be configured to respond to different screen sizes and different types of interactivity such as hover, focus, active, and so on or both.
+Each utility property can be configured for different conditions. Such as the value of the text size, spacing, color shades, which also can be configured to respond to different screen sizes and different types of interactivity such as hover, focus, active, and so on or both.
 
 ### Writing Styles
 
-The idea of how utility is actually work in the Yogurt CSS framework. To get you to understand it in more comprehensive way, let have a look at below the two HTML and CSS writing examples.
+The idea of how the utility is actually work in the Yogurt CSS framework. To get you to understand it in a more comprehensive way, let have a look at below the two HTML and CSS writing examples.
 
-Usually, CSS is written in a separate CSS file with file extension `.css` or in a `<style>` tag inside of the `<head>` tag, or write CSS is inside of an HTML tag, using the style attribute as inline style. Like an example below:
+Usually, CSS is written in a separate CSS file with file extension `.css` or in a `<style>` tag inside of the `<head>` tag, or write CSS is inside of an HTML tag, using the style attribute as an inline style. Like an example below:
 
 <y class="box-panel">
   <y class="box-content">
@@ -70,8 +70,8 @@ Usually, CSS is written in a separate CSS file with file extension `.css` or in 
   .box-panel {
     background-color: #fff;
     border-radius: 0.5rem;
-    box-shadow: 
-      0 4px 6px -1px rgba(0, 0, 0, 0.1), 
+    box-shadow:
+      0 4px 6px -1px rgba(0, 0, 0, 0.1),
       0 2px 4px -1px rgba(0, 0, 0, 0.06);
     margin: 2rem auto;
     max-width: 300px;
@@ -96,7 +96,7 @@ Usually, CSS is written in a separate CSS file with file extension `.css` or in 
 </style>
 ```
 
-When styling the elements with Yogurt, you don't have to write like the example above in a traditional way. You can create your styling to your component right away in the HTML instead.
+When styling the elements with Yogurt, you don't have to write like the example above traditionally. You can create your styling to your component right away in the HTML instead.
 
 <y class="mx-auto my-8 max-w-xs">
   <y class="flex justify-center items-center px-4 py-8 bg-white rounded-lg shadow-md">
@@ -125,11 +125,11 @@ To find out more about the **tag shorthand**, **tag design** and **best practice
 
 ### Benefit
 
-Styling with Yogurt CSS framework, you benefits from:
+Styling with Yogurt CSS framework, you benefit from:
 
-- blazing fast prototyping and production-ready.
-- Writing less, clean and shorter code in your HTML.
-- Your CSS file will never grows and no new stylesheet needed.
-- Your design always maintain a balance between consistency and flexibility design.
+- Blazing fast prototyping and make it production-ready.
+- Instant refactoring your existing UI with Yogurt utility modules (See, [Extract Utility Modules](/extract-utility-classes)).
+- Your CSS file will never grow, and no new stylesheet needed.
+- Your design always maintains a balance between consistency and flexibility design.
 - You never have to worry about overwriting existing stylesheets nightmare.
-
+- Compatible to all web browsers, including the old one.

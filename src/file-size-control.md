@@ -9,7 +9,7 @@ layout: default
 
 ### File Size Control
 
-Yogurt will generate thousand of CSS classes which leads to increasing the file size, in order to create a complete experience for the prototyping environment that your project not actually using them all. There are ways to either reducing the Yogurt file size or permanently caching it or adopting both.
+Yogurt will generate thousand of CSS classes, which leads to increasing the file size. To create a complete experience for the prototyping environment that your project is not using them all. There are ways to either reducing the Yogurt file size or permanently caching it or adopting both.
 
 ### Purge Unused Classes
 
