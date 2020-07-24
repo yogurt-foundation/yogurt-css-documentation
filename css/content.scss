@@ -185,6 +185,19 @@
 
   tr {
     background-color: transparent;
+
+    td:first-child {
+      width: 200px;
+    }
+
+    td:nth-child(2) {
+      width: 100%;
+    }
+
+    td:last-child {
+      min-width: 50px;
+      max-width: 50px;
+    }
   }
 
   tr:nth-child(2n) {
