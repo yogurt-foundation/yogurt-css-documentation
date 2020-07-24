@@ -14,7 +14,7 @@ Utilities for sets border color.
 ### Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |  |
-|:--|:--|:--|:-:|
+|:--|:--|:-:|
 | border-transparent | border-color: transparent | <y class="w-16 h-8 rounded border-2 border-transparent"></y> |
 | border-current | border-color: currentColor | <y class="w-16 h-8 rounded border-2 border-current"></y> |
 | border-white | border-color: #fff | <y class="w-16 h-8 rounded border-2 border-white shadow"></y> |
