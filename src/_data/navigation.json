@@ -78,6 +78,10 @@
           "url": "/font-size/"
         },
         {
+          "label": "Fluid Font Size",
+          "url": "/fluid-font-size/"
+        },
+        {
           "label": "Font Smoothing",
           "url": "/font-smoothing/"
         },
@@ -149,6 +153,14 @@
         {
           "label": "Padding",
           "url": "/padding/"
+        },
+        {
+          "label": "Fluid Margin",
+          "url": "/fluid-margin/"
+        },
+        {
+          "label": "Fluid Padding",
+          "url": "/fluid-padding/"
         },
         {
           "label": "Equal",
