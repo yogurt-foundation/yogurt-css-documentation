@@ -1,6 +1,6 @@
 ---
 id: fluid-font-size
-title: Fluid Font Szie
+title: Fluid Font Size
 description: Utilities for sets min and max font sizes for screen size without breakpoints.
 layout: default
 ---
