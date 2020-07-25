@@ -53,158 +53,82 @@ Utilities for controls margin (and negative margin) in 0.25rem increments.
 | -m-56 | margin: -14rem |
 | -m-64 | margin: -16rem |
 | -m-px | margin: -1px |
-| my-0 | margin-top: 0; |
-|  | margin-bottom: 0 |
-| my-1 | margin-top: 0.25rem; |
-|  | margin-bottom: 0.25rem |
-| my-2 | margin-top: 0.5rem; |
-|  | margin-bottom: 0.5rem |
-| my-3 | margin-top: 0.75rem; |
-|  | margin-bottom: 0.75rem |
-| my-4 | margin-top: 1rem; |
-|  | margin-bottom: 1rem |
-| my-5 | margin-top: 1.25rem; |
-|  | margin-bottom: 1.25rem |
-| my-6 | margin-top: 1.5rem; |
-|  | margin-bottom: 1.5rem |
-| my-8 | margin-top: 2rem; |
-|  | margin-bottom: 2rem |
-| my-10 | margin-top: 2.5rem; |
-|  | margin-bottom: 2.5rem |
-| my-12 | margin-top: 3rem; |
-|  | margin-bottom: 3rem |
-| my-16 | margin-top: 4rem; |
-|  | margin-bottom: 4rem |
-| my-20 | margin-top: 5rem; |
-|  | margin-bottom: 5rem |
-| my-24 | margin-top: 6rem; |
-|  | margin-bottom: 6rem |
-| my-32 | margin-top: 8rem; |
-|  | margin-bottom: 8rem |
-| my-40 | margin-top: 10rem; |
-|  | margin-bottom: 10rem |
-| my-48 | margin-top: 12rem; |
-|  | margin-bottom: 12rem |
-| my-56 | margin-top: 14rem; |
-|  | margin-bottom: 14rem |
-| my-64 | margin-top: 16rem; |
-|  | margin-bottom: 16rem |
-| my-auto | margin-top: auto; |
-|  | margin-bottom: auto |
-| my-px | margin-top: 1px; |
-|  | margin-bottom: 1px |
-| -my-1 | margin-top: -0.25rem; |
-|  | margin-bottom: -0.25rem |
-| -my-2 | margin-top: -0.5rem; |
-|  | margin-bottom: -0.5rem |
-| -my-3 | margin-top: -0.75rem; |
-|  | margin-bottom: -0.75rem |
-| -my-4 | margin-top: -1rem; |
-|  | margin-bottom: -1rem |
-| -my-5 | margin-top: -1.25rem; |
-|  | margin-bottom: -1.25rem |
-| -my-6 | margin-top: -1.5rem; |
-|  | margin-bottom: -1.5rem |
-| -my-8 | margin-top: -2rem; |
-|  | margin-bottom: -2rem |
-| -my-10 | margin-top: -2.5rem; |
-|  | margin-bottom: -2.5rem |
-| -my-12 | margin-top: -3rem; |
-|  | margin-bottom: -3rem |
-| -my-16 | margin-top: -4rem; |
-|  | margin-bottom: -4rem |
-| -my-20 | margin-top: -5rem; |
-|  | margin-bottom: -5rem |
-| -my-24 | margin-top: -6rem; |
-|  | margin-bottom: -6rem |
-| -my-32 | margin-top: -8rem; |
-|  | margin-bottom: -8rem |
-| -my-40 | margin-top: -10rem; |
-|  | margin-bottom: -10rem |
-| -my-48 | margin-top: -12rem; |
-|  | margin-bottom: -12rem |
-| -my-56 | margin-top: -14rem; |
-|  | margin-bottom: -14rem |
-| -my-64 | margin-top: -16rem; |
-|  | margin-bottom: -16rem |
-| -my-px | margin-top: -1px; |
-|  | margin-bottom: -1px |
-| mx-0 | margin-right: 0; |
-|  | margin-left: 0 |
-| mx-1 | margin-right: 0.25rem; |
-|  | margin-left: 0.25rem |
-| mx-2 | margin-right: 0.5rem; |
-|  | margin-left: 0.5rem |
-| mx-3 | margin-right: 0.75rem; |
-|  | margin-left: 0.75rem |
-| mx-4 | margin-right: 1rem; |
-|  | margin-left: 1rem |
-| mx-5 | margin-right: 1.25rem; |
-|  | margin-left: 1.25rem |
-| mx-6 | margin-right: 1.5rem; |
-|  | margin-left: 1.5rem |
-| mx-8 | margin-right: 2rem; |
-|  | margin-left: 2rem |
-| mx-10 | margin-right: 2.5rem; |
-|  | margin-left: 2.5rem |
-| mx-12 | margin-right: 3rem; |
-|  | margin-left: 3rem |
-| mx-16 | margin-right: 4rem; |
-|  | margin-left: 4rem |
-| mx-20 | margin-right: 5rem; |
-|  | margin-left: 5rem |
-| mx-24 | margin-right: 6rem; |
-|  | margin-left: 6rem |
-| mx-32 | margin-right: 8rem; |
-|  | margin-left: 8rem |
-| mx-40 | margin-right: 10rem; |
-|  | margin-left: 10rem |
-| mx-48 | margin-right: 12rem; |
-|  | margin-left: 12rem |
-| mx-56 | margin-right: 14rem; |
-|  | margin-left: 14rem |
-| mx-64 | margin-right: 16rem; |
-|  | margin-left: 16rem |
-| mx-auto | margin-right: auto; |
-|  | margin-left: auto |
-| mx-px | margin-right: 1px; |
-|  | margin-left: 1px |
-| -mx-1 | margin-right: -0.25rem; |
-|  | margin-left: -0.25rem |
-| -mx-2 | margin-right: -0.5rem; |
-|  | margin-left: -0.5rem |
-| -mx-3 | margin-right: -0.75rem; |
-|  | margin-left: -0.75rem |
-| -mx-4 | margin-right: -1rem; |
-|  | margin-left: -1rem |
-| -mx-5 | margin-right: -1.25rem; |
-|  | margin-left: -1.25rem |
-| -mx-6 | margin-right: -1.5rem; |
-|  | margin-left: -1.5rem |
-| -mx-8 | margin-right: -2rem; |
-|  | margin-left: -2rem |
-| -mx-10 | margin-right: -2.5rem; |
-|  | margin-left: -2.5rem |
-| -mx-12 | margin-right: -3rem; |
-|  | margin-left: -3rem |
-| -mx-16 | margin-right: -4rem; |
-|  | margin-left: -4rem |
-| -mx-20 | margin-right: -5rem; |
-|  | margin-left: -5rem |
-| -mx-24 | margin-right: -6rem; |
-|  | margin-left: -6rem |
-| -mx-32 | margin-right: -8rem; |
-|  | margin-left: -8rem |
-| -mx-40 | margin-right: -10rem; |
-|  | margin-left: -10rem |
-| -mx-48 | margin-right: -12rem; |
-|  | margin-left: -12rem |
-| -mx-56 | margin-right: -14rem; |
-|  | margin-left: -14rem |
-| -mx-64 | margin-right: -16rem; |
-|  | margin-left: -16rem |
-| -mx-px | margin-right: -1px; |
-|  | margin-left: -1px |
+| my-0 | margin-top: 0; <br> margin-bottom: 0 |
+| my-1 | margin-top: 0.25rem; <br> margin-bottom: 0.25rem |
+| my-2 | margin-top: 0.5rem; <br> margin-bottom: 0.5rem |
+| my-3 | margin-top: 0.75rem; <br> margin-bottom: 0.75rem |
+| my-4 | margin-top: 1rem; <br> margin-bottom: 1rem |
+| my-5 | margin-top: 1.25rem; <br> margin-bottom: 1.25rem |
+| my-6 | margin-top: 1.5rem; <br> margin-bottom: 1.5rem |
+| my-8 | margin-top: 2rem; <br> margin-bottom: 2rem |
+| my-10 | margin-top: 2.5rem; <br> margin-bottom: 2.5rem |
+| my-12 | margin-top: 3rem; <br> margin-bottom: 3rem |
+| my-16 | margin-top: 4rem; <br> margin-bottom: 4rem |
+| my-20 | margin-top: 5rem; <br> margin-bottom: 5rem |
+| my-24 | margin-top: 6rem; <br> margin-bottom: 6rem |
+| my-32 | margin-top: 8rem; <br> margin-bottom: 8rem |
+| my-40 | margin-top: 10rem; <br> margin-bottom: 10rem |
+| my-48 | margin-top: 12rem; <br> margin-bottom: 12rem |
+| my-56 | margin-top: 14rem; <br> margin-bottom: 14rem |
+| my-64 | margin-top: 16rem; <br> margin-bottom: 16rem |
+| my-auto | margin-top: auto; <br> margin-bottom: auto |
+| my-px | margin-top: 1px; <br> margin-bottom: 1px |
+| -my-1 | margin-top: -0.25rem; <br> margin-bottom: -0.25rem |
+| -my-2 | margin-top: -0.5rem; <br> margin-bottom: -0.5rem |
+| -my-3 | margin-top: -0.75rem; <br> margin-bottom: -0.75rem |
+| -my-4 | margin-top: -1rem; <br> margin-bottom: -1rem |
+| -my-5 | margin-top: -1.25rem; <br> margin-bottom: -1.25rem |
+| -my-6 | margin-top: -1.5rem; <br> margin-bottom: -1.5rem |
+| -my-8 | margin-top: -2rem; <br> margin-bottom: -2rem |
+| -my-10 | margin-top: -2.5rem; <br> margin-bottom: -2.5rem |
+| -my-12 | margin-top: -3rem; <br> margin-bottom: -3rem |
+| -my-16 | margin-top: -4rem; <br> margin-bottom: -4rem |
+| -my-20 | margin-top: -5rem; <br> margin-bottom: -5rem |
+| -my-24 | margin-top: -6rem; <br> margin-bottom: -6rem |
+| -my-32 | margin-top: -8rem; <br> margin-bottom: -8rem |
+| -my-40 | margin-top: -10rem; <br> margin-bottom: -10rem |
+| -my-48 | margin-top: -12rem; <br> margin-bottom: -12rem |
+| -my-56 | margin-top: -14rem; <br> margin-bottom: -14rem |
+| -my-64 | margin-top: -16rem; <br> margin-bottom: -16rem |
+| -my-px | margin-top: -1px; <br> margin-bottom: -1px |
+| mx-0 | margin-right: 0; <br> margin-left: 0 |
+| mx-1 | margin-right: 0.25rem; <br> margin-left: 0.25rem |
+| mx-2 | margin-right: 0.5rem; <br> margin-left: 0.5rem |
+| mx-3 | margin-right: 0.75rem; <br> margin-left: 0.75rem |
+| mx-4 | margin-right: 1rem; <br> margin-left: 1rem |
+| mx-5 | margin-right: 1.25rem; <br> margin-left: 1.25rem |
+| mx-6 | margin-right: 1.5rem; <br> margin-left: 1.5rem |
+| mx-8 | margin-right: 2rem; <br> margin-left: 2rem |
+| mx-10 | margin-right: 2.5rem; <br> margin-left: 2.5rem |
+| mx-12 | margin-right: 3rem; <br> margin-left: 3rem |
+| mx-16 | margin-right: 4rem; <br> margin-left: 4rem |
+| mx-20 | margin-right: 5rem; <br> margin-left: 5rem |
+| mx-24 | margin-right: 6rem; <br> margin-left: 6rem |
+| mx-32 | margin-right: 8rem; <br> margin-left: 8rem |
+| mx-40 | margin-right: 10rem; <br> margin-left: 10rem |
+| mx-48 | margin-right: 12rem; <br> margin-left: 12rem |
+| mx-56 | margin-right: 14rem; <br> margin-left: 14rem |
+| mx-64 | margin-right: 16rem; <br> margin-left: 16rem |
+| mx-auto | margin-right: auto; <br> margin-left: auto |
+| mx-px | margin-right: 1px; <br> margin-left: 1px |
+| -mx-1 | margin-right: -0.25rem; <br> margin-left: -0.25rem |
+| -mx-2 | margin-right: -0.5rem; <br> margin-left: -0.5rem |
+| -mx-3 | margin-right: -0.75rem; <br> margin-left: -0.75rem |
+| -mx-4 | margin-right: -1rem; <br> margin-left: -1rem |
+| -mx-5 | margin-right: -1.25rem; <br> margin-left: -1.25rem |
+| -mx-6 | margin-right: -1.5rem; <br> margin-left: -1.5rem |
+| -mx-8 | margin-right: -2rem; <br> margin-left: -2rem |
+| -mx-10 | margin-right: -2.5rem; <br> margin-left: -2.5rem |
+| -mx-12 | margin-right: -3rem; <br> margin-left: -3rem |
+| -mx-16 | margin-right: -4rem; <br> margin-left: -4rem |
+| -mx-20 | margin-right: -5rem; <br> margin-left: -5rem |
+| -mx-24 | margin-right: -6rem; <br> margin-left: -6rem |
+| -mx-32 | margin-right: -8rem; <br> margin-left: -8rem |
+| -mx-40 | margin-right: -10rem; <br> margin-left: -10rem |
+| -mx-48 | margin-right: -12rem; <br> margin-left: -12rem |
+| -mx-56 | margin-right: -14rem; <br> margin-left: -14rem |
+| -mx-64 | margin-right: -16rem; <br> margin-left: -16rem |
+| -mx-px | margin-right: -1px; <br> margin-left: -1px |
 | mt-0 | margin-top: 0 |
 | mt-1 | margin-top: 0.25rem |
 | mt-2 | margin-top: 0.5rem |
