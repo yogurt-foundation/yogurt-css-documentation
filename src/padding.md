@@ -34,82 +34,44 @@ Utilities for controls padding in 0.25rem increments.
 | p-56 | padding: 14rem |
 | p-64 | padding: 16rem |
 | p-px | padding: 1px |
-| py-0 | padding-top: 0 |
-|  | padding-bottom: 0 |
-| py-1 | padding-top: 0.25rem; |
-|  | padding-bottom: 0.25rem |
-| py-2 | padding-top: 0.5rem; |
-|  | padding-bottom: 0.5rem |
-| py-3 | padding-top: 0.75rem; |
-|  | padding-bottom: 0.75rem |
-| py-4 | padding-top: 1rem; |
-|  | padding-bottom: 1rem |
-| py-5 | padding-top: 1.25rem; |
-|  | padding-bottom: 1.25rem |
-| py-6 | padding-top: 1.5rem; |
-|  | padding-bottom: 1.5rem |
-| py-8 | padding-top: 2rem; |
-|  | padding-bottom: 2rem |
-| py-10 | padding-top: 2.5rem; |
-|  | padding-bottom: 2.5rem |
-| py-12 | padding-top: 3rem; |
-|  | padding-bottom: 3rem |
-| py-16 | padding-top: 4rem; |
-|  | padding-bottom: 4rem |
-| py-20 | padding-top: 5rem; |
-|  | padding-bottom: 5rem |
-| py-24 | padding-top: 6rem; |
-|  | padding-bottom: 6rem |
-| py-32 | padding-top: 8rem; |
-|  | padding-bottom: 8rem |
-| py-40 | padding-top: 10rem; |
-|  | padding-bottom: 10rem |
-| py-48 | padding-top: 12rem; |
-|  | padding-bottom: 12rem |
-| py-56 | padding-top: 14rem; |
-|  | padding-bottom: 14rem |
-| py-64 | padding-top: 16rem; |
-|  | padding-bottom: 16rem |
-| py-px | padding-top: 1px; |
-|  | padding-bottom: 1px |
-| px-0 | padding-right: 0; |
-|  | padding-left: 0 |
-| px-1 | padding-right: 0.25rem; |
-|  | padding-left: 0.25rem |
-| px-2 | padding-right: 0.5rem; |
-|  | padding-left: 0.5rem |
-| px-3 | padding-right: 0.75rem; |
-|  | padding-left: 0.75rem |
-| px-4 | padding-right: 1rem; |
-|  | padding-left: 1rem |
-| px-5 | padding-right: 1.25rem; |
-|  | padding-left: 1.25rem |
-| px-6 | padding-right: 1.5rem; |
-|  | padding-left: 1.5rem |
-| px-8 | padding-right: 2rem; |
-|  | padding-left: 2rem |
-| px-10 | padding-right: 2.5rem; |
-|  | padding-left: 2.5rem |
-| px-12 | padding-right: 3rem; |
-|  | padding-left: 3rem |
-| px-16 | padding-right: 4rem; |
-|  | padding-left: 4rem |
-| px-20 | padding-right: 5rem; |
-|  | padding-left: 5rem |
-| px-24 | padding-right: 6rem; |
-|  | padding-left: 6rem |
-| px-32 | padding-right: 8rem; |
-|  | padding-left: 8rem |
-| px-40 | padding-right: 10rem; |
-|  | padding-left: 10rem |
-| px-48 | padding-right: 12rem; |
-|  | padding-left: 12rem |
-| px-56 | padding-right: 14rem; |
-|  | padding-left: 14rem |
-| px-64 | padding-right: 16rem; |
-|  | padding-left: 16rem |
-| px-px | padding-right: 1px; |
-|  | padding-left: 1px |
+| py-0 | padding-top: 0; <br> padding-bottom: 0 |
+| py-1 | padding-top: 0.25rem; <br> padding-bottom: 0.25rem |
+| py-2 | padding-top: 0.5rem; <br> padding-bottom: 0.5rem |
+| py-3 | padding-top: 0.75rem; <br> padding-bottom: 0.75rem |
+| py-4 | padding-top: 1rem; <br> padding-bottom: 1rem |
+| py-5 | padding-top: 1.25rem; <br> padding-bottom: 1.25rem |
+| py-6 | padding-top: 1.5rem; <br> padding-bottom: 1.5rem |
+| py-8 | padding-top: 2rem; <br> padding-bottom: 2rem |
+| py-10 | padding-top: 2.5rem; <br> padding-bottom: 2.5rem |
+| py-12 | padding-top: 3rem; <br> padding-bottom: 3rem |
+| py-16 | padding-top: 4rem; <br> padding-bottom: 4rem |
+| py-20 | padding-top: 5rem; <br> padding-bottom: 5rem |
+| py-24 | padding-top: 6rem; <br> padding-bottom: 6rem |
+| py-32 | padding-top: 8rem; <br> padding-bottom: 8rem |
+| py-40 | padding-top: 10rem; <br> padding-bottom: 10rem |
+| py-48 | padding-top: 12rem; <br> padding-bottom: 12rem |
+| py-56 | padding-top: 14rem; <br> padding-bottom: 14rem |
+| py-64 | padding-top: 16rem; <br> padding-bottom: 16rem |
+| py-px | padding-top: 1px; <br> padding-bottom: 1px |
+| px-0 | padding-right: 0; <br> padding-left: 0 |
+| px-1 | padding-right: 0.25rem; <br> padding-left: 0.25rem |
+| px-2 | padding-right: 0.5rem; <br> padding-left: 0.5rem |
+| px-3 | padding-right: 0.75rem; <br> padding-left: 0.75rem |
+| px-4 | padding-right: 1rem; <br> padding-left: 1rem |
+| px-5 | padding-right: 1.25rem; <br> padding-left: 1.25rem |
+| px-6 | padding-right: 1.5rem; <br> padding-left: 1.5rem |
+| px-8 | padding-right: 2rem; <br> padding-left: 2rem |
+| px-10 | padding-right: 2.5rem; <br> padding-left: 2.5rem |
+| px-12 | padding-right: 3rem; <br> padding-left: 3rem |
+| px-16 | padding-right: 4rem; <br> padding-left: 4rem |
+| px-20 | padding-right: 5rem; <br> padding-left: 5rem |
+| px-24 | padding-right: 6rem; <br> padding-left: 6rem |
+| px-32 | padding-right: 8rem; <br> padding-left: 8rem |
+| px-40 | padding-right: 10rem; <br> padding-left: 10rem |
+| px-48 | padding-right: 12rem; <br> padding-left: 12rem |
+| px-56 | padding-right: 14rem; <br> padding-left: 14rem |
+| px-64 | padding-right: 16rem; <br> padding-left: 16rem |
+| px-px | padding-right: 1px; <br> padding-left: 1px |
 | pt-0 | padding-top: 0 |
 | pt-1 | padding-top: 0.25rem |
 | pt-2 | padding-top: 0.5rem |
