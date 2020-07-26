@@ -20,8 +20,8 @@ Yogurt purely built on top of the SASS or SCSS ([Sassy CSS](Sass-lang.com)). By 
       @extend
     </strong>
     function. (See
-    <a href="/installation">
-      Installation
+    <a href="/installation/#using-yogurt-via-cli">
+      Using Yogurt via CLI
     </a>.)
 </y>
 
