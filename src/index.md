@@ -34,7 +34,7 @@ Yogurt CSS use `<y>` tag to replacing the use of `<y>` tag, which you still can 
 
 You can use `<y>` tag for almost everything, except for some standard HTML tags that cannot be replaced with `<y>`.
 
-### Tag Design
+### Utility Class Design
 
 Yogurt CSS utility class name design consists of 3 components,
 
