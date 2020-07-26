@@ -33,9 +33,9 @@
 
               {% set is_current_page = page.url | replace('/', '') == item.url | replace('/', '') %}
 
-              <li class="mb-px list-disc">
+              <li class="mb-px">
 
-                <a class="nav-link -mx-1 px-2 py-1 hover:font-semibold hover:underline {{ item.class }} {% if is_current_page %} selected {% endif %} transition duration-300 ease-in-out rounded"
+                <a class="nav-link -mx-6 px-2 py-1 hover:font-semibold hover:underline {{ item.class }} {% if is_current_page %} selected {% endif %} transition duration-300 ease-in-out rounded"
                    href="{{ item.url | safe }}"
                    {% if is_current_page %}
                    aria-current="page"
