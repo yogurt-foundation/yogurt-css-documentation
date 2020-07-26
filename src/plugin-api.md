@@ -14,7 +14,8 @@ Using plugin API to create your utility module and use it right away without mod
 ```scss
 // @file: `src/_plugins.scss`
 
-// This example is creating a new utility named `text-{modifier}`.
+// This example is creating a new utility named `text` with
+// modifiers `xs`, `sm`, `md`, `lg`, `xl`.
 
 @include plugin(
   $utility: ('text'),
