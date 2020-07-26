@@ -78,10 +78,6 @@
           "url": "/font-size/"
         },
         {
-          "label": "Fluid Font Size",
-          "url": "/fluid-font-size/"
-        },
-        {
           "label": "Font Smoothing",
           "url": "/font-smoothing/"
         },
@@ -155,14 +151,6 @@
           "url": "/padding/"
         },
         {
-          "label": "Fluid Margin",
-          "url": "/fluid-margin/"
-        },
-        {
-          "label": "Fluid Padding",
-          "url": "/fluid-padding/"
-        },
-        {
           "label": "Equal",
           "url": "/equal/"
         }
@@ -227,6 +215,23 @@
         {
           "label": "Dissect Opacity",
           "url": "/dissect-opacity/"
+        }
+      ]
+    },
+    {
+      "label": "Fluids",
+      "items": [
+        {
+          "label": "Fluid Margin",
+          "url": "/fluid-margin/"
+        },
+        {
+          "label": "Fluid Padding",
+          "url": "/fluid-padding/"
+        },
+        {
+          "label": "Fluid Font Size",
+          "url": "/fluid-font-size/"
         }
       ]
     },
