@@ -25,6 +25,10 @@
         {
           "label": "Customize Utilities",
           "url": "/customize-utilities/"
+        },
+        {
+          "label": "Plugin API",
+          "url": "/plugin-api/"
         }
       ]
     }
