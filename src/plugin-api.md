@@ -30,7 +30,7 @@ Using plugin API to create your utility module and use it right away without mod
   )
 )
 ```
-After that, run one these command everytime you make changes to the Yogurt files. And pretty much it is done, you can try out your new utility module in your project.
+After that, run one of these commands every time you make changes to the Yogurt files. And pretty much it is done, you can try out your new utility module in your project.
 
 ```bash
 # YARN
