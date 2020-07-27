@@ -11,18 +11,20 @@ layout: default
 
 Using plugin API to create your utility module and use it right away without modifying any of the Yogurt core files. Yogurt will generates after you run the build. All you need is write your plugins in the `src/_plugins.scss` file,
 
+### Example
+
+**Note:** Use keyword for `$variant` to apply pseudo class variants, such as `hover`, `focus`, `active`, `visited`, `disabled`, `responsive`, `responsive-hover`, `responsive-focus`, `responsive-active`, `responsive-visited`, `responsive-disabled`.
+
+Create basic utility named `text` with modifiers `xs`, `sm`, `md`, `lg`, `xl`.
+
 ```scss
 // @file: `src/_plugins.scss`
 
-// This example is creating a new utility named `text` with
-// modifiers `xs`, `sm`, `md`, `lg`, `xl`.
-
 @include plugin(
   $utility: ('text'),
-  $variant: $none, // $hover, $focus, $active, $visited, $disabled
   $property: ('font-size'),
   $modifier: (
-    'xs': '0.75.rem',
+    'xs': '0.75rem',
     'sm': '0.875rem',
     'md': '1rem',
     'lg': '1.125rem',
@@ -30,6 +32,45 @@ Using plugin API to create your utility module and use it right away without mod
   )
 )
 ```
+
+Create default responsive utility.
+
+```scss
+// @file: `src/_plugins.scss`
+
+@include plugin(
+  $utility: ('text'),
+  $variant: 'responsive',
+  $property: ('font-size'),
+  $modifier: (
+    'xs': '0.75rem',
+    'sm': '0.875rem',
+    'md': '1rem',
+    'lg': '1.125rem',
+    'xl': '1.25rem'
+  )
+)
+```
+
+Create responsive utility with variants,
+
+```scss
+// @file: `src/_plugins.scss`
+
+@include plugin(
+  $utility: ('text'),
+  $variant: 'responsive-hover',
+  $property: ('font-size'),
+  $modifier: (
+    'xs': '0.75rem',
+    'sm': '0.875rem',
+    'md': '1rem',
+    'lg': '1.125rem',
+    'xl': '1.25rem'
+  )
+)
+```
+
 After that, run one of these commands every time you make changes to the Yogurt files. And pretty much it is done, you can try out your new utility module in your project.
 
 ```bash
@@ -45,11 +86,7 @@ $ npm run build
   </span>
   Plugin API is on
   <strong>
-    Beta
-  </strong>.
-  The
-  <strong>
-    responsive utility
+    experimental
   </strong>
-  is not supported yet.
+  stage.
 </y>
