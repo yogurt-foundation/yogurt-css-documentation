@@ -21,8 +21,8 @@ Create basic utility named `text` with modifiers `xs`, `sm`, `md`, `lg`, `xl`.
 // @file: `src/_plugins.scss`
 
 @include plugin(
-  $utility: ('text'),
-  $property: ('font-size'),
+  $utility: 'text',
+  $property: 'font-size',
   $modifier: (
     'xs': '0.75rem',
     'sm': '0.875rem',
@@ -39,9 +39,9 @@ Create default responsive utility.
 // @file: `src/_plugins.scss`
 
 @include plugin(
-  $utility: ('text'),
+  $utility: 'text',
   $variant: 'responsive',
-  $property: ('font-size'),
+  $property: 'font-size',
   $modifier: (
     'xs': '0.75rem',
     'sm': '0.875rem',
@@ -58,9 +58,9 @@ Create responsive utility with variants,
 // @file: `src/_plugins.scss`
 
 @include plugin(
-  $utility: ('text'),
+  $utility: 'text',
   $variant: 'responsive-hover',
-  $property: ('font-size'),
+  $property: 'font-size',
   $modifier: (
     'xs': '0.75rem',
     'sm': '0.875rem',
