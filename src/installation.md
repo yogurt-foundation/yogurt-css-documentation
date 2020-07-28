@@ -71,3 +71,9 @@ Download the precompiled desktop apps without going through the building process
   <img class="w-full h-full rounded-lg"
        src="/images/content/yogurt_playground_screenshot_01.png">
 </y>
+
+### Using Yogurt via CodeSandbox
+
+Or, if you prefer testing Yogurt on a web browser right away,
+
+[![CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/yogurt-css-playground-r7duh?fontsize=14&hidenavigation=1&moduleview=1&theme=light)
