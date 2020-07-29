@@ -381,6 +381,59 @@
       ]
     },
     {
+      "label": "Patterns",
+      "items": [
+        {
+          "label": "Checks",
+          "url": "/pattern-checks/"
+        },
+        {
+          "label": "Dots",
+          "url": "/pattern-dots/"
+        },
+        {
+          "label": "Cross Dots",
+          "url": "/pattern-cross-dots/"
+        },
+        {
+          "label": "Grid",
+          "url": "/pattern-grid/"
+        },
+        {
+          "label": "Triangles",
+          "url": "/pattern-triangles/"
+        },
+        {
+          "label": "Zigzag",
+          "url": "/pattern-zigzag/"
+        },
+        {
+          "label": "Diagonal Lines",
+          "url": "/pattern-diagonal-lines/"
+        },
+        {
+          "label": "Diagonal Stripes",
+          "url": "/pattern-diagonal-stripes/"
+        },
+        {
+          "label": "Horizontal Lines",
+          "url": "/pattern-horizontal-lines/"
+        },
+        {
+          "label": "Horizontal Stripes",
+          "url": "/pattern-horizontal-stripes/"
+        },
+        {
+          "label": "Vertical Lines",
+          "url": "/pattern-vertical-lines/"
+        },
+        {
+          "label": "Vertical Stripes",
+          "url": "/pattern-vertical-stripes/"
+        }
+      ]
+    },
+    {
       "label": "Transforms",
       "items": [
         {
