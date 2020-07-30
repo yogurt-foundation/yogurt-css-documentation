@@ -15,14 +15,14 @@ Yogurt purely built on top of the SASS or SCSS ([Sassy CSS](Sass-lang.com)). By 
   <span class="pr-1 font-semibold">
     Note:
   </span>
-    Require Sass/SCSS preprocessor to use the
-    <strong>
-      @extend
-    </strong>
-    directive. (See
-    <a href="/installation/#using-yogurt-via-cli">
-      Using Yogurt via CLI
-    </a>.)
+  Require Sass/SCSS preprocessor to use the
+  <strong>
+    @extend
+  </strong>
+  directive. (See
+  <a href="/installation/#using-yogurt-via-cli">
+    Using Yogurt via CLI
+  </a>.)
 </y>
 
 ### @extend
