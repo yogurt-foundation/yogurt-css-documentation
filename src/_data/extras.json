@@ -2,13 +2,14 @@
   "more": [
     {
       "label": "Get to know the framework:",
-      "items": [{
+      "items": [
+        {
           "label": "Utility",
-          "url": "/utility"
+          "url": "/utility/"
         },
         {
           "label": "Responsive",
-          "url": "/responsive"
+          "url": "/responsive/"
         },
         {
           "label": "Pseudo-Class Variants",
@@ -16,7 +17,11 @@
         },
         {
           "label": "Extract Utility Classes",
-          "url": "/extract-utility-classes"
+          "url": "/extract-utility-classes/"
+        },
+        {
+          "label": "Refactoring UI",
+          "url": "/refactoring-ui/"
         },
         {
           "label": "File Size Control",
