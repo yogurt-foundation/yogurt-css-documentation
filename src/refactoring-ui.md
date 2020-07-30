@@ -9,7 +9,7 @@ layout: default
 
 ## Refactoring UI
 
-Refactoring UI is a tedious job for frontend developers. Here you will understand some basics of how to refactor the existing style sheets or CSS framework you use in your project with Yogurt.
+Refactoring UI is a tedious job for frontend developers. Here you will understand some basics of how to refactor (migrate) the existing style sheets or CSS framework you use in your project with Yogurt.
 
 We will be using the `@extend` directive to extract the Yogurt utility classes and replacing the existing CSS properties of your style sheet. (See [Extract Utility Classes](/extract-utility-classes/)).
 

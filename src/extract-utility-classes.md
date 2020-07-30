@@ -100,3 +100,4 @@ You can write in full `Sassy` way, if you prefer the best practice,
 }
 ```
 
+You can use above method for refactoring exiting style sheets or migrating to use the Yogurt. (See [Refactoring UI](/refactoring-ui/)).
