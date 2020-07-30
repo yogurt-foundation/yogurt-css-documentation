@@ -25,10 +25,7 @@ Create basic utility named `text` with modifiers `xs`, `sm`, `md`, `lg`, `xl`.
   $property: 'font-size',
   $modifier: (
     'xs': '0.75rem',
-    'sm': '0.875rem',
-    'md': '1rem',
-    'lg': '1.125rem',
-    'xl': '1.25rem'
+    'sm': '0.875rem'
   )
 )
 ```
@@ -44,10 +41,7 @@ Create default responsive utility.
   $property: 'font-size',
   $modifier: (
     'xs': '0.75rem',
-    'sm': '0.875rem',
-    'md': '1rem',
-    'lg': '1.125rem',
-    'xl': '1.25rem'
+    'sm': '0.875rem'
   )
 )
 ```
@@ -63,15 +57,59 @@ Create responsive utility with variants,
   $property: 'font-size',
   $modifier: (
     'xs': '0.75rem',
-    'sm': '0.875rem',
-    'md': '1rem',
-    'lg': '1.125rem',
-    'xl': '1.25rem'
+    'sm': '0.875rem'
   )
 )
 ```
 
-After that, run one of these commands every time you make changes to the Yogurt files. And pretty much it is done, you can try out your new utility module in your project.
+Create an array of utilities,
+
+```scss
+// @file: `src/_plugins.scss`
+
+@include plugin(
+
+   (
+     utility: 'text',
+     property: 'font-size',
+     modifier: (
+       'xs': '0.75rem',
+       'sm': '0.875rem'
+     )
+   ),
+   (
+     utility: 'text',
+     property: 'font-size',
+     variant: 'hover',
+     modifier: (
+       'xs': '0.75rem',
+       'sm': '0.875rem'
+     )
+   ),
+   (
+     utility: 'text',
+     property: 'font-size',
+     variant: 'responsive',
+     modifier: (
+       'xs': '0.75rem',
+       'sm': '0.875rem'
+     )
+   ),
+   (
+     utility: 'text',
+     property: 'font-size',
+     variant: 'responsive-hover',
+     modifier: (
+       'xs': '0.75rem',
+       'sm': '0.875rem'
+     )
+   ),
+   // ...
+
+)
+```
+
+After you finished editing the `_plugins.scss` file, run one of these commands every time you make changes to the Yogurt files. And pretty much it is done, you can try out your new utility module in your project.
 
 ```bash
 # YARN
