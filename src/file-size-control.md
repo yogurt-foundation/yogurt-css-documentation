@@ -7,7 +7,7 @@ layout: default
 
 > Customization
 
-### File Size Control
+## File Size Control
 
 Yogurt will generate thousand of CSS classes, which leads to increasing the file size. To create a complete experience for the prototyping environment that your project is not using them all. There are ways to either reducing the Yogurt file size or permanently caching it or adopting both.
 
@@ -50,6 +50,3 @@ To try it out in action that including all that above methods, create a new [Kru
 ```bash
 $ npx create-krugurt-app my-new-app
 ```
-
-
-
