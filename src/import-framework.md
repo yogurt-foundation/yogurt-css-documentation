@@ -9,7 +9,12 @@ layout: default
 
 ## Import Framework <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.9</span>
 
-...
+```bash
+# YARN
+$ yarn add yogurt-css
+# NPM
+$ npm i yogurt-css
+```
 
 <y class="my-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 bg-orange-200">
   <span class="pr-1 font-semibold">
@@ -25,14 +30,9 @@ layout: default
   </a>.)
 </y>
 
-```bash
-# YARN
-$ yarn add yogurt-css
-# NPM
-$ npm i yogurt-css
-```
+### Base Styles
 
-### Using on Base Styles
+You can inject the Yogurt file on your CSS base style by using the `@import` directive and expose the utility classes with `@extend` directive. (See [Extract Utility Classes](/extract-utility-classes/), [Refactoring UI](/refactoring-ui/)).
 
 ```scss
 // Example
