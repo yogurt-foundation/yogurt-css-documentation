@@ -7,15 +7,27 @@ layout: default
 
 > Customization
 
-## Plugin API <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">Beta</span>
+## Plugin API <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.8</span>
 
-Using plugin API to create your utility module and use it right away without modifying any of the Yogurt core files. Yogurt will generates after you run the build. All you need is write your plugins in the `src/_plugins.scss` file,
+Using plugin API to create your utility module and use it right away without modifying any of the Yogurt core files. Yogurt will generates after you run the build. All you need is write your plugins in the `src/_plugins.scss` file.
+
+<y class="my-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 bg-orange-200">
+  <span class="pr-1 font-semibold">
+    Note:
+  </span>
+  Use keyword for
+  <strong>
+    $variant
+  </strong>
+  to apply pseudo class variants, such as
+  <strong>
+    hover, focus, active, visited, disabled, responsive, responsive-hover, responsive-focus, responsive-active, responsive-visited, responsive-disabled
+  </strong>.
+</y>
 
 ### Example
 
-**Note:** Use keyword for `$variant` to apply pseudo class variants, such as `hover`, `focus`, `active`, `visited`, `disabled`, `responsive`, `responsive-hover`, `responsive-focus`, `responsive-active`, `responsive-visited`, `responsive-disabled`.
-
-Create basic utility named `text` with modifiers `xs`, `sm`, `md`, `lg`, `xl`.
+Create basic utility.
 
 ```scss
 // @file: `src/_plugins.scss`
@@ -46,7 +58,7 @@ Create default responsive utility.
 )
 ```
 
-Create responsive utility with variants,
+Create responsive utility with variants.
 
 ```scss
 // @file: `src/_plugins.scss`
@@ -62,7 +74,7 @@ Create responsive utility with variants,
 )
 ```
 
-Create an array of utilities,
+Create an array of utilities.
 
 ```scss
 // @file: `src/_plugins.scss`
@@ -118,13 +130,3 @@ $ yarn build
 $ npm run build
 ```
 
-<y class="my-4 p-3 border-l-8 border-orange-600 text-orange-600 bg-orange-200">
-  <span class="pr-1 font-semibold">
-    Note:
-  </span>
-  Plugin API is on
-  <strong>
-    experimental
-  </strong>
-  stage.
-</y>

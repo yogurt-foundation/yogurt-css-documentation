@@ -35,7 +35,7 @@
 
               <li class="mb-px">
 
-                <a class="nav-link -mx-6 px-2 py-1 hover:font-semibold hover:underline {{ item.class }} {% if is_current_page %} selected {% endif %} transition duration-300 ease-in-out rounded"
+                <a class="nav-link -mx-6 px-2 py-1 hover:font-semibold hover:underline {{ item.class }} {% if is_current_page %} selected {% endif %}"
                    href="{{ item.url | safe }}"
                    {% if is_current_page %}
                    aria-current="page"

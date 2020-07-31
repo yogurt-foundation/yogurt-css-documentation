@@ -20,6 +20,10 @@
           "url": "/extract-utility-classes/"
         },
         {
+          "label": "Import Framework",
+          "url": "/import-framework/"
+        },
+        {
           "label": "Refactoring UI",
           "url": "/refactoring-ui/"
         },

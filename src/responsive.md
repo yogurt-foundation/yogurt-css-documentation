@@ -59,7 +59,7 @@ These are the breakpoints for new modern ultra-widescreen size and not enabled b
 @media (min-width: 7680px) { ... }
 ```
 
-To add breakpoint to an utility is by follow the **tag design** introduced early in the [Introduction](/) page.
+To add breakpoint to an utility is by follow the **utility class design** introduced early in the [Introduction](/) page.
 
 ```html
 {prefix}:{class}-{modifier}
