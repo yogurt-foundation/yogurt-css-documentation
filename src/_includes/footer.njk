@@ -1,44 +1,48 @@
-<footer class="footer flex mt-24 pt-8 px-4 w-full border-t border-gray-300 justify-end text-sm">
+<footer class="footer mt-24 pt-8 px-4 w-full text-sm">
 
-  <y class="p-2 text-md opacity-50 mr-auto">
-    Version 1.0.8
+  <y class="flex justify-end">
+
+    <y class="p-2 text-md opacity-50 mr-auto">
+      Version 1.0.8
+    </y>
+
+    <a class="mx-1 p-2 opacity-25 hover:opacity-75"
+       href="{{ site.urls.discord }}"
+       target="_blank"
+       rel="noopener"
+       title="Discord">
+
+      {% include "images/icons/discord.svg" %}
+
+    </a>
+
+    <a class="mx-1 p-2 opacity-25 hover:opacity-75"
+       href="{{ site.urls.twitter }}"
+       target="_blank"
+       rel="noopener"
+       title="Twitter">
+
+      {% include "images/icons/twitter.svg" %}
+
+    </a>
+
+    <a class="mx-1 p-2 opacity-25 hover:opacity-75"
+       href="{{ site.urls.github }}"
+       target="_blank"
+       rel="noopener"
+       title="Github">
+
+      {% include "images/icons/github.svg" %}
+
+    </a>
+
   </y>
 
-  <a class="mx-1 p-2 opacity-25 hover:opacity-75"
-     href="{{ site.urls.discord }}"
-     target="_blank"
-     rel="noopener"
-     title="Discord">
-
-    {% include "images/icons/discord.svg" %}
-
-  </a>
-
-  <a class="mx-1 p-2 opacity-25 hover:opacity-75"
-     href="{{ site.urls.twitter }}"
-     target="_blank"
-     rel="noopener"
-     title="Twitter">
-
-    {% include "images/icons/twitter.svg" %}
-
-  </a>
-
-  <a class="mx-1 p-2 opacity-25 hover:opacity-75"
-     href="{{ site.urls.github }}"
-     target="_blank"
-     rel="noopener"
-     title="Github">
-
-    {% include "images/icons/github.svg" %}
-
-  </a>
+  <y class="clear-both flex justify-center py-8 w-full">
+    <y class="text-sm text-gray-500">
+       "Yogurt.css" is copyright &copy; Loouis Low. MIT Licensed.
+    </y>
+  </y>
 
 </footer>
 
-
-<y class="flex justify-center py-8 w-full">
-  <y class="text-sm text-gray-500">
-     "Yogurt.css" is copyright &copy; Loouis Low. MIT Licensed.
-  </y>
-</y>

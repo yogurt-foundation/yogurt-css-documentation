@@ -7,7 +7,7 @@ layout: default
 
 > Getting Started
 
-### Using Yogurt via CDN
+## Using Yogurt via CDN
 
 ```html
 <link defer href="https://unpkg.com/yogurt-css@1.0.8/dist/yogurt-1.0.8_solidcore.min.css"
@@ -19,7 +19,7 @@ layout: default
 
 **Note:** The CDN build is large, the sizes will be different when you are customizing with the build tool (See [Customize Utilties](/customize-utilities)). Using the build tool to exclude utilities or exclude variants from utilities that you don't need to reduce file size. (See [File Size Control](/file-size-control)).
 
-### Using Yogurt via Package Manager
+## Using Yogurt via Package Manager
 
 You can include the Yogurt CSS file from the `node_modules` directory with an HTML `<link>` tag.
 
@@ -30,7 +30,7 @@ $ yarn add yogurt-css
 $ npm i yogurt-css
 ````
 
-### Using Yogurt via CLI
+## Using Yogurt via CLI
 
 To create a new project, run:
 
@@ -51,7 +51,7 @@ $ yogurt my-new-project
        src="/images/content/yogurt_cli_screenshot_01.png">
 </y>
 
-### Using Yogurt via Playground
+## Using Yogurt via Playground
 
 [Yogurt Playground](https://github.com/yogurt-foundation/playground) is a developer tool also an HTML/CSS IDE for testing and prototyping with all the Yogurt frameworks and other libraries, [FX-Filter](https://github.com/yogurt-foundation/fx-filter), [FX-Gradient](https://github.com/yogurt-foundation/fx-gradient), [FX-Motion](https://github.com/yogurt-foundation/fx-motion). If you have an idea and want to draft something small without setting up a new project, then Yogurt Playground is for you.
 
@@ -72,7 +72,7 @@ Download the precompiled desktop apps without going through the building process
        src="/images/content/yogurt_playground_screenshot_01.png">
 </y>
 
-### Using Yogurt via CodeSandbox
+## Using Yogurt via CodeSandbox
 
 Or, if you prefer testing Yogurt on a web browser right away,
 
