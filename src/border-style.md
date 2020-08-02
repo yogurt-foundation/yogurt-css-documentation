@@ -20,3 +20,15 @@ Utilities for sets border style.
 | border-dotted | border-style: dotted | <y class="w-16 h-8 rounded bg-gray-300 border-2 border-dotted"></y> |
 | border-double | border-style: double | <y class="w-16 h-8 rounded bg-gray-300 border-2 border-double"></y> |
 | border-none | border-style: none | <y class="w-16 h-8 rounded bg-gray-300 border-2 border-none"></y> |
+
+### Variant
+
+| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">variant</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">enabled</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">responsive</span> |
+|:--|:--|:--|
+| Default | Yes | |
+| hover| | |
+| group-hover | | |
+| focus | Yes | |
+| active | | |
+| visited | | |
+| disabled | | |

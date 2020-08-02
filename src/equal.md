@@ -91,3 +91,22 @@ Utilities for sets balancing the space in between child elements.
 | -equal-y-64 | --equal-y-reverse: 0; <br> margin-top: calc(-16rem * calc(1 - var(--equal-y-reverse))); <br> margin-bottom: calc(-16rem * var(--equal-y-reverse)) |
 | equal-x-reverse | --equal-x-reverse: 1 |
 | equal-y-reverse | --equal-y-reverse: 1 |
+
+<y class="mx-4 my-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
+  <span class="pr-1 font-semibold">
+    Note:
+  </span>
+  Utility customizing is unavailable.
+</y>
+
+### Variant
+
+| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">variant</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">enabled</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">responsive</span> |
+|:--|:--|:--|
+| Default | Yes | |
+| hover| | |
+| group-hover | | |
+| focus | | |
+| active | | |
+| visited | | |
+| disabled | | |

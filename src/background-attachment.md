@@ -18,3 +18,15 @@ Utilities for sets behaviour of background images when scrolling.
 | bg-fixed | background-attachment: fixed |
 | bg-local | background-attachment: local |
 | bg-scroll | background-attachment: scroll |
+
+### Variant
+
+| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">variant</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">enabled</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">responsive</span> |
+|:--|:--|:--|
+| Default | Yes | |
+| hover| | |
+| group-hover | | |
+| focus | | |
+| active | | |
+| visited | | |
+| disabled | | |

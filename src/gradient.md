@@ -189,3 +189,14 @@ Utilities for sets the gradient preset diagonally to an element.
 | fabled-sunset | -225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100% | <y class="w-16 h-8 gradient-fabled-sunset rounded shadow"></y> |
 | perfect-blue | -225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%) | <y class="w-16 h-8 gradient-perfect-blue rounded shadow"></y> |
 
+### Variant
+
+| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">variant</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">enabled</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">responsive</span> |
+|:--|:--|:--|
+| Default | Yes | |
+| hover| Yes | |
+| group-hover | | |
+| focus | | |
+| active | | |
+| visited | | |
+| disabled | | |

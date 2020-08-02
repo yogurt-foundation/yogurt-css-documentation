@@ -27,3 +27,22 @@ Utilities for sets border on each child elements of its parent.
 | dissect-y | --dissect-y-reverse: 0; <br> border-top-width: calc(1px * calc(1 - var(--divide-y-reverse))); <br> border-bottom-width: calc(1px * var(--divide-y-reverse)) |
 | dissect-x-reverse | --dissect-x-reverse: 1 |
 | dissect-y-reverse | --dissect-y-reverse: 1 |
+
+<y class="mx-4 my-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
+  <span class="pr-1 font-semibold">
+    Note:
+  </span>
+  Utility customizing is unavailable.
+</y>
+
+### Variant
+
+| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">variant</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">enabled</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">responsive</span> |
+|:--|:--|:--|
+| Default | Yes | |
+| hover| | |
+| group-hover | | |
+| focus | | |
+| active | | |
+| visited | | |
+| disabled | | |

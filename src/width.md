@@ -63,3 +63,31 @@ Utilities for sets the width of an element.
 | w-11/12 | width: 91.666667% |
 | w-full | width: 100% |
 | w-screen | width: 100vw |
+
+### Customizing <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.9</span>
+
+```scss
+// @file: `src/_plugins.scss`
+@include plugin(
+  $utility: 'w',
+  //$variant: 'responsive',
+  $property: 'width',
+  $modifier: (
+    '..': '...',
+    '..': '...'
+    ...
+  )
+)
+```
+
+### Variant
+
+| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">variant</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">enabled</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">responsive</span> |
+|:--|:--|:--|
+| Default | Yes | Yes |
+| hover| Yes | |
+| group-hover | | |
+| focus | | |
+| active | | |
+| visited | | |
+| disabled | | |

@@ -19,3 +19,15 @@ Utilities for sets the capitalization of text.
 | lowercase | text-transform: lowercase | <y class="text-lg lowercase">TEXT</y> |
 | capitalize | text-transform: capitalize | <y class="text-lg capitalize">text</y> |
 | normal-case | text-transform: none | <y class="text-lg none">text</y> |
+
+### Variant
+
+| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">variant</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">enabled</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">responsive</span> |
+|:--|:--|:--|
+| Default | Yes | Yes |
+| hover| | |
+| group-hover | | |
+| focus | | |
+| active | | |
+| visited | | |
+| disabled | | |

@@ -35,7 +35,7 @@ $ npm i yogurt-css
 You can inject the Yogurt file on your CSS base style by using the `@import` directive and expose the utility classes with `@extend` directive. (See [Extract Utility Classes](/extract-utility-classes/), [Refactoring UI](/refactoring-ui/)).
 
 ```scss
-// Example
+// @file: `src/_plugins.scss`
 @import "node_modules/yogurt-css/yogurt";
 
 html {

@@ -45,3 +45,31 @@ Utilities for sets border radius.
 | rounded-r-full | border-top-right-radius: 9999px; <br> border-bottom-right-radius: 9999px | <y class="w-8 h-8 rounded-r-full bg-gray-300 border-2"></y> |
 | rounded-b-full | border-bottom-right-radius: 9999px; <br> border-bottom-left-radius: 9999px | <y class="w-8 h-8 rounded-b-full bg-gray-300 border-2"></y> |
 | rounded-l-full | border-top-left-radius: 9999px; <br> border-bottom-left-radius: 9999px | <y class="w-8 h-8 rounded-l-full bg-gray-300 border-2"></y> |
+
+### Customizing <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.9</span>
+
+```scss
+// @file: `src/_plugins.scss`
+@include plugin(
+  $utility: 'rounded',
+  //$variant: 'responsive',
+  $property: 'border-radius',
+  $modifier: (
+    'xl': '...rem',
+    '2xl': '...rem'
+    ...
+  )
+)
+```
+
+### Variant
+
+| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">variant</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">enabled</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">responsive</span> |
+|:--|:--|:--|
+| Default | Yes | |
+| hover| | |
+| group-hover | | |
+| focus | | |
+| active | | |
+| visited | | |
+| disabled | | |

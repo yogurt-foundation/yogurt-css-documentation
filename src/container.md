@@ -23,4 +23,26 @@ Utilities for set max-width to match min-width of the current breakpoint.
 |   | xl (1280px) | max-width: 1280px |
 |   | 2k (1920px) | max-width: 1920px |
 |   | 4k (3840px) | max-width: 3840px |
+|   | 5k (5120px) | max-width: 5120px |
+|   | 6k (5760px) | max-width: 5760px |
+|   | 7k (7000px) | max-width: 7000px |
+|   | 8k (7680px) | max-width: 7680px |
 
+<y class="mx-4 my-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
+  <span class="pr-1 font-semibold">
+    Note:
+  </span>
+  Utility customizing is unavailable.
+</y>
+
+### Variant
+
+| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">variant</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">enabled</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">responsive</span> |
+|:--|:--|:--|
+| Default | Yes | Yes |
+| hover| | |
+| group-hover | | |
+| focus | | |
+| active | | |
+| visited | | |
+| disabled | | |

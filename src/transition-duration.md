@@ -23,4 +23,31 @@ Utilities for sets the length of time for a transition animations to complete.
 | duration-500 | transition-duration: 500ms |
 | duration-700 | transition-duration: 700ms |
 | duration-1000 | transition-duration: 1000ms |
-Usage
+
+### Customizing <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.9</span>
+
+```scss
+// @file: `src/_plugins.scss`
+@include plugin(
+  $utility: 'duration',
+  //$variant: 'responsive',
+  $property: 'transition-duration',
+  $modifier: (
+    '600': '...ms',
+    '800': '...ms'
+    ...
+  )
+)
+```
+
+### Variant
+
+| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">variant</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">enabled</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">responsive</span> |
+|:--|:--|:--|
+| Default | Yes | |
+| hover| | |
+| group-hover | | |
+| focus | | |
+| active | | |
+| visited | | |
+| disabled | | |

@@ -22,3 +22,15 @@ Utilities for rotates an element that has transform applied.
 | -rotate-180 | --transform-rotate: -180deg |
 | -rotate-90 | --transform-rotate: -90deg |
 | -rotate-45 | --transform-rotate: -45deg |
+
+### Variant
+
+| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">variant</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">enabled</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">responsive</span> |
+|:--|:--|:--|
+| Default | Yes | |
+| hover| Yes | |
+| group-hover | | |
+| focus | | |
+| active | | |
+| visited | | |
+| disabled | | |

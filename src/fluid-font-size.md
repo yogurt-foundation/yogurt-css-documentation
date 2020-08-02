@@ -31,3 +31,22 @@ Utilities for sets min and max font sizes for screen size without breakpoints.
 | 6xl | font-size: 4rem | <span class="text-6xl">Text</span> |
 | 7xl | font-size: 5rem | <span class="text-7xl">Text</span> |
 | 8xl | font-size: 6rem | <span class="text-8xl">Text</span> |
+
+<y class="mx-4 my-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
+  <span class="pr-1 font-semibold">
+    Note:
+  </span>
+  Utility customizing is unavailable.
+</y>
+
+### Variant
+
+| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">variant</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">enabled</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">responsive</span> |
+|:--|:--|:--|
+| Default | Yes | |
+| hover| | |
+| group-hover | | |
+| focus | | |
+| active | | |
+| visited | | |
+| disabled | | |

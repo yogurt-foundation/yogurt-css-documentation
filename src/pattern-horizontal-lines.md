@@ -20,3 +20,21 @@ Utilities for sets an element's background horizontal-lines pattern.
 | pattern <br> horizontal-lines-lg | background-image: repeating-linear-gradient(0deg, currentColor, currentColor 1px, transparent 1px, transparent); <br><br> background-size: 50px 50px | <y class="pattern horizontal-lines-lg w-32 h-56"></y> |
 | pattern <br> horizontal-lines-xl | background-image: repeating-linear-gradient(0deg, currentColor, currentColor 1px, transparent 1px, transparent); <br><br> background-size: 100px 100px | <y class="pattern horizontal-lines-xl w-32 h-56"></y> |
 
+<y class="mx-4 my-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
+  <span class="pr-1 font-semibold">
+    Note:
+  </span>
+  Utility customizing is unavailable.
+</y>
+
+### Variant
+
+| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">variant</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">enabled</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">responsive</span> |
+|:--|:--|:--|
+| Default | Yes | |
+| hover| | |
+| group-hover | | |
+| focus | | |
+| active | | |
+| visited | | |
+| disabled | | |

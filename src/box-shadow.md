@@ -25,3 +25,31 @@ Utilities for sets the box-shadow property attaches one or more shadows to an el
 | shadow-inner | box-shadow: <br> inset 0 2px 4px 0 rgba(0, 0, 0, 0.06) | <y class="w-16 h-6 rounded bg-white shadow-inner"></y> |
 | shadow-outline | box-shadow: <br> 0 0 0 3px rgba(66, 153, 225, 0.5) | <y class="w-16 h-6 rounded bg-white shadow-outline"></y> |
 | shadow-none | box-shadow: none | <y class="w-16 h-6 rounded bg-white shadow-none"></y> |
+
+### Customizing <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.9</span>
+
+```scss
+// @file: `src/_plugins.scss`
+@include plugin(
+  $utility: 'shadow',
+  //$variant: 'responsive',
+  $property: 'box-shadow',
+  $modifier: (
+    '3xl': '...',
+    '4xl': '...'
+    ...
+  )
+)
+```
+
+### Variant
+
+| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">variant</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">enabled</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">responsive</span> |
+|:--|:--|:--|
+| Default | Yes | |
+| hover| Yes | |
+| group-hover | | |
+| focus | Yes | |
+| active | | |
+| visited | | |
+| disabled | | |

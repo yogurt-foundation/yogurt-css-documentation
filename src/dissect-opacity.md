@@ -21,3 +21,14 @@ Utilities for sets opacity to bottom border on each child elements of its parent
 | dissect-opacity-75 | --dissect-opacity: .75 |
 | dissect-opacity-100 | --dissect-opacity: 1 |
 
+### Variant
+
+| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">variant</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">enabled</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">responsive</span> |
+|:--|:--|:--|
+| Default | Yes | |
+| hover| Yes | |
+| group-hover | | |
+| focus | | |
+| active | | |
+| visited | | |
+| disabled | | |
