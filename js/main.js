@@ -53,3 +53,4 @@ function setupAnchors() {
 
 }
 
+serviceWorker.init();
