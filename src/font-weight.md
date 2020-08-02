@@ -25,10 +25,10 @@ Utilities for sets the font weight.
 | font-extrabold | font-weight: 800 | <y class="text-lg font-extrabold">Text</y> |
 | font-black | font-weight: 900 | <y class="text-lg font-black">Text</y> |
 
-### Variant
+### Variant <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.9</span>
 
-| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">variant</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">enabled</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">responsive</span> |
-|:--|:--|:--|
+| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
+|:-:|:-:|:-:|
 | Default | Yes | Yes |
 | hover| Yes | |
 | group-hover | | |
