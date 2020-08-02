@@ -24,3 +24,15 @@ Utilities for sets the origin of an element's transforms.
 | origin-bottom-left | transform-origin: bottom left |
 | origin-left | transform-origin: left |
 | origin-top-left | transform-origin: top left |
+
+### Variant
+
+| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">variant</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">enabled</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">responsive</span> |
+|:--|:--|:--|
+| Default | Yes | |
+| hover| Yes | |
+| group-hover | | |
+| focus | | |
+| active | | |
+| visited | | |
+| disabled | | |

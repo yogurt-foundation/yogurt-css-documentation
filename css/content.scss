@@ -119,8 +119,8 @@
   pre[class*="language-"] {
     margin-top: 1rem;
     margin-bottom: 1rem;
-    margin-left: -0.1rem;
-    margin-right: -0.1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     padding: 1rem; // max-height: 50vh;
     overflow: auto;
     background-color: #e2e8f0;
@@ -191,12 +191,12 @@
     }
 
     td:nth-child(2) {
-      width: 100%;
+      // width: 100%;
     }
 
     td:last-child {
-      min-width: 50px;
-      max-width: 50px;
+      // min-width: 50px;
+      // max-width: 50px;
     }
   }
 

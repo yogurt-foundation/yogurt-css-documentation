@@ -31,3 +31,15 @@ Utilities for sets the blending mode of each background layer (color or image).
 | bg-blend-hue | background-blend-mode: hue |
 | bg-blend-saturation | background-blend-mode: saturation |
 | bg-blend-luminosity | Wbackground-blend-mode: luminosity |
+
+### Variant
+
+| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">variant</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">enabled</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">responsive</span> |
+|:--|:--|:--|
+| Default | Yes | |
+| hover| | |
+| group-hover | | |
+| focus | | |
+| active | | |
+| visited | | |
+| disabled | | |

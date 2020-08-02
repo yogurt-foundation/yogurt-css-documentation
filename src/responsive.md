@@ -118,7 +118,7 @@ This is a `@include()` function look like in Yogurt:
 For example, to enable responsive for `padding` utility without adding the pseudo-class variants:
 
 ```scss
-// Example
+// @file: `src/_plugins.scss`
 // @file `responsive/default/_default.scss`
 
 @include padding($prefix-responsive, $pseudo-false, $class-false);

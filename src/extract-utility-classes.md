@@ -9,7 +9,7 @@ layout: default
 
 ## Extract Utility Classes
 
-Yogurt purely built on top of the SASS or SCSS ([Sassy CSS](Sass-lang.com)). By using the existing Sassy `@extend` directive allows you to expose any Yogurt utility classes to your custom CSS.
+Yogurt purely built on top of the SASS or SCSS ([Sassy CSS](https://sass-lang.com)). By using the existing Sassy `@extend` directive allows you to expose any Yogurt utility classes to your custom CSS.
 
 <y class="my-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 bg-orange-200">
   <span class="pr-1 font-semibold">
@@ -40,7 +40,7 @@ When using the **@extend `<selector ...>`** directive in your custom CSS, some u
 You can create new or refactor existing CSS with Yogurt utility classes,
 
 ```scss
-// Example in .scss
+// @file: `src/_plugins.scss` in .scss
 .btn {
   @extend
     // Yogurt utility classes

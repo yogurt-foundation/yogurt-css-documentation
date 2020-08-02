@@ -21,3 +21,15 @@ Utilities for sets repetition of a background image.
 | bg-repeat-y | background-repeat: repeat-y |
 | bg-repeat-round | background-repeat: round |
 | bg-repeat-space | background-repeat: space |
+
+### Variant
+
+| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">variant</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">enabled</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">responsive</span> |
+|:--|:--|:--|
+| Default | Yes | |
+| hover| | |
+| group-hover | | |
+| focus | | |
+| active | | |
+| visited | | |
+| disabled | | |

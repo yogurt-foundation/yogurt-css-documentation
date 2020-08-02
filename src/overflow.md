@@ -30,3 +30,14 @@ Utilities for sets how to handle content that's too big for it's container.
 | scrolling-touch | -webkit-overflow-scrolling: touch |
 | scrolling-auto | -webkit-overflow-scrolling: auto |
 
+### Variant
+
+| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">variant</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">enabled</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">responsive</span> |
+|:--|:--|:--|
+| Default | Yes | Yes |
+| hover| | |
+| group-hover | | |
+| focus | | |
+| active | | |
+| visited | | |
+| disabled | | |

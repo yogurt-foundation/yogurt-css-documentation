@@ -33,4 +33,21 @@ Utilities for sets mixed filters (brightness, contrast, saturate) in order to an
 | 9 | 1.80 |
 | 10 | 1.90 |
 
+<y class="mx-4 my-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
+  <span class="pr-1 font-semibold">
+    Note:
+  </span>
+  Utility customizing is unavailable.
+</y>
 
+### Variant
+
+| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">variant</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">enabled</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">responsive</span> |
+|:--|:--|:--|
+| Default | Yes | |
+| hover| | |
+| group-hover | | |
+| focus | | |
+| active | | |
+| visited | | |
+| disabled | | |

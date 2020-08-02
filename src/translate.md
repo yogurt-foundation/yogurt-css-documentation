@@ -97,3 +97,15 @@ Utilities for translate an element that has transform applied.
 | -translate-y-1/2 | --transform-translate-y: -50% |
 | translate-y-1/2 | --transform-translate-y: 50% |
 | translate-y-full | --transform-translate-y: 100% |
+
+### Variant
+
+| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">variant</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">enabled</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">responsive</span> |
+|:--|:--|:--|
+| Default | Yes | |
+| hover| Yes | |
+| group-hover | | |
+| focus | | |
+| active | | |
+| visited | | |
+| disabled | | |

@@ -18,3 +18,15 @@ Utilities for sets the bullet style of a list.
 | list-none | list-style-type: none |
 | list-disc | list-style-type: disc |
 | list-decimal | list-style-type: decimal |
+
+### Variant
+
+| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">variant</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">enabled</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">responsive</span> |
+|:--|:--|:--|
+| Default | Yes | Yes |
+| hover| | |
+| group-hover | | |
+| focus | | |
+| active | | |
+| visited | | |
+| disabled | | |

@@ -45,3 +45,15 @@ Utilities for scales an element that has transform applied.
 | scale-y-110 | --transform-scale-y: 1.1 |
 | scale-y-125 | --transform-scale-y: 1.25 |
 | scale-y-150 | --transform-scale-y: 1.5 |
+
+### Variant
+
+| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">variant</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">enabled</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">responsive</span> |
+|:--|:--|:--|
+| Default | Yes | |
+| hover| Yes | |
+| group-hover | | |
+| focus | | |
+| active | | |
+| visited | | |
+| disabled | | |
