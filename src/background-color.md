@@ -153,7 +153,7 @@ Utilities for sets background color.
 | bg-nero-800 | background-color: #0e0f11 | <y class="w-16 h-8 rounded bg-nero-800 "></y> |
 | bg-nero-900 | background-color: #0a0a0b | <y class="w-16 h-8 rounded bg-nero-900 "></y> |
 
-### Customizing <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.9</span>
+### Customizing <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.8</span>
 
 ```scss
 // @file: `src/_plugins.scss`
@@ -169,10 +169,10 @@ Utilities for sets background color.
 )
 ```
 
-### Variant
+### Variant <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.9</span>
 
-| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">variant</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">enabled</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">responsive</span> |
-|:--|:--|:--|
+| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
+|:-:|:-:|:-:|
 | Default | Yes | |
 | hover| Yes | |
 | group-hover | Yes | |

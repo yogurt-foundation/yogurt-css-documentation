@@ -26,7 +26,7 @@ Utilities for sets the box-shadow property attaches one or more shadows to an el
 | shadow-outline | box-shadow: <br> 0 0 0 3px rgba(66, 153, 225, 0.5) | <y class="w-16 h-6 rounded bg-white shadow-outline"></y> |
 | shadow-none | box-shadow: none | <y class="w-16 h-6 rounded bg-white shadow-none"></y> |
 
-### Customizing <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.9</span>
+### Customizing <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.8</span>
 
 ```scss
 // @file: `src/_plugins.scss`
@@ -42,10 +42,10 @@ Utilities for sets the box-shadow property attaches one or more shadows to an el
 )
 ```
 
-### Variant
+### Variant <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.9</span>
 
-| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">variant</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">enabled</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">responsive</span> |
-|:--|:--|:--|
+| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
+|:-:|:-:|:-:|
 | Default | Yes | |
 | hover| Yes | |
 | group-hover | | |
