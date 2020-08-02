@@ -44,21 +44,8 @@ gulp.task('js-bundle', () => {
 gulp.task('css', () => gulp.src(['css/main.scss'])
   .pipe(sass())
   .pipe(postcss())
-  .pipe(rename('pre.css'))
+  .pipe(rename('main.css'))
   .pipe(gulp.dest('./dist')))
-
-gulp.task('purge-css', () => {
-  return gulp.src('./dist/pre.css')
-    .pipe(purgeCss({
-        content: [
-          'dist/**/**/**/**/**/**/*.html'
-        ],
-        defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || [],
-        whitelistPatterns: [/-webkit-scrollbar-thumb$/]
-    }))
-    .pipe(rename('main.css'))
-    .pipe(gulp.dest('./dist'))
-})
 
 gulp.task('service-worker', () => {
   return gulp.src([
@@ -77,8 +64,7 @@ gulp.task('app-manifest', () => {
 
 gulp.task('remove-residual-files', () => {
   return gulp.src([
-    'dist/pre.js',
-    'dist/pre.css'
+    'dist/pre.js'
   ], {
     read: false,
     allowEmpty: true
@@ -93,7 +79,6 @@ gulp.task('build',
     'css',
     'service-worker',
     'app-manifest',
-    'purge-css',
     'remove-residual-files'
   )
 )
@@ -107,7 +92,6 @@ gulp.task('default', () => {
     'css',
     'service-worker',
     'app-manifest',
-    'purge-css',
     'remove-residual-files'
   )()
 })

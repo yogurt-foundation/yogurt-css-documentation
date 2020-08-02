@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "description": "The official Yogurt CSS documentation website",
   "scripts": {
-    "dev": "NODE_ENV=development npx @11ty/eleventy --config=eleventy.config.js --serve & gulp",
+    "dev": "NODE_ENV=development npx @11ty/eleventy --config=eleventy.config.js --serve & gulp & npm test",
     "prod": "NODE_ENV=production gulp build && NODE_ENV=production npx @11ty/eleventy --config=eleventy.config.js",
     "test": "mdspell -r -n -a --en-us 'src/*.md' 'src/**/*.md'"
   },
