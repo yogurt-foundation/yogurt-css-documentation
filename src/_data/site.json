@@ -1,6 +1,10 @@
 {
     "name": "Yogurt CSS Documentation",
     "url": "https://yogurt-css-documentation.netlify.app",
+    "version": {
+        "core": "1.0.8",
+        "docs": "2.0.0"
+    },
     "urls": {
         "discord": "https://discord.gg/A62YjNR",
         "twitter": "https://twitter.com/yogurtcss",
