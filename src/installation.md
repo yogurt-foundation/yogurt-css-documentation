@@ -96,7 +96,7 @@ $ yogurt my-new-project
 </y>
 
 <y class="py-4">
-  <img class="w-full h-full rounded-lg"
+  <img class="w-full h-full object-fit object-center rounded-lg"
        src="/images/content/yogurt_cli_screenshot_01.png">
 </y>
 
@@ -128,6 +128,6 @@ Download the precompiled desktop apps without going through the building process
 - [Windows](https://github.com/yogurt-foundation/playground/releases/download/0.1.2-beta/yogurt-playground-0.1.2-win-x64.tar.gz)
 
 <y class="py-4">
-  <img class="w-full h-full rounded-lg"
+  <img class="w-full h-full object-fit object-center rounded-lg"
        src="/images/content/yogurt_playground_screenshot_01.png">
 </y>
