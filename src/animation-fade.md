@@ -18,12 +18,12 @@ Utilities for sets the fading animation to an element.
 | fade-in | @keyframes fade-in { from { opacity: 0 } to { opacity: 1 }} |
 | fade-in-bottom-left | @keyframes fade-in-bottom-left { from { opacity: 0; transform: translate3d(-100%, 100%, 0) } to { opacity: 1; transform: translate3d(0, 0, 0) }} |
 | fade-in-bottom-right | @keyframes fade-in-bottom-right { from { opacity: 0; transform: translate3d(100%, 100%, 0) } to { opacity: 1; transform: translate3d(0, 0, 0) }} |
+| fade-in-up | @keyframes fade-in-up { from { opacity: 0; transform: translate3d(0, 100%, 0) } to { opacity: 1; transform: translate3d(0, 0, 0) }} |
 | fade-in-down | @keyframes fade-in-down { from { opacity: 0; transform: translate3d(0, -100%, 0) } to { opacity: 1; transform: translate3d(0, 0, 0) }} |
 | fade-in-left | @keyframes fade-in-left { from { opacity: 0; transform: translate3d(-100%, 0, 0) } to { opacity: 1; transform: translate3d(0, 0, 0) }} |
 | fade-in-right | @keyframes fade-in-right { from { opacity: 0; transform: translate3d(100%, 0, 0) } to { opacity: 1; transform: translate3d(0, 0, 0) }} |
 | fade-in-top-left | @keyframes fade-in-top-left { from { opacity: 0; transform: translate3d(-100%, -100%, 0) } to { opacity: 1; transform: translate3d(0, 0, 0) }} |
 | fade-in-top-right | @keyframes fade-in-top-right { from { opacity: 0; transform: translate3d(100%, -100%, 0) } to { opacity: 1; transform: translate3d(0, 0, 0) }} |
-| fade-in-up | @keyframes fade-in-up { from { opacity: 0; transform: translate3d(0, 100%, 0) } to { opacity: 1; transform: translate3d(0, 0, 0) }} |
 | fade-out | @keyframes fade-in-down { from { opacity: 1 } to { opacity: 0 }} |
 | fade-out-bottom-left | @keyframes fade-out-bottom-left { from { opacity: 1; transform: translate3d(0, 0, 0) } to { opacity: 1; transform: translate3d(-100%, 100%, 0) }} |
 | fade-out-bottom-right | @keyframes fade-out-bottom-right { from { opacity: 1; transform: translate3d(0, 0, 0) } to { opacity: 1; transform: translate3d(100%, 100%, 0) }} |
