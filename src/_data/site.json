@@ -1,6 +1,11 @@
 {
     "name": "Yogurt CSS Documentation",
+    "appname": "Yogurt CSS",
     "url": "https://yogurt-css-documentation.netlify.app",
+    "version": {
+        "core": "1.0.8",
+        "docs": "2.0.0"
+    },
     "urls": {
         "discord": "https://discord.gg/A62YjNR",
         "twitter": "https://twitter.com/yogurtcss",
@@ -10,7 +15,8 @@
     "author": {
         "name": "Loouis Low",
         "email": "loouis@gmail.com",
-        "handle": "@yogurtcss"
+        "handle": "@yogurtcss",
+        "license": "MIT"
     },
     "images": {
         "logo": "/images/logo/favicon.png",

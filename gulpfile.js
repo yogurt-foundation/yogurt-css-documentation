@@ -18,7 +18,10 @@ gulp.task('js', () => gulp.src(['js/main.js'])
       hints: false
     },
     resolve: {
-      modules: ['js', 'node_modules']
+      modules: [
+        'js',
+        'node_modules'
+      ]
     },
     module: {
       rules: [{
@@ -64,12 +67,12 @@ gulp.task('app-manifest', () => {
 
 gulp.task('remove-residual-files', () => {
   return gulp.src([
-    'dist/pre.js'
-  ], {
-    read: false,
-    allowEmpty: true
-  })
-  .pipe(clean())
+      'dist/pre.js'
+    ], {
+      read: false,
+      allowEmpty: true
+    })
+    .pipe(clean())
 })
 
 gulp.task('build',
@@ -84,8 +87,16 @@ gulp.task('build',
 )
 
 gulp.task('default', () => {
-  gulp.watch(['js/**.*', 'js/*/**.*'], gulp.series('js'))
-  gulp.watch(['css/**.*'], gulp.series('css'))
+
+  gulp.watch([
+    'js/**.*',
+    'js/*/**.*'
+  ], gulp.series('js'))
+
+  gulp.watch([
+    'css/**.*'
+  ], gulp.series('css'))
+
   gulp.series(
     'js',
     'js-bundle',
