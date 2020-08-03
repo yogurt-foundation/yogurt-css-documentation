@@ -17,7 +17,34 @@ layout: default
       media="all">
 ```
 
-**Note:** The CDN build is large, the sizes will be different when you are customizing with the build tool (See [Customize Utilties](/customize-utilities)). Using the build tool to exclude utilities or exclude variants from utilities that you don't need to reduce file size. (See [File Size Control](/file-size-control)).
+<y class="mt-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
+  <span class="pr-1 font-semibold">
+    Note:
+  </span>
+  The
+  <strong>
+    CDN
+  </strong>
+  build is a published version and always behind the latest update at the Github repository.
+</y>
+
+<y class="mt-2 p-3 border-l-8 border-orange-600 text-sm text-orange-600 bg-orange-200">
+  <span class="pr-1 font-semibold">
+    Note:
+  </span>
+  Using
+  <strong>
+  CDN
+  </strong>
+  does not have the benefit to use the
+  <strong>
+    @extend
+  </strong>
+  directive. (See
+  <a href="/extract-utility-classes/">
+    Extract Utility Classes
+  </a>.)
+</y>
 
 ## Using Yogurt via Package Manager
 
@@ -29,6 +56,17 @@ $ yarn add yogurt-css
 # NPM
 $ npm i yogurt-css
 ````
+
+<y class="my-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
+  <span class="pr-1 font-semibold">
+    Note:
+  </span>
+  The
+  <strong>
+    node_modules
+  </strong>
+  is a published version and always behind the latest update at the Github repository.
+</y>
 
 ## Using Yogurt via CLI
 
@@ -46,6 +84,17 @@ If you install the `create-yogurt-app` package to run locally, simply run `yogur
 $ yogurt my-new-project
 ```
 
+<y class="my-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
+  <span class="pr-1 font-semibold">
+    Note:
+  </span>
+  The
+  <strong>
+    CLI
+  </strong>
+  always comes with the latest build, including the unpublished changes.
+</y>
+
 <y class="py-4">
   <img class="w-full h-full rounded-lg"
        src="/images/content/yogurt_cli_screenshot_01.png">
@@ -53,13 +102,24 @@ $ yogurt my-new-project
 
 ## Using Yogurt via Playground
 
-[Yogurt Playground](https://github.com/yogurt-foundation/playground) is a developer tool also an HTML/CSS IDE for testing and prototyping with all the Yogurt frameworks and other libraries, [FX-Filter](https://github.com/yogurt-foundation/fx-filter), [FX-Gradient](https://github.com/yogurt-foundation/fx-gradient), [FX-Motion](https://github.com/yogurt-foundation/fx-motion). If you have an idea and want to draft something small without setting up a new project, then Yogurt Playground is for you.
+[Yogurt Playground](https://github.com/yogurt-foundation/playground) is a developer tool also an HTML/CSS IDE for testing and prototyping with all the Yogurt frameworks and other libraries such as, [FX-Filter](https://github.com/yogurt-foundation/fx-filter), [FX-Gradient](https://github.com/yogurt-foundation/fx-gradient), [FX-Motion](https://github.com/yogurt-foundation/fx-motion). If you have an idea and want to draft something small without setting up a new project, then Yogurt Playground is for you.
 
 ```bash
 $ git clone https://github.com/yogurt-foundation/playground.git
 $ cd playground
 $ yarn && yarn start
 ```
+
+<y class="my-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
+  <span class="pr-1 font-semibold">
+    Note:
+  </span>
+  The
+  <strong>
+    playground
+  </strong>
+  always comes with the latest build, including the unpublished changes.
+</y>
 
 Download the precompiled desktop apps without going through the building process,
 
