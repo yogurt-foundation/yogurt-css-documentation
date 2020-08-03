@@ -19,7 +19,7 @@ Utilities for sets background size of a background image.
 | bg-cover | background-size: cover |
 | bg-contain | background-size: contain |
 
-### Variant <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.9</span>
+### Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
 |:-:|:-:|:-:|
