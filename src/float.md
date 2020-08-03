@@ -20,7 +20,7 @@ Utilities for sets an element's placement to a side of its container and allows 
 | float-none | float: none |
 | clearfix | &::after { <br> content: ""; <br> display: table; <br> clear: both; } |
 
-### Variant <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.9</span>
+### Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
 |:-:|:-:|:-:|

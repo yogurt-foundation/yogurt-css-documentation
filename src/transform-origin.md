@@ -25,7 +25,7 @@ Utilities for sets the origin of an element's transforms.
 | origin-left | transform-origin: left |
 | origin-top-left | transform-origin: top left |
 
-### Variant <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.9</span>
+### Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
 |:-:|:-:|:-:|

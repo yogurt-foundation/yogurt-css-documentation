@@ -22,7 +22,7 @@ Utilities for sets the vertical alignment of an inline or table-cell box.
 | align-text-top | vertical-align: text-top |
 | align-text-bottom | vertical-align: text-bottom |
 
-### Variant <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.9</span>
+### Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
 |:-:|:-:|:-:|

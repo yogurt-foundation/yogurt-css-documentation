@@ -21,7 +21,7 @@ Utilities for sets border style.
 | border-double | border-style: double | <y class="w-16 h-8 rounded bg-gray-300 border-2 border-double"></y> |
 | border-none | border-style: none | <y class="w-16 h-8 rounded bg-gray-300 border-2 border-none"></y> |
 
-### Variant <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.9</span>
+### Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
 |:-:|:-:|:-:|
