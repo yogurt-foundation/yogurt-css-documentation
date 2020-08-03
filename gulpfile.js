@@ -64,12 +64,12 @@ gulp.task('app-manifest', () => {
 
 gulp.task('remove-residual-files', () => {
   return gulp.src([
-    'dist/pre.js'
-  ], {
-    read: false,
-    allowEmpty: true
-  })
-  .pipe(clean())
+      'dist/pre.js'
+    ], {
+      read: false,
+      allowEmpty: true
+    })
+    .pipe(clean())
 })
 
 gulp.task('build',
