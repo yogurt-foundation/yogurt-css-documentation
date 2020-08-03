@@ -476,6 +476,39 @@
       ]
     },
     {
+      "label": "Animations",
+      "items": [
+        {
+          "label": "Animation Infinite",
+          "url": "/animation-infinite/"
+        },
+        {
+          "label": "Animation Duration",
+          "url": "/animation-duration/"
+        },
+        {
+          "label": "Animation Delay",
+          "url": "/animation-delay/"
+        },
+        {
+          "label": "Blur",
+          "url": "/animation-blur/"
+        },
+        {
+          "label": "Fade",
+          "url": "/animation-fade/"
+        },
+        {
+          "label": "Roll",
+          "url": "/animation-roll/"
+        },
+        {
+          "label": "Slide",
+          "url": "/animation-slide/"
+        }
+      ]
+    },
+    {
       "label": "Tables",
       "items": [
         {
