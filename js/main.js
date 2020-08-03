@@ -53,3 +53,13 @@ function setupAnchors() {
 
 }
 
+
+/**
+ * krugurt.js modules
+ */
+
+serviceWorker.init();
+
+// require id="requestAppInstall" as container
+// wrap with id="requestAppTrigger"
+krunch.requestAppInstall();
