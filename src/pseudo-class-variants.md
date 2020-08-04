@@ -59,28 +59,23 @@ Add the `active:` prefix to an utility to enable on-active.
 
 ### Create Custom Variants
 
-Same like [responsive](/responsive), the different is the file location. To create custom variants to a utility, look into directory `/utilities/variants/`, and then add a new `@include()` function with defined utility name (e.g. `fontSize`), last the arguments into the variant file (e.g. `_hover.scss`).
+Same like [responsive](/responsive), the different is the file location. To create custom variants to a utility, look into directory `/utilities/variants/`, and then add a new `@include()` directive with defined utility name (e.g. `fontSize`), last the arguments into the variant file (e.g. `_hover.scss`).
 
 ```scss
 // @file `utilities/variants/_hover.scss`
-
 @include fontSize($prefix-hover, $pseudo-hover, $class-false);
 
 // @file `utilities/variants/_focus.scss`
-
 @include fontSize($prefix-focus, $pseudo-focus, $class-false);
 
 // @file `utilities/variants/_active.scss`
-
 @include fontSize($prefix-active, $pseudo-active, $class-false);
 
 // @file `utilities/variants/_visited.scss`
-
 @include fontSize($prefix-visited, $pseudo-visited, $class-false);
 
 // @file `utilities/variants/_disabled.scss`
-
 @include fontSize($prefix-disabled, $pseudo-disabled, $class-false);
 ```
 
-**Note:** Some utility has `negative` value and require to add `negative[true|false]` argument into `@include()` function.
+**Note:** Some utility has `negative` value and require to add `negative[true|false]` argument into `@include()` directive.
