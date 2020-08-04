@@ -33,7 +33,7 @@ Utilities for sets page theme either dark or light by applying force invert.
 
 ### Usage
 
-The basic set up for `theme="invert"` attribute is at the `<html>` tag. This allows `theme="invert"` to attenuate colors of the page theme but not changing any color of the application.
+The basic set up for `theme="invert"` attribute is with the `<html>` tag. This allows the utility to attenuate colors of the page theme but not changing any color of it.
 
 ```html
 <html theme="invert">

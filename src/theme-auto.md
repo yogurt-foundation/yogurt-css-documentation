@@ -33,7 +33,7 @@ Utilities for sets page theme either dark or light based on web browser or app s
 
 ### Usage
 
-The basic set up for `theme="auto"` attribute is at the `<html>` tag. This allows `theme="auto"` to attenuate colors of the page theme but not changing any color of the application.
+The basic set up for `theme="auto"` attribute is with the `<html>` tag. This allows the utility to attenuate colors of the page theme but not changing any color of it.
 
 ```html
 <html theme="auto">
