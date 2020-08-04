@@ -36,6 +36,10 @@
           "url": "/customize-utilities/"
         },
         {
+          "label": "Utility Map",
+          "url": "/utility-map/"
+        },
+        {
           "label": "Plugin API",
           "url": "/plugin-api/"
         }
