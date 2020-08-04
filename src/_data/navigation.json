@@ -522,6 +522,19 @@
       ]
     },
     {
+      "label": "Theme",
+      "items": [
+        {
+          "label": "Theme Auto",
+          "url": "/theme-auto/"
+        },
+        {
+          "label": "Theme Invert",
+          "url": "/theme-invert/"
+        }
+      ]
+    },
+    {
       "label": "SVG",
       "items": [
         {
