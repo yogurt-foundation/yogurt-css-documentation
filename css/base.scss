@@ -1,3 +1,31 @@
+@media(prefers-color-scheme: dark) {
+
+  html[theme="auto"] {
+    filter: invert(1) hue-rotate(180deg)
+  }
+
+  img[theme="auto"] {
+    filter: invert(1) hue-rotate(180deg)
+  }
+
+  [theme="auto"] {
+    filter: invert(1) hue-rotate(180deg)
+  }
+
+}
+
+html[theme="invert"] {
+  filter: invert(1) hue-rotate(180deg)
+}
+
+img[theme="invert"] {
+  filter: invert(1) hue-rotate(180deg)
+}
+
+[theme="invert"] {
+  filter: invert(1) hue-rotate(180deg)
+}
+
 $headerHeight: 4rem;
 $headerMargin: 2rem;
 

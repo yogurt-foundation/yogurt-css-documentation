@@ -15,7 +15,7 @@ Utilities for sets min and max paddings for screen size without breakpoints.
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
 |:--|:--|
-| fluid <br> p-min-`{value}` <br> p-max-`{value}` | @media screen and (min-width: 20rem) { .fluid.p-min-`{modifier}`.p-max-`{modifier}` { padding: calc(`{min}` + 0 * ((100vw - 20rem) / 30)) } } <br><br> @media screen and (min-width: 50rem) {  .fluid.p-min-`{modifier}`.p-max-`{modifier}` { padding: `{max}` } } |
+| fluid <br> p-min-`{value}` <br> p-max-`{value}` | @media screen and (min-width: 20rem) { .fluid.p-min-`{modifier}`.p-max-`{modifier}` { padding: calc(`{min}` + 0 * ((100vw - 20rem) / 30)) } } @media screen and (min-width: 50rem) {  .fluid.p-min-`{modifier}`.p-max-`{modifier}` { padding: `{max}` } } |
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">value</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">modifier</span> | |
 |:--|:--|:-:|
