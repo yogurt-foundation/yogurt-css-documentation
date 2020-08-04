@@ -9,6 +9,8 @@ layout: default
 
 ## Import Framework <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.9</span>
 
+The most recommended way of using Yogurt CSS is installing it with the package manager (Yarn, Npm), and importing the `.scss` file from the `node_modules` directory.
+
 ```bash
 # YARN
 $ yarn add yogurt-css
