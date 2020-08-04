@@ -1,7 +1,7 @@
 ---
 id: theme-auto
 title: Theme Auto
-description: Utilities for sets page theme either dark or light based on device or app settings.
+description: Utilities for sets page theme either dark or light based on web browser or app settings.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Theme Auto <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.9</span>
 
-Utilities for sets page theme either dark or light based on device or app settings.
+Utilities for sets page theme either dark or light based on web browser or app settings.
 
 ### Class
 
@@ -28,7 +28,7 @@ Utilities for sets page theme either dark or light based on device or app settin
   <span class="pr-1 font-semibold">
     Note:
   </span>
-  The auto theme supported. The desktop device will not be affected.
+  Only supported web browsers can benefit from this utility.
 </y>
 
 ### Usage

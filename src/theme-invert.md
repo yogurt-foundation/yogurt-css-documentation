@@ -28,7 +28,7 @@ Utilities for sets page theme either dark or light by applying force invert.
   <span class="pr-1 font-semibold">
     Note:
   </span>
-  The auto theme not supported. Will affect all devices (desktop, mobile).
+  Only supported web browsers can benefit from this utility.
 </y>
 
 ### Usage
