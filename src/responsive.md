@@ -107,9 +107,9 @@ $screens:
 
 #### Responsive Without Variants
 
-To create responsive to a utility is to adding the `@include()` function following by the utility name (e.g. `padding`) and then the arguments into `responsive/default/_default.scss` module file.
+To create responsive to a utility is to adding the `@include()` directive following by the utility name (e.g. `padding`) and then the arguments into `responsive/default/_default.scss` module file.
 
-This is a `@include()` function look like in Yogurt:
+This is a `@include()` directive look like in Yogurt:
 
 ```scss
 @include utilityName(prefix[variants|false], pseudo[variants|false], class[true|false], negative[true|false]);
@@ -124,7 +124,7 @@ For example, to enable responsive for `padding` utility without adding the pseud
 @include padding($prefix-responsive, $pseudo-false, $class-false);
 ```
 
-**Note:** Some utility has `negative` value and require to add `negative[true|false]` argument into `@include()` function.
+**Note:** Some utility has `negative` value and require to add `negative[true|false]` argument into `@include()` directive.
 
 #### Responsive With Variants
 

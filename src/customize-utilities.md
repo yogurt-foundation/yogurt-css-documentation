@@ -20,7 +20,6 @@ You can customize the Yogurt default configuration file by adding or removing th
 
 ```scss
 // @file `src/_config.scss`
-...
 $screens:
   (xs, 320px), // (primitive)
   (sm, 640px),
@@ -56,11 +55,9 @@ To customize the existing utility modules is located in these directories,
 // @file `src/utilities/non-responsive/_default.scss`
 
 /* accessibility */
-
 @include screenReader($class: $default)
 
 /* backgrounds */
-
 @include backgroundColorAmber($class: $default)
 ...
 ```
