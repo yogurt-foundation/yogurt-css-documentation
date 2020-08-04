@@ -60,7 +60,7 @@ But, the images and some other elements will look inverted. To compensate that, 
 To simulate `theme="invert"` on a Chrome-based web browser at the developer tools, by pressing `CTRL+SHIFT+I` and find your way to enable the `Rendering` options in the picture below. You 'll find the `Emulate CSS media feature prefers-color-scheme` menu.
 
 <y class="mx-4 py-4">
-  <img theme="auto"
+  <img theme=""
        class="w-full h-full object-fit object-center rounded-lg"
        src="/images/content/simulate_theme.jpg">
 </y>

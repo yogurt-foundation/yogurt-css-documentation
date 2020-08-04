@@ -6,7 +6,7 @@ layout: home
 ---
 
 <y class="pb-4">
-  <img theme="auto"
+  <img theme=""
        class="w-full h-full object-cover object-center rounded-lg opacity-75"
        src="images/content/yogurt_promo.jpg"
        alt="Yogurt">
@@ -78,7 +78,7 @@ When writing HTML with Yogurt CSS, the best way is to put the `class=""` to a to
   The `SOLID CORE` means the next major Yogurt CSS update is depending on any major release of the CSS version. It also means you will less frequently updating the framework for your frontend development. Which makes this utility framework a futureproof.
 </y>
 
-<y theme="auto">
+<y theme="">
 
   [![Netlify Status](https://api.netlify.com/api/v1/badges/07b893f5-2d17-413d-a3b6-e657ef9dbef3/deploy-status)](https://app.netlify.com/sites/yogurt-css-documentation/deploys)
 

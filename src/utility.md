@@ -21,7 +21,7 @@ Usually, CSS is written in a separate CSS file with file extension `.css` or in 
 
 <y class="box-panel">
   <y class="box-content">
-    <img theme="auto"
+    <img theme=""
          src="https://i.pravatar.cc/100">
     <span>
       John Doe
@@ -101,7 +101,7 @@ When styling the elements with Yogurt, you don't have to write like the example 
 
 <y class="mx-auto my-8 max-w-xs">
   <y class="flex justify-center items-center px-4 py-8 bg-white rounded-lg shadow-md">
-    <img theme="auto"
+    <img theme=""
          class="h-16 w-16 rounded-full object-cover object-center overflow-hidden"
          src="https://i.pravatar.cc/100">
     <y class="px-4 text-charcoal-100 text-lg">
