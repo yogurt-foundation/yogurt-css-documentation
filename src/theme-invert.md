@@ -28,12 +28,12 @@ Utilities for sets page theme either dark or light by applying force invert.
   <span class="pr-1 font-semibold">
     Note:
   </span>
-  The auto theme not supported. Will affect all devices (desktop, mobile).
+  Only supported web browsers can benefit from this utility.
 </y>
 
 ### Usage
 
-The basic set up for `theme="invert"` attribute is at the `<html>` tag. This allows `theme="invert"` to attenuate colors of the page theme but not changing any color of the application.
+The basic set up for `theme="invert"` attribute is with the `<html>` tag. This allows the utility to attenuate colors of the page theme but not changing any color of it.
 
 ```html
 <html theme="invert">
