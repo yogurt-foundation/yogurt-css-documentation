@@ -28,7 +28,7 @@ Utilities for sets page theme either dark or light based on device or app settin
   <span class="pr-1 font-semibold">
     Note:
   </span>
-  Auto theme supported. Desktop device will not affected.
+  The auto theme supported. The desktop device will not be affected.
 </y>
 
 ### Usage
@@ -41,14 +41,14 @@ The basic set up for `theme="auto"` attribute is at the `<html>` tag. This allow
 </html>
 ```
 
-But, the images and some other elements will be look inverted. To compensate that, apply the same `theme="auto"` attribute to all affected elments, like in the example.
+But, the images and some other elements will look inverted. To compensate that, apply the same `theme="auto"` attribute to all affected elements, like in the example.
 
 ```html
 <html theme="auto">
   ...
     <!-- e.g. To compensate inverted image -->
     <img theme="auto">
-    <!-- e.g. To compensate any inverted elements -->
+    <!-- e.g. To compensate other inverted elements -->
     <y theme="auto"></y>
     <span theme="auto"></span>
   ...
