@@ -17,14 +17,14 @@ Utilities for sets page theme either dark or light by applying force invert.
 |:--|:--|
 | theme="invert" | html[theme="invert"], img[theme="invert"], [theme="invert"] { filter: invert(1) hue-rotate(180deg); |
 
-<y class="mt-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
+<y class="mt-4 mx-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
   <span class="pr-1 font-semibold">
     Note:
   </span>
   Utility customizing is unavailable.
 </y>
 
-<y class="mt-2 p-3 border-l-8 border-orange-600 text-sm text-orange-600 bg-orange-200">
+<y class="mt-2 mb-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 bg-orange-200">
   <span class="pr-1 font-semibold">
     Note:
   </span>
@@ -54,6 +54,16 @@ But, the images and some other elements will look inverted. To compensate that, 
   ...
 </html>
 ```
+
+### Simulate
+
+To simulate `theme="invert"` on a Chrome-based web browser at the developer tools, by pressing `CTRL+SHIFT+I` and find your way to enable the `Rendering` options in the picture below. You 'll find the `Emulate CSS media feature prefers-color-scheme` menu.
+
+<y class="mx-4 py-4">
+  <img theme="auto"
+       class="w-full h-full object-fit object-center rounded-lg"
+       src="/images/content/simulate_theme.jpg">
+</y>
 
 ### Variant
 

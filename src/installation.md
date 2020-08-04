@@ -17,7 +17,7 @@ layout: default
       media="all">
 ```
 
-<y class="mt-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
+<y class="mt-4 mx-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
   <span class="pr-1 font-semibold">
     Note:
   </span>
@@ -28,7 +28,7 @@ layout: default
   build is a published version and always behind the latest update at the Github repository.
 </y>
 
-<y class="mt-2 p-3 border-l-8 border-orange-600 text-sm text-orange-600 bg-orange-200">
+<y class="mt-2 mb-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 bg-orange-200">
   <span class="pr-1 font-semibold">
     Note:
   </span>
@@ -57,7 +57,7 @@ $ yarn add yogurt-css
 $ npm i yogurt-css
 ````
 
-<y class="my-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
+<y class="my-4 mx-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
   <span class="pr-1 font-semibold">
     Note:
   </span>
@@ -84,7 +84,7 @@ If you install the `create-yogurt-app` package to run locally, simply run `yogur
 $ yogurt my-new-project
 ```
 
-<y class="my-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
+<y class="my-4 mx-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
   <span class="pr-1 font-semibold">
     Note:
   </span>
@@ -95,7 +95,7 @@ $ yogurt my-new-project
   always comes with the latest build, including the unpublished changes.
 </y>
 
-<y class="py-4">
+<y class="mx-4 py-4">
   <img theme="auto"
        class="w-full h-full object-fit object-center rounded-lg"
        src="/images/content/yogurt_cli_screenshot_01.png">
@@ -111,7 +111,7 @@ $ cd playground
 $ yarn && yarn start
 ```
 
-<y class="my-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
+<y class="my-4 mx-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
   <span class="pr-1 font-semibold">
     Note:
   </span>
@@ -128,7 +128,7 @@ Download the precompiled desktop apps without going through the building process
 - [Mac](https://github.com/yogurt-foundation/playground/releases/download/0.1.2-beta/yogurt-playground-0.1.2-mac-x64.zip)
 - [Windows](https://github.com/yogurt-foundation/playground/releases/download/0.1.2-beta/yogurt-playground-0.1.2-win-x64.tar.gz)
 
-<y class="py-4">
+<y class="mx-4 py-4">
   <img theme="auto"
        class="w-full h-full object-fit object-center rounded-lg"
        src="/images/content/yogurt_playground_screenshot_01.png">

@@ -16,7 +16,7 @@ $ yarn add yogurt-css
 $ npm i yogurt-css
 ```
 
-<y class="my-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 bg-orange-200">
+<y class="my-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 bg-orange-200">
   <span class="pr-1 font-semibold">
     Note:
   </span>
