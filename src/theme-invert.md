@@ -28,7 +28,7 @@ Utilities for sets page theme either dark or light by applying force invert.
   <span class="pr-1 font-semibold">
     Note:
   </span>
-  Auto theme not supported. Affected to all devices (desktop, mobile).
+  The auto theme not supported. Will affect all devices (desktop, mobile).
 </y>
 
 ### Usage
@@ -41,14 +41,14 @@ The basic set up for `theme="invert"` attribute is at the `<html>` tag. This all
 </html>
 ```
 
-But, the images and some other elements will be look inverted. To compensate that, apply the same `theme="invert"` attribute to all affected elments, like in the example.
+But, the images and some other elements will look inverted. To compensate that, apply the same `theme="invert"` attribute to all affected elements, like in the example.
 
 ```html
 <html theme="invert">
   ...
     <!-- e.g. To compensate inverted image -->
     <img theme="invert">
-    <!-- e.g. To compensate any inverted elements -->
+    <!-- e.g. To compensate other inverted elements -->
     <y theme="invert"></y>
     <span theme="invert"></span>
   ...
