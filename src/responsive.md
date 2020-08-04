@@ -39,7 +39,6 @@ These are the default breakpoints covering for almost all common device resoluti
 These are the breakpoints for new modern ultra-widescreen size and not enabled by default. It will come in handy when designing a user interface specifically for ultra-wide screens.
 
 ```css
-
 /* 3k */
 @media (min-width: 2560px) { ... }
 
@@ -87,7 +86,6 @@ To completely customize breakpoints is in the `_config.scss` file,
 
 ```scss
 // @file `_config.scss`
-
 $screens:
   (xs, 320px), // (primitive)
   (sm, 640px),
@@ -120,7 +118,6 @@ For example, to enable responsive for `padding` utility without adding the pseud
 ```scss
 // @file: `src/_plugins.scss`
 // @file `responsive/default/_default.scss`
-
 @include padding($prefix-responsive, $pseudo-false, $class-false);
 ```
 
@@ -134,22 +131,17 @@ To create responsive with variants, there are separate files for each pseudo-cla
 
 ```scss
 // @file `responsive/variants/_hover.scss`
-
 @include opacity($prefix-responsive-hover, $pseudo-hover, $class-false);
 
 // @file `responsive/variants/_focus.scss`
-
 @include opacity($prefix-responsive-focus, $pseudo-focus, $class-false);
 
 // @file `responsive/variants/_active.scss`
-
 @include opacity($prefix-responsive-active, $pseudo-active, $class-false);
 
 // @file `responsive/variants/_visited.scss`
-
 @include opacity($prefix-responsive-visited, $pseudo-visited, $class-false);
 
 // @file `responsive/variants/_disabled.scss`
-
 @include opacity($prefix-responsive-disabled, $pseudo-disabled, $class-false);
 ```
