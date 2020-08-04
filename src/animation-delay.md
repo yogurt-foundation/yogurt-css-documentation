@@ -14,7 +14,7 @@ Utilities for sets the animation control with delays.
 ### Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
-|:--|:--|:-:|
+|:--|:--|
 | delay-2 | animation-delay: 2s |
 | delay-3 | animation-delay: 3s |
 | delay-4 | animation-delay: 4s |
