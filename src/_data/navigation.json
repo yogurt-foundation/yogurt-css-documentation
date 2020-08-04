@@ -152,7 +152,8 @@
         },
         {
           "label": "Equal",
-          "url": "/equal/"
+          "url": "/equal/",
+          "version": "v1.0.8"
         }
       ]
     },
@@ -181,7 +182,8 @@
         },
         {
           "label": "Background Opacity",
-          "url": "/background-opacity/"
+          "url": "/background-opacity/",
+          "version": "v1.0.8"
         }
       ]
     },
@@ -206,15 +208,18 @@
         },
         {
           "label": "Dissect",
-          "url": "/dissect/"
+          "url": "/dissect/",
+          "version": "v1.0.8"
         },
         {
           "label": "Dissect Color",
-          "url": "/dissect-color/"
+          "url": "/dissect-color/",
+          "version": "v1.0.8"
         },
         {
           "label": "Dissect Opacity",
-          "url": "/dissect-opacity/"
+          "url": "/dissect-opacity/",
+          "version": "v1.0.8"
         }
       ]
     },
@@ -223,15 +228,18 @@
       "items": [
         {
           "label": "Fluid Margin",
-          "url": "/fluid-margin/"
+          "url": "/fluid-margin/",
+          "version": "v1.0.8"
         },
         {
           "label": "Fluid Padding",
-          "url": "/fluid-padding/"
+          "url": "/fluid-padding/",
+          "version": "v1.0.8"
         },
         {
           "label": "Fluid Font Size",
-          "url": "/fluid-font-size/"
+          "url": "/fluid-font-size/",
+          "version": "v1.0.8"
         }
       ]
     },
@@ -385,51 +393,63 @@
       "items": [
         {
           "label": "Checks",
-          "url": "/pattern-checks/"
+          "url": "/pattern-checks/",
+          "version": "v1.0.9"
         },
         {
           "label": "Dots",
-          "url": "/pattern-dots/"
+          "url": "/pattern-dots/",
+          "version": "v1.0.9"
         },
         {
           "label": "Cross Dots",
-          "url": "/pattern-cross-dots/"
+          "url": "/pattern-cross-dots/",
+          "version": "v1.0.9"
         },
         {
           "label": "Grid",
-          "url": "/pattern-grid/"
+          "url": "/pattern-grid/",
+          "version": "v1.0.9"
         },
         {
           "label": "Triangles",
-          "url": "/pattern-triangles/"
+          "url": "/pattern-triangles/",
+          "version": "v1.0.9"
         },
         {
           "label": "Zigzag",
-          "url": "/pattern-zigzag/"
+          "url": "/pattern-zigzag/",
+          "version": "v1.0.9"
         },
         {
           "label": "Diagonal Lines",
-          "url": "/pattern-diagonal-lines/"
+          "url": "/pattern-diagonal-lines/",
+          "version": "v1.0.9"
         },
         {
           "label": "Diagonal Stripes",
-          "url": "/pattern-diagonal-stripes/"
+          "url": "/pattern-diagonal-stripes/",
+          "version": "v1.0.9"
         },
         {
           "label": "Horizontal Lines",
-          "url": "/pattern-horizontal-lines/"
+          "url": "/pattern-horizontal-lines/",
+          "version": "v1.0.9"
         },
         {
           "label": "Horizontal Stripes",
-          "url": "/pattern-horizontal-stripes/"
+          "url": "/pattern-horizontal-stripes/",
+          "version": "v1.0.9"
         },
         {
           "label": "Vertical Lines",
-          "url": "/pattern-vertical-lines/"
+          "url": "/pattern-vertical-lines/",
+          "version": "v1.0.9"
         },
         {
           "label": "Vertical Stripes",
-          "url": "/pattern-vertical-stripes/"
+          "url": "/pattern-vertical-stripes/",
+          "version": "v1.0.9"
         }
       ]
     },
@@ -480,31 +500,38 @@
       "items": [
         {
           "label": "Animation Infinite",
-          "url": "/animation-infinite/"
+          "url": "/animation-infinite/",
+          "version": "v1.0.9"
         },
         {
           "label": "Animation Duration",
-          "url": "/animation-duration/"
+          "url": "/animation-duration/",
+          "version": "v1.0.9"
         },
         {
           "label": "Animation Delay",
-          "url": "/animation-delay/"
+          "url": "/animation-delay/",
+          "version": "v1.0.9"
         },
         {
           "label": "Blur",
-          "url": "/animation-blur/"
+          "url": "/animation-blur/",
+          "version": "v1.0.9"
         },
         {
           "label": "Fade",
-          "url": "/animation-fade/"
+          "url": "/animation-fade/",
+          "version": "v1.0.9"
         },
         {
           "label": "Roll",
-          "url": "/animation-roll/"
+          "url": "/animation-roll/",
+          "version": "v1.0.9"
         },
         {
           "label": "Slide",
-          "url": "/animation-slide/"
+          "url": "/animation-slide/",
+          "version": "v1.0.9"
         }
       ]
     },
@@ -526,11 +553,13 @@
       "items": [
         {
           "label": "Theme Auto",
-          "url": "/theme-auto/"
+          "url": "/theme-auto/",
+          "version": "v1.0.9"
         },
         {
           "label": "Theme Invert",
-          "url": "/theme-invert/"
+          "url": "/theme-invert/",
+          "version": "v1.0.9"
         }
       ]
     },
@@ -556,7 +585,8 @@
       "items": [
         {
           "label": "Screen Reader",
-          "url": "/screen-reader/"
+          "url": "/screen-reader/",
+          "version": "v1.0.7"
         }
       ]
     }

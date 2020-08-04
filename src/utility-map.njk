@@ -1,0 +1,57 @@
+---
+id: all-utilities
+title: View All Utilities
+hidden: true
+layout: default
+---
+
+<y class="flex flex-wrap justify-start items-start w-full">
+
+  {% for section in navigation.sections %}
+
+    <y class="xs:w-full lg:w-1/3 p-4">
+
+      <y class="py-2 text-lg font-semibold">
+        {{ section.label }}
+      </y>
+
+      <y class="flex flex-col justify-start items-start">
+
+        {% for item in section.items %}
+
+          {% set is_current_page = page.url | replace('/', '') == item.url | replace('/', '') %}
+
+            <y class="flex">
+
+              <a class="{{ item.class }} py-1 text-gray-700 hover:text-gray-800 xs:text-md lg:text-sm hover:font-semibold hover:underline"
+                 href="{{ item.url | safe }}"
+                 {% if is_current_page %}
+                 aria-current="page"
+                 {% endif %}>
+
+                {{ item.label }}
+
+                {% if item.external %}
+                  <span class="exernal-link-icon">
+                    {% include "images/icons/arrow-right.svg" %}
+                  </span>
+                {% endif %}
+
+              </a>
+
+              {% if item.version %}
+                <y class="ml-2 mt-1 px-1 h-5 flex justify-center items-center text-xs text-gray-600 bg-gray-300 rounded">
+                  {{ item.version }}
+                </y>
+              {% endif %}
+
+            </y>
+
+        {% endfor %}
+
+      </y>
+    </y>
+
+  {% endfor %}
+
+</y>
