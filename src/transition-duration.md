@@ -24,7 +24,7 @@ Utilities for sets the length of time for a transition animations to complete.
 | duration-700 | transition-duration: 700ms |
 | duration-1000 | transition-duration: 1000ms |
 
-### Customizing <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.8</span>
+### Customizing
 
 ```scss
 // @file: `src/_plugins.scss`

@@ -26,7 +26,7 @@ Utilities for sets the box-shadow property attaches one or more shadows to an el
 | shadow-outline | box-shadow: <br> 0 0 0 3px rgba(66, 153, 225, 0.5) | <y class="w-16 h-6 rounded bg-white shadow-outline"></y> |
 | shadow-none | box-shadow: none | <y class="w-16 h-6 rounded bg-white shadow-none"></y> |
 
-### Customizing <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.8</span>
+### Customizing
 
 ```scss
 // @file: `src/_plugins.scss`

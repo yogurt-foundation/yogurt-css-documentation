@@ -30,7 +30,7 @@ Utilities for sets the placement of a positioned element.
 | left-auto | left: auto |
 | right-auto | right: auto |
 
-### Customizing <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.8</span>
+### Customizing
 
 ```scss
 // @file: `src/_plugins.scss`

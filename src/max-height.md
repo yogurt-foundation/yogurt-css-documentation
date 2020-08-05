@@ -18,7 +18,7 @@ Utilities for sets the maximum height of an element.
 | max-h-full | max-height: 100% |
 | max-h-screen | max-height: 100vh |
 
-### Customizing <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.8</span>
+### Customizing
 
 ```scss
 // @file: `src/_plugins.scss`

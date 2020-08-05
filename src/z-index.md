@@ -23,7 +23,7 @@ Utilities for sets the z order (stack order) of a positioned element.
 | z-50 | z-index: 50 |
 | z-auto | z-index: auto |
 
-### Customizing <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.8</span>
+### Customizing
 
 ```scss
 // @file: `src/_plugins.scss`
