@@ -38,7 +38,7 @@ Utilities for sets the height of an element.
 | h-full | height: 100% |
 | h-screen | height: 100vh |
 
-### Customizing <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.8</span>
+### Customizing
 
 ```scss
 // @file: `src/_plugins.scss`

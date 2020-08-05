@@ -4,6 +4,49 @@
 
       <ul class="-ml-8">
 
+        {% for section in main.sections %}
+
+          <li class="mb-4">
+
+            <span class="block mb-2 text-sm sm:text-xs uppercase font-bold text-gray-900">
+
+              {{ section.label }}
+
+            </span>
+
+            <ul class="-ml-8">
+
+              {% for item in section.items %}
+
+              {% set is_current_page = page.url | replace('/', '') == item.url | replace('/', '') %}
+
+              <li class="mb-px">
+
+                <a class="nav-link -mx-2 p-2 {{ item.class }} {% if is_current_page %} selected {% endif %}"
+                   href="{{ item.url | safe }}"
+                   {% if is_current_page %}
+                   aria-current="page"
+                   {% endif %}>
+
+                  {{ item.label }}
+
+                  {% if item.external %}
+                    <span class="exernal-link-icon">
+                      {% include "images/icons/arrow-right.svg" %}
+                    </span>
+                  {% endif %}
+
+                </a>
+
+              </li>
+
+              {% endfor %}
+
+            </ul>
+          </li>
+
+        {% endfor %}
+
         {% for section in navigation.sections %}
 
           <li class="mb-4">

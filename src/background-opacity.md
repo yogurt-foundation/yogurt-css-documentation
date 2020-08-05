@@ -21,7 +21,7 @@ Utilities for sets opacity of background color.
 | bg-opacity-75 | --bg-opacity: .75 |
 | bg-opacity-100 | --bg-opacity: 1 |
 
-### Customizing <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.8</span>
+### Customizing
 
 ```scss
 // @file: `src/_plugins.scss`

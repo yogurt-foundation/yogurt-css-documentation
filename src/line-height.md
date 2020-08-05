@@ -30,7 +30,7 @@ Utilities for sets the line height.
 | depth-9 | line-height: 2.25rem |
 | depth-10 | line-height: 2.5rem |
 
-### Customizing <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.8</span>
+### Customizing
 
 ```scss
 // @file: `src/_plugins.scss`

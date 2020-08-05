@@ -1,19 +1,6 @@
 {
   "sections": [
     {
-      "label": "Getting Started",
-      "items": [
-        {
-          "label": "Introduction",
-          "url": "/"
-        },
-        {
-          "label": "Installation",
-          "url": "/installation/"
-        }
-      ]
-    },
-    {
       "label": "Layout",
       "items": [
         {
@@ -63,6 +50,10 @@
         {
           "label": "Z-Index",
           "url": "/z-index/"
+        },        {
+          "label": "Render",
+          "url": "/content-visibility/",
+          "version": "v1.0.9"
         }
       ]
     },

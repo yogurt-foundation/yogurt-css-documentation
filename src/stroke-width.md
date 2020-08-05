@@ -19,7 +19,7 @@ Utilities for sets the outline width of an SVG.
 | stroke-1 | stroke-width: 1 |
 | stroke-2 | stroke-width: 2 |
 
-### Customizing <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.8</span>
+### Customizing
 
 ```scss
 // @file: `src/_plugins.scss`

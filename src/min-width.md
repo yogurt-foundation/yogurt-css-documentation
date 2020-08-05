@@ -18,7 +18,7 @@ Utilities for sets the minimum width of an element.
 | min-w-0 | min-width: 0 |
 | min-w-full | min-width: 100% |
 
-### Customizing <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.8</span>
+### Customizing
 
 ```scss
 // @file: `src/_plugins.scss`
