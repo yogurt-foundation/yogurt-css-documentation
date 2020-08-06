@@ -15,9 +15,9 @@ Utilities for sets the animation control with durations.
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
 |:--|:--|:-:|
-| duration-800 | animation-duration: 800ms |
-| duration-500 | animation-duration: 500ms|
 | duration-300 | animation-duration: 300ms |
+| duration-500 | animation-duration: 500ms |
+| duration-800 | animation-duration: 800ms |
 | duration-2000 | animation-duration: 2000ms |
 | duration-3000 | animation-duration: 3000ms |
 | duration-4000 | animation-duration: 4000ms |
