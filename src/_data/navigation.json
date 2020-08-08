@@ -172,9 +172,17 @@
           "url": "/background-size/"
         },
         {
+          "label": "Background Blend",
+          "url": "/background-blend/"
+        },
+        {
           "label": "Background Opacity",
           "url": "/background-opacity/",
           "version": "v1.0.8"
+        },        {
+          "label": "Background Border",
+          "url": "/background-border/",
+          "version": "v1.0.9"
         }
       ]
     },
@@ -252,10 +260,6 @@
         {
           "label": "Mix Blend",
           "url": "/mix-blend/"
-        },
-        {
-          "label": "Background Blend",
-          "url": "/background-blend/"
         },
         {
           "label": "Gradient",
