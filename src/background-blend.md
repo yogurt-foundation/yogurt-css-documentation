@@ -5,7 +5,7 @@ description: Utilities for sets the blending mode of each background layer (colo
 layout: default
 ---
 
-> Effects
+> Background
 
 ## Background Blend
 
