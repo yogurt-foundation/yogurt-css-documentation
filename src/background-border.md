@@ -51,7 +51,7 @@ Utilities for sets background border to an element with flexible control over th
   <span class="pr-1 font-semibold">
     Note:
   </span>
-  To fill the background border color with
+  To fill the background border color is using the
   <strong>
     text-{value}
   </strong> (See
