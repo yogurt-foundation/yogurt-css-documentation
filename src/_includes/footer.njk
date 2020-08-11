@@ -2,8 +2,14 @@
 
   <y class="flex justify-end">
 
-    <y class="p-2 text-md opacity-50 mr-auto">
+    <y class="xs:hidden sm:hidden md:block lg:block p-2 text-md opacity-50 mr-auto">
       Version {{site.version.core}}
+    </y>
+
+    <y class="sm:block md:hidden lg:hidden mt-1 ml-2 mr-auto">
+
+      {% include "sponsors.njk" %}
+
     </y>
 
     <a class="mx-1 p-2 opacity-25 hover:opacity-75"
