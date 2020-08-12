@@ -6,7 +6,7 @@ import setupHovers from 'components/hover.js';
 
 export default async() => {
 
-  const SEARCH_RESULT_LIMIT = 10;
+  const SEARCH_RESULT_LIMIT = 50;
 
   const searchInput = document.querySelector('.search-input');
   const searchResults = document.querySelector('.search-results');
