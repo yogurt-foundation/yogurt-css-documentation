@@ -17,15 +17,6 @@ Utilities for sets the text color.
 |:--|:--|:-:|
 | text-transparent | color: transparent | <y class="px-2 text-lg text-transparent font-semibold">Text</y> |
 | text-white | color: #fff | <y class="px-2 text-lg text-white font-semibold">Text</y> |
-| text-black-100 | color: #b9b9b9 | <y class="px-2 text-lg text-black-100 bg-white font-semibold">Text</y> |
-| text-black-200 | color: #a2a2a2 | <y class="px-2 text-lg text-black-200 bg-white font-semibold">Text</y> |
-| text-black-300 | color: #8b8b8b | <y class="px-2 text-lg text-black-300 bg-white font-semibold">Text</y> |
-| text-black-400 | color: #737373 | <y class="px-2 text-lg text-black-400 bg-white font-semibold">Text</y> |
-| text-black-500 | color: #5c5c5c | <y class="px-2 text-lg text-black-500 bg-white font-semibold">Text</y> |
-| text-black-600 | color: #454545 | <y class="px-2 text-lg text-black-600 bg-white font-semibold">Text</y> |
-| text-black-700 | color: #2e2e2e | <y class="px-2 text-lg text-black-700 bg-white font-semibold">Text</y> |
-| text-black-800 | color: #171717 | <y class="px-2 text-lg text-black-800 bg-white font-semibold">Text</y> |
-| text-black-900 | color: #000000 | <y class="px-2 text-lg text-black-900 bg-white font-semibold">Text</y> |
 | text-charcoal-100 | color: #222c35 | <y class="px-2 text-lg text-charcoal-100 bg-white font-semibold">Text</y> |
 | text-charcoal-200 | color: #1f2831 | <y class="px-2 text-lg text-charcoal-200 bg-white font-semibold">Text</y> |
 | text-charcoal-300 | color: #1c252c | <y class="px-2 text-lg text-charcoal-300 bg-white font-semibold">Text</y> |
