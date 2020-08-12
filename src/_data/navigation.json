@@ -179,9 +179,14 @@
           "label": "Background Opacity",
           "url": "/background-opacity/",
           "version": "v1.0.8"
-        },        {
+        },
+        {
           "label": "Background Border",
           "url": "/background-border/",
+          "version": "v1.0.9"
+        },        {
+          "label": "Background Gradient",
+          "url": "/background-gradient/",
           "version": "v1.0.9"
         }
       ]
@@ -371,7 +376,8 @@
       "items": [
         {
           "label": "Compose",
-          "url": "/filter-compose/"
+          "url": "/filter-compose/",
+          "version": "v1.0.9"
         },
         {
           "label": "Blur",

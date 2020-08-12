@@ -17,15 +17,6 @@ Utilities for sets background color.
 |:--|:--|:-:|
 | bg-transparent | background-color: transparent | <y class="w-16 h-8 rounded bg-transparent"></y> |
 | bg-white | background-color: #fff | <y class="w-16 h-8 rounded bg-white shadow"></y> |
-| bg-black-100 | background-color: #b9b9b9 | <y class="w-16 h-8 rounded bg-black-100 "></y> |
-| bg-black-200 | background-color: #a2a2a2 | <y class="w-16 h-8 rounded bg-black-200 "></y> |
-| bg-black-300 | background-color: #8b8b8b | <y class="w-16 h-8 rounded bg-black-300 "></y> |
-| bg-black-400 | background-color: #737373 | <y class="w-16 h-8 rounded bg-black-400 "></y> |
-| bg-black-500 | background-color: #5c5c5c | <y class="w-16 h-8 rounded bg-black-500 "></y> |
-| bg-black-600 | background-color: #454545 | <y class="w-16 h-8 rounded bg-black-600 "></y> |
-| bg-black-700 | background-color: #2e2e2e | <y class="w-16 h-8 rounded bg-black-700 "></y> |
-| bg-black-800 | background-color: #171717 | <y class="w-16 h-8 rounded bg-black-800 "></y> |
-| bg-black-900 | background-color: #000000 | <y class="w-16 h-8 rounded bg-black-900 "></y> |
 | bg-charcoal-100 | background-color: #222c35 | <y class="w-16 h-8 rounded bg-charcoal-100 "></y> |
 | bg-charcoal-200 | background-color: #1f2831 | <y class="w-16 h-8 rounded bg-charcoal-200 "></y> |
 | bg-charcoal-300 | background-color: #1c252c | <y class="w-16 h-8 rounded bg-charcoal-300 "></y> |
