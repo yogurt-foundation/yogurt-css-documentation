@@ -55,13 +55,6 @@ Utilities for sets mixed filters (brightness, contrast, saturate) to an element.
 | saturate-9 | --saturate: 1.80 |
 | saturate-10 | --saturate: 1.90 |
 
-<y class="mx-4 my-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
-  <span class="pr-1 font-semibold">
-    Note:
-  </span>
-  Utility customizing is unavailable.
-</y>
-
 ### Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
