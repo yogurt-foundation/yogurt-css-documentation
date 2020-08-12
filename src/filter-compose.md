@@ -1,7 +1,7 @@
 ---
 id: filter-compose
 title: Filter Compose
-description: Utilities for sets mixed filters (brightness, contrast, saturate) in order to an element.
+description: Utilities for sets mixed filters (brightness, contrast, saturate) to an element.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Compose <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.9</span>
 
-Utilities for sets mixed filters (brightness, contrast, saturate) in order to an element.
+Utilities for sets mixed filters (brightness, contrast, saturate) to an element.
 
 ### Class
 
