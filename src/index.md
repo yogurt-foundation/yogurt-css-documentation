@@ -5,7 +5,7 @@ description: Documentation for open source Yogurt CSS framework.
 layout: home
 ---
 
-<y class="mb-4 p-3 border-l-8 border-gray-800 text-sm text-gray-800 bg-gray-200 depth-loose">
+<y class="relative mb-4 p-3 border-l-8 border-gray-800 text-sm text-gray-800 bg-gray-200 depth-loose">
   <span class="mr-2 px-2 py-1 font-semibold text-gray-100 bg-gray-800 rounded">
     &nbsp;News
   </span>
@@ -14,6 +14,9 @@ layout: home
      href="/utility-map/">
     Utility Map
   </a>).
+  <y class="absolute top-1 right-1">
+    <y class="h-2 w-2 bg-gray-800 rounded animation fade-out duration-2000 delay-1 infinite"></y>
+  </y>
 </y>
 
 <y class="pb-4">
