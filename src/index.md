@@ -5,6 +5,17 @@ description: Documentation for open source Yogurt CSS framework.
 layout: home
 ---
 
+<y class="mb-4 p-3 border-l-8 border-gray-800 text-sm text-gray-800 bg-gray-200">
+  <span class="mr-2 px-2 py-1 font-semibold text-gray-100 bg-gray-800 rounded">
+    &nbsp;News
+  </span>
+  Upcoming next version 1.0.9 updates (See
+  <a class="font-semibold hover:underline"
+     href="/utility-map/">
+    Utility Map
+  </a>).
+</y>
+
 <y class="pb-4">
   <img theme=""
        class="w-full h-full object-cover object-center rounded-lg opacity-75"
