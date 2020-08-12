@@ -5,7 +5,7 @@ description: Documentation for open source Yogurt CSS framework.
 layout: home
 ---
 
-<y class="mb-4 p-3 border-l-8 border-gray-800 text-sm text-gray-800 bg-gray-200">
+<y class="mb-4 p-3 border-l-8 border-gray-800 text-sm text-gray-800 bg-gray-200 depth-loose">
   <span class="mr-2 px-2 py-1 font-semibold text-gray-100 bg-gray-800 rounded">
     &nbsp;News
   </span>
