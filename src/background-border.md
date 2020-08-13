@@ -60,6 +60,54 @@ Utilities for sets background border to an element with flexible control over th
   </a>.)
 </y>
 
+### Customizing
+
+```scss
+// @file: `src/_plugins.scss`
+@include plugin(
+  (
+    $utility: 'length',
+    //$variant: 'responsive',
+    $property: '--bg-border-length',
+    $modifier: (
+      '90': '90',
+      '100': '100'
+      //...
+    )
+  ),
+  (
+    $utility: 'size',
+    //$variant: 'responsive',
+    $property: '--bg-border-size',
+    $modifier: (
+      '64': '64px',
+      '72': '72px'
+      //...
+    )
+  ),
+  (
+    $utility: 'space',
+    //$variant: 'responsive',
+    $property: '--bg-border-space',
+    $modifier: (
+      '90': '90px',
+      '100': '100px'
+      //...
+    )
+  ),
+  (
+    $utility: 'angle',
+    //$variant: 'responsive',
+    $property: '--bg-border-angle',
+    $modifier: (
+      '90': '80deg',
+      '80': '90deg'
+      //...
+    )
+  )
+)
+```
+
 ### Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
