@@ -177,6 +177,63 @@ Utilities for sets the background gradient color to an element with flexible con
 | <span class="text-gray-600">start</span>/<span class="text-gray-600">stop</span>-nero-800 | --bg-gradient-<span class="text-gray-600">start</span>/<span class="text-gray-600">stop</span>-color: #0e0f11 | <y class="w-16 h-8 rounded bg-nero-800 "></y> |
 | <span class="text-gray-600">start</span>/<span class="text-gray-600">stop</span>-nero-900 | --bg-gradient-<span class="text-gray-600">start</span>/<span class="text-gray-600">stop</span>-color: #0a0a0b | <y class="w-16 h-8 rounded bg-nero-900 "></y> |
 
+### Customizing
+
+```scss
+// @file: `src/_plugins.scss`
+@include plugin(
+  (
+    $utility: 'angle',
+    //$variant: 'responsive',
+    $property: '--bg-gradient-angle',
+    $modifier: (
+      '270': '270deg'
+      //...
+    )
+  ),
+  (
+    $utility: 'start',
+    //$variant: 'responsive',
+    $property: '--bg-gradient-primary',
+    $modifier: (
+      '15': '15%',
+      '25': '25%'
+      //...
+    )
+  ),
+  (
+    $utility: 'Stop',
+    //$variant: 'responsive',
+    $property: '--bg-gradient-secondary',
+    $modifier: (
+      '15': '15%',
+      '25': '25%'
+      //...
+    )
+  ),
+  (
+    $utility: 'start-red',
+    //$variant: 'responsive',
+    $property: '--bg-gradient-start-color',
+    $modifier: (
+      '100': '#...',
+      '200': '#...'
+      //...
+    )
+  ),
+  (
+    $utility: 'stop-green',
+    //$variant: 'responsive',
+    $property: '--bg-gradient-stop-color',
+    $modifier: (
+      '100': '#...',
+      '200': '#...'
+      //...
+    )
+  )
+)
+```
+
 ### Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
