@@ -21,7 +21,7 @@ Utilities for sets the transparency of an element.
 | opacity-25 | opacity: .25 | <y class="w-16 h-8 p-1 inline-block text-white bg-charcoal-100 rounded opacity-25">Text</y> |
 | opacity-0 | opacity: 0 | <y class="w-16 h-8 p-1 inline-block text-white bg-charcoal-100 rounded opacity-0">Text</y> |
 
-### Customizing
+### Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
 
 ```scss
 // @file: `src/_plugins.scss`

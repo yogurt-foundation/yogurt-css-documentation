@@ -22,7 +22,7 @@ Utilities for sets the spacing between letters.
 | gap-wider | letter-spacing: 0.05em | <y class="text-lg gap-wider">Text</y> |
 | gap-widest | letter-spacing: 0.1em | <y class="text-lg gap-widest">Text</y> |
 
-### Customizing
+### Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
 
 ```scss
 // @file: `src/_plugins.scss`

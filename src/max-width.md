@@ -32,7 +32,7 @@ Utilities for sets the maximum width of an element.
 | max-w-screen-xl | max-width: 1280px |
 | max-w-none | max-width: none |
 
-### Customizing
+### Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
 
 ```scss
 // @file: `src/_plugins.scss`

@@ -19,7 +19,7 @@ Utilities for sets the miminum height of an element.
 | min-h-full | min-height: 100% |
 | min-h-screen | min-height: 100vh |
 
-### Customizing
+### Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
 
 ```scss
 // @file: `src/_plugins.scss`

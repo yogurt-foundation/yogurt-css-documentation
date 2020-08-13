@@ -80,7 +80,7 @@ To prefix the breakpoint name (e.g. `sm`, `md`, `lg`) before the `{class}` or `c
 </y>
 ```
 
-### Customizing Breakpoints
+### Customizing
 
 To completely customize breakpoints is in the `_config.scss` file,
 

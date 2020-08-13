@@ -64,7 +64,7 @@ Utilities for sets the width of an element.
 | w-full | width: 100% |
 | w-screen | width: 100vw |
 
-### Customizing
+### Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
 
 ```scss
 // @file: `src/_plugins.scss`

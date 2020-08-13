@@ -282,7 +282,7 @@ Utilities for controls margin (and negative margin) in 0.25rem increments.
 | -ml-64 | margin-left: -16rem |
 | -ml-px | margin-left: -1px |
 
-### Customizing
+### Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
 
 ```scss
 // @file: `src/_plugins.scss`
