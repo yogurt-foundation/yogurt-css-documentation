@@ -30,7 +30,7 @@ Utilities for sets the placement of a positioned element.
 | left-auto | left: auto |
 | right-auto | right: auto |
 
-### Customizing
+### Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
 
 ```scss
 // @file: `src/_plugins.scss`

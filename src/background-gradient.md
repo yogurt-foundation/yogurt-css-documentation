@@ -177,7 +177,7 @@ Utilities for sets the background gradient color to an element with flexible con
 | <span class="text-gray-600">start</span>/<span class="text-gray-600">stop</span>-nero-800 | --bg-gradient-<span class="text-gray-600">start</span>/<span class="text-gray-600">stop</span>-color: #0e0f11 | <y class="w-16 h-8 rounded bg-nero-800 "></y> |
 | <span class="text-gray-600">start</span>/<span class="text-gray-600">stop</span>-nero-900 | --bg-gradient-<span class="text-gray-600">start</span>/<span class="text-gray-600">stop</span>-color: #0a0a0b | <y class="w-16 h-8 rounded bg-nero-900 "></y> |
 
-### Customizing
+### Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
 
 ```scss
 // @file: `src/_plugins.scss`

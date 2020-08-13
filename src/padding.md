@@ -149,7 +149,7 @@ Utilities for controls padding in 0.25rem increments.
 | pl-64 | padding-left: 16rem |
 | pl-px | padding-left: 1px |
 
-### Customizing
+### Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
 
 ```scss
 // @file: `src/_plugins.scss`

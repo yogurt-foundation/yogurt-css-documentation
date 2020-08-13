@@ -46,7 +46,7 @@ Utilities for sets border radius.
 | rounded-b-full | border-bottom-right-radius: 9999px; <br> border-bottom-left-radius: 9999px | <y class="w-8 h-8 rounded-b-full bg-gray-300 border-2"></y> |
 | rounded-l-full | border-top-left-radius: 9999px; <br> border-bottom-left-radius: 9999px | <y class="w-8 h-8 rounded-l-full bg-gray-300 border-2"></y> |
 
-### Customizing
+### Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
 
 ```scss
 // @file: `src/_plugins.scss`
