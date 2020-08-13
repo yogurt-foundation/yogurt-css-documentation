@@ -55,6 +55,44 @@ Utilities for sets mixed filters (brightness, contrast, saturate) to an element.
 | saturate-9 | --saturate: 1.80 |
 | saturate-10 | --saturate: 1.90 |
 
+### Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
+
+```scss
+// @file: `src/_plugins.scss`
+@include plugin(
+  (
+    $utility: 'brightness',
+    //$variant: 'responsive',
+    $property: '--brightness',
+    $modifier: (
+      '11': '2.0',
+      '12': '2.5'
+      //...
+    )
+  ),
+  (
+    $utility: 'constrast',
+    //$variant: 'responsive',
+    $property: '--contrast',
+    $modifier: (
+      '11': '2.0',
+      '12': '2.5'
+      //...
+    )
+  ),
+  (
+    $utility: 'saturate',
+    //$variant: 'responsive',
+    $property: '--saturate',
+    $modifier: (
+      '11': '2.0',
+      '12': '2.5'
+      //...
+    )
+  )
+)
+```
+
 ### Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
