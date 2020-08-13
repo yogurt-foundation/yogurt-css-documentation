@@ -38,7 +38,7 @@ The `margin`, `padding`, `font-size`, and so on are calling the utility componen
 
 ### Tag Shorthand
 
-Yogurt CSS use `<y>` tag to replacing the use of `<y>` tag, which you still can use the `<div>` tag. The `<y>` is a branding and also to reduce letters from `<div>`.
+Yogurt CSS use `<y>` tag to replacing the use of `<div>` tag, which you still can use the `<div>` tag. The `<y>` is a branding and also to reduce letters from `<div>`.
 
 ```html
 <!-- Example -->
