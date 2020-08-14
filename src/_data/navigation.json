@@ -375,13 +375,24 @@
       "label": "Filters",
       "items": [
         {
-          "label": "Compose",
-          "url": "/filter-compose/",
+          "label": "Brightness",
+          "url": "/filter-brightness/",
+          "version": "v1.0.9"
+        },
+        {
+          "label": "Contrast",
+          "url": "/filter-contrast/",
+          "version": "v1.0.9"
+        },
+        {
+          "label": "Saturate",
+          "url": "/filter-saturate/",
           "version": "v1.0.9"
         },
         {
           "label": "Blur",
-          "url": "/filter-blur/"
+          "url": "/filter-blur/",
+          "version": "v1.0.9"
         },
         {
           "label": "Invert",

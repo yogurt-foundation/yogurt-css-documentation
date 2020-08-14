@@ -1,15 +1,15 @@
 ---
-id: filter-blur
-title: Filter Blur
-description: Utilities for sets filter blur effect to an element.
+id: filter-contrast
+title: Filter Contrast
+description: Utilities for sets contrast filter to an element.
 layout: default
 ---
 
 > Filters
 
-## Blur <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.9</span>
+## Contrast <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.9</span>
 
-Utilities for sets filter blur effect to an element.
+Utilities for sets contrast filter to an element.
 
 ### Class
 
@@ -17,32 +17,34 @@ Utilities for sets filter blur effect to an element.
 |:--|:--|
 | filter | filter: brightness(var(--brightness)) contrast(var(--contrast)) saturate(var(--saturate)) blur(var(--blur)) |
 
+### Value
+
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
 |:--|:--|
-| blur-0 | filter: blur(0px) |
-| blur-1 | filter: blur(2px) |
-| blur-2 | filter: blur(4px) |
-| blur-3 | filter: blur(6px) |
-| blur-4 | filter: blur(8px) |
-| blur-5 | filter: blur(10px) |
-| blur-6 | filter: blur(12px) |
-| blur-7 | filter: blur(14px) |
-| blur-8 | filter: blur(16px) |
-| blur-9 | filter: blur(18px) |
-| blur-10 | filter: blur(20px) |
+| contrast-0 | --contrast: 0 |
+| contrast-1 | --contrast: 1 |
+| contrast-2 | --contrast: 1.10 |
+| contrast-3 | --contrast: 1.20 |
+| contrast-4 | --contrast: 1.30 |
+| contrast-5 | --contrast: 1.40 |
+| contrast-6 | --contrast: 1.50 |
+| contrast-7 | --contrast: 1.60 |
+| contrast-8 | --contrast: 1.70 |
+| contrast-9 | --contrast: 1.80 |
+| contrast-10 | --contrast: 1.90 |
 
 ### Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
 
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  $utility: 'blur',
+  $utility: 'constrast',
   //$variant: 'responsive',
-  $property: 'filter',
+  $property: '--contrast',
   $modifier: (
-    '11': '...px',
-    '12': '...px'
-    ...
+    '11': '2.0',
+    '12': '2.5'
+    //...
   )
 )
 ```
