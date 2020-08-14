@@ -1,15 +1,15 @@
 ---
-id: filter-blur
-title: Filter Blur
-description: Utilities for sets filter blur effect to an element.
+id: filter-contrast
+title: Filter Contrast
+description: Utilities for sets contrast filter to an element.
 layout: default
 ---
 
 > Filters
 
-## Blur <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.9</span>
+## Contrast <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.9</span>
 
-Utilities for sets filter blur effect to an element.
+Utilities for sets contrast filter to an element.
 
 ### Class
 
@@ -17,33 +17,35 @@ Utilities for sets filter blur effect to an element.
 |:--|:--|
 | filter | filter: brightness(var(--brightness)) contrast(var(--contrast)) saturate(var(--saturate)) blur(var(--blur)) |
 
+### Value
+
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
 |:--|:--|
-| blur-0 | filter: blur(0px) |
-| blur-1 | filter: blur(2px) |
-| blur-2 | filter: blur(4px) |
-| blur-3 | filter: blur(6px) |
-| blur-4 | filter: blur(8px) |
-| blur-5 | filter: blur(10px) |
-| blur-6 | filter: blur(12px) |
-| blur-7 | filter: blur(14px) |
-| blur-8 | filter: blur(16px) |
-| blur-9 | filter: blur(18px) |
-| blur-10 | filter: blur(20px) |
+| contrast-0 | --contrast: 0 |
+| contrast-1 | --contrast: 1 |
+| contrast-2 | --contrast: 1.10 |
+| contrast-3 | --contrast: 1.20 |
+| contrast-4 | --contrast: 1.30 |
+| contrast-5 | --contrast: 1.40 |
+| contrast-6 | --contrast: 1.50 |
+| contrast-7 | --contrast: 1.60 |
+| contrast-8 | --contrast: 1.70 |
+| contrast-9 | --contrast: 1.80 |
+| contrast-10 | --contrast: 1.90 |
 
 ### Example
 
 <y class="mx-2 my-2 mx-auto flex">
   <y class="p-2 max-w-sm">
     <img class="w-full h-48 object-cover object-center overflow-hidden rounded-lg shadow"
-         src="https://picsum.photos/500?=4">
+         src="https://picsum.photos/500?=2">
     <y class="pt-2 text-sm text-center">
       Filter: OFF
     </y>
   </y>
-  <y class="m-2 max-w-sm">
-    <img class="filter blur-2 w-full h-48 object-fit object-center overflow-hidden rounded-lg"
-         src="https://picsum.photos/500?=4">
+  <y class="p-2 max-w-sm">
+    <img class="filter contrast-10 w-full h-48 object-cover object-center overflow-hidden rounded-lg shadow"
+         src="https://picsum.photos/500?=2">
     <y class="pt-2 text-sm text-center">
       Filter: ON
     </y>
@@ -54,15 +56,15 @@ Apply the `filter` class first, and then set the filter in any order when with o
 
 ```html
 <!-- Example -->
-<img class="filter blur-2 ..."
+<img class="filter contrast-10 ..."
      src="...">
 ```
 
-Mix with other filters, such as [Brightness](/filter-brightness/), [Contrast](/filter-contrast/) and [Saturate](/filter-saturate/).
+Mix with other filters, such as [Brightness](/filter-brightness/), [Saturate](/filter-saturate/) and [Blur](/filter-blur/).
 
 ```html
 <!-- Example -->
-<img class="filter blur-2 brightness-10 contrast-5 saturate-5 ..."
+<img class="filter contrast-10 brightness-10 saturate-5 blur-5 ..."
      src="...">
 ```
 
@@ -71,13 +73,13 @@ Mix with other filters, such as [Brightness](/filter-brightness/), [Contrast](/f
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  $utility: 'blur',
+  $utility: 'constrast',
   //$variant: 'responsive',
-  $property: 'filter',
+  $property: '--contrast',
   $modifier: (
-    '11': '...px',
-    '12': '...px'
-    ...
+    '11': '2.0',
+    '12': '2.5'
+    //...
   )
 )
 ```
