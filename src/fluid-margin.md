@@ -45,6 +45,17 @@ Utilities for sets min and max margins for screen size without breakpoints.
   Utility customizing is unavailable.
 </y>
 
+### Usage
+
+Set margin spacing adaptively to the width of the screen size. When the smaller screen size, the margin is `m-10` max. Meanwhile, when the screen size is getting bigger, the margin is `m-4` max.
+
+```html
+<!-- Example -->
+<y class="fluid m-min-10 m-max-4">
+  ...
+</y>
+```
+
 ### Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |

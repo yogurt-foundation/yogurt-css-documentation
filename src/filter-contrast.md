@@ -33,7 +33,7 @@ Utilities for sets contrast filter to an element.
 | contrast-9 | --contrast: 1.80 |
 | contrast-10 | --contrast: 1.90 |
 
-### Example
+### Usage
 
 <y class="mx-2 my-2 mx-auto flex">
   <y class="p-2 max-w-sm">

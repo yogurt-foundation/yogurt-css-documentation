@@ -33,7 +33,7 @@ Utilities for sets saturate filter to an element.
 | saturate-9 | --saturate: 1.80 |
 | saturate-10 | --saturate: 1.90 |
 
-### Example
+### Usage
 
 <y class="mx-2 my-2 mx-auto flex">
   <y class="p-2 max-w-sm">

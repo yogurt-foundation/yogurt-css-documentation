@@ -39,6 +39,17 @@ Utilities for sets min and max font sizes for screen size without breakpoints.
   Utility customizing is unavailable.
 </y>
 
+### Usage
+
+Set font size adaptively to the width of the screen size. When the smaller screen size, the text size is `text-lg` max. Meanwhile, when the screen size is getting bigger, the text size is `text-md` max.
+
+```html
+<!-- Example -->
+<y class="fluid text-min-lg text-max-md">
+  ...
+</y>
+```
+
 ### Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |

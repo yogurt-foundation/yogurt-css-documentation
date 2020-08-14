@@ -33,7 +33,7 @@ Utilities for sets brightness filter to an element.
 | brightness-9 | --brightness: 1.80 |
 | brightness-10 | --brightness: 1.90 |
 
-### Example
+### Usage
 
 <y class="mx-2 my-2 mx-auto flex">
   <y class="p-2 max-w-sm">
