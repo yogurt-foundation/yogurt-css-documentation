@@ -33,6 +33,41 @@ Utilities for sets brightness filter to an element.
 | brightness-9 | --brightness: 1.80 |
 | brightness-10 | --brightness: 1.90 |
 
+### Example
+
+<y class="mx-2 my-2 mx-auto flex">
+  <y class="p-2 max-w-sm">
+    <img class="w-full h-48 object-cover object-center overflow-hidden rounded-lg shadow"
+         src="https://picsum.photos/500?=1">
+    <y class="pt-2 text-sm text-center">
+      Filter: OFF
+    </y>
+  </y>
+  <y class="p-2 max-w-sm">
+    <img class="filter brightness-10 w-full h-48 object-cover object-center overflow-hidden rounded-lg shadow"
+         src="https://picsum.photos/500?=1">
+    <y class="pt-2 text-sm text-center">
+      Filter: ON
+    </y>
+  </y>
+</y>
+
+Apply the `filter` class first, and then set the filter in any order when with other filters.
+
+```html
+<!-- Example -->
+<img class="filter brightness-10 ..."
+     src="...">
+```
+
+Mix with other filters, such as [Contrast](/filter-contrast/), [Saturate](/filter-saturate/) and [Blur](/filter-blur/).
+
+```html
+<!-- Example -->
+<img class="filter brightness-10 contrast-5 saturate-5 blur-5 ..."
+     src="...">
+```
+
 ### Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
 
 ```scss
