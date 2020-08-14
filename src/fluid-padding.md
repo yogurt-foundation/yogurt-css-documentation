@@ -45,6 +45,17 @@ Utilities for sets min and max paddings for screen size without breakpoints.
   Utility customizing is unavailable.
 </y>
 
+### Usage
+
+Set padding spacing adaptively to the width of the screen size. When the smaller screen size, the padding is `p-10` max. Meanwhile, when the screen size is getting bigger, the padding is `p-4` max.
+
+```html
+<!-- Example -->
+<y class="fluid p-min-10 p-max-4">
+  ...
+</y>
+```
+
 ### Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |

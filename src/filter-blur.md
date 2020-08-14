@@ -31,7 +31,7 @@ Utilities for sets filter blur effect to an element.
 | blur-9 | filter: blur(18px) |
 | blur-10 | filter: blur(20px) |
 
-### Example
+### Usage
 
 <y class="mx-2 my-2 mx-auto flex">
   <y class="p-2 max-w-sm">
