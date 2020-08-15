@@ -127,6 +127,10 @@
         {
           "label": "Word Break",
           "url": "/word-break/"
+        },        {
+          "label": "Text Clamp",
+          "url": "/text-clamp/",
+          "version": "v1.0.9"
         }
       ]
     },
