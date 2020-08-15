@@ -46,7 +46,7 @@ layout: default
   </a>.)
 </y>
 
-## Using Yogurt via Package Manager
+## Using Yogurt via Package Manager <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.9</span>
 
 You can include the Yogurt CSS file from the `node_modules` directory with an HTML `<link>` tag.
 
