@@ -50,7 +50,8 @@
         {
           "label": "Z-Index",
           "url": "/z-index/"
-        },        {
+        },
+        {
           "label": "Render",
           "url": "/content-visibility/",
           "version": "v1.0.9"
@@ -127,7 +128,8 @@
         {
           "label": "Word Break",
           "url": "/word-break/"
-        },        {
+        },
+        {
           "label": "Text Clamp",
           "url": "/text-clamp/",
           "version": "v1.0.9"
