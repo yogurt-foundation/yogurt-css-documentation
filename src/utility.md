@@ -125,12 +125,16 @@ When styling the elements with Yogurt, you don't have to write like the example 
 
 To find out more about the **tag shorthand**, **utility class design** and **best practice** (See [Introduction](/)).
 
+Read more about advanced framework usages such as [Import Framework](/import-framework/), [Extract Utility Classes](/extract-utility-classes/), [Refactoring UI](/refactoring-ui/), and [Plugin API](/plugin-api/).
+
+---
+
 ### Benefit
 
 Styling with Yogurt CSS framework, you benefit from:
 
 - Blazing fast prototyping and make it production-ready.
-- Instant refactoring your existing UI with Yogurt utility modules (See, [Extract Utility Modules](/extract-utility-classes)).
+- Instant refactoring your existing UI with Yogurt utility modules.
 - Your CSS file will never grow, and no new stylesheet needed.
 - Your design always maintains a balance between consistency and flexibility design.
 - You never have to worry about overwriting existing stylesheets nightmare.
