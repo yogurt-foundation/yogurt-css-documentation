@@ -130,18 +130,18 @@ Not all responsive utilities are having all sorts of pseudo-class variants enabl
 To create responsive with variants, there are separate files for each pseudo-classes.
 
 ```scss
-// @file `responsive/variants/_hover.scss`
+// @file `responsive/pseudo/_hover.scss`
 @include opacity($prefix-responsive-hover, $pseudo-hover, $class-false);
 
-// @file `responsive/variants/_focus.scss`
+// @file `responsive/pseudo/_focus.scss`
 @include opacity($prefix-responsive-focus, $pseudo-focus, $class-false);
 
-// @file `responsive/variants/_active.scss`
+// @file `responsive/pseudo/_active.scss`
 @include opacity($prefix-responsive-active, $pseudo-active, $class-false);
 
-// @file `responsive/variants/_visited.scss`
+// @file `responsive/pseudo/_visited.scss`
 @include opacity($prefix-responsive-visited, $pseudo-visited, $class-false);
 
-// @file `responsive/variants/_disabled.scss`
+// @file `responsive/pseudo/_disabled.scss`
 @include opacity($prefix-responsive-disabled, $pseudo-disabled, $class-false);
 ```
