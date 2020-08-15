@@ -43,12 +43,10 @@ layout: default
   directive. (See
   <a href="/extract-utility-classes/">
     Extract Utility Classes
-  </a>.)
+  </a>)
 </y>
 
 ## Using Yogurt via Package Manager <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.9</span>
-
-You can include the Yogurt CSS file from the `node_modules` directory with an HTML `<link>` tag.
 
 ```bash
 # YARN
@@ -56,6 +54,17 @@ $ yarn add yogurt-css
 # NPM
 $ npm i yogurt-css
 ````
+
+You can include the Yogurt CSS file from the `node_modules` directory with an HTML `<link>` tag or import the `yogurt.scss` into `.scss` file with `@import` directive.
+
+```scss
+// with SCSS/SASS
+@import 'node_modules/yogurt-css/yogurt';
+
+// with <link> tag in HTML
+<link href="node_modules/yogurt-css/dist/yogurt-1.0.{version}_solidcore.css">
+<link href="node_modules/yogurt-css/dist/yogurt-1.0.{version}_solidcore.min.css">
+```
 
 <y class="my-4 mx-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
   <span class="pr-1 font-semibold">
@@ -73,6 +82,9 @@ $ npm i yogurt-css
 To create a new project, run:
 
 ```bash
+# YARN
+$ yarn create create-yogurt-app my-new-project
+# NPM
 $ npx create-yogurt-app my-new-project
 ```
 
@@ -81,6 +93,11 @@ The CLI gives you an optional tool to quickly installs and sets up a new fronten
 If you install the `create-yogurt-app` package to run locally, simply run `yogurt <project_name>`,
 
 ```bash
+# YARN
+$ yarn global add create-yogurt-app
+# NPM
+$ npm i -g create-yogurt-app
+# USAGE
 $ yogurt my-new-project
 ```
 
@@ -97,18 +114,21 @@ $ yogurt my-new-project
 
 <y class="mx-4 py-4">
   <img theme=""
-       class="w-full h-full object-fit object-center rounded-lg"
+       class="filter saturate-5 w-full h-full object-fit object-center rounded-lg"
        src="/images/content/yogurt_cli_screenshot_01.png">
 </y>
 
 ## Using Yogurt via Playground
 
-[Yogurt Playground](https://github.com/yogurt-foundation/playground) is a developer tool also an HTML/CSS IDE for testing and prototyping with all the Yogurt frameworks and other libraries such as, [FX-Filter](https://github.com/yogurt-foundation/fx-filter), [FX-Gradient](https://github.com/yogurt-foundation/fx-gradient), [FX-Motion](https://github.com/yogurt-foundation/fx-motion). If you have an idea and want to draft something small without setting up a new project, then Yogurt Playground is for you.
+[Yogurt Playground](https://github.com/yogurt-foundation/playground) is a developer tool also an HTML/CSS IDE for testing and prototyping with the Yogurt framework. If you have an idea and want to draft something small without setting up a new project, then Yogurt Playground is a tool for you.
 
 ```bash
 $ git clone https://github.com/yogurt-foundation/playground.git
 $ cd playground
+# YARN
 $ yarn && yarn start
+# NPM
+$ npm i && npm start
 ```
 
 <y class="my-4 mx-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
@@ -130,6 +150,6 @@ Download the precompiled desktop apps without going through the building process
 
 <y class="mx-4 py-4">
   <img theme=""
-       class="w-full h-full object-fit object-center rounded-lg"
+       class="filter saturate-5 w-full h-full object-fit object-center rounded-lg"
        src="/images/content/yogurt_playground_screenshot_01.png">
 </y>
