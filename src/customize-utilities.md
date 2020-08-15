@@ -40,19 +40,19 @@ To customize the existing utility modules is located in these directories,
 
 ```bash
 ./src/
-└── utilities
+└── variants
     ├── non-responsive
     │   ├── default
-    │   └── variants
+    │   └── pseudo
     └── responsive
         ├── default
-        └── variants
+        └── pseudo
 ```
 
 ### Example
 
 ```sass
-// @file `src/utilities/non-responsive/_default.scss`
+// @file `src/variants/non-responsive/default/_default.scss`
 
 /* accessibility */
 @include screenReader($class: $default)

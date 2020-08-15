@@ -9,7 +9,7 @@ layout: default
 
 ## Pseudo-Class Variants
 
-Using utilities to style and add effects to elements when on hover, group-hover, focus, active, disabled, or visited.
+Using utilities to style and add effects to elements when on `hover`, `group-hover`, `focus`, `active`, `disabled`, or `visited`.
 
 ### Hover
 
@@ -18,7 +18,7 @@ Add the `hover:` prefix to an utility to enable on-hover.
 ```html
 <!-- Example -->
 <y class="text-charcoal-100 hover:text-white bg-white hover:bg-charcoal-100">
-  Hover me!
+  ...
 </y>
 ```
 
@@ -30,7 +30,7 @@ Add `group` class to the parent element and add the `group-hover:` prefix to an 
 <!-- Example -->
 <y class="group bg-charcoal-100 hover:bg-orange-400">
   <y class="group-hover:text-white">
-    This is a text!
+    ...
   </y>
 </y>
 ```
@@ -53,29 +53,57 @@ Add the `active:` prefix to an utility to enable on-active.
 ```html
 <!-- Example -->
 <button class="bg-charcoal-100 active:bg-red-400 text-white">
-  Click me!
+  ...
 </button>
+```
+
+### Disabled
+
+Add the `disabled:` prefix to an utility to enable on-disabled.
+
+```html
+<!-- Example -->
+<button class="disabled:text-gray-600 disabled:bg-gray-400">
+  ...
+</button>
+```
+
+### Visited
+
+Add the `visited:` prefix to an utility to enable on-visited.
+
+```html
+<!-- Example -->
+<a class="text-gray-500 visited:text-purple-500 visited:underline"
+   href="...">
+  ...
+</a>
 ```
 
 ### Create Custom Variants
 
-Same like [responsive](/responsive), the different is the file location. To create custom variants to a utility, look into directory `/utilities/variants/`, and then add a new `@include()` directive with defined utility name (e.g. `fontSize`), last the arguments into the variant file (e.g. `_hover.scss`).
+Same like [responsive](/responsive/), the different is the file location. To create custom variants to a utility, look into directory `src/variants/{ non-responsive or responsive }/`, and then add a new `@include()` directive with defined utility name (e.g. `fontSize`), last the arguments into the variant file (e.g. `_hover.scss`).
 
 ```scss
-// @file `utilities/variants/_hover.scss`
+// @file `variants/non-responsive/pseudo/_hover.scss`
+// @file `variants/responsive/pseudo/_hover.scss`
 @include fontSize($prefix-hover, $pseudo-hover, $class-false);
 
-// @file `utilities/variants/_focus.scss`
+// @file `variants/non-responsive/pseudo/_focus.scss`
+// @file `variants/responsive/pseudo/_focus.scss`
 @include fontSize($prefix-focus, $pseudo-focus, $class-false);
 
-// @file `utilities/variants/_active.scss`
+// @file `variants/non-responsive/pseudo/_active.scss`
+// @file `variants/responsive/pseudo/_active.scss`
 @include fontSize($prefix-active, $pseudo-active, $class-false);
 
-// @file `utilities/variants/_visited.scss`
+// @file `variants/non-responsive/pseudo/_visited.scss`
+// @file `variants/responsive/pseudo/_visited.scss`
 @include fontSize($prefix-visited, $pseudo-visited, $class-false);
 
-// @file `utilities/variants/_disabled.scss`
+// @file `variants/non-responsive/pseudo/_disabled.scss`
+// @file `variants/responsive/pseudo/_disabled.scss`
 @include fontSize($prefix-disabled, $pseudo-disabled, $class-false);
 ```
 
-**Note:** Some utility has `negative` value and require to add `negative[true|false]` argument into `@include()` directive.
+Some utility has `negative` value and require to add `negative[true|false]` argument into `@include()` directive.
