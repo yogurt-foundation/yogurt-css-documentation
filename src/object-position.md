@@ -11,6 +11,8 @@ layout: default
 
 Utilities for sets the alignment of the selected replaced element.
 
+---
+
 ### Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
@@ -24,6 +26,8 @@ Utilities for sets the alignment of the selected replaced element.
 | object-right-bottom | object-position: right bottom |
 | object-right-top | object-position: right top |
 | object-top | object-position: top |
+
+---
 
 ### Variant
 

@@ -11,6 +11,8 @@ layout: default
 
 Utilities for sets the text color.
 
+---
+
 ### Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |  |
@@ -144,6 +146,8 @@ Utilities for sets the text color.
 | text-nero-800 | color: #0e0f11 | <y class="px-2 text-lg text-nero-800 bg-white font-semibold">Text</y> |
 | text-nero-900 | color: #0a0a0b | <y class="px-2 text-lg text-nero-900 bg-white font-semibold">Text</y> |
 
+---
+
 ### Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
 
 ```scss
@@ -159,6 +163,8 @@ Utilities for sets the text color.
   )
 )
 ```
+
+---
 
 ### Variant
 

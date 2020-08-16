@@ -11,6 +11,8 @@ layout: default
 
 Utilities for sets how to handle content that's too big for it's container.
 
+---
+
 ### Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
@@ -29,6 +31,8 @@ Utilities for sets how to handle content that's too big for it's container.
 | overflow-y-scroll | overflow-y: scroll |
 | scrolling-touch | -webkit-overflow-scrolling: touch |
 | scrolling-auto | -webkit-overflow-scrolling: auto |
+
+---
 
 ### Variant
 

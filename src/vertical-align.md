@@ -11,6 +11,8 @@ layout: default
 
 Utilities for sets the vertical alignment of an inline or table-cell box.
 
+---
+
 ### Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
@@ -21,6 +23,8 @@ Utilities for sets the vertical alignment of an inline or table-cell box.
 | align-bottom | vertical-align: bottom |
 | align-text-top | vertical-align: text-top |
 | align-text-bottom | vertical-align: text-bottom |
+
+---
 
 ### Variant
 

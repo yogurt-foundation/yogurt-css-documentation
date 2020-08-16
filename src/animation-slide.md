@@ -11,6 +11,8 @@ layout: default
 
 Utilities for sets the sliding animation to an element.
 
+---
+
 ### Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> | |
@@ -30,6 +32,8 @@ Utilities for sets the sliding animation to an element.
   </span>
   Utility customizing is unavailable.
 </y>
+
+---
 
 ### Variant
 

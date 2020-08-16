@@ -11,6 +11,8 @@ layout: default
 
 Utilities for sets the display box type of an element.
 
+---
+
 ### Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
@@ -30,6 +32,8 @@ Utilities for sets the display box type of an element.
 | table-column-group <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.8</span> | display: table-column-group |
 | table-header-group <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.8</span> | display: table-header-group |
 | table-footer-group <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.8</span> | display: table-footer-group |
+
+---
 
 ### Variant
 

@@ -11,6 +11,8 @@ layout: default
 
 Utilities for sets page theme either dark or light based on web browser or app settings.
 
+---
+
 ### Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">attribute</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
@@ -30,6 +32,8 @@ Utilities for sets page theme either dark or light based on web browser or app s
   </span>
   Only supported web browsers can benefit from this utility.
 </y>
+
+---
 
 ### Usage
 
@@ -55,6 +59,8 @@ But, the images and some other elements will look inverted. To compensate that, 
 </html>
 ```
 
+---
+
 ### Simulate
 
 To simulate `theme="auto"` on a Chrome-based web browser at the developer tools, by pressing `CTRL+SHIFT+I` and find your way to enable the `Rendering` options in the picture below. You 'll find the `Emulate CSS media feature prefers-color-scheme` menu.
@@ -64,6 +70,8 @@ To simulate `theme="auto"` on a Chrome-based web browser at the developer tools,
        class="w-full h-full object-fit object-center rounded-lg"
        src="/images/content/simulate_theme.jpg">
 </y>
+
+---
 
 ### Variant
 

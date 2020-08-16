@@ -11,6 +11,8 @@ layout: default
 
 Utilities for sets border color.
 
+---
+
 ### Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |  |
@@ -154,6 +156,8 @@ Utilities for sets border color.
 | border-nero-800 | border-color: #0e0f11 | <y class="w-16 h-8 rounded border-2 border-nero-800 "></y> |
 | border-nero-900 | border-color: #0a0a0b | <y class="w-16 h-8 rounded border-2 border-nero-900 "></y> |
 
+---
+
 ### Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
 
 ```scss
@@ -169,6 +173,8 @@ Utilities for sets border color.
   )
 )
 ```
+
+---
 
 ### Variant
 

@@ -11,6 +11,8 @@ layout: default
 
 Utilities for sets the capitalization of text.
 
+---
+
 ### Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> | |
@@ -19,6 +21,8 @@ Utilities for sets the capitalization of text.
 | lowercase | text-transform: lowercase | <y class="text-lg lowercase">TEXT</y> |
 | capitalize | text-transform: capitalize | <y class="text-lg capitalize">text</y> |
 | normal-case | text-transform: none | <y class="text-lg none">text</y> |
+
+---
 
 ### Variant
 

@@ -11,6 +11,8 @@ layout: default
 
 Utilities for sets the font size.
 
+---
+
 ### Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> | |
@@ -28,6 +30,8 @@ Utilities for sets the font size.
 | text-7xl | font-size: 5rem | <span class="text-7xl">Text</span> |
 | text-8xl | font-size: 6rem | <span class="text-8xl">Text</span> |
 
+---
+
 ### Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
 
 ```scss
@@ -43,6 +47,8 @@ Utilities for sets the font size.
   )
 )
 ```
+
+---
 
 ### Variant
 

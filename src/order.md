@@ -11,6 +11,8 @@ layout: default
 
 Utilities for controls how flex items are ordered.
 
+---
+
 ### Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
@@ -31,6 +33,8 @@ Utilities for controls how flex items are ordered.
 | order-11 | order: 11 |
 | order-12 | order: 12 |
 
+---
+
 ### Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
 
 ```scss
@@ -46,6 +50,8 @@ Utilities for controls how flex items are ordered.
   )
 )
 ```
+
+---
 
 ### Variant
 

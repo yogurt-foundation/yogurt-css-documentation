@@ -11,6 +11,8 @@ layout: default
 
 Utilities for sets filter blur effect to an element.
 
+---
+
 ### Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
@@ -30,6 +32,8 @@ Utilities for sets filter blur effect to an element.
 | blur-8 | filter: blur(16px) |
 | blur-9 | filter: blur(18px) |
 | blur-10 | filter: blur(20px) |
+
+---
 
 ### Usage
 
@@ -66,6 +70,8 @@ Mix with other filters, such as [Brightness](/filter-brightness/), [Contrast](/f
      src="...">
 ```
 
+---
+
 ### Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
 
 ```scss
@@ -81,6 +87,8 @@ Mix with other filters, such as [Brightness](/filter-brightness/), [Contrast](/f
   )
 )
 ```
+
+---
 
 ### Variant
 

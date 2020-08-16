@@ -11,6 +11,8 @@ layout: default
 
 Utilities for sets min and max paddings for screen size without breakpoints.
 
+---
+
 ## Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
@@ -45,6 +47,8 @@ Utilities for sets min and max paddings for screen size without breakpoints.
   Utility customizing is unavailable.
 </y>
 
+---
+
 ### Usage
 
 Set padding spacing adaptively to the width of the screen size. When the smaller screen size, the padding is `p-10` max. Meanwhile, when the screen size is getting bigger, the padding is `p-4` max.
@@ -55,6 +59,8 @@ Set padding spacing adaptively to the width of the screen size. When the smaller
   ...
 </y>
 ```
+
+---
 
 ### Variant
 
