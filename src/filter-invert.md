@@ -33,7 +33,7 @@ Utilities for sets filter inverts effect to an element.
     </y>
   </y>
   <y class="m-2 max-w-sm">
-    <img class="filter invert-1 w-full h-48 object-fit object-center overflow-hidden rounded-lg"
+    <img class="filter invert-1 w-full h-48 object-cover object-center overflow-hidden rounded-lg"
          src="https://picsum.photos/500?=5">
     <y class="pt-2 text-sm text-center">
       Filter: ON
