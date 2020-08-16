@@ -45,6 +45,22 @@ Utilities for sets border width in increments of 1px.
 
 ---
 
+## Usage
+
+<y class="px-4 my-2 mx-auto w-56">
+  <y class="p-4 bg-gray-400 border-8">
+    <y class="w-full h-24 bg-gray-500"></y>
+  </y>
+</y>
+
+```html
+<y class="border-8">
+  ...
+</y>
+```
+
+---
+
 ## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
 
 ```scss
