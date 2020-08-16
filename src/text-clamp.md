@@ -7,13 +7,13 @@ layout: default
 
 > Typography
 
-## Text Clamp <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.9</span>
+# Text Clamp <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.9</span>
 
 Utilities for sets total display text line to an element.
 
 ---
 
-### Class
+## Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
 |:--|:--|
@@ -39,7 +39,7 @@ Utilities for sets total display text line to an element.
 
 ---
 
-### Usage
+## Usage
 
 <y class="mx-2 my-2 mx-auto flex flex-wrap">
   <y class="p-4 w-1/2">
@@ -85,7 +85,7 @@ Utilities for sets total display text line to an element.
 
 ---
 
-### Variant
+## Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
 |:-:|:-:|:-:|

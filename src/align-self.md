@@ -7,13 +7,13 @@ layout: default
 
 > Flexbox
 
-## Align Self
+# Align Self
 
 Utilities for controls how an individual flex item is positioned along container's cross axis.
 
 ---
 
-### Class
+## Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
 |:--|:--|
@@ -25,7 +25,7 @@ Utilities for controls how an individual flex item is positioned along container
 
 ---
 
-### Variant
+## Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
 |:-:|:-:|:-:|

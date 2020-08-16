@@ -7,13 +7,13 @@ layout: default
 
 > Filters
 
-## Brightness <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.9</span>
+# Brightness <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.9</span>
 
 Utilities for sets brightness filter to an element.
 
 ---
 
-### Class
+## Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
 |:--|:--|
@@ -35,7 +35,7 @@ Utilities for sets brightness filter to an element.
 
 ---
 
-### Usage
+## Usage
 
 <y class="mx-2 my-2 mx-auto flex">
   <y class="p-2 max-w-sm">
@@ -70,7 +70,7 @@ Mix with other filters, such as [Contrast](/filter-contrast/), [Saturate](/filte
      src="...">
 ```
 
-### Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
+## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
 
 ```scss
 // @file: `src/_plugins.scss`
@@ -85,7 +85,7 @@ Mix with other filters, such as [Contrast](/filter-contrast/), [Saturate](/filte
 )
 ```
 
-### Variant
+## Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
 |:-:|:-:|:-:|

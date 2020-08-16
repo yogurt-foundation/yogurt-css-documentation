@@ -7,7 +7,7 @@ layout: default
 
 > Effects
 
-## Gradient <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.8</span>
+# Gradient <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.8</span>
 
 Utilities for sets the gradient preset diagonally to an element.
 
@@ -193,7 +193,7 @@ Utilities for sets the gradient preset diagonally to an element.
 
 ---
 
-### Variant
+## Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
 |:-:|:-:|:-:|

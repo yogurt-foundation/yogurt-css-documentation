@@ -7,13 +7,13 @@ layout: default
 
 > Background
 
-## Background Gradient <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.9</span>
+# Background Gradient <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.9</span>
 
 Utilities for sets the background gradient color to an element with flexible control over color, color space and angles.
 
 ---
 
-### Class
+## Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
 |:--|:--|
@@ -179,7 +179,7 @@ Utilities for sets the background gradient color to an element with flexible con
 | <span class="text-gray-600">start</span>/<span class="text-gray-600">stop</span>-nero-800 | --bg-gradient-<span class="text-gray-600">start</span>/<span class="text-gray-600">stop</span>-color: #0e0f11 | <y class="w-16 h-8 rounded bg-nero-800 "></y> |
 | <span class="text-gray-600">start</span>/<span class="text-gray-600">stop</span>-nero-900 | --bg-gradient-<span class="text-gray-600">start</span>/<span class="text-gray-600">stop</span>-color: #0a0a0b | <y class="w-16 h-8 rounded bg-nero-900 "></y> |
 
-### Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
+## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
 
 ```scss
 // @file: `src/_plugins.scss`
@@ -238,7 +238,7 @@ Utilities for sets the background gradient color to an element with flexible con
 
 ---
 
-### Variant
+## Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
 |:-:|:-:|:-:|

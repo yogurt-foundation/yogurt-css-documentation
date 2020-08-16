@@ -7,13 +7,13 @@ layout: default
 
 > Theme
 
-## Theme Invert <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.9</span>
+# Theme Invert <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.9</span>
 
 Utilities for sets page theme either dark or light by applying force invert.
 
 ---
 
-### Class
+## Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">attribute</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
 |:--|:--|
@@ -35,7 +35,7 @@ Utilities for sets page theme either dark or light by applying force invert.
 
 ---
 
-### Usage
+## Usage
 
 The basic set up for `theme="invert"` attribute is with the `<html>` tag. This allows the utility to attenuate colors of the page theme but not changing any color of it.
 
@@ -73,7 +73,7 @@ To simulate `theme="invert"` on a Chrome-based web browser at the developer tool
 
 ---
 
-### Variant
+## Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
 |:-:|:-:|:-:|
