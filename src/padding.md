@@ -153,24 +153,6 @@ Utilities for controls padding in 0.25rem increments.
 
 ---
 
-## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
-
-```scss
-// @file: `src/_plugins.scss`
-@include plugin(
-  $utility: 'p',
-  //$variant: 'responsive',
-  $property: 'padding',
-  $modifier: (
-    '72': '...rem',
-    '84': '...rem'
-    ...
-  )
-)
-```
-
----
-
 ## Usage
 
 Set padding to `top`, `bottom`, `left` and `right`.
@@ -276,6 +258,24 @@ Set padding to `right`.
 <y class="pr-6 bg-gray-400 ...">
   <y class="w-full h-32 bg-gray-500 ..."></y>
 </y>
+```
+
+---
+
+## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
+
+```scss
+// @file: `src/_plugins.scss`
+@include plugin(
+  $utility: 'p',
+  //$variant: 'responsive',
+  $property: 'padding',
+  $modifier: (
+    '72': '...rem',
+    '84': '...rem'
+    ...
+  )
+)
 ```
 
 ---
