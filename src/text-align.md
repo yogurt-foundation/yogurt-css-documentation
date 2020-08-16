@@ -11,6 +11,8 @@ layout: default
 
 Utilities for sets the alignment of text.
 
+---
+
 ### Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
@@ -19,6 +21,8 @@ Utilities for sets the alignment of text.
 | text-center | text-align: center |
 | text-right | text-align: right |
 | text-justify | text-align: justify |
+
+---
 
 ### Variant
 

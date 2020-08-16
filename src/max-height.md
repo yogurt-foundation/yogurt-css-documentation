@@ -11,12 +11,16 @@ layout: default
 
 Utilities for sets the maximum height of an element.
 
+---
+
 ### Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
 |:--|:--|
 | max-h-full | max-height: 100% |
 | max-h-screen | max-height: 100vh |
+
+---
 
 ### Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
 
@@ -33,6 +37,8 @@ Utilities for sets the maximum height of an element.
   )
 )
 ```
+
+---
 
 ### Variant
 

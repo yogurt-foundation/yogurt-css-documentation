@@ -11,6 +11,8 @@ layout: default
 
 Utilities for sets skip rendering if element is off-screen to improve overall page rendering speed.
 
+---
+
 ### Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
@@ -39,6 +41,8 @@ Utilities for sets skip rendering if element is off-screen to improve overall pa
   </span>
   Only supported web browsers can benefit from this utility.
 </y>
+
+---
 
 ### Variant
 

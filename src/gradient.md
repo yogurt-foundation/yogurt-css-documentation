@@ -11,6 +11,8 @@ layout: default
 
 Utilities for sets the gradient preset diagonally to an element.
 
+---
+
 ## Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
@@ -188,6 +190,8 @@ Utilities for sets the gradient preset diagonally to an element.
 | gagarin-view | -225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100% | <y class="w-16 h-8 gradient-gagarin-view rounded shadow"></y> |
 | fabled-sunset | -225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100% | <y class="w-16 h-8 gradient-fabled-sunset rounded shadow"></y> |
 | perfect-blue | -225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%) | <y class="w-16 h-8 gradient-perfect-blue rounded shadow"></y> |
+
+---
 
 ### Variant
 

@@ -11,13 +11,13 @@ layout: default
 
 Utilities for sets contrast filter to an element.
 
+---
+
 ### Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
 |:--|:--|
 | filter | filter: brightness(var(--brightness)) contrast(var(--contrast)) saturate(var(--saturate)) blur(var(--blur)) |
-
-### Value
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
 |:--|:--|
@@ -32,6 +32,8 @@ Utilities for sets contrast filter to an element.
 | contrast-8 | --contrast: 1.70 |
 | contrast-9 | --contrast: 1.80 |
 | contrast-10 | --contrast: 1.90 |
+
+---
 
 ### Usage
 
@@ -68,6 +70,8 @@ Mix with other filters, such as [Brightness](/filter-brightness/), [Saturate](/f
      src="...">
 ```
 
+---
+
 ### Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
 
 ```scss
@@ -83,6 +87,8 @@ Mix with other filters, such as [Brightness](/filter-brightness/), [Saturate](/f
   )
 )
 ```
+
+---
 
 ### Variant
 

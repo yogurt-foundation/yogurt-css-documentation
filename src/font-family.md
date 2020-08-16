@@ -11,6 +11,8 @@ layout: default
 
 Utilities for sets the font family.
 
+---
+
 ### Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> | |
@@ -25,6 +27,8 @@ Utilities for sets the font family.
 | font-thai | font-family: Leelawadee, Thonburi, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif | <y class="px-2 text-lg font-thai bg-white">ข้อความ</y> |
 | font-chinese | font-family: Microsoft Yahei, PingFang SC, PingFang TC, Hiragino Sans, Hiragino Kaku Gothic Pro, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif | <y class="px-2 text-lg font-chinese bg-white">文本</y> |
 
+
+---
 
 ### Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
 
@@ -41,6 +45,8 @@ Utilities for sets the font family.
   )
 )
 ```
+
+---
 
 ### Variant
 

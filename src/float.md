@@ -11,6 +11,8 @@ layout: default
 
 Utilities for sets an element's placement to a side of its container and allows content to wrap around it.
 
+---
+
 ### Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
@@ -19,6 +21,8 @@ Utilities for sets an element's placement to a side of its container and allows 
 | float-left | float: left |
 | float-none | float: none |
 | clearfix | &::after { <br> content: ""; <br> display: table; <br> clear: both; } |
+
+---
 
 ### Variant
 

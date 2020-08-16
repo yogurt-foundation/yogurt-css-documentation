@@ -11,6 +11,8 @@ layout: default
 
 Utilities for sets opacity of background color.
 
+---
+
 ### Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
@@ -20,6 +22,8 @@ Utilities for sets opacity of background color.
 | bg-opacity-50 | --bg-opacity: .5 |
 | bg-opacity-75 | --bg-opacity: .75 |
 | bg-opacity-100 | --bg-opacity: 1 |
+
+---
 
 ### Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
 
@@ -36,6 +40,8 @@ Utilities for sets opacity of background color.
   )
 )
 ```
+
+---
 
 ### Variant
 

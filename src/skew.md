@@ -11,6 +11,8 @@ layout: default
 
 Utilities for skews an element that has transform applied.
 
+---
+
 ### Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
@@ -29,6 +31,8 @@ Utilities for skews an element that has transform applied.
 | -skew-y-12 | --transform-skew-y: -12deg |
 | -skew-y-6 | --transform-skew-y: -6deg |
 | -skew-y-3 | --transform-skew-y: -3deg |
+
+---
 
 ### Variant
 

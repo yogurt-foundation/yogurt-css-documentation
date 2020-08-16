@@ -11,6 +11,8 @@ layout: default
 
 Utilities for sets the box-shadow property attaches one or more shadows to an element.
 
+---
+
 ### Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> | |
@@ -25,6 +27,8 @@ Utilities for sets the box-shadow property attaches one or more shadows to an el
 | shadow-inner | box-shadow: <br> inset 0 2px 4px 0 rgba(0, 0, 0, 0.06) | <y class="w-16 h-6 rounded bg-white shadow-inner"></y> |
 | shadow-outline | box-shadow: <br> 0 0 0 3px rgba(66, 153, 225, 0.5) | <y class="w-16 h-6 rounded bg-white shadow-outline"></y> |
 | shadow-none | box-shadow: none | <y class="w-16 h-6 rounded bg-white shadow-none"></y> |
+
+---
 
 ### Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
 
@@ -41,6 +45,8 @@ Utilities for sets the box-shadow property attaches one or more shadows to an el
   )
 )
 ```
+
+---
 
 ### Variant
 

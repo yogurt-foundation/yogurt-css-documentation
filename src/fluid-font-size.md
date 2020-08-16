@@ -11,6 +11,8 @@ layout: default
 
 Utilities for sets min and max font sizes for screen size without breakpoints.
 
+---
+
 ## Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
@@ -39,6 +41,8 @@ Utilities for sets min and max font sizes for screen size without breakpoints.
   Utility customizing is unavailable.
 </y>
 
+---
+
 ### Usage
 
 Set font size adaptively to the width of the screen size. When the smaller screen size, the text size is `text-lg` max. Meanwhile, when the screen size is getting bigger, the text size is `text-md` max.
@@ -49,6 +53,8 @@ Set font size adaptively to the width of the screen size. When the smaller scree
   ...
 </y>
 ```
+
+---
 
 ### Variant
 

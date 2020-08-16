@@ -11,6 +11,8 @@ layout: default
 
 Utilities for translate an element that has transform applied.
 
+---
+
 ### Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
@@ -97,6 +99,8 @@ Utilities for translate an element that has transform applied.
 | -translate-y-1/2 | --transform-translate-y: -50% |
 | translate-y-1/2 | --transform-translate-y: 50% |
 | translate-y-full | --transform-translate-y: 100% |
+
+---
 
 ### Variant
 

@@ -11,6 +11,8 @@ layout: default
 
 Utilities for controls how lines are positioned in multi-line flex containers.
 
+---
+
 ### Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
@@ -20,6 +22,8 @@ Utilities for controls how lines are positioned in multi-line flex containers.
 | content-end | align-content: flex-end |
 | content-between | align-content: space-between |
 | content-around | align-content: space-around |
+
+---
 
 ### Variant
 

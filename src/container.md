@@ -11,6 +11,8 @@ layout: default
 
 Utilities for set max-width to match min-width of the current breakpoint.
 
+---
+
 ### Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">breakpoint</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
@@ -34,6 +36,8 @@ Utilities for set max-width to match min-width of the current breakpoint.
   </span>
   Utility customizing is unavailable.
 </y>
+
+---
 
 ### Variant
 

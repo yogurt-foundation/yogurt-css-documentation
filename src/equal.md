@@ -11,7 +11,9 @@ layout: default
 
 Utilities for sets balancing the space in between child elements.
 
-## Class
+---
+
+### Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
 |:--|:--|
@@ -98,6 +100,8 @@ Utilities for sets balancing the space in between child elements.
   </span>
   Utility customizing is unavailable.
 </y>
+
+---
 
 ### Variant
 

@@ -11,13 +11,13 @@ layout: default
 
 Utilities for sets brightness filter to an element.
 
+---
+
 ### Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
 |:--|:--|
 | filter | filter: brightness(var(--brightness)) contrast(var(--contrast)) saturate(var(--saturate)) blur(var(--blur)) |
-
-### Value
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
 |:--|:--|
@@ -32,6 +32,8 @@ Utilities for sets brightness filter to an element.
 | brightness-8 | --brightness: 1.70 |
 | brightness-9 | --brightness: 1.80 |
 | brightness-10 | --brightness: 1.90 |
+
+---
 
 ### Usage
 

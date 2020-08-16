@@ -11,6 +11,8 @@ layout: default
 
 Utilities for controls whether the user can select text.
 
+---
+
 ### Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
@@ -19,6 +21,8 @@ Utilities for controls whether the user can select text.
 | select-text | user-select: text |
 | select-all | user-select: all |
 | select-auto | user-select: auto |
+
+---
 
 ### Variant
 

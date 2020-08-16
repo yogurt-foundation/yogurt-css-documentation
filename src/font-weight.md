@@ -11,6 +11,8 @@ layout: default
 
 Utilities for sets the font weight.
 
+---
+
 ### Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> | |
@@ -24,6 +26,8 @@ Utilities for sets the font weight.
 | font-bold | font-weight: 700 | <y class="text-lg font-bold">Text</y> |
 | font-extrabold | font-weight: 800 | <y class="text-lg font-extrabold">Text</y> |
 | font-black | font-weight: 900 | <y class="text-lg font-black">Text</y> |
+
+---
 
 ### Variant
 

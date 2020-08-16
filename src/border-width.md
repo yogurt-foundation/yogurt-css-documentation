@@ -11,6 +11,8 @@ layout: default
 
 Utilities for sets border width in increments of 1px.
 
+---
+
 ### Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> | |
@@ -41,6 +43,8 @@ Utilities for sets border width in increments of 1px.
 | border-b-8 | border-bottom-width: 8px | <y class="w-16 h-8 bg-gray-300 border border-b-8 border-gray-900"></y> |
 | border-l-8 | border-left-width: 8px | <y class="w-16 h-8 bg-gray-300 border border-l-8 border-gray-900"></y> |
 
+---
+
 ### Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
 
 ```scss
@@ -56,6 +60,8 @@ Utilities for sets border width in increments of 1px.
   )
 )
 ```
+
+---
 
 ### Variant
 

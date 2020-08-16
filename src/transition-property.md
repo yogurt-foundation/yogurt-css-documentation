@@ -11,6 +11,8 @@ layout: default
 
 Utilities for sets the css properties affected by transition animations.
 
+---
+
 ### Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
@@ -22,6 +24,8 @@ Utilities for sets the css properties affected by transition animations.
 | transition-opacity | transition-property: opacity |
 | transition-shadow | transition-property: box-shadow |
 | transition-transform | transition-property: transform |
+
+---
 
 ### Variant
 

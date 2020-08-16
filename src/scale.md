@@ -11,6 +11,8 @@ layout: default
 
 Utilities for scales an element that has transform applied.
 
+---
+
 ### Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
@@ -45,6 +47,8 @@ Utilities for scales an element that has transform applied.
 | scale-y-110 | --transform-scale-y: 1.1 |
 | scale-y-125 | --transform-scale-y: 1.25 |
 | scale-y-150 | --transform-scale-y: 1.5 |
+
+---
 
 ### Variant
 
