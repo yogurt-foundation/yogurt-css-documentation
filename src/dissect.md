@@ -39,6 +39,46 @@ Utilities for sets border on each child elements of its parent.
 
 ---
 
+## Usage
+
+Set borders in between the elements horizontally, must companion with [flex](/flex/) utility.
+
+<y class="p-4 my-2 mx-auto max-w-sm bg-gray-400">
+  <y class="flex dissect-x-4 bg-gray-600">
+    <y class="w-64 h-8 bg-gray-500 flex justify-center items-center text-gray-600">1</y>
+    <y class="w-64 h-8 bg-gray-500 flex justify-center items-center text-gray-600">2</y>
+    <y class="w-64 h-8 bg-gray-500 flex justify-center items-center text-gray-600">3</y>
+  </y>
+</y>
+
+```html
+<y class="flex dissect-x-4">
+  <y>1</y>
+  <y>2</y>
+  <y>3</y>
+</y>
+```
+
+Set borders in between the elements vertically.
+
+<y class="p-4 my-2 mx-auto max-w-sm bg-gray-400">
+  <y class="dissect-y-4 bg-gray-600">
+    <y class="w-64 h-8 bg-gray-500 flex justify-center items-center text-gray-600">1</y>
+    <y class="w-64 h-8 bg-gray-500 flex justify-center items-center text-gray-600">2</y>
+    <y class="w-64 h-8 bg-gray-500 flex justify-center items-center text-gray-600">3</y>
+  </y>
+</y>
+
+```html
+<y class="dissect-y-4">
+  <y>1</y>
+  <y>2</y>
+  <y>3</y>
+</y>
+```
+
+---
+
 ## Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
