@@ -11,6 +11,8 @@ layout: default
 
 Utilities for sets total display text line to an element.
 
+---
+
 ### Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
@@ -34,6 +36,55 @@ Utilities for sets total display text line to an element.
   </span>
   Only supported web browsers can benefit from this utility.
 </y>
+
+---
+
+### Usage
+
+<y class="mx-2 my-2 mx-auto flex flex-wrap">
+  <y class="p-4 w-1/2">
+    <y class="font-serif text-2xl">
+      Clamp-1
+    </y>
+    <y class="text-sm depth-tight clamp-1">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </y>
+  </y>
+  <y class="p-4 w-1/2">
+    <y class="font-serif text-2xl">
+      Clamp-2
+    </y>
+    <y class="text-sm depth-tight clamp-2">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </y>
+  </y>
+  <y class="p-4 w-1/2">
+    <y class="font-serif text-2xl">
+      Clamp-3
+    </y>
+    <y class="text-sm depth-tight clamp-3">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </y>
+  </y>
+  <y class="p-4 w-1/2">
+    <y class="font-serif text-2xl">
+      Clamp-4
+    </y>
+    <y class="text-sm depth-tight clamp-4">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </y>
+  </y>
+</y>
+
+
+```html
+<!-- Example -->
+<y class="text-md depth-tight ... clamp-3">
+  ...
+</y>
+```
+
+---
 
 ### Variant
 
