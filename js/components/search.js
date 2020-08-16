@@ -87,14 +87,14 @@ export default async() => {
     }
 
     return `
-      <a class="search-result block z-10 m-0 p-2 outline-none border-2 border-transparent rounded focus:border-blue-400"
+      <a class="search-result block z-10 m-0 p-3 outline-none border-2 border-transparent rounded focus:border-blue-400"
          href="${result.url}">
-        <p class="font-medium text-base">
+        <p class="font-medium text-lg">
           ${title}
         </p>
         ${content}
       </a>
-      <y class="divider border-t border-gray-200 my-2"></y>
+      <y class="border border-gray-100 my-2"></y>
     `;
 
   }
