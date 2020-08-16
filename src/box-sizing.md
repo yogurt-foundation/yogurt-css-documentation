@@ -7,13 +7,13 @@ layout: default
 
 > Layouts
 
-## Box Sizing
+# Box Sizing
 
 Utilities for sets how the total width and height of an element is calculated.
 
 ---
 
-### Class
+## Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
 |:--|:--|
@@ -22,7 +22,7 @@ Utilities for sets how the total width and height of an element is calculated.
 
 ---
 
-### Variant
+## Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
 |:-:|:-:|:-:|

@@ -7,7 +7,7 @@ layout: default
 
 > Effects
 
-## Fluid Margin <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.8</span>
+# Fluid Margin <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.8</span>
 
 Utilities for sets min and max margins for screen size without breakpoints.
 
@@ -49,7 +49,7 @@ Utilities for sets min and max margins for screen size without breakpoints.
 
 ---
 
-### Usage
+## Usage
 
 Set margin spacing adaptively to the width of the screen size. When the smaller screen size, the margin is `m-10` max. Meanwhile, when the screen size is getting bigger, the margin is `m-4` max.
 
@@ -62,7 +62,7 @@ Set margin spacing adaptively to the width of the screen size. When the smaller 
 
 ---
 
-### Variant
+## Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
 |:-:|:-:|:-:|

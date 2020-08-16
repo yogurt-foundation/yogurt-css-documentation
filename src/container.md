@@ -7,13 +7,13 @@ layout: default
 
 > Layouts
 
-## Container
+# Container
 
 Utilities for set max-width to match min-width of the current breakpoint.
 
 ---
 
-### Class
+## Class
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">breakpoint</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
 |:--|:--|:--|
@@ -39,7 +39,7 @@ Utilities for set max-width to match min-width of the current breakpoint.
 
 ---
 
-### Variant
+## Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
 |:-:|:-:|:-:|

@@ -7,7 +7,7 @@ layout: default
 
 > Effects
 
-## Fluid Font Size <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.8</span>
+# Fluid Font Size <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.8</span>
 
 Utilities for sets min and max font sizes for screen size without breakpoints.
 
@@ -43,7 +43,7 @@ Utilities for sets min and max font sizes for screen size without breakpoints.
 
 ---
 
-### Usage
+## Usage
 
 Set font size adaptively to the width of the screen size. When the smaller screen size, the text size is `text-lg` max. Meanwhile, when the screen size is getting bigger, the text size is `text-md` max.
 
@@ -56,7 +56,7 @@ Set font size adaptively to the width of the screen size. When the smaller scree
 
 ---
 
-### Variant
+## Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
 |:-:|:-:|:-:|
