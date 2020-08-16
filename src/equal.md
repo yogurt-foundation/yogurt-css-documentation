@@ -103,6 +103,46 @@ Utilities for sets balancing the space in between child elements.
 
 ---
 
+## Usage
+
+Set spacing in between the elements horizontally, must companion with [flex](/flex/) utility.
+
+<y class="p-4 my-2 mx-auto max-w-sm bg-gray-400">
+  <y class="equal-x-2 flex bg-gray-600">
+    <y class="w-20 h-8 bg-gray-500 flex justify-center items-center text-gray-600">1</y>
+    <y class="w-20 h-8 bg-gray-500 flex justify-center items-center text-gray-600">2</y>
+    <y class="w-20 h-8 bg-gray-500 flex justify-center items-center text-gray-600">3</y>
+  </y>
+</y>
+
+```html
+<y class="equal-x-2 flex">
+  <y>1</y>
+  <y>2</y>
+  <y>3</y>
+</y>
+```
+
+Set spacing in between the elements vertically.
+
+<y class="p-4 my-2 mx-auto max-w-sm bg-gray-400">
+  <y class="equal-y-2 bg-gray-600">
+    <y class="w-64 h-8 bg-gray-500 flex justify-center items-center text-gray-600">1</y>
+    <y class="w-64 h-8 bg-gray-500 flex justify-center items-center text-gray-600">2</y>
+    <y class="w-64 h-8 bg-gray-500 flex justify-center items-center text-gray-600">3</y>
+  </y>
+</y>
+
+```html
+<y class="equal-y-2">
+  <y>1</y>
+  <y>2</y>
+  <y>3</y>
+</y>
+```
+
+---
+
 ## Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
