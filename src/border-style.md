@@ -25,6 +25,22 @@ Utilities for sets border style.
 
 ---
 
+## Usage
+
+<y class="px-4 my-2 mx-auto w-56">
+  <y class="p-4 bg-gray-400 border-8 border-dashed">
+    <y class="w-full h-24 bg-gray-500"></y>
+  </y>
+</y>
+
+```html
+<y class="border-8 border-dashed">
+  ...
+</y>
+```
+
+---
+
 ## Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
