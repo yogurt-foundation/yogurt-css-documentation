@@ -284,6 +284,144 @@ Utilities for controls margin (and negative margin) in 0.25rem increments.
 | -ml-64 | margin-left: -16rem |
 | -ml-px | margin-left: -1px |
 
+
+---
+
+## Usage
+
+Set margin to `top`, `bottom`, `left` and `right`.
+
+<y class="mx-4 my-2 mx-auto">
+  <y class="max-w-4xl flex justify-center bg-gray-200 rounded">
+    <y class="m-4 w-full h-24 bg-gray-400"></y>
+    <y class="m-4 w-full h-24 bg-gray-500"></y>
+    <y class="m-4 w-full h-24 bg-gray-400"></y>
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<y class="flex">
+  <y class="m-4 ..."></y>
+  <y class="m-4 ..."></y>
+  <y class="m-4 ..."></y>
+</y>
+```
+
+Set margin to `left` and `right`.
+
+<y class="mx-4 my-2 mx-auto">
+  <y class="max-w-4xl flex justify-center bg-gray-200 rounded">
+    <y class="mx-4 w-full h-24 bg-gray-400"></y>
+    <y class="mx-4 w-full h-24 bg-gray-500"></y>
+    <y class="mx-4 w-full h-24 bg-gray-400"></y>
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<y class="flex">
+  <y class="mx-4 ..."></y>
+  <y class="mx-4 ..."></y>
+  <y class="mx-4 ..."></y>
+</y>
+```
+
+Set margin to `top` and `bottom`.
+
+<y class="mx-4 my-2 mx-auto">
+  <y class="max-w-4xl flex justify-center bg-gray-200 rounded">
+    <y class="my-4 w-full h-24 bg-gray-400"></y>
+    <y class="my-4 w-full h-24 bg-gray-500"></y>
+    <y class="my-4 w-full h-24 bg-gray-400"></y>
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<y class="flex">
+  <y class="my-2 ..."></y>
+  <y class="my-2 ..."></y>
+  <y class="my-2 ..."></y>
+</y>
+```
+
+Set margin to `top`.
+
+<y class="mx-4 my-2 mx-auto">
+  <y class="max-w-4xl flex justify-center bg-gray-200 rounded">
+    <y class="mt-4 w-full h-24 bg-gray-400"></y>
+    <y class="mt-4 w-full h-24 bg-gray-500"></y>
+    <y class="mt-4 w-full h-24 bg-gray-400"></y>
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<y class="flex">
+  <y class="mt-2 ..."></y>
+  <y class="mt-2 ..."></y>
+  <y class="mt-2 ..."></y>
+</y>
+```
+
+Set margin to `bottom`.
+
+<y class="mx-4 my-2 mx-auto">
+  <y class="max-w-4xl flex justify-center bg-gray-200 rounded">
+    <y class="mb-4 w-full h-24 bg-gray-400"></y>
+    <y class="mb-4 w-full h-24 bg-gray-500"></y>
+    <y class="mb-4 w-full h-24 bg-gray-400"></y>
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<y class="flex">
+  <y class="mb-2 ..."></y>
+  <y class="mb-2 ..."></y>
+  <y class="mb-2 ..."></y>
+</y>
+```
+
+Set margin to `left`.
+
+<y class="mx-4 my-2 mx-auto">
+  <y class="max-w-4xl flex justify-center bg-gray-200 rounded">
+    <y class="ml-4 w-full h-24 bg-gray-400"></y>
+    <y class="ml-4 w-full h-24 bg-gray-500"></y>
+    <y class="ml-4 w-full h-24 bg-gray-400"></y>
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<y class="flex">
+  <y class="ml-2 ..."></y>
+  <y class="ml-2 ..."></y>
+  <y class="ml-2 ..."></y>
+</y>
+```
+
+Set margin to `right`.
+
+<y class="mx-4 my-2 mx-auto">
+  <y class="max-w-4xl flex justify-center bg-gray-200 rounded">
+    <y class="mr-4 w-full h-24 bg-gray-400"></y>
+    <y class="mr-4 w-full h-24 bg-gray-500"></y>
+    <y class="mr-4 w-full h-24 bg-gray-400"></y>
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<y class="flex">
+  <y class="mr-2 ..."></y>
+  <y class="mr-2 ..."></y>
+  <y class="mr-2 ..."></y>
+</y>
+```
+
 ---
 
 ## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>

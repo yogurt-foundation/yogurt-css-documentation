@@ -123,7 +123,8 @@
     margin-right: 1rem;
     padding: 1rem;
     overflow: auto;
-    background-color: #e2e8f0;
+    // background-color: #e2e8f0;
+    background-color: #222c35;
     border-radius: 0.5rem;
     font-size: 0.875rem;
     font-weight: 600;
@@ -137,6 +138,7 @@
   code:not([class*="language-"]):not(.hljs) {
     border-radius: 0.25rem;
     background-color: #e2e8f0;
+    // background-color: #4e505a;
     color: #454c54;
     padding: 0.25rem;
     padding-bottom: 1px;
