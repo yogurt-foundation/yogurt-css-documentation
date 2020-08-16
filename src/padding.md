@@ -171,6 +171,115 @@ Utilities for controls padding in 0.25rem increments.
 
 ---
 
+## Usage
+
+Set padding to `top`, `bottom`, `left` and `right`.
+
+<y class="px-4 my-2 mx-auto w-56">
+  <y class="p-6 bg-gray-400">
+    <y class="w-full h-32 bg-gray-500"></y>
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<y class="p-6 bg-gray-400 ...">
+  <y class="w-full h-32 bg-gray-500 ..."></y>
+</y>
+```
+
+Set padding to `left` and `right`.
+
+<y class="px-4 my-2 mx-auto w-56">
+  <y class="px-6 bg-gray-400">
+    <y class="w-full h-32 bg-gray-500"></y>
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<y class="px-6 bg-gray-400 ...">
+  <y class="w-full h-32 bg-gray-500 ..."></y>
+</y>
+```
+
+Set padding to `top` and `bottom`.
+
+<y class="px-4 my-2 mx-auto w-56">
+  <y class="py-6 bg-gray-400">
+    <y class="w-full h-32 bg-gray-500"></y>
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<y class="py-6 bg-gray-400 ...">
+  <y class="w-full h-32 bg-gray-500 ..."></y>
+</y>
+```
+
+Set padding to `top`.
+
+<y class="px-4 my-2 mx-auto w-56">
+  <y class="pt-6 bg-gray-400">
+    <y class="w-full h-32 bg-gray-500"></y>
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<y class="pt-6 bg-gray-400 ...">
+  <y class="w-full h-32 bg-gray-500 ..."></y>
+</y>
+```
+
+Set padding to `bottom`.
+
+<y class="px-4 my-2 mx-auto w-56">
+  <y class="pb-6 bg-gray-400">
+    <y class="w-full h-32 bg-gray-500"></y>
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<y class="pb-6 bg-gray-400 ...">
+  <y class="w-full h-32 bg-gray-500 ..."></y>
+</y>
+```
+
+Set padding to `left`.
+
+<y class="px-4 my-2 mx-auto w-56">
+  <y class="pl-6 bg-gray-400">
+    <y class="w-full h-32 bg-gray-500"></y>
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<y class="pl-6 bg-gray-400 ...">
+  <y class="w-full h-32 bg-gray-500 ..."></y>
+</y>
+```
+
+Set padding to `right`.
+
+<y class="px-4 my-2 mx-auto w-56">
+  <y class="pr-6 bg-gray-400">
+    <y class="w-full h-32 bg-gray-500"></y>
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<y class="pr-6 bg-gray-400 ...">
+  <y class="w-full h-32 bg-gray-500 ..."></y>
+</y>
+```
+
+---
+
 ## Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
