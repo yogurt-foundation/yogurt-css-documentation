@@ -175,120 +175,106 @@ Utilities for controls padding in 0.25rem increments.
 
 Set padding to `top`, `bottom`, `left` and `right`.
 
-<y class="px-4 my-2 mx-auto max-w-xxs">
+<y class="px-4 my-2 mx-auto w-56">
   <y class="p-6 bg-gray-400">
-    <y class="w-32 h-32 bg-gray-500"></y>
+    <y class="w-full h-32 bg-gray-500"></y>
   </y>
 </y>
 
 ```html
 <!-- Example -->
-<y class="flex">
-  <y class="p-6 ..."></y>
-  <y class="p-6 ..."></y>
-  <y class="p-6 ..."></y>
+<y class="p-6 bg-gray-400 ...">
+  <y class="w-full h-32 bg-gray-500 ..."></y>
 </y>
 ```
 
 Set padding to `left` and `right`.
 
-<y class="px-4 my-2 mx-auto max-w-xxs">
+<y class="px-4 my-2 mx-auto w-56">
   <y class="px-6 bg-gray-400">
-    <y class="w-32 h-32 bg-gray-500"></y>
+    <y class="w-full h-32 bg-gray-500"></y>
   </y>
 </y>
 
 ```html
 <!-- Example -->
-<y class="flex">
-  <y class="px-6 ..."></y>
-  <y class="px-6 ..."></y>
-  <y class="px-6 ..."></y>
+<y class="px-6 bg-gray-400 ...">
+  <y class="w-full h-32 bg-gray-500 ..."></y>
 </y>
 ```
 
 Set padding to `top` and `bottom`.
 
-<y class="px-4 my-2 mx-auto max-w-xxs">
+<y class="px-4 my-2 mx-auto w-56">
   <y class="py-6 bg-gray-400">
-    <y class="w-32 h-32 bg-gray-500"></y>
+    <y class="w-full h-32 bg-gray-500"></y>
   </y>
 </y>
 
 ```html
 <!-- Example -->
-<y class="flex">
-  <y class="py-6 ..."></y>
-  <y class="py-6 ..."></y>
-  <y class="py-6 ..."></y>
+<y class="py-6 bg-gray-400 ...">
+  <y class="w-full h-32 bg-gray-500 ..."></y>
 </y>
 ```
 
 Set padding to `top`.
 
-<y class="px-4 my-2 mx-auto max-w-xxs">
+<y class="px-4 my-2 mx-auto w-56">
   <y class="pt-6 bg-gray-400">
-    <y class="w-32 h-32 bg-gray-500"></y>
+    <y class="w-full h-32 bg-gray-500"></y>
   </y>
 </y>
 
 ```html
 <!-- Example -->
-<y class="flex">
-  <y class="pt-6 ..."></y>
-  <y class="pt-6 ..."></y>
-  <y class="pt-6 ..."></y>
+<y class="pt-6 bg-gray-400 ...">
+  <y class="w-full h-32 bg-gray-500 ..."></y>
 </y>
 ```
 
 Set padding to `bottom`.
 
-<y class="px-4 my-2 mx-auto max-w-xxs">
+<y class="px-4 my-2 mx-auto w-56">
   <y class="pb-6 bg-gray-400">
-    <y class="w-32 h-32 bg-gray-500"></y>
+    <y class="w-full h-32 bg-gray-500"></y>
   </y>
 </y>
 
 ```html
 <!-- Example -->
-<y class="flex">
-  <y class="pb-6 ..."></y>
-  <y class="pb-6 ..."></y>
-  <y class="pb-6 ..."></y>
+<y class="pb-6 bg-gray-400 ...">
+  <y class="w-full h-32 bg-gray-500 ..."></y>
 </y>
 ```
 
 Set padding to `left`.
 
-<y class="px-4 my-2 mx-auto max-w-xxs">
+<y class="px-4 my-2 mx-auto w-56">
   <y class="pl-6 bg-gray-400">
-    <y class="w-32 h-32 bg-gray-500"></y>
+    <y class="w-full h-32 bg-gray-500"></y>
   </y>
 </y>
 
 ```html
 <!-- Example -->
-<y class="flex">
-  <y class="pl-6 ..."></y>
-  <y class="pl-6 ..."></y>
-  <y class="pl-6 ..."></y>
+<y class="pl-6 bg-gray-400 ...">
+  <y class="w-full h-32 bg-gray-500 ..."></y>
 </y>
 ```
 
 Set padding to `right`.
 
-<y class="px-4 my-2 mx-auto max-w-xxs">
+<y class="px-4 my-2 mx-auto w-56">
   <y class="pr-6 bg-gray-400">
-    <y class="w-32 h-32 bg-gray-500"></y>
+    <y class="w-full h-32 bg-gray-500"></y>
   </y>
 </y>
 
 ```html
 <!-- Example -->
-<y class="flex">
-  <y class="pr-6 ..."></y>
-  <y class="pr-6 ..."></y>
-  <y class="pr-6 ..."></y>
+<y class="pr-6 bg-gray-400 ...">
+  <y class="w-full h-32 bg-gray-500 ..."></y>
 </y>
 ```
 

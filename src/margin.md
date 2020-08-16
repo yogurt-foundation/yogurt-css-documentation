@@ -291,134 +291,106 @@ Utilities for controls margin (and negative margin) in 0.25rem increments.
 
 Set margin to `top`, `bottom`, `left` and `right`.
 
-<y class="mx-4 my-2 mx-auto">
-  <y class="max-w-4xl flex justify-center bg-gray-200 rounded">
-    <y class="m-4 w-full h-24 bg-gray-400"></y>
-    <y class="m-4 w-full h-24 bg-gray-500"></y>
-    <y class="m-4 w-full h-24 bg-gray-400"></y>
+<y class="my-2 mx-auto p-4 w-48 border-2 border-red-300 border-dashed bg-red-200">
+  <y class="p-4 bg-gray-400">
+    <y class="w-full h-24 bg-gray-500"></y>
   </y>
 </y>
 
 ```html
 <!-- Example -->
-<y class="flex">
-  <y class="m-4 ..."></y>
-  <y class="m-4 ..."></y>
-  <y class="m-4 ..."></y>
+<y class="m-6 bg-gray-400 ...">
+  <y class="w-full h-32 bg-gray-500 ..."></y>
 </y>
 ```
 
 Set margin to `left` and `right`.
 
-<y class="mx-4 my-2 mx-auto">
-  <y class="max-w-4xl flex justify-center bg-gray-200 rounded">
-    <y class="mx-4 w-full h-24 bg-gray-400"></y>
-    <y class="mx-4 w-full h-24 bg-gray-500"></y>
-    <y class="mx-4 w-full h-24 bg-gray-400"></y>
+<y class="my-2 mx-auto px-4 w-48 border-2 border-red-300 border-dashed bg-red-200">
+  <y class="p-4 bg-gray-400">
+    <y class="w-full h-24 bg-gray-500"></y>
   </y>
 </y>
 
 ```html
 <!-- Example -->
-<y class="flex">
-  <y class="mx-4 ..."></y>
-  <y class="mx-4 ..."></y>
-  <y class="mx-4 ..."></y>
+<y class="mx-6 bg-gray-400 ...">
+  <y class="w-full h-32 bg-gray-500 ..."></y>
 </y>
 ```
 
 Set margin to `top` and `bottom`.
 
-<y class="mx-4 my-2 mx-auto">
-  <y class="max-w-4xl flex justify-center bg-gray-200 rounded">
-    <y class="my-4 w-full h-24 bg-gray-400"></y>
-    <y class="my-4 w-full h-24 bg-gray-500"></y>
-    <y class="my-4 w-full h-24 bg-gray-400"></y>
+<y class="my-2 mx-auto py-4 -px-8 w-48 border-2 border-red-300 border-dashed bg-red-200">
+  <y class="p-4 bg-gray-400">
+    <y class="w-full h-24 bg-gray-500"></y>
   </y>
 </y>
 
 ```html
 <!-- Example -->
-<y class="flex">
-  <y class="my-2 ..."></y>
-  <y class="my-2 ..."></y>
-  <y class="my-2 ..."></y>
+<y class="my-6 bg-gray-400 ...">
+  <y class="w-full h-32 bg-gray-500 ..."></y>
 </y>
 ```
 
 Set margin to `top`.
 
-<y class="mx-4 my-2 mx-auto">
-  <y class="max-w-4xl flex justify-center bg-gray-200 rounded">
-    <y class="mt-4 w-full h-24 bg-gray-400"></y>
-    <y class="mt-4 w-full h-24 bg-gray-500"></y>
-    <y class="mt-4 w-full h-24 bg-gray-400"></y>
+<y class="my-2 mx-auto pt-4 w-48 border-2 border-red-300 border-dashed bg-red-200">
+  <y class="p-4 bg-gray-400">
+    <y class="w-full h-24 bg-gray-500"></y>
   </y>
 </y>
 
 ```html
 <!-- Example -->
-<y class="flex">
-  <y class="mt-2 ..."></y>
-  <y class="mt-2 ..."></y>
-  <y class="mt-2 ..."></y>
+<y class="mt-6 bg-gray-400 ...">
+  <y class="w-full h-32 bg-gray-500 ..."></y>
 </y>
 ```
 
 Set margin to `bottom`.
 
-<y class="mx-4 my-2 mx-auto">
-  <y class="max-w-4xl flex justify-center bg-gray-200 rounded">
-    <y class="mb-4 w-full h-24 bg-gray-400"></y>
-    <y class="mb-4 w-full h-24 bg-gray-500"></y>
-    <y class="mb-4 w-full h-24 bg-gray-400"></y>
+<y class="my-2 mx-auto pb-4 w-48 border-2 border-red-300 border-dashed bg-red-200">
+  <y class="p-4 bg-gray-400">
+    <y class="w-full h-24 bg-gray-500"></y>
   </y>
 </y>
 
 ```html
 <!-- Example -->
-<y class="flex">
-  <y class="mb-2 ..."></y>
-  <y class="mb-2 ..."></y>
-  <y class="mb-2 ..."></y>
+<y class="mb-6 bg-gray-400 ...">
+  <y class="w-full h-32 bg-gray-500 ..."></y>
 </y>
 ```
 
 Set margin to `left`.
 
-<y class="mx-4 my-2 mx-auto">
-  <y class="max-w-4xl flex justify-center bg-gray-200 rounded">
-    <y class="ml-4 w-full h-24 bg-gray-400"></y>
-    <y class="ml-4 w-full h-24 bg-gray-500"></y>
-    <y class="ml-4 w-full h-24 bg-gray-400"></y>
+<y class="my-2 mx-auto pl-4 w-48 border-2 border-red-300 border-dashed bg-red-200">
+  <y class="p-4 bg-gray-400">
+    <y class="w-full h-24 bg-gray-500"></y>
   </y>
 </y>
 
 ```html
 <!-- Example -->
-<y class="flex">
-  <y class="ml-2 ..."></y>
-  <y class="ml-2 ..."></y>
-  <y class="ml-2 ..."></y>
+<y class="ml-6 bg-gray-400 ...">
+  <y class="w-full h-32 bg-gray-500 ..."></y>
 </y>
 ```
 
 Set margin to `right`.
 
-<y class="mx-4 my-2 mx-auto">
-  <y class="max-w-4xl flex justify-center bg-gray-200 rounded">
-    <y class="mr-4 w-full h-24 bg-gray-400"></y>
-    <y class="mr-4 w-full h-24 bg-gray-500"></y>
-    <y class="mr-4 w-full h-24 bg-gray-400"></y>
+<y class="my-2 mx-auto pr-4 w-48 border-2 border-red-300 border-dashed bg-red-200">
+  <y class="p-4 bg-gray-400">
+    <y class="w-full h-24 bg-gray-500"></y>
   </y>
 </y>
 
 ```html
 <!-- Example -->
-<y class="flex">
-  <y class="mr-2 ..."></y>
-  <y class="mr-2 ..."></y>
-  <y class="mr-2 ..."></y>
+<y class="mr-6 bg-gray-400 ...">
+  <y class="w-full h-32 bg-gray-500 ..."></y>
 </y>
 ```
 
