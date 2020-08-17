@@ -25,6 +25,65 @@ Utilities for sets opacity of background color.
 
 ---
 
+## Usage
+
+Set background-color with `100%` opacity to an element.
+
+<y class="my-2 mx-auto w-64">
+ <y class="h-32 bg-amber-500 bg-opacity-100 border border-gray-300"></y>
+</y>
+
+```html
+<!-- Example -->
+<y class="bg-amber-500 bg-opacity-100 ... h-32 w-64"></y>
+```
+
+Set background-color with `75%` opacity to an element.
+
+<y class="my-2 mx-auto w-64">
+ <y class="h-32 bg-amber-500 bg-opacity-75 border border-gray-300"></y>
+</y>
+
+```html
+<!-- Example -->
+<y class="bg-amber-500 bg-opacity-75 ... h-32 w-64"></y>
+```
+
+Set background-color with `50%` opacity to an element.
+
+<y class="my-2 mx-auto w-64">
+ <y class="h-32 bg-amber-500 bg-opacity-50 border border-gray-300"></y>
+</y>
+
+```html
+<!-- Example -->
+<y class="bg-amber-500 bg-opacity-50 ... h-32 w-64"></y>
+```
+
+Set background-color with `25%` opacity to an element.
+
+<y class="my-2 mx-auto w-64">
+ <y class="h-32 bg-amber-500 bg-opacity-25 border border-gray-300"></y>
+</y>
+
+```html
+<!-- Example -->
+<y class="bg-amber-500 bg-opacity-25 ... h-32 w-64"></y>
+```
+
+Set background-color with `0%` opacity to an element.
+
+<y class="my-2 mx-auto w-64">
+ <y class="h-32 bg-amber-500 bg-opacity-0 border border-gray-300"></y>
+</y>
+
+```html
+<!-- Example -->
+<y class="bg-amber-500 bg-opacity-0 ... h-32 w-64"></y>
+```
+
+---
+
 ## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
 
 ```scss
