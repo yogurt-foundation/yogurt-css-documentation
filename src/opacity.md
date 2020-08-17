@@ -25,6 +25,14 @@ Utilities for sets the transparency of an element.
 
 ---
 
+## Usage
+
+```html
+<!-- Example -->
+<y class="opacity-50 ... bg-white h-32 w-32"></y>
+```
+---
+
 ## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
 
 ```scss
