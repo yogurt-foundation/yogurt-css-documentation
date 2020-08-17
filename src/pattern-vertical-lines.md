@@ -22,11 +22,24 @@ Utilities for sets an element's background vertical-lines pattern.
 | pattern <br> vertical-lines-lg | background-image: repeating-linear-gradient(to right, currentColor, currentColor 1px, transparent 1px, transparent); <br><br> background-size: 50px 50px | <y class="pattern vertical-lines-lg w-32 h-56"></y> |
 | pattern <br> vertical-lines-xl | background-image: repeating-linear-gradient(to right, currentColor, currentColor 1px, transparent 1px, transparent); <br><br> background-size: 100px 100px | <y class="pattern vertical-lines-xl w-32 h-56"></y> |
 
-<y class="mx-4 my-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
+<y class="mt-4 mx-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
   <span class="pr-1 font-semibold">
     Note:
   </span>
   Utility customizing is unavailable.
+</y>
+
+<y class="mt-2 mb-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 bg-orange-200">
+  <span class="pr-1 font-semibold">
+    Note:
+  </span>
+  To fill the pattern color is using the
+  <strong>
+    text-{value}
+  </strong> (See
+  <a href="/text-color/#class">
+    Text Color
+  </a>.)
 </y>
 
 ---
