@@ -135,6 +135,7 @@ Set spacing in between the elements vertically.
 </y>
 
 ```html
+<!-- Example -->
 <y class="equal-y-2">
   <y>1</y>
   <y>2</y>
