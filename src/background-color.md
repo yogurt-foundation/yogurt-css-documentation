@@ -162,7 +162,7 @@ Set basic background color to an element.
 </y>
 ```
 
-Set background color to `<body>` tag.
+Set default background color to `<body>` tag.
 
 ```html
 <body class="bg-amber-400">
