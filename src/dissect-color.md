@@ -177,6 +177,7 @@ Set `dissect-x-{value}` and `dissect-y-{value}` borders with colors.
 </y>
 
 ```html
+<!-- Example -->
 <y class="dissect-y-4 dissect-amber-400">
   <y>1</y>
   <y>2</y>
