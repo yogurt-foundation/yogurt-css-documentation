@@ -148,6 +148,26 @@ Utilities for sets the text color.
 
 ---
 
+## Usage
+
+Set basic text color to an element.
+
+```
+<y class="text-amber-500">
+  ...
+</y>
+```
+
+Set default text color to `<body>` tag.
+
+```
+<body class="text-amber-500">
+  ...
+</body>
+```
+
+---
+
 ## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
 
 ```scss
