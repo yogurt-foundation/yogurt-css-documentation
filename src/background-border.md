@@ -82,6 +82,7 @@ Set basic background border to an element.
 </y>
 
 ```html
+<!-- Example -->
 <y class="bg-border length-20 size-9 space-30 angle-45 ... h-32 w-56">
   ...
 </y>
@@ -94,6 +95,7 @@ Set background border with color.
 </y>
 
 ```html
+<!-- Example -->
 <y class="bg-border length-20 size-9 space-30 angle-45 text-amber-400 ... h-32 w-56">
   ...
 </y>

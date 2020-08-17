@@ -153,6 +153,7 @@ Utilities for sets the text color.
 Set basic text color to an element.
 
 ```html
+<!-- Example -->
 <y class="text-amber-500">
   ...
 </y>
@@ -161,6 +162,7 @@ Set basic text color to an element.
 Set default text color to `<body>` tag.
 
 ```html
+<!-- Example -->
 <body class="text-amber-500">
   ...
 </body>
