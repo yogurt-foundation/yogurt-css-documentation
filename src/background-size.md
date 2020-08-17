@@ -25,7 +25,7 @@ Utilities for sets background size of a background image.
 
 ## Usage
 
-Set default background image size to an element
+Set default background image size with HTML inline attribute `style="..."` and a CSS property `background-image: url(...)` to an element.
 
 <y class="my-2 mx-auto w-64 bg-red-200">
   <y class="h-48 w-full bg-auto bg-center bg-no-repeat"
