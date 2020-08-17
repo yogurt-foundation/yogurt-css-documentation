@@ -31,6 +31,38 @@ Utilities for sets an element's background triangles pattern.
 
 ---
 
+## Usage
+
+Set basic triangles pattern.
+
+<y class="px-4 my-2 mx-auto w-56">
+  <y class="pattern triangles-sm h-32"></y>
+</y>
+
+
+```html
+<!-- Example -->
+<y class="pattern triangles-sm h-32 w-full">
+  ...
+</y>
+```
+
+Set pattern with color.
+
+<y class="px-4 my-2 mx-auto w-56">
+  <y class="pattern triangles-sm h-32 text-amber-400"></y>
+</y>
+
+
+```html
+<!-- Example -->
+<y class="pattern triangles-sm text-amber-400 h-32 w-full">
+  ...
+</y>
+```
+
+---
+
 ## Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
