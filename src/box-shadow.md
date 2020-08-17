@@ -30,6 +30,19 @@ Utilities for sets the box-shadow property attaches one or more shadows to an el
 
 ---
 
+## Usage
+
+<y class="px-4 my-2 mx-auto w-64">
+  <y class="h-32 bg-white shadow"></y>
+</y>
+
+```html
+<!-- Example -->
+<y class="shadow ... bg-white h-32 w-32"></y>
+```
+
+---
+
 ## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
 
 ```scss

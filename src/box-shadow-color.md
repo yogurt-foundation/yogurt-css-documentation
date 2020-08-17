@@ -423,6 +423,19 @@ Utilities for sets the shadow color to an element.
 
 ---
 
+## Usage
+
+<y class="px-4 my-2 mx-auto w-64">
+  <y class="h-32 bg-white shadow-lg-red-400"></y>
+</y>
+
+```html
+<!-- Example -->
+<y class="shadow-lg-red-400 ... bg-white h-32 w-32"></y>
+```
+
+---
+
 ## Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |

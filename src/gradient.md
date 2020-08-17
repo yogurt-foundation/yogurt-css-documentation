@@ -193,6 +193,30 @@ Utilities for sets the gradient preset diagonally to an element.
 
 ---
 
+## Usage
+
+Set gradient to an element.
+
+<y class="px-4 my-2 mx-auto w-64">
+  <y class="gradient-happy-fisher w-64 h-32"></y>
+</y>
+
+```html
+<!-- Example -->
+<y class="gradient-happy-fisher ... w-64 h-32"></y>
+```
+
+Set default gradient to `<body>` tag.
+
+```html
+<!-- Example -->
+<body class="gradient-happy-fisher ...">
+  ...
+</body>
+```
+
+---
+
 ## Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
