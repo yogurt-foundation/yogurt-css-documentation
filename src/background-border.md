@@ -101,6 +101,32 @@ Set background border with color.
 </y>
 ```
 
+Set background border solid.
+
+<y class="px-4 my-2 mx-auto w-56">
+  <y class="h-32 w-56 bg-border length-10 size-6 space-10 angle-45"></y>
+</y>
+
+```html
+<!-- Example -->
+<y class="bg-border length-10 size-6 space-10 angle-45 ... h-32 w-56">
+  ...
+</y>
+```
+
+Set background border solid and thicker.
+
+<y class="px-4 my-2 mx-auto w-56">
+  <y class="h-32 w-56 bg-border length-10 size-32 space-10 angle-45"></y>
+</y>
+
+```html
+<!-- Example -->
+<y class="bg-border length-10 size-32 space-10 angle-45 ... h-32 w-56">
+  ...
+</y>
+```
+
 ---
 
 ## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
