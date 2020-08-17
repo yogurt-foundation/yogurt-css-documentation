@@ -59,6 +59,7 @@ Utilities for sets border radius.
 </y>
 
 ```html
+<!-- Example -->
 <y class="rounded-lg">
   ...
 </y>

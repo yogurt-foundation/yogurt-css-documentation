@@ -167,6 +167,7 @@ Utilities for sets border color.
 </y>
 
 ```html
+<!-- Example -->
 <y class="border-8 border-amber-400">
   ...
 </y>

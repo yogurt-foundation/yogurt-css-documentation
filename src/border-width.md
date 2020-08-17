@@ -54,6 +54,7 @@ Utilities for sets border width in increments of 1px.
 </y>
 
 ```html
+<!-- Example -->
 <y class="border-8">
   ...
 </y>

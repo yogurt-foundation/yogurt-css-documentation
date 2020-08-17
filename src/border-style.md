@@ -34,6 +34,7 @@ Utilities for sets border style.
 </y>
 
 ```html
+<!-- Example -->
 <y class="border-8 border-dashed">
   ...
 </y>
