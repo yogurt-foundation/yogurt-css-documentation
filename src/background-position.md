@@ -31,7 +31,7 @@ Utilities for sets position of a background image.
 
 ## Usage
 
-Set `left-top` position background image in the browser viewport with HTML inline attribute `style="..."` and a CSS property `background-image: url(...)` to an element.
+Set `left-top` position background image with HTML inline attribute `style="..."` and a CSS property `background-image: url(...)` to an element.
 
 <y class="my-2 mx-auto w-64 bg-red-200 border-2 border-dashed border-red-300">
   <y class="h-32 w-64 bg-left-top bg-no-repeat"

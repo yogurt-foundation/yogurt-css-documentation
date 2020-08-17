@@ -26,6 +26,21 @@ Utilities for sets repetition of a background image.
 
 ---
 
+## Usage
+
+Set repeating background image in the browser viewport with HTML inline attribute `style="..."` and a CSS property `background-image: url(...)` to an element.
+
+<y class="my-2 mx-auto w-64 bg-red-200">
+  <y class="h-48 w-64 bg-repeat" style="background-image:url(https://picsum.photos/80?=1)"></y>
+</y>
+
+```
+<y class="h-48 w-64 bg-repeat"
+   style="background-image:url(https://picsum.photos/80?=1)"></y>
+```
+
+---
+
 ## Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |

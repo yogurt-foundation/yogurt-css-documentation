@@ -25,7 +25,7 @@ Utilities for sets behaviour of background images when scrolling.
 
 ## Usage
 
-Set fixed background image in the browser viewport with HTML inline attribute `style="..."` and a CSS property `background-image: url(...)` to an element.
+Set fixed background image with HTML inline attribute `style="..."` and a CSS property `background-image: url(...)` to an element.
 
 <y class="my-2 mx-auto max-w-sm bg-red-300">
   <y class="h-32 w-full overflow-y-scroll">
