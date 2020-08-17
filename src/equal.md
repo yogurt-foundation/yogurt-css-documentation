@@ -116,6 +116,7 @@ Set spacing in between the elements horizontally, must companion with [flex](/fl
 </y>
 
 ```html
+<!-- Example -->
 <y class="equal-x-2 flex">
   <y>1</y>
   <y>2</y>
@@ -134,6 +135,7 @@ Set spacing in between the elements vertically.
 </y>
 
 ```html
+<!-- Example -->
 <y class="equal-y-2">
   <y>1</y>
   <y>2</y>
