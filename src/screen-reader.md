@@ -22,6 +22,28 @@ Utilities for controls whether an element is visually hidden but still accessibl
 
 ---
 
+## Usage
+
+Set an element visible to screen reader.
+
+```html
+<!-- Example -->
+<y class="sr-only">
+  ...
+</y>
+```
+
+Set an element hidden from screen reader.
+
+```html
+<!-- Example -->
+<y class="not-sr-only">
+  ...
+</y>
+```
+
+---
+
 ## Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
