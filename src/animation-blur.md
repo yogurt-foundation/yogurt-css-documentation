@@ -29,6 +29,46 @@ Utilities for sets the blur animation to an element.
 
 ---
 
+## Usage
+
+Set basic blur animation.
+
+```html
+<!-- Example -->
+<y class="animation blur-in">
+  ...
+</y>
+```
+
+Mix with duration.
+
+```html
+<!-- Example -->
+<y class="animation blur-in duration-2000">
+  ...
+</y>
+```
+
+Mix with duration and delay.
+
+```html
+<!-- Example -->
+<y class="animation blur-in duration-2000 delay-2">
+  ...
+</y>
+```
+
+Mix with duration, delay and infinite looping.
+
+```html
+<!-- Example -->
+<y class="animation blur-in duration-2000 delay-2 infinite">
+  ...
+</y>
+```
+
+---
+
 ## Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |

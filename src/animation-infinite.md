@@ -26,6 +26,18 @@ Utilities for sets the animation control with infinite loop.
   Utility customizing is unavailable.
 </y>
 
+
+---
+
+## Usage
+
+```html
+<!-- Example -->
+<y class="animation blur-in infinite">
+  ...
+</y>
+```
+
 ---
 
 ## Variant

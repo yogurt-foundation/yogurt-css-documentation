@@ -31,6 +31,46 @@ Utilities for sets the rolling animation to an element.
 
 ---
 
+## Usage
+
+Set basic roll animation.
+
+```html
+<!-- Example -->
+<y class="animation roll-in-left">
+  ...
+</y>
+```
+
+Mix with duration.
+
+```html
+<!-- Example -->
+<y class="animation roll-in-left duration-2000">
+  ...
+</y>
+```
+
+Mix with duration and delay.
+
+```html
+<!-- Example -->
+<y class="animation roll-in-left duration-2000 delay-2">
+  ...
+</y>
+```
+
+Mix with duration, delay and infinite looping.
+
+```html
+<!-- Example -->
+<y class="animation roll-in-left duration-2000 delay-2 infinite">
+  ...
+</y>
+```
+
+---
+
 ## Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |

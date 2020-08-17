@@ -26,6 +26,17 @@ Utilities for sets the animation control with durations.
 
 ---
 
+## Usage
+
+```html
+<!-- Example -->
+<y class="animation blur-in duration-2000">
+  ...
+</y>
+```
+
+---
+
 ## Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
