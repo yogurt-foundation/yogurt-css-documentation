@@ -29,6 +29,9 @@ Utilities for sets background border to an element with flexible control over th
 | length-60 | --bg-border-length: 60 |
 | length-70 | --bg-border-length: 70 |
 | length-80 | --bg-border-length: 80 |
+
+| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
+|:--|:--|
 | size-6 | --bg-border-size: 6px |
 | size-9 | --bg-border-size: 9px |
 | size-12 | --bg-border-size: 12px |
@@ -36,6 +39,9 @@ Utilities for sets background border to an element with flexible control over th
 | size-18 | --bg-border-size: 18px |
 | size-24 | --bg-border-size: 24px |
 | size-32 | --bg-border-size: 32px |
+
+| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
+|:--|:--|
 | space-10 | --bg-border-space: 10px |
 | space-20 | --bg-border-space: 20px |
 | space-30 | --bg-border-space: 30px |
@@ -44,6 +50,9 @@ Utilities for sets background border to an element with flexible control over th
 | space-60 | --bg-border-space: 60px |
 | space-70 | --bg-border-space: 70px |
 | space-80 | --bg-border-space: 80px |
+
+| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
+|:--|:--|
 | angle-45 | --bg-border-angle: 45deg |
 | -angle-45 | --bg-border-angle: -45deg |
 | angle-60 | --bg-border-angle: 60deg |
@@ -61,6 +70,34 @@ Utilities for sets background border to an element with flexible control over th
     Text Color
   </a>.)
 </y>
+
+---
+
+## Usage
+
+Set basic background border to an element.
+
+<y class="px-4 my-2 mx-auto w-56">
+  <y class="h-32 w-56 bg-border length-20 size-9 space-30 angle-45"></y>
+</y>
+
+```html
+<y class="bg-border length-20 size-9 space-30 angle-45 ... h-32 w-56">
+  ...
+</y>
+```
+
+Set background border with color.
+
+<y class="px-4 my-2 mx-auto w-56">
+  <y class="h-32 w-56 bg-border length-20 size-9 space-30 angle-45 text-amber-400"></y>
+</y>
+
+```html
+<y class="bg-border length-20 size-9 space-30 angle-45 text-amber-400 ... h-32 w-56">
+  ...
+</y>
+```
 
 ---
 

@@ -19,37 +19,6 @@ Utilities for sets the background gradient color to an element with flexible con
 |:--|:--|
 | bg-gradient | linear-gradient(var(--bg-gradient-angle), var(--bg-gradient-start-color) var(--bg-gradient-primary), var(--bg-gradient-stop-color) var(--bg-gradient-secondary)) |
 
-| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
-|:--|:--|
-| angle-0 | --bg-gradient-angle: 0deg |
-| angle-45 | --bg-gradient-angle: 45deg |
-| angle-90 | --bg-gradient-angle: 90deg |
-| angle-180 | --bg-gradient-angle: 180deg |
-| -angle-45 | --bg-gradient-angle: -45deg |
-| -angle-90 | --bg-gradient-angle: -90deg |
-| -angle-180 | --bg-gradient-angle: -180deg |
-
-| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
-|:--|:--|
-| start-10 | --bg-gradient-primary: 10% |
-| start-20 | --bg-gradient-primary: 20% |
-| start-30 | --bg-gradient-primary: 30% |
-| start-40 | --bg-gradient-primary: 40% |
-| start-50 | --bg-gradient-primary: 50% |
-| start-60 | --bg-gradient-primary: 60% |
-| start-70 | --bg-gradient-primary: 70% |
-| start-80 | --bg-gradient-primary: 80% |
-| start-90 | --bg-gradient-primary: 90% |
-| stop-10 | --bg-gradient-secondary: 10% |
-| stop-20 | --bg-gradient-secondary: 20% |
-| stop-30 | --bg-gradient-secondary: 30% |
-| stop-40 | --bg-gradient-secondary: 40% |
-| stop-50 | --bg-gradient-secondary: 50% |
-| stop-60 | --bg-gradient-secondary: 60% |
-| stop-70 | --bg-gradient-secondary: 70% |
-| stop-80 | --bg-gradient-secondary: 80% |
-| stop-90 | --bg-gradient-secondary: 90% |
-
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> | |
 |:--|:--|:-:|
 | <span class="text-gray-600">start</span>/<span class="text-gray-600">stop</span>-charcoal-100 | --bg-gradient-<span class="text-gray-600">start</span>/<span class="text-gray-600">stop</span>-color: #222c35 | <y class="w-16 h-8 rounded bg-charcoal-100 "></y> |
@@ -178,6 +147,65 @@ Utilities for sets the background gradient color to an element with flexible con
 | <span class="text-gray-600">start</span>/<span class="text-gray-600">stop</span>-nero-700 | --bg-gradient-<span class="text-gray-600">start</span>/<span class="text-gray-600">stop</span>-color: #131416 | <y class="w-16 h-8 rounded bg-nero-700 "></y> |
 | <span class="text-gray-600">start</span>/<span class="text-gray-600">stop</span>-nero-800 | --bg-gradient-<span class="text-gray-600">start</span>/<span class="text-gray-600">stop</span>-color: #0e0f11 | <y class="w-16 h-8 rounded bg-nero-800 "></y> |
 | <span class="text-gray-600">start</span>/<span class="text-gray-600">stop</span>-nero-900 | --bg-gradient-<span class="text-gray-600">start</span>/<span class="text-gray-600">stop</span>-color: #0a0a0b | <y class="w-16 h-8 rounded bg-nero-900 "></y> |
+
+| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
+|:--|:--|
+| start-10 | --bg-gradient-primary: 10% |
+| start-20 | --bg-gradient-primary: 20% |
+| start-30 | --bg-gradient-primary: 30% |
+| start-40 | --bg-gradient-primary: 40% |
+| start-50 | --bg-gradient-primary: 50% |
+| start-60 | --bg-gradient-primary: 60% |
+| start-70 | --bg-gradient-primary: 70% |
+| start-80 | --bg-gradient-primary: 80% |
+| start-90 | --bg-gradient-primary: 90% |
+| stop-10 | --bg-gradient-secondary: 10% |
+| stop-20 | --bg-gradient-secondary: 20% |
+| stop-30 | --bg-gradient-secondary: 30% |
+| stop-40 | --bg-gradient-secondary: 40% |
+| stop-50 | --bg-gradient-secondary: 50% |
+| stop-60 | --bg-gradient-secondary: 60% |
+| stop-70 | --bg-gradient-secondary: 70% |
+| stop-80 | --bg-gradient-secondary: 80% |
+| stop-90 | --bg-gradient-secondary: 90% |
+
+| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
+|:--|:--|
+| angle-0 | --bg-gradient-angle: 0deg |
+| angle-45 | --bg-gradient-angle: 45deg |
+| angle-90 | --bg-gradient-angle: 90deg |
+| angle-180 | --bg-gradient-angle: 180deg |
+| -angle-45 | --bg-gradient-angle: -45deg |
+| -angle-90 | --bg-gradient-angle: -90deg |
+| -angle-180 | --bg-gradient-angle: -180deg |
+
+---
+
+## Usage
+
+Set basic background gradient to an element, start color is `start-{color}` with 10% space `start-{value}`, stop color is `stop-{color}` with 90% space `stop-{value}`, last rotate the gradient in 45 degree `angel-45`.
+
+<y class="px-4 my-2 mx-auto w-56">
+  <y class="h-32 bg-gradient start-amber-400 start-10 stop-red-400 stop-90 angle-45"></y>
+</y>
+
+```html
+<!-- Example -->
+<y class="bg-gradient start-amber-400 start-10 stop-red-400 stop-90 angle-45">
+  ...
+</y>
+```
+
+Set background gradient to `<body>` tag.
+
+```html
+<!-- Example -->
+<body class="bg-gradient start-amber-400 start-10 stop-red-400 stop-90 angle-45">
+  ...
+</body>
+```
+
+---
 
 ## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
 

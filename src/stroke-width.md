@@ -21,6 +21,19 @@ Utilities for sets the outline width of an SVG.
 | stroke-1 | stroke-width: 1 |
 | stroke-2 | stroke-width: 2 |
 
+<y class="my-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 bg-orange-200">
+  <span class="pr-1 font-semibold">
+    Note:
+  </span>
+  To fill the stroke color is using the
+  <strong>
+    text-{value}
+  </strong> (See
+  <a href="/text-color/#class">
+    Text Color
+  </a>.)
+</y>
+
 ---
 
 ## Usage
