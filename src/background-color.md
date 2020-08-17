@@ -148,6 +148,30 @@ Utilities for sets background color.
 
 ---
 
+# Usage
+
+Set basic background color to an element.
+
+<y class="px-4 my-2 mx-auto w-56">
+  <y class="h-32 bg-amber-400"></y>
+</y>
+
+```html
+<y class="bg-amber-400 ... h-32 w-32">
+  ...
+</y>
+```
+
+Set background color to `<body>` tag.
+
+```html
+<body class="bg-amber-400">
+  ...
+</body>
+```
+
+---
+
 ## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
 
 ```scss
