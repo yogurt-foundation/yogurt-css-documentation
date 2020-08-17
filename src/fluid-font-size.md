@@ -54,6 +54,15 @@ Set font size adaptively to the width of the screen size. When the smaller scree
 </y>
 ```
 
+Mix with other fluid utilities, such as [Fluid Margin](/fluid-margin/), [Fluid Padding](/fluid-padding/).
+
+```html
+<!-- Example -->
+<y class="fluid m-min-4 m-max-2 p-min-8 p-max-4 text-min-lg text-max-md">
+  ...
+</y>
+```
+
 ---
 
 ## Variant

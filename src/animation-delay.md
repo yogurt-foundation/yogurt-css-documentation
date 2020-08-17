@@ -24,6 +24,17 @@ Utilities for sets the animation control with delays.
 
 ---
 
+## Usage
+
+```html
+<!-- Example -->
+<y class="animation blur-in delay-2">
+  ...
+</y>
+```
+
+---
+
 ## Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |

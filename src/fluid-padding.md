@@ -60,6 +60,15 @@ Set padding spacing adaptively to the width of the screen size. When the smaller
 </y>
 ```
 
+Mix with other fluid utilities, such as [Fluid Margin](/fluid-margin/), [Fluid Font Size](/fluid-font-size/).
+
+```html
+<!-- Example -->
+<y class="fluid p-min-8 p-max-4 m-min-4 m-max-2 text-min-lg text-max-md">
+  ...
+</y>
+```
+
 ---
 
 ## Variant

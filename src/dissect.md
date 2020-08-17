@@ -1,7 +1,7 @@
 ---
 id: dissect
 title: Dissect
-description: Utilities for sets border on each child elements of its parent.
+description: Utilities for sets bottom border on each child elements of its parent.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 # Dissect <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.8</span>
 
-Utilities for sets border on each child elements of its parent.
+Utilities for sets bottom border on each child elements of its parent.
 
 ---
 
