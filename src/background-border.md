@@ -114,7 +114,7 @@ Set background border solid.
 </y>
 ```
 
-Set background border solid thicker.
+Set background border solid and thicker.
 
 <y class="px-4 my-2 mx-auto w-56">
   <y class="h-32 w-56 bg-border length-10 size-32 space-10 angle-45"></y>
