@@ -26,6 +26,82 @@ Utilities for sets repetition of a background image.
 
 ---
 
+## Usage
+
+Set repeating background image with HTML inline attribute `style="..."` and a CSS property `background-image: url(...)` to an element.
+
+<y class="my-2 mx-auto w-64 bg-red-200">
+  <y class="h-48 w-64 bg-repeat" style="background-image:url(https://picsum.photos/80?=1)"></y>
+</y>
+
+```html
+<!-- Example -->
+<y class="bg-repeat ... h-48 w-64"
+   style="background-image:url( ... )"></y>
+```
+
+Set no-repeating background image.
+
+<y class="my-2 mx-auto w-64 bg-red-200">
+  <y class="h-48 w-64 bg-no-repeat" style="background-image:url(https://picsum.photos/80?=1)"></y>
+</y>
+
+```html
+<!-- Example -->
+<y class="bg-no-repeat ... h-48 w-64"
+   style="background-image:url( ... )"></y>
+```
+
+Set repeating background image horizontally.
+
+<y class="my-2 mx-auto w-64 bg-red-200">
+  <y class="h-48 w-64 bg-repeat-x" style="background-image:url(https://picsum.photos/80?=1)"></y>
+</y>
+
+```html
+<!-- Example -->
+<y class="bg-repeat-x ... h-48 w-64"
+   style="background-image:url( ... )"></y>
+```
+
+Set repeating background image vertically.
+
+<y class="my-2 mx-auto w-64 bg-red-200">
+  <y class="h-48 w-64 bg-repeat-y" style="background-image:url(https://picsum.photos/80?=1)"></y>
+</y>
+
+```html
+<!-- Example -->
+<y class="bg-repeat-y ... h-48 w-64"
+   style="background-image:url( ... )"></y>
+```
+
+Set repeating resized background image horizontally and vertically.
+
+<y class="my-2 mx-auto w-64 bg-red-200">
+  <y class="h-48 w-64 bg-repeat-round" style="background-image:url(https://picsum.photos/80?=1)"></y>
+</y>
+
+```html
+<!-- Example -->
+<y class="bg-repeat-round ... h-48 w-64"
+   style="background-image:url( ... )"></y>
+```
+
+Set repeating no-resized background image horizontally and vertically.
+
+<y class="my-2 mx-auto w-64 bg-red-200">
+  <y class="h-48 w-64 bg-repeat-space" style="background-image:url(https://picsum.photos/80?=1)"></y>
+</y>
+
+```html
+<!-- Example -->
+<y class="bg-repeat-space ... h-48 w-64"
+   style="background-image:url( ... )"></y>
+```
+
+---
+
 ## Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
