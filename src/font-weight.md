@@ -29,6 +29,16 @@ Utilities for sets the font weight.
 
 ---
 
+## Usage
+
+```html
+<!-- Example -->
+<y class="font-light">
+  ...
+</y>
+```
+---
+
 ## Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
