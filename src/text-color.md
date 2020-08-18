@@ -175,10 +175,10 @@ Set default text color to `<body>` tag.
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  $utility: 'text-new-color',
-  //$variant: 'responsive',
-  $property: 'color',
-  $modifier: (
+  utility: 'text-new-color',
+  //variant: 'responsive',
+  property: 'color',
+  modifier: (
     '100': '#...',
     '200': '#...'
     ...

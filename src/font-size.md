@@ -63,10 +63,10 @@ Set default font-size with `<body>` tag.
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  $utility: 'text',
-  //$variant: 'responsive',
-  $property: 'font-size',
-  $modifier: (
+  utility: 'text',
+  //variant: 'responsive',
+  property: 'font-size',
+  modifier: (
     '9xl': '7rem',
     '10xl': '8rem'
     ...

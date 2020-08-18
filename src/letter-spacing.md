@@ -42,10 +42,10 @@ Utilities for sets the spacing between letters.
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  $utility: 'gap',
-  //$variant: 'responsive',
-  $property: 'letter-spacing',
-  $modifier: (
+  utility: 'gap',
+  //variant: 'responsive',
+  property: 'letter-spacing',
+  modifier: (
     'super': '.5em',
     'ultra': '1em'
     ...

@@ -89,10 +89,10 @@ Set background-color with `0%` opacity to an element.
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  $utility: 'bg-opacity',
-  //$variant: 'responsive',
-  $property: '--bg-opacity',
-  $modifier: (
+  utility: 'bg-opacity',
+  //variant: 'responsive',
+  property: '--bg-opacity',
+  modifier: (
     '30': '.3',
     '40': '.4'
     //...

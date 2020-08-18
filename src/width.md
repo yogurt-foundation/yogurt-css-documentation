@@ -73,10 +73,10 @@ Utilities for sets the width of an element.
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  $utility: 'w',
-  //$variant: 'responsive',
-  $property: 'width',
-  $modifier: (
+  utility: 'w',
+  //variant: 'responsive',
+  property: 'width',
+  modifier: (
     '..': '...',
     '..': '...'
     ...

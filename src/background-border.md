@@ -135,40 +135,40 @@ Set background border solid and thicker.
 // @file: `src/_plugins.scss`
 @include plugin(
   (
-    $utility: 'length',
-    //$variant: 'responsive',
-    $property: '--bg-border-length',
-    $modifier: (
+    utility: 'length',
+    //variant: 'responsive',
+    property: '--bg-border-length',
+    modifier: (
       '90': '90',
       '100': '100'
       //...
     )
   ),
   (
-    $utility: 'size',
-    //$variant: 'responsive',
-    $property: '--bg-border-size',
-    $modifier: (
+    utility: 'size',
+    //variant: 'responsive',
+    property: '--bg-border-size',
+    modifier: (
       '64': '64px',
       '72': '72px'
       //...
     )
   ),
   (
-    $utility: 'space',
-    //$variant: 'responsive',
-    $property: '--bg-border-space',
-    $modifier: (
+    utility: 'space',
+    //variant: 'responsive',
+    property: '--bg-border-space',
+    modifier: (
       '90': '90px',
       '100': '100px'
       //...
     )
   ),
   (
-    $utility: 'angle',
-    //$variant: 'responsive',
-    $property: '--bg-border-angle',
-    $modifier: (
+    utility: 'angle',
+    //variant: 'responsive',
+    property: '--bg-border-angle',
+    modifier: (
       '90': '80deg',
       '80': '90deg'
       //...

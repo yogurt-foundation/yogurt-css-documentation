@@ -79,10 +79,10 @@ Set a SVG image with stroke width.
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  $utility: 'stroke',
-  //$variant: 'responsive',
-  $property: 'stroke-width',
-  $modifier: (
+  utility: 'stroke',
+  //variant: 'responsive',
+  property: 'stroke-width',
+  modifier: (
     '3': '3',
     '4': '4'
     ...

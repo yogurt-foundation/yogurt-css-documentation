@@ -47,10 +47,10 @@ Utilities for sets the height of an element.
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  $utility: 'h',
-  //$variant: 'responsive',
-  $property: 'height',
-  $modifier: (
+  utility: 'h',
+  //variant: 'responsive',
+  property: 'height',
+  modifier: (
     '...': '...',
     '...': '...'
     ...

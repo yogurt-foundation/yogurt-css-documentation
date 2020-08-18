@@ -35,6 +35,26 @@ Utilities for sets the animation control with delays.
 
 ---
 
+## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
+
+```scss
+// @file: `src/_plugins.scss`
+@include plugin(
+  (
+    utility: 'delay',
+    //variant: 'responsive',
+    property: 'animation-delay',
+    modifier: (
+      '6': '6s',
+      '7': '7s'
+      //...
+    )
+  )
+)
+```
+
+---
+
 ## Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |

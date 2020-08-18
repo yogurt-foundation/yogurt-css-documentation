@@ -63,10 +63,10 @@ Utilities for sets the line height.
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  $utility: 'depth',
-  //$variant: 'responsive',
-  $property: 'line-height',
-  $modifier: (
+  utility: 'depth',
+  //variant: 'responsive',
+  property: 'line-height',
+  modifier: (
     'super': '3rem',
     'ultra': '4rem'
     ...

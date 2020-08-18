@@ -40,10 +40,10 @@ Utilities for controls how flex items are ordered.
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  $utility: 'order',
-  //$variant: 'responsive',
-  $property: 'order',
-  $modifier: (
+  utility: 'order',
+  //variant: 'responsive',
+  property: 'order',
+  modifier: (
     '13': '...',
     '14': '...'
     //...
