@@ -164,6 +164,16 @@ Utilities for sets the placeholder color using the ::placeholder pseudo element.
 
 ---
 
+## Usage
+
+```html
+<!-- Example -->
+<input class="placeholder-red-500 ..."
+       placeholder="...">
+```
+
+---
+
 ## Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
