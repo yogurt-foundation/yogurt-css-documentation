@@ -60,12 +60,14 @@ Set scrollable text paragraph whitespace to `no-wrap`.
 Set text paragraph preserved new line whitespaces.
 
 <y class="my-2 mx-auto max-w-lg">
-  <y class="p-4 bg-gray-300 whitespace-pre">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  <y class="p-4 bg-gray-300 whitespace-pre">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 
-   	Omnis quidem itaque beatae,
-   	rem tenetur quia iure,
+      Omnis quidem itaque beatae,
+      rem tenetur quia iure,
 
-   reprehenderit saepe quam aliquid odio accusamus.</y>
+    reprehenderit saepe quam aliquid odio accusamus.
+  </y>
 </y>
 
 ```html
@@ -78,12 +80,13 @@ Set text paragraph preserved new line whitespaces.
 Set text paragraph without preserved new line whitespaces.
 
 <y class="my-2 mx-auto max-w-lg">
-  <y class="p-4 bg-gray-300 whitespace-pre-line">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  <y class="p-4 bg-gray-300 whitespace-pre-line">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Omnis quidem itaque beatae,
+    rem tenetur quia iure,
 
-   	Omnis quidem itaque beatae,
-   	rem tenetur quia iure,
-
-   reprehenderit saepe quam aliquid odio accusamus.</y>
+    reprehenderit saepe quam aliquid odio accusamus.
+  </y>
 </y>
 
 ```html
