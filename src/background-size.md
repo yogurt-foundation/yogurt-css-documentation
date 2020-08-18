@@ -35,7 +35,7 @@ Set default background image size with HTML inline attribute `style="..."` and a
 ```html
 <!-- Example -->
 <y class="bg-auto ... bg-center bg-no-repeat ... h-48 w-full"
-   style="background-image:url( ... )"></y>
+   style="background-image:url(...)"></y>
 ```
 
 Set cropped and stretched background image to an element.
@@ -48,7 +48,7 @@ Set cropped and stretched background image to an element.
 ```html
 <!-- Example -->
 <y class="bg-cover ... bg-center bg-no-repeat ... h-48 w-full"
-   style="background-image:url( ... )"></y>
+   style="background-image:url(...)"></y>
 ```
 
 Set background image contains an element with cropped and stretched.
@@ -61,7 +61,7 @@ Set background image contains an element with cropped and stretched.
 ```html
 <!-- Example -->
 <y class="bg-contain ... bg-center bg-no-repeat ... h-48 w-full"
-   style="background-image:url( ... )"></y>
+   style="background-image:url(...)"></y>
 ```
 
 ---
