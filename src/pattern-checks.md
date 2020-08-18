@@ -55,7 +55,7 @@ Set basic checks pattern.
 
 ```html
 <!-- Example -->
-<y class="pattern checks-sm h-32 w-full">
+<y class="pattern checks-sm ... h-32 w-full">
   ...
 </y>
 ```
@@ -69,7 +69,7 @@ Set pattern with color.
 
 ```html
 <!-- Example -->
-<y class="pattern checks-sm text-amber-400 h-32 w-full">
+<y class="pattern checks-sm text-amber-400 ... h-32 w-full">
   ...
 </y>
 ```
