@@ -25,7 +25,6 @@ Utilities for sets the text-decoration of an element.
 
 ## Usage
 
-
 ```html
 <!-- Example -->
 <y class="underline">
