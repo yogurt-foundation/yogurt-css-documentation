@@ -55,7 +55,7 @@ Set basic zigzag pattern.
 
 ```html
 <!-- Example -->
-<y class="pattern zigzag-sm h-32 w-full">
+<y class="pattern zigzag-sm ... h-32 w-full">
   ...
 </y>
 ```
@@ -69,7 +69,7 @@ Set pattern with color.
 
 ```html
 <!-- Example -->
-<y class="pattern zigzag-sm text-amber-400 h-32 w-full">
+<y class="pattern zigzag-sm text-amber-400 ... h-32 w-full">
   ...
 </y>
 ```

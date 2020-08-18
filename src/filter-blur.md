@@ -60,6 +60,9 @@ Apply the `filter` class first, and then set the filter in any order when with o
 <!-- Example -->
 <img class="filter blur-2 ..."
      src="...">
+
+<y class="filter blur-2 ..."
+   style="background-image:url(...)"></y>
 ```
 
 Mix with other filters, such as [Brightness](/filter-brightness/), [Contrast](/filter-contrast/) and [Saturate](/filter-saturate/).
@@ -68,6 +71,9 @@ Mix with other filters, such as [Brightness](/filter-brightness/), [Contrast](/f
 <!-- Example -->
 <img class="filter blur-2 brightness-10 contrast-5 saturate-5 ..."
      src="...">
+
+<y class="filter blur-2 brightness-10 contrast-5 saturate-5 ..."
+   style="background-image:url(...)"></y>
 ```
 
 ---
