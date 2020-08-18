@@ -73,7 +73,7 @@ Mix with other filters, such as [Contrast](/filter-contrast/), [Saturate](/filte
      src="...">
 
 <y class="filter brightness-10 contrast-5 saturate-5 blur-5 ..."
-     style="background-image:url(...)"></y>
+   style="background-image:url(...)"></y>
 ```
 
 ## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
