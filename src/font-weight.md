@@ -40,7 +40,7 @@ Set font-weight to an element.
 </y>
 ```
 
-Set font-weight with `Google Fonts` (See [Font Family](/font-family/)).
+Set font-weight with `Google Fonts`. (See [Font Family](/font-family/#customize-more)).
 
 ```html
 <!-- Example -->
