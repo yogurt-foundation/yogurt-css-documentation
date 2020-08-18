@@ -165,8 +165,8 @@ Set padding to `top`, `bottom`, `left` and `right`.
 
 ```html
 <!-- Example -->
-<y class="p-6 bg-gray-400 ...">
-  <y class="w-full h-32 bg-gray-500 ..."></y>
+<y class="p-6 ... bg-gray-400">
+  <y class="... w-full h-32 bg-gray-500"></y>
 </y>
 ```
 
@@ -180,8 +180,8 @@ Set padding to `left` and `right`.
 
 ```html
 <!-- Example -->
-<y class="px-6 bg-gray-400 ...">
-  <y class="w-full h-32 bg-gray-500 ..."></y>
+<y class="px-6 ... bg-gray-400">
+  <y class="... w-full h-32 bg-gray-500"></y>
 </y>
 ```
 
@@ -195,8 +195,8 @@ Set padding to `top` and `bottom`.
 
 ```html
 <!-- Example -->
-<y class="py-6 bg-gray-400 ...">
-  <y class="w-full h-32 bg-gray-500 ..."></y>
+<y class="py-6 ... bg-gray-400">
+  <y class="... w-full h-32 bg-gray-500"></y>
 </y>
 ```
 
@@ -210,8 +210,8 @@ Set padding to `top`.
 
 ```html
 <!-- Example -->
-<y class="pt-6 bg-gray-400 ...">
-  <y class="w-full h-32 bg-gray-500 ..."></y>
+<y class="pt-6 ... bg-gray-400">
+  <y class="... w-full h-32 bg-gray-500"></y>
 </y>
 ```
 
@@ -225,8 +225,8 @@ Set padding to `bottom`.
 
 ```html
 <!-- Example -->
-<y class="pb-6 bg-gray-400 ...">
-  <y class="w-full h-32 bg-gray-500 ..."></y>
+<y class="pb-6 ... bg-gray-400">
+  <y class="... w-full h-32 bg-gray-500"></y>
 </y>
 ```
 
@@ -240,8 +240,8 @@ Set padding to `left`.
 
 ```html
 <!-- Example -->
-<y class="pl-6 bg-gray-400 ...">
-  <y class="w-full h-32 bg-gray-500 ..."></y>
+<y class="pl-6 ... bg-gray-400">
+  <y class="... w-full h-32 bg-gray-500"></y>
 </y>
 ```
 
@@ -255,8 +255,8 @@ Set padding to `right`.
 
 ```html
 <!-- Example -->
-<y class="pr-6 bg-gray-400 ...">
-  <y class="w-full h-32 bg-gray-500 ..."></y>
+<y class="pr-6 ... bg-gray-400">
+  <y class="... w-full h-32 bg-gray-500"></y>
 </y>
 ```
 

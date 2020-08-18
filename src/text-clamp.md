@@ -78,7 +78,7 @@ Utilities for sets total display text line to an element.
 
 ```html
 <!-- Example -->
-<y class="text-md depth-tight ... clamp-3">
+<y class="clamp-3 ... text-md depth-tight">
   ...
 </y>
 ```

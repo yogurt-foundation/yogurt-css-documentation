@@ -37,7 +37,7 @@ Set repeating background image with HTML inline attribute `style="..."` and a CS
 ```html
 <!-- Example -->
 <y class="bg-repeat ... h-48 w-64"
-   style="background-image:url( ... )"></y>
+   style="background-image:url(...)"></y>
 ```
 
 Set no-repeating background image.
@@ -49,7 +49,7 @@ Set no-repeating background image.
 ```html
 <!-- Example -->
 <y class="bg-no-repeat ... h-48 w-64"
-   style="background-image:url( ... )"></y>
+   style="background-image:url(...)"></y>
 ```
 
 Set repeating background image horizontally.
@@ -61,7 +61,7 @@ Set repeating background image horizontally.
 ```html
 <!-- Example -->
 <y class="bg-repeat-x ... h-48 w-64"
-   style="background-image:url( ... )"></y>
+   style="background-image:url(...)"></y>
 ```
 
 Set repeating background image vertically.
@@ -73,7 +73,7 @@ Set repeating background image vertically.
 ```html
 <!-- Example -->
 <y class="bg-repeat-y ... h-48 w-64"
-   style="background-image:url( ... )"></y>
+   style="background-image:url(...)"></y>
 ```
 
 Set repeating resized background image horizontally and vertically.
@@ -85,7 +85,7 @@ Set repeating resized background image horizontally and vertically.
 ```html
 <!-- Example -->
 <y class="bg-repeat-round ... h-48 w-64"
-   style="background-image:url( ... )"></y>
+   style="background-image:url(...)"></y>
 ```
 
 Set repeating no-resized background image horizontally and vertically.
@@ -97,7 +97,7 @@ Set repeating no-resized background image horizontally and vertically.
 ```html
 <!-- Example -->
 <y class="bg-repeat-space ... h-48 w-64"
-   style="background-image:url( ... )"></y>
+   style="background-image:url(...)"></y>
 ```
 
 ---
