@@ -32,6 +32,32 @@ Utilities for sets the font size.
 
 ---
 
+## Usage
+
+Set font-size to an element.
+
+```html
+<!-- Example -->
+<y class="text-md">
+  ...
+</y>
+
+<span class="text-md">
+  ...
+</span>
+```
+
+Set default font-size with `<body>` tag.
+
+```html
+<!-- Example -->
+<body class="text-md">
+  ...
+</body>
+```
+
+---
+
 ## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
 
 ```scss
