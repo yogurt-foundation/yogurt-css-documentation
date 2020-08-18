@@ -17,7 +17,7 @@ Using plugin API to create your utility module and use it right away without mod
   </span>
   Use keyword for
   <strong>
-    $variant
+    variant
   </strong>
   to apply pseudo class variants, such as
   <strong>
@@ -32,9 +32,9 @@ Create basic utility.
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  $utility: 'text',
-  $property: 'font-size',
-  $modifier: (
+  utility: 'text',
+  property: 'font-size',
+  modifier: (
     'xs': '0.75rem',
     'sm': '0.875rem'
   )
@@ -46,10 +46,10 @@ Create default responsive utility.
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  $utility: 'text',
-  $variant: 'responsive',
-  $property: 'font-size',
-  $modifier: (
+  utility: 'text',
+  variant: 'responsive',
+  property: 'font-size',
+  modifier: (
     'xs': '0.75rem',
     'sm': '0.875rem'
   )
@@ -61,10 +61,10 @@ Create responsive utility with variants.
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  $utility: 'text',
-  $variant: 'responsive-hover',
-  $property: 'font-size',
-  $modifier: (
+  utility: 'text',
+  variant: 'responsive-hover',
+  property: 'font-size',
+  modifier: (
     'xs': '0.75rem',
     'sm': '0.875rem'
   )
