@@ -284,7 +284,6 @@ Utilities for controls margin (and negative margin) in 0.25rem increments.
 | -ml-64 | margin-left: -16rem |
 | -ml-px | margin-left: -1px |
 
-
 ---
 
 ## Usage
@@ -299,8 +298,8 @@ Set margin to `top`, `bottom`, `left` and `right`.
 
 ```html
 <!-- Example -->
-<y class="m-6 bg-gray-400 ...">
-  <y class="w-full h-32 bg-gray-500 ..."></y>
+<y class="m-6 ... bg-gray-400">
+  <y class="... w-full h-32 bg-gray-500"></y>
 </y>
 ```
 
@@ -314,8 +313,8 @@ Set margin to `left` and `right`.
 
 ```html
 <!-- Example -->
-<y class="mx-6 bg-gray-400 ...">
-  <y class="w-full h-32 bg-gray-500 ..."></y>
+<y class="mx-6 ... bg-gray-400">
+  <y class="... w-full h-32 bg-gray-500"></y>
 </y>
 ```
 
@@ -329,8 +328,8 @@ Set margin to `top` and `bottom`.
 
 ```html
 <!-- Example -->
-<y class="my-6 bg-gray-400 ...">
-  <y class="w-full h-32 bg-gray-500 ..."></y>
+<y class="my-6 ... bg-gray-400">
+  <y class="... w-full h-32 bg-gray-500"></y>
 </y>
 ```
 
@@ -344,8 +343,8 @@ Set margin to `top`.
 
 ```html
 <!-- Example -->
-<y class="mt-6 bg-gray-400 ...">
-  <y class="w-full h-32 bg-gray-500 ..."></y>
+<y class="mt-6 ... bg-gray-400">
+  <y class="... w-full h-32 bg-gray-500"></y>
 </y>
 ```
 
@@ -359,8 +358,8 @@ Set margin to `bottom`.
 
 ```html
 <!-- Example -->
-<y class="mb-6 bg-gray-400 ...">
-  <y class="w-full h-32 bg-gray-500 ..."></y>
+<y class="mb-6 ... bg-gray-400">
+  <y class="... w-full h-32 bg-gray-500"></y>
 </y>
 ```
 
@@ -374,8 +373,8 @@ Set margin to `left`.
 
 ```html
 <!-- Example -->
-<y class="ml-6 bg-gray-400 ...">
-  <y class="w-full h-32 bg-gray-500 ..."></y>
+<y class="ml-6 ... bg-gray-400">
+  <y class="... w-full h-32 bg-gray-500"></y>
 </y>
 ```
 
@@ -389,8 +388,8 @@ Set margin to `right`.
 
 ```html
 <!-- Example -->
-<y class="mr-6 bg-gray-400 ...">
-  <y class="w-full h-32 bg-gray-500 ..."></y>
+<y class="mr-6 ... bg-gray-400">
+  <y class="... w-full h-32 bg-gray-500"></y>
 </y>
 ```
 
