@@ -58,8 +58,11 @@ Apply the `filter` class first, and then set the filter in any order when with o
 
 ```html
 <!-- Example -->
-<img class="filter brightness-10 ..."
+<img class="filter brightness-10 ... w-32 h-32"
      src="...">
+
+<y class="filter brightness-10 ... w-32 h-32"
+   style="background-image:url(...)"></y>
 ```
 
 Mix with other filters, such as [Contrast](/filter-contrast/), [Saturate](/filter-saturate/) and [Blur](/filter-blur/).
@@ -68,6 +71,9 @@ Mix with other filters, such as [Contrast](/filter-contrast/), [Saturate](/filte
 <!-- Example -->
 <img class="filter brightness-10 contrast-5 saturate-5 blur-5 ..."
      src="...">
+
+<y class="filter brightness-10 contrast-5 saturate-5 blur-5 ..."
+     style="background-image:url(...)"></y>
 ```
 
 ## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
