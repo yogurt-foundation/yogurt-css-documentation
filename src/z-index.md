@@ -27,6 +27,35 @@ Utilities for sets the z order (stack order) of a positioned element.
 
 ---
 
+## Usage
+
+<y class="my-2 mx-auto max-w-sm">
+  <y class="z-10 h-32 bg-gray-300 px-2 py-1">
+    z-10
+  </y>
+  <y class="-mt-24 ml-8 z-20 h-32 bg-gray-400 px-2 py-1">
+    z-20
+  </y>
+  <y class="-mt-24 ml-16 z-30 h-32 text-white bg-gray-500 px-2 py-1">
+    z-30
+  </y>
+  <y class="-mt-24 ml-24 z-40 h-32 text-white bg-gray-600 px-2 py-1">
+    z-40
+  </y>
+  <y class="-mt-24 ml-32 z-50 h-32 text-white bg-gray-700 px-2 py-1">
+    z-50
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<y class="z-10">
+  ...
+</y>
+```
+
+---
+
 ## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
 
 ```scss
