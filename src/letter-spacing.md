@@ -26,6 +26,17 @@ Utilities for sets the spacing between letters.
 
 ---
 
+## Usage
+
+```html
+<!-- Example -->
+<y class="gap-tight">
+  ...
+</y>
+```
+
+---
+
 ## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
 
 ```scss
