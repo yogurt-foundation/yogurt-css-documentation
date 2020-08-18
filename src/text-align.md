@@ -24,6 +24,80 @@ Utilities for sets the alignment of text.
 
 ---
 
+## Usage
+
+Set text align to `left`.
+
+<y class="my-2 mx-auto w-64">
+  <y class="w-56 h-32 p-4 bg-gray-300">
+    <y class="text-4xl text-left">
+      Text
+    </y>
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<y class="text-left">
+  ...
+</y>
+```
+
+Set text align to `right`.
+
+<y class="my-2 mx-auto w-64">
+  <y class="w-56 h-32 p-4 bg-gray-300">
+    <y class="text-4xl text-right">
+      Text
+    </y>
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<y class="text-right">
+  ...
+</y>
+```
+
+Set text align to `center`.
+
+<y class="my-2 mx-auto w-64">
+  <y class="w-56 h-32 p-4 bg-gray-300">
+    <y class="text-4xl text-center">
+    Text
+    </y>
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<y class="text-center">
+  ...
+</y>
+```
+
+Set text align to `justify`.
+
+<y class="my-2 mx-auto w-64">
+  <y class="w-56 h-32 p-4 bg-gray-300">
+    <y class="text-2xl text-justify">
+      Text Text Text Text Text Text Text
+    </y>
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<y class="text-justify">
+  ... ... ...
+  ... ... ...
+  ... ... ...
+</y>
+```
+
+---
+
 ## Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
