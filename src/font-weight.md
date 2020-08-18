@@ -31,12 +31,24 @@ Utilities for sets the font weight.
 
 ## Usage
 
+Set font-weight to an element.
+
 ```html
 <!-- Example -->
 <y class="font-light">
   ...
 </y>
 ```
+
+Set font-weight with `Google Fonts` (See [Font Family](/font-family/)).
+
+```html
+<!-- Example -->
+<y class="font-roboto font-light">
+  ...
+</y>
+```
+
 ---
 
 ## Variant
