@@ -34,6 +34,19 @@ Utilities for sets the line height.
 
 ---
 
+## Usage
+
+```html
+<!-- Example -->
+<y class="depth-tight">
+  ...
+  ...
+  ...
+</y>
+```
+
+---
+
 ## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
 
 ```scss
