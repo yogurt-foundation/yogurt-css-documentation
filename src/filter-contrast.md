@@ -83,10 +83,10 @@ Mix with other filters, such as [Brightness](/filter-brightness/), [Saturate](/f
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  $utility: 'constrast',
-  //$variant: 'responsive',
-  $property: '--contrast',
-  $modifier: (
+  utility: 'constrast',
+  //variant: 'responsive',
+  property: '--contrast',
+  modifier: (
     '11': '2.0',
     '12': '2.5'
     //...

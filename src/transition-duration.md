@@ -33,10 +33,10 @@ Utilities for sets the length of time for a transition animations to complete.
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  $utility: 'duration',
-  //$variant: 'responsive',
-  $property: 'transition-duration',
-  $modifier: (
+  utility: 'duration',
+  //variant: 'responsive',
+  property: 'transition-duration',
+  modifier: (
     '600': '...ms',
     '800': '...ms'
     ...

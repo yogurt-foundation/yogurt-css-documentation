@@ -38,10 +38,10 @@ Utilities for sets the transparency of an element.
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  $utility: 'opacity',
-  //$variant: 'responsive',
-  $property: 'opacity',
-  $modifier: (
+  utility: 'opacity',
+  //variant: 'responsive',
+  property: 'opacity',
+  modifier: (
     '85': '.85',
     '45': '.45'
     ...

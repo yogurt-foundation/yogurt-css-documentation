@@ -44,6 +44,18 @@ Utilities for sets skip rendering if element is off-screen to improve overall pa
 
 ---
 
+## Usage
+
+Set maximum height and width for the browser to start to render an element.
+
+```html
+<y class="render-auto-widest">
+  ...
+</y>
+```
+
+---
+
 ## Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |

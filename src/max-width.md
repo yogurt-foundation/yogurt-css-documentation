@@ -41,10 +41,10 @@ Utilities for sets the maximum width of an element.
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  $utility: 'max-w',
-  //$variant: 'responsive',
-  $property: 'max-width',
-  $modifier: (
+  utility: 'max-w',
+  //variant: 'responsive',
+  property: 'max-width',
+  modifier: (
     '...': '...',
     '...': '...'
     ...

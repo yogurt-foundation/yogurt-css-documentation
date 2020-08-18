@@ -32,10 +32,10 @@ Utilities for sets the z order (stack order) of a positioned element.
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  $utility: 'z-60',
-  //$variant: 'responsive',
-  $property: 'z-index',
-  $modifier: (
+  utility: 'z-60',
+  //variant: 'responsive',
+  property: 'z-index',
+  modifier: (
     '60': '...',
     '70': '...'
     ...

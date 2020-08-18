@@ -56,12 +56,32 @@ Set font family to `<body>` as default.
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  $utility: 'font',
-  //$variant: 'responsive',
-  $property: 'font-family',
-  $modifier: (
+  utility: 'font',
+  //variant: 'responsive',
+  property: 'font-family',
+  modifier: (
     '...': '...',
     '...': '...'
+    ...
+  )
+)
+```
+
+Example of `font-family` utility module for `Google Fonts`.
+
+```scss
+// @file: `src/_plugins.scss`
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Lato&family=Open+Sans&family=Roboto&display=swap');
+
+@include plugin(
+  utility: 'font',
+  //variant: 'responsive',
+  property: 'font-family',
+  modifier: (
+    'alata': '"Alata", sans-serif',
+    'lato': '"Lato", sans-serif',
+    'open-sans': '"Open Sans", sans-serif',
+    'roboto': '"Roboto", sans-serif'
     ...
   )
 )

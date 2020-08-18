@@ -27,10 +27,10 @@ Utilities for sets the minimum width of an element.
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  $utility: 'min-w',
-  //$variant: 'responsive',
-  $property: 'min-width',
-  $modifier: (
+  utility: 'min-w',
+  //variant: 'responsive',
+  property: 'min-width',
+  modifier: (
     '...': '...',
     '...': '...'
     ...

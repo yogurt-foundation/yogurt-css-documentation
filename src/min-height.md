@@ -28,10 +28,10 @@ Utilities for sets the miminum height of an element.
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  $utility: 'min-h',
-  //$variant: 'responsive',
-  $property: 'min-height',
-  $modifier: (
+  utility: 'min-h',
+  //variant: 'responsive',
+  property: 'min-height',
+  modifier: (
     '...': '...',
     '...': '...'
     ...

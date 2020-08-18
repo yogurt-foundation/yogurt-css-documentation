@@ -213,49 +213,49 @@ Set background gradient to `<body>` tag.
 // @file: `src/_plugins.scss`
 @include plugin(
   (
-    $utility: 'angle',
-    //$variant: 'responsive',
-    $property: '--bg-gradient-angle',
-    $modifier: (
+    utility: 'angle',
+    //variant: 'responsive',
+    property: '--bg-gradient-angle',
+    modifier: (
       '270': '270deg'
       //...
     )
   ),
   (
-    $utility: 'start',
-    //$variant: 'responsive',
-    $property: '--bg-gradient-primary',
-    $modifier: (
+    utility: 'start',
+    //variant: 'responsive',
+    property: '--bg-gradient-primary',
+    modifier: (
       '15': '15%',
       '25': '25%'
       //...
     )
   ),
   (
-    $utility: 'Stop',
-    //$variant: 'responsive',
-    $property: '--bg-gradient-secondary',
-    $modifier: (
+    utility: 'Stop',
+    //variant: 'responsive',
+    property: '--bg-gradient-secondary',
+    modifier: (
       '15': '15%',
       '25': '25%'
       //...
     )
   ),
   (
-    $utility: 'start-red',
-    //$variant: 'responsive',
-    $property: '--bg-gradient-start-color',
-    $modifier: (
+    utility: 'start-red',
+    //variant: 'responsive',
+    property: '--bg-gradient-start-color',
+    modifier: (
       '100': '#...',
       '200': '#...'
       //...
     )
   ),
   (
-    $utility: 'stop-green',
-    //$variant: 'responsive',
-    $property: '--bg-gradient-stop-color',
-    $modifier: (
+    utility: 'stop-green',
+    //variant: 'responsive',
+    property: '--bg-gradient-stop-color',
+    modifier: (
       '100': '#...',
       '200': '#...'
       //...

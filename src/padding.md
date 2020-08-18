@@ -267,10 +267,10 @@ Set padding to `right`.
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  $utility: 'p',
-  //$variant: 'responsive',
-  $property: 'padding',
-  $modifier: (
+  utility: 'p',
+  //variant: 'responsive',
+  property: 'padding',
+  modifier: (
     '72': '...rem',
     '84': '...rem'
     ...

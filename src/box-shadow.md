@@ -48,10 +48,10 @@ Utilities for sets the box-shadow property attaches one or more shadows to an el
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  $utility: 'shadow',
-  //$variant: 'responsive',
-  $property: 'box-shadow',
-  $modifier: (
+  utility: 'shadow',
+  //variant: 'responsive',
+  property: 'box-shadow',
+  modifier: (
     '3xl': '...',
     '4xl': '...'
     ...

@@ -67,10 +67,10 @@ Utilities for sets border width in increments of 1px.
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  $utility: 'border',
-  //$variant: 'responsive',
-  $property: 'border',
-  $modifier: (
+  utility: 'border',
+  //variant: 'responsive',
+  property: 'border',
+  modifier: (
     '10': '...px',
     '12': '...px'
     ...
