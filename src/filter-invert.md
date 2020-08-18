@@ -45,6 +45,9 @@ Utilities for sets filter inverts effect to an element.
 <!-- Example -->
 <img class="filter invert-1 ..."
      src="...">
+
+<y class="filter invert-1 ..."
+   style="background-image:url(...)"></y>
 ```
 
 ---
