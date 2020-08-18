@@ -26,6 +26,8 @@ Utilities for sets the word breaks of an element.
 
 ## Usage
 
+Set text paragraph break line normally.
+
 <y class="my-2 mx-auto max-w-sm">
   <y class="p-4 bg-gray-300 break-normal">
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis quidem itaque beatae, rem teneturuiaiureeumnatusenimmaximelaudantiumquibusdamillonihil, reprehenderit saepe quam aliquid odio accusamus.
@@ -38,6 +40,8 @@ Utilities for sets the word breaks of an element.
   ...
 </y>
 ```
+
+Set text paragraph break only words.
 
 <y class="my-2 mx-auto max-w-sm">
   <y class="p-4 bg-gray-300 break-words">
@@ -52,6 +56,8 @@ Utilities for sets the word breaks of an element.
 </y>
 ```
 
+Set text paragraph break all lines and words.
+
 <y class="my-2 mx-auto max-w-sm">
   <y class="p-4 bg-gray-300 break-all">
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis quidem itaque beatae, rem teneturuiaiureeumnatusenimmaximelaudantiumquibusdamillonihil, reprehenderit saepe quam aliquid odio accusamus.
@@ -64,6 +70,8 @@ Utilities for sets the word breaks of an element.
   ...
 </y>
 ```
+
+Set text paragraph truncate into a single line.
 
 <y class="my-2 mx-auto max-w-sm">
   <y class="p-4 bg-gray-300 truncate">
