@@ -166,7 +166,7 @@ Utilities for sets the placeholder color using the ::placeholder pseudo element.
 
 ## Usage
 
-```hmtl
+```html
 <!-- Example -->
 <input class="placeholder-red-500"
        placeholder="...">

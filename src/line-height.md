@@ -36,6 +36,17 @@ Utilities for sets the line height.
 
 ## Usage
 
+<y class="my-2 mx-auto max-w-md">
+  <y class="flex">
+    <y class="depth-tight mx-2 p-4 bg-gray-300">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </y>
+    <y class="depth-loose mx-2 p-4 bg-gray-300">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </y>
+  </y>
+</y>
+
 ```html
 <!-- Example -->
 <y class="depth-tight">
