@@ -61,7 +61,7 @@ Apply the `filter` class first, and then set the filter in any order when with o
 <img class="filter blur-2 ..."
      src="...">
 
-<y class="filter blur-2 ... w-32 h-32"
+<y class="filter blur-2 ..."
    style="background-image:url(...)"></y>
 ```
 

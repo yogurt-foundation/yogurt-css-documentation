@@ -58,10 +58,10 @@ Apply the `filter` class first, and then set the filter in any order when with o
 
 ```html
 <!-- Example -->
-<img class="filter brightness-10 ... w-32 h-32"
+<img class="filter brightness-10 ..."
      src="...">
 
-<y class="filter brightness-10 ... w-32 h-32"
+<y class="filter brightness-10 ..."
    style="background-image:url(...)"></y>
 ```
 
