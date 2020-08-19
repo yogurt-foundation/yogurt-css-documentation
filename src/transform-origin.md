@@ -29,6 +29,132 @@ Utilities for sets the origin of an element's transforms.
 
 ---
 
+## Usage
+
+Set basic transform-origin with [Rotate](/rotate/), [Skew](/skew/), and [Scale](/scale/) utilities.
+
+Set the element origin to `center`.
+
+<y class="mt-2 mb-6 mx-auto w-32">
+  <y class="h-20 w-20 bg-red-300">
+    <img class="h-20 w-20 origin-center transform rotate-45 rounded"
+       src="https://picsum.photos/80?=1">
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<img class="origin-center ... transform rotate-45 ... h-32 w-24"
+     src="...">
+```
+
+Set the element origin to `top-left`.
+
+<y class="my-8 mx-auto w-32">
+  <y class="h-20 w-20 bg-red-300">
+    <img class="h-20 w-20 origin-top-left transform rotate-45 rounded"
+       src="https://picsum.photos/80?=1">
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<img class="origin-top-left ... transform rotate-45 ... h-32 w-24"
+     src="...">
+```
+
+Set the element origin to `bottom-right`.
+
+<y class="my-8 mx-auto w-32">
+  <y class="h-20 w-20 bg-red-300">
+    <img class="h-20 w-20 origin-bottom-right transform rotate-45 rounded"
+       src="https://picsum.photos/80?=1">
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<img class="origin-bottom-right ... transform rotate-45 ... h-32 w-24"
+     src="...">
+```
+
+Set the element origin to `right`.
+
+<y class="my-8 mx-auto w-32">
+  <y class="h-20 w-20 bg-red-300">
+    <img class="h-20 w-20 origin-right transform rotate-45 rounded"
+       src="https://picsum.photos/80?=1">
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<img class="origin-right ... transform rotate-45 ... h-32 w-24"
+     src="...">
+```
+
+Set the element origin to `bottom-right`.
+
+<y class="my-8 mx-auto w-32">
+  <y class="h-20 w-20 bg-red-300">
+    <img class="h-20 w-20 origin-bottom-right transform rotate-45 rounded"
+       src="https://picsum.photos/80?=1">
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<img class="origin-center ... transform rotate-45 ... h-32 w-24"
+     src="...">
+```
+
+Set the element origin to `bottom-left`.
+
+<y class="my-8 mx-auto w-32">
+  <y class="h-20 w-20 bg-red-300">
+    <img class="h-20 w-20 origin-bottom-left transform rotate-45 rounded"
+       src="https://picsum.photos/80?=1">
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<img class="origin-bottom-left ... transform rotate-45 ... h-32 w-24"
+     src="...">
+```
+
+Set the element origin to `left`.
+
+<y class="my-8 mx-auto w-32">
+  <y class="h-20 w-20 bg-red-300">
+    <img class="h-20 w-20 origin-left transform rotate-45 rounded"
+       src="https://picsum.photos/80?=1">
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<img class="origin-left ... transform rotate-45 ... h-32 w-24"
+     src="...">
+```
+
+Set the element origin to `top-left`.
+
+<y class="my-8 mx-auto w-32">
+  <y class="h-20 w-20 bg-red-300">
+    <img class="h-20 w-20 origin-top-left transform rotate-45 rounded"
+       src="https://picsum.photos/80?=1">
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<img class="origin-top-left ... transform rotate-45 ... h-32 w-24"
+     src="...">
+```
+
+---
+
 ## Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
