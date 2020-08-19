@@ -22,24 +22,11 @@ Utilities for sets an element's background checks pattern.
 | pattern <br> checks-lg | background-image: repeating-linear-gradient(45deg, currentColor 25%, transparent 25%, transparent 75%, currentColor 75%, currentColor), repeating-linear-gradient(45deg, currentColor 25%, transparent 25%, transparent 75%, currentColor 75%, currentColor); <br><br> background-position: 0 0, 50px 50px; <br><br> background-size: calc(2 * 50px) calc(2 * 50px) | <y class="pattern checks-lg w-32 h-56"></y> |
 | pattern <br> checks-xl | background-image: repeating-linear-gradient(45deg, currentColor 25%, transparent 25%, transparent 75%, currentColor 75%, currentColor), repeating-linear-gradient(45deg, currentColor 25%, transparent 25%, transparent 75%, currentColor 75%, currentColor); <br><br> background-position: 0 0, 100px 100px; <br><br> background-size: calc(2 * 100px) calc(2 * 100px) | <y class="pattern checks-xl w-32 h-56"></y> |
 
-<y class="mt-4 mx-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
+<y class="m-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
   <span class="pr-1 font-semibold">
     Note:
   </span>
   Utility customizing is unavailable.
-</y>
-
-<y class="mt-2 mb-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 bg-orange-200">
-  <span class="pr-1 font-semibold">
-    Note:
-  </span>
-  To fill the pattern color is using the
-  <strong>
-    text-{value}
-  </strong> (See
-  <a href="/text-color/#class">
-    Text Color
-  </a>.)
 </y>
 
 ---
@@ -60,7 +47,7 @@ Set basic checks pattern.
 </y>
 ```
 
-Set pattern with color.
+Set pattern with color by using `text-{color}` utility. (See [Text Color](/text-color/)).
 
 <y class="px-4 my-2 mx-auto w-56">
   <y class="pattern checks-sm h-32 text-amber-400"></y>

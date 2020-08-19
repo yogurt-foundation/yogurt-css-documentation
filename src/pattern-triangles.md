@@ -22,24 +22,11 @@ Utilities for sets an element's background triangles pattern.
 | pattern <br> triangles-lg | background-image: linear-gradient(45deg, currentColor 50%, transparent 50%); <br><br> background-size: 50px 50px | <y class="pattern triangles-lg w-32 h-56"></y> |
 | pattern <br> triangles-xl | background-image: linear-gradient(45deg, currentColor 50%, transparent 50%); <br><br> background-size: 100px 100px | <y class="pattern triangles-xl w-32 h-56"></y> |
 
-<y class="mt-4 mx-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
+<y class="m-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
   <span class="pr-1 font-semibold">
     Note:
   </span>
   Utility customizing is unavailable.
-</y>
-
-<y class="mt-2 mb-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 bg-orange-200">
-  <span class="pr-1 font-semibold">
-    Note:
-  </span>
-  To fill the pattern color is using the
-  <strong>
-    text-{value}
-  </strong> (See
-  <a href="/text-color/#class">
-    Text Color
-  </a>.)
 </y>
 
 ---
@@ -60,7 +47,7 @@ Set basic triangles pattern.
 </y>
 ```
 
-Set pattern with color.
+Set pattern with color by using `text-{color}` utility. (See [Text Color](/text-color/)).
 
 <y class="px-4 my-2 mx-auto w-56">
   <y class="pattern triangles-sm h-32 text-amber-400"></y>

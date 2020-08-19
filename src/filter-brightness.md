@@ -33,6 +33,13 @@ Utilities for sets brightness filter to an element.
 | brightness-9 | --brightness: 1.80 |
 | brightness-10 | --brightness: 1.90 |
 
+<y class="m-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 bg-orange-200">
+  <span class="pr-1 font-semibold">
+    Note:
+  </span>
+  Only supported web browsers can benefit from this utility.
+</y>
+
 ---
 
 ## Usage
