@@ -155,11 +155,18 @@ Utilities for sets bottom border color on each child elements of its parent.
 | dissect-yellow-800 | --dissect-opacity: 1; <br> border-color: #975a16; <br> border-color: rgba(151, 90, 22, var(--dissect-opacity)) | <y class="px-2 py-1 dissect-y-2 dissect-y dissect-teal-800"><y>Text</y><y>Text</y></y> |
 | dissect-yellow-900 | --dissect-opacity: 1; <br> border-color: #744210; <br> border-color: rgba(116, 66, 16, var(--dissect-opacity)) | <y class="px-2 py-1 dissect-y-2 dissect-y dissect-teal-900"><y>Text</y><y>Text</y></y> |
 
-<y class="mx-4 my-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
+<y class="mt-4 mx-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
   <span class="pr-1 font-semibold">
     Note:
   </span>
   Utility customizing is unavailable.
+</y>
+
+<y class="mt-2 mb-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 bg-orange-200">
+  <span class="pr-1 font-semibold">
+    Note:
+  </span>
+  Only supported web browsers can benefit from this utility.
 </y>
 
 ---

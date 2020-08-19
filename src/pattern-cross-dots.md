@@ -22,24 +22,11 @@ Utilities for sets an element's background cross-dots pattern.
 | pattern <br> cross-dots-lg | background-image: radial-gradient(currentColor 1.5px, transparent 1.5px), radial-gradient(currentColor 1.5px, transparent 1.5px); <br><br> background-size: calc(20 * 1.5px) calc(20 * 1.5px); <br><br> background-position: 0 0, calc(10 * 1.5px) calc(10 * 1.5px) | <y class="pattern cross-dots-lg w-32 h-56"></y> |
 | pattern <br> cross-dots-xl | background-image: radial-gradient(currentColor 2px, transparent 2px), radial-gradient(currentColor 2px, transparent 2px); <br><br> background-size: calc(20 * 2px) calc(20 * 2px); <br><br> background-position: 0 0, calc(10 * 2px) calc(10 * 2px) | <y class="pattern cross-dots-xl w-32 h-56"></y> |
 
-<y class="mt-4 mx-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
+<y class="m-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
   <span class="pr-1 font-semibold">
     Note:
   </span>
   Utility customizing is unavailable.
-</y>
-
-<y class="mt-2 mb-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 bg-orange-200">
-  <span class="pr-1 font-semibold">
-    Note:
-  </span>
-  To fill the pattern color is using the
-  <strong>
-    text-{value}
-  </strong> (See
-  <a href="/text-color/#class">
-    Text Color
-  </a>.)
 </y>
 
 ---
@@ -60,7 +47,7 @@ Set basic cross-dots pattern.
 </y>
 ```
 
-Set pattern with color.
+Set pattern with color by using `text-{color}` utility. See (Text Color)[/text-color/].
 
 <y class="px-4 my-2 mx-auto w-56">
   <y class="pattern cross-dots-sm h-32 text-amber-400"></y>

@@ -179,6 +179,13 @@ Utilities for sets the background gradient color to an element with flexible con
 | -angle-90 | --bg-gradient-angle: -90deg |
 | -angle-180 | --bg-gradient-angle: -180deg |
 
+<y class="m-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 bg-orange-200">
+  <span class="pr-1 font-semibold">
+    Note:
+  </span>
+  Only supported web browsers can benefit from this utility.
+</y>
+
 ---
 
 ## Usage
