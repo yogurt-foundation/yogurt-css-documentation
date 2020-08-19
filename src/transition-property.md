@@ -34,7 +34,7 @@ Set basic transition with [Duration](/transition-duration/) and [Timing](/transf
 An example of transitioning an element with [Border Width](/border-width/) and [Box Shadow](/box-shadow/) utilities.
 
 <y class="my-2 mx-auto w-64">
-  <y class="p-4 w-48 text-center text-gray-600 font-semibold bg-gray-400 transition-all duration-300 ease-in-out border-4 border-gray-400 hover:border-gray-500 hover:shadow-lg rounded-lg cursor-pointer">
+  <y class="p-4 w-48 text-center text-gray-600 font-semibold bg-gray-400 transition duration-300 ease-in-out border-4 border-gray-400 hover:border-gray-500 hover:shadow-lg rounded-lg cursor-pointer">
   	Hover
   </y>
 </y>
