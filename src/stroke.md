@@ -19,24 +19,11 @@ Utilities for sets the outline color of an SVG.
 |:--|:--|
 | stroke-current | stroke: currentColor |
 
-<y class="my-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 bg-orange-200">
-  <span class="pr-1 font-semibold">
-    Note:
-  </span>
-  To fill the stroke color is using the
-  <strong>
-    text-{value}
-  </strong> (See
-  <a href="/text-color/#class">
-    Text Color
-  </a>.)
-</y>
-
 ---
 
 ## Usage
 
-Set a SVG image with stroke color.
+Set a SVG image with stroke color overrides by using `text-{color}` utility. (See [Text Color](/text-color/)).
 
 <y class="px-4 my-2 mx-auto w-56">
   <svg class="w-full h-24 stroke-current text-amber-400" role="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 46.8 46.8" enable-background="new 0 0 46.8 46.8" xml:space="preserve">
