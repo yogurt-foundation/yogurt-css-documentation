@@ -36,6 +36,16 @@ Utilities for sets the maximum width of an element.
 
 ---
 
+## Usage
+
+```html
+<!-- Example -->
+<y class="max-w-md">
+  ...
+</y>
+```
+---
+
 ## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
 
 ```scss
