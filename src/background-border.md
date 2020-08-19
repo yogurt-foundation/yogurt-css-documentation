@@ -58,17 +58,11 @@ Utilities for sets background border to an element with flexible control over th
 | angle-60 | --bg-border-angle: 60deg |
 | -angle-60 | --bg-border-angle: -60deg |
 
-<y class="mx-4 my-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 bg-orange-200">
+<y class="m-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 bg-orange-200">
   <span class="pr-1 font-semibold">
     Note:
   </span>
-  To fill the background border color is using the
-  <strong>
-    text-{value}
-  </strong> (See
-  <a href="/text-color/#class">
-    Text Color
-  </a>.)
+  Only supported web browsers can benefit from this utility.
 </y>
 
 ---
@@ -88,7 +82,7 @@ Set basic background border to an element.
 </y>
 ```
 
-Set background border with color.
+Set background border with color by using `text-{color}` utility (See [Text Color](/text-color/)).
 
 <y class="px-4 my-2 mx-auto w-56">
   <y class="h-32 w-56 bg-border length-20 size-9 space-30 angle-45 text-amber-400"></y>
