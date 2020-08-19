@@ -26,7 +26,7 @@ Utilities for sets the easing function of transition animations.
 
 ## Usage
 
-Set basic transition with [Duration](/transition-duration/) and [Timing](/transform-timing/), apply with pseudo class variants `hover`, `focus`, `active`.
+Set basic transition with [Duration](/transition-duration/) and [Timing](/transition-timing/), apply with pseudo class variants `hover`, `focus`, `active`.
 
 Set transition timing `ease-linear` to an element.
 
