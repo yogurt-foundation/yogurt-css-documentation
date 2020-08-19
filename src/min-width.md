@@ -22,6 +22,17 @@ Utilities for sets the minimum width of an element.
 
 ---
 
+## Usage
+
+```html
+<!-- Example -->
+<y class="min-w-full">
+  ...
+</y>
+```
+
+---
+
 ## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
 
 ```scss
