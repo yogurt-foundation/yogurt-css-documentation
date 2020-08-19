@@ -68,6 +68,232 @@ Utilities for sets the width of an element.
 
 ---
 
+## Usage
+
+Set basic width to an element.
+
+```html
+<!-- Example -->
+<y class="w-4">
+  ...
+</y>
+```
+
+Set full width to an element.
+
+```html
+<!-- Example -->
+<y class="w-full">
+  ...
+</y>
+```
+
+Set full width in viewport screen to an element.
+
+```html
+<!-- Example -->
+<y class="w-screen">
+  ...
+</y>
+```
+
+Set 2-column width `1/2` to an element companion with `flex` utility (See [Flex](/flex/)).
+
+<y class="p-4 my-4 mx-auto w-64 bg-gray-300 flex">
+  <y class="w-1/2 h-16 bg-gray-400 flex justify-center items-center"></y>
+  <y class="w-1/2 h-16 bg-gray-500 flex justify-center items-center"></y>
+</y>
+
+```html
+<!-- Example -->
+<y class="flex">
+  <y class="w-1/2">
+    ...
+  </y>
+  <y class="w-1/2">
+    ...
+  </y>
+</y>
+```
+
+Set 3-column width `1/3` to an element.
+
+<y class="py-4 my-4 mx-auto w-64 bg-gray-300 flex">
+  <y class="w-1/3 h-16 bg-gray-400 flex justify-center items-center"></y>
+  <y class="w-1/3 h-16 bg-gray-500 flex justify-center items-center"></y>
+  <y class="w-1/3 h-16 text-gray-100 bg-gray-600 flex justify-center items-center"></y>
+</y>
+
+```html
+<!-- Example -->
+<y class="flex">
+  <y class="w-1/3">
+    ...
+  </y>
+  <y class="w-1/3">
+    ...
+  </y>
+  <y class="w-1/3">
+    ...
+  </y>
+</y>
+```
+
+...mixed 3-column widths.
+
+```html
+<!-- Example -->
+<y class="flex">
+  <y class="w-2/3">
+    ...
+  </y>
+  <y class="w-1/3">
+    ...
+  </y>
+</y>
+```
+
+Set 4-column width `1/4` to an element.
+
+<y class="py-4 my-4 mx-auto w-64 bg-gray-300 flex">
+  <y class="w-1/4 h-16 bg-gray-400 flex justify-center items-center"></y>
+  <y class="w-1/4 h-16 bg-gray-500 flex justify-center items-center"></y>
+  <y class="w-1/4 h-16 text-gray-100 bg-gray-600 flex justify-center items-center"></y>
+  <y class="w-1/4 h-16 text-gray-100 bg-gray-700 flex justify-center items-center"></y>
+</y>
+
+```html
+<!-- Example -->
+<y class="flex">
+  <y class="w-1/4"> ... </y>
+  <y class="w-1/4"> ... </y>
+  <y class="w-1/4"> ... </y>
+  <y class="w-1/4"> ... </y>
+</y>
+```
+
+...mixed 4-column widths.
+
+```html
+<!-- Example -->
+<y class="flex">
+  <y class="w-2/4"> ... </y>
+  <y class="w-3/4"> ... </y>
+</y>
+```
+
+Set 5-column width `1/5` to an element.
+
+<y class="py-4 my-4 mx-auto w-64 bg-gray-300 flex">
+  <y class="w-1/5 h-16 bg-gray-400 flex justify-center items-center"></y>
+  <y class="w-1/5 h-16 bg-gray-500 flex justify-center items-center"></y>
+  <y class="w-1/5 h-16 text-gray-100 bg-gray-600 flex justify-center items-center"></y>
+  <y class="w-1/5 h-16 text-gray-100 bg-gray-700 flex justify-center items-center"></y>
+  <y class="w-1/5 h-16 text-gray-100 bg-gray-800 flex justify-center items-center"></y>
+</y>
+
+```html
+<!-- Example -->
+<y class="flex">
+  <y class="w-1/5"> ... </y>
+  <y class="w-1/5"> ... </y>
+  <y class="w-1/5"> ... </y>
+  <y class="w-1/5"> ... </y>
+  <y class="w-1/5"> ... </y>
+</y>
+```
+
+...mixed 5-column widths.
+
+```html
+<!-- Example -->
+<y class="flex">
+  <y class="w-3/5"> ... </y>
+  <y class="w-2/5"> ... </y>
+</y>
+```
+
+Set 6-column width `1/6` to an element.
+
+<y class="py-4 my-4 mx-auto w-64 bg-gray-300 flex">
+  <y class="w-1/6 h-16 bg-gray-400 flex justify-center items-center"></y>
+  <y class="w-1/6 h-16 bg-gray-500 flex justify-center items-center"></y>
+  <y class="w-1/6 h-16 text-gray-100 bg-gray-600 flex justify-center items-center"></y>
+  <y class="w-1/6 h-16 text-gray-100 bg-gray-700 flex justify-center items-center"></y>
+  <y class="w-1/6 h-16 text-gray-100 bg-gray-800 flex justify-center items-center"></y>
+  <y class="w-1/6 h-16 text-gray-100 bg-gray-900 flex justify-center items-center"></y>
+</y>
+
+```html
+<!-- Example -->
+<y class="flex">
+  <y class="w-1/6"> ... </y>
+  <y class="w-1/6"> ... </y>
+  <y class="w-1/6"> ... </y>
+  <y class="w-1/6"> ... </y>
+  <y class="w-1/6"> ... </y>
+  <y class="w-1/6"> ... </y>
+</y>
+```
+
+...mixed 6-column widths.
+
+```html
+<!-- Example -->
+<y class="flex">
+  <y class="w-4/6"> ... </y>
+  <y class="w-2/6"> ... </y>
+</y>
+```
+
+Set 12-column width `1/12` to an element.
+
+<y class="py-4 my-4 mx-auto w-64 bg-gray-300 flex">
+  <y class="w-1/12 h-16 bg-gray-400 flex justify-center items-center"></y>
+  <y class="w-1/12 h-16 bg-gray-500 flex justify-center items-center"></y>
+  <y class="w-1/12 h-16 text-gray-100 bg-gray-600 flex justify-center items-center"></y>
+  <y class="w-1/12 h-16 text-gray-100 bg-gray-700 flex justify-center items-center"></y>
+  <y class="w-1/12 h-16 text-gray-100 bg-gray-800 flex justify-center items-center"></y>
+  <y class="w-1/12 h-16 text-gray-100 bg-gray-900 flex justify-center items-center"></y>
+  <y class="w-1/12 h-16 bg-gray-400 flex justify-center items-center"></y>
+  <y class="w-1/12 h-16 bg-gray-500 flex justify-center items-center"></y>
+  <y class="w-1/12 h-16 text-gray-100 bg-gray-600 flex justify-center items-center"></y>
+  <y class="w-1/12 h-16 text-gray-100 bg-gray-700 flex justify-center items-center"></y>
+  <y class="w-1/12 h-16 text-gray-100 bg-gray-800 flex justify-center items-center"></y>
+  <y class="w-1/12 h-16 text-gray-100 bg-gray-900 flex justify-center items-center"></y>
+</y>
+
+```html
+<!-- Example -->
+<y class="flex">
+  <y class="w-1/12"> ... </y>
+  <y class="w-1/12"> ... </y>
+  <y class="w-1/12"> ... </y>
+  <y class="w-1/12"> ... </y>
+  <y class="w-1/12"> ... </y>
+  <y class="w-1/12"> ... </y>
+  <y class="w-1/12"> ... </y>
+  <y class="w-1/12"> ... </y>
+  <y class="w-1/12"> ... </y>
+  <y class="w-1/12"> ... </y>
+  <y class="w-1/12"> ... </y>
+  <y class="w-1/12"> ... </y>
+</y>
+```
+
+...mixed 12-column widths.
+
+```html
+<!-- Example -->
+<y class="flex">
+  <y class="w-4/12"> ... </y>
+  <y class="w-6/12"> ... </y>
+  <y class="w-2/12"> ... </y>
+</y>
+```
+
+---
+
 ## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
 
 ```scss
