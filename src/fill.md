@@ -23,7 +23,7 @@ Utilities for sets the color to paint an SVG.
 
 ## Usage
 
-Set a SVG image with color overrides.
+Set a SVG image with color overrides by using `text-{color}` utility. (See [Text Color](/text-color/)).
 
 <y class="px-4 my-2 mx-auto w-56">
   <svg class="w-full h-24 fill-current text-amber-400" role="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 46.8 46.8" enable-background="new 0 0 46.8 46.8" xml:space="preserve">
