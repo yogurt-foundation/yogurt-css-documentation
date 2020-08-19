@@ -42,6 +42,37 @@ Utilities for sets the height of an element.
 
 ---
 
+## Usage
+
+Set basic height to an element.
+
+```html
+<!-- Example -->
+<y class="h-4">
+  ...
+</y>
+```
+
+Set full height to an element.
+
+```html
+<!-- Example -->
+<y class="h-full">
+  ...
+</y>
+```
+
+Set full height in viewport screen to an element.
+
+```html
+<!-- Example -->
+<y class="h-screen">
+  ...
+</y>
+```
+
+---
+
 ## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
 
 ```scss
