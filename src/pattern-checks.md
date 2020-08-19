@@ -47,7 +47,7 @@ Set basic checks pattern.
 </y>
 ```
 
-Set pattern with color by using `text-{color}` utility. See (Text Color)[/text-color/].
+Set pattern with color by using `text-{color}` utility. See [Text Color](/text-color/).
 
 <y class="px-4 my-2 mx-auto w-56">
   <y class="pattern checks-sm h-32 text-amber-400"></y>

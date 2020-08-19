@@ -47,7 +47,7 @@ Set basic vertical-stripes pattern.
 </y>
 ```
 
-Set pattern with color by using `text-{color}` utility. See (Text Color)[/text-color/].
+Set pattern with color by using `text-{color}` utility. See [Text Color](/text-color/).
 
 <y class="px-4 my-2 mx-auto w-56">
   <y class="pattern vertical-stripes-sm h-32 text-amber-400"></y>
