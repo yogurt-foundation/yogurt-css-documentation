@@ -50,6 +50,84 @@ Utilities for scales an element that has transform applied.
 
 ---
 
+## Usage
+
+Set basic [Transform Origin](/transform-origin/) with [Scale](/scale/) utility. (See [Skew](/skew/), [Rotate](/rotate/)).
+
+Set the element scale to `50` times smaller.
+
+<y class="my-6 mx-auto w-32">
+  <y class="h-24 w-24 bg-red-300 flex justify-center items-center">
+    <img class="h-20 w-20 transform scale-50 rounded shadow"
+       src="https://picsum.photos/80?=1">
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<img class="transform scale-50 ... h-32 w-24"
+     src="...">
+
+<y class="transform scale-50 ... h-32 w-24"
+   style="background-image:utl(...)">
+```
+
+Set the element scale to `150` times larger.
+
+<y class="my-6 mx-auto w-32">
+  <y class="h-24 w-24 bg-red-300 flex justify-center items-center">
+    <img class="h-20 w-20 transform scale-150 rounded shadow"
+       src="https://picsum.photos/80?=1">
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<img class="transform scale-150 ... h-32 w-24"
+     src="...">
+
+<y class="transform scale-150 ... h-32 w-24"
+   style="background-image:utl(...)">
+```
+
+Set the element scale `horizontal` to `50` times smaller.
+
+<y class="my-6 mx-auto w-32">
+  <y class="h-24 w-24 bg-red-300 flex justify-center items-center">
+    <img class="h-20 w-20 transform scale-x-50 rounded shadow"
+       src="https://picsum.photos/80?=1">
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<img class="transform scale-x-50 ... h-32 w-24"
+     src="...">
+
+<y class="transform scale-x-50 ... h-32 w-24"
+   style="background-image:utl(...)">
+```
+
+Set the element scale `vertical` to `50` times smaller.
+
+<y class="my-6 mx-auto w-32">
+  <y class="h-24 w-24 bg-red-300 flex justify-center items-center">
+    <img class="h-20 w-20 transform scale-y-50 rounded shadow"
+       src="https://picsum.photos/80?=1">
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<img class="transform scale-y-50 ... h-32 w-24"
+     src="...">
+
+<y class="transform scale-y-50 ... h-32 w-24"
+   style="background-image:utl(...)">
+```
+
+---
+
 ## Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |

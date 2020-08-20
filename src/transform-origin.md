@@ -37,7 +37,7 @@ Set the element origin to `center`.
 
 <y class="mt-2 mb-6 mx-auto w-32">
   <y class="h-20 w-20 bg-red-300">
-    <img class="h-20 w-20 origin-center transform rotate-45 rounded"
+    <img class="h-20 w-20 origin-center transform rotate-45 rounded shadow"
        src="https://picsum.photos/80?=1">
   </y>
 </y>
@@ -52,7 +52,7 @@ Set the element origin to `top-left`.
 
 <y class="my-8 mx-auto w-32">
   <y class="h-20 w-20 bg-red-300">
-    <img class="h-20 w-20 origin-top-left transform rotate-45 rounded"
+    <img class="h-20 w-20 origin-top-left transform rotate-45 rounded shadow"
        src="https://picsum.photos/80?=1">
   </y>
 </y>
@@ -67,7 +67,7 @@ Set the element origin to `bottom-right`.
 
 <y class="my-8 mx-auto w-32">
   <y class="h-20 w-20 bg-red-300">
-    <img class="h-20 w-20 origin-bottom-right transform rotate-45 rounded"
+    <img class="h-20 w-20 origin-bottom-right transform rotate-45 rounded shadow"
        src="https://picsum.photos/80?=1">
   </y>
 </y>
@@ -82,7 +82,7 @@ Set the element origin to `right`.
 
 <y class="my-8 mx-auto w-32">
   <y class="h-20 w-20 bg-red-300">
-    <img class="h-20 w-20 origin-right transform rotate-45 rounded"
+    <img class="h-20 w-20 origin-right transform rotate-45 rounded shadow"
        src="https://picsum.photos/80?=1">
   </y>
 </y>
@@ -97,7 +97,7 @@ Set the element origin to `bottom-right`.
 
 <y class="my-8 mx-auto w-32">
   <y class="h-20 w-20 bg-red-300">
-    <img class="h-20 w-20 origin-bottom-right transform rotate-45 rounded"
+    <img class="h-20 w-20 origin-bottom-right transform rotate-45 rounded shadow"
        src="https://picsum.photos/80?=1">
   </y>
 </y>
@@ -112,7 +112,7 @@ Set the element origin to `bottom-left`.
 
 <y class="mt-6 mb-12 mx-auto w-32">
   <y class="h-20 w-20 bg-red-300">
-    <img class="h-20 w-20 origin-bottom-left transform rotate-45 rounded"
+    <img class="h-20 w-20 origin-bottom-left transform rotate-45 rounded shadow"
        src="https://picsum.photos/80?=1">
   </y>
 </y>
@@ -127,7 +127,7 @@ Set the element origin to `left`.
 
 <y class="mt-4 mb-12 mx-auto w-32">
   <y class="h-20 w-20 bg-red-300">
-    <img class="h-20 w-20 origin-left transform rotate-45 rounded"
+    <img class="h-20 w-20 origin-left transform rotate-45 rounded shadow"
        src="https://picsum.photos/80?=1">
   </y>
 </y>
@@ -142,7 +142,7 @@ Set the element origin to `top-left`.
 
 <y class="my-8 mx-auto w-32">
   <y class="h-20 w-20 bg-red-300">
-    <img class="h-20 w-20 origin-top-left transform rotate-45 rounded"
+    <img class="h-20 w-20 origin-top-left transform rotate-45 rounded shadow"
        src="https://picsum.photos/80?=1">
   </y>
 </y>
