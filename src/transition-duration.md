@@ -30,7 +30,7 @@ Utilities for sets the length of time for a transition animations to complete.
 
 ## Usage
 
-Set basic transition with [Duration](/transition-duration/) and [Timing](/transition-timing/), apply with pseudo class variants `hover`, `focus`, `active`.
+Set basic [Transition](/transition-property/) with [Duration](/transition-duration/) and [Timing](/transition-timing/), apply with pseudo class variants `hover`, `focus`, `active`.
 
 Set transition duration `75ms` to an element.
 
