@@ -35,6 +35,164 @@ Utilities for sets the display box type of an element.
 
 ---
 
+## Usage
+
+Set a block element that starts on a new line and takes up the full width.
+
+<y class="p-4 my-2 mx-auto w-64 bg-gray-400">
+  <y class="flex bg-gray-600">
+    <span class="block py-2 w-full bg-gray-500 text-center text-gray-600">
+      1
+    </span>
+    <span class="block py-2 w-full bg-gray-600 text-center text-gray-100">
+      2
+    </span>
+    <span class="block py-2 w-full bg-gray-500 text-center text-gray-600">
+      3
+    </span>
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<span class="block">
+  ...
+</span>
+```
+
+Set the completely removed element.
+
+<y class="p-4 my-2 mx-auto w-64 bg-gray-400">
+  <y class="flex bg-red-300">
+    <y class="block py-2 w-full bg-gray-500 text-center text-gray-600">
+      1
+    </y>
+    <y class="hidden py-2 w-full bg-gray-500 text-center text-gray-100">
+      2
+    </y>
+    <y class="block py-2 w-full bg-gray-500 text-center text-gray-600">
+      3
+    </y>
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<y class="block">
+  ...
+</y>
+<y class="hidden">
+  ...
+</y>
+<y class="block">
+  ...
+</y>
+```
+
+Set an element as an inline. Any height and width properties will have no effect.
+
+<y class="p-4 my-2 mx-auto w-64 bg-gray-400">
+  <y class="bg-gray-600">
+    <y class="inline-block m-2 px-4 py-2 bg-gray-500 text-gray-600">1</y>
+    <y class="inline-block m-2 px-4 py-2 bg-gray-500 text-gray-600">2</y>
+    <y class="inline-block m-2 px-4 py-2 bg-gray-500 text-gray-600">3</y>
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<y class="inline-block">
+  ...
+</y>
+```
+
+Set an element as a block-level flex container.
+
+<y class="p-4 my-2 mx-auto w-64 bg-gray-400">
+  <y class="flex bg-gray-600">
+    <y class="w-full m-2 px-4 py-2 bg-gray-500 text-gray-100 text-center">1</y>
+    <y class="w-full m-2 px-4 py-2 bg-gray-500 text-gray-100 text-center">2</y>
+    <y class="w-full m-2 px-4 py-2 bg-gray-500 text-gray-100 text-center">3</y>
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<y class="flex">
+  <y> ... </y>
+  <y> ... </y>
+</y>
+```
+
+Set an element as an inline-level flex container.
+
+<y class="p-4 my-2 mx-auto w-64 bg-gray-400">
+  <y class="inline-flex bg-gray-600">
+    <y class="w-full m-2 px-4 py-2 bg-gray-500 text-gray-100 text-center">1</y>
+    <y class="w-full m-2 px-4 py-2 bg-gray-500 text-gray-100 text-center">2</y>
+    <y class="w-full m-2 px-4 py-2 bg-gray-500 text-gray-100 text-center">3</y>
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<y class="inline-flex">
+  <y> ... </y>
+  <y> ... </y>
+</y>
+```
+
+Set a complete set of table with `table`, `table-row`, `table-cell`, `table-caption`, `table-column`, `table-column-group`, `table-header-group`, `table-row-group`, and `table-footer-group` utilities.
+
+<y class="p-4 my-2 mx-auto max-w-lg bg-gray-400">
+  <y class="table w-full">
+    <y class="table-row-group">
+      <y class="table-row">
+        <y class="table-cell bg-gray-500 text-gray-700 px-4 py-2 text-sm">
+          Row-1 Cell-1
+        </y>
+        <y class="table-cell bg-gray-300 text-gray-700 px-4 py-2 text-sm">
+          Row-1 Cell-2
+        </y>
+      </y>
+      <y class="table-row">
+        <y class="table-cell bg-gray-300 text-gray-700 px-4 py-2 text-sm">
+          Row-2 Cell-1
+        </y>
+        <y class="table-cell bg-gray-500 text-gray-700 px-4 py-2 text-sm">
+          Row-2 Cell-2
+        </y>
+      </y>
+    </y>
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<y class="table w-full">
+  <y class="table-row-group">
+    <y class="table-row">
+      <y class="table-cell">
+        ...
+      </y>
+      <y class="table-cell">
+        ...
+      </y>
+    </y>
+    <y class="table-row">
+      <y class="table-cell">
+        ...
+      </y>
+      <y class="table-cell">
+        ...
+      </y>
+    </y>
+  </y>
+</y>
+```
+
+---
+
 ## Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
