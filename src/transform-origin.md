@@ -110,7 +110,7 @@ Set the element origin to `bottom-right`.
 
 Set the element origin to `bottom-left`.
 
-<y class="my-8 mx-auto w-32">
+<y class="mt-6 mb-12 mx-auto w-32">
   <y class="h-20 w-20 bg-red-300">
     <img class="h-20 w-20 origin-bottom-left transform rotate-45 rounded"
        src="https://picsum.photos/80?=1">
@@ -125,7 +125,7 @@ Set the element origin to `bottom-left`.
 
 Set the element origin to `left`.
 
-<y class="my-8 mx-auto w-32">
+<y class="mt-4 mb-12 mx-auto w-32">
   <y class="h-20 w-20 bg-red-300">
     <img class="h-20 w-20 origin-left transform rotate-45 rounded"
        src="https://picsum.photos/80?=1">
