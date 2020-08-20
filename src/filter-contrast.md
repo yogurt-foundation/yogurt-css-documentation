@@ -17,7 +17,7 @@ Utilities for sets contrast filter to an element.
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
 |:--|:--|
-| filter | filter: brightness(var(--brightness)) contrast(var(--contrast)) saturate(var(--saturate)) blur(var(--blur)) |
+| filter | filter: brightness(var(--brightness)) contrast(var(--contrast)) saturate(var(--saturate)) blur(var(--blur)) drop-shadow(var(--drop-shadow)) |
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
 |:--|:--|
@@ -72,11 +72,11 @@ Apply the `filter` class first, and then set the filter in any order when with o
    style="background-image:url(...)"></y>
 ```
 
-Mix with other filters, such as [Brightness](/filter-brightness/), [Saturate](/filter-saturate/) and [Blur](/filter-blur/).
+Mix with other filters, such as [Brightness](/filter-brightness/), [Saturate](/filter-saturate/), [Blur](/filter-blur/) and [Drop Shadow](/filter-drop-shadow/).
 
 ```html
 <!-- Example -->
-<img class="filter contrast-10 brightness-10 saturate-5 blur-5 ..."
+<img class="filter contrast-10 brightness-10 saturate-5 blur-5 drop-shadow-md ..."
      src="...">
 
 <y class="filter contrast-10 brightness-10 saturate-5 blur-5 ..."

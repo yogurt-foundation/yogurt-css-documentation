@@ -34,6 +34,84 @@ Utilities for skews an element that has transform applied.
 
 ---
 
+## Usage
+
+Set basic [Transform Origin](/transform-origin/) with [Skew](/skew/) utility. (See [Scale](/scale/), [Rotate](/rotate/)).
+
+Set the element skew `horizontal`.
+
+<y class="my-6 mx-auto w-32">
+  <y class="h-24 w-24 bg-red-300 flex justify-center items-center">
+    <img class="h-20 w-20 transform skew-x-12 rounded shadow"
+       src="https://picsum.photos/80?=1">
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<img class="transform skew-x-12 ... h-32 w-24"
+     src="...">
+
+<y class="transform skew-x-12 ... h-32 w-24"
+   style="background-image:utl(...)">
+```
+
+Set the element skew `vertical`.
+
+<y class="my-6 mx-auto w-32">
+  <y class="h-24 w-24 bg-red-300 flex justify-center items-center">
+    <img class="h-20 w-20 transform skew-y-12 rounded shadow"
+       src="https://picsum.photos/80?=1">
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<img class="transform skew-y-12 ... h-32 w-24"
+     src="...">
+
+<y class="transform skew-y-12 ... h-32 w-24"
+   style="background-image:utl(...)">
+```
+
+Set the element skew reverse `horizontal`.
+
+<y class="my-6 mx-auto w-32">
+  <y class="h-24 w-24 bg-red-300 flex justify-center items-center">
+    <img class="h-20 w-20 transform -skew-x-12 rounded shadow"
+       src="https://picsum.photos/80?=1">
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<img class="transform -skew-x-12 ... h-32 w-24"
+     src="...">
+
+<y class="transform -skew-x-12 ... h-32 w-24"
+   style="background-image:utl(...)">
+```
+
+Set the element skew reverse `vertical`.
+
+<y class="my-6 mx-auto w-32">
+  <y class="h-24 w-24 bg-red-300 flex justify-center items-center">
+    <img class="h-20 w-20 transform -skew-y-12 rounded shadow"
+       src="https://picsum.photos/80?=1">
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<img class="transform -skew-y-12 ... h-32 w-24"
+     src="...">
+
+<y class="transform -skew-y-12 ... h-32 w-24"
+   style="background-image:utl(...)">
+```
+
+---
+
 ## Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
