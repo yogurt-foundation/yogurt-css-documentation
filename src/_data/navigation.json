@@ -480,6 +480,10 @@
       "label": "Transforms",
       "items": [
         {
+          "label": "Transform Origin",
+          "url": "/transform-origin/"
+        },
+        {
           "label": "Rotate",
           "url": "/rotate/"
         },
@@ -490,10 +494,6 @@
         {
           "label": "Skew",
           "url": "/skew/"
-        },
-        {
-          "label": "Transform Origin",
-          "url": "/transform-origin/"
         },
         {
           "label": "Translate",
