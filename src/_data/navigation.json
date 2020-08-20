@@ -401,6 +401,11 @@
           "version": "v1.0.9"
         },
         {
+          "label": "Drop Shadow",
+          "url": "/filter-drop-shadow/",
+          "version": "v1.0.9"
+        },
+        {
           "label": "Invert",
           "url": "/filter-invert/"
         }
