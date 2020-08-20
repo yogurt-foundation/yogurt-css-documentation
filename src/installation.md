@@ -25,7 +25,10 @@ layout: default
   <strong>
     CDN
   </strong>
-  build is a published version and always behind the latest update at the Github repository.
+  build is a published version and always behind the latest update at the Github repository. (See
+  <a href="/utility-map/">
+    Utility Map
+  </a> for new changes.)
 </y>
 
 <y class="mt-2 mb-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 bg-orange-200">
