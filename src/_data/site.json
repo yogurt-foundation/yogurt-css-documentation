@@ -3,7 +3,7 @@
     "appname": "Yogurt CSS",
     "url": "https://yogurt-css-documentation.netlify.app",
     "version": {
-        "core": "1.0.8",
+        "core": "1.0.9",
         "docs": "2.0.0"
     },
     "urls": {
