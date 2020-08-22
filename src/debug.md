@@ -30,7 +30,7 @@ Utilities for inspecting errors in spacing and overlapping elements.
 
 ## Usage
 
-<y class="px-4 my-2 mx-auto w-64"
+<y class="px-4 -mt-4 mb-2 mx-auto w-64"
    debug="true">
   <y class="px-4 h-32 bg-white rounded-lg">
     <y class="flex justify-between items-center transistion duration-300 ease-in-out transform hover:-rotate-45 hover:-translate-x-6 cursor-pointer">
