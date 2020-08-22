@@ -42,7 +42,12 @@
         {
           "label": "Plugin API",
           "url": "/plugin-api/"
+        },
+        {
+          "label": "Debug",
+          "url": "/debug/"
         }
+
       ]
     }
   ]
