@@ -1,7 +1,7 @@
 ---
 id: debug
 title: Debug
-description: Utilities for inspect errors in spacing and overlapping elements.
+description: Utilities for inspecting errors in spacing and overlapping elements.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 # Debugger <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.1.0</span>
 
-Utilities for inspect errors in spacing and overlapping elements.
+Utilities for inspecting errors in spacing and overlapping elements.
 
 ---
 
