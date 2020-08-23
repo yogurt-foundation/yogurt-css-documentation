@@ -4,12 +4,16 @@
       "label": "Layout",
       "items": [
         {
-          "label": "Container",
-          "url": "/container/"
-        },
-        {
           "label": "Box Sizing",
           "url": "/box-sizing/"
+        },
+        {
+          "label": "Clear",
+          "url": "/clear/"
+        },
+        {
+          "label": "Container",
+          "url": "/container/"
         },
         {
           "label": "Display",
@@ -18,10 +22,6 @@
         {
           "label": "Float",
           "url": "/float/"
-        },
-        {
-          "label": "Clear",
-          "url": "/clear/"
         },
         {
           "label": "Object Fit",
@@ -40,6 +40,16 @@
           "url": "/position/"
         },
         {
+          "label": "Render",
+          "url": "/content-visibility/",
+          "version": "v1.0.9"
+        },
+        {
+          "label": "Scroll Snap",
+          "url": "/scroll-snap/",
+          "version": "v1.1.0"
+        },
+        {
           "label": "Top/Bottom/Left/Right",
           "url": "/top-bottom-left-right/"
         },
@@ -50,11 +60,6 @@
         {
           "label": "Z-Index",
           "url": "/z-index/"
-        },
-        {
-          "label": "Render",
-          "url": "/content-visibility/",
-          "version": "v1.0.9"
         }
       ]
     },
@@ -110,6 +115,11 @@
           "url": "/text-color/"
         },
         {
+          "label": "Text Clamp",
+          "url": "/text-clamp/",
+          "version": "v1.0.9"
+        },
+        {
           "label": "Text Decoration",
           "url": "/text-decoration/"
         },
@@ -128,11 +138,6 @@
         {
           "label": "Word Break",
           "url": "/word-break/"
-        },
-        {
-          "label": "Text Clamp",
-          "url": "/text-clamp/",
-          "version": "v1.0.9"
         }
       ]
     },
@@ -140,17 +145,17 @@
       "label": "Spacing",
       "items": [
         {
+          "label": "Equal",
+          "url": "/equal/",
+          "version": "v1.0.8"
+        },
+        {
           "label": "Margin",
           "url": "/margin/"
         },
         {
           "label": "Padding",
           "url": "/padding/"
-        },
-        {
-          "label": "Equal",
-          "url": "/equal/",
-          "version": "v1.0.8"
         }
       ]
     },
@@ -162,8 +167,27 @@
           "url": "/background-attachment/"
         },
         {
+          "label": "Background Blend",
+          "url": "/background-blend/"
+        },
+        {
+          "label": "Background Border",
+          "url": "/background-border/",
+          "version": "v1.0.9"
+        },
+        {
           "label": "Background Color",
           "url": "/background-color/"
+        },
+        {
+          "label": "Background Gradient",
+          "url": "/background-gradient/",
+          "version": "v1.0.9"
+        },
+        {
+          "label": "Background Opacity",
+          "url": "/background-opacity/",
+          "version": "v1.0.8"
         },
         {
           "label": "Background Position",
@@ -176,24 +200,6 @@
         {
           "label": "Background Size",
           "url": "/background-size/"
-        },
-        {
-          "label": "Background Blend",
-          "url": "/background-blend/"
-        },
-        {
-          "label": "Background Opacity",
-          "url": "/background-opacity/",
-          "version": "v1.0.8"
-        },
-        {
-          "label": "Background Border",
-          "url": "/background-border/",
-          "version": "v1.0.9"
-        },        {
-          "label": "Background Gradient",
-          "url": "/background-gradient/",
-          "version": "v1.0.9"
         }
       ]
     },
@@ -205,16 +211,16 @@
           "url": "/border-color/"
         },
         {
+          "label": "Border Radius",
+          "url": "/border-radius/"
+        },
+        {
           "label": "Border Style",
           "url": "/border-style/"
         },
         {
           "label": "Border Width",
           "url": "/border-width/"
-        },
-        {
-          "label": "Border Radius",
-          "url": "/border-radius/"
         },
         {
           "label": "Dissect",
@@ -237,6 +243,11 @@
       "label": "Fluids",
       "items": [
         {
+          "label": "Fluid Font Size",
+          "url": "/fluid-font-size/",
+          "version": "v1.0.8"
+        },
+        {
           "label": "Fluid Margin",
           "url": "/fluid-margin/",
           "version": "v1.0.8"
@@ -244,11 +255,6 @@
         {
           "label": "Fluid Padding",
           "url": "/fluid-padding/",
-          "version": "v1.0.8"
-        },
-        {
-          "label": "Fluid Font Size",
-          "url": "/fluid-font-size/",
           "version": "v1.0.8"
         }
       ]
@@ -265,16 +271,16 @@
           "url": "/box-shadow-color/"
         },
         {
-          "label": "Opacity",
-          "url": "/opacity/"
+          "label": "Gradient",
+          "url": "/gradient/"
         },
         {
           "label": "Mix Blend",
           "url": "/mix-blend/"
         },
         {
-          "label": "Gradient",
-          "url": "/gradient/"
+          "label": "Opacity",
+          "url": "/opacity/"
         }
       ]
     },
@@ -311,8 +317,25 @@
       "label": "Flexbox",
       "items": [
         {
+          "label": "Flex",
+          "url": "/flex/"
+        },
+        {
           "label": "Flex Direction",
           "url": "/flex-direction/"
+        },
+        {
+          "label": "Flex Gap",
+          "url": "/flex-gap/",
+          "version": "v1.1.0"
+        },
+        {
+          "label": "Flex Grow",
+          "url": "/flex-grow/"
+        },
+        {
+          "label": "Flex Shrink",
+          "url": "/flex-shrink/"
         },
         {
           "label": "Flex Wrap",
@@ -329,18 +352,6 @@
         {
           "label": "Justify Content",
           "url": "/justify-content/"
-        },
-        {
-          "label": "Flex",
-          "url": "/flex/"
-        },
-        {
-          "label": "Flex Grow",
-          "url": "/flex-grow/"
-        },
-        {
-          "label": "Flex Shrink",
-          "url": "/flex-shrink/"
         },
         {
           "label": "Order",
@@ -386,18 +397,13 @@
           "version": "v1.0.9"
         },
         {
-          "label": "Contrast",
-          "url": "/filter-contrast/",
-          "version": "v1.0.9"
-        },
-        {
-          "label": "Saturate",
-          "url": "/filter-saturate/",
-          "version": "v1.0.9"
-        },
-        {
           "label": "Blur",
           "url": "/filter-blur/",
+          "version": "v1.0.9"
+        },
+        {
+          "label": "Contrast",
+          "url": "/filter-contrast/",
           "version": "v1.0.9"
         },
         {
@@ -408,6 +414,11 @@
         {
           "label": "Invert",
           "url": "/filter-invert/"
+        },
+        {
+          "label": "Saturate",
+          "url": "/filter-saturate/",
+          "version": "v1.0.9"
         }
       ]
     },
@@ -420,13 +431,13 @@
           "version": "v1.0.9"
         },
         {
-          "label": "Dots",
-          "url": "/pattern-dots/",
+          "label": "Cross Dots",
+          "url": "/pattern-cross-dots/",
           "version": "v1.0.9"
         },
         {
-          "label": "Cross Dots",
-          "url": "/pattern-cross-dots/",
+          "label": "Dots",
+          "url": "/pattern-dots/",
           "version": "v1.0.9"
         },
         {
@@ -522,8 +533,8 @@
       "label": "Animations",
       "items": [
         {
-          "label": "Animation Infinite",
-          "url": "/animation-infinite/",
+          "label": "Animation Delay",
+          "url": "/animation-delay/",
           "version": "v1.0.9"
         },
         {
@@ -532,8 +543,8 @@
           "version": "v1.0.9"
         },
         {
-          "label": "Animation Delay",
-          "url": "/animation-delay/",
+          "label": "Animation Infinite",
+          "url": "/animation-infinite/",
           "version": "v1.0.9"
         },
         {
@@ -608,8 +619,7 @@
       "items": [
         {
           "label": "Screen Reader",
-          "url": "/screen-reader/",
-          "version": "v1.0.7"
+          "url": "/screen-reader/"
         }
       ]
     }
