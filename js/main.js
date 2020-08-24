@@ -28,7 +28,6 @@ else if (document.readyState === 'interactive') {
 
 function setup() {
 
-  // setupInlineDecks();
   setupPrefetch();
 
   if (PAGE_ID === 'home') {
@@ -57,28 +56,6 @@ function setupAnchors() {
 /**
  * krugurt.js modules
  */
-
 serviceWorker.init();
 
-// require id="requestAppInstall" as container
-// wrap with id="requestAppTrigger"
-// krunch.requestAppInstall();
 
-// check if connected to server
-function checkServer(url, timeout) {
-  const controller = new AbortController();
-  const signal = controller.signal;
-  const options = { mode: 'no-cors', signal };
-  return fetch(url, options)
-    .then(setTimeout(() => { controller.abort() }, timeout))
-    .then(response =>
-      console.log('Check server response:', response.statusText)
-    )
-    .catch(error =>
-      alert('No internet connection! But you can browse offline the pages you visited.')
-    );
-}
-
-const url = 'https://yogurt-css-documentation.netlify.app'
-const timeout = 3000
-checkServer(url, timeout);

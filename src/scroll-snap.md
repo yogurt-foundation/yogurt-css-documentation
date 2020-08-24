@@ -50,7 +50,7 @@ Utilities for sets viewport lock to certain elements or locations after finished
 
 ## Usage
 
-<y class="my-2 mx-auto max-w-md scroll-snap x-mandatory align-start flex h-48 overflow-x-scroll">
+<y class="my-2 mx-auto xs:max-w-full sm:max-w-full md:max-w-md lg:max-w-md scroll-snap x-mandatory align-start flex h-48 overflow-x-scroll">
   <y class="m-1">
     <img class="max-w-xxs h-40"
          src="https://picsum.photos/300?=1">
