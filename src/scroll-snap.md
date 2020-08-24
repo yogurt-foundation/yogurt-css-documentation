@@ -17,9 +17,9 @@ Utilities for sets viewport lock to certain elements or locations after finished
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
 |:--|:--|
-| scroll-snap `{value}` | scroll-snap-type: `{value}` |
+| scroll-snap `{type}` `{align}` | scroll-snap-type: `{type}`; <br> scroll-snap-align: `{align}` |
 
-| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">value</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">type</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
 |:--|:--|
 | x-mandatory | scroll-snap-type: x mandatory |
 | y-mandatory | scroll-snap-type: y mandatory |
@@ -32,18 +32,25 @@ Utilities for sets viewport lock to certain elements or locations after finished
 | both-mandatory | scroll-snap-type: both mandatory |
 | both-proximity | scroll-snap-type: both proximity |
 
-| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">value</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">align</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
 |:--|:--|
 | align-none | scroll-snap-align: none |
 | align-start | scroll-snap-align: start |
 | align-center | scroll-snap-align: center |
 | align-end | scroll-snap-align: end |
 
-<y class="m-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
+<y class="mt-4 mx-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
   <span class="pr-1 font-semibold">
     Note:
   </span>
   Utility customizing is unavailable.
+</y>
+
+<y class="mt-2 mb-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 bg-orange-200">
+  <span class="pr-1 font-semibold">
+    Note:
+  </span>
+  Only supported web browsers can benefit from this utility.
 </y>
 
 ---
