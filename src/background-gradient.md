@@ -17,7 +17,7 @@ Utilities for sets the background gradient color to an element with flexible con
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
 |:--|:--|
-| bg-gradient | linear-gradient(var(--bg-gradient-angle), var(--bg-gradient-start-color) var(--bg-gradient-primary), var(--bg-gradient-stop-color) var(--bg-gradient-secondary)) |
+| bg-gradient `{start-color}` `{start-space}` `{stop-color}` `{stop-space}` `{angle}` | linear-gradient(var(--bg-gradient-angle), var(--bg-gradient-start-color) var(--bg-gradient-primary), var(--bg-gradient-stop-color) var(--bg-gradient-secondary)) |
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> | |
 |:--|:--|:-:|
