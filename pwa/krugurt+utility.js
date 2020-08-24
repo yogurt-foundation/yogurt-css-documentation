@@ -482,42 +482,42 @@ krunch.torrent = function(id, uri) {
             </y>
           </y>
 */
-krunch.requestAppInstall = function() {
-  const appInstallContainer = document.getElementById("requestAppInstall");
-  const appTrigger = document.getElementById("requestAppTrigger");
+// krunch.requestAppInstall = function() {
+//   const appInstallContainer = document.getElementById("requestAppInstall");
+//   const appTrigger = document.getElementById("requestAppTrigger");
 
-  self.addEventListener("beforeinstallprompt", function(event) {
-    log("(PWA)", event);
-    // stash the event so it can be triggered later
-    window.deferredPrompt = event;
-    // remove the 'hidden' class from the element
-    appInstallContainer.classList.toggle("hidden", false);
-  });
+//   self.addEventListener("beforeinstallprompt", function(event) {
+//     log("(PWA)", event);
+//     // stash the event so it can be triggered later
+//     window.deferredPrompt = event;
+//     // remove the 'hidden' class from the element
+//     appInstallContainer.classList.toggle("hidden", false);
+//   });
 
-  appTrigger.addEventListener("click", function() {
-    log("(PWA) app installed", "");
-    const promptEvent = window.deferredPrompt;
-    if (!promptEvent) {
-      // the deferred prompt isn't available
-      return;
-    }
-    // show the install prompt
-    promptEvent.prompt();
-    // log the result
-    promptEvent.userChoice.then(function(result) {
-      log("(PWA)", result);
-      // reset the deferred prompt variable, since
-      // prompt() can only be called once
-      window.deferredPrompt = null;
-      // hide the install button
-      appInstallContainer.classList.toggle("hidden", true);
-    });
-  });
+//   appTrigger.addEventListener("click", function() {
+//     log("(PWA) app installed", "");
+//     const promptEvent = window.deferredPrompt;
+//     if (!promptEvent) {
+//       // the deferred prompt isn't available
+//       return;
+//     }
+//     // show the install prompt
+//     promptEvent.prompt();
+//     // log the result
+//     promptEvent.userChoice.then(function(result) {
+//       log("(PWA)", result);
+//       // reset the deferred prompt variable, since
+//       // prompt() can only be called once
+//       window.deferredPrompt = null;
+//       // hide the install button
+//       appInstallContainer.classList.toggle("hidden", true);
+//     });
+//   });
 
-  self.addEventListener("appinstalled", function(event) {
-    log("(PWA) app installed", event);
-  });
-};
+//   self.addEventListener("appinstalled", function(event) {
+//     log("(PWA) app installed", event);
+//   });
+// };
 
 
 /*
