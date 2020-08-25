@@ -61,6 +61,25 @@ Set pattern with color by using `text-{color}` utility. (See [Text Color](/text-
 </y>
 ```
 
+Set pattern clipping with text.
+
+<y class="px-4 my-2 mx-auto w-64">
+  <y class="pattern horizontal-stripes-sm clip-text text-red-500">
+    <y class="text-8xl font-bold">
+      TEXT
+    </y>
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<y class="pattern horizontal-stripes-sm clip-text text-red-500">
+  <y>
+    TEXT
+  </y>
+</y>
+```
+
 ---
 
 ## Variant
