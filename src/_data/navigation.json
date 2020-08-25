@@ -264,7 +264,8 @@
       "items": [
         {
           "label": "Box Shadow",
-          "url": "/box-shadow/"
+          "url": "/box-shadow/",
+          "version": "v1.1.0 (partial)"
         },
         {
           "label": "Box Shadow Color",
