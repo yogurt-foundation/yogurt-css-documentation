@@ -57,6 +57,8 @@ Utilities for sets viewport lock to certain elements or locations after finished
 
 ## Usage
 
+Set the `horizontal` scroll image gallery. The image snaps to the `left` container after scrolling.
+
 <y class="my-2 mx-auto xs:max-w-full sm:max-w-full md:max-w-md lg:max-w-md scroll-snap x-mandatory align-start flex h-48 overflow-x-scroll">
   <y class="m-1">
     <img class="max-w-xxs h-40"
@@ -84,8 +86,6 @@ Utilities for sets viewport lock to certain elements or locations after finished
   </y>
 </y>
 
-Set the `horizontal` scroll image gallery. The image snaps to the `left` container after scrolling.
-
 ```html
 <!-- Example -->
 <y class="scroll-snap x-mandatory align-start ... flex overflow-x-scroll">
@@ -94,6 +94,8 @@ Set the `horizontal` scroll image gallery. The image snaps to the `left` contain
   ...
 </y>
 ```
+
+Set the `vertical` scroll image gallery. The image snaps to the `left` container after scrolling.
 
 <y class="my-2 mx-auto max-w-xs scroll-snap y-mandatory align-start h-64 overflow-y-scroll">
   <y class="m-1">
@@ -121,8 +123,6 @@ Set the `horizontal` scroll image gallery. The image snaps to the `left` contain
          src="https://picsum.photos/300?=6">
   </y>
 </y>
-
-Set the `vertical` scroll image gallery. The image snaps to the `left` container after scrolling.
 
 ```html
 <!-- Example -->
