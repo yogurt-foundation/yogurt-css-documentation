@@ -49,14 +49,14 @@ Utilities for set inner spacing in between the flex child elements.
 
 <y class="my-2 mx-auto xs:max-w-full sm:max-w-sm md:max-w-sm lg:max-w-sm">
   <y class="flex flex-wrap flex-gap-4">
-    <y class="w-20 h-20 bg-red-400"></y>
-    <y class="w-20 h-20 bg-red-400"></y>
-    <y class="w-20 h-20 bg-red-400"></y>
-    <y class="w-20 h-20 bg-red-400"></y>
-    <y class="w-20 h-20 bg-red-400"></y>
-    <y class="w-20 h-20 bg-red-400"></y>
-    <y class="w-20 h-20 bg-red-400"></y>
-    <y class="w-20 h-20 bg-red-400"></y>
+    <y class="w-20 h-20 bg-gray-400"></y>
+    <y class="w-20 h-20 bg-gray-500"></y>
+    <y class="w-20 h-20 bg-gray-400"></y>
+    <y class="w-20 h-20 bg-gray-500"></y>
+    <y class="w-20 h-20 bg-gray-400"></y>
+    <y class="w-20 h-20 bg-gray-500"></y>
+    <y class="w-20 h-20 bg-gray-400"></y>
+    <y class="w-20 h-20 bg-gray-500"></y>
   </y>
 </y>
 
