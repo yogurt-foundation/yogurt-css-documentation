@@ -1,7 +1,7 @@
 ---
-id: debug
-title: Debug
-description: Utilities for inspecting errors in spacing and overlapping elements.
+id: debugger
+title: Debugger
+description: Utilities for inspecting screen sizes and errors in spacing or overlapping elements.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 # Debugger <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.1.0</span>
 
-Utilities for inspecting errors in spacing and overlapping elements.
+Utilities for inspecting screen sizes and errors in spacing or overlapping elements.
 
 ---
 
@@ -17,7 +17,8 @@ Utilities for inspecting errors in spacing and overlapping elements.
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">attribute</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
 |:--|:--|
-| debug="true" | background: rgba(255, 0, 0, 0.1); <br> box-shadow: 0 0 0 1px red |
+| debug="outline" | background: rgba(255, 0, 0, 0.1); <br> box-shadow: 0 0 0 1px red |
+| debug="screen" | @media (min-width: `{screen}`) { [debug="screen"]::after { content: "`{size}`" }} |
 
 <y class="m-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
   <span class="pr-1 font-semibold">
@@ -30,8 +31,10 @@ Utilities for inspecting errors in spacing and overlapping elements.
 
 ## Usage
 
+### Debug Outline
+
 <y class="px-4 -mt-4 mb-2 mx-auto w-64"
-   debug="true">
+   debug="outline">
   <y class="px-4 h-32 bg-white rounded-lg">
     <y class="flex justify-between items-center transistion duration-300 ease-in-out transform hover:-rotate-45 hover:-translate-x-6 cursor-pointer">
       <y class="w-20">
@@ -49,35 +52,42 @@ Utilities for inspecting errors in spacing and overlapping elements.
   </y>
 </y>
 
-Apply debugger to `<html>` tag.
+Apply `debug="outline"` to `<html>` tag.
 
 ```html
 <!-- Example -->
-<html debug="true">
+<html debug="outline">
   ...
 </html>
 ```
 
-Apply debugger to `<body>` tag.
+Apply `debug="outline"` to `<body>` tag.
 
 ```html
 <!-- Example -->
-<body debug="true">
+<body debug="outline">
   ...
 </body>
 ```
 
-Apply debugger to almost any elements.
+Apply `debug="outline"` to almost any elements.
 
 ```html
 <!-- Example -->
-<y debug="true">
-  ...
-</y>
+<y debug="outline"> ... </y>
+<span debug="outline"> ... </span>
+```
 
-<span debug="true">
-  ...
-</span>
+### Debug Screen
+
+<y class="xs:ml-4 lg:-ml-6 -mt-16"
+   debug="screen"></y>
+
+Apply `debug="screen"` to inspect the current screen size. The indicator will display at top-left of the browser viewport.
+
+```html
+<!-- Example -->
+<y debug="screen"></y>
 ```
 
 ---
@@ -86,7 +96,7 @@ Apply debugger to almost any elements.
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
 |:-:|:-:|:-:|
-| Default | Yes | |
+| Default | | |
 | hover| | |
 | group-hover | | |
 | focus | | |
