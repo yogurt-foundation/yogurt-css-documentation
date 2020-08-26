@@ -19,7 +19,7 @@ Utilities for sets viewport lock to certain elements or locations after finished
 |:--|:--|
 | scroll-snap `{type}` `{align}` | scroll-snap-type: `{type}`; <br> scroll-snap-align: `{align}` |
 
-| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">type</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
 |:--|:--|
 | x-mandatory | scroll-snap-type: x mandatory |
 | y-mandatory | scroll-snap-type: y mandatory |
@@ -32,7 +32,7 @@ Utilities for sets viewport lock to certain elements or locations after finished
 | both-mandatory | scroll-snap-type: both mandatory |
 | both-proximity | scroll-snap-type: both proximity |
 
-| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">align</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
 |:--|:--|
 | align-none | scroll-snap-align: none |
 | align-start | scroll-snap-align: start |
