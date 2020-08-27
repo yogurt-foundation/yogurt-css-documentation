@@ -39,14 +39,5 @@ Optionally to use the dedicated scaffolding app to create a new project with Pur
 $ npx create-yogurt-app my-new-project
 ```
 
-### On-demand Caching
+Read guide to [Create Empty Project Manually](/import-framework/#create-empty-project-manually) yourself without using the [Yogurt CLI](/installation/#using-yogurt-via-cli).
 
-Another modern method is using **in-browser on-demand-cache** to permanently store the Yogurt CSS with **PWA (Progress Web App)** feature. So that it only loads once maybe for its lifetime and also without the internet connection for the next load, this vastly improves load speed, reduce bandwidth and load time. (See example projects: [FX-Filter Previewer](https://fx-filter-previewer.netlify.com/), [FX-Gradient Previewer](https://fx-gradient-previewer.netlify.com/)).
-
-#### Real World Applications
-
-To try it out in action that including all that above methods, create a new [Krugurt.js](https://github.com/loouislow81/krugurt) app and see it for yourself. The `Krugurt.js` boilerplate has already preloaded the `PurgeCSS` and `On-demand-caching mechanism`.
-
-```bash
-$ npx create-krugurt-app my-new-app
-```
