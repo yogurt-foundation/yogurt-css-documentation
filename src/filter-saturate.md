@@ -90,12 +90,12 @@ Mix with other filters, such as [Brightness](/filter-brightness/), [Contrast](/f
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  utility: 'saturate',
+  utility: 'filter.saturate',
   //variant: 'responsive',
   property: '--saturate',
   modifier: (
-    '11': '2.0',
-    '12': '2.5'
+    'saturate-11': '...',
+    'saturate-12': '...'
     //...
   )
 )
