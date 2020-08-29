@@ -57,7 +57,7 @@ Utilities for sets filter backdrop blur effect to an element.
   <y class="m-2 w-1/2">
     <y class="flex justify-center items-center w-full h-48 bg-auto bg-center bg-no-repeat rounded-lg"
        style="background-image:url('https://picsum.photos/500?=4')">
-      <y class="backdrop-filter blur-3 saturate-10 w-32 h-32 bg-gray-100 bg-opacity-50"></y>
+      <y class="backdrop-filter blur-3 w-32 h-32 bg-gray-100 bg-opacity-50"></y>
     </y>
     <y class="pt-2 text-sm text-center">
       Filter: ON
@@ -85,7 +85,7 @@ Apply the `backdrop-filter` class first, and then set the filter in any order wh
 </y>
 ```
 
-Mix with other filters, such as [Backdrop Brightness](/filter-brightness/), [Backdrop Contrast](/filter-contrast/), and [Backdrop Saturate](/filter-saturate/).
+Mix with other filters, such as [Backdrop Brightness](/filter-backdrop-brightness/), [Backdrop Contrast](/filter-backdrop-contrast/), and [Backdrop Saturate](/filter-backdrop-saturate/).
 
 ```html
 <!-- Example -->
@@ -116,8 +116,8 @@ Mix with other filters, such as [Backdrop Brightness](/filter-brightness/), [Bac
   //variant: 'responsive',
   property: 'filter',
   modifier: (
-    '11': '...px',
-    '12': '...px'
+    'blur-11': '...px',
+    'blur-12': '...px'
     ...
   )
 )

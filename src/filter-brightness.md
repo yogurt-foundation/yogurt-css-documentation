@@ -92,8 +92,8 @@ Mix with other filters, such as [Contrast](/filter-contrast/), [Saturate](/filte
   //variant: 'responsive',
   property: '--brightness',
   modifier: (
-    '11': '2.0',
-    '12': '2.5'
+    'brightness-11': '...',
+    'brightness-12': '...'
     //...
 )
 ```

@@ -87,8 +87,8 @@ Mix with other filters, such as [Brightness](/filter-brightness/), [Contrast](/f
   //variant: 'responsive',
   property: 'filter',
   modifier: (
-    '11': '...px',
-    '12': '...px'
+    'blur-11': '...',
+    'blur-12': '...'
     ...
   )
 )
