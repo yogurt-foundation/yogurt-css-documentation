@@ -425,6 +425,26 @@
           "label": "Saturate",
           "url": "/filter-saturate/",
           "version": "v1.0.9"
+        },
+        {
+          "label": "Backdrop Brightness",
+          "url": "/filter-backdrop-brightness/",
+          "version": "v1.1.0"
+        },
+        {
+          "label": "Backdrop Blur",
+          "url": "/filter-backdrop-blur/",
+          "version": "v1.1.0"
+        },
+        {
+          "label": "Backdrop Contrast",
+          "url": "/filter-backdrop-contrast/",
+          "version": "v1.1.0"
+        },
+        {
+          "label": "Backdrop Saturate",
+          "url": "/filter-backdrop-saturate/",
+          "version": "v1.1.0"
         }
       ]
     },
