@@ -90,7 +90,7 @@ Mix with other filters, such as [Brightness](/filter-brightness/), [Saturate](/f
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  utility: 'constrast',
+  utility: 'filter.constrast',
   //variant: 'responsive',
   property: '--contrast',
   modifier: (

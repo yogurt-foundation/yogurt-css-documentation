@@ -88,7 +88,7 @@ Mix with other filters, such as [Brightness](/filter-brightness/), [Contrast](/f
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  utility: 'drop-shadow',
+  utility: 'filter.drop-shadow',
   //variant: 'responsive',
   property: '--drop-shadow',
   modifier: (
