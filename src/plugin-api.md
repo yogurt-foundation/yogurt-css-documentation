@@ -32,11 +32,13 @@ Create basic utility.
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  utility: 'text',
-  property: 'font-size',
-  modifier: (
-    'xs': '0.75rem',
-    'sm': '0.875rem'
+  (
+    utility: 'text',
+    property: 'font-size',
+    modifier: (
+      'xs': '0.75rem',
+      'sm': '0.875rem'
+    )
   )
 )
 ```
@@ -46,12 +48,14 @@ Create default responsive utility.
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  utility: 'text',
-  variant: 'responsive',
-  property: 'font-size',
-  modifier: (
-    'xs': '0.75rem',
-    'sm': '0.875rem'
+  (
+    utility: 'text',
+    variant: 'responsive',
+    property: 'font-size',
+    modifier: (
+      'xs': '0.75rem',
+      'sm': '0.875rem'
+    )
   )
 )
 ```
@@ -61,12 +65,14 @@ Create responsive utility with variants.
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  utility: 'text',
-  variant: 'responsive-hover',
-  property: 'font-size',
-  modifier: (
-    'xs': '0.75rem',
-    'sm': '0.875rem'
+  (
+    utility: 'text',
+    variant: 'responsive-hover',
+    property: 'font-size',
+    modifier: (
+      'xs': '0.75rem',
+      'sm': '0.875rem'
+    )
   )
 )
 ```

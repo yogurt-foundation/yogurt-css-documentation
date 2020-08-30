@@ -72,13 +72,15 @@ Utilities for sets border radius.
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  utility: 'rounded',
-  //variant: 'responsive',
-  property: 'border-radius',
-  modifier: (
-    'xl': '...rem',
-    '2xl': '...rem'
-    ...
+  (
+    utility: 'rounded',
+    //variant: 'responsive',
+    property: 'border-radius',
+    modifier: (
+      'xl': '...rem',
+      '2xl': '...rem'
+      ...
+    )
   )
 )
 ```

@@ -37,13 +37,15 @@ Utilities for sets the maximum height of an element.
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  utility: 'max-h',
-  //variant: 'responsive',
-  property: 'max-height',
-  modifier: (
-    '...': '...',
-    '...': '...'
-    ...
+  (
+    utility: 'max-h',
+    //variant: 'responsive',
+    property: 'max-height',
+    modifier: (
+      '...': '...',
+      '...': '...'
+      ...
+    )
   )
 )
 ```

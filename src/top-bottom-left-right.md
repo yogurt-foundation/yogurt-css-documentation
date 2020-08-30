@@ -111,13 +111,15 @@ Utilities for sets the placement of a positioned element.
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  utility: 'top',
-  //variant: 'responsive',
-  property: 'top',
-  modifier: (
-    '1': '1rem',
-    '2': '2rem'
-    //...
+  (
+    utility: 'top',
+    //variant: 'responsive',
+    property: 'top',
+    modifier: (
+      '1': '1rem',
+      '2': '2rem'
+      //...
+    )
   )
 )
 ```

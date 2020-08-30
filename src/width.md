@@ -299,13 +299,15 @@ Set 12-column width `1/12` to an element.
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  utility: 'w',
-  //variant: 'responsive',
-  property: 'width',
-  modifier: (
-    '..': '...',
-    '..': '...'
-    ...
+  (
+    utility: 'w',
+    //variant: 'responsive',
+    property: 'width',
+    modifier: (
+      '..': '...',
+      '..': '...'
+      ...
+    )
   )
 )
 ```

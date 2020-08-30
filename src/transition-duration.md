@@ -143,13 +143,15 @@ Set transition duration `1000ms`.
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  utility: 'duration',
-  //variant: 'responsive',
-  property: 'transition-duration',
-  modifier: (
-    '600': '...ms',
-    '800': '...ms'
-    ...
+  (
+    utility: 'duration',
+    //variant: 'responsive',
+    property: 'transition-duration',
+    modifier: (
+      '600': '...ms',
+      '800': '...ms'
+      ...
+    )
   )
 )
 ```

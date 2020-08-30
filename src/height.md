@@ -78,13 +78,15 @@ Set full height in viewport screen to an element.
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  utility: 'h',
-  //variant: 'responsive',
-  property: 'height',
-  modifier: (
-    '...': '...',
-    '...': '...'
-    ...
+  (
+    utility: 'h',
+    //variant: 'responsive',
+    property: 'height',
+    modifier: (
+      '...': '...',
+      '...': '...'
+      ...
+    )
   )
 )
 ```

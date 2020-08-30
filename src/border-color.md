@@ -180,13 +180,15 @@ Utilities for sets border color.
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  utility: 'border-new-color',
-  //variant: 'responsive',
-  property: 'border-color',
-  modifier: (
-    '100': '#...',
-    '200': '#...'
-    ...
+  (
+    utility: 'border-new-color',
+    //variant: 'responsive',
+    property: 'border-color',
+    modifier: (
+      '100': '#...',
+      '200': '#...'
+      ...
+    )
   )
 )
 ```
