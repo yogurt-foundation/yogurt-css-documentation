@@ -112,13 +112,15 @@ Mix with other filters, such as [Backdrop Brightness](/filter-backdrop-brightnes
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  utility: 'backdrop.contrast',
-  //variant: 'responsive',
-  property: 'filter',
-  modifier: (
-    'contrast-11': '...',
-    'contrast-12': '...'
-    ...
+  (
+    utility: 'backdrop.contrast',
+    //variant: 'responsive',
+    property: 'filter',
+    modifier: (
+      'contrast-11': '...',
+      'contrast-12': '...'
+      ...
+    )
   )
 )
 ```

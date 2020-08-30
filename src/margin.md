@@ -400,13 +400,15 @@ Set margin to `right`.
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  utility: 'm',
-  //variant: 'responsive',
-  property: 'margin',
-  modifier: (
-    '72': '...rem',
-    '84': '...rem'
-    ...
+  (
+    utility: 'm',
+    //variant: 'responsive',
+    property: 'margin',
+    modifier: (
+      '72': '...rem',
+      '84': '...rem'
+      ...
+    )
   )
 )
 ```

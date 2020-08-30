@@ -88,13 +88,15 @@ Mix with other filters, such as [Brightness](/filter-brightness/), [Contrast](/f
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  utility: 'filter.drop-shadow',
-  //variant: 'responsive',
-  property: '--drop-shadow',
-  modifier: (
-    '2xl': '0px 10px 15px rgba(0, 0, 0, 0.5)',
-    '3xl': '0px 10px 20px rgba(0, 0, 0, 0.5)'
-    //...
+  (
+    utility: 'filter.drop-shadow',
+    //variant: 'responsive',
+    property: '--drop-shadow',
+    modifier: (
+      '2xl': '0px 10px 15px rgba(0, 0, 0, 0.5)',
+      '3xl': '0px 10px 20px rgba(0, 0, 0, 0.5)'
+      //...
+    )
   )
 )
 ```

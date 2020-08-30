@@ -179,13 +179,15 @@ Set default background color to `<body>` tag.
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  utility: 'bg-new-color',
-  //variant: 'responsive',
-  property: 'background-color',
-  modifier: (
-    '100': '#...',
-    '200': '#...'
-    //...
+  (
+    utility: 'bg-new-color',
+    //variant: 'responsive',
+    property: 'background-color',
+    modifier: (
+      '100': '#...',
+      '200': '#...'
+      //...
+    )
   )
 )
 ```

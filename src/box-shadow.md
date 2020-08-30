@@ -75,13 +75,15 @@ Set basic solid shadow to an element.
 ```scss
 // @file: `src/_plugins.scss`
 @include plugin(
-  utility: 'shadow',
-  //variant: 'responsive',
-  property: 'box-shadow',
-  modifier: (
-    '3xl': '...',
-    '4xl': '...'
-    ...
+  (
+    utility: 'shadow',
+    //variant: 'responsive',
+    property: 'box-shadow',
+    modifier: (
+      '3xl': '...',
+      '4xl': '...'
+      ...
+    )
   )
 )
 ```
