@@ -69,11 +69,62 @@ Set font family to `<body>` as default.
 )
 ```
 
-Example of `font-family` utility module for `Google Fonts`.
+### Google Fonts <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.1.0</span>
+
+#### Embed Google Fonts
+
+Use Yogurt dedicated API to embedding the Google Fonts in the framework without manually adding the line `@import url(...)`.
+
 
 ```scss
 // @file: `src/_plugins.scss`
-@import url('https://fonts.googleapis.com/css2?family=Alata&family=Lato&family=Open+Sans&family=Roboto&display=swap');
+@include google-fonts(
+  (
+    font: 'Alata',
+    weight: '400;500;800'
+  )
+)
+```
+
+The generated code look like below in your Yogurt CSS final build.
+
+```css
+/* @file: `dist/yogurt-{{ site.version.core }}_solidcore.css` */
+@import url("https://fonts.googleapis.com/css2?family=Alata&:wght@400;500;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&:wght@400;500&display=swap");
+```
+
+To embed more than one Google Fonts.
+
+```scss
+// @file: `src/_plugins.scss`
+@include google-fonts(
+  (
+    font: 'Alata',
+    weight: '400;500;800'
+  ),
+  (
+    font: 'Lato',
+    weight: '400;500'
+  )
+)
+```
+
+After the embedding, you can create new utility by using the [Plugin API](/plugin-api/).
+
+```scss
+// @file: `src/_plugins.scss`
+@include google-fonts(
+  (
+    font: 'Alata',
+    weight: '400;500;800'
+  ),
+  (
+    font: 'Lato',
+    weight: '400;500'
+  )
+  // ...
+)
 
 @include plugin(
   (
@@ -82,11 +133,9 @@ Example of `font-family` utility module for `Google Fonts`.
     property: 'font-family',
     modifier: (
       'alata': '"Alata", sans-serif',
-      'lato': '"Lato", sans-serif',
-      'open-sans': '"Open Sans", sans-serif',
-      'roboto': '"Roboto", sans-serif'
-      ...
+      'lato': '"Lato", sans-serif'
     )
+    // ...
   )
 )
 ```
