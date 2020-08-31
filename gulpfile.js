@@ -1,4 +1,5 @@
 const path = require('path')
+const autoPrefixer = require('autoprefixer')
 const gulp = require('gulp')
 const concat = require('gulp-concat')
 const clean = require('gulp-clean')
@@ -46,9 +47,25 @@ gulp.task('js-bundle', () => {
 
 gulp.task('css', () => gulp.src(['css/main.scss'])
   .pipe(sass())
-  .pipe(postcss())
-  .pipe(rename('main.css'))
+  // .pipe(postcss())
+  .pipe(postcss([autoPrefixer()]))
+  .pipe(rename('pre.css'))
   .pipe(gulp.dest('./dist')))
+
+gulp.task('purge-css', () => {
+  return gulp.src('./dist/pre.css')
+    .pipe(purgeCss({
+        content: [
+          'dist/**/*.html',
+          'dist/*.js'
+        ],
+        // make compatible for `Yogurt CSS framework`
+        defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || [],
+        whitelistPatterns: [/-webkit-scrollbar-thumb$/]
+    }))
+    .pipe(rename('main.css'))
+    .pipe(gulp.dest('./dist'))
+})
 
 gulp.task('service-worker', () => {
   return gulp.src([
@@ -67,6 +84,7 @@ gulp.task('app-manifest', () => {
 
 gulp.task('remove-residual-files', () => {
   return gulp.src([
+      'dist/pre.css',
       'dist/pre.js'
     ], {
       read: false,
@@ -81,8 +99,7 @@ gulp.task('build',
     'js-bundle',
     'css',
     'service-worker',
-    'app-manifest',
-    'remove-residual-files'
+    'app-manifest'
   )
 )
 
@@ -102,7 +119,6 @@ gulp.task('default', () => {
     'js-bundle',
     'css',
     'service-worker',
-    'app-manifest',
-    'remove-residual-files'
+    'app-manifest'
   )()
 })
