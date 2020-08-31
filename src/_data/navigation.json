@@ -73,7 +73,8 @@
       "items": [
         {
           "label": "Font Family",
-          "url": "/font-family/"
+          "url": "/font-family/",
+          "version": "v1.1.0 (partial)"
         },
         {
           "label": "Font Size",
