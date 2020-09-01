@@ -215,6 +215,15 @@ Set default gradient to `<body>` tag.
 </body>
 ```
 
+Set auto dark theme enabled to an element with added `dark:` prefix.
+
+```html
+<!-- Example -->
+<y class="gradient-morpheus-den ... dark:gradient-near-moon ... w-64 h-32">
+  ...
+</y>
+```
+
 ---
 
 ## Variant
@@ -222,6 +231,7 @@ Set default gradient to `<body>` tag.
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
 |:-:|:-:|:-:|
 | Default | Yes | |
+| Theme | Dark | |
 | hover| Yes | |
 | group-hover | | |
 | focus | | |

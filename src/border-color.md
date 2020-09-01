@@ -173,6 +173,15 @@ Utilities for sets border color.
 </y>
 ```
 
+Set auto dark theme enabled to an element with added `dark:` prefix.
+
+```html
+<!-- Example -->
+<y class="border-8 border-nero-100 ... dark:border-8 dark:border-gray-300">
+  ...
+</y>
+```
+
 ---
 
 ## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
@@ -200,6 +209,7 @@ Utilities for sets border color.
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
 |:-:|:-:|:-:|
 | Default | Yes | |
+| Theme | Dark | |
 | hover| Yes | |
 | group-hover | | |
 | focus | Yes | |

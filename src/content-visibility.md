@@ -62,6 +62,7 @@ Set maximum height and width for the browser to start to render an element.
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
 |:-:|:-:|:-:|
 | Default | Yes | |
+| Theme | | |
 | hover| | |
 | group-hover | | |
 | focus | | |

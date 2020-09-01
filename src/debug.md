@@ -97,6 +97,7 @@ Apply `debug="screen"` to inspect the current screen size. The indicator will di
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
 |:-:|:-:|:-:|
 | Default | | |
+| Theme | | |
 | hover| | |
 | group-hover | | |
 | focus | | |

@@ -172,6 +172,15 @@ Set default background color to `<body>` tag.
 </body>
 ```
 
+Set auto dark theme enabled to an element with added `dark:` prefix.
+
+```html
+<!-- Example -->
+<y class="bg-gray-200 dark:bg-charcoal-100">
+  ...
+</y>
+```
+
 ---
 
 ## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
@@ -199,6 +208,7 @@ Set default background color to `<body>` tag.
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
 |:-:|:-:|:-:|
 | Default | Yes | |
+| Theme | | Dark |
 | hover| Yes | |
 | group-hover | Yes | |
 | focus | Yes | |

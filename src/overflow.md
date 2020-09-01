@@ -39,6 +39,7 @@ Utilities for sets how to handle content that's too big for it's container.
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
 |:-:|:-:|:-:|
 | Default | Yes | Yes |
+| Theme | | |
 | hover| | |
 | group-hover | | |
 | focus | | |

@@ -434,6 +434,15 @@ Utilities for sets the shadow color to an element.
 <y class="shadow-lg-red-400 ... bg-white h-32 w-32"></y>
 ```
 
+Set auto dark theme enabled to an element with added `dark:` prefix.
+
+```html
+<!-- Example -->
+<y class="shadow-lg-red-400 ... dark:shadow-lg-red-100 ... bg-white h-32 w-32">
+  ...
+</y>
+```
+
 ---
 
 ## Variant
@@ -441,6 +450,7 @@ Utilities for sets the shadow color to an element.
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
 |:-:|:-:|:-:|
 | Default | Yes | |
+| Theme | Dark | |
 | hover| | |
 | group-hover | | |
 | focus | | |
