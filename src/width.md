@@ -319,6 +319,7 @@ Set 12-column width `1/12` to an element.
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
 |:-:|:-:|:-:|
 | Default | Yes | Yes |
+| Theme | | |
 | hover| Yes | |
 | group-hover | | |
 | focus | | |

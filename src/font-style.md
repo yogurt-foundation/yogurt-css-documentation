@@ -38,6 +38,7 @@ Utilities for sets the style of the font.
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
 |:-:|:-:|:-:|
 | Default | Yes | Yes |
+| Theme | | |
 | hover| | |
 | group-hover | | |
 | focus | | |

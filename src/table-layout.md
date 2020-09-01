@@ -27,6 +27,7 @@ Utilities for defines the algorithm used to layout table cells, rows and columns
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
 |:-:|:-:|:-:|
 | Default | Yes | |
+| Theme | | |
 | hover| | |
 | group-hover | | |
 | focus | | |

@@ -76,6 +76,7 @@ Utilities for set inner spacing in between the flex child elements.
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
 |:-:|:-:|:-:|
 | Default | Yes | Yes |
+| Theme | | |
 | hover| | |
 | group-hover | | |
 | focus | | |

@@ -77,6 +77,7 @@ Set a scrollable background image in the browser viewport.
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
 |:-:|:-:|:-:|
 | Default | Yes | |
+| Theme | | |
 | hover| | |
 | group-hover | | |
 | focus | | |
