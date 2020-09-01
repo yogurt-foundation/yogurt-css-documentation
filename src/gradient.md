@@ -215,7 +215,7 @@ Set default gradient to `<body>` tag.
 </body>
 ```
 
-Set auto dark theme enabled to an element with added `dark:` prefix.
+<span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.1.0</span> Set auto dark theme enabled to an element with added `dark:` prefix.
 
 ```html
 <!-- Example -->
