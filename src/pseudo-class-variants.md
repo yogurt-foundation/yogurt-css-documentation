@@ -1,7 +1,7 @@
 ---
 id: pseudo-class-variant
 title: Pseudo-Class Variants
-description: Using utilities to style and add effects to elements when on hover, group-hover, focus, active, disabled, or visited.
+description: Using utilities to style and add effects to elements when on hover, group-hover, focus, active, disabled, visited or theme.
 layout: default
 ---
 
@@ -9,7 +9,7 @@ layout: default
 
 ## Pseudo-Class Variants
 
-Using utilities to style and add effects to elements when on `hover`, `group-hover`, `focus`, `active`, `disabled`, or `visited`.
+Using utilities to style and add effects to elements when on `hover`, `group-hover`, `focus`, `active`, `disabled`, `visited`, or `theme`.
 
 ### Hover
 
@@ -78,6 +78,17 @@ Add the `visited:` prefix to an utility to enable on-visited.
    href="...">
   ...
 </a>
+```
+
+### Theme
+
+Add the `dark:` prefix to an utility when dark theme settings enabled.
+
+```html
+<!-- Example -->
+<y class="text-charcoal-100 dark:text-gray-100">
+  ...
+</y>
 ```
 
 ### Create Custom Variants
