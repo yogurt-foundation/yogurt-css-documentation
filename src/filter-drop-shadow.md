@@ -108,7 +108,7 @@ Mix with other filters, such as [Brightness](/filter-brightness/), [Contrast](/f
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
 |:-:|:-:|:-:|
 | Default | Yes | |
-| Theme | | |
+| Dark Theme | | |
 | hover| | |
 | group-hover | | |
 | focus | | |
