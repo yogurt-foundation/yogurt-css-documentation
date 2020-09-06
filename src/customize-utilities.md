@@ -44,9 +44,11 @@ To customize the existing utility modules is located in these directories,
     ├── non-responsive
     │   ├── default
     │   └── pseudo
-    └── responsive
-        ├── default
-        └── pseudo
+    ├── responsive
+    │   ├── default
+    │   └── pseudo
+    └── theme    
+        └── default
 ```
 
 ### Example

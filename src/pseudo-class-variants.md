@@ -80,7 +80,7 @@ Add the `visited:` prefix to an utility to enable on-visited.
 </a>
 ```
 
-### Theme <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.1.0</span>
+### Dark Theme <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.1.0</span>
 
 Add the `dark:` prefix to an utility when dark theme settings enabled.
 
@@ -90,6 +90,30 @@ Add the `dark:` prefix to an utility when dark theme settings enabled.
   ...
 </y>
 ```
+<y class="m-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 bg-orange-200">
+  <span class="pr-1 font-semibold">
+    Note:
+  </span>
+  Only for supported utilities (
+  <a href="/background-color/">
+    Background Color
+  </a>,
+  <a href="/border-color/">
+    Border Color
+  </a>,
+  <a href="/box-shadow-color/">
+    Shadow Color
+  </a>,
+  <a href="/gradient/">
+    Gradient
+  </a>,
+  <a href="/text-color/">
+    Text Color
+  </a>,
+  <a href="/placeholder-color/">
+    Placeholder Color
+  </a>).
+</y>
 
 ### Create Custom Variants
 
