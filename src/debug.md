@@ -18,7 +18,7 @@ Utilities for inspecting screen sizes and errors in spacing or overlapping eleme
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">attribute</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
 |:--|:--|
 | debug="outline" | background: rgba(255, 0, 0, 0.1); <br> box-shadow: 0 0 0 1px red; <br> outline: 1px solid red |
-| debug="screen" | @media (min-width: `{screen}`) { [debug="screen"]::after { content: "`{size}`" }} |
+| debug="screen" <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.1.0</span> | @media (min-width: `{screen}`) { [debug="screen"]::after { content: "`{size}`" }} |
 
 <y class="m-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
   <span class="pr-1 font-semibold">
@@ -78,7 +78,7 @@ Apply `debug="outline"` to almost any elements.
 <span debug="outline"> ... </span>
 ```
 
-### Debug Screen
+### Debug Screen <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.1.0</span>
 
 <y class="xs:ml-4 lg:-ml-6 -mt-16"
    debug="screen"></y>
