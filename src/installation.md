@@ -61,6 +61,9 @@ $ npm i yogurt-css
 You can include the Yogurt CSS file from the `node_modules` directory with an HTML `<link>` tag or import the `yogurt.scss` into `.scss` file with `@import` directive.
 
 ```scss
+// with JS (v1.1.0)
+import 'yogurt-css'
+
 // with SCSS/SASS
 @import 'node_modules/yogurt-css/yogurt';
 
