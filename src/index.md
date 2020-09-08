@@ -9,7 +9,7 @@ layout: home
   <span class="mr-2 px-2 py-1 font-semibold text-gray-100 bg-gray-800 rounded">
     &nbsp;News
   </span>
-  New version 1.0.9 has released. Check the updates in
+  New version {{ site.version.core }} has released. Check the updates in
   <a class="font-semibold hover:underline"
      href="/utility-map/">
     Utility Map
