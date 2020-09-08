@@ -68,8 +68,8 @@ import 'yogurt-css'
 @import 'node_modules/yogurt-css/yogurt';
 
 // with <link> tag in HTML
-<link href="node_modules/yogurt-css/dist/yogurt-1.0.{version}_solidcore.css">
-<link href="node_modules/yogurt-css/dist/yogurt-1.0.{version}_solidcore.min.css">
+<link href="node_modules/yogurt-css/dist/yogurt-{version}_solidcore.css">
+<link href="node_modules/yogurt-css/dist/yogurt-{version}_solidcore.min.css">
 ```
 
 <y class="my-4 mx-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
