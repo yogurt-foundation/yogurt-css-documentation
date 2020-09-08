@@ -10,7 +10,7 @@ layout: default
 ## Using Yogurt via CDN
 
 ```html
-<link defer href="https://unpkg.com/yogurt-css@1.0.9/dist/yogurt-{{ site.version.core }}_solidcore.min.css"
+<link defer href="https://unpkg.com/yogurt-css@{{ site.version.core }}/dist/yogurt-{{ site.version.core }}_solidcore.min.css"
       rel="stylesheet"
       rel="preload"
       as="style"
