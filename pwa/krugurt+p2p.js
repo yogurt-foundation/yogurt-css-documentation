@@ -28022,12 +28022,12 @@ module.exports = function zeroFill (width, number, pad) {
 module.exports = CacheP2P
 
 var WebTorrent = require('webtorrent');
-var sha = require('simple-sha1');
-var client = new WebTorrent();
+var sha = require('simple-sha1')
+var client = new WebTorrent()
 var Buffer = require('safe-buffer').Buffer
 var debug = require('debug')('all')
-var EventEmitter = require('events');
-var inherits = require('inherits');
+var EventEmitter = require('events').EventEmitter
+var inherits = require('inherits')
 
 
 var cached_link_lists = {}

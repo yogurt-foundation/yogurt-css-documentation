@@ -1,5 +1,5 @@
 document.security_sha1 = {
-  'https://yogurt-css-documentation.netlify.app/': '9b4db8a6d43d75b7ff0fd42ce04901aa26d631cc',
-  'https://yogurt-css-documentation.netlify.app/installation/': 'f46d9aac2cff8a4dc896b88a7f4583829fb44797',
-  'https://yogurt-css-documentation.netlify.app/utility-map/': '9d027d8e5fe854047ab69603caa90471a5e2dc02'
+  'https://yogurt-css-documentation.netlify.app/': '5f1489edf3220424f43935e6bbf8e1f44dddcc19',
+  'https://yogurt-css-documentation.netlify.app/installation/': '8d7be166d685be982d2330a6aa901aa3d1c2d51e',
+  'https://yogurt-css-documentation.netlify.app/utility-map/': '8c4c025f8db1f81cd0cd7218a03829ebbc8107c0'
 }
