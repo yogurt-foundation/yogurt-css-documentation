@@ -28051,7 +28051,7 @@ function CacheP2P(opts, callback){
   cached_mark = opts && opts.cached_mark ? opts.cached_mark : "* ";
   if (!(self instanceof CacheP2P)) return new CacheP2P(opts)
   EventEmitter.call(self)
-  self.emit("message", "Initializing CacheP2P...")
+  self.emit("message", "Initializing P2P caching...")
 
   window.onpopstate = function(to) {
     console.log('onpopstate called', to)
@@ -28072,8 +28072,8 @@ function CacheP2P(opts, callback){
   self.fetch = function(page_link){
     if(!document.security_sha1 || Object.keys(document.security_sha1).indexOf(page_link.href) > -1){
       if(Object.keys(cached_link_lists).indexOf(page_link.href) === -1){
-        self.emit('message', "[CacheP2P] Pre-fetching '"+page_link.href + "' page from other peers browsing this website...")
-        self.emit('alert', "[CacheP2P] Please tell a friend to open this site's "+page_link.text+" to see it in action.")
+        self.emit('message', "Pre-fetching '"+page_link.href + "' page from other peers browsing this website...")
+        self.emit('alert', "Please tell a friend to open this site's "+page_link.text+" to see it in action.")
         added_links.push(page_link.href)
         sha(page_link.href, function(result){
           if(added_hashes.indexOf(result) === -1){
@@ -28082,13 +28082,13 @@ function CacheP2P(opts, callback){
             added_hashes.push(result)
 
             torrent.on('done', function (info) {
-              self.emit('webtorrent', '[CacheP2P] Cache received')
+              self.emit('webtorrent', 'Cache received')
             })
             torrent.on('download', function (bytes) {
-              self.emit('webtorrent', '[CacheP2P] Receiving Cache ('+bytes+' bytes)')
+              self.emit('webtorrent', 'Receiving Cache ('+bytes+' bytes)')
             })
             torrent.on('wire', function (wire) {
-              self.emit('webtorrent', '[CacheP2P] Peer ('+wire.remoteAddress+') connected over '+wire.type+' (Connection ID: '+wire.peerId.substr(0,10)+').')
+              self.emit('webtorrent', 'Peer ('+wire.remoteAddress+') connected over '+wire.type+' (Connection ID: '+wire.peerId.substr(0,10)+').')
             })
           }
         })
@@ -28096,7 +28096,7 @@ function CacheP2P(opts, callback){
     }
   }
   self.scan_links = function(){
-    self.emit('message', "[CacheP2P] Pre-fetching uncached links in this page... ")
+    self.emit('message', "Pre-fetching uncached links in this page... ")
     var this_page_links = document.getElementsByTagName('a')
     for(var i = 0; i < this_page_links.length ; i++){
       if(this_page_links[i].href && this_page_links[i].href.length !== window.location.href.length && this_page_links[i].href.indexOf(window.location.href+'#') == -1 && this_page_links[i].href.indexOf(document.domain) > -1){
@@ -28118,9 +28118,9 @@ function CacheP2P(opts, callback){
       for(var i = 0 ; i < all_links.length ; i++ ){
         if(all_links[i].href === got_page.url){
           var link_to_page = all_links[i]
-          self.emit('alert', "[CacheP2P] Security check of content received: "+sha.sync(got_page.page)+"...")
-          self.emit('success', "[CacheP2P] Got this site's '" +all_links[i].text+"' in Cache (sha1: "+got_page.page_hash+" ✔)")
-          self.emit('success', "[CacheP2P] The main server will not be used when '"+link_to_page.text+"' is clicked.")
+          self.emit('alert', "Security check of content received: "+sha.sync(got_page.page)+"...")
+          self.emit('success', "Got this site's '" +all_links[i].text+"' in Cache (sha1: "+got_page.page_hash+" ✔)")
+          self.emit('success', "The main server will not be used when '"+link_to_page.text+"' is clicked.")
 
           link_to_page.onclick = function(event){
             event.preventDefault();
@@ -28155,11 +28155,11 @@ function CacheP2P(opts, callback){
 
         sha(got_page.page, function (page_hash) {
           if (page_hash != self.security_sha1[got_page.url]) {
-            self.emit('message', '[CacheP2P] Cached version of ' + got_page.url + ' received, has wrong security hash, rejecting it.');
+            self.emit('message', 'Cached version of ' + got_page.url + ' received, has wrong security hash, rejecting it.');
             return;
           }
 
-          self.emit('message', '[CacheP2P] Cached version of ' + got_page.url + ' has a verified security hash! Proceeding by changing links in page.');
+          self.emit('message', 'Cached version of ' + got_page.url + ' has a verified security hash! Proceeding by changing links in page.');
           cached_link_lists[got_page.url] = got_page
           self.update_links()
 
@@ -28211,17 +28211,17 @@ function CacheP2P(opts, callback){
         var payload = {date: new Date(), page: mergedPage, page_hash: page_hash, url: message.location_href, title: document.title}
         var buffer_payload = Buffer.from(JSON.stringify(payload), 'utf8')
         self.emit('ready')
-        console.log('[CacheP2P] this page\'s security hash:',page_hash,'('+message.location_href+')')
+        console.log('this page\'s security hash:',page_hash,'('+message.location_href+')')
         var torrent = client.seed(buffer_payload,{forced_id: hash, announceList: self.announceList}, function(torrent){
             // add_to_list(torrent, message.location_href)
             debug(torrent.magnetURI)
             cached_link_lists[message.location_href] = payload
 
             torrent.on('upload', function (bytes) {
-              self.emit('webtorrent', '[CacheP2P] Sending this page to peer ('+bytes+' bytes)')
+              self.emit('webtorrent', 'Sending this page to peer ('+bytes+' bytes)')
             })
             torrent.on('wire', function (wire) {
-              self.emit('webtorrent', '[CacheP2P] Peer ('+wire.remoteAddress+') connected over '+wire.type+'.')
+              self.emit('webtorrent', 'Peer ('+wire.remoteAddress+') connected over '+wire.type+'.')
             })
             // document.title = document.title
         });
