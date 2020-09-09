@@ -27,7 +27,6 @@ else if (document.readyState === 'interactive') {
 
 
 function setup() {
-
   setupPrefetch();
 
   if (PAGE_ID === 'home') {
@@ -40,16 +39,13 @@ function setup() {
   else {
     setupSearch();
   }
-
 }
 
 function setupAnchors() {
-
   // Set up link anchors
   const anchors = new AnchorJS();
   anchors.options = { placement: 'left', icon: '#' };
   anchors.add('.article>h2, .article>h3, .article>h4');
-
 }
 
 
@@ -57,17 +53,5 @@ function setupAnchors() {
  * krugurt.js modules
  */
 serviceWorker.init();
-
-/**
- * (experimental)
- */
-document.security_sha1 = {
-  'https://yogurt-css-documentation.netlify-app/': '9697a2c87e0d7ba751112d98ccbfca5c0a135158',
-  'https://yogurt-css-documentation.netlify.app/installation/': 'ba3581948b8a73896a80bc983c78fb18b3a2c693',
-  'https://yogurt-css-documentation.netlify.app/utility-map/': '6baa93d7d4f68210b06c451ca5ea6ac218cdf438'
-};
-
-const cachep2p = new CacheP2P();
-
 
 
