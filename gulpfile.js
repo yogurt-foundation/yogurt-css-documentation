@@ -70,7 +70,10 @@ gulp.task('purge-css', () => {
 gulp.task('service-worker', () => {
   return gulp.src([
       'pwa/krugurt+init.min.js',
-      'pwa/krugurt+sw.min.js'
+      'pwa/krugurt+sw.min.js',
+      'pwa/krugurt+p2p.js',
+      'pwa/krugurt+p2p.seeds.js',
+      'pwa/krugurt+p2p.init.js'
     ])
     .pipe(gulp.dest('./dist'))
 })
