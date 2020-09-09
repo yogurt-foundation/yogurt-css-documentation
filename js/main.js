@@ -62,7 +62,7 @@ serviceWorker.init();
  * (experimental)
  */
 document.security_sha1 = {
-  'https://yogurt-css-documentation.netlify-app': '75e72fe9a6908658da4a2fdb52a4dd5336d14d85',
+  'https://yogurt-css-documentation.netlify-app/': '9697a2c87e0d7ba751112d98ccbfca5c0a135158',
   'https://yogurt-css-documentation.netlify.app/installation/': 'ba3581948b8a73896a80bc983c78fb18b3a2c693',
   'https://yogurt-css-documentation.netlify.app/utility-map/': '6baa93d7d4f68210b06c451ca5ea6ac218cdf438'
 };
