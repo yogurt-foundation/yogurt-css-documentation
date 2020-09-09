@@ -442,34 +442,6 @@ krunch.networkSpeed = function() {
 };
 
 
-/*
-  (!! experiemental !!)
-  Torrent File Streaming
-  @param {id} as in html element id
-  @param {uri} as in torrent magnet uri
-  @usage krunch.torrent('#elementId', 'magnetURI');
-*/
-krunch.torrent = function(id, uri) {
-  const client = new KrunchTorrent();
-  const magnetURI = uri;
-
-  client.add(magnetURI, function(torrent) {
-    log("(torrent) seed:", torrent.infoHash);
-    torrent.files.forEach(function(file) {
-      // display the file by appending it to the DOM,
-      // specify a container element (CSS selector or reference to DOM node).
-      file.appendTo(id, function(error, element) {
-        if (error) throw error; // file failed to download or display in the DOM
-        log("(torrent) DOM content:", element);
-        log("(torrent) just downloaded:", torrent.download + " Bytes");
-        log("(torrent) total downloaded: ", torrent.downloaded + " Bytes");
-        log("(torrent) download speed:", torrent.downloadSpeed + " Bytes");
-        log("(torrent) progress:", torrent.progress);
-      });
-    });
-  });
-};
-
 
 /*
   Request user to install PWA app
