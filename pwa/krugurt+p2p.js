@@ -28026,7 +28026,7 @@ var sha = require('simple-sha1')
 var client = new WebTorrent()
 var Buffer = require('safe-buffer').Buffer
 var debug = require('debug')('all')
-var EventEmitter = require('events').EventEmitter.prototype._maxListeners = 100;
+var EventEmitter = require('events').EventEmitter.defaultMaxListeners = 50;
 var inherits = require('inherits')
 
 
