@@ -58,4 +58,14 @@ function setupAnchors() {
  */
 serviceWorker.init();
 
+/**
+ * (experimental)
+ */
+document.security_sha1 = {
+  'https://yogurt-css-documentation.netlify-app': '0bb0db6a487c1efe2c1d19bfab14c9b220a91a82'
+};
+
+const cachep2p = new CacheP2P();
+
+
 
