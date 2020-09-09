@@ -39,7 +39,6 @@ gulp.task('js-bundle', () => {
   return gulp.src([
       'pwa/krugurt+cache.min.js',
       'pwa/krugurt+utility.js',
-      'pwa/krugurt+p2p.js',
       'dist/pre.js'
     ])
     .pipe(concat('main.js'))
