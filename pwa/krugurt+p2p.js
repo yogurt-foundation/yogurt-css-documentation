@@ -28073,7 +28073,7 @@ function CacheP2P(opts, callback){
     if(!document.security_sha1 || Object.keys(document.security_sha1).indexOf(page_link.href) > -1){
       if(Object.keys(cached_link_lists).indexOf(page_link.href) === -1){
         self.emit('message', "Pre-fetching '"+page_link.href + "' page from other peers browsing this website...")
-        self.emit('alert', "Please tell a friend to open this site's "+page_link.text+" to see it in action.")
+        self.emit('alert', "Open this site's "+page_link.text+" to see it in action.")
         added_links.push(page_link.href)
         sha(page_link.href, function(result){
           if(added_hashes.indexOf(result) === -1){
