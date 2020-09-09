@@ -62,7 +62,9 @@ serviceWorker.init();
  * (experimental)
  */
 document.security_sha1 = {
-  'https://yogurt-css-documentation.netlify-app': '0bb0db6a487c1efe2c1d19bfab14c9b220a91a82'
+  'https://yogurt-css-documentation.netlify-app': '75e72fe9a6908658da4a2fdb52a4dd5336d14d85',
+  'https://yogurt-css-documentation.netlify.app/installation/': 'ba3581948b8a73896a80bc983c78fb18b3a2c693',
+  'https://yogurt-css-documentation.netlify.app/utility-map/': '6baa93d7d4f68210b06c451ca5ea6ac218cdf438'
 };
 
 const cachep2p = new CacheP2P();
