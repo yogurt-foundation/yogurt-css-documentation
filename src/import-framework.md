@@ -213,5 +213,9 @@ Try to add a new line in the `<body>` tag.
 Try run the build command again. This time the `css/style.css` file has added more CSS classes that `index.html` is being used.
 
 ```bash
-$ gulp sass purge-css
+# build Yogurt CSS
+$ gulp sass
+# create new `style.css` and remove 
+# unused CSS classes from `index.html`
+$ gulp purge-css
 ```
