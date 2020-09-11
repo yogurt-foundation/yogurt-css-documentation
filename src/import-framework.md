@@ -108,9 +108,9 @@ Install mandatory `gulp` node modules.
 
 ```bash
 # YARN
-$ yarn add gulp-sass gulp-sass-glob gulp-postcss gulp-purgecss gulp-rename autoprefixer --dev
+$ yarn add gulp gulp-sass gulp-sass-glob gulp-postcss gulp-purgecss gulp-rename autoprefixer --dev
 # NPM
-$ npm i gulp-sass gulp-sass-glob gulp-postcss gulp-purgecss gulp-rename autoprefixer --save-dev
+$ npm i gulp gulp-sass gulp-sass-glob gulp-postcss gulp-purgecss gulp-rename autoprefixer --save-dev
 ```
 Create an empty `gulpfile.js` task file.
 
