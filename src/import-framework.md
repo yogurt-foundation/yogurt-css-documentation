@@ -197,7 +197,11 @@ Your new project setup is now ready for `Sass` preprocessing and purging unused 
 Run the command below and check the CSS file located in `css/style.css` has only a few CSS classes that take a few couple hundred bytes of file size. The rest has stripped down by the `PurgeCSS` that refers to the target `.html` files.
 
 ```bash
-$ gulp sass purge-css
+# build Yogurt CSS
+$ gulp sass
+# create new `style.css` and remove 
+# unused CSS classes from `index.html`
+$ gulp purge-css
 ```
 
 Try to add a new line in the `<body>` tag.
