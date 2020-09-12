@@ -15,7 +15,7 @@ Utilities for scales an element that has transform applied.
 
 ## Class
 
-| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">css</span> |
 |:--|:--|
 | scale-0 | --transform-scale-x: 0; <br> --transform-scale-y: 0 |
 | scale-50 | --transform-scale-x: .5; <br> --transform-scale-y: .5 |

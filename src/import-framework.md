@@ -7,7 +7,7 @@ layout: default
 
 > Core Concept
 
-## Import Framework <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.9</span>
+## Import Framework <span class="ml-1 px-2 py-1 text-sm text-gray-600 dark:text-charcoal-100 bg-gray-300 dark:bg-gray-600">v1.0.9</span>
 
 The most recommended way of using Yogurt CSS is installing it with the package manager (Yarn, Npm), and importing the `.scss` file from the `node_modules` directory.
 
@@ -18,7 +18,7 @@ $ yarn add yogurt-css
 $ npm i yogurt-css
 ```
 
-<y class="my-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 bg-orange-200">
+<y class="my-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 bg-orange-200 dark:bg-orange-900">
   <span class="pr-1 font-semibold">
     Note:
   </span>
@@ -75,7 +75,7 @@ h1 {
 
 ### Create Empty Project Manually
 
-<y class="my-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 bg-orange-200">
+<y class="my-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 bg-orange-200 dark:bg-orange-900">
   <span class="pr-1 font-semibold">
     Note:
   </span>
@@ -199,7 +199,7 @@ Run the command below and check the CSS file located in `css/style.css` has only
 ```bash
 # build Yogurt CSS
 $ gulp sass
-# create new `style.css` and remove 
+# create new `style.css` and remove
 # unused CSS classes from `index.html`
 $ gulp purge-css
 ```
@@ -215,7 +215,8 @@ Try run the build command again. This time the `css/style.css` file has added mo
 ```bash
 # build Yogurt CSS
 $ gulp sass
-# create new `style.css` and remove 
+# create new `style.css` and remove
 # unused CSS classes from `index.html`
 $ gulp purge-css
 ```
+

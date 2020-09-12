@@ -15,7 +15,7 @@ Utilities for sets the text-decoration of an element.
 
 ## Class
 
-| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> | |
+| <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">css</span> | |
 |:--|:--|:-:|
 | underline | text-decoration: underline | <y class="text-lg underline">Text</y> |
 | line-through | text-decoration: line-through | <y class="text-lg line-through">Text</y> |

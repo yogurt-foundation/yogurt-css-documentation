@@ -22,7 +22,7 @@ layout: default
 
             <y class="flex">
 
-              <a class="{{ item.class }} py-1 text-gray-700 hover:text-gray-800 xs:text-md lg:text-sm hover:font-semibold hover:underline"
+              <a class="{{ item.class }} py-1 text-gray-700 dark:text-gray-400 hover:text-gray-800 xs:text-md lg:text-sm hover:font-semibold hover:underline"
                  href="{{ item.url | safe }}"
                  {% if is_current_page %}
                  aria-current="page"
@@ -39,7 +39,7 @@ layout: default
               </a>
 
               {% if item.version %}
-                <y class="ml-2 mt-1 px-1 h-5 flex justify-center items-center text-xs text-gray-600 bg-gray-300 rounded">
+                <y class="ml-2 mt-1 px-1 h-5 flex justify-center items-center text-xs text-gray-600 dark:text-charcoal-100 bg-gray-300 dark:bg-gray-600 rounded">
                   {{ item.version }}
                 </y>
               {% endif %}

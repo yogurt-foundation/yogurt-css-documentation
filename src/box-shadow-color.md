@@ -15,7 +15,7 @@ Utilities for sets the shadow color to an element.
 
 ## Class
 
-| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |  |
+| <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">css</span> |  |
 |:--|:--|:--|:-:|
 | shadow-md-charcoal-100 | box-shadow: 0 0 6px #222c35 | <y class="w-16 h-6 rounded bg-white shadow-md-charcoal-100"></y> |
 | shadow-lg-charcoal-100 | box-shadow: 0 0 15px #222c35 | <y class="w-16 h-6 rounded bg-white shadow-lg-charcoal-100"></y> |
@@ -414,7 +414,7 @@ Utilities for sets the shadow color to an element.
 | shadow-xl-pink-900 | box-shadow: 0 0 25px #702459 | <y class="w-16 h-6 rounded bg-white shadow-xl-pink-900"></y> |
 | shadow-2xl-pink-900 | box-shadow: 0 0 50px #702459 | <y class="w-16 h-6 rounded bg-white shadow-2xl-pink-900"></y> |
 
-<y class="mx-4 my-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
+<y class="m-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 dark:bg-gray-800">
   <span class="pr-1 font-semibold">
     Note:
   </span>
@@ -434,7 +434,7 @@ Utilities for sets the shadow color to an element.
 <y class="shadow-lg-red-400 ... bg-white h-32 w-32"></y>
 ```
 
-<span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.1.0</span> Set auto dark theme enabled to an element with added `dark:` prefix.
+<span class="ml-1 px-2 py-1 text-sm text-gray-600 dark:text-charcoal-100 bg-gray-300 dark:bg-gray-600">v1.1.0</span> Set auto dark theme enabled to an element with added `dark:` prefix.
 
 ```html
 <!-- Example -->

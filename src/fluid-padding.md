@@ -7,7 +7,7 @@ layout: default
 
 > Effects
 
-# Fluid Padding <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.8</span>
+# Fluid Padding <span class="ml-1 px-2 py-1 text-sm text-gray-600 dark:text-charcoal-100 bg-gray-300 dark:bg-gray-600">v1.0.8</span>
 
 Utilities for sets min and max paddings for screen size without breakpoints.
 
@@ -15,7 +15,7 @@ Utilities for sets min and max paddings for screen size without breakpoints.
 
 ## Class
 
-| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">css</span> |
 |:--|:--|
 | fluid <br> p-min-`{value}` <br> p-max-`{value}` | @media screen and (min-width: 20rem) { .fluid.p-min-`{modifier}`.p-max-`{modifier}` { padding: calc(`{min}` + 0 * ((100vw - 20rem) / 30)) } } @media screen and (min-width: 50rem) {  .fluid.p-min-`{modifier}`.p-max-`{modifier}` { padding: `{max}` } } |
 
@@ -40,7 +40,7 @@ Utilities for sets min and max paddings for screen size without breakpoints.
 | 56 | 14rem |
 | 64 | 16rem |
 
-<y class="mx-4 my-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
+<y class="m-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 dark:bg-gray-800">
   <span class="pr-1 font-semibold">
     Note:
   </span>

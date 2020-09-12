@@ -15,7 +15,7 @@ Utilities for sets the outline width of an SVG.
 
 ## Class
 
-| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">css</span> |
 |:--|:--|
 | stroke-0 | stroke-width: 0 |
 | stroke-1 | stroke-width: 1 |
@@ -61,7 +61,7 @@ Set a SVG image with stroke width.
 
 ---
 
-## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300" href="/plugin-api/">More</a>
+## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 dark:text-charcoal-100 bg-gray-300 dark:bg-gray-600" href="/plugin-api/">More</a>
 
 ```scss
 // @file: `src/_plugins.scss`

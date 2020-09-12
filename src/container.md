@@ -15,7 +15,7 @@ Utilities for set max-width to match min-width of the current breakpoint.
 
 ## Class
 
-| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">breakpoint</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">breakpoint</span> | <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">css</span> |
 |:--|:--|:--|
 | container | none | width: 100% |
 |   | xs (320px) | max-width: 320px |
@@ -30,7 +30,7 @@ Utilities for set max-width to match min-width of the current breakpoint.
 |   | 7k (7000px) | max-width: 7000px |
 |   | 8k (7680px) | max-width: 7680px |
 
-<y class="mx-4 my-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
+<y class="m-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 dark:bg-gray-800">
   <span class="pr-1 font-semibold">
     Note:
   </span>

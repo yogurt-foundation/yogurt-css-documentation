@@ -7,7 +7,7 @@ layout: default
 
 > Flexbox
 
-# Flex Gap <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.1.0</span>
+# Flex Gap <span class="ml-1 px-2 py-1 text-sm text-gray-600 dark:text-charcoal-100 bg-gray-300 dark:bg-gray-600">v1.1.0</span>
 
 Utilities for set inner spacing in between the flex child elements.
 
@@ -15,7 +15,7 @@ Utilities for set inner spacing in between the flex child elements.
 
 ## Class
 
-| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">css</span> |
 |:--|:--|
 | flex-gap-0 | margin: calc(-1 * 0rem) 0 0 calc(-1 * 0rem); <br> width: calc(100% + 0rem) |
 | flex-gap-1 | margin: calc(-1 * 0.25rem) 0 0 calc(-1 * 0.25rem); <br> width: calc(100% + 0.25rem) |
@@ -36,7 +36,7 @@ Utilities for set inner spacing in between the flex child elements.
 | flex-gap-56 | margin: calc(-1 * 14rem) 0 0 calc(-1 * 14rem); <br> width: calc(100% + 14rem) |
 | flex-gap-64 | margin: calc(-1 * 16rem) 0 0 calc(-1 * 16rem); <br> width: calc(100% + 16rem) |
 
-<y class="m-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
+<y class="m-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 dark:bg-gray-800">
   <span class="pr-1 font-semibold">
     Note:
   </span>

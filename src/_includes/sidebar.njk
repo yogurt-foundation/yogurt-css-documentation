@@ -1,4 +1,4 @@
-<y class="sidebar hidden fixed inset-0 pt-16 h-screen z-20 w-full bg-gray-100 lg:sticky lg:overflow-y-visible lg:pt-0 lg:w-1/5 lg:block lg:top-16 lg:pb-16 lg:-mb-16">
+<y class="sidebar hidden fixed inset-0 pt-16 h-screen z-20 w-full bg-gray-100 dark:bg-charcoal-100 lg:sticky lg:overflow-y-visible lg:pt-0 lg:w-1/5 lg:block lg:top-16 lg:pb-16 lg:-mb-16">
   <y class="sidebar-inner overflow-hidden h-full">
     <nav class="sidebar-scroller text-md sm:text-sm inset-0 overflow-y-auto overflow-x-hidden px-6 py-8 h-full">
 
@@ -8,7 +8,7 @@
 
           <li class="mb-4">
 
-            <span class="block mb-2 text-sm sm:text-xs uppercase font-bold text-gray-900">
+            <span class="block mb-2 text-sm sm:text-xs uppercase font-bold text-gray-900 dark:text-gray-400">
 
               {{ section.label }}
 
@@ -22,7 +22,7 @@
 
               <li class="mb-px">
 
-                <a class="nav-link -mx-2 p-2 {{ item.class }} {% if is_current_page %} selected {% endif %}"
+                <a class="nav-link -mx-2 p-2 hover:font-semibold hover:underline {{ item.class }} {% if is_current_page %} selected {% endif %}"
                    href="{{ item.url | safe }}"
                    {% if is_current_page %}
                    aria-current="page"
@@ -51,7 +51,7 @@
 
           <li class="sm:block md:hidden lg:hidden mb-4">
 
-            <span class="block mb-2 text-sm sm:text-xs uppercase font-bold text-gray-900">
+            <span class="block mb-2 text-sm sm:text-xs uppercase font-bold text-gray-900 dark:text-gray-400">
 
               {{ data.label }}
 
@@ -65,7 +65,7 @@
 
               <li class="mb-px">
 
-                <a class="nav-link -mx-2 p-2 {{ item.class }} {% if is_current_page %} selected {% endif %}"
+                <a class="nav-link -mx-2 p-2 hover:font-semibold hover:underline {{ item.class }} {% if is_current_page %} selected {% endif %}"
                    href="{{ item.url | safe }}"
                    {% if is_current_page %}
                    aria-current="page"
@@ -94,7 +94,7 @@
 
           <li class="mb-4">
 
-            <span class="block mb-2 text-sm sm:text-xs uppercase font-bold text-gray-900">
+            <span class="block mb-2 text-sm sm:text-xs uppercase font-bold text-gray-900 dark:text-gray-400">
 
               {{ section.label }}
 
@@ -108,7 +108,7 @@
 
               <li class="mb-px">
 
-                <a class="nav-link -mx-2 p-2 {{ item.class }} {% if is_current_page %} selected {% endif %}"
+                <a class="nav-link -mx-2 p-2 hover:font-semibold hover:underline {{ item.class }} {% if is_current_page %} selected {% endif %}"
                    href="{{ item.url | safe }}"
                    {% if is_current_page %}
                    aria-current="page"

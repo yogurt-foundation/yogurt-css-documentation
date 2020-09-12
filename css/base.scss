@@ -126,3 +126,27 @@ button {
 ul {
   list-style-type: none;
 }
+
+
+@media (prefers-color-scheme: dark) {
+
+  // sidebar
+  .nav-link {
+    color: #cbd5e0;
+  }
+
+  .nav-link:hover {
+    // color: #222c35;
+    color: #dd6b20;
+  }
+
+  .nav-link.selected {
+    color: #222c35;
+    background-color: #cbd5e0;
+  }
+
+  .r-anchor-background {
+    background-color: #2d3748;
+  }
+
+}
