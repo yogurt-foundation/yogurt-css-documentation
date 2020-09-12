@@ -98,7 +98,7 @@ export default selector => {
     // Wrap anchors in the markup we need for hover effects
     Array.from(document.querySelectorAll(selector)).forEach(element => {
       element.classList.add('r-anchor');
-      element.innerHTML = '<span class="r-anchor-label">' + element.innerHTML + '</span><span class="r-anchor-background"></span>';
+      element.innerHTML = '<span class="r-anchor-label">' + element.innerHTML + '</span><span class="r-anchor-background dark:bg-gray-700"></span>';
     });
 
     Array.from(document.querySelectorAll('.r-anchor')).forEach(element => {

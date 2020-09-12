@@ -7,7 +7,7 @@ layout: default
 
 > Effects
 
-# Fluid Font Size <span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.0.8</span>
+# Fluid Font Size <span class="ml-1 px-2 py-1 text-sm text-gray-600 dark:text-charcoal-100 bg-gray-300 dark:bg-gray-600">v1.0.8</span>
 
 Utilities for sets min and max font sizes for screen size without breakpoints.
 
@@ -15,11 +15,11 @@ Utilities for sets min and max font sizes for screen size without breakpoints.
 
 ## Class
 
-| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">css</span> |
 |:--|:--|
 | fluid <br> text-min-`{value}` <br> text-max-`{value}` | @media screen and (min-width: 20rem) { .fluid.text-min-`{modifier}`.text-max-`{modifier}` { font-size: calc(`{min}` + 0 * ((100vw - 20rem) / 30)) } } @media screen and (min-width: 50rem) {  .fluid.text-min-`{modifier}`.text-max-`{modifier}` { font-size: `{max}` } } |
 
-| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> | |
+| <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">css</span> | |
 |:--|:--|:-:|
 | xs | font-size: .75rem | <span class="text-xs">Text</span> |
 | sm | font-size: .875rem | <span class="text-sm">Text</span> |
@@ -34,7 +34,7 @@ Utilities for sets min and max font sizes for screen size without breakpoints.
 | 7xl | font-size: 5rem | <span class="text-7xl">Text</span> |
 | 8xl | font-size: 6rem | <span class="text-8xl">Text</span> |
 
-<y class="mx-4 my-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
+<y class="m-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 dark:bg-gray-800">
   <span class="pr-1 font-semibold">
     Note:
   </span>

@@ -15,7 +15,7 @@ Utilities for sets the placeholder color using the ::placeholder pseudo element.
 
 ## Class
 
-| <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">class</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">css</span> |  |
+| <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">css</span> |  |
 |:--|:--|:-:|
 | placeholder-transparent | color: transparent | <y class="border-2 border-gray-400 rounded px-2 text-lg text-transparent font-semibold">Text</y> |
 | placeholder-white | color: #fff | <y class="border-2 border-gray-400 rounded px-2 text-lg text-white font-semibold">Text</y> |
@@ -155,7 +155,7 @@ Utilities for sets the placeholder color using the ::placeholder pseudo element.
 | placeholder-nero-800 | color: #0e0f11 | <y class="border-2 border-gray-400 rounded px-2 text-lg text-nero-800 bg-white font-semibold">Text</y> |
 | placeholder-nero-900 | color: #0a0a0b | <y class="border-2 border-gray-400 rounded px-2 text-lg text-nero bg-white font-semibold">Text</y> |
 
-<y class="mx-4 my-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200">
+<y class="m-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 dark:bg-gray-800">
   <span class="pr-1 font-semibold">
     Note:
   </span>
@@ -172,7 +172,7 @@ Utilities for sets the placeholder color using the ::placeholder pseudo element.
        placeholder="...">
 ```
 
-<span class="ml-1 px-2 py-1 text-sm text-gray-600 bg-gray-300">v1.1.0</span> Set auto dark theme enabled to an element with added `dark:` prefix.
+<span class="ml-1 px-2 py-1 text-sm text-gray-600 dark:text-charcoal-100 bg-gray-300 dark:bg-gray-600">v1.1.0</span> Set auto dark theme enabled to an element with added `dark:` prefix.
 
 ```html
 <!-- Example -->
