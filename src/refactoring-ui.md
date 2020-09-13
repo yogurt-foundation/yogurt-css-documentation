@@ -13,7 +13,7 @@ Refactoring UI is a tedious job for frontend developers. Yogurt was designed to 
 
 We will be using the `@extend` directive to extract the Yogurt utility classes and replacing the existing CSS properties of your style sheet. (See [Extract Utility Classes](/extract-utility-classes/)).
 
-<y class="my-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 bg-orange-200 dark:bg-orange-900">
+<y class="my-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 dark:text-orange-500 bg-orange-200 dark:bg-orange-900">
   <span class="pr-1 font-semibold">
     Note:
   </span>
@@ -53,7 +53,7 @@ Here we have existing classes in the HTML file, and we might not want to change 
 
 We use the `@extend` directive to expose the Yogurt utility classes to replacing the existing selectors CSS properties, look like the below,
 
-<y class="my-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 bg-orange-200 dark:bg-orange-900">
+<y class="my-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 dark:text-orange-500 bg-orange-200 dark:bg-orange-900">
   <span class="pr-1 font-semibold">
     Note:
   </span>

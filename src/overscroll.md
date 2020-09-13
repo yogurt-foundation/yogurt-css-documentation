@@ -17,15 +17,15 @@ Utilities for sets an scrollable element that won't affecting the parent scrolla
 
 | <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">css</span> |
 |:--|:--|
-| overscroll-auto | overscroll-behaviour: auto |
-| overscroll-contain | overscroll-behaviour: contain |
-| overscroll-none | overscroll-behaviour: none |
-| overscroll-x-auto | overscroll-behaviour-x: auto |
-| overscroll-x-contain | overscroll-behaviour-x: contain |
-| overscroll-x-none | overscroll-behaviour-x: none |
-| overscroll-y-auto | overscroll-behaviour-y: auto |
-| overscroll-y-contain | overscroll-behaviour-y: contain |
-| overscroll-y-none | overscroll-behaviour-y: none |
+| overscroll-auto | overscroll-behavior: auto |
+| overscroll-contain | overscroll-behavior: contain |
+| overscroll-none | overscroll-behavior: none |
+| overscroll-x-auto | overscroll-behavior-x: auto |
+| overscroll-x-contain | overscroll-behavior-x: contain |
+| overscroll-x-none | overscroll-behavior-x: none |
+| overscroll-y-auto | overscroll-behavior-y: auto |
+| overscroll-y-contain | overscroll-behavior-y: contain |
+| overscroll-y-none | overscroll-behavior-y: none |
 
 ---
 
