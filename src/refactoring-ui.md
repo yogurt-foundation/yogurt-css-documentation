@@ -30,9 +30,9 @@ We will be using the `@extend` directive to extract the Yogurt utility classes a
 ### Examples
 
 <y class="my-4 mx-auto max-w-xxs">
-  <y class="bg-white border border-gray-400 rounded">
-    <y class="w-full h-32 bg-gray-500"></y>
-    <y class="p-5 text-md font-normal depth-wider">
+  <y class="bg-white dark:bg-gray-700 border border-gray-400 dark:border-charcoal-100 rounded">
+    <y class="w-full h-32 bg-gray-500 rounded-t-sm"></y>
+    <y class="p-5 dark:text-gray-400 text-md font-normal depth-wider">
       Some quick example text to build on the card title and make up the bulk of the card's content.
     </y>
   </y>
