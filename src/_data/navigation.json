@@ -638,6 +638,11 @@
         {
           "label": "Stroke Width",
           "url": "/stroke-width/"
+        },
+        {
+          "label": "Stroke Line Cap",
+          "url": "/stroke-linecap/",
+          "version": "v1.1.1"
         }
       ]
     },
