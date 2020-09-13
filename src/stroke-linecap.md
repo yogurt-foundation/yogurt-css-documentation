@@ -21,13 +21,6 @@ Utilities for sets the outline shape of an SVG.
 | stroke-round | stroke-linecap: round |
 | stroke-square | stroke-linecap: square |
 
-<y class="m-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 dark:bg-gray-800">
-  <span class="pr-1 font-semibold">
-    Note:
-  </span>
-  Utility customizing is unavailable.
-</y>
-
 ---
 
 ## Usage
