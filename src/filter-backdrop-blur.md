@@ -33,7 +33,7 @@ Utilities for sets filter backdrop blur effect to an element.
 | blur-9 | --blur: 18px |
 | blur-10 | --blur: 20px |
 
-<y class="m-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 bg-orange-200 dark:bg-orange-900">
+<y class="m-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 dark:text-orange-500 bg-orange-200 dark:bg-orange-900">
   <span class="pr-1 font-semibold">
     Note:
   </span>

@@ -30,7 +30,7 @@ Utilities for sets total display text line to an element.
   Utility customizing is unavailable.
 </y>
 
-<y class="mt-2 mb-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 bg-orange-200 dark:bg-orange-900">
+<y class="mt-2 mb-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 dark:text-orange-500 bg-orange-200 dark:bg-orange-900">
   <span class="pr-1 font-semibold">
     Note:
   </span>

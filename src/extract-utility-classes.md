@@ -11,7 +11,7 @@ layout: default
 
 Yogurt purely built on top of the SASS or SCSS ([Sassy CSS](https://sass-lang.com)). By using the existing Sassy `@extend` directive allows you to expose any Yogurt utility classes to your custom CSS.
 
-<y class="my-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 bg-orange-200 dark:bg-orange-900">
+<y class="my-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 dark:text-orange-500 bg-orange-200 dark:bg-orange-900">
   <span class="pr-1 font-semibold">
     Note:
   </span>
