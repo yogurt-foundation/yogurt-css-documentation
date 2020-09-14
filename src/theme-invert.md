@@ -9,7 +9,7 @@ layout: default
 
 # Theme Invert <span class="ml-1 px-2 py-1 text-sm text-gray-600 dark:text-charcoal-100 bg-gray-300 dark:bg-gray-600">v1.0.9</span>
 
-Utilities for sets page theme either dark or light by applying force invert.
+Utilities for sets page theme either dark or light by applying force invert with color correction.
 
 ---
 
