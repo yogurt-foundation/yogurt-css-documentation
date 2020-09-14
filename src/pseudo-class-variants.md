@@ -94,24 +94,27 @@ Add the `dark:` prefix to an utility when dark theme settings enabled.
   <span class="pr-1 font-semibold">
     Note:
   </span>
-  Only for supported utilities (
+  Default supported utilities (
   <a href="/background-color/">
     Background Color
   </a>,
   <a href="/border-color/">
     Border Color
   </a>,
-  <a href="/box-shadow-color/">
-    Shadow Color
-  </a>,
   <a href="/gradient/">
     Gradient
   </a>,
-  <a href="/text-color/">
-    Text Color
+  <a href="/filter-invert/">
+    Filter Invert
   </a>,
   <a href="/placeholder-color/">
     Placeholder Color
+  </a>
+  <a href="/box-shadow-color/">
+    Shadow Color
+  </a>,
+  <a href="/text-color/">
+    Text Color
   </a>).
 </y>
 

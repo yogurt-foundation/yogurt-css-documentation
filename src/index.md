@@ -20,8 +20,7 @@ layout: home
 </y>
 
 <y class="pb-4">
-  <img theme=""
-       class="w-full h-full object-cover object-center rounded-lg opacity-75"
+  <img class="w-full h-full object-cover object-center rounded-lg opacity-75"
        src="images/content/yogurt_promo.jpg"
        alt="Yogurt">
 </y>
