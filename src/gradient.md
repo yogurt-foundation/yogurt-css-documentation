@@ -215,6 +215,21 @@ Set default gradient to `<body>` tag.
 </body>
 ```
 
+<span class="ml-1 px-2 py-1 text-sm text-gray-600 dark:text-charcoal-100 bg-gray-300 dark:bg-gray-600">v1.1.1</span> Set gradient clipping as text color by adding `clip-text`.
+
+<y class="px-4 my-2 mx-auto w-56">
+  <y class="gradient-happy-fisher clip-text inline-block text-8xl font-extrabold">
+    TEXT
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<y class="gradient-happy-fisher clip-text ... inline-block">
+  ...
+</y>
+```
+
 <span class="ml-1 px-2 py-1 text-sm text-gray-600 dark:text-charcoal-100 bg-gray-300 dark:bg-gray-600">v1.1.0</span> Set auto dark theme enabled to an element with added `dark:` prefix.
 
 ```html

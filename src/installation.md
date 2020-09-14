@@ -31,7 +31,24 @@ layout: default
   </a> for new changes.)
 </y>
 
-<y class="mt-2 mb-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 dark:text-orange-500 bg-orange-200 dark:bg-orange-900">
+<y class="my-2 mx-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 dark:bg-gray-800">
+  <span class="pr-1 font-semibold">
+    Note:
+  </span>
+  The
+  <strong>
+    CDN
+  </strong>
+  build file size is huge, ideal for prototyping. Unrecommended to use in production. Learn more about how to reduce the framework size efficiently. (See
+  <a href="/import-framework/#create-empty-project-manually">
+    Import Framework
+  </a>,
+  <a href="/file-size-control/">
+    File Size Control
+  </a>)
+</y>
+
+<y class="mb-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 dark:text-orange-500 bg-orange-200 dark:bg-orange-900">
   <span class="pr-1 font-semibold">
     Note:
   </span>
@@ -72,7 +89,7 @@ import 'yogurt-css'
 <link href="node_modules/yogurt-css/dist/yogurt-{{ site.version.core }}_solidcore.min.css">
 ```
 
-<y class="my-4 mx-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 dark:bg-gray-800">
+<y class="mt-4 mx-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 dark:bg-gray-800">
   <span class="pr-1 font-semibold">
     Note:
   </span>
@@ -81,6 +98,23 @@ import 'yogurt-css'
     node_modules
   </strong>
   is a published version and always behind the latest update at the Github repository.
+</y>
+
+<y class="mt-2 mx-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 dark:bg-gray-800">
+  <span class="pr-1 font-semibold">
+    Note:
+  </span>
+  The
+  <strong>
+    CDN
+  </strong>
+  build file size is huge, ideal for prototyping. Unrecommended to use in production. Learn more about how to reduce the framework size efficiently. (See
+  <a href="/import-framework/#create-empty-project-manually">
+    Import Framework
+  </a>,
+  <a href="/file-size-control/">
+    File Size Control
+  </a>)
 </y>
 
 ## Using Yogurt via CLI
@@ -94,7 +128,7 @@ $ yarn create create-yogurt-app my-new-project
 $ npx create-yogurt-app my-new-project
 ```
 
-The CLI gives you an optional tool to quickly installs and sets up a new frontend project with essential build tools such as preprocessors, compressors, etc.
+The CLI gives you an optional tool to quickly installs and sets up a new frontend project with essential build tools such as preprocessors, postprocessors, etc. Use the tool for the production-ready build.
 
 If you install the `create-yogurt-app` package to run locally, simply run `yogurt <project_name>`,
 

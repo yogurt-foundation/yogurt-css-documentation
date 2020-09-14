@@ -212,6 +212,21 @@ Set background gradient to `<body>` tag.
 </body>
 ```
 
+<span class="ml-1 px-2 py-1 text-sm text-gray-600 dark:text-charcoal-100 bg-gray-300 dark:bg-gray-600">v1.1.1</span> Set background gradient clipping as text color by adding `clip-text`.
+
+<y class="px-4 my-2 mx-auto w-56">
+  <y class="h-32 bg-gradient start-amber-400 start-10 stop-red-400 stop-90 angle-45 clip-text inline-block text-8xl font-extrabold">
+    TEXT
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<y class="bg-gradient start-amber-400 start-10 stop-red-400 stop-90 angle-45 clip-text ... inline-block">
+  ...
+</y>
+```
+
 ---
 
 ## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 dark:text-charcoal-100 bg-gray-300 dark:bg-gray-600" href="/plugin-api/">More</a>
@@ -279,7 +294,7 @@ Set background gradient to `<body>` tag.
 |:-:|:-:|:-:|
 | Default | Yes | |
 | Dark Theme | | |
-| hover| | |
+| hover| Yes | |
 | group-hover | | |
 | focus | | |
 | active | | |
