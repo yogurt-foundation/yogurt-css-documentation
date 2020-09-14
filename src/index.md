@@ -13,7 +13,7 @@ layout: home
   <a class="font-semibold hover:underline"
      href="/utility-map/">
     Utility Map
-  </a>).
+  </a>.
   <y class="absolute top-1 right-1">
     <y class="h-2 w-2 bg-gray-800 dark:bg-orange-500 filter saturate-10 rounded animation fade-out duration-2000 delay-1 infinite"></y>
   </y>
