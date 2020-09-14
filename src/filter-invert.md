@@ -33,7 +33,7 @@ Utilities for sets filter inverts effect to an element.
     </y>
   </y>
   <y class="m-2 max-w-sm">
-    <img class="filter invert-1 w-full h-48 object-cover object-center overflow-hidden rounded-lg"
+    <img class="invert-1 w-full h-48 object-cover object-center overflow-hidden rounded-lg"
          src="https://picsum.photos/500?=5">
     <y class="pt-2 text-sm text-center">
       Filter: ON
@@ -43,10 +43,21 @@ Utilities for sets filter inverts effect to an element.
 
 ```html
 <!-- Example -->
-<img class="filter invert-1 ..."
+<img class="invert-1 ..."
      src="...">
 
-<y class="filter invert-1 ..."
+<y class="invert-1 ..."
+   style="background-image:url(...)"></y>
+```
+
+<span class="ml-1 px-2 py-1 text-sm text-gray-600 dark:text-charcoal-100 bg-gray-300 dark:bg-gray-600">v1.1.1</span> Set auto dark theme enabled to an element with added `dark:` prefix.
+
+```html
+<!-- Example -->
+<img class="invert-1 dark:invert-0 ..."
+     src="...">
+
+<y class="invert-1 dark:invert-0 ..."
    style="background-image:url(...)"></y>
 ```
 
