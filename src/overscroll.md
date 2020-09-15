@@ -38,7 +38,7 @@ An example of an element on the left without the `overscroll` utility applied. W
 <y class="px-4 mt-2 mb-6 mx-auto xs:max-w-full sm:max-w-lg md:max-w-lg lg:max-w-lg h-64">
   <y class="flex">
     <y class="m-4">
-      <y class="w-32 h-56 bg-gray-300 overflow-scroll">
+      <y class="w-32 h-56 text-gray-900 dark:text-gray-400 bg-gray-300 dark:bg-gray-700 overflow-y-scroll">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, ducimus eum debitis. Magni, officiis numquam recusandae deserunt et maiores molestias quod laudantium. Natus, unde veniam hic labore voluptatibus aliquam ducimus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, ducimus eum debitis. Magni, officiis numquam recusandae deserunt et maiores molestias quod laudantium. Natus, unde veniam hic labore voluptatibus aliquam ducimus.
       </y>
       <y class="pt-2 text-sm text-center">
@@ -46,7 +46,7 @@ An example of an element on the left without the `overscroll` utility applied. W
       </y>
     </y>
     <y class="m-4">
-      <y class="w-32 h-56 bg-gray-300 overscroll-contain overflow-scroll">
+      <y class="w-32 h-56 text-gray-900 dark:text-gray-400 bg-gray-300 dark:bg-gray-700 overscroll-contain overflow-y-scroll">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, ducimus eum debitis. Magni, officiis numquam recusandae deserunt et maiores molestias quod laudantium. Natus, unde veniam hic labore voluptatibus aliquam ducimus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, ducimus eum debitis. Magni, officiis numquam recusandae deserunt et maiores molestias quod laudantium. Natus, unde veniam hic labore voluptatibus aliquam ducimus.
       </y>
       <y class="pt-2 text-sm text-center">
