@@ -33,7 +33,8 @@ gulp.task('js', () => gulp.src(['js/main.js'])
     }
   }))
   .pipe(rename('pre.js'))
-  .pipe(gulp.dest('./dist')))
+  .pipe(gulp.dest('./dist'))
+)
 
 gulp.task('js-bundle', () => {
   return gulp.src([
@@ -47,11 +48,17 @@ gulp.task('js-bundle', () => {
 
 gulp.task('css', () => gulp.src(['css/main.scss'])
   .pipe(sass())
-  // .pipe(postcss())
   .pipe(postcss([autoPrefixer()]))
   .pipe(rename('pre.css'))
-  .pipe(gulp.dest('./dist')))
-
+  .pipe(gulp.dest('./dist'))
+)
+// (development)
+gulp.task('move-css', () => {
+  return gulp.src('./dist/pre.css')
+    .pipe(rename('main.css'))
+    .pipe(gulp.dest('./dist'))
+})
+// (production)
 gulp.task('purge-css', () => {
   return gulp.src('./dist/pre.css')
     .pipe(purgeCss({
@@ -61,7 +68,8 @@ gulp.task('purge-css', () => {
         ],
         // make compatible for `Yogurt CSS framework`
         defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || [],
-        whitelistPatterns: [/-webkit-scrollbar-thumb$/]
+        whitelistPatterns: [/-webkit-scrollbar-thumb$/],
+        keyframes: true
     }))
     .pipe(rename('main.css'))
     .pipe(gulp.dest('./dist'))
