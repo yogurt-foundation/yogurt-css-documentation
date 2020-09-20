@@ -94,7 +94,7 @@ Add the `dark:` prefix to an utility when dark theme settings enabled.
   <span class="pr-1 font-semibold">
     Note:
   </span>
-  Default supported utilities (
+  Default enabled utilities (
   <a href="/background-color/">
     Background Color
   </a>,
