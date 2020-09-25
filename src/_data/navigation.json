@@ -36,11 +36,6 @@
           "url": "/overflow/"
         },
         {
-          "label": "Overscroll",
-          "url": "/overscroll/",
-          "version": "v1.1.0"
-        },
-        {
           "label": "Position",
           "url": "/position/"
         },
@@ -375,6 +370,11 @@
         {
           "label": "Outline",
           "url": "/outline/"
+        },
+        {
+          "label": "Overscroll",
+          "url": "/overscroll/",
+          "version": "v1.1.0"
         },
         {
           "label": "Pointer Events",
