@@ -50,11 +50,6 @@
           "version": "v1.0.9"
         },
         {
-          "label": "Scroll Snap",
-          "url": "/scroll-snap/",
-          "version": "v1.1.0"
-        },
-        {
           "label": "Top/Bottom/Left/Right",
           "url": "/top-bottom-left-right/"
         },
@@ -388,6 +383,11 @@
         {
           "label": "Resize",
           "url": "/resize/"
+        },
+        {
+          "label": "Scroll Snap",
+          "url": "/scroll-snap/",
+          "version": "v1.1.0"
         },
         {
           "label": "User Select",

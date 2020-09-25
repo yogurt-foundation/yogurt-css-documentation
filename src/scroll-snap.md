@@ -5,7 +5,7 @@ description: Utilities for sets viewport lock to certain elements or locations a
 layout: default
 ---
 
-> Layout
+> Interactivity
 
 # Scroll Snap <span class="ml-1 px-2 py-1 text-sm text-gray-600 dark:text-charcoal-100 bg-gray-300 dark:bg-gray-600">v1.1.0</span>
 
