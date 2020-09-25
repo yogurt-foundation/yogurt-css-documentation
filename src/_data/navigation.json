@@ -385,6 +385,11 @@
           "url": "/resize/"
         },
         {
+          "label": "Scroll Smooth",
+          "url": "/scroll-behavior/",
+          "version": "v1.1.1"
+        },
+        {
           "label": "Scroll Snap",
           "url": "/scroll-snap/",
           "version": "v1.1.0"
