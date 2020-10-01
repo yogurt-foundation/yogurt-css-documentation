@@ -28,10 +28,6 @@ Utilities for sets smooth animation of scroll anchored position within a scrolli
 <html class="scroll-smooth">
   ...
 </html>
-
-<y class="scroll-smooth">
-  ...
-</y>
 ```
 
 ---
