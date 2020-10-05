@@ -79,6 +79,11 @@
           "url": "/font-style/"
         },
         {
+          "label": "Font Kerning",
+          "url": "/font-kerning/",
+          "version": "v1.1.1"
+        },
+        {
           "label": "Font Weight",
           "url": "/font-weight/"
         },
