@@ -19,6 +19,24 @@ Utilities for sets background border to an element with flexible control over th
 |:--|:--|
 | bg-border `{length}` `{size}` `{space}` `{angle}` | background-image: repeating-linear-gradient(var(--bg-border-angle-left), currentColor, currentColor var(--bg-border-length), transparent var(--bg-border-length), transparent var(--bg-border-space), currentColor var(--bg-border-space)), repeating-linear-gradient(var(--bg-border-angle-top), currentColor, currentColor var(--bg-border-length), transparent var(--bg-border-length), transparent var(--bg-border-space), currentColor var(--bg-border-space)), repeating-linear-gradient(var(--bg-border-angle-right), currentColor, currentColor var(--bg-border-length), transparent var(--bg-border-length), transparent var(--bg-border-space), currentColor var(--bg-border-space)), repeating-linear-gradient(var(--bg-border-angle-bottom), currentColor, currentColor var(--bg-border-length), transparent var(--bg-border-length), transparent var(--bg-border-space), currentColor var(--bg-border-space)); <br><br> background-size: var(--bg-border-width) 100%, 100% var(--bg-border-width), var(--bg-border-width) 100%, 100% var(--bg-border-width); <br><br> background-position: 0 0, 0 0, 100% 0, 0 100%; <br> background-repeat: no-repeat |
 
+<style>
+.supports {
+  display: block
+}
+@supports (background: repeating-linear-gradient(#e66465, #e66465 20px, #9198e5 20px, #9198e5 25px)) {
+  .supports {
+    display: none
+  }
+}
+</style>
+
+<y class="supports m-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 dark:text-orange-500 bg-orange-200 dark:bg-orange-900">
+  <span class="pr-1 font-semibold">
+    Note:
+  </span>
+  Your browser does not currently support the utilities.
+</y>
+
 | <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">css</span> |
 |:--|:--|
 | length-10 | --bg-border-length: 10 |
@@ -57,13 +75,6 @@ Utilities for sets background border to an element with flexible control over th
 | -angle-45 | --bg-border-angle: -45deg |
 | angle-60 | --bg-border-angle: 60deg |
 | -angle-60 | --bg-border-angle: -60deg |
-
-<y class="m-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 dark:text-orange-500 bg-orange-200 dark:bg-orange-900">
-  <span class="pr-1 font-semibold">
-    Note:
-  </span>
-  Only supported web browsers can benefit from this utility.
-</y>
 
 ---
 
