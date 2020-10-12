@@ -55,15 +55,6 @@ Utilities for sets background color.
 | bg-orange-700 | background-color: #c05621 | <y class="w-16 h-8 rounded bg-orange-700 "></y> |
 | bg-orange-800 | background-color: #9c4221 | <y class="w-16 h-8 rounded bg-orange-800 "></y> |
 | bg-orange-900 | background-color: #7b341e | <y class="w-16 h-8 rounded bg-orange-900 "></y> |
-| bg-yellow-100 | background-color: #fffff0 | <y class="w-16 h-8 rounded bg-yellow-100 "></y> |
-| bg-yellow-200 | background-color: #fefcbf | <y class="w-16 h-8 rounded bg-yellow-200 "></y> |
-| bg-yellow-300 | background-color: #faf089 | <y class="w-16 h-8 rounded bg-yellow-300 "></y> |
-| bg-yellow-400 | background-color: #f6e05e | <y class="w-16 h-8 rounded bg-yellow-400 "></y> |
-| bg-yellow-500 | background-color: #ecc94b | <y class="w-16 h-8 rounded bg-yellow-500 "></y> |
-| bg-yellow-600 | background-color: #d69e2e | <y class="w-16 h-8 rounded bg-yellow-600 "></y> |
-| bg-yellow-700 | background-color: #b7791f | <y class="w-16 h-8 rounded bg-yellow-700 "></y> |
-| bg-yellow-800 | background-color: #975a16 | <y class="w-16 h-8 rounded bg-yellow-800 "></y> |
-| bg-yellow-900 | background-color: #744210 | <y class="w-16 h-8 rounded bg-yellow-900 "></y> |
 | bg-green-100 | background-color: #f0fff4 | <y class="w-16 h-8 rounded bg-green-100 "></y> |
 | bg-green-200 | background-color: #c6f6d5 | <y class="w-16 h-8 rounded bg-green-200 "></y> |
 | bg-green-300 | background-color: #9ae6b4 | <y class="w-16 h-8 rounded bg-green-300 "></y> |

@@ -145,15 +145,6 @@ Utilities for sets bottom border color on each child elements of its parent.
 | dissect-teal-700 | --dissect-opacity: 1; <br> border-color: #2c7a7b; <br> border-color: rgba(44, 122, 123, var(--dissect-opacity)) | <y class="px-2 py-1 dissect-y-2 dissect-y dissect-teal-700"><y>Text</y><y>Text</y></y> |
 | dissect-teal-800 | --dissect-opacity: 1; <br> border-color: #285e61; <br> border-color: rgba(40, 94, 97, var(--dissect-opacity)) | <y class="px-2 py-1 dissect-y-2 dissect-y dissect-teal-800"><y>Text</y><y>Text</y></y> |
 | dissect-teal-900 | --dissect-opacity: 1; <br> border-color: #234e52; <br> border-color: rgba(35, 78, 82, var(--dissect-opacity)) | <y class="px-2 py-1 dissect-y-2 dissect-y dissect-teal-900"><y>Text</y><y>Text</y></y> |
-| dissect-yellow-100 | --dissect-opacity: 1; <br> border-color: #fffff0; <br> border-color: rgba(255, 255, 240, var(--dissect-opacity)) | <y class="px-2 py-1 dissect-y-2 dissect-y dissect-teal-100"><y>Text</y><y>Text</y></y> |
-| dissect-yellow-200 | --dissect-opacity: 1; <br> border-color: #fefcbf; <br> border-color: rgba(254, 252, 191, var(--dissect-opacity)) | <y class="px-2 py-1 dissect-y-2 dissect-y dissect-teal-200"><y>Text</y><y>Text</y></y> |
-| dissect-yellow-300 | --dissect-opacity: 1; <br> border-color: #faf089; <br> border-color: rgba(250, 240, 137, var(--dissect-opacity)) | <y class="px-2 py-1 dissect-y-2 dissect-y dissect-teal-300"><y>Text</y><y>Text</y></y> |
-| dissect-yellow-400 | --dissect-opacity: 1; <br> border-color: #f6e05e; <br> border-color: rgba(246, 224, 94, var(--dissect-opacity)) | <y class="px-2 py-1 dissect-y-2 dissect-y dissect-teal-400"><y>Text</y><y>Text</y></y> |
-| dissect-yellow-500 | --dissect-opacity: 1; <br> border-color: #ecc94b; <br> border-color: rgba(236, 201, 75, var(--dissect-opacity)) | <y class="px-2 py-1 dissect-y-2 dissect-y dissect-teal-500"><y>Text</y><y>Text</y></y> |
-| dissect-yellow-600 | --dissect-opacity: 1; <br> border-color: #d69e2e; <br> border-color: rgba(214, 158, 46, var(--dissect-opacity)) | <y class="px-2 py-1 dissect-y-2 dissect-y dissect-teal-600"><y>Text</y><y>Text</y></y> |
-| dissect-yellow-700 | --dissect-opacity: 1; <br> border-color: #b7791f; <br> border-color: rgba(183, 121, 31, var(--dissect-opacity)) | <y class="px-2 py-1 dissect-y-2 dissect-y dissect-teal-700"><y>Text</y><y>Text</y></y> |
-| dissect-yellow-800 | --dissect-opacity: 1; <br> border-color: #975a16; <br> border-color: rgba(151, 90, 22, var(--dissect-opacity)) | <y class="px-2 py-1 dissect-y-2 dissect-y dissect-teal-800"><y>Text</y><y>Text</y></y> |
-| dissect-yellow-900 | --dissect-opacity: 1; <br> border-color: #744210; <br> border-color: rgba(116, 66, 16, var(--dissect-opacity)) | <y class="px-2 py-1 dissect-y-2 dissect-y dissect-teal-900"><y>Text</y><y>Text</y></y> |
 
 <y class="m-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 dark:bg-gray-800">
   <span class="pr-1 font-semibold">

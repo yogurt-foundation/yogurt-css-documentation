@@ -65,15 +65,6 @@ Utilities for sets border color.
 | border-orange-700 | border-color: #c05621 | <y class="w-16 h-8 rounded border-2 border-orange-700 "></y> |
 | border-orange-800 | border-color: #9c4221 | <y class="w-16 h-8 rounded border-2 border-orange-800 "></y> |
 | border-orange-900 | border-color: #7b341e | <y class="w-16 h-8 rounded border-2 border-orange-900 "></y> |
-| border-yellow-100 | border-color: #fffff0 | <y class="w-16 h-8 rounded border-2 border-yellow-100 "></y> |
-| border-yellow-200 | border-color: #fefcbf | <y class="w-16 h-8 rounded border-2 border-yellow-200 "></y> |
-| border-yellow-300 | border-color: #faf089 | <y class="w-16 h-8 rounded border-2 border-yellow-300 "></y> |
-| border-yellow-400 | border-color: #f6e05e | <y class="w-16 h-8 rounded border-2 border-yellow-400 "></y> |
-| border-yellow-500 | border-color: #ecc94b | <y class="w-16 h-8 rounded border-2 border-yellow-500 "></y> |
-| border-yellow-600 | border-color: #d69e2e | <y class="w-16 h-8 rounded border-2 border-yellow-600 "></y> |
-| border-yellow-700 | border-color: #b7791f | <y class="w-16 h-8 rounded border-2 border-yellow-700 "></y> |
-| border-yellow-800 | border-color: #975a16 | <y class="w-16 h-8 rounded border-2 border-yellow-800 "></y> |
-| border-yellow-900 | border-color: #744210 | <y class="w-16 h-8 rounded border-2 border-yellow-900 "></y> |
 | border-green-100 | border-color: #f0fff4 | <y class="w-16 h-8 rounded border-2 border-green-100 "></y> |
 | border-green-200 | border-color: #c6f6d5 | <y class="w-16 h-8 rounded border-2 border-green-200 "></y> |
 | border-green-300 | border-color: #9ae6b4 | <y class="w-16 h-8 rounded border-2 border-green-300 "></y> |

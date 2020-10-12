@@ -64,15 +64,6 @@ Utilities for sets the placeholder color using the ::placeholder pseudo element.
 | placeholder-orange-700 | color: #c05621 | <y class="border-2 border-gray-400 rounded px-2 text-lg text-orange-700 bg-white font-semibold">Text</y> |
 | placeholder-orange-800 | color: #9c4221 | <y class="border-2 border-gray-400 rounded px-2 text-lg text-orange-800 bg-white font-semibold">Text</y> |
 | placeholder-orange-900 | color: #7b341e | <y class="border-2 border-gray-400 rounded px-2 text-lg text-orange-900 bg-white font-semibold">Text</y> |
-| placeholder-yellow-100 | color: #fffff0 | <y class="border-2 border-gray-400 rounded px-2 text-lg text-yellow-100 bg-white font-semibold">Text</y> |
-| placeholder-yellow-200 | color: #fefcbf | <y class="border-2 border-gray-400 rounded px-2 text-lg text-yellow-200 bg-white font-semibold">Text</y> |
-| placeholder-yellow-300 | color: #faf089 | <y class="border-2 border-gray-400 rounded px-2 text-lg text-yellow-300 bg-white font-semibold">Text</y> |
-| placeholder-yellow-400 | color: #f6e05e | <y class="border-2 border-gray-400 rounded px-2 text-lg text-yellow-400 bg-white font-semibold">Text</y> |
-| placeholder-yellow-500 | color: #ecc94b | <y class="border-2 border-gray-400 rounded px-2 text-lg text-yellow-500 bg-white font-semibold">Text</y> |
-| placeholder-yellow-600 | color: #d69e2e | <y class="border-2 border-gray-400 rounded px-2 text-lg text-yellow-600 bg-white font-semibold">Text</y> |
-| placeholder-yellow-700 | color: #b7791f | <y class="border-2 border-gray-400 rounded px-2 text-lg text-yellow-700 bg-white font-semibold">Text</y> |
-| placeholder-yellow-800 | color: #975a16 | <y class="border-2 border-gray-400 rounded px-2 text-lg text-yellow-800 bg-white font-semibold">Text</y> |
-| placeholder-yellow-900 | color: #744210 | <y class="border-2 border-gray-400 rounded px-2 text-lg text-yellow-900 bg-white font-semibold">Text</y> |
 | placeholder-green-100 | color: #f0fff4 | <y class="border-2 border-gray-400 rounded px-2 text-lg text-green-100 bg-white font-semibold">Text</y> |
 | placeholder-green-200 | color: #c6f6d5 | <y class="border-2 border-gray-400 rounded px-2 text-lg text-green-200 bg-white font-semibold">Text</y> |
 | placeholder-green-300 | color: #9ae6b4 | <y class="border-2 border-gray-400 rounded px-2 text-lg text-green-300 bg-white font-semibold">Text</y> |
