@@ -68,7 +68,7 @@ Set an element with touch limit to `pan-left`, no `pan-right` is allowed.
 
 Set an element with touch limit to `pan-none`, `x` and `y` panning is disabled.
 
-<y class="my-2 mx-auto w-48 h-48 touch-pan-none overflow-auto overscroll-contain">
+<y class="my-2 mx-auto w-48 h-48 touch-none overflow-auto overscroll-contain">
   <y class="m-1 w-64 h-64">
     <img class=""
          src="https://picsum.photos/800?=1">
@@ -77,7 +77,7 @@ Set an element with touch limit to `pan-none`, `x` and `y` panning is disabled.
 
 ```html
 <!-- Example -->
-<y class="touch-pan-none ... overflow-scroll overscroll-contain">
+<y class="touch-none ... overflow-scroll overscroll-contain">
   ...
 </y>
 ```
