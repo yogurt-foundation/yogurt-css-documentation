@@ -400,6 +400,11 @@
           "version": "v1.1.0"
         },
         {
+          "label": "Touch Action",
+          "url": "/touch-action/",
+          "version": "v1.1.1"
+        },
+        {
           "label": "User Select",
           "url": "/user-select/"
         }
