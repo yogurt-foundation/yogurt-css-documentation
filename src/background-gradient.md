@@ -19,6 +19,24 @@ Utilities for sets the background gradient color to an element with flexible con
 |:--|:--|
 | bg-gradient `{start-color}` `{start-space}` `{stop-color}` `{stop-space}` `{angle}` | linear-gradient(var(--bg-gradient-angle), var(--bg-gradient-start-color) var(--bg-gradient-primary), var(--bg-gradient-stop-color) var(--bg-gradient-secondary)) |
 
+<style>
+.supports {
+  display: block
+}
+@supports (background-image: linear-gradient(red, yellow)) {
+  .supports {
+    display: none
+  }
+}
+</style>
+
+<y class="supports m-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 dark:text-orange-500 bg-orange-200 dark:bg-orange-900">
+  <span class="pr-1 font-semibold">
+    Note:
+  </span>
+  Your browser does not currently support the utilities.
+</y>
+
 | <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">css</span> | |
 |:--|:--|:-:|
 | <span class="text-gray-600">start</span>/<span class="text-gray-600">stop</span>-charcoal-100 | --bg-gradient-<span class="text-gray-600">start</span>/<span class="text-gray-600">stop</span>-color: #222c35 | <y class="w-16 h-8 rounded bg-charcoal-100 "></y> |

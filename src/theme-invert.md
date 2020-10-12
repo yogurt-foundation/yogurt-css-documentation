@@ -19,18 +19,11 @@ Utilities for sets page theme either dark or light by applying force invert with
 |:--|:--|
 | theme="invert" | html[theme="invert"], img[theme="invert"], [theme="invert"] { filter: invert(1) hue-rotate(180deg); |
 
-<y class="mt-4 mx-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 dark:bg-gray-800">
+<y class="m-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 dark:bg-gray-800">
   <span class="pr-1 font-semibold">
     Note:
   </span>
   Utility customizing is unavailable.
-</y>
-
-<y class="mt-2 mb-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 dark:text-orange-500 bg-orange-200 dark:bg-orange-900">
-  <span class="pr-1 font-semibold">
-    Note:
-  </span>
-  Only supported web browsers can benefit from this utility.
 </y>
 
 ---

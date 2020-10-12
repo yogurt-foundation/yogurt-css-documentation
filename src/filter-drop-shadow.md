@@ -27,13 +27,6 @@ Utilities for sets shadow filter to transparency image (SVG, PNG).
 | drop-shadow-lg | --drop-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5) |
 | drop-shadow-xl | --drop-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5) |
 
-<y class="mt-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 dark:text-orange-500 bg-orange-200 dark:bg-orange-900">
-  <span class="pr-1 font-semibold">
-    Note:
-  </span>
-  Only supported web browsers can benefit from this utility.
-</y>
-
 <y class="mt-2 mb-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 dark:text-orange-500 bg-orange-200 dark:bg-orange-900">
   <span class="pr-1 font-semibold">
     Note:

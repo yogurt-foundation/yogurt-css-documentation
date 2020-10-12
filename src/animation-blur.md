@@ -20,13 +20,6 @@ Utilities for sets the blur animation to an element.
 | blur-in | @keyframes blur-in { from { opacity: 0; filter: blur(4px) } to { opacity: 1; filter: blur(0) }} | <y class="text-lg animation blur-in duration-4000 delay-2 infinite">Text</y> |
 | blur-out | @keyframes blur-out { from { opacity: 1; filter: blur(0) } to { opacity: 1; filter: blur(4px) }} | <y class="text-lg animation blur-out duration-4000 delay-2 infinite">Text</y> |
 
-<y class="m-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 dark:bg-gray-800">
-  <span class="pr-1 font-semibold">
-    Note:
-  </span>
-  Utility customizing is unavailable.
-</y>
-
 ---
 
 ## Usage

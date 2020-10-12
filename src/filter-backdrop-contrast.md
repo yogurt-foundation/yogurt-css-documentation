@@ -19,6 +19,24 @@ Utilities for sets filter backdrop contrast effect to an element.
 |:--|:--|
 | backdrop-filter `{contrast}` | backdrop-filter: brightness(var(--brightness)) contrast(var(--contrast)) saturate(var(--saturate)) blur(var(--blur)) |
 
+<style>
+.supports {
+  display: block
+}
+@supports (backdrop-filter: contrast(1)) {
+  .supports {
+    display: none
+  }
+}
+</style>
+
+<y class="supports m-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 dark:text-orange-500 bg-orange-200 dark:bg-orange-900">
+  <span class="pr-1 font-semibold">
+    Note:
+  </span>
+  Your browser does not currently support the utilities.
+</y>
+
 | <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">css</span> |
 |:--|:--|
 | contrast-0 | --contrast: 0 |
@@ -32,13 +50,6 @@ Utilities for sets filter backdrop contrast effect to an element.
 | contrast-8 | --contrast: 1.70 |
 | contrast-9 | --contrast: 1.80 |
 | contrast-10 | --contrast: 1.90 |
-
-<y class="m-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 dark:text-orange-500 bg-orange-200 dark:bg-orange-900">
-  <span class="pr-1 font-semibold">
-    Note:
-  </span>
-  Only supported web browsers can benefit from this utility.
-</y>
 
 ---
 
