@@ -153,14 +153,15 @@ ul {
 
 
 ::-webkit-scrollbar{
-  width: 15px;
-  height: 15px
+  width: 10px;
+  height: 10px
 }
 
 ::-webkit-scrollbar-thumb{
-  background-color: rgba(45, 55, 72, .5);
+  background-color: rgba(113, 128, 150, 1);
   border: 2px solid transparent;
-  background-clip: padding-box
+  background-clip: padding-box;
+  border-radius: 6px;
 }
 
 ::-webkit-scrollbar-thumb:hover{
