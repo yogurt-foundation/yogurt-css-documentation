@@ -137,6 +137,11 @@
           "url": "/whitespace/"
         },
         {
+          "label": "Writing Mode",
+          "url": "/writing-mode/",
+          "version": "v1.1.1"
+        },
+        {
           "label": "Word Break",
           "url": "/word-break/"
         }
