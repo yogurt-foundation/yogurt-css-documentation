@@ -101,7 +101,7 @@ Set text element alignment to `horizontally` and `left to right` direction.
 
 ```html
 <!-- Example -->
-<y class="text-normal">
+<y class="text-horizontal">
   ...
 </y>
 ```
