@@ -106,7 +106,7 @@ Set the `horizontal` scroll image gallery. The image snaps to the `left` contain
 </y>
 ```
 
-Set the `vertical` scroll image gallery. The image snaps to the `left` container after scrolling.
+Set the `vertical` scroll image gallery. The image snaps to the `top` container after scrolling.
 
 <y class="my-2 mx-auto max-w-xs scroll-snap y-mandatory align-start h-64 overflow-y-scroll">
   <y class="m-1">
