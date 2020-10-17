@@ -6,7 +6,7 @@ import setupHovers from 'components/hover.js';
 
 export default async() => {
 
-  const SEARCH_RESULT_LIMIT = 50;
+  const SEARCH_RESULT_LIMIT = 10;
 
   const searchInput = document.querySelector('.search-input');
   const searchResults = document.querySelector('.search-results');
@@ -87,7 +87,7 @@ export default async() => {
     }
 
     return `
-      <a class="search-result block z-10 m-0 p-3 outline-none border-2 border-transparent rounded focus:border-blue-400"
+      <a class="z-10 search-result block m-0 p-5 outline-none border-2 border-transparent focus:border-blue-400 rounded-lg"
          href="${result.url}">
         <p class="font-medium text-lg">
           ${title}
