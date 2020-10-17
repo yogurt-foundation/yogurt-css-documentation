@@ -10,11 +10,11 @@ layout: default
 ## Using Yogurt via CDN
 
 ```html
-<link defer href="https://unpkg.com/yogurt-css@{{ site.version.core }}/dist/yogurt-{{ site.version.core }}_solidcore.min.css"
-      rel="stylesheet"
-      rel="preload"
-      as="style"
-      media="all">
+<!-- HTML -->
+<link defer href="https://unpkg.com/yogurt-css@{{ site.version.core }}/dist/yogurt-{{ site.version.core }}_solidcore.min.css" rel="stylesheet" rel="preload" as="style" media="all">
+
+<!-- CSS -->
+@import "https://unpkg.com/yogurt-css@{{ site.version.core }}/dist/yogurt-{{ site.version.core }}_solidcore.min.css";
 ```
 
 <y class="mt-4 mx-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 dark:bg-gray-800">
@@ -77,14 +77,14 @@ $ npm i yogurt-css
 
 You can include the Yogurt CSS file from the `node_modules` directory with an HTML `<link>` tag or import the `yogurt.scss` into `.scss` file with `@import` directive.
 
-```scss
-// with JS (v1.1.0)
+```bash
+# JS (v1.1.0)
 import 'yogurt-css'
 
-// with SCSS/SASS
+# SCSS/SASS
 @import 'node_modules/yogurt-css/yogurt';
 
-// with <link> tag in HTML
+# HTML
 <link href="node_modules/yogurt-css/dist/yogurt-{{ site.version.core }}_solidcore.css">
 <link href="node_modules/yogurt-css/dist/yogurt-{{ site.version.core }}_solidcore.min.css">
 ```
