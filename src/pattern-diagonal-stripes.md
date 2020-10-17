@@ -74,4 +74,5 @@ Set pattern with color by using `text-{color}` utility. (See [Text Color](/text-
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

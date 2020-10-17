@@ -55,4 +55,5 @@ Set an element hidden from screen reader.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

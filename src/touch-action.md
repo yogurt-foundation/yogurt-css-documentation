@@ -111,4 +111,5 @@ Set an element with full touch manipulation, `x` and `y` panning is enabled.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

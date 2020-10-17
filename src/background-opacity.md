@@ -115,4 +115,5 @@ Set background-color with `0%` opacity to an element.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

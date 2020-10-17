@@ -36,5 +36,6 @@ Utilities for controls how lines are positioned in multi-line flex containers.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |
 

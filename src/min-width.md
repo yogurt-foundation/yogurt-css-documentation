@@ -64,4 +64,5 @@ Utilities for sets the minimum width of an element.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

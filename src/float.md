@@ -35,4 +35,5 @@ Utilities for sets an element's placement to a side of its container and allows 
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

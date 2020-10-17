@@ -325,4 +325,5 @@ Set 12-column width `1/12` to an element.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

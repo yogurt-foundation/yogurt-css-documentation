@@ -161,4 +161,5 @@ Set `center` position background image.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

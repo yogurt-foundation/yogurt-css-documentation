@@ -36,4 +36,5 @@ Utilities for sets an element's position.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

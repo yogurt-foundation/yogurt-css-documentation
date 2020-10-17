@@ -53,4 +53,5 @@ Utilities for sets border style.
 | focus | Yes | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

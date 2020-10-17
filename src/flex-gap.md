@@ -82,4 +82,5 @@ Utilities for set inner spacing in between the flex child elements.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

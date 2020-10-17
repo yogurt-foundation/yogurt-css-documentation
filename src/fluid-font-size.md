@@ -76,4 +76,5 @@ Mix with other fluid utilities, such as [Fluid Margin](/fluid-margin/), [Fluid P
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

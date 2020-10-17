@@ -35,4 +35,5 @@ Utilities for controls how flex items grow and shrink.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

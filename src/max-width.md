@@ -77,4 +77,5 @@ Utilities for sets the maximum width of an element.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

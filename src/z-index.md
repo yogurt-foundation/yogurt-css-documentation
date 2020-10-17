@@ -87,4 +87,5 @@ Utilities for sets the z order (stack order) of a positioned element.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

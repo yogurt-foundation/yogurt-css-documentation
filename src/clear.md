@@ -35,4 +35,5 @@ Utilities for set whether an element is moved below preceding floated elements.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

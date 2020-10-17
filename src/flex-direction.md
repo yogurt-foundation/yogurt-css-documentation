@@ -35,4 +35,5 @@ Utilities for sets direction of flex items.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

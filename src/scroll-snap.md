@@ -168,4 +168,5 @@ Set the `horizontal` and `vertical` scroll image gallery. The image snaps to the
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

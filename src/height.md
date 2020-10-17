@@ -104,4 +104,5 @@ Set full height in viewport screen to an element.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

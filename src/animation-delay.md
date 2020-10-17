@@ -66,4 +66,5 @@ Utilities for sets the animation control with delays.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

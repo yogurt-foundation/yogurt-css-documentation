@@ -63,4 +63,5 @@ Utilities for sets the maximum height of an element.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

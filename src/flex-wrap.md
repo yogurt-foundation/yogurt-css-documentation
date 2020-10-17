@@ -34,4 +34,5 @@ Utilities for creates how flex items wrap.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

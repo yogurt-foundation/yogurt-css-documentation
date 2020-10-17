@@ -70,4 +70,5 @@ Utilities for define text narrower(condensed) or wider(expanded) for font faces 
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

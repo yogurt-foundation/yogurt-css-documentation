@@ -64,4 +64,5 @@ Utilities for sets the transparency of an element.
 | focus | Yes | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

@@ -149,4 +149,5 @@ Mix with other filters, such as [Backdrop Brightness](/filter-backdrop-brightnes
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

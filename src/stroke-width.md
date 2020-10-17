@@ -92,4 +92,5 @@ Set a SVG image with stroke width.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

@@ -108,4 +108,5 @@ Mix blend with typography.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

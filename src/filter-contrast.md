@@ -116,4 +116,5 @@ Mix with other filters, such as [Brightness](/filter-brightness/), [Saturate](/f
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

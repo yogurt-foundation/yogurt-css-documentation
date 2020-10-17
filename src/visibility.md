@@ -71,4 +71,5 @@ Set `invisible` to an elment, the element property remains, but not hidden from 
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

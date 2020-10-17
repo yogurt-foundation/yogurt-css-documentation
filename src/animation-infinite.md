@@ -51,4 +51,5 @@ Utilities for sets the animation control with infinite loop.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

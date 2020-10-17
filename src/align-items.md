@@ -36,4 +36,5 @@ Utilities for sets flex items position along a container's cross axis.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

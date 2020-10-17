@@ -420,4 +420,5 @@ Utilities for sets the shadow color to an element.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

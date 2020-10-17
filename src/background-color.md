@@ -205,4 +205,5 @@ Set default background color to `<body>` tag.
 | focus | Yes | |
 | active | Yes | |
 | visited | Yes | |
+| checked | | |
 | disabled | | |

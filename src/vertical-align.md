@@ -213,4 +213,5 @@ Set element vertical alignment to `middle`.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

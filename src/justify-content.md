@@ -35,5 +35,6 @@ Utilities for controls how flex items are positioned along container's main axis
 | group-hover | | |
 | focus | | |
 | active | | |
-| visited | | |
+| visited
+| checked | | |
 | disabled | | |

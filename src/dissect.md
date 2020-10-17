@@ -92,4 +92,5 @@ Set borders in between the elements vertically.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

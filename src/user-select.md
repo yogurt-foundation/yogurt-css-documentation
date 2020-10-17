@@ -35,4 +35,5 @@ Utilities for controls whether the user can select text.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

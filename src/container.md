@@ -50,4 +50,5 @@ Utilities for set max-width to match min-width of the current breakpoint.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

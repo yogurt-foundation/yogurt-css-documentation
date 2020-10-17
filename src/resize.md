@@ -35,4 +35,5 @@ Utilities for sets whether an element is resizable, along with direction.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

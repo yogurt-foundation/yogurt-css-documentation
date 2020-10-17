@@ -113,4 +113,5 @@ Set repeating no-resized background image horizontally and vertically.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

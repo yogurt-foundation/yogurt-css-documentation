@@ -33,4 +33,5 @@ Utilities for collapse or separate table borders.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

@@ -61,4 +61,5 @@ Utilities for sets smooth animation of scroll anchored position within a scrolli
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

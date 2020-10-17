@@ -38,4 +38,5 @@ Utilities for changes the cursor when hovering over an element.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

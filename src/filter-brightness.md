@@ -112,4 +112,5 @@ Mix with other filters, such as [Contrast](/filter-contrast/), [Saturate](/filte
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

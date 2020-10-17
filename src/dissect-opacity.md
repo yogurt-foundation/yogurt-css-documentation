@@ -85,4 +85,5 @@ Set `dissect-x-{value}` and `dissect-y-{value}` borders with `color` opacity to 
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

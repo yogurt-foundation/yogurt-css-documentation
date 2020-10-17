@@ -33,4 +33,5 @@ Utilities for defines the algorithm used to layout table cells, rows and columns
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

@@ -170,4 +170,5 @@ Set the element rotation to `-45` degree.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

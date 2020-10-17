@@ -189,4 +189,5 @@ Set `dissect-x-{value}` and `dissect-y-{value}` borders with colors.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

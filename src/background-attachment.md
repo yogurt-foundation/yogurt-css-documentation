@@ -83,4 +83,5 @@ Set a scrollable background image in the browser viewport.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |
