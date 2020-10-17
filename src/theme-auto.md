@@ -77,4 +77,5 @@ To simulate `theme="auto"` on a Chrome-based web browser at the developer tools,
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

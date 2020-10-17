@@ -66,4 +66,5 @@ Utilities for controls how flex items are ordered.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

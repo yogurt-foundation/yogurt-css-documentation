@@ -105,4 +105,5 @@ Set basic solid shadow to an element.
 | focus | Yes | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

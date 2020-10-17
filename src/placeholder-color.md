@@ -184,4 +184,5 @@ Utilities for sets the placeholder color using the ::placeholder pseudo element.
 | focus | Yes | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

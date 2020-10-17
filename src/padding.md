@@ -293,4 +293,5 @@ Set padding to `right`.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

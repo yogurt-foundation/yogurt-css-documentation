@@ -40,4 +40,5 @@ Utilities for sets the alignment of the selected replaced element.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

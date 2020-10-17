@@ -102,11 +102,12 @@ Set a typo element to removing space in between each letter if any spaces are le
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
 |:-:|:-:|:-:|
-| Default | Yes | Yes |
+| Default | Yes | |
 | Dark Theme | | |
 | hover| | |
 | group-hover | | |
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

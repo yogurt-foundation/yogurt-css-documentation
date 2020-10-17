@@ -93,4 +93,5 @@ Set pattern clipping with text.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

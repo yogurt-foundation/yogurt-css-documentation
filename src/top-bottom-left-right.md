@@ -137,4 +137,5 @@ Utilities for sets the placement of a positioned element.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

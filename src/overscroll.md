@@ -101,4 +101,5 @@ An example of an element on the left without the `overscroll` utility applied. W
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

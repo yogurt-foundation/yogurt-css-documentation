@@ -33,4 +33,5 @@ Utilities for specifies whether an element is the target of mouse events.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

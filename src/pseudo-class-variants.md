@@ -57,17 +57,6 @@ Add the `active:` prefix to an utility to enable on-active.
 </button>
 ```
 
-### Disabled
-
-Add the `disabled:` prefix to an utility to enable on-disabled.
-
-```html
-<!-- Example -->
-<button class="disabled:text-gray-600 disabled:bg-gray-400">
-  ...
-</button>
-```
-
 ### Visited
 
 Add the `visited:` prefix to an utility to enable on-visited.
@@ -78,6 +67,28 @@ Add the `visited:` prefix to an utility to enable on-visited.
    href="...">
   ...
 </a>
+```
+
+### Checked
+
+Add the `checked:` prefix to an utility to enable on-checked.
+
+```html
+<!-- Example -->
+<button class="checked:text-white checked:bg-red-400 checked:underline">
+  ...
+</button>
+```
+
+### Disabled
+
+Add the `disabled:` prefix to an utility to enable on-disabled.
+
+```html
+<!-- Example -->
+<button class="disabled:text-gray-600 disabled:bg-gray-400">
+  ...
+</button>
 ```
 
 ### Dark Theme <span class="ml-1 px-2 py-1 text-sm text-gray-600 dark:text-charcoal-100 bg-gray-300 dark:bg-gray-600">v1.1.0</span>

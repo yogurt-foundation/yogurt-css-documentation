@@ -33,4 +33,5 @@ Utilities for sets how the total width and height of an element is calculated.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

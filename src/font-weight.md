@@ -62,4 +62,5 @@ Set font-weight with `Google Fonts`. (See [Font Family](/font-family/#customize-
 | focus | Yes | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

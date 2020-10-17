@@ -65,4 +65,5 @@ Utilities for sets the miminum height of an element.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

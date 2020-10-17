@@ -166,4 +166,5 @@ Set the element origin to `top-left`.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

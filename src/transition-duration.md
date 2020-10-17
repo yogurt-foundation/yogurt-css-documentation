@@ -169,4 +169,5 @@ Set transition duration `1000ms`.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

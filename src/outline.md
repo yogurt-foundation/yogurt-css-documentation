@@ -32,4 +32,5 @@ Utilities for sets native browser outline style to reset.
 | focus | Yes | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

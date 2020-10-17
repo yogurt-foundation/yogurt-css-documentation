@@ -206,4 +206,5 @@ Utilities for sets border color.
 | focus | Yes | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

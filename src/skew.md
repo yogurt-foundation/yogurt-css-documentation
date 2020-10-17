@@ -123,4 +123,5 @@ Set the element skew reverse `vertical`.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

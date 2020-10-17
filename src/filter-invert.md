@@ -74,4 +74,5 @@ Utilities for sets filter inverts effect to an element.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

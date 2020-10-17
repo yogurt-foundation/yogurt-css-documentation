@@ -103,4 +103,5 @@ Apply `debug="screen"` to inspect the current screen size. The indicator will di
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

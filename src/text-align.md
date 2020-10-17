@@ -109,4 +109,5 @@ Set text align to `justify`.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

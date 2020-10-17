@@ -149,4 +149,5 @@ Mix with other filters, such as [Backdrop Contrast](/filter-backdrop-contrast/),
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

@@ -89,4 +89,5 @@ Utilities for sets the line height.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

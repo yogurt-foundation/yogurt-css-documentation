@@ -89,4 +89,5 @@ Set default font-size with `<body>` tag.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

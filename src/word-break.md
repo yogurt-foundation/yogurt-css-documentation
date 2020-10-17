@@ -99,4 +99,5 @@ Set text paragraph truncate into a single line.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

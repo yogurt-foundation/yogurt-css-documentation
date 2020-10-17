@@ -139,4 +139,5 @@ Set the element scale `vertical` to `50` times smaller.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

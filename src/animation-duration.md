@@ -48,4 +48,5 @@ Utilities for sets the animation control with durations.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

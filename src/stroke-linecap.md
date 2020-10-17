@@ -103,4 +103,5 @@ Set a SVG image with stroke linecap property.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

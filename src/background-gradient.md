@@ -301,4 +301,5 @@ Set background gradient to `<body>` tag.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

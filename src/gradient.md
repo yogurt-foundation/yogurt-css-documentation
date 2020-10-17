@@ -252,4 +252,5 @@ Set default gradient to `<body>` tag.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

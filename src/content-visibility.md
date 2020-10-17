@@ -79,4 +79,5 @@ Set maximum height and width for the browser to start to render an element.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

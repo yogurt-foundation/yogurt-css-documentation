@@ -109,4 +109,5 @@ Set text paragraph without preserved new line whitespaces.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

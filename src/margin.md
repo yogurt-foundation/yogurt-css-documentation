@@ -426,4 +426,5 @@ Set margin to `right`.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

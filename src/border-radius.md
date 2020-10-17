@@ -98,4 +98,5 @@ Utilities for sets border radius.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

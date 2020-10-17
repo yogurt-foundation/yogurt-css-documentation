@@ -59,4 +59,5 @@ An example of transitioning an element with [Border Width](/border-width/) and [
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

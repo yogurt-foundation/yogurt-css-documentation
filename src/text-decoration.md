@@ -45,4 +45,5 @@ Utilities for sets the text-decoration of an element.
 | focus | Yes | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

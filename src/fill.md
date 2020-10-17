@@ -70,4 +70,5 @@ Set a SVG image with color overrides by using `text-{color}` utility. (See [Text
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

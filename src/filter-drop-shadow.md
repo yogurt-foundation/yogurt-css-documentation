@@ -107,4 +107,5 @@ Mix with other filters, such as [Brightness](/filter-brightness/), [Contrast](/f
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

@@ -68,4 +68,5 @@ Utilities for sets the spacing between letters.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

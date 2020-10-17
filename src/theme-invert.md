@@ -77,4 +77,5 @@ To simulate `theme="invert"` on a Chrome-based web browser at the developer tool
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

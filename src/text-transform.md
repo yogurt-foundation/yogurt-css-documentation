@@ -46,4 +46,5 @@ Utilities for sets the capitalization of text.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

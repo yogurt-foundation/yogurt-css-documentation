@@ -32,4 +32,5 @@ Utilities for disables native styling based on the native browser theme.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

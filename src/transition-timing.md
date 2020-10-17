@@ -101,4 +101,5 @@ Set transition timing `ease-in-out`.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

@@ -77,4 +77,5 @@ Set background image contains an element with cropped and stretched.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

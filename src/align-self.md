@@ -36,4 +36,5 @@ Utilities for controls how an individual flex item is positioned along container
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

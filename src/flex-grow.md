@@ -33,4 +33,5 @@ Utilities for controls how flex items grow.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

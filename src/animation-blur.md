@@ -73,4 +73,5 @@ Mix with duration, delay and infinite looping.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

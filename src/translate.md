@@ -113,4 +113,5 @@ Utilities for translate an element that has transform applied.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

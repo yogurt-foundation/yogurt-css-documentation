@@ -82,4 +82,5 @@ Mix with other fluid utilities, such as [Fluid Font Size](/fluid-font-size/), [F
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

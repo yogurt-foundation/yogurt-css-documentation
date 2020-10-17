@@ -93,4 +93,5 @@ Utilities for sets border width in increments of 1px.
 | focus | Yes | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

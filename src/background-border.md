@@ -195,4 +195,5 @@ Set background border solid and thicker.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

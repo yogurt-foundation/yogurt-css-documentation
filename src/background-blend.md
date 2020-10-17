@@ -259,4 +259,5 @@ Set `luminosity` blending mode to background image.
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |

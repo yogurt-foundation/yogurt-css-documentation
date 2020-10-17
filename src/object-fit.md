@@ -36,4 +36,5 @@ Utilities for sets how the content of a replaced element (img or video tag) shou
 | focus | | |
 | active | | |
 | visited | | |
+| checked | | |
 | disabled | | |
