@@ -83,6 +83,25 @@ gulp.task('service-worker', () => {
     .pipe(gulp.dest('./dist'))
 })
 
+gulp.task('codemirror', () => {
+  return gulp.src([
+      'cm/bright.css',
+      'cm/codemirror.css',
+      'cm/codemirror.js',
+      'cm/css.js',
+      'cm/dark.css',
+      'cm/default.css',
+      'cm/foldcode.js',
+      'cm/htmlmixed.js',
+      'cm/javascript.js',
+      'cm/jslint.js',
+      'cm/settings.js',
+      'cm/template.js',
+      'cm/xml.js'
+    ])
+    .pipe(gulp.dest('./dist/codemirror'))
+})
+
 gulp.task('app-manifest', () => {
   return gulp.src([
       'pwa/manifest.json'
@@ -107,7 +126,8 @@ gulp.task('build',
     'js-bundle',
     'css',
     'service-worker',
-    'app-manifest'
+    'app-manifest',
+    'codemirror'
   )
 )
 
