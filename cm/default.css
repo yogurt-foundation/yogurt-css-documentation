@@ -27,7 +27,7 @@ body {
 }
 
 #resize-control:hover {
-  opacity: 0.8;
+  background-color: #2d3748;
 }
 
 #live-preview {
