@@ -162,6 +162,8 @@ $ yogurt my-new-project
 
 [Yogurt Playground](https://github.com/yogurt-foundation/playground) is a developer tool also an HTML/CSS IDE for testing and prototyping with the Yogurt framework. If you have an idea and want to draft something small without setting up a new project, then Yogurt Playground is a tool for you.
 
+You can use the [online version](/playground) or build yourself,
+
 ```bash
 $ git clone https://github.com/yogurt-foundation/playground.git
 $ cd playground
