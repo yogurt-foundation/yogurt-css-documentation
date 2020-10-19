@@ -9,6 +9,6 @@ var PrototypeTemplate = '<!DOCTYPE html><html><head><meta charset="utf-8"><meta 
         </y>\n\
       </y>\n\
     </y>\n\n\
-    <!-- End Example -->\n\n\
-  <\/body>\n\
+  <\/body>\n\n\
+  <!-- End Example -->\n\n\
 <\/html>';
