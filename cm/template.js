@@ -2,13 +2,12 @@ var PrototypeTemplate = '<!DOCTYPE html><html><head><meta charset="utf-8"><meta 
   <!-- Example -->\n\n\
   <body class="font-default bg-gray-100">\n\n\
     <y class="mx-auto my-8 max-w-xs">\n\
-      <y class="flex justify-center items-center px-4 py-8 bg-white rounded-lg shadow-md">\n\
-        <y class="h-16 w-16 rounded-full bg-gray-200"></y>\n\
+      <y class="px-4 py-8 flex justify-center items-center bg-white rounded-lg shadow-md">\n\
+        <y class="h-16 w-16 bg-gray-200 rounded-full"></y>\n\
         <y class="px-4 text-charcoal-100 text-lg">\n\
           John Doe\n\
         </y>\n\
       </y>\n\
-    </y>\n\
-    \n\
-  <\/body>\n\
+    </y>\n\n\
+  <\/body>\n\n\
 <\/html>';
