@@ -89,8 +89,9 @@ export default async() => {
     return `
       <a class="z-10 search-result block m-0 p-5 outline-none border-2 border-transparent focus:border-blue-400 rounded-lg"
          href="${result.url}"
-         target="_blank"
-         rel="noopener">
+         target="_self"
+         rel="noopener"
+         title="${title}">
         <p class="font-medium text-lg">
           ${title}
         </p>
