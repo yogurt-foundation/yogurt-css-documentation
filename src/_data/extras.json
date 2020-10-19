@@ -4,7 +4,7 @@
      "label": "what's Next?",
       "items": [
         {
-         "label_external": "Try Online",
+         "label_external": "Try Playground",
           "url_external": "/playground/"
         }
        ]
