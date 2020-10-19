@@ -1,7 +1,7 @@
 ---
 id: home
 title: Welcome
-description: Documentation for open source Yogurt CSS framework.
+description: A colossal low-level utility CSS framework for crafting beautiful and elegant user interface at an atomic level without writing a single line of CSS.
 layout: home
 ---
 
