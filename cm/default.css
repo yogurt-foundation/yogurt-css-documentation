@@ -19,7 +19,7 @@ body {
 
 #resize-control {
   position: absolute;
-  top: 80px;
+  top: 0px;
   width: 6px;
   height: 100%;
   background-color: #f0f4f8;
@@ -32,8 +32,8 @@ body {
 
 #live-preview {
   position: absolute;
-  top: 80px;
+  top: 0px;
   right: 0;
-  height: 90%;
+  height: 100%;
   border: none;
 }
