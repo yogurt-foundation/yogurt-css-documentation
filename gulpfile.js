@@ -89,7 +89,6 @@ gulp.task('codemirror', () => {
       'cm/codemirror.css',
       'cm/codemirror.js',
       'cm/css.js',
-      'cm/dark.css',
       'cm/default.css',
       'cm/foldcode.js',
       'cm/htmlmixed.js',
