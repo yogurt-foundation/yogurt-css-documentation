@@ -83,15 +83,6 @@ var liveEditor = function() {
     }
   }
 
-  function _injectCSS() {
-    var head = document.getElementsByTagName('iframe')[0];
-    var style = document.createElement('link');
-    style.href = 'https://unpkg.com/yogurt-css@1.1.0/dist/yogurt-1.1.0_solidcore.min.css';
-    style.type = 'text/css';
-    style.rel = 'stylesheet';
-    head.append(style);
-  }
-
   var _settingsController = {
     updateStorageSetting: function(settingKey, settingValue) {
       _editorStorageSettings[settingKey] = settingValue;
@@ -223,27 +214,6 @@ var liveEditor = function() {
 
   return {
     init: function() {
-      CodeMirror.keyMap.editorSettings = {
-        "Alt-0": function() { _menuController.changeEditorFontsize(0); },
-        "Alt-I": function() { _menuController.changeEditorFontsize(1); },
-        "Alt-O": function() { _menuController.changeEditorFontsize(-1); },
-        "Alt-G": function() { _menuController.toggleGutter(); },
-        "Alt-M": function() {
-          if (_menuBar.style.display === "none" || _menuBar.style.display === "") {
-            _menuController.showMenuBar();
-          }
-          else {
-            _menuController.hideMenuBar();
-          }
-        },
-        "Alt-T": function() {
-          var brightThemeIsActive = _menuBtnStyleBright.getAttribute("class") === "menu-button-active";
-          _menuController.setTheme(brightThemeIsActive ? _menuBtnStyleDark : _menuBtnStyleBright, brightThemeIsActive ? "dark" : "bright");
-        },
-        "Alt-W": function() { _menuController.toggleWordWrap(); },
-        fallthrough: ["default"]
-      };
-
       _codeMirrorInstance = CodeMirror(document.body, {
         mode: "text/html",
         indentWithTabs: true,
@@ -255,8 +225,9 @@ var liveEditor = function() {
         indentUnit: 2,
         tabSize: 2,
         tabMode: "indent",
+        electricChars: true,
+        autoClearEmptyLines: true,
         theme: _editorDefaultSettings.theme,
-        keyMap: "editorSettings",
         onHighlightComplete: function() {
           if (!_initialized) {
             _initialized = true;
