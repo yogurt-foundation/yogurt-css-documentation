@@ -4,23 +4,6 @@ var liveEditor = function() {
     _livePreview = document.createElement("iframe"),
     _resizeBar = document.createElement("y"),
     _resizeArea = document.createElement("y"),
-    // _fontsizeStylesheet = document.createElement("style"),
-    // _menuBar = document.getElementById("menu-bar"),
-    _menuStartButton = document.createElement("y"),
-    // _imagepathTooltip = document.getElementById("imagepath-tooltip"),
-    // _introTooltip = document.getElementById("intro-tooltip"),
-    // _menuBtnStyleBright = document.getElementById("btn-style-bright"),
-    // _menuBtnStyleDark = document.getElementById("btn-style-dark"),
-    // _menuBtnFonsizeIncrease = document.getElementById("btn-fontsize-increase"),
-    // _menuBtnFonsizeDecrease = document.getElementById("btn-fontsize-decrease"),
-    // _menuBtnFonsizeReset = document.getElementById("btn-fontsize-reset"),
-    // _menuBtnOptionsGutter = document.getElementById("btn-options-gutter"),
-    // _menuBtnOptionsWordwrap = document.getElementById("btn-options-wordwrap"),
-    // _menuLabelImagePath = document.getElementById("label-imagepath"),
-    // _menuTxtImagePath = document.getElementById("txt-imagepath"),
-    // _menuBtnResetCode = document.getElementById("btn-reset-code"),
-    // _menuBtnResetSettings = document.getElementById("btn-reset-settings"),
-    _menuTxtImagePathFocus = false,
     _initialized = false,
     _resizeBarMouseDown = false,
     _resizeBarStartPosition = null,
@@ -32,7 +15,6 @@ var liveEditor = function() {
     _livePreviewWidthRatio = 50,
     _browserWidth = parseInt(window.innerWidth),
     _browserHeight = parseInt(window.innerHeight),
-    _imageProxyPath = settings.imageProxyPath || null,
     _jsLintResult = null,
     _editorStorageSettings = {},
     _editorDefaultSettings = {
@@ -40,7 +22,6 @@ var liveEditor = function() {
       fontSize: 1,
       wordWrap: settings.wordWrap === false ? false : true,
       gutter: settings.gutter === false ? false : true,
-      imageProxyPath: _imageProxyPath,
       codeViewWidth: parseInt(window.innerWidth) / 2,
       livePreviewWidth: (parseInt(window.innerWidth) / 2) - _resizeBarWidth
     };
@@ -49,14 +30,6 @@ var liveEditor = function() {
     var codeMirrorContent = _codeMirrorInstance.getValue(),
       livePreview = _livePreview.contentDocument || _livePreview.contentWindow.document;
     livePreview.open();
-
-    if (_imageProxyPath !== null && typeof _imageProxyPath !== "undefined") {
-      _imageProxyPath = _imageProxyPath.replace(/\\/g, "/");
-      if (_imageProxyPath.match(/^file:\/\/\//g) === null) _imageProxyPath = "file:///" + _imageProxyPath;
-      if (_imageProxyPath.substr(-1) !== "/") _imageProxyPath = _imageProxyPath + "/";
-      codeMirrorContent = codeMirrorContent.replace(/url\(['"]{0,}(.+?)['"]{0,}\)/g, "url('" + _imageProxyPath + "$1?" + new Date().getTime() + "')");
-      codeMirrorContent = codeMirrorContent.replace(/<img([^>]*)\ssrc=(['"])(.*?)\2(.*?)>/gi, "<img$1 src=$2" + _imageProxyPath + "$3?" + new Date().getTime() + "$2 $4>");
-    }
 
     var codeMirrorContentTrimmed = codeMirrorContent.replace(/[\r\n\t]+/gm, ""),
       codeMirrorContentScripts = codeMirrorContentTrimmed.match(/<\s*script(?:.*)>(.*)<\/\s*script\s*>/i);
@@ -122,7 +95,7 @@ var liveEditor = function() {
   var _settingsController = {
     updateStorageSetting: function(settingKey, settingValue) {
       _editorStorageSettings[settingKey] = settingValue;
-      localStorage.setItem("htmlivecodeSettings", JSON.stringify(_editorStorageSettings));
+      localStorage.setItem("yogurtPlaygroundSettings", JSON.stringify(_editorStorageSettings));
     },
     checkStorageSetting: function(settingValue) {
       return (settings[settingValue] !== null && typeof settings[settingValue] !== "undefined") ? settings[settingValue] : (_editorStorageSettings[settingValue] !== null && typeof _editorStorageSettings[settingValue] !== "undefined") ? _editorStorageSettings[settingValue] : _editorDefaultSettings[settingValue];
@@ -132,15 +105,12 @@ var liveEditor = function() {
       _codeMirrorInstance.setOption("lineWrapping", _settingsController.checkStorageSetting("wordWrap"));
       _codeMirrorInstance.setOption("gutter", _settingsController.checkStorageSetting("gutter"));
       _codeMirrorInstance.setOption("theme", _settingsController.checkStorageSetting("theme"));
-      _imageProxyPath = _settingsController.checkStorageSetting("imageProxyPath");
       _updateViews();
       _codeView.style.width = _settingsController.checkStorageSetting("codeViewWidth") + "px";
       _livePreview.style.width = _settingsController.checkStorageSetting("livePreviewWidth") + "px";
       _codeViewWidthRatio = (parseInt(_codeView.style.width) / _browserWidth) * 100;
       _livePreviewWidthRatio = (parseInt(_livePreview.style.width) / _browserWidth) * 100;
       _resizeController.finishResizeAreas();
-      _fontsizeStylesheet.removeChild(_fontsizeStylesheet.childNodes[0])
-      _fontsizeStylesheet.appendChild(document.createTextNode(".CodeMirror{font-size:" + parseFloat(_editorStorageSettings.fontSize) + "em;}"));
       _codeMirrorInstance.refresh();
     }
   }
@@ -299,12 +269,12 @@ var liveEditor = function() {
             _codeMirrorInstance.setValue(PrototypeTemplate);
             // }
 
-            // if (localStorage.getItem("htmlivecodeSettings") !== null) {
-            //   _editorStorageSettings = JSON.parse(localStorage.getItem("htmlivecodeSettings"));
+            // if (localStorage.getItem("yogurtPlaygroundSettings") !== null) {
+            //   _editorStorageSettings = JSON.parse(localStorage.getItem("yogurtPlaygroundSettings"));
             //   _settingsController.applySettings();
             // }
             // else {
-            //   localStorage.setItem("htmlivecodeSettings", JSON.stringify(_editorDefaultSettings));
+            //   localStorage.setItem("yogurtPlaygroundSettings", JSON.stringify(_editorDefaultSettings));
             //   _editorStorageSettings = _cloneObject(_editorDefaultSettings);
             // }
 
@@ -329,17 +299,6 @@ var liveEditor = function() {
       _livePreview.setAttribute("id", "live-preview");
       document.body.appendChild(_livePreview);
 
-      _fontsizeStylesheet.setAttribute("type", "text/css");
-      _fontsizeStylesheet.appendChild(document.createTextNode(".CodeMirror{font-size:" + _editorDefaultSettings.fontSize + "em;}"));
-      document.body.appendChild(_fontsizeStylesheet);
-
-      // if (localStorage.getItem("yogurtPlayground") === null) {
-      //   _introTooltip.style.left = ((_browserWidth / 2) - 235) + "px";
-      //   _introTooltip.style.display = "inline";
-      //   setTimeout(function() {
-      //     _fadeOut(_introTooltip, 2000);
-      //   }, 3000);
-      // }
     },
     resizeAreas: _resizeController.resizeAreas
   }

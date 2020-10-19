@@ -22,10 +22,6 @@ Utilities for sets border width in increments of 1px.
 | border-2 | border-width: 2px | <y class="w-16 h-8 bg-gray-300 border-2 border-gray-900"></y> |
 | border-4 | border-width: 4px | <y class="w-16 h-8 bg-gray-300 border-4 border-gray-900"></y> |
 | border-8 | border-width: 8px | <y class="w-16 h-8 bg-gray-300 border-8 border-gray-900"></y> |
-| border-t | border-top-width: 1px | <y class="w-16 h-8 bg-gray-300 border border-t border-gray-900"></y> |
-| border-r | border-right-width: 1px | <y class="w-16 h-8 bg-gray-300 border border-r border-gray-900"></y> |
-| border-b | border-bottom-width: 1px | <y class="w-16 h-8 bg-gray-300 border border-b border-gray-900"></y> |
-| border-l | border-left-width: 1px | <y class="w-16 h-8 bg-gray-300 border border-l border-gray-900"></y> |
 | border-t-0 | border-top-width: 0 | <y class="w-16 h-8 bg-gray-300 border border-t-0 border-gray-900"></y> |
 | border-r-0 | border-right-width: 0 | <y class="w-16 h-8 bg-gray-300 border border-r-0 border-gray-900"></y> |
 | border-b-0 | border-bottom-width: 0 | <y class="w-16 h-8 bg-gray-300 border border-b-0 border-gray-900"></y> |
