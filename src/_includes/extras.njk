@@ -15,13 +15,9 @@
 
       <ul class="-ml-8">
 
-        <y class="block text-gray-900 dark:text-orange-600 text-sm sm:text-xs mb-2 uppercase font-semibold text-gray-500">
-          What's next?
-        </y>
-
         {% for data in extras.more %}
 
-          <li class="mb-4">
+          <li class="mb-0">
 
             <y class="py-2 text-sm font-semibold">
 
@@ -37,6 +33,8 @@
 
               <li class="mb-px">
 
+                {% if item.label %}
+
                 <a class="nav-link -mx-6 px-2 py-1 hover:font-semibold hover:underline {{ item.class }} {% if is_current_page %} selected {% endif %}"
                    href="{{ item.url | safe }}"
                    {% if is_current_page %}
@@ -45,13 +43,29 @@
 
                   {{ item.label }}
 
-                  {% if item.external %}
-                    <span class="exernal-link-icon">
-                      {% include "images/icons/arrow-right.svg" %}
-                    </span>
-                  {% endif %}
-
                 </a>
+
+                {% endif %}
+
+                {% if item.url_external %}
+
+                  <a class="nav-link -mx-6 px-2 py-1 hover:font-semibold hover:underline {{ item.class }} {% if is_current_page %} selected {% endif %}"
+                     href="{{ item.url_external | safe }}"
+                     target="_blank"
+                     rel="noopener"
+                     {% if is_current_page %}
+                     aria-current="page"
+                     {% endif %}>
+
+                    {{ item.label_external }}
+
+                  </a>
+
+                  <span class="exernal-link-icon">
+                    {% include "images/icons/arrow-right.svg" %}
+                  </span>
+
+                {% endif %}
 
               </li>
 
