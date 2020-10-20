@@ -82,7 +82,7 @@ Utilities for sets the z order (stack order) of a positioned element.
 |:-:|:-:|:-:|
 | Default | Yes | Yes |
 | Dark Theme | | |
-| hover| | |
+| hover| Yes | |
 | group-hover | | |
 | focus | | |
 | active | | |
