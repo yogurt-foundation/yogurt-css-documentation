@@ -149,12 +149,12 @@ var liveEditor = function() {
     finishResizeAreas: function() {
       if (parseInt(_codeView.style.width) <= 200) {
         _codeView.style.width = "200px";
-        _livePreview.style.width = (_browserWidth - 200 - _resizeBarWidth) + "px";
+        _livePreview.style.width = (_browserWidth - 320 - _resizeBarWidth) + "px";
       }
 
-      if (parseInt(_codeView.style.width) >= (_browserWidth - 200 - _resizeBarWidth)) {
-        _codeView.style.width = (_browserWidth - 200 - _resizeBarWidth) + "px";
-        _livePreview.style.width = "200px";
+      if (parseInt(_codeView.style.width) >= (_browserWidth - 320 - _resizeBarWidth)) {
+        _codeView.style.width = (_browserWidth - 320 - _resizeBarWidth) + "px";
+        _livePreview.style.width = "320px";
       }
 
       _settingsController.updateStorageSetting("codeViewWidth", parseFloat(_codeView.style.width));
