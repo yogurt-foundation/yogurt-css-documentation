@@ -350,15 +350,23 @@
         },
         {
           "label": "Align Items",
-          "url": "/align-items/"
+          "url": "/align-items/",
+          "version": "v1.1.1 (partial)"
         },
         {
           "label": "Align Content",
-          "url": "/align-content/"
+          "url": "/align-content/",
+          "version": "v1.1.1 (partial)"
+        },
+        {
+          "label": "Align Self",
+          "url": "/align-self/",
+          "version": "v1.1.1 (partial)"
         },
         {
           "label": "Justify Content",
-          "url": "/justify-content/"
+          "url": "/justify-content/",
+          "version": "v1.1.1 (partial)"
         },
         {
           "label": "Order",
@@ -590,9 +598,9 @@
           "version": "v1.0.9"
         },
         {
-          "label": "Animation Infinite",
-          "url": "/animation-infinite/",
-          "version": "v1.0.9"
+          "label": "Animation Loop",
+          "url": "/animation-loop/",
+          "version": "v1.1.1"
         },
         {
           "label": "Blur",
