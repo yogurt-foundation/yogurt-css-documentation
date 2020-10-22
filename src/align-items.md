@@ -17,11 +17,22 @@ Utilities for sets flex items position along a container's cross axis.
 
 | <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">css</span> |
 |:--|:--|
-| items-stretch | align-items: stretch |
+| items-baseline | align-items: baseline |
 | items-start | align-items: flex-start |
 | items-center | align-items: center |
 | items-end | align-items: flex-end |
-| items-baseline | align-items: baseline |
+| items-stretch | align-items: stretch |
+
+---
+
+## Usage
+
+```html
+<!-- Example -->
+<y class="flex items-center">
+  ...
+</y>
+```
 
 ---
 
