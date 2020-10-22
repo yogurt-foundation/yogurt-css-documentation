@@ -359,6 +359,11 @@
           "version": "v1.1.1 (partial)"
         },
         {
+          "label": "Align Self",
+          "url": "/align-self/",
+          "version": "v1.1.1 (partial)"
+        },
+        {
           "label": "Justify Content",
           "url": "/justify-content/",
           "version": "v1.1.1 (partial)"
