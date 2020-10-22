@@ -23,6 +23,28 @@ Utilities for creates how flex items wrap.
 
 ---
 
+## Usage
+
+```html
+<!-- Example -->
+<y class="flex flex-wrap">
+  ...
+</y>
+```
+
+---
+
+## Usage
+
+```html
+<!-- Example -->
+<y class="flex flex-wrap">
+  ...
+</y>
+```
+
+---
+
 ## Variant
 
 | <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
