@@ -28,7 +28,8 @@ Utilities for creates how flex items wrap.
 ```html
 <!-- Example -->
 <y class="flex flex-wrap">
-  ...
+  <y> ... </y>
+  <y> ... </y>
 </y>
 ```
 
