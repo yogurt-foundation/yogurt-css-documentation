@@ -383,7 +383,8 @@
         },
         {
           "label": "Cursor",
-          "url": "/cursor/"
+          "url": "/cursor/",
+          "version": "v1.1.2 (partial)"
         },
         {
           "label": "Outline",
