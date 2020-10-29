@@ -71,7 +71,7 @@ Set pattern clipping with text.
   </y>
 </y>
 
-```
+```html
 <!-- Example -->
 <y class="pattern vertical-lines-sm clip-text text-red-500">
   <y>
