@@ -487,6 +487,21 @@
           "version": ""
         },
         {
+          "label": "Circle",
+          "url": "/pattern-circle/",
+          "version": "v1.1.2"
+        },
+        {
+          "label": "Ripple",
+          "url": "/pattern-ripple/",
+          "version": "v1.1.2"
+        },
+        {
+          "label": "Rhombus",
+          "url": "/pattern-rhombus/",
+          "version": "v1.1.2"
+        },
+        {
           "label": "Cross Dots",
           "url": "/pattern-cross-dots/",
           "version": ""
