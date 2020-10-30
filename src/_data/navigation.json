@@ -42,7 +42,7 @@
         {
           "label": "Render",
           "url": "/content-visibility/",
-          "version": "v1.0.9"
+          "version": ""
         },
         {
           "label": "Top/Bottom/Left/Right",
@@ -118,7 +118,7 @@
         {
           "label": "Text Clamp",
           "url": "/text-clamp/",
-          "version": "v1.0.9"
+          "version": ""
         },
         {
           "label": "Text Decoration",
@@ -179,7 +179,7 @@
         {
           "label": "Background Border",
           "url": "/background-border/",
-          "version": "v1.0.9"
+          "version": ""
         },
         {
           "label": "Background Color",
@@ -188,7 +188,7 @@
         {
           "label": "Background Gradient",
           "url": "/background-gradient/",
-          "version": "v1.0.9"
+          "version": ""
         },
         {
           "label": "Background Opacity",
@@ -430,22 +430,22 @@
         {
           "label": "Brightness",
           "url": "/filter-brightness/",
-          "version": "v1.0.9"
+          "version": ""
         },
         {
           "label": "Blur",
           "url": "/filter-blur/",
-          "version": "v1.0.9"
+          "version": ""
         },
         {
           "label": "Contrast",
           "url": "/filter-contrast/",
-          "version": "v1.0.9"
+          "version": ""
         },
         {
           "label": "Drop Shadow",
           "url": "/filter-drop-shadow/",
-          "version": "v1.0.9"
+          "version": ""
         },
         {
           "label": "Invert",
@@ -454,7 +454,7 @@
         {
           "label": "Saturate",
           "url": "/filter-saturate/",
-          "version": "v1.0.9"
+          "version": ""
         },
         {
           "label": "Backdrop Brightness",
@@ -484,62 +484,62 @@
         {
           "label": "Checks",
           "url": "/pattern-checks/",
-          "version": "v1.0.9"
+          "version": ""
         },
         {
           "label": "Cross Dots",
           "url": "/pattern-cross-dots/",
-          "version": "v1.0.9"
+          "version": ""
         },
         {
           "label": "Dots",
           "url": "/pattern-dots/",
-          "version": "v1.0.9"
+          "version": ""
         },
         {
           "label": "Grid",
           "url": "/pattern-grid/",
-          "version": "v1.0.9"
+          "version": ""
         },
         {
           "label": "Triangles",
           "url": "/pattern-triangles/",
-          "version": "v1.0.9"
+          "version": ""
         },
         {
           "label": "Zigzag",
           "url": "/pattern-zigzag/",
-          "version": "v1.0.9"
+          "version": ""
         },
         {
           "label": "Diagonal Lines",
           "url": "/pattern-diagonal-lines/",
-          "version": "v1.0.9"
+          "version": ""
         },
         {
           "label": "Diagonal Stripes",
           "url": "/pattern-diagonal-stripes/",
-          "version": "v1.0.9"
+          "version": ""
         },
         {
           "label": "Horizontal Lines",
           "url": "/pattern-horizontal-lines/",
-          "version": "v1.0.9"
+          "version": ""
         },
         {
           "label": "Horizontal Stripes",
           "url": "/pattern-horizontal-stripes/",
-          "version": "v1.0.9"
+          "version": ""
         },
         {
           "label": "Vertical Lines",
           "url": "/pattern-vertical-lines/",
-          "version": "v1.0.9"
+          "version": ""
         },
         {
           "label": "Vertical Stripes",
           "url": "/pattern-vertical-stripes/",
-          "version": "v1.0.9"
+          "version": ""
         }
       ]
     },
@@ -591,12 +591,12 @@
         {
           "label": "Animation Delay",
           "url": "/animation-delay/",
-          "version": "v1.0.9"
+          "version": ""
         },
         {
           "label": "Animation Duration",
           "url": "/animation-duration/",
-          "version": "v1.0.9"
+          "version": ""
         },
         {
           "label": "Animation Loop",
@@ -606,22 +606,22 @@
         {
           "label": "Blur",
           "url": "/animation-blur/",
-          "version": "v1.0.9"
+          "version": ""
         },
         {
           "label": "Fade",
           "url": "/animation-fade/",
-          "version": "v1.0.9"
+          "version": ""
         },
         {
           "label": "Roll",
           "url": "/animation-roll/",
-          "version": "v1.0.9"
+          "version": ""
         },
         {
           "label": "Slide",
           "url": "/animation-slide/",
-          "version": "v1.0.9"
+          "version": ""
         }
       ]
     },
@@ -644,12 +644,12 @@
         {
           "label": "Theme Auto",
           "url": "/theme-auto/",
-          "version": "v1.0.9"
+          "version": ""
         },
         {
           "label": "Theme Invert",
           "url": "/theme-invert/",
-          "version": "v1.0.9"
+          "version": ""
         }
       ]
     },

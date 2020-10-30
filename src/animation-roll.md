@@ -17,10 +17,10 @@ Utilities for sets the rolling animation to an element.
 
 | <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">css</span> | |
 |:--|:--|:-:|
-| roll-in-left | @keyframes roll-in-left { from { opacity: 0; transform: translate3d(-100%, 0, 0) } to { opacity: 1; transform: translate3d(0, 0, 0) }} | <y class="text-lg animation roll-in-left duration-4000 delay-2 infinite">Text</y> |
-| roll-in-right | @keyframes roll-in-right { from { opacity: 0; transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg) } to { opacity: 1; transform: translate3d(0, 0, 0); }} | <y class="text-lg animation roll-in-right duration-4000 delay-2 infinite">Text</y> |
-| roll-out-left | @keyframes roll-out-left { from { opacity: 1 } to { opacity: 0; transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg) }} | <y class="text-lg animation roll-out-left duration-4000 delay-2 infinite">Text</y> |
-| roll-out-right | @keyframes roll-out-right { from { opacity: 1 } to { opacity: 0; transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg) }} | <y class="text-lg animation roll-out-right duration-4000 delay-2 infinite">Text</y> |
+| roll-in-left | @keyframes roll-in-left { from { opacity: 0; transform: translate3d(-100%, 0, 0) } to { opacity: 1; transform: translate3d(0, 0, 0) }} | <y class="text-lg animation roll-in-left duration-800 delay-2 loop-infinite">Text</y> |
+| roll-in-right | @keyframes roll-in-right { from { opacity: 0; transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg) } to { opacity: 1; transform: translate3d(0, 0, 0); }} | <y class="text-lg animation roll-in-right duration-800 delay-2 loop-infinite">Text</y> |
+| roll-out-left | @keyframes roll-out-left { from { opacity: 1 } to { opacity: 0; transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg) }} | <y class="text-lg animation roll-out-left duration-800 delay-2 loop-infinite">Text</y> |
+| roll-out-right | @keyframes roll-out-right { from { opacity: 1 } to { opacity: 0; transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg) }} | <y class="text-lg animation roll-out-right duration-800 delay-2 loop-infinite">Text</y> |
 
 <y class="m-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 dark:bg-gray-800">
   <span class="pr-1 font-semibold">
@@ -77,7 +77,7 @@ Mix with duration, delay and infinite looping.
 |:-:|:-:|:-:|
 | Default | Yes | |
 | Dark Theme | | |
-| hover| Yes | |
+| hover | Yes | |
 | group-hover | | |
 | focus | | |
 | active | | |
