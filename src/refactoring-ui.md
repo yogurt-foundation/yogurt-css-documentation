@@ -13,7 +13,7 @@ Refactoring UI is a tedious job for frontend developers. Yogurt was designed to 
 
 We will be using the `@extend` directive to extract the Yogurt utility classes and replacing the existing CSS properties of your style sheet. (See [Extract Utility Classes](/extract-utility-classes/)).
 
-<y class="my-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 dark:text-orange-500 bg-orange-200 dark:bg-orange-900">
+<y class="my-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 (dark)text-orange-500 bg-orange-200 (dark)bg-orange-900">
   <span class="pr-1 font-semibold">
     Note:
   </span>
@@ -30,9 +30,9 @@ We will be using the `@extend` directive to extract the Yogurt utility classes a
 ### Examples
 
 <y class="my-4 mx-auto max-w-xxs">
-  <y class="bg-white dark:bg-gray-700 border border-gray-400 dark:border-charcoal-100 rounded">
+  <y class="bg-white (dark)bg-gray-700 border border-gray-400 (dark)border-charcoal-100 rounded">
     <y class="w-full h-32 bg-gray-500 rounded-t-sm"></y>
-    <y class="p-5 dark:text-gray-400 text-md font-normal depth-wider">
+    <y class="p-5 (dark)text-gray-400 text-md font-normal depth-wider">
       Some quick example text to build on the card title and make up the bulk of the card's content.
     </y>
   </y>
@@ -53,7 +53,7 @@ Here we have existing classes in the HTML file, and we might not want to change 
 
 We use the `@extend` directive to expose the Yogurt utility classes to replacing the existing selectors CSS properties, look like the below,
 
-<y class="my-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 dark:text-orange-500 bg-orange-200 dark:bg-orange-900">
+<y class="my-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 (dark)text-orange-500 bg-orange-200 (dark)bg-orange-900">
   <span class="pr-1 font-semibold">
     Note:
   </span>

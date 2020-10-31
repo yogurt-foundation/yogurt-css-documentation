@@ -7,11 +7,11 @@ layout: default
 
 > Customization
 
-## Plugin API <span class="ml-1 px-2 py-1 text-sm text-gray-600 dark:text-charcoal-100 bg-gray-300 dark:bg-gray-600">v1.0.8</span>
+## Plugin API <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.0.8</span>
 
 Using plugin API to create your utility module and use it right away without modifying any of the Yogurt core files. Yogurt will generates after you run the build. All you need is write your plugins in the `src/_plugins.scss` file.
 
-<y class="my-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 dark:text-orange-500 bg-orange-200 dark:bg-orange-900">
+<y class="my-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 (dark)text-orange-500 bg-orange-200 (dark)bg-orange-900">
   <span class="pr-1 font-semibold">
     Note:
   </span>
@@ -21,7 +21,7 @@ Using plugin API to create your utility module and use it right away without mod
   </strong>
   to apply pseudo class variants, such as
   <strong>
-    hover, focus, active, visited, disabled, responsive, responsive-hover, responsive-focus, responsive-active, responsive-visited, responsive-disabled
+    hover, focus, active, visited, checked, disabled, responsive, responsive-hover, responsive-focus, responsive-active, responsive-visited, responsive-checked, responsive-disabled
   </strong>.
 </y>
 

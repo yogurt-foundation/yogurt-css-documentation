@@ -7,7 +7,7 @@ layout: default
 
 > Effects
 
-# Gradient <span class="ml-1 px-2 py-1 text-sm text-gray-600 dark:text-charcoal-100 bg-gray-300 dark:bg-gray-600">v1.0.8</span>
+# Gradient <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.0.8</span>
 
 Utilities for sets the gradient preset diagonally to an element.
 
@@ -15,7 +15,7 @@ Utilities for sets the gradient preset diagonally to an element.
 
 ## Class
 
-| <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
 | gradient-`{value}` | background-image: linear-gradient(`{modifier}`); |
 
@@ -215,7 +215,7 @@ Set default gradient to `<body>` tag.
 </body>
 ```
 
-<span class="ml-1 px-2 py-1 text-sm text-gray-600 dark:text-charcoal-100 bg-gray-300 dark:bg-gray-600">v1.1.1</span> Set gradient clipping as text color by adding `clip-text`.
+<span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.1</span> Set gradient clipping as text color by adding `clip-text`.
 
 <y class="px-4 my-2 mx-auto w-56">
   <y class="gradient-happy-fisher clip-text inline-block text-8xl font-extrabold">
@@ -230,11 +230,11 @@ Set default gradient to `<body>` tag.
 </y>
 ```
 
-<span class="ml-1 px-2 py-1 text-sm text-gray-600 dark:text-charcoal-100 bg-gray-300 dark:bg-gray-600">v1.1.0</span> Set auto dark theme enabled to an element with added `dark:` prefix.
+<span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.0</span> Set auto dark theme enabled to an element with added `(dark)` prefix.
 
 ```html
 <!-- Example -->
-<y class="gradient-morpheus-den ... dark:gradient-near-moon ... w-64 h-32">
+<y class="gradient-morpheus-den ... (dark)gradient-near-moon ... w-64 h-32">
   ...
 </y>
 ```

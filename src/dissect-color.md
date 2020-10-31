@@ -7,7 +7,7 @@ layout: default
 
 > Borders
 
-# Dissect Color <span class="ml-1 px-2 py-1 text-sm text-gray-600 dark:text-charcoal-100 bg-gray-300 dark:bg-gray-600">v1.0.8</span>
+# Dissect Color <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.0.8</span>
 
 Utilities for sets bottom border color on each child elements of its parent.
 
@@ -15,7 +15,7 @@ Utilities for sets bottom border color on each child elements of its parent.
 
 ## Class
 
-| <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">css</span> | |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> | |
 |:--|:--|:-:|
 | dissect-transparent | border-color: transparent | <y class="px-2 py-1 dissect-y-2 dissect-y dissect-transparent"><y>Text</y><y>Text</y></y> |
 | dissect-current | border-color: currentColor | <y class="px-2 py-1 dissect-y-2 dissect-y dissect-current"><y>Text</y><y>Text</y></y> |
@@ -146,7 +146,7 @@ Utilities for sets bottom border color on each child elements of its parent.
 | dissect-teal-800 | --dissect-opacity: 1; <br> border-color: #285e61; <br> border-color: rgba(40, 94, 97, var(--dissect-opacity)) | <y class="px-2 py-1 dissect-y-2 dissect-y dissect-teal-800"><y>Text</y><y>Text</y></y> |
 | dissect-teal-900 | --dissect-opacity: 1; <br> border-color: #234e52; <br> border-color: rgba(35, 78, 82, var(--dissect-opacity)) | <y class="px-2 py-1 dissect-y-2 dissect-y dissect-teal-900"><y>Text</y><y>Text</y></y> |
 
-<y class="m-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 dark:bg-gray-800">
+<y class="m-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 (dark)bg-gray-800">
   <span class="pr-1 font-semibold">
     Note:
   </span>

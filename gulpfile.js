@@ -67,7 +67,7 @@ gulp.task('purge-css', () => {
           'dist/*.js'
         ],
         // make compatible for `Yogurt CSS framework`
-        defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || [],
+        defaultExtractor: content => content.match(/[\w-/:()]+(?<!:)/g) || [],
         whitelistPatterns: [/-webkit-scrollbar-thumb$/],
         keyframes: true
     }))
@@ -101,6 +101,13 @@ gulp.task('codemirror', () => {
     .pipe(gulp.dest('./dist/codemirror'))
 })
 
+gulp.task('codemirror-yogurtcss', () => {
+  return gulp.src([
+      'css/yogurt-1.1.2_solidcore.min.css'
+    ])
+    .pipe(gulp.dest('./dist'))
+})
+
 gulp.task('app-manifest', () => {
   return gulp.src([
       'pwa/manifest.json'
@@ -126,7 +133,8 @@ gulp.task('build',
     'css',
     'service-worker',
     'app-manifest',
-    'codemirror'
+    'codemirror',
+    'codemirror-yogurtcss'
   )
 )
 

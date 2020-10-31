@@ -11,7 +11,7 @@ layout: default
 
 Yogurt purely built on top of the SASS or SCSS ([Sassy CSS](https://sass-lang.com)). By using the existing Sassy `@extend` directive allows you to expose any Yogurt utility classes to your custom CSS.
 
-<y class="my-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 dark:text-orange-500 bg-orange-200 dark:bg-orange-900">
+<y class="my-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 (dark)text-orange-500 bg-orange-200 (dark)bg-orange-900">
   <span class="pr-1 font-semibold">
     Note:
   </span>
@@ -29,11 +29,11 @@ Yogurt purely built on top of the SASS or SCSS ([Sassy CSS](https://sass-lang.co
 
 When using the **@extend `<selector ...>`** directive in your custom CSS, some unconventional rules that you need follow:
 
-- separator `:` is written as `\:`.
+- prefix parenthesis `()` is written as `\(\)`.
 - utility class `text-khaki-100` is written as `.text-khaki-100`.
-- pseudo class `hover:text-khaki-100` is written as `.hover\:text-khaki-100`.
-- pseudo class with responsive `md:hover:text-khaki-100` is written as `.md\:hover\:text-khaki-100`.
-- responsive `md:text-khaki-100` is written as `.md\:text-khaki-100`.
+- pseudo class `(hover)text-khaki-100` is written as `.\(hover\)text-khaki-100`.
+- pseudo class with responsive `.(md)(hover)text-khaki-100` is written as `.\(md\)\(hover\)text-khaki-100`.
+- responsive `(md)text-khaki-100` is written as `.\(md\)text-khaki-100`.
 
 ### Examples
 
@@ -50,7 +50,7 @@ You can create new or refactor existing CSS with Yogurt utility classes,
     .text-white,
     .font-semibold,
     .bg-khaki-500,
-    .hover\:bg-khaki-700,
+    .\(hover\)bg-khaki-700,
     .border,
     .border-khaki-600,
     .rounded,

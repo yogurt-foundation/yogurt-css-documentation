@@ -7,7 +7,7 @@ layout: default
 
 > Borders
 
-# Dissect <span class="ml-1 px-2 py-1 text-sm text-gray-600 dark:text-charcoal-100 bg-gray-300 dark:bg-gray-600">v1.0.8</span>
+# Dissect <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.0.8</span>
 
 Utilities for sets bottom border on each child elements of its parent.
 
@@ -15,7 +15,7 @@ Utilities for sets bottom border on each child elements of its parent.
 
 ## Class
 
-| <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
 | dissect-x-0 | --dissect-x-reverse: 0; <br> border-right-width: calc(0 * var(--dissect-x-reverse)); <br> border-left-width: calc(0 * calc(1 - var(--dissect-x-reverse))) |
 | dissect-x-2 | --dissect-x-reverse: 0; <br> border-right-width: calc(2px * var(--dissect-x-reverse)); <br> border-left-width: calc(2px * calc(1 - var(--dissect-x-reverse))) |
@@ -30,7 +30,7 @@ Utilities for sets bottom border on each child elements of its parent.
 | dissect-x-reverse | --dissect-x-reverse: 1 |
 | dissect-y-reverse | --dissect-y-reverse: 1 |
 
-<y class="m-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 dark:bg-gray-800">
+<y class="m-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 (dark)bg-gray-800">
   <span class="pr-1 font-semibold">
     Note:
   </span>
