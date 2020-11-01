@@ -15,7 +15,7 @@ Utilities for sets the length of time for a transition animations to complete.
 
 ## Class
 
-| <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
 | duration-75 | transition-duration: 75ms |
 | duration-100 | transition-duration: 100ms |
@@ -35,14 +35,14 @@ Set basic [Transition](/transition-property/) with [Duration](/transition-durati
 Set transition duration `75ms` to an element.
 
 <y class="my-2 mx-auto w-64">
-  <y class="p-4 w-56 text-center text-gray-600 bg-gray-400 transition duration-75 ease-in-out hover:shadow-lg cursor-pointer">
+  <y class="p-4 w-56 text-center text-gray-600 bg-gray-400 transition duration-75 ease-in-out (hover)shadow-lg cursor-pointer">
   	Hover duration-75
   </y>
 </y>
 
 ```html
 <!-- Example -->
-<y class="transition duration-75 ease-in-out ... hover:shadow-lg ... w-32 h-24">
+<y class="transition duration-75 ease-in-out ... (hover)shadow-lg ... w-32 h-24">
   ...
 </y>
 ```
@@ -50,28 +50,28 @@ Set transition duration `75ms` to an element.
 Set transition duration `100ms`.
 
 <y class="my-2 mx-auto w-64">
-  <y class="p-4 w-56 text-center text-gray-600 bg-gray-400 transition duration-100 ease-in-out hover:shadow-lg cursor-pointer">
+  <y class="p-4 w-56 text-center text-gray-600 bg-gray-400 transition duration-100 ease-in-out (hover)shadow-lg cursor-pointer">
   	Hover duration-100
   </y>
 </y>
 
 ```html
 <!-- Example -->
-<y class="transition duration-100 ease-in-out ... hover:shadow-lg ... w-32 h-24">
+<y class="transition duration-100 ease-in-out ... (hover)shadow-lg ... w-32 h-24">
   ...
 </y>
 ```
 Set transition duration `150ms`.
 
 <y class="my-2 mx-auto w-64">
-  <y class="p-4 w-56 text-center text-gray-600 bg-gray-400 transition duration-150 ease-in-out hover:shadow-lg cursor-pointer">
+  <y class="p-4 w-56 text-center text-gray-600 bg-gray-400 transition duration-150 ease-in-out (hover)shadow-lg cursor-pointer">
   	Hover duration-150
   </y>
 </y>
 
 ```html
 <!-- Example -->
-<y class="transition duration-150 ease-in-out ... hover:shadow-lg ... w-32 h-24">
+<y class="transition duration-150 ease-in-out ... (hover)shadow-lg ... w-32 h-24">
   ...
 </y>
 ```
@@ -79,14 +79,14 @@ Set transition duration `150ms`.
 Set transition duration `200ms`.
 
 <y class="my-2 mx-auto w-64">
-  <y class="p-4 w-56 text-center text-gray-600 bg-gray-400 transition duration-200 ease-in-out hover:shadow-lg cursor-pointer">
+  <y class="p-4 w-56 text-center text-gray-600 bg-gray-400 transition duration-200 ease-in-out (hover)shadow-lg cursor-pointer">
   	Hover duration-200
   </y>
 </y>
 
 ```html
 <!-- Example -->
-<y class="transition duration-200 ease-in-out ... hover:shadow-lg ... w-32 h-24">
+<y class="transition duration-200 ease-in-out ... (hover)shadow-lg ... w-32 h-24">
   ...
 </y>
 ```
@@ -94,14 +94,14 @@ Set transition duration `200ms`.
 Set transition duration `300ms`.
 
 <y class="my-2 mx-auto w-64">
-  <y class="p-4 w-56 text-center text-gray-600 bg-gray-400 transition duration-300 ease-in-out hover:shadow-lg cursor-pointer">
+  <y class="p-4 w-56 text-center text-gray-600 bg-gray-400 transition duration-300 ease-in-out (hover)shadow-lg cursor-pointer">
   	Hover duration-300
   </y>
 </y>
 
 ```html
 <!-- Example -->
-<y class="transition duration-300 ease-in-out ... hover:shadow-lg ... w-32 h-24">
+<y class="transition duration-300 ease-in-out ... (hover)shadow-lg ... w-32 h-24">
   ...
 </y>
 ```
@@ -109,14 +109,14 @@ Set transition duration `300ms`.
 Set transition duration `500ms`.
 
 <y class="my-2 mx-auto w-64">
-  <y class="p-4 w-56 text-center text-gray-600 bg-gray-400 transition duration-500 ease-in-out hover:shadow-lg cursor-pointer">
+  <y class="p-4 w-56 text-center text-gray-600 bg-gray-400 transition duration-500 ease-in-out (hover)shadow-lg cursor-pointer">
   	Hover duration-500
   </y>
 </y>
 
 ```html
 <!-- Example -->
-<y class="transition duration-500 ease-in-out ... hover:shadow-lg ... w-32 h-24">
+<y class="transition duration-500 ease-in-out ... (hover)shadow-lg ... w-32 h-24">
   ...
 </y>
 ```
@@ -124,21 +124,21 @@ Set transition duration `500ms`.
 Set transition duration `1000ms`.
 
 <y class="my-2 mx-auto w-64">
-  <y class="p-4 w-56 text-center text-gray-600 bg-gray-400 transition duration-1000 ease-in-out hover:shadow-lg cursor-pointer">
+  <y class="p-4 w-56 text-center text-gray-600 bg-gray-400 transition duration-1000 ease-in-out (hover)shadow-lg cursor-pointer">
   	Hover duration-1000
   </y>
 </y>
 
 ```html
 <!-- Example -->
-<y class="transition duration-1000 ease-in-out ... hover:shadow-lg ... w-32 h-24">
+<y class="transition duration-1000 ease-in-out ... (hover)shadow-lg ... w-32 h-24">
   ...
 </y>
 ```
 
 ---
 
-## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 dark:text-charcoal-100 bg-gray-300 dark:bg-gray-600" href="/plugin-api/">More</a>
+## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600" href="/plugin-api/">More</a>
 
 ```scss
 // @file: `src/_plugins.scss`

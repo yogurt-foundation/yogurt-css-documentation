@@ -7,7 +7,7 @@ layout: default
 
 > Debug
 
-# Debugger <span class="ml-1 px-2 py-1 text-sm text-gray-600 dark:text-charcoal-100 bg-gray-300 dark:bg-gray-600">v1.1.0</span>
+# Debugger <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.0</span>
 
 Utilities for inspecting screen sizes and errors in spacing or overlapping elements.
 
@@ -15,12 +15,12 @@ Utilities for inspecting screen sizes and errors in spacing or overlapping eleme
 
 ## Class
 
-| <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">attribute</span> | <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">attribute</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
 | debug="outline" | background: rgba(255, 0, 0, 0.1); <br> box-shadow: 0 0 0 1px red; <br> outline: 1px solid red |
-| debug="screen" <span class="ml-1 px-2 py-1 text-sm text-gray-600 dark:text-charcoal-100 bg-gray-300 dark:bg-gray-600">v1.1.0</span> | @media (min-width: `{screen}`) { [debug="screen"]::after { content: "`{size}`" }} |
+| debug="screen" <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.0</span> | @media (min-width: `{screen}`) { [debug="screen"]::after { content: "`{size}`" }} |
 
-<y class="m-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 dark:bg-gray-800">
+<y class="m-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 (dark)bg-gray-800">
   <span class="pr-1 font-semibold">
     Note:
   </span>
@@ -36,7 +36,7 @@ Utilities for inspecting screen sizes and errors in spacing or overlapping eleme
 <y class="px-4 -mt-4 mb-2 mx-auto w-64"
    debug="outline">
   <y class="px-4 h-32 bg-white rounded-lg">
-    <y class="flex justify-between items-center transistion duration-300 ease-in-out transform hover:-rotate-45 hover:-translate-x-6 cursor-pointer">
+    <y class="flex justify-between items-center transistion duration-300 ease-in-out transform (hover)-rotate-45 (hover)-translate-x-6 cursor-pointer">
       <y class="w-20">
         <y class="w-20 h-20 rounded-full"></y>
       </y>
@@ -78,9 +78,9 @@ Apply `debug="outline"` to almost any elements.
 <span debug="outline"> ... </span>
 ```
 
-### Debug Screen <span class="ml-1 px-2 py-1 text-sm text-gray-600 dark:text-charcoal-100 bg-gray-300 dark:bg-gray-600">v1.1.0</span>
+### Debug Screen <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.0</span>
 
-<y class="xs:ml-4 lg:-ml-6 -mt-16"
+<y class="(xs)ml-4 (lg)-ml-6 -mt-16"
    debug="screen"></y>
 
 Apply `debug="screen"` to inspect the current screen size. The indicator will display at top-left of the browser viewport.

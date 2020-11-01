@@ -1,7 +1,7 @@
 ---
 id: pseudo-class-variant
 title: Pseudo-Class Variants
-description: Using utilities to style and add effects to elements when on hover, group-hover, focus, active, disabled, visited or theme.
+description: Using utilities to style and add effects to elements when on hover, group-hover, group-focus, group-focus, focus, active, disabled, visited, checked or theme.
 layout: default
 ---
 
@@ -9,27 +9,27 @@ layout: default
 
 ## Pseudo-Class Variants
 
-Using utilities to style and add effects to elements when on `hover`, `group-hover`, `focus`, `active`, `disabled`, `visited`, or `theme`.
+Using utilities to style and add effects to elements when on `hover`, `group-hover`, `group-focus`, `focus`, `active`, `disabled`, `visited`, `checked` or `theme`.
 
 ### Hover
 
-Add the `hover:` prefix to an utility to enable on-hover.
+Add the `(hover)` prefix to an utility to enable on-hover.
 
 ```html
 <!-- Example -->
-<y class="text-charcoal-100 hover:text-white bg-white hover:bg-charcoal-100">
+<y class="text-charcoal-100 (hover)text-white bg-white (hover)bg-charcoal-100">
   ...
 </y>
 ```
 
 ### Group-Hover
 
-Add `group` class to the parent element and add the `group-hover:` prefix to an utility on the child element to enable group-hover.
+Add `(group)` class to the parent element and add the `(group-hover)` prefix to an utility on the child element to enable group-hover.
 
 ```html
 <!-- Example -->
-<y class="group bg-charcoal-100 hover:bg-orange-400">
-  <y class="group-hover:text-white">
+<y class="(group) bg-charcoal-100 (hover)bg-orange-400">
+  <y class="(group-hover)text-white">
     ...
   </y>
 </y>
@@ -37,33 +37,33 @@ Add `group` class to the parent element and add the `group-hover:` prefix to an 
 
 ### Focus
 
-Add the `focus:` prefix to an utility to enable on-focus.
+Add the `(focus)` prefix to an utility to enable on-focus.
 
 ```html
 <!-- Example -->
-<input class="bg-gray-100 focus:bg-charcoal-100 border-transparent focus:border-gray-200"
+<input class="bg-gray-100 (focus)bg-charcoal-100 border-transparent (focus)border-gray-200"
        placeholder="Focus me!">
 
 ```
 
 ### Active
 
-Add the `active:` prefix to an utility to enable on-active.
+Add the `(active)` prefix to an utility to enable on-active.
 
 ```html
 <!-- Example -->
-<button class="bg-charcoal-100 active:bg-red-400 text-white">
+<button class="bg-charcoal-100 (active)bg-red-400 text-white">
   ...
 </button>
 ```
 
 ### Visited
 
-Add the `visited:` prefix to an utility to enable on-visited.
+Add the `(visited)` prefix to an utility to enable on-visited.
 
 ```html
 <!-- Example -->
-<a class="text-gray-500 visited:text-purple-500 visited:underline"
+<a class="text-gray-500 (visited)text-purple-500 (visited)underline"
    href="...">
   ...
 </a>
@@ -71,37 +71,37 @@ Add the `visited:` prefix to an utility to enable on-visited.
 
 ### Checked
 
-Add the `checked:` prefix to an utility to enable on-checked.
+Add the `(checked)` prefix to an utility to enable on-checked.
 
 ```html
 <!-- Example -->
-<button class="checked:text-white checked:bg-red-400 checked:underline">
+<button class="(checked)text-white (checked)bg-red-400 (checked)underline">
   ...
 </button>
 ```
 
 ### Disabled
 
-Add the `disabled:` prefix to an utility to enable on-disabled.
+Add the `(disabled)` prefix to an utility to enable on-disabled.
 
 ```html
 <!-- Example -->
-<button class="disabled:text-gray-600 disabled:bg-gray-400">
+<button class="(disabled)text-gray-600 (disabled)bg-gray-400">
   ...
 </button>
 ```
 
-### Dark Theme <span class="ml-1 px-2 py-1 text-sm text-gray-600 dark:text-charcoal-100 bg-gray-300 dark:bg-gray-600">v1.1.0</span>
+### Dark Theme <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.0</span>
 
-Add the `dark:` prefix to an utility when dark theme settings enabled.
+Add the `(dark)` prefix to an utility when dark theme settings enabled.
 
 ```html
 <!-- Example -->
-<y class="text-charcoal-100 dark:text-gray-100">
+<y class="text-charcoal-100 (dark)text-gray-100">
   ...
 </y>
 ```
-<y class="m-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 dark:text-orange-500 bg-orange-200 dark:bg-orange-900">
+<y class="m-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 (dark)text-orange-500 bg-orange-200 (dark)bg-orange-900">
   <span class="pr-1 font-semibold">
     Note:
   </span>
@@ -149,6 +149,10 @@ Same like [responsive](/responsive/), the different is the file location. To cre
 // @file `variants/non-responsive/pseudo/_visited.scss`
 // @file `variants/responsive/pseudo/_visited.scss`
 @include fontSize($prefix-visited, $pseudo-visited, $class-false);
+
+// @file `variants/non-responsive/pseudo/_checked.scss`
+// @file `variants/responsive/pseudo/_checked.scss`
+@include fontSize($prefix-checked, $pseudo-checked, $class-false);
 
 // @file `variants/non-responsive/pseudo/_disabled.scss`
 // @file `variants/responsive/pseudo/_disabled.scss`

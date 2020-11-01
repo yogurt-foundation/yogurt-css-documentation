@@ -25,7 +25,7 @@ gulp.task('purge-css', () => {
           'src/views/**/*.html'
         ],
         // make compatible for `Yogurt CSS`
-        defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || [],
+        defaultExtractor: content => content.match(/[\w-/:()]+(?<!:)/g) || [],
         whitelistPatterns: ['/-webkit-scrollbar-thumb$/']
     }))
     .pipe(rename('style.css'))

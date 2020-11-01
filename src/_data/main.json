@@ -1,17 +1,14 @@
 {
-  "sections": [
-    {
-      "label": "Getting Started",
-      "items": [
-        {
-          "label": "Introduction",
-          "url": "/"
-        },
-        {
-          "label": "Installation",
-          "url": "/installation/"
-        }
-      ]
-    }
-  ]
+  "sections": [{
+    "label": "Getting Started",
+    "items": [{
+        "label": "Introduction",
+        "url": "/"
+      },
+      {
+        "label": "Installation",
+        "url": "/installation/"
+      }
+    ]
+  }]
 }

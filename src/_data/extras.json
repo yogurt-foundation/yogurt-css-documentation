@@ -1,18 +1,14 @@
 {
-  "more": [
-    {
-     "label": "What's Next?",
-      "items": [
-        {
-         "label_external": "Try Playground",
-          "url_external": "/playground/"
-        }
-       ]
+  "more": [{
+      "label": "What's Next?",
+      "items": [{
+        "label_external": "Try Playground",
+        "url_external": "/playground/"
+      }]
     },
     {
       "label": "Get to know the framework",
-      "items": [
-        {
+      "items": [{
           "label": "Utility",
           "url": "/utility/"
         },

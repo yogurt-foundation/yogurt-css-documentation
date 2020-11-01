@@ -7,7 +7,7 @@ layout: default
 
 > Core Concept
 
-## Import Framework <span class="ml-1 px-2 py-1 text-sm text-gray-600 dark:text-charcoal-100 bg-gray-300 dark:bg-gray-600">v1.0.9</span>
+## Import Framework <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.0.9</span>
 
 The most recommended way of using Yogurt CSS is installing it with the package manager (Yarn, Npm), and importing the `.scss` file from the `node_modules` directory.
 
@@ -18,7 +18,7 @@ $ yarn add yogurt-css
 $ npm i yogurt-css
 ```
 
-<y class="my-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 dark:text-orange-500 bg-orange-200 dark:bg-orange-900">
+<y class="my-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 (dark)text-orange-500 bg-orange-200 (dark)bg-orange-900">
   <span class="pr-1 font-semibold">
     Note:
   </span>
@@ -62,8 +62,8 @@ p {
 a {
   @extend
     .text-orange-500,
-    .hover\:text-orange-600,
-    .hover\:underline;
+    .\(hover\)text-orange-600,
+    .\(hover\)underline;
 }
 
 h1 {
@@ -75,7 +75,7 @@ h1 {
 
 ### Create Empty Project Manually
 
-<y class="my-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 dark:text-orange-500 bg-orange-200 dark:bg-orange-900">
+<y class="my-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 (dark)text-orange-500 bg-orange-200 (dark)bg-orange-900">
   <span class="pr-1 font-semibold">
     Note:
   </span>
@@ -149,7 +149,7 @@ gulp.task('purge-css', () => {
           'index.html'
         ],
         // make compatible for `Yogurt CSS` framework
-        defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || [],
+        defaultExtractor: content => content.match(/[\w-/:()]+(?<!:)/g) || [],
         whitelistPatterns: [/-webkit-scrollbar-thumb$/],
         keyframes: true
     }))

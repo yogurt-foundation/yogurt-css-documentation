@@ -15,7 +15,7 @@ Utilities for sets the css properties affected by transition animations.
 
 ## Class
 
-| <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
 | transition-none | transition-property: none |
 | transition-all | transition-property: all |
@@ -34,14 +34,14 @@ Set basic transition with [Duration](/transition-duration/) and [Timing](/transf
 An example of transitioning an element with [Border Width](/border-width/) and [Box Shadow](/box-shadow/) utilities.
 
 <y class="my-2 mx-auto w-64">
-  <y class="p-4 w-48 text-center text-gray-600 font-semibold bg-gray-400 transition duration-300 ease-in-out border-4 border-gray-400 hover:border-gray-500 hover:shadow-lg rounded-lg cursor-pointer">
+  <y class="p-4 w-48 text-center text-gray-600 font-semibold bg-gray-400 transition duration-300 ease-in-out border-4 border-gray-400 (hover)border-gray-500 (hover)shadow-lg rounded-lg cursor-pointer">
   	Hover
   </y>
 </y>
 
 ```html
 <!-- Example -->
-<y class="transition duration-300 ease-in-out border-4 border-gray-400 hover:border-gray-500 hover:shadow-lg ... w-32 h-24">
+<y class="transition duration-300 ease-in-out border-4 border-gray-400 (hover)border-gray-500 (hover)shadow-lg ... w-32 h-24">
   ...
 </y>
 ```

@@ -15,7 +15,7 @@ Utilities for sets filter inverts effect to an element.
 
 ## Class
 
-| <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
 | invert-0 | filter: invert(0) |
 | invert-1 | filter: invert(1.0) |
@@ -50,14 +50,14 @@ Utilities for sets filter inverts effect to an element.
    style="background-image:url(...)"></y>
 ```
 
-<span class="ml-1 px-2 py-1 text-sm text-gray-600 dark:text-charcoal-100 bg-gray-300 dark:bg-gray-600">v1.1.1</span> Set auto dark theme enabled to an element with added `dark:` prefix.
+<span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.1</span> Set auto dark theme enabled to an element with added `(dark)` prefix.
 
 ```html
 <!-- Example -->
-<img class="invert-1 dark:invert-0 ..."
+<img class="invert-1 (dark)invert-0 ..."
      src="...">
 
-<y class="invert-1 dark:invert-0 ..."
+<y class="invert-1 (dark)invert-0 ..."
    style="background-image:url(...)"></y>
 ```
 

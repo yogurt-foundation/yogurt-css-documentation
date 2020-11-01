@@ -7,7 +7,7 @@ layout: default
 
 > Animations
 
-# Fade <span class="ml-1 px-2 py-1 text-sm text-gray-600 dark:text-charcoal-100 bg-gray-300 dark:bg-gray-600">v1.0.9</span>
+# Fade <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.0.9</span>
 
 Utilities for sets the fading animation to an element.
 
@@ -15,7 +15,7 @@ Utilities for sets the fading animation to an element.
 
 ## Class
 
-| <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">css</span> | |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> | |
 |:--|:--|:-:|
 | fade-in | @keyframes fade-in { from { opacity: 0 } to { opacity: 1 }} | <y class="text-lg animation fade-in duration-800 delay-2 loop-infinite">Text</y> |
 | fade-in-bottom-left | @keyframes fade-in-bottom-left { from { opacity: 0; transform: translate3d(-100%, 100%, 0) } to { opacity: 1; transform: translate3d(0, 0, 0) }} | <y class="text-lg animation fade-in-bottom-left duration-800 delay-2 loop-infinite">Text</y> |
@@ -36,7 +36,7 @@ Utilities for sets the fading animation to an element.
 | fade-out-top-right | @keyframes fade-out-top-right { from { opacity: 1; transform: translate3d(0, 0, 0) } to { opacity: 0; transform: translate3d(100%, -100%, 0) }} | <y class="text-lg animation fade-out-top-right duration-800 delay-2 loop-infinite">Text</y> |
 | fade-out-top-up | @keyframes fade-out-top-up { from { opacity: 1; transform: translate3d(0, 0, 0) } to { opacity: 0; transform: translate3d(0, -100%, 0) }} | <y class="text-lg animation fade-out-top-up duration-800 delay-2 loop-infinite">Text</y> |
 
-<y class="m-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 dark:bg-gray-800">
+<y class="m-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 (dark)bg-gray-800">
   <span class="pr-1 font-semibold">
     Note:
   </span>

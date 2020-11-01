@@ -7,7 +7,7 @@ layout: default
 
 > Theme
 
-# Theme Auto <span class="ml-1 px-2 py-1 text-sm text-gray-600 dark:text-charcoal-100 bg-gray-300 dark:bg-gray-600">v1.0.9</span>
+# Theme Auto <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.0.9</span>
 
 Utilities for sets page theme either dark or light based on web browser or app settings with color correction.
 
@@ -15,11 +15,11 @@ Utilities for sets page theme either dark or light based on web browser or app s
 
 ## Class
 
-| <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">attribute</span> | <span class="px-3 py-1 text-white dark:text-charcoal-100 bg-charcoal-100 dark:bg-gray-600 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">attribute</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
 | theme="auto" | @media(prefers-color-scheme: dark) { html[theme="auto"], img[theme="auto"], [theme="auto"] { filter: invert(1) hue-rotate(180deg) }} |
 
-<y class="m-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 dark:bg-gray-800">
+<y class="m-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 (dark)bg-gray-800">
   <span class="pr-1 font-semibold">
     Note:
   </span>

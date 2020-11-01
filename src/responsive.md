@@ -64,18 +64,18 @@ To add breakpoint to an utility is by follow the **utility class design** introd
 {prefix}:{class}-{modifier}
 ```
 
-To prefix the breakpoint name (e.g. `sm`, `md`, `lg`) before the `{class}` or `class name` followed by the `:` symbol.
+To prefix the breakpoint name (e.g. `sm`, `md`, `lg`) before the `{class}` or `class name` wrapped by the `()` parenthesis symbols.
 
 ```html
 <!-- Examples -->
 
 <!-- font size is xl on small screen, md on large screen-->
-<y class="sm:text-xl lg:text-md">
+<y class="(sm)text-xl (lg)text-md">
   ...
 </y>
 
 <!-- background color is charcoal on small screen, red on large screen -->
-<y class="sm:bg-charcoal-100 lg:bg-red-400">
+<y class="(sm)bg-charcoal-100 (lg)bg-red-400">
   ...
 </y>
 ```
@@ -141,6 +141,9 @@ To create responsive with variants, there are separate files for each pseudo-cla
 
 // @file `responsive/pseudo/_visited.scss`
 @include opacity($prefix-responsive-visited, $pseudo-visited, $class-false);
+
+// @file `responsive/pseudo/_checked.scss`
+@include opacity($prefix-responsive-checked, $pseudo-checked, $class-false);
 
 // @file `responsive/pseudo/_disabled.scss`
 @include opacity($prefix-responsive-disabled, $pseudo-disabled, $class-false);

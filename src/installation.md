@@ -17,7 +17,7 @@ layout: default
 @import "https://unpkg.com/yogurt-css@{{ site.version.core }}/dist/yogurt-{{ site.version.core }}_solidcore.min.css";
 ```
 
-<y class="mt-4 mx-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 dark:bg-gray-800">
+<y class="mt-4 mx-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 (dark)bg-gray-800">
   <span class="pr-1 font-semibold">
     Note:
   </span>
@@ -31,7 +31,7 @@ layout: default
   </a> for new changes.)
 </y>
 
-<y class="my-2 mx-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 dark:bg-gray-800">
+<y class="my-2 mx-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 (dark)bg-gray-800">
   <span class="pr-1 font-semibold">
     Note:
   </span>
@@ -48,7 +48,7 @@ layout: default
   </a>)
 </y>
 
-<y class="mb-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 dark:text-orange-500 bg-orange-200 dark:bg-orange-900">
+<y class="mb-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 (dark)text-orange-500 bg-orange-200 (dark)bg-orange-900">
   <span class="pr-1 font-semibold">
     Note:
   </span>
@@ -66,7 +66,7 @@ layout: default
   </a>)
 </y>
 
-## Using Yogurt via Package Manager <span class="ml-1 px-2 py-1 text-sm text-gray-600 dark:text-charcoal-100 bg-gray-300 dark:bg-gray-600">v1.0.9</span>
+## Using Yogurt via Package Manager <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.0.9</span>
 
 ```bash
 # YARN
@@ -89,7 +89,7 @@ import 'yogurt-css'
 <link href="node_modules/yogurt-css/dist/yogurt-{{ site.version.core }}_solidcore.min.css">
 ```
 
-<y class="mt-4 mx-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 dark:bg-gray-800">
+<y class="mt-4 mx-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 (dark)bg-gray-800">
   <span class="pr-1 font-semibold">
     Note:
   </span>
@@ -100,7 +100,7 @@ import 'yogurt-css'
   is a published version and always behind the latest update at the Github repository.
 </y>
 
-<y class="mt-2 mx-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 dark:bg-gray-800">
+<y class="mt-2 mx-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 (dark)bg-gray-800">
   <span class="pr-1 font-semibold">
     Note:
   </span>
@@ -141,7 +141,7 @@ $ npm i -g create-yogurt-app
 $ yogurt my-new-project
 ```
 
-<y class="my-4 mx-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 dark:bg-gray-800">
+<y class="my-4 mx-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 (dark)bg-gray-800">
   <span class="pr-1 font-semibold">
     Note:
   </span>
@@ -182,7 +182,7 @@ $ yarn && yarn start
 $ npm i && npm start
 ```
 
-<y class="my-4 mx-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 dark:bg-gray-800">
+<y class="my-4 mx-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 (dark)bg-gray-800">
   <span class="pr-1 font-semibold">
     Note:
   </span>

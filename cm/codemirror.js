@@ -25,9 +25,9 @@ var CodeMirror = (function() {
       '<header class="z-30 header h-16 top-0 flex items-center bg-gray-100 border-b-2 border-gray-200 w-full">' +
       '<y class="relative px-6 max-w-screen-xl mx-auto flex flex-row items-center justify-between w-full">' +
       '<y class="header-left mr-2 flex-shrink-0">' +
-      '<a class="header-logo block" href="/" target="_self" rel="noopener" title="Yogurt CSS">' +
-      '<img theme="auto" class="hidden mx-4 sm:block h-8 w-auto object-cover object-center overflow-hidden opacity-75" src="/images/logo/logo_full.svg" alt="Yougrt CSS">' +
-      '<img theme="auto" class="block mr-4 sm:hidden h-8 w-auto object-fit object-center overflow-hidden opacity-75" src="/images/logo/logo_small.svg" alt="Yogurt CSS"></a></y>' +
+      '<a class="header-logo block" href="/" target="_self" rel="noopener noreferer" title="Yogurt CSS">' +
+      '<img class="hidden mx-4 (sm)block h-8 w-auto object-cover object-center overflow-hidden opacity-75" src="/images/logo/logo_full.svg" alt="Yougrt CSS">' +
+      '<img class="block mr-4 (sm)hidden h-8 w-auto object-fit object-center overflow-hidden opacity-75" src="/images/logo/logo_small.svg" alt="Yogurt CSS"></a></y>' +
       '<nav class="header-nav hidden lg:flex">' +
       '<ul class="menu flex flex-col lg:flex-row items-center list-reset">' +
       '</ul></nav></y></header>' +

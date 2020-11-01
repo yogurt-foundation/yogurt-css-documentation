@@ -1,9 +1,7 @@
 {
-  "sections": [
-    {
+  "sections": [{
       "label": "Layout",
-      "items": [
-        {
+      "items": [{
           "label": "Box Sizing",
           "url": "/box-sizing/"
         },
@@ -60,8 +58,7 @@
     },
     {
       "label": "Typography",
-      "items": [
-        {
+      "items": [{
           "label": "Font Family",
           "url": "/font-family/",
           "version": "v1.1.0 (partial)"
@@ -149,8 +146,7 @@
     },
     {
       "label": "Spacing",
-      "items": [
-        {
+      "items": [{
           "label": "Equal",
           "url": "/equal/",
           "version": "v1.0.8"
@@ -167,8 +163,7 @@
     },
     {
       "label": "Backgrounds",
-      "items": [
-        {
+      "items": [{
           "label": "Background Attachment",
           "url": "/background-attachment/"
         },
@@ -211,8 +206,7 @@
     },
     {
       "label": "Borders",
-      "items": [
-        {
+      "items": [{
           "label": "Border Color",
           "url": "/border-color/"
         },
@@ -247,8 +241,7 @@
     },
     {
       "label": "Fluids",
-      "items": [
-        {
+      "items": [{
           "label": "Fluid Font Size",
           "url": "/fluid-font-size/",
           "version": "v1.0.8"
@@ -267,8 +260,7 @@
     },
     {
       "label": "Effects",
-      "items": [
-        {
+      "items": [{
           "label": "Box Shadow",
           "url": "/box-shadow/",
           "version": "v1.1.0 (partial)"
@@ -293,8 +285,7 @@
     },
     {
       "label": "Sizing",
-      "items": [
-        {
+      "items": [{
           "label": "Width",
           "url": "/width/"
         },
@@ -322,8 +313,7 @@
     },
     {
       "label": "Flexbox",
-      "items": [
-        {
+      "items": [{
           "label": "Flex",
           "url": "/flex/"
         },
@@ -376,8 +366,7 @@
     },
     {
       "label": "Interactivity",
-      "items": [
-        {
+      "items": [{
           "label": "Appearance",
           "url": "/appearance/"
         },
@@ -426,8 +415,7 @@
     },
     {
       "label": "Filters",
-      "items": [
-        {
+      "items": [{
           "label": "Brightness",
           "url": "/filter-brightness/",
           "version": ""
@@ -480,8 +468,7 @@
     },
     {
       "label": "Patterns",
-      "items": [
-        {
+      "items": [{
           "label": "Checks",
           "url": "/pattern-checks/",
           "version": ""
@@ -560,8 +547,7 @@
     },
     {
       "label": "Transforms",
-      "items": [
-        {
+      "items": [{
           "label": "Transform Origin",
           "url": "/transform-origin/"
         },
@@ -585,8 +571,7 @@
     },
     {
       "label": "Transitions",
-      "items": [
-        {
+      "items": [{
           "label": "Transition Property",
           "url": "/transition-property/"
         },
@@ -602,8 +587,7 @@
     },
     {
       "label": "Animations",
-      "items": [
-        {
+      "items": [{
           "label": "Animation Delay",
           "url": "/animation-delay/",
           "version": ""
@@ -642,8 +626,7 @@
     },
     {
       "label": "Tables",
-      "items": [
-        {
+      "items": [{
           "label": "Border Collapse",
           "url": "/border-collapse/"
         },
@@ -655,8 +638,7 @@
     },
     {
       "label": "Theme",
-      "items": [
-        {
+      "items": [{
           "label": "Theme Auto",
           "url": "/theme-auto/",
           "version": ""
@@ -670,8 +652,7 @@
     },
     {
       "label": "SVG",
-      "items": [
-        {
+      "items": [{
           "label": "Fill",
           "url": "/fill/"
         },
@@ -692,12 +673,10 @@
     },
     {
       "label": "Accessibility",
-      "items": [
-        {
-          "label": "Screen Reader",
-          "url": "/screen-reader/"
-        }
-      ]
+      "items": [{
+        "label": "Screen Reader",
+        "url": "/screen-reader/"
+      }]
     }
   ]
 }
