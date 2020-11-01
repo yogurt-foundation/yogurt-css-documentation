@@ -1,0 +1,17 @@
+{
+  "features": [{
+    "items": [{
+        "title": "Embedded Web Project",
+        "desc": "Designed for non-SEO web UI application running on embedded platforms."
+      },
+      {
+        "title": "8K Screen Size Support",
+        "desc": "Craft high-precision and detailed UI for the bigger screen resolution."
+      },
+      {
+        "title": "Blazing Fast Prototyping",
+        "desc": "Meanwhile maintains a balance between consistency and flexibility design."
+      }
+    ]
+  }]
+}
