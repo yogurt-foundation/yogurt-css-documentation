@@ -36,13 +36,13 @@ These are the default breakpoints covering for almost all common device resoluti
 
 ### Modern Breakpoints
 
-These are the breakpoints for new modern ultra-widescreen size and not enabled by default. It will come in handy when designing a user interface specifically for ultra-wide screens.
+Some breakpoints for new modern ultra-widescreen size are not enabled by default. It will come in handy when designing a user interface specifically for ultra-wide screens.
 
 ```css
 /* 3k */
 @media (min-width: 2560px) { ... }
 
-/* 4k */
+/* 4k (default) */
 @media (min-width: 3840px) { ... }
 
 /* 5k */
@@ -54,22 +54,22 @@ These are the breakpoints for new modern ultra-widescreen size and not enabled b
 /* 7k */
 @media (min-width: 7000px) { ... }
 
-/* 8k */
+/* 8k (default) v1.1.3 */
 @media (min-width: 7680px) { ... }
 ```
 
-To add breakpoint to an utility is by follow the **utility class design** introduced early in the [Introduction](/) page.
+To add breakpoint to an utility is by follow the **utility class design** introduced early in the [Introduction](/#utility-class-design) page.
 
 ```html
 {prefix}:{class}-{modifier}
 ```
 
-To prefix the breakpoint name (e.g. `sm`, `md`, `lg`) before the `{class}` or `class name` wrapped by the `()` parenthesis symbols.
+To prefix the breakpoint name (e.g. `xs`, `sm`, `md`, `lg` and so on) before the `{class}` or `class name` wrapped with the `(`, `)` parenthesis characters.
 
 ```html
 <!-- Examples -->
 
-<!-- font size is xl on small screen, md on large screen-->
+<!-- font size is xl on small screen, md on large screen -->
 <y class="(sm)text-xl (lg)text-md">
   ...
 </y>
@@ -98,7 +98,7 @@ $screens:
   (\35k, 5120px), // 5k (optional)
   (\36k, 5760px), // 6k (optional)
   (\37k, 7000px), // 7k (optional)
-  (\38k, 7680px); // 8k (optional)
+  (\38k, 7680px); // 8k
 ```
 
 ### Create Custom Responsive
