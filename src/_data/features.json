@@ -1,7 +1,7 @@
 {
   "features": [{
     "items": [{
-        "title": "Embedded Web Project",
+        "title": "Embedded Web UI Project",
         "desc": "Designed for non-SEO web UI application running on embedded platforms."
       },
       {
