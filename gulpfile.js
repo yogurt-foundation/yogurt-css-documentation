@@ -103,7 +103,7 @@ gulp.task('codemirror', () => {
 
 gulp.task('codemirror-yogurtcss', () => {
   return gulp.src([
-      'css/yogurt-1.1.2_solidcore.min.css'
+      'css/yogurt-*_solidcore.min.css'
     ])
     .pipe(gulp.dest('./dist'))
 })
