@@ -132,7 +132,7 @@ Add the `(dark)` prefix to an utility when dark theme settings enabled.
   </a>,
   <a href="/placeholder-color/">
     Placeholder Color
-  </a>
+  </a>,
   <a href="/box-shadow-color/">
     Shadow Color
   </a>,
