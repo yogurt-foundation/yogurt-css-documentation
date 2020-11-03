@@ -2,10 +2,10 @@
   "features": [{
     "items": [{
         "title": "Embedded Web UI Project",
-        "desc": "Designed for non-SEO web UI application running on embedded platforms."
+        "desc": "It is made for non-SEO web UI application running on embedded platforms."
       },
       {
-        "title": "8K Screen Size Support",
+        "title": "Up to 8K Screen Size",
         "desc": "Craft high-precision and detailed UI for the bigger screen resolution."
       },
       {
