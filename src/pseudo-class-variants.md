@@ -51,7 +51,7 @@ Add `(group)` class to the parent element and add the `(group-focus)` prefix to 
 
 ```html
 <!-- Example -->
-<y class="(group) bg-charcoal-100 (hover)bg-orange-400">
+<y class="(group) bg-charcoal-100 (focus)bg-orange-400">
   <y class="(group-focus)text-white">
     ...
   </y>
