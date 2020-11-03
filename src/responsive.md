@@ -13,9 +13,22 @@ Craft an adaptive user interface with responsive utility variants.
 
 Every utility class in Yogurt can be configured instantly with different breakpoints without leaving your HTML and without even using the `@media` in your CSS.
 
+## Inherit
+
+Any of the breakpoints that prefixed with an utility, the utility value can be inherit from the smaller width to the maximum width. Which is mean, the smaller-breakpoint-first, the rest follows it. Take an example below.
+
+```html
+<!-- Example -->
+<y class="(xs)text-lg (2k)text-4xl">
+  ...
+</y>
+```
+
+We have text size is `lg` at `sm` breakpoint, and text size is `4xl` at `2k` breakpoint. The rest of the breakpoints that not defined are `sm`, `md`, `lg` and `xl` will inherit the `xs`'s utility value, at the same time `4k`, `8k` will inherit the `2k`'s utility value.
+
 ### Common Breakpoints
 
-These are the default breakpoints covering for almost all common device resolutions.
+These are the default breakpoints covering for almost all common device and HAT module (embedded platform) resolutions.
 
 ```css
 /* Extra Small (xs) */
@@ -36,7 +49,7 @@ These are the default breakpoints covering for almost all common device resoluti
 
 ### Modern Breakpoints
 
-Some breakpoints for new modern ultra-widescreen size are not enabled by default. It will come in handy when designing a user interface specifically for ultra-wide screens.
+Some breakpoints for new modern ultra-largescreen and ultra-widescreen sizes are not enabled by default. It will come in handy when designing a user interface specifically for uncommon bigger screens.
 
 ```css
 /* 3k */
@@ -58,10 +71,10 @@ Some breakpoints for new modern ultra-widescreen size are not enabled by default
 @media (min-width: 7680px) { ... }
 ```
 
-To add breakpoint to an utility is by follow the **utility class design** introduced early in the [Introduction](/#utility-class-design) page.
+To add breakpoint to an utility is by follow the [Utility Class Design](/#utility-class-design).
 
 ```html
-{prefix}:{class}-{modifier}
+{(prefix)}{class}-{modifier}
 ```
 
 To prefix the breakpoint name (e.g. `xs`, `sm`, `md`, `lg` and so on) before the `{class}` or `class name` wrapped with the `(`, `)` parenthesis characters.

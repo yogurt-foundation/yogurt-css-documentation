@@ -85,18 +85,7 @@ gulp.task('service-worker', () => {
 
 gulp.task('codemirror', () => {
   return gulp.src([
-      'cm/bright.css',
-      'cm/codemirror.css',
-      'cm/codemirror.js',
-      'cm/css.js',
-      'cm/default.css',
-      'cm/foldcode.js',
-      'cm/htmlmixed.js',
-      'cm/javascript.js',
-      'cm/jslint.js',
-      'cm/settings.js',
-      'cm/template.js',
-      'cm/xml.js'
+      'cm/*'
     ])
     .pipe(gulp.dest('./dist/codemirror'))
 })
