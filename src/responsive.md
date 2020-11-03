@@ -87,7 +87,7 @@ To completely customize breakpoints is in the `_config.scss` file,
 ```scss
 // @file `_config.scss`
 $screens:
-  (xs, 320px), // (primitive)
+  (xs, 320px),
   (sm, 640px),
   (md, 768px),
   (lg, 1024px),
