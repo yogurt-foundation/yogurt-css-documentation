@@ -43,7 +43,19 @@ Add the `(focus)` prefix to an utility to enable on-focus.
 <!-- Example -->
 <input class="bg-gray-100 (focus)bg-charcoal-100 border-transparent (focus)border-gray-200"
        placeholder="Focus me!">
+```
 
+### Group-Focus
+
+Add `(group)` class to the parent element and add the `(group-focus)` prefix to an utility on the child element to enable group-focus.
+
+```html
+<!-- Example -->
+<y class="(group) bg-charcoal-100 (hover)bg-orange-400">
+  <y class="(group-focus)text-white">
+    ...
+  </y>
+</y>
 ```
 
 ### Active
