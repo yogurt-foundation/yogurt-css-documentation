@@ -18,7 +18,7 @@ Every utility class in Yogurt can be configured instantly with different breakpo
 These are the default breakpoints covering for almost all common device resolutions.
 
 ```css
-/* Extra Small (xs) (primitive) */
+/* Extra Small (xs) */
 @media (min-width: 320px) { ... }
 
 /* Small (sm) */
