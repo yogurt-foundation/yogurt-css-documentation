@@ -123,7 +123,7 @@ When styling the elements with Yogurt, you don't have to write like the example 
 </y>
 ```
 
-To find out more about the **tag shorthand**, **utility class design** and **best practice** (See [Introduction](/)).
+To find out more about the [Tag Shorthand](/#tag-shorthand), [Utility Class Design](/#utility-class-design) and [Best Practice](/#best-practice).
 
 Read more about advanced framework usages such as [Import Framework](/import-framework/), [Extract Utility Classes](/extract-utility-classes/), [Refactoring UI](/refactoring-ui/), and [Plugin API](/plugin-api/).
 
