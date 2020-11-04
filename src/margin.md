@@ -37,12 +37,12 @@ Utilities for controls margin (and negative margin) in 0.25rem increments.
 | m-48 | margin: 12rem |
 | m-56 | margin: 14rem |
 | m-64 | margin: 16rem |
-| m-72 | margin: 18rem |
-| m-80 | margin: 20rem |
-| m-88 | margin: 22rem |
-| m-96 | margin: 24rem |
-| m-104 | margin: 26rem |
-| m-112 | margin: 28rem |
+| m-72 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin: 18rem |
+| m-80 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin: 20rem |
+| m-88 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin: 22rem |
+| m-96 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin: 24rem |
+| m-104 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin: 26rem |
+| m-112 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin: 28rem |
 | -m-px | margin: -1px |
 | -m-1 | margin: -0.25rem |
 | -m-2 | margin: -0.5rem |
@@ -61,12 +61,12 @@ Utilities for controls margin (and negative margin) in 0.25rem increments.
 | -m-48 | margin: -12rem |
 | -m-56 | margin: -14rem |
 | -m-64 | margin: -16rem |
-| -m-72 | margin: -18rem |
-| -m-80 | margin: -20rem |
-| -m-88 | margin: -22rem |
-| -m-96 | margin: -24rem |
-| -m-104 | margin: -26rem |
-| -m-112 | margin: -28rem |
+| -m-72 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin: -18rem |
+| -m-80 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin: -20rem |
+| -m-88 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin: -22rem |
+| -m-96 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin: -24rem |
+| -m-104 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin: -26rem |
+| -m-112 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin: -28rem |
 | mx-auto | margin-right: auto; <br> margin-left: auto |
 | mx-px | margin-right: 1px; <br> margin-left: 1px |
 | mx-0 | margin-right: 0; <br> margin-left: 0 |
@@ -87,12 +87,12 @@ Utilities for controls margin (and negative margin) in 0.25rem increments.
 | mx-48 | margin-right: 12rem; <br> margin-left: 12rem |
 | mx-56 | margin-right: 14rem; <br> margin-left: 14rem |
 | mx-64 | margin-right: 16rem; <br> margin-left: 16rem |
-| mx-72 | margin-right: 18rem; <br> margin-left: 18rem |
-| mx-80 | margin-right: 20rem; <br> margin-left: 20rem |
-| mx-88 | margin-right: 22rem; <br> margin-left: 22rem |
-| mx-96 | margin-right: 24rem; <br> margin-left: 24rem |
-| mx-104 | margin-right: 26rem <br> margin-left: 26rem |
-| mx-112 | margin-right: 28rem <br> margin-left: 28rem |
+| mx-72 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-right: 18rem; <br> margin-left: 18rem |
+| mx-80 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-right: 20rem; <br> margin-left: 20rem |
+| mx-88 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-right: 22rem; <br> margin-left: 22rem |
+| mx-96 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-right: 24rem; <br> margin-left: 24rem |
+| mx-104 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-right: 26rem <br> margin-left: 26rem |
+| mx-112 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-right: 28rem <br> margin-left: 28rem |
 | -mx-px | margin-right: -1px; <br> margin-left: -1px |
 | -mx-1 | margin-right: -0.25rem; <br> margin-left: -0.25rem |
 | -mx-2 | margin-right: -0.5rem; <br> margin-left: -0.5rem |
@@ -111,12 +111,12 @@ Utilities for controls margin (and negative margin) in 0.25rem increments.
 | -mx-48 | margin-right: -12rem; <br> margin-left: -12rem |
 | -mx-56 | margin-right: -14rem; <br> margin-left: -14rem |
 | -mx-64 | margin-right: -16rem; <br> margin-left: -16rem |
-| -mx-72 | margin-right: -18rem; <br> margin-left: -18rem |
-| -mx-80 | margin-right: -20rem; <br> margin-left: -20rem |
-| -mx-88 | margin-right: -22rem; <br> margin-left: -22rem |
-| -mx-96 | margin-right: -24rem; <br> margin-left: -24rem |
-| -mx-104 | margin-right: -26rem; <br> margin-left: -26rem |
-| -mx-112 | margin-right: -28rem; <br> margin-left: -28rem |
+| -mx-72 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-right: -18rem; <br> margin-left: -18rem |
+| -mx-80 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-right: -20rem; <br> margin-left: -20rem |
+| -mx-88 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-right: -22rem; <br> margin-left: -22rem |
+| -mx-96 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-right: -24rem; <br> margin-left: -24rem |
+| -mx-104 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-right: -26rem; <br> margin-left: -26rem |
+| -mx-112 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-right: -28rem; <br> margin-left: -28rem |
 | my-auto | margin-top: auto; <br> margin-bottom: auto |
 | my-px | margin-top: 1px; <br> margin-bottom: 1px |
 | my-0 | margin-top: 0; <br> margin-bottom: 0 |
@@ -137,12 +137,12 @@ Utilities for controls margin (and negative margin) in 0.25rem increments.
 | my-48 | margin-top: 12rem; <br> margin-bottom: 12rem |
 | my-56 | margin-top: 14rem; <br> margin-bottom: 14rem |
 | my-64 | margin-top: 16rem; <br> margin-bottom: 16rem |
-| my-72 | margin-top: 18rem; <br> margin-bottom: 18rem |
-| my-80 | margin-top: 20rem; <br> margin-bottom: 20rem |
-| my-88 | margin-top: 22rem; <br> margin-bottom: 22rem |
-| my-96 | margin-top: 24rem; <br> margin-bottom: 24rem |
-| my-104 | margin-top: 26rem; <br> margin-bottom: 26rem |
-| my-112 | margin-top: 28rem; <br> margin-bottom: 28rem |
+| my-72 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-top: 18rem; <br> margin-bottom: 18rem |
+| my-80 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-top: 20rem; <br> margin-bottom: 20rem |
+| my-88 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-top: 22rem; <br> margin-bottom: 22rem |
+| my-96 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-top: 24rem; <br> margin-bottom: 24rem |
+| my-104 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-top: 26rem; <br> margin-bottom: 26rem |
+| my-112 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-top: 28rem; <br> margin-bottom: 28rem |
 | -my-px | margin-top: -1px; <br> margin-bottom: -1px |
 | -my-1 | margin-top: -0.25rem; <br> margin-bottom: -0.25rem |
 | -my-2 | margin-top: -0.5rem; <br> margin-bottom: -0.5rem |
@@ -161,12 +161,12 @@ Utilities for controls margin (and negative margin) in 0.25rem increments.
 | -my-48 | margin-top: -12rem; <br> margin-bottom: -12rem |
 | -my-56 | margin-top: -14rem; <br> margin-bottom: -14rem |
 | -my-64 | margin-top: -16rem; <br> margin-bottom: -16rem |
-| -my-72 | margin-top: -18rem; <br> margin-bottom: -18rem |
-| -my-80 | margin-top: -20rem; <br> margin-bottom: -20rem |
-| -my-88 | margin-top: -22rem; <br> margin-bottom: -22rem |
-| -my-96 | margin-top: -24rem; <br> margin-bottom: -24rem |
-| -my-104 | margin-top: -26rem; <br> margin-bottom: -26rem |
-| -my-112 | margin-top: -28rem; <br> margin-bottom: -28rem |
+| -my-72 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-top: -18rem; <br> margin-bottom: -18rem |
+| -my-80 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-top: -20rem; <br> margin-bottom: -20rem |
+| -my-88 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-top: -22rem; <br> margin-bottom: -22rem |
+| -my-96 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-top: -24rem; <br> margin-bottom: -24rem |
+| -my-104 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-top: -26rem; <br> margin-bottom: -26rem |
+| -my-112 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-top: -28rem; <br> margin-bottom: -28rem |
 | mt-auto | margin-top: auto |
 | mt-px | margin-top: 1px |
 | mt-0 | margin-top: 0 |
@@ -187,12 +187,12 @@ Utilities for controls margin (and negative margin) in 0.25rem increments.
 | mt-48 | margin-top: 12rem |
 | mt-56 | margin-top: 14rem |
 | mt-64 | margin-top: 16rem |
-| mt-72 | margin-top: 18rem |
-| mt-80 | margin-top: 20rem |
-| mt-88 | margin-top: 22rem |
-| mt-96 | margin-top: 24rem |
-| mt-104 | margin-top: 26rem |
-| mt-112 | margin-top: 28rem |
+| mt-72 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-top: 18rem |
+| mt-80 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-top: 20rem |
+| mt-88 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-top: 22rem |
+| mt-96 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-top: 24rem |
+| mt-104 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-top: 26rem |
+| mt-112 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-top: 28rem |
 | -mt-px | margin-top: -1px |
 | -mt-1 | margin-top: -0.25rem |
 | -mt-2 | margin-top: -0.5rem |
@@ -211,12 +211,12 @@ Utilities for controls margin (and negative margin) in 0.25rem increments.
 | -mt-48 | margin-top: -12rem |
 | -mt-56 | margin-top: -14rem |
 | -mt-64 | margin-top: -16rem |
-| -mt-72 | margin-top: -18rem |
-| -mt-80 | margin-top: -20rem |
-| -mt-88 | margin-top: -22rem |
-| -mt-96 | margin-top: -24rem |
-| -mt-104 | margin-top: -26rem |
-| -mt-112 | margin-top: -28rem |
+| -mt-72 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-top: -18rem |
+| -mt-80 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-top: -20rem |
+| -mt-88 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-top: -22rem |
+| -mt-96 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-top: -24rem |
+| -mt-104 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-top: -26rem |
+| -mt-112 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-top: -28rem |
 | mr-auto | margin-right: auto |
 | mr-px | margin-right: 1px |
 | mr-0 | margin-right: 0 |
@@ -237,12 +237,12 @@ Utilities for controls margin (and negative margin) in 0.25rem increments.
 | mr-48 | margin-right: 12rem |
 | mr-56 | margin-right: 14rem |
 | mr-64 | margin-right: 16rem |
-| mr-72 | margin-right: 18rem |
-| mr-80 | margin-right: 20rem |
-| mr-88 | margin-right: 22rem |
-| mr-96 | margin-right: 24rem |
-| mr-104 | margin-right: 26rem |
-| mr-112 | margin-right: 28rem |
+| mr-72 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-right: 18rem |
+| mr-80 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-right: 20rem |
+| mr-88 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-right: 22rem |
+| mr-96 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-right: 24rem |
+| mr-104 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-right: 26rem |
+| mr-112 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-right: 28rem |
 | -mr-px | margin-right: -1px |
 | -mr-1 | margin-right: -0.25rem |
 | -mr-2 | margin-right: -0.5rem |
@@ -261,12 +261,12 @@ Utilities for controls margin (and negative margin) in 0.25rem increments.
 | -mr-48 | margin-right: -12rem |
 | -mr-56 | margin-right: -14rem |
 | -mr-64 | margin-right: -16rem |
-| -mr-72 | margin-right: -18rem |
-| -mr-80 | margin-right: -20rem |
-| -mr-88 | margin-right: -22rem |
-| -mr-96 | margin-right: -24rem |
-| -mr-104 | margin-right: -26rem |
-| -mr-112 | margin-right: -28rem |
+| -mr-72 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-right: -18rem |
+| -mr-80 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-right: -20rem |
+| -mr-88 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-right: -22rem |
+| -mr-96 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-right: -24rem |
+| -mr-104 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-right: -26rem |
+| -mr-112 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-right: -28rem |
 | mb-auto | margin-bottom: auto |
 | mb-px | margin-bottom: 1px |
 | mb-0 | margin-bottom: 0 |
@@ -287,12 +287,12 @@ Utilities for controls margin (and negative margin) in 0.25rem increments.
 | mb-48 | margin-bottom: 12rem |
 | mb-56 | margin-bottom: 14rem |
 | mb-64 | margin-bottom: 16rem |
-| mb-72 | margin-bottom: 18rem |
-| mb-80 | margin-bottom: 20rem |
-| mb-88 | margin-bottom: 22rem |
-| mb-96 | margin-bottom: 24rem |
-| mb-104 | margin-bottom: 26rem |
-| mb-112 | margin-bottom: 28rem |
+| mb-72 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-bottom: 18rem |
+| mb-80 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-bottom: 20rem |
+| mb-88 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-bottom: 22rem |
+| mb-96 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-bottom: 24rem |
+| mb-104 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-bottom: 26rem |
+| mb-112 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-bottom: 28rem |
 | -mb-px | margin-bottom: -1px |
 | -mb-1 | margin-bottom: -0.25rem |
 | -mb-2 | margin-bottom: -0.5rem |
@@ -311,12 +311,12 @@ Utilities for controls margin (and negative margin) in 0.25rem increments.
 | -mb-48 | margin-bottom: -12rem |
 | -mb-56 | margin-bottom: -14rem |
 | -mb-64 | margin-bottom: -16rem |
-| -mb-72 | margin-bottom: -18rem |
-| -mb-80 | margin-bottom: -20rem |
-| -mb-88 | margin-bottom: -22rem |
-| -mb-96 | margin-bottom: -24rem |
-| -mb-104 | margin-bottom: -26rem |
-| -mb-112 | margin-bottom: -28rem |
+| -mb-72 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-bottom: -18rem |
+| -mb-80 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-bottom: -20rem |
+| -mb-88 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-bottom: -22rem |
+| -mb-96 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-bottom: -24rem |
+| -mb-104 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-bottom: -26rem |
+| -mb-112 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-bottom: -28rem |
 | ml-auto | margin-left: auto |
 | ml-px | margin-left: 1px |
 | ml-0 | margin-left: 0 |
@@ -337,12 +337,12 @@ Utilities for controls margin (and negative margin) in 0.25rem increments.
 | ml-48 | margin-left: 12rem |
 | ml-56 | margin-left: 14rem |
 | ml-64 | margin-left: 16rem |
-| ml-72 | margin-left: 18rem |
-| ml-80 | margin-left: 20rem |
-| ml-88 | margin-left: 22rem |
-| ml-96 | margin-left: 24rem |
-| ml-104 | margin-left: 26rem |
-| ml-112 | margin-left: 28rem |
+| ml-72 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-left: 18rem |
+| ml-80 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-left: 20rem |
+| ml-88 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-left: 22rem |
+| ml-96 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-left: 24rem |
+| ml-104 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-left: 26rem |
+| ml-112 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-left: 28rem |
 | -ml-px | margin-left: -1px |
 | -ml-1 | margin-left: -0.25rem |
 | -ml-2 | margin-left: -0.5rem |
@@ -361,12 +361,12 @@ Utilities for controls margin (and negative margin) in 0.25rem increments.
 | -ml-48 | margin-left: -12rem |
 | -ml-56 | margin-left: -14rem |
 | -ml-64 | margin-left: -16rem |
-| -ml-72 | margin-left: -18rem |
-| -ml-80 | margin-left: -20rem |
-| -ml-88 | margin-left: -22rem |
-| -ml-96 | margin-left: -24rem |
-| -ml-104 | margin-left: -26rem |
-| -ml-112 | margin-left: -28rem |
+| -ml-72 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-left: -18rem |
+| -ml-80 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-left: -20rem |
+| -ml-88 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-left: -22rem |
+| -ml-96 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-left: -24rem |
+| -ml-104 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-left: -26rem |
+| -ml-112 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | margin-left: -28rem |
 
 ---
 
