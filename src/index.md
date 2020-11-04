@@ -10,7 +10,8 @@ layout: home
 <y class="pb-4">
   <img class="w-full h-full object-cover object-center rounded-lg"
        src="images/content/yogurt_promo.png"
-       alt="Yogurt">
+       loading="lazy"
+       alt="Yogurt Promo Header">
 </y>
 
 ### Introduction

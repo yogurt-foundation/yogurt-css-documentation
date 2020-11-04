@@ -61,7 +61,9 @@ To simulate `theme="invert"` on a Chrome-based web browser at the developer tool
 <y class="mx-4 py-4">
   <img theme="auto"
        class="w-full h-full object-fit object-center rounded-lg"
-       src="/images/content/simulate_theme.jpg">
+       src="/images/content/simulate_theme.jpg"
+       loading="lazy"
+       alt="Chrome prefers-color-scheme simulator">
 </y>
 
 ---

@@ -155,7 +155,9 @@ $ yogurt my-new-project
 <y class="mx-4 py-4">
   <img theme=""
        class="filter saturate-5 w-full h-full object-fit object-center rounded-lg"
-       src="/images/content/yogurt_cli_screenshot_01.png">
+       src="/images/content/yogurt_cli_screenshot_01.png"
+       loading="lazy"
+       alt="Yogurt Playground">
 </y>
 
 ## Using Yogurt via Playground
