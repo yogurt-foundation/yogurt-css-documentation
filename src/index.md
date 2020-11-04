@@ -8,8 +8,8 @@ layout: home
 {% include "news.njk" %}
 
 <y class="pb-4">
-  <img class="w-full h-full object-cover object-center rounded-lg opacity-75"
-       src="images/content/yogurt_promo.jpg"
+  <img class="w-full h-full object-cover object-center rounded-lg"
+       src="images/content/yogurt_promo.png"
        alt="Yogurt">
 </y>
 
