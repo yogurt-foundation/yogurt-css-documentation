@@ -63,8 +63,8 @@ gulp.task('purge-css', () => {
   return gulp.src('./dist/pre.css')
     .pipe(purgeCss({
         content: [
-          'dist/**/*.html',
-          'dist/*.js'
+          'dist/**/**/*.html',
+          'dist/**/**/*.js'
         ],
         // make compatible for `Yogurt CSS framework`
         defaultExtractor: content => content.match(/[\w-/:()]+(?<!:)/g) || [],
