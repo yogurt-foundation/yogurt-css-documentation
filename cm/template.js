@@ -16,9 +16,6 @@ var PrototypeTemplate = '<!DOCTYPE html><html ><head><meta charset="utf-8"><meta
           John Doe\n\
         </y>\n\
       </y>\n\
-      <y class="fixed bottom-10 right-10 px-4 py-1 text-sm text-center font-semibold text-white bg-red-600 rounded animation fade-in-up delay-2">\n\
-        Data lost if browser refreshed!\n\
-      </y>\n\
       <y class="fixed bottom-16 right-5 px-4 py-1 text-sm text-center text-white bg-red-600 rounded animation fade-in-up duration-100 delay-2">\n\
         Data lost if browser refreshed!\n\
       </y>\n\
