@@ -17,6 +17,10 @@ Utilities for sets the width of an element.
 
 | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
+| w-auto | width: auto |
+| w-full | width: 100% |
+| w-screen | width: 100vw |
+| w-px | width: 1px |
 | w-0 | width: 0 |
 | w-1 | width: 0.25rem |
 | w-2 | width: 0.5rem |
@@ -35,8 +39,12 @@ Utilities for sets the width of an element.
 | w-48 | width: 12rem |
 | w-56 | width: 14rem |
 | w-64 | width: 16rem |
-| w-auto | width: auto |
-| w-px | width: 1px |
+| w-72 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | width: 18rem |
+| w-80 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | width: 20rem |
+| w-88 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | width: 22rem |
+| w-96 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | width: 24rem |
+| w-104 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | 26rem |
+| w-112 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | 28rem |
 | w-1/2 | width: 50% |
 | w-1/3 | width: 33.333333% |
 | w-2/3 | width: 66.666667% |
@@ -63,8 +71,6 @@ Utilities for sets the width of an element.
 | w-9/12 | width: 75% |
 | w-10/12 | width: 83.333333% |
 | w-11/12 | width: 91.666667% |
-| w-full | width: 100% |
-| w-screen | width: 100vw |
 
 ---
 
