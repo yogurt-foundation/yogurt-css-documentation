@@ -21,14 +21,14 @@ You can customize the Yogurt default configuration file by adding or removing th
 ```scss
 // @file `src/_config.scss`
 $screens:
-  (xs, 320px), // (primitive)
+  (xs, 320px),
   (sm, 640px),
   (md, 768px),
   (lg, 1024px),
   (xl, 1280px),
   (\32k, 1920px), // 2k
   (\33k, 2560px), // 3k
-  (\34k, 3840px); // 4k
+  (\34k, 3840px), // 4k
   (\35k, 5120px), // 5k
   (\36k, 5760px), // 6k
   (\37k, 7000px), // 7k

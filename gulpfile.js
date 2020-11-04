@@ -85,25 +85,14 @@ gulp.task('service-worker', () => {
 
 gulp.task('codemirror', () => {
   return gulp.src([
-      'cm/bright.css',
-      'cm/codemirror.css',
-      'cm/codemirror.js',
-      'cm/css.js',
-      'cm/default.css',
-      'cm/foldcode.js',
-      'cm/htmlmixed.js',
-      'cm/javascript.js',
-      'cm/jslint.js',
-      'cm/settings.js',
-      'cm/template.js',
-      'cm/xml.js'
+      'cm/*'
     ])
     .pipe(gulp.dest('./dist/codemirror'))
 })
 
 gulp.task('codemirror-yogurtcss', () => {
   return gulp.src([
-      'css/yogurt-1.1.2_solidcore.min.css'
+      'css/yogurt-*_solidcore.min.css'
     ])
     .pipe(gulp.dest('./dist'))
 })
