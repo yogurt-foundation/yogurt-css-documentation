@@ -17,6 +17,7 @@ Utilities for controls padding in 0.25rem increments.
 
 | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
+| p-px | padding: 1px |
 | p-0 | padding: 0 |
 | p-1 | padding: 0.25rem |
 | p-2 | padding: 0.5rem |
@@ -35,26 +36,13 @@ Utilities for controls padding in 0.25rem increments.
 | p-48 | padding: 12rem |
 | p-56 | padding: 14rem |
 | p-64 | padding: 16rem |
-| p-px | padding: 1px |
-| py-0 | padding-top: 0; <br> padding-bottom: 0 |
-| py-1 | padding-top: 0.25rem; <br> padding-bottom: 0.25rem |
-| py-2 | padding-top: 0.5rem; <br> padding-bottom: 0.5rem |
-| py-3 | padding-top: 0.75rem; <br> padding-bottom: 0.75rem |
-| py-4 | padding-top: 1rem; <br> padding-bottom: 1rem |
-| py-5 | padding-top: 1.25rem; <br> padding-bottom: 1.25rem |
-| py-6 | padding-top: 1.5rem; <br> padding-bottom: 1.5rem |
-| py-8 | padding-top: 2rem; <br> padding-bottom: 2rem |
-| py-10 | padding-top: 2.5rem; <br> padding-bottom: 2.5rem |
-| py-12 | padding-top: 3rem; <br> padding-bottom: 3rem |
-| py-16 | padding-top: 4rem; <br> padding-bottom: 4rem |
-| py-20 | padding-top: 5rem; <br> padding-bottom: 5rem |
-| py-24 | padding-top: 6rem; <br> padding-bottom: 6rem |
-| py-32 | padding-top: 8rem; <br> padding-bottom: 8rem |
-| py-40 | padding-top: 10rem; <br> padding-bottom: 10rem |
-| py-48 | padding-top: 12rem; <br> padding-bottom: 12rem |
-| py-56 | padding-top: 14rem; <br> padding-bottom: 14rem |
-| py-64 | padding-top: 16rem; <br> padding-bottom: 16rem |
-| py-px | padding-top: 1px; <br> padding-bottom: 1px |
+| p-72 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | padding: 18rem |
+| p-80 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | padding: 20rem |
+| p-88 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | padding: 22rem |
+| p-96 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | padding: 24rem |
+| p-104 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | padding: 26rem |
+| p-112 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | padding: 28rem |
+| px-px | padding-right: 1px; <br> padding-left: 1px |
 | px-0 | padding-right: 0; <br> padding-left: 0 |
 | px-1 | padding-right: 0.25rem; <br> padding-left: 0.25rem |
 | px-2 | padding-right: 0.5rem; <br> padding-left: 0.5rem |
@@ -73,7 +61,38 @@ Utilities for controls padding in 0.25rem increments.
 | px-48 | padding-right: 12rem; <br> padding-left: 12rem |
 | px-56 | padding-right: 14rem; <br> padding-left: 14rem |
 | px-64 | padding-right: 16rem; <br> padding-left: 16rem |
-| px-px | padding-right: 1px; <br> padding-left: 1px |
+| px-72 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | padding-right: 18rem; <br> padding-left: 18rem |
+| px-80 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | padding-right: 20rem; <br> padding-left: 20rem |
+| px-88 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | padding-right: 22rem; <br> padding-left: 22rem |
+| px-96 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | padding-right: 24rem; <br> padding-left: 24rem |
+| px-104 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | padding-right: 26rem; <br> padding-left: 26rem |
+| px-112 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | padding-right: 28rem; <br> padding-left: 28rem |
+| py-px | padding-top: 1px; <br> padding-bottom: 1px |
+| py-0 | padding-top: 0; <br> padding-bottom: 0 |
+| py-1 | padding-top: 0.25rem; <br> padding-bottom: 0.25rem |
+| py-2 | padding-top: 0.5rem; <br> padding-bottom: 0.5rem |
+| py-3 | padding-top: 0.75rem; <br> padding-bottom: 0.75rem |
+| py-4 | padding-top: 1rem; <br> padding-bottom: 1rem |
+| py-5 | padding-top: 1.25rem; <br> padding-bottom: 1.25rem |
+| py-6 | padding-top: 1.5rem; <br> padding-bottom: 1.5rem |
+| py-8 | padding-top: 2rem; <br> padding-bottom: 2rem |
+| py-10 | padding-top: 2.5rem; <br> padding-bottom: 2.5rem |
+| py-12 | padding-top: 3rem; <br> padding-bottom: 3rem |
+| py-16 | padding-top: 4rem; <br> padding-bottom: 4rem |
+| py-20 | padding-top: 5rem; <br> padding-bottom: 5rem |
+| py-24 | padding-top: 6rem; <br> padding-bottom: 6rem |
+| py-32 | padding-top: 8rem; <br> padding-bottom: 8rem |
+| py-40 | padding-top: 10rem; <br> padding-bottom: 10rem |
+| py-48 | padding-top: 12rem; <br> padding-bottom: 12rem |
+| py-56 | padding-top: 14rem; <br> padding-bottom: 14rem |
+| py-64 | padding-top: 16rem; <br> padding-bottom: 16rem |
+| py-72 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | padding-top: 18rem; <br> padding-bottom: 18rem |
+| py-80 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | padding-top: 20rem; <br> padding-bottom: 20rem |
+| py-88 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | padding-top: 22rem; <br> padding-bottom: 22rem |
+| py-96 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | padding-top: 24rem; <br> padding-bottom: 24rem |
+| py-104 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | padding-top: 26rem; <br> padding-bottom: 26rem |
+| py-112 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | padding-top: 28rem; <br> padding-bottom: 28rem |
+| pt-px | padding-top: 1px |
 | pt-0 | padding-top: 0 |
 | pt-1 | padding-top: 0.25rem |
 | pt-2 | padding-top: 0.5rem |
@@ -92,7 +111,13 @@ Utilities for controls padding in 0.25rem increments.
 | pt-48 | padding-top: 12rem |
 | pt-56 | padding-top: 14rem |
 | pt-64 | padding-top: 16rem |
-| pt-px | padding-top: 1px |
+| pt-72 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | padding-top: 18rem |
+| pt-80 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | padding-top: 20rem |
+| pt-88 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | padding-top: 22rem |
+| pt-96 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | padding-top: 24rem |
+| pt-104 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | padding-top: 26rem |
+| pt-112 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | padding-top: 28rem |
+| pr-px | padding-right: 1px |
 | pr-0 | padding-right: 0 |
 | pr-1 | padding-right: 0.25rem |
 | pr-2 | padding-right: 0.5rem |
@@ -111,7 +136,13 @@ Utilities for controls padding in 0.25rem increments.
 | pr-48 | padding-right: 12rem |
 | pr-56 | padding-right: 14rem |
 | pr-64 | padding-right: 16rem |
-| pr-px | padding-right: 1px |
+| pr-72 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | padding-right: 18rem |
+| pr-80 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | padding-right: 20rem |
+| pr-88 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | padding-right: 22rem |
+| pr-96 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | padding-right: 24rem |
+| pr-104 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | padding-right: 26rem |
+| pr-112 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | padding-right: 28rem |
+| pb-px | padding-bottom: 1px |
 | pb-0 | padding-bottom: 0 |
 | pb-1 | padding-bottom: 0.25rem |
 | pb-2 | padding-bottom: 0.5rem |
@@ -130,7 +161,13 @@ Utilities for controls padding in 0.25rem increments.
 | pb-48 | padding-bottom: 12rem |
 | pb-56 | padding-bottom: 14rem |
 | pb-64 | padding-bottom: 16rem |
-| pb-px | padding-bottom: 1px |
+| pb-72 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | padding-bottom: 18rem |
+| pb-80 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | padding-bottom: 20rem |
+| pb-88 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | padding-bottom: 22rem |
+| pb-96 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | padding-bottom: 24rem |
+| pb-104 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | padding-bottom: 26rem |
+| pb-112 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | padding-bottom: 28rem |
+| pl-px | padding-left: 1px |
 | pl-0 | padding-left: 0 |
 | pl-1 | padding-left: 0.25rem |
 | pl-2 | padding-left: 0.5rem |
@@ -149,7 +186,12 @@ Utilities for controls padding in 0.25rem increments.
 | pl-48 | padding-left: 12rem |
 | pl-56 | padding-left: 14rem |
 | pl-64 | padding-left: 16rem |
-| pl-px | padding-left: 1px |
+| pl-72 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | padding-left: 18rem |
+| pl-80 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | padding-left: 20rem |
+| pl-88 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | padding-left: 22rem |
+| pl-96 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | padding-left: 24rem |
+| pl-104 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | padding-left: 26rem |
+| pl-112 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | padding-left: 28rem |
 
 ---
 

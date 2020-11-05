@@ -1,4 +1,4 @@
-var liveEditor = function() {
+var liveEditor = function(_prototypeTemplate) {
   var settings = arguments[0] || {},
     _codeMirrorInstance = null,
     _livePreview = document.createElement("iframe"),
@@ -237,7 +237,7 @@ var liveEditor = function() {
             //   _codeMirrorInstance.setValue(localStorage.getItem("yogurtPlayground"));
             // }
             // else {
-            _codeMirrorInstance.setValue(PrototypeTemplate);
+            _codeMirrorInstance.setValue(_prototypeTemplate);
             // }
 
             // if (localStorage.getItem("yogurtPlaygroundSettings") !== null) {

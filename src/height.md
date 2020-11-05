@@ -17,6 +17,10 @@ Utilities for sets the height of an element.
 
 | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
+| h-auto | height: auto |
+| h-full | height: 100% |
+| h-screen | height: 100vh |
+| h-px | height: 1px |
 | h-0 | height: 0 |
 | h-1 | height: 0.25rem |
 | h-2 | height: 0.5rem |
@@ -35,10 +39,12 @@ Utilities for sets the height of an element.
 | h-48 | height: 12rem |
 | h-56 | height: 14rem |
 | h-64 | height: 16rem |
-| h-auto | height: auto |
-| h-px | height: 1px |
-| h-full | height: 100% |
-| h-screen | height: 100vh |
+| h-72 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | height: 18rem |
+| h-80 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | height: 20rem |
+| h-88 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | height: 22rem |
+| h-96 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | height: 24rem |
+| h-104 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | height: 26rem |
+| h-112 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | height: 28rem |
 
 ---
 

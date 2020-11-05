@@ -15,32 +15,30 @@ var CodeMirror = (function() {
         options[opt] = (givenOptions && givenOptions.hasOwnProperty(opt) ? givenOptions : defaults)[opt];
 
     // The element in which the editor lives.
-    var wrapper = document.createElement("div");
+    var wrapper = document.createElement("y");
     wrapper.className = "CodeMirror" + (options.lineWrapping ? " CodeMirror-wrap" : "");
     // This mess creates the base DOM structure for the editor.
     wrapper.innerHTML =
-      '<div style="overflow: hidden; position: relative; width: 3px; height: 0px;">' + // Wraps and hides input textarea
-      '<textarea style="position: absolute; padding: 0; width: 1px; height: 1em" wrap="off" ' +
-      'autocorrect="off" autocapitalize="off"></textarea></div>' +
-      '<header class="z-30 header h-16 top-0 flex items-center bg-gray-100 border-b-2 border-gray-200 w-full">' +
-      '<y class="relative px-6 max-w-screen-xl mx-auto flex flex-row items-center justify-between w-full">' +
+      '<y style="overflow: hidden; position: relative; width: 3px; height: 0px;">' + // Wraps and hides input textarea
+      '<textarea style="position: absolute; padding: 0; width: 1px; height: 1em" wrap="off" autocorrect="off" autocapitalize="off"></textarea></y>' +
+      '<header class="z-30 header top-0 flex items-center bg-gray-100 border-b-2 border-gray-200 w-full">' +
+      '<y class="relative px-6 max-w-screen-xl mx-auto flex justify-between items-center w-full">' +
       '<y class="header-left mr-2 flex-shrink-0">' +
-      '<a class="header-logo block" href="/" target="_self" rel="noopener noreferer" title="Yogurt CSS">' +
-      '<img class="hidden mx-4 (sm)block h-8 w-auto object-cover object-center overflow-hidden opacity-75" src="/images/logo/logo_full.svg" alt="Yougrt CSS">' +
-      '<img class="block mr-4 (sm)hidden h-8 w-auto object-fit object-center overflow-hidden opacity-75" src="/images/logo/logo_small.svg" alt="Yogurt CSS"></a></y>' +
-      '<nav class="header-nav hidden lg:flex">' +
-      '<ul class="menu flex flex-col lg:flex-row items-center list-reset">' +
-      '</ul></nav></y></header>' +
-      '<div class="CodeMirror-scroll" tabindex="-1">' +
-      '<div style="position: relative">' + // Set to the height of the text, causes scrolling
-      '<div style="position: relative">' + // Moved around its parent to cover visible view
-      '<div class="CodeMirror-gutter"><div class="CodeMirror-gutter-text"></div></div>' +
+      '<a class="header-logo block" href="/" target="_blank" rel="noopener noreferer" title="Yogurt CSS">' +
+      '<img class="hidden m-4 (sm)block h-8 w-auto object-fit object-center overflow-hidden opacity-75" src="/images/logo/logo_full.svg" loading="lazy" alt="Yougrt CSS">' +
+      '<img class="block mr-4 (sm)hidden h-8 w-auto object-fit object-center overflow-hidden opacity-75" src="/images/logo/logo_small.svg" loading="lazy" alt="Yogurt CSS"></a></y>' +
+      '<a class="mt-1 text-xl text-gray-400 (dark)invert-1 (hover)text-gray-500 font-semibold transition duration-300 ease-in-out transform rotate-90" href="/playground/" target="_self" rel="noopener norefferer" title="Refresh">⭮</a>' +
+      '</y></header>' +
+      '<y class="CodeMirror-scroll" tabindex="-1">' +
+      '<y style="position: relative">' + // Set to the height of the text, causes scrolling
+      '<y style="position: relative">' + // Moved around its parent to cover visible view
+      '<y class="CodeMirror-gutter"><y class="CodeMirror-gutter-text"></y></y>' +
       // Provides positioning relative to (visible) text origin
-      '<div class="CodeMirror-lines"><div style="position: relative; z-index: 0">' +
-      '<div style="position: absolute; width: 100%; height: 0; overflow: hidden; visibility: hidden;"></div>' +
+      '<y class="CodeMirror-lines"><y style="position: relative; z-index: 0">' +
+      '<y style="position: absolute; width: 100%; height: 0; overflow: hidden; visibility: hidden;"></y>' +
       '<pre class="CodeMirror-cursor">&#160;</pre>' + // Absolutely positioned blinky cursor
-      '<div style="position: relative; z-index: -1"></div><div></div>' + // DIVs containing the selection and the actual code
-      '</div></div></div></div></div>';
+      '<y style="position: relative; z-index: -1"></y><y></y>' + // DIVs containing the selection and the actual code
+      '</y></y></y></y></y>';
     if (place.appendChild) place.appendChild(wrapper);
     else place(wrapper);
     // I've never seen more elegant code in my life.
@@ -234,7 +232,7 @@ var CodeMirror = (function() {
       charCoords: function(pos, mode) {
         pos = clipPos(pos);
         if (mode == "local") return localCoords(pos, false);
-        if (mode == "div") return localCoords(pos, true);
+        if (mode == "y") return localCoords(pos, true);
         return pageCoords(pos);
       },
       coordsChar: function(coords) {
@@ -1192,7 +1190,7 @@ var CodeMirror = (function() {
       var nextIntact = intact.shift(),
         curNode = lineDiv.firstChild,
         j = from;
-      var scratch = document.createElement("div");
+      var scratch = document.createElement("y");
       doc.iter(from, to, function(line) {
         if (nextIntact && nextIntact.to == j) nextIntact = intact.shift();
         if (!nextIntact || nextIntact.from > j) {
@@ -1202,8 +1200,8 @@ var CodeMirror = (function() {
               line.getHTML(makeTab) + '</pre>';
             // Kludge to make sure the styled element lies behind the selection (by z-index)
             if (line.bgClassName)
-              html = '<div style="position: relative"><pre class="' + line.bgClassName +
-              '" style="position: absolute; left: 0; right: 0; top: 0; bottom: 0; z-index: -2">&#160;</pre>' + html + "</div>";
+              html = '<y style="position: relative"><pre class="' + line.bgClassName +
+              '" style="position: absolute; left: 0; right: 0; top: 0; bottom: 0; z-index: -2">&#160;</pre>' + html + "</y>";
           }
           scratch.innerHTML = html;
           lineDiv.insertBefore(scratch.firstChild, curNode);
@@ -1278,8 +1276,8 @@ var CodeMirror = (function() {
           html = "";
 
         function add(left, top, right, height) {
-          html += '<div class="CodeMirror-selected" style="position: absolute; left: ' + left +
-            'px; top: ' + top + 'px; right: ' + right + 'px; height: ' + height + 'px"></div>';
+          html += '<y class="CodeMirror-selected" style="position: absolute; left: ' + left +
+            'px; top: ' + top + 'px; right: ' + right + 'px; height: ' + height + 'px"></y>';
         }
         var clientWidth = lineSpace.clientWidth || lineSpace.offsetWidth;
         var clientHeight = lineSpace.clientHeight || lineSpace.offsetHeight;
@@ -3302,7 +3300,7 @@ var CodeMirror = (function() {
     // There is *some* kind of drag-and-drop support in IE6-8, but I
     // couldn't get it to work yet.
     if (ie_lt9) return false;
-    var div = document.createElement('div');
+    var div = document.createElement('y');
     return "draggable" in div || "dragDrop" in div;
   }();
 

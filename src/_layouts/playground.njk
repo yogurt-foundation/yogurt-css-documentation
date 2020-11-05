@@ -41,7 +41,7 @@
 
 </head>
 
-<body class="render-auto font-default antialiased text-gray-900 (dark)text-gray-400 depth-normal bg-gray-100 (dark)bg-charcoal-100">
+<body class="font-default antialiased text-gray-900 (dark)text-gray-400 depth-normal bg-gray-100 (dark)bg-charcoal-100">
 
   <script defer src="/main.js{{ helpers.assetSuffix }}"></script>
 
@@ -57,7 +57,7 @@
 
   <script>
     window.addEventListener("DOMContentLoaded", function() {
-      window.liveEditor = new liveEditor()
+      window.liveEditor = new liveEditor(playgroundTemplate)
       window.liveEditor.init()
     })
   </script>

@@ -1,28 +1,29 @@
-var PrototypeTemplate = '<!DOCTYPE html><html ><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">\n\n\
+var playgroundTemplate = '<!DOCTYPE html><html ><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">\n\n\
   <!-- Change framework version from 1.1.0 to the latest -->\n\
   <link defer href="../yogurt-1.1.2_solidcore.min.css" rel="stylesheet" rel="preload" as="style" media="all"></head>\n\n\
   <!-- Begin Example -->\n\n\
-  <body class="font-default text-gray-600 bg-gray-100">\n\n\
-    <y class="mx-auto my-8 (xs)px-4 (xs)max-w-full (sm)max-w-xs">\n\
-      <y class="p-4 text-lg text-center">\n\
+  <body class="font-default antialiased text-gray-600 (dark)text-gray-300 bg-gray-100 (dark)bg-gray-800">\n\n\
+    <y class="h-screen (xs)px-4 flex flex-col justify-center items-center">\n\
+      <y class="pb-10 text-2xl animation fade-in-up delay-2">\n\
         Welcome to\n\
-        <span class="font-semibold">\n\
-          Yogurtland!\n\
+        <span class="inline-block font-semibold underline">\n\
+          Yogurtland\n\
         </span>\n\
+        playground\n\
       </y>\n\
-      <y class="px-4 py-8 flex (xs)flex-col (sm)flex-row justify-center items-center bg-white rounded-lg shadow-dreamy-sm">\n\
-        <y class="(xs)h-20 (sm)h-16 (xs)w-20 (sm)w-16 bg-gray-500 rounded-full"></y>\n\
-        <y class="(xs)pt-4 (sm)pt-0 px-4 text-gray-600 text-lg">\n\
-          John Doe\n\
+      <y class="(xs)max-w-full (sm)max-w-xs p-10 flex justify-around items-center bg-white (dark)bg-charcoal-900 rounded-lg shadow-dreamy w-full animation fade-in-up overflow-hidden">\n\
+        <y class="h-20 w-20 bg-gray-600 rounded-full"></y>\n\
+        <y class="text-xl text-gray-600">\n\
+         	Hello World!\n\
         </y>\n\
       </y>\n\
-      <y class="fixed bottom-16 right-5 px-4 py-1 text-sm text-center text-white bg-red-600 rounded animation fade-in-up duration-100 delay-2">\n\
-        Data lost if browser refreshed!\n\
+      <y class="py-10 text-lg animation fade-in-down delay-2">\n\
+        Start craft something new\n\
+        <span class="inline-block underline">\n\
+          today!\n\
+        </span>\n\
       </y>\n\
-			<y class="fixed bottom-5 right-5 px-4 py-1 text-sm text-center text-white bg-gray-600 rounded animation fade-in-up duration-100">\n\
-        Framework is loaded.\n\
-      </y>\n\
-    </y>\n\n\
+    </y>\n\
     <!-- Responsive Screen Indicator -->\n\
     <y debug="screen" class="m-1"></y>\n\n\
   <\/body>\n\n\
