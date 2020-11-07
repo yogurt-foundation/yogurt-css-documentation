@@ -659,7 +659,7 @@
       "items": [{
           "label": "Image",
           "url": "/image-rendering/",
-          "version": ""
+          "version": "v1.1.3"
         }
       ]
     },
