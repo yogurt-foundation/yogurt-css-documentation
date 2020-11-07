@@ -655,6 +655,15 @@
       ]
     },
     {
+      "label": "Rendering",
+      "items": [{
+          "label": "Image",
+          "url": "/image-rendering/",
+          "version": ""
+        }
+      ]
+    },
+    {
       "label": "SVG",
       "items": [{
           "label": "Fill",
