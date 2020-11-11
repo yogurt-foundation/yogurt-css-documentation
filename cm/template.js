@@ -23,7 +23,7 @@ var playgroundTemplate = '<!DOCTYPE html><html ><head><meta charset="utf-8"><met
           today!\n\
         </span>\n\
       </y>\n\
-    </y>\n\
+    </y>\n\n\
     <!-- Responsive Screen Indicator -->\n\
     <y debug="screen" class="m-1"></y>\n\n\
   <\/body>\n\n\
