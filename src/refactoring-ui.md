@@ -5,7 +5,7 @@ description:
 layout: default
 ---
 
-> Core Concept
+> Core Concepts
 
 ## Refactoring UI
 
