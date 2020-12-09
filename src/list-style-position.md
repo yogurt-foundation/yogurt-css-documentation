@@ -45,6 +45,7 @@ Utilities for sets the position of a list's bullets.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

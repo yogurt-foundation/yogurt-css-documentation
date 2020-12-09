@@ -101,6 +101,7 @@ Apply `debug="screen"` to inspect the current screen size. The indicator will di
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

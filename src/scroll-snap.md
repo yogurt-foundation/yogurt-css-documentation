@@ -166,6 +166,7 @@ Set the `horizontal` and `vertical` scroll image gallery. The image snaps to the
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

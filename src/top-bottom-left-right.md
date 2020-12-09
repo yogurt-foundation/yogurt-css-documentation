@@ -135,6 +135,7 @@ Utilities for sets the placement of a positioned element.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

@@ -203,6 +203,7 @@ Set default background color to `<body>` tag.
 | hover| Yes | |
 | group-hover | Yes | |
 | focus | Yes | |
+| focus-within | Yes | |
 | active | Yes | |
 | visited | Yes | |
 | checked | | |

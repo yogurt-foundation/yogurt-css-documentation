@@ -99,6 +99,7 @@ An example of an element on the left without the `overscroll` utility applied. W
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

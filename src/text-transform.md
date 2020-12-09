@@ -44,6 +44,7 @@ Utilities for sets the capitalization of text.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

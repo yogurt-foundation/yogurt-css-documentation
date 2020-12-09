@@ -159,6 +159,7 @@ Set `center` position background image.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

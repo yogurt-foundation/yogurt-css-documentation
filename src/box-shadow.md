@@ -103,6 +103,7 @@ Set basic solid shadow to an element.
 | hover| Yes | |
 | group-hover | | |
 | focus | Yes | |
+| focus-within | Yes | |
 | active | | |
 | visited | | |
 | checked | | |

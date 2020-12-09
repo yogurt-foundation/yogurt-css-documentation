@@ -101,6 +101,7 @@ Set a SVG image with stroke linecap property.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

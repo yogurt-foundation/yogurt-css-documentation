@@ -55,6 +55,7 @@ Utilities for creates how flex items wrap.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

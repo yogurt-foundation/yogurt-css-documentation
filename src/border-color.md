@@ -204,6 +204,7 @@ Utilities for sets border color.
 | hover| Yes | |
 | group-hover | | |
 | focus | Yes | |
+| focus-within | Yes | |
 | active | | |
 | visited | | |
 | checked | | |

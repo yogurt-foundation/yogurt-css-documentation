@@ -42,6 +42,7 @@ Utilities for sets the style of the font.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

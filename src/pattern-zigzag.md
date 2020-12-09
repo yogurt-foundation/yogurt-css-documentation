@@ -72,6 +72,7 @@ Set pattern with color by using `text-{color}` utility. (See [Text Color](/text-
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

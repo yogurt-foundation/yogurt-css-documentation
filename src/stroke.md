@@ -68,6 +68,7 @@ Set a SVG image with stroke color overrides by using `text-{color}` utility. (Se
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

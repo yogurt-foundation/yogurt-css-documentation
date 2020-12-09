@@ -187,6 +187,7 @@ Set `dissect-x-{value}` and `dissect-y-{value}` borders with colors.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

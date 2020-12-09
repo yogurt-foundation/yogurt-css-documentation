@@ -30,6 +30,7 @@ Utilities for disables native styling based on the native browser theme.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

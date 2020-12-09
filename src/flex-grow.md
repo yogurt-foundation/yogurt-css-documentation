@@ -31,6 +31,7 @@ Utilities for controls how flex items grow.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

@@ -66,6 +66,7 @@ Utilities for sets the spacing between letters.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

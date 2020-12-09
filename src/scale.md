@@ -137,6 +137,7 @@ Set the element scale `vertical` to `50` times smaller.
 | hover| Yes | |
 | group-hover | | |
 | focus | | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

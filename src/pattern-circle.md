@@ -105,6 +105,7 @@ Set pattern clipping with text.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

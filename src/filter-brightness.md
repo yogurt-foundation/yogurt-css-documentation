@@ -110,6 +110,7 @@ Mix with other filters, such as [Contrast](/filter-contrast/), [Saturate](/filte
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

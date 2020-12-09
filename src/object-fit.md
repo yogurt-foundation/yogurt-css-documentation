@@ -34,6 +34,7 @@ Utilities for sets how the content of a replaced element (img or video tag) shou
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |
