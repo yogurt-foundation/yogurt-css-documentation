@@ -115,6 +115,7 @@ Set text element alignment to `horizontally` and `left to right` direction.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

@@ -84,6 +84,7 @@ Mix with duration, delay and infinite looping.
 | hover | Yes | |
 | group-hover | | |
 | focus | | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

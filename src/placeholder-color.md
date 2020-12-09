@@ -182,6 +182,7 @@ Utilities for sets the placeholder color using the ::placeholder pseudo element.
 | hover| | |
 | group-hover | | |
 | focus | Yes | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

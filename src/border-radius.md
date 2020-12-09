@@ -96,6 +96,7 @@ Utilities for sets border radius.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

@@ -151,6 +151,7 @@ After the embedding, you can create new utility by using the [Plugin API](/plugi
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

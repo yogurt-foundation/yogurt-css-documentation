@@ -34,6 +34,7 @@ Utilities for sets an element's position.
 | hover| Yes | |
 | group-hover | | |
 | focus | | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

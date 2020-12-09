@@ -71,6 +71,7 @@ Utilities for changes the cursor when hovering over an element.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

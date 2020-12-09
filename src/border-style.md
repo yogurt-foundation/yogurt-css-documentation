@@ -51,6 +51,7 @@ Utilities for sets border style.
 | hover| | |
 | group-hover | | |
 | focus | Yes | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

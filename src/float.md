@@ -33,6 +33,7 @@ Utilities for sets an element's placement to a side of its container and allows 
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

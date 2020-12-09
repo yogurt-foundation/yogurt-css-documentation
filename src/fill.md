@@ -68,6 +68,7 @@ Set a SVG image with color overrides by using `text-{color}` utility. (See [Text
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

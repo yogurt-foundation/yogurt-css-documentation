@@ -43,6 +43,7 @@ Utilities for sets how to handle content that's too big for it's container.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

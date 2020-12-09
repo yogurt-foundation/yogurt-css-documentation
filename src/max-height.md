@@ -61,6 +61,7 @@ Utilities for sets the maximum height of an element.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

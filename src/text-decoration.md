@@ -43,6 +43,7 @@ Utilities for sets the text-decoration of an element.
 | hover| Yes | |
 | group-hover | Yes | |
 | focus | Yes | |
+| focus-within | Yes | |
 | active | | |
 | visited | | |
 | checked | | |

@@ -87,6 +87,7 @@ Set default font-size with `<body>` tag.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

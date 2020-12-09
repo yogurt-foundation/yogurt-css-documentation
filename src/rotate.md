@@ -168,6 +168,7 @@ Set the element rotation to `-45` degree.
 | hover| Yes | |
 | group-hover | | |
 | focus | | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

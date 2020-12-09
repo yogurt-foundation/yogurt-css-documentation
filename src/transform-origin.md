@@ -164,6 +164,7 @@ Set the element origin to `top-left`.
 | hover| Yes | |
 | group-hover | | |
 | focus | | |
+| focus-within | Yes | |
 | active | | |
 | visited | | |
 | checked | | |

@@ -46,6 +46,7 @@ Utilities for controls how lines are positioned in multi-line flex containers.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

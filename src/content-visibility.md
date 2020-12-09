@@ -77,6 +77,7 @@ Set maximum height and width for the browser to start to render an element.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

@@ -64,6 +64,7 @@ Utilities for controls how flex items are ordered.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

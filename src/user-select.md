@@ -33,6 +33,7 @@ Utilities for controls whether the user can select text.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

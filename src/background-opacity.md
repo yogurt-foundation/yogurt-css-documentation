@@ -113,6 +113,7 @@ Set background-color with `0%` opacity to an element.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

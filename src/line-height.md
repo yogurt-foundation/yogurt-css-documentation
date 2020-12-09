@@ -87,6 +87,7 @@ Utilities for sets the line height.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

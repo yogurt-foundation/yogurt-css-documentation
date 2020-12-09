@@ -45,6 +45,7 @@ Utilities for sets flex items position along a container's cross axis.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

@@ -31,6 +31,7 @@ Utilities for sets how the total width and height of an element is calculated.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

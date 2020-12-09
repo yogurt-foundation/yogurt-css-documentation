@@ -60,6 +60,7 @@ Set font-weight with `Google Fonts`. (See [Font Family](/font-family/#customize-
 | hover| Yes | |
 | group-hover | | |
 | focus | Yes | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

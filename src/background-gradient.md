@@ -299,6 +299,7 @@ Set background gradient to `<body>` tag.
 | hover| Yes | |
 | group-hover | | |
 | focus | | |
+| focus-within | Yes | |
 | active | | |
 | visited | | |
 | checked | | |

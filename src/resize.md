@@ -33,6 +33,7 @@ Utilities for sets whether an element is resizable, along with direction.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |

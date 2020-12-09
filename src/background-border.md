@@ -193,6 +193,7 @@ Set background border solid and thicker.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-within | | |
 | active | | |
 | visited | | |
 | checked | | |
