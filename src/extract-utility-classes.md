@@ -5,7 +5,7 @@ description: Exposes Yogurt utility classes to your custom CSS.
 layout: default
 ---
 
-> Core Concept
+> Core Concepts
 
 ## Extract Utility Classes
 
