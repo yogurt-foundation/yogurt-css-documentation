@@ -45,6 +45,18 @@ Add the `(focus)` prefix to an utility to enable on-focus.
        placeholder="Focus me!">
 ```
 
+### Focus-Within
+
+Add the `(focus-within)` prefix to an utility to enable on-focused.
+
+```html
+<!-- Example -->
+<y class="(focus-within)text-red-600 (focus-within)bg-red-300">
+  Title:
+  <input placeholder="Focus me!">
+</y>
+```
+
 ### Group-Focus
 
 Add `(group)` class to the parent element and add the `(group-focus)` prefix to an utility on the child element to enable group-focus.
