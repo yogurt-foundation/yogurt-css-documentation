@@ -47,7 +47,7 @@ Add the `(focus)` prefix to an utility to enable on-focus.
 
 ### Focus-Within
 
-Add the `(focus-within)` prefix to an utility to enable on-focused.
+Add the `(focus-within)` prefix to an utility to enable on-focused for child element.
 
 ```html
 <!-- Example -->
