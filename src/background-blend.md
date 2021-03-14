@@ -257,6 +257,7 @@ Set `luminosity` blending mode to background image.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | Yes | |
 | focus-within | Yes | |
 | active | | |
 | visited | | |

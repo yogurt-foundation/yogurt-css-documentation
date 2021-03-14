@@ -31,6 +31,7 @@ Utilities for controls how flex items shrink.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

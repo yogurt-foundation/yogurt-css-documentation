@@ -75,6 +75,7 @@ Utilities for sets the maximum width of an element.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

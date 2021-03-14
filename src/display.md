@@ -202,6 +202,7 @@ Set a complete set of table with `table`, `table-row`, `table-cell`, `table-capt
 | hover| Yes | |
 | group-hover | Yes | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

@@ -111,6 +111,7 @@ Utilities for translate an element that has transform applied.
 | hover| Yes | |
 | group-hover | | |
 | focus | | |
+| focus-visible | Yes | |
 | focus-within | Yes | |
 | active | | |
 | visited | | |

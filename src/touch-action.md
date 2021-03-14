@@ -109,6 +109,7 @@ Set an element with full touch manipulation, `x` and `y` panning is enabled.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

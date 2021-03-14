@@ -33,6 +33,7 @@ Utilities for sets direction of flex items.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

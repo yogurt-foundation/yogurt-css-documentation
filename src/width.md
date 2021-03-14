@@ -329,6 +329,7 @@ Set 12-column width `1/12` to an element.
 | hover| Yes | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

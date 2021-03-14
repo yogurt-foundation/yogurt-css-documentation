@@ -68,6 +68,7 @@ Utilities for define text narrower(condensed) or wider(expanded) for font faces 
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

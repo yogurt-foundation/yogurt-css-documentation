@@ -105,6 +105,7 @@ Utilities for sets total display text line to an element.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

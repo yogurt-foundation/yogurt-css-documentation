@@ -72,6 +72,7 @@ Utilities for sets filter inverts effect to an element.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

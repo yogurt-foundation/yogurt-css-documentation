@@ -250,6 +250,7 @@ Set default gradient to `<body>` tag.
 | hover| Yes | |
 | group-hover | | |
 | focus | | |
+| focus-visible | Yes | |
 | focus-within | Yes | |
 | active | | |
 | visited | | |

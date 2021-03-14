@@ -30,6 +30,7 @@ Utilities for sets native browser outline style to reset.
 | hover| | |
 | group-hover | | |
 | focus | Yes | |
+| focus-visible | Yes | |
 | focus-within | Yes | |
 | active | | |
 | visited | | |

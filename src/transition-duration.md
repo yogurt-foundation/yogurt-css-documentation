@@ -167,6 +167,7 @@ Set transition duration `1000ms`.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | Yes | |
 | focus-within | Yes | |
 | active | | |
 | visited | | |

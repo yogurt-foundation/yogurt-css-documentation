@@ -77,6 +77,7 @@ To simulate `theme="auto"` on a Chrome-based web browser at the developer tools,
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

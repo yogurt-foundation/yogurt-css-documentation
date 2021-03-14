@@ -99,6 +99,7 @@ Set transition timing `ease-in-out`.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | Yes | |
 | focus-within | Yes | |
 | active | | |
 | visited | | |

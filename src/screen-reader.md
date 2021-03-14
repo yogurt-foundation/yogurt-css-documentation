@@ -53,6 +53,7 @@ Set an element hidden from screen reader.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

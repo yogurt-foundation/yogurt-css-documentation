@@ -59,6 +59,7 @@ Utilities for sets smooth animation of scroll anchored position within a scrolli
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

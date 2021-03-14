@@ -81,6 +81,7 @@ Set a scrollable background image in the browser viewport.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

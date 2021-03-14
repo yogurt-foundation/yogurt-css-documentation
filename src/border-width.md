@@ -87,6 +87,7 @@ Utilities for sets border width in increments of 1px.
 | hover| | |
 | group-hover | | |
 | focus | Yes | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

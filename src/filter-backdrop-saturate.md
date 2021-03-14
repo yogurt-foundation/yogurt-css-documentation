@@ -147,6 +147,7 @@ Mix with other filters, such as [Backdrop Brightness](/filter-backdrop-brightnes
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

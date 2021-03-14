@@ -63,6 +63,7 @@ Utilities for sets the miminum height of an element.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

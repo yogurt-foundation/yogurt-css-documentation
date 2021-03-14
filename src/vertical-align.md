@@ -211,6 +211,7 @@ Set element vertical alignment to `middle`.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

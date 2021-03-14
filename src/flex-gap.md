@@ -80,6 +80,7 @@ Utilities for set inner spacing in between the flex child elements.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

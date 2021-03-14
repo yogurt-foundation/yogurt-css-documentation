@@ -48,6 +48,7 @@ Utilities for set max-width to match min-width of the current breakpoint.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

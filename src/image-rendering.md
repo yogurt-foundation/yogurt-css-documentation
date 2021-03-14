@@ -64,6 +64,7 @@ Utilities for sets an image or canvas renders if it is scaled up or down from it
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

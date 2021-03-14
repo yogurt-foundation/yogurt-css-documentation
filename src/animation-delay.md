@@ -64,6 +64,7 @@ Utilities for sets the animation control with delays.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

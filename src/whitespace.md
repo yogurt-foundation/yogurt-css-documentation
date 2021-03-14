@@ -107,6 +107,7 @@ Set text paragraph without preserved new line whitespaces.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

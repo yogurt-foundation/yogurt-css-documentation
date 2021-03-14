@@ -46,6 +46,7 @@ Utilities for sets the animation control with durations.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |
