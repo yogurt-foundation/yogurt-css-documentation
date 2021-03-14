@@ -57,6 +57,7 @@ An example of transitioning an element with [Border Width](/border-width/) and [
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | Yes | |
 | focus-within | Yes | |
 | active | | |
 | visited | | |

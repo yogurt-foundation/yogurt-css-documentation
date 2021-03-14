@@ -333,6 +333,7 @@ Set padding to `right`.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

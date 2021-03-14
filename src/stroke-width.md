@@ -90,6 +90,7 @@ Set a SVG image with stroke width.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

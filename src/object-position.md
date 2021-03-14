@@ -38,6 +38,7 @@ Utilities for sets the alignment of the selected replaced element.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

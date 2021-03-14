@@ -107,6 +107,7 @@ Mix with other filters, such as [Brightness](/filter-brightness/), [Contrast](/f
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

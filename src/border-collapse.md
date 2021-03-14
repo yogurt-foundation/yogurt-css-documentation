@@ -31,6 +31,7 @@ Utilities for collapse or separate table borders.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

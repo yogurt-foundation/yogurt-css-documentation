@@ -44,6 +44,7 @@ Set default font-smoothing with `<body>` tag.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

@@ -65,6 +65,7 @@ Utilities for sets the animation control with limited loop or infinite.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

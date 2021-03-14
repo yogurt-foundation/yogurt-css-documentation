@@ -83,6 +83,7 @@ Set `dissect-x-{value}` and `dissect-y-{value}` borders with `color` opacity to 
 | hover| Yes | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

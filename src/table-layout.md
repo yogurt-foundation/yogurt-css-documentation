@@ -31,6 +31,7 @@ Utilities for defines the algorithm used to layout table cells, rows and columns
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

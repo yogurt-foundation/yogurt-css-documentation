@@ -33,6 +33,7 @@ Utilities for set whether an element is moved below preceding floated elements.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

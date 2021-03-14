@@ -418,6 +418,7 @@ Utilities for sets the shadow color to an element.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | Yes | |
 | focus-within | Yes | |
 | active | | |
 | visited | | |

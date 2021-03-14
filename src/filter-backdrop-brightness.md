@@ -147,6 +147,7 @@ Mix with other filters, such as [Backdrop Contrast](/filter-backdrop-contrast/),
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

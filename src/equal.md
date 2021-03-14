@@ -178,6 +178,7 @@ Set spacing in between the elements vertically.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

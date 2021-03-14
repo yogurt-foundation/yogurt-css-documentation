@@ -121,6 +121,7 @@ Set the element skew reverse `vertical`.
 | hover| Yes | |
 | group-hover | | |
 | focus | | |
+| focus-visible | Yes | |
 | focus-within | | |
 | active | | |
 | visited | | |

@@ -111,6 +111,7 @@ Set repeating no-resized background image horizontally and vertically.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

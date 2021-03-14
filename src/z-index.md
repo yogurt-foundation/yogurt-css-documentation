@@ -85,6 +85,7 @@ Utilities for sets the z order (stack order) of a positioned element.
 | hover| Yes | |
 | group-hover | | |
 | focus | | |
+| focus-visible | Yes | |
 | focus-within | Yes | |
 | active | | |
 | visited | | |

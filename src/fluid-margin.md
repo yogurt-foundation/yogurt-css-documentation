@@ -86,6 +86,7 @@ Mix with other fluid utilities, such as [Fluid Font Size](/fluid-font-size/), [F
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

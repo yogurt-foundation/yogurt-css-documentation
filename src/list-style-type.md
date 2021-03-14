@@ -77,6 +77,7 @@ Utilities for sets the bullet style of a list.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

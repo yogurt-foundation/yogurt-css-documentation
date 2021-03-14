@@ -62,6 +62,7 @@ Utilities for sets the transparency of an element.
 | hover| Yes | |
 | group-hover | | |
 | focus | Yes | |
+| focus-visible | Yes | |
 | focus-within | Yes | |
 | active | | |
 | visited | | |

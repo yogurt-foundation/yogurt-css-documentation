@@ -75,6 +75,7 @@ Set background image contains an element with cropped and stretched.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

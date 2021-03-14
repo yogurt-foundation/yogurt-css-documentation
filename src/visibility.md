@@ -69,6 +69,7 @@ Set `invisible` to an elment, the element property remains, but not hidden from 
 | hover| Yes | |
 | group-hover | Yes | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

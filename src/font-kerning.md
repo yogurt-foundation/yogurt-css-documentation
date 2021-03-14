@@ -107,6 +107,7 @@ Set a typo element to removing space in between each letter if any spaces are le
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

@@ -74,6 +74,7 @@ Mix with other fluid utilities, such as [Fluid Margin](/fluid-margin/), [Fluid P
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

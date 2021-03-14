@@ -62,6 +62,7 @@ Utilities for sets the minimum width of an element.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

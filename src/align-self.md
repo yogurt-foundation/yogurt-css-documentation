@@ -46,6 +46,7 @@ Utilities for controls how an individual flex item is positioned along container
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

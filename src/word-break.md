@@ -97,6 +97,7 @@ Set text paragraph truncate into a single line.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |

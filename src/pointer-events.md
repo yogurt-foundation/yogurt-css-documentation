@@ -31,6 +31,7 @@ Utilities for specifies whether an element is the target of mouse events.
 | hover| | |
 | group-hover | | |
 | focus | | |
+| focus-visible | | |
 | focus-within | | |
 | active | | |
 | visited | | |
