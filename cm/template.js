@@ -1,6 +1,6 @@
 var playgroundTemplate = '<!DOCTYPE html><html ><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">\n\n\
   <!-- Change framework version from 1.1.0 to the latest -->\n\
-  <link defer href="../yogurt-1.1.3_solidcore.min.css" rel="stylesheet" rel="preload" as="style" media="all"></head>\n\n\
+  <link defer href="../yogurt-1.1.4_solidcore.min.css" rel="stylesheet" rel="preload" as="style" media="all"></head>\n\n\
   <!-- Begin Example -->\n\n\
   <body class="font-default antialiased text-gray-600 (dark)text-gray-300 bg-gray-100 (dark)bg-gray-800">\n\n\
     <y class="h-screen (xs)px-4 flex flex-col justify-center items-center">\n\
