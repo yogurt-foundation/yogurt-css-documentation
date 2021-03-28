@@ -5,7 +5,7 @@ description: Yogurt is a CSS framework for crafting custom UI designs by using v
 layout: home
 ---
 
-{% include "news.njk" %}
+<!--{% include "news.njk" %}-->
 
 <y class="pb-4">
   <img class="w-full h-full object-cover object-center rounded-lg (dark)invert-1"
