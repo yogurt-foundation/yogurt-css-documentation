@@ -6,17 +6,36 @@
        width="auto">
 </p>
 
-# yogurt-css-documentation `v2.0`
+# Yogurt CSS Documentation
 
-> Work in progress
+> [Read the documentation](https://yogurtcss.netlify.app)
 
-### _support
+### _build
 
-[Read the documentation](https://yogurtcss.netlify.app).
+clone the repository,
 
-### _todo
+```bash
+$ git clone https://github.com/yogurt-foundation/yogurt-css-documentation.git
+$ cd yogurt-css-documentation
+```
 
-- show examples for each utilities.
+install dependencies,
+
+```bash
+# YARN
+$ yarn
+# NPM
+$ npm i
+```
+
+serve the dev project,
+
+```bash
+# YARN
+$ yarn dev
+# NMP
+$ npm run dev
+```
 
 ---
 
