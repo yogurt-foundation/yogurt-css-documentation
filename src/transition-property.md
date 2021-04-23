@@ -17,9 +17,8 @@ Utilities for sets the css properties affected by transition animations.
 
 | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
+| transition | transition-property: all |
 | transition-none | transition-property: none |
-| transition-all | transition-property: all |
-| transition | transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform |
 | transition-colors | transition-property: background-color, border-color, color, fill, stroke |
 | transition-opacity | transition-property: opacity |
 | transition-shadow | transition-property: box-shadow |
