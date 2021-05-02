@@ -36,13 +36,6 @@ Utilities for sets the fading animation to an element.
 | fade-out-top-right | @keyframes fade-out-top-right { from { opacity: 1; transform: translate3d(0, 0, 0) } to { opacity: 0; transform: translate3d(100%, -100%, 0) }} | <y class="text-lg animation fade-out-top-right duration-800 delay-2 loop-infinite">Text</y> |
 | fade-out-top-up | @keyframes fade-out-top-up { from { opacity: 1; transform: translate3d(0, 0, 0) } to { opacity: 0; transform: translate3d(0, -100%, 0) }} | <y class="text-lg animation fade-out-top-up duration-800 delay-2 loop-infinite">Text</y> |
 
-<y class="m-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 (dark)bg-gray-800">
-  <span class="pr-1 font-semibold">
-    Note:
-  </span>
-  Utility customizing is unavailable.
-</y>
-
 ---
 
 ## Usage
@@ -87,16 +80,7 @@ Mix with duration, delay and infinite looping.
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | |
-| Dark Theme | | |
-| hover | Yes | |
-| group-hover | | |
-| focus | | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for animationfade in variants.animationfade %}{% for item in animationfade.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+

@@ -33,13 +33,6 @@ Utilities for sets brightness filter to an element.
 | brightness-9 | --brightness: 1.80 |
 | brightness-10 | --brightness: 1.90 |
 
-<y class="m-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 (dark)text-orange-500 bg-orange-200 (dark)bg-orange-900">
-  <span class="pr-1 font-semibold">
-    Note:
-  </span>
-  Only supported web browsers can benefit from this utility.
-</y>
-
 ---
 
 ## Usage
@@ -103,16 +96,8 @@ Mix with other filters, such as [Contrast](/filter-contrast/), [Saturate](/filte
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | |
-| Dark Theme | | |
-| hover| | |
-| group-hover | | |
-| focus | | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for filterbrightness in variants.filterbrightness %}{% for item in filterbrightness.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+
+

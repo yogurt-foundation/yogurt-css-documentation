@@ -1,0 +1,115 @@
+{
+  "columnone": [
+    {
+      "label": "Getting Started",
+      "items": [
+        {
+          "label": "Installation",
+          "url": "/installation/",
+          "target": "_self"
+        },
+        {
+          "label": "IntelliSense",
+          "url": "/intellisense/",
+          "target": "_blank"
+        },
+        {
+          "label": "Playground",
+          "url": "/playground/",
+          "target": "_blank"
+        },
+        {
+          "label": "Utility Map",
+          "url": "/utility-map/",
+          "target": "_self"
+        }
+      ]
+    }
+  ],
+  "columntwo": [
+    {
+      "label": "Core Concepts",
+      "items": [
+        {
+          "label": "Utility",
+          "url": "/utility/"
+        },
+        {
+          "label": "Responsive",
+          "url": "/responsive/"
+        },
+        {
+          "label": "Pseudo-Class Variants",
+          "url": "/pseudo-class-variants/"
+        },
+        {
+          "label": "Extract Utility Classes",
+          "url": "/extract-utility-classes/"
+        },
+        {
+          "label": "Import Framework",
+          "url": "/import-framework/"
+        },
+        {
+          "label": "Refactoring UI",
+          "url": "/refactoring-ui/"
+        }
+      ]
+    }
+  ],
+  "columnthree": [
+    {
+      "label": "Customization",
+      "items": [
+        {
+          "label": "Create Empty Project",
+          "url": "/create-empty-project/"
+        },
+        {
+          "label": "File Size Control",
+          "url": "/file-size-control/"
+        },
+        {
+          "label": "Customize Utilities",
+          "url": "/customize-utilities/"
+        },
+        {
+          "label": "Plugin API",
+          "url": "/plugin-api/"
+        }
+      ]
+    }
+  ],
+  "columnfour": [
+    {
+      "label": "Community",
+      "items": [
+        {
+          "label": "Discord",
+          "url": "https://discord.gg/A62YjNR",
+          "target": "_blank"
+        },
+        {
+          "label": "Twitter",
+          "url": "https://twitter.com/yogurtcss",
+          "target": "_blank"
+        },
+        {
+          "label": "Github",
+          "url": "https://github.com/yogurt-foundation",
+          "target": "_blank"
+        },
+        {
+          "label": "Patreon",
+          "url": "https://www.patreon.com/bePatron?u=5719325",
+          "target": "_blank"
+        },
+        {
+          "label": "Ko-Fi",
+          "url": "https://ko-fi.com/S6S01OZEW",
+          "target": "_blank"
+        }
+      ]
+    }
+  ]
+}

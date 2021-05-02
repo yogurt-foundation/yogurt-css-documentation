@@ -1,0 +1,26 @@
+{
+  "sns": [
+    {
+      "networks": [
+        {
+          "title": "Discord",
+          "desc": "Join Discord group to chat with other Yogurt users.",
+          "url": "https://discord.gg/A62YjNR",
+          "icon": "/images/icons/discord.svg"
+        },
+        {
+          "title": "Twitter",
+          "desc": "Follow the Yogurt Twitter for news and updates.",
+          "url": "https://twitter.com/yogurtcss",
+          "icon": "/images/icons/twitter.svg"
+        },
+        {
+          "title": "Github",
+          "desc": "Connect with members of the Yogurt CSS community.",
+          "url": "https://github.com/yogurt-foundation",
+          "icon": "/images/icons/github.svg"
+        }
+      ]
+    }
+  ]
+}

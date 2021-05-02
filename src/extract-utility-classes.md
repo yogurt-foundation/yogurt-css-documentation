@@ -1,7 +1,7 @@
 ---
 id: extract-utility-classes
 title: Extract Utility Classes
-description: Exposes Yogurt utility classes to your custom CSS.
+description: Exposes Yogurt utility classes to your custom CSS with SASS @extend directive.
 layout: default
 ---
 
@@ -22,7 +22,10 @@ Yogurt purely built on top of the SASS or SCSS ([Sassy CSS](https://sass-lang.co
   directive. (See
   <a href="/installation/#using-yogurt-via-cli">
     Using Yogurt via CLI
-  </a>.)
+  </a> or
+  <a href="/create-empty-project/">
+    Create Empty Project
+  </a>. )
 </y>
 
 ### @extend

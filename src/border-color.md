@@ -197,16 +197,8 @@ Utilities for sets border color.
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | |
-| Dark Theme | Yes | |
-| hover| Yes | |
-| group-hover | | |
-| focus | Yes | |
-| focus-visible | Yes | |
-| focus-within | Yes | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for bordercolor in variants.bordercolor %}{% for item in bordercolor.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+
+

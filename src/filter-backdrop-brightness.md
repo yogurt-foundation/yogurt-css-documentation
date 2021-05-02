@@ -68,7 +68,7 @@ Utilities for sets filter backdrop brightness effect to an element.
   <y class="m-2 w-1/2">
     <y class="flex justify-center items-center w-full h-48 bg-auto bg-center bg-no-repeat rounded-lg"
        style="background-image:url('https://picsum.photos/500?=4')">
-      <y class="backdrop-filter brightness-5 w-32 h-32 bg-gray-100 bg-opacity-50"></y>
+      <y class="backdrop-filter brightness-8 w-32 h-32 bg-gray-100 bg-opacity-50"></y>
     </y>
     <y class="pt-2 text-sm text-center">
       Filter: ON
@@ -140,16 +140,8 @@ Mix with other filters, such as [Backdrop Contrast](/filter-backdrop-contrast/),
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | |
-| Dark Theme | | |
-| hover| | |
-| group-hover | | |
-| focus | | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for filterbackdropbrightness in variants.filterbackdropbrightness %}{% for item in filterbackdropbrightness.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+
+

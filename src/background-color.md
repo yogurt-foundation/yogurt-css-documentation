@@ -196,16 +196,8 @@ Set default background color to `<body>` tag.
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | |
-| Dark Theme | Yes | |
-| hover| Yes | |
-| group-hover | Yes | |
-| focus | Yes | |
-| focus-visible | Yes | |
-| focus-within | Yes | |
-| active | Yes | |
-| visited | Yes | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for backgroundcolor in variants.backgroundcolor %}{% for item in backgroundcolor.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+
+

@@ -1,6 +1,32 @@
-<footer class="footer mt-24 pt-8 px-4 w-full text-sm">
+<footer class="(xs)px-16 (xs)pb-8 (sm)p-12 (2k)px-64 mt-8 w-full">
 
-  <y class="flex justify-end">
+  <y class="px-8 flex justify-between items-center">
+
+    <y class="flex-shrink-0">
+
+      <img theme="auto"
+           class="hidden mx-4 (sm)block h-10 w-auto object-cover object-center overflow-hidden opacity-75"
+           src="/images/logo/logo_full.svg"
+           loading="lazy"
+           alt="Yogurt CSS">
+
+      <img theme="auto"
+           class="block mr-4 (sm)hidden h-10 w-auto object-fit object-center overflow-hidden opacity-75"
+           src="/images/logo/logo_small.svg"
+           loading="lazy"
+           alt="Yogurt CSS">
+    </y>
+
+    <y class="text-sm text-gray-500 (dark)text-gray-700">
+      <strong>
+        {{site.appname}}
+      </strong>
+      is copyright &copy; {{site.author.name}}. {{site.author.license}} Licensed.
+    </y>
+
+  </y>
+
+  {# <y class="flex justify-end">
 
     <y class="(xs)hidden (sm)hidden (md)block (lg)block p-2 text-md opacity-50 mr-auto">
       Version {{site.version.core}}
@@ -42,16 +68,15 @@
 
     </a>
 
-  </y>
+  </y> #}
 
-  <y class="clear-both flex justify-center py-8 w-full">
+  {# <y class="clear-both flex justify-center py-8 w-full">
     <y class="text-sm text-gray-500 (dark)text-gray-700">
        <strong>
          {{site.appname}}
        </strong>
        is copyright &copy; {{site.author.name}}. {{site.author.license}} Licensed.
     </y>
-  </y>
+  </y> #}
 
 </footer>
-

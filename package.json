@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "NODE_ENV=development npx @11ty/eleventy --config=eleventy.config.js --serve && gulp && gulp css && gulp move-css && npm test",
     "prod": "NODE_ENV=production gulp build && NODE_ENV=production npx @11ty/eleventy --config=eleventy.config.js && gulp purge-css && gulp remove-residual-files",
-    "test": "mdspell -r -n -a --en-us 'src/*.md' 'src/**/*.md'"
+    "test": "mdspell -r -n -a --en-us 'src/*.md' 'src/**/*.md'",
+    "clean": "rm -rfv ./dist/*"
   },
   "repository": {
     "type": "git",

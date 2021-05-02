@@ -4,9 +4,9 @@ import throttle from 'lodash/throttle';
 import debounce from 'lodash/debounce';
 import setupHovers from 'components/hover.js';
 
-export default async() => {
+export default async () => {
 
-  const SEARCH_RESULT_LIMIT = 10;
+  const SEARCH_RESULT_LIMIT = 5;
 
   const searchInput = document.querySelector('.search-input');
   const searchResults = document.querySelector('.search-results');
@@ -21,9 +21,10 @@ export default async() => {
     let result = await fetch('/api/search.json');
     docs = await result.json();
 
-    index = lunr(function() {
+    index = lunr(function () {
       this.ref('id');
       this.field('title');
+      this.field('description');
       this.field('content');
 
       docs.forEach((doc, index) => {
@@ -59,6 +60,7 @@ export default async() => {
     let searchTermMatcher = new RegExp(searchTerm.split(' ').join('|'), 'i');
 
     let title = highlightWords(result.title, searchTermMatcher);
+    let description = highlightWords(result.description, searchTermMatcher);
 
     let content = '';
     let contentMatch = result.content.match(searchTermMatcher);
@@ -68,7 +70,7 @@ export default async() => {
       let end = start + contentMatch[0].length;
 
       // Include surrounding text
-      start = Math.max(start - 30, 0);
+      start = Math.max(start - 30, 0); // 30, 0
       end = Math.max(end + 110, result.content.length);
 
       let value = result.content.slice(start, end).trim();
@@ -90,28 +92,27 @@ export default async() => {
       <a class="z-10 search-result block m-0 p-5 outline-none border-2 border-transparent (focus)border-blue-400 rounded-lg"
          href="${result.url}"
          target="_self"
-         rel="noopener"
-         title="${title}">
+         rel="noopener">
         <p class="font-medium text-lg">
           ${title}
         </p>
-        ${content}
+        ${description}
       </a>
       <y class="border border-gray-100 my-2"></y>
     `;
-
+    // ${content}
   }
 
   function highlightWords(string, wordExpression) {
     return string.replace(new RegExp(wordExpression, 'gi'), '<mark>$&</mark>')
   }
 
-  function setState(state, description) {
+  function setState(state, desc) {
 
     searchResults.dataset.state = state;
 
-    if (typeof description === 'string') {
-      searchResults.innerHTML = `<span class="text-gray-500">${description}</span>`;
+    if (typeof desc === 'string') {
+      searchResults.innerHTML = `<span class="text-md text-gray-500">${desc}</span>`;
     }
   }
 
@@ -151,7 +152,7 @@ export default async() => {
             }
           },
           () => {
-            setState('loading-error', 'Failed to load search data 😭');
+            setState('loading-error', 'Failed to load search data!');
           }
         );
       }

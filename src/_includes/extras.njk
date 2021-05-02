@@ -9,8 +9,6 @@
 
     {% endif %}
 
-    <!--{% include "promo.njk" %}-->
-
     <y class="mb-4 pb-4 border-b border-gray-300">
 
       <ul class="-ml-8">
@@ -35,7 +33,7 @@
 
                 {% if item.label %}
 
-                <a class="nav-link -mx-6 px-2 py-1 (hover)font-semibold (hover)underline {{ item.class }} {% if is_current_page %} selected {% endif %}"
+                <a class="nav-link -mx-8 px-2 py-2 (hover)font-semibold (hover)underline {{ item.class }} {% if is_current_page %} selected {% endif %}"
                    href="{{ item.url | safe }}"
                    {% if is_current_page %}
                    aria-current="page"
@@ -49,12 +47,12 @@
 
                 {% if item.url_external %}
 
-                  <a class="nav-link -mx-6 px-2 py-1 (hover)font-semibold (hover)underline {{ item.class }} {% if is_current_page %} selected {% endif %}"
+                  <a class="nav-link -mx-8 px-2 py-2 (hover)font-semibold (hover)underline {{ item.class }} {% if is_current_page %} selected {% endif %}"
                      href="{{ item.url_external | safe }}"
                      target="_blank"
                      rel="noopener"
                      {% if is_current_page %}
-                     aria-current="page"
+                      aria-current="page"
                      {% endif %}>
 
                     {{ item.label_external }}
@@ -77,12 +75,6 @@
         {% endfor %}
 
       </ul>
-
-      <y class="pt-12 px-6 mx-auto">
-
-        {% include "sponsors.njk" %}
-
-      </y>
 
     </y>
 

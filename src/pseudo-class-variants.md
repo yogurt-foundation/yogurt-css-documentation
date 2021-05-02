@@ -1,7 +1,7 @@
 ---
 id: pseudo-class-variant
 title: Pseudo-Class Variants
-description: Using utilities to style and add effects to elements when on hover, group-hover, group-focus, group-focus, focus, active, disabled, visited, checked or theme.
+description: Using utilities to style and add effects to elements when on hover, group-hover, group-focus, group-focus, focus, active, disabled, visited, checked and so on.
 layout: default
 ---
 
@@ -9,7 +9,17 @@ layout: default
 
 ## Pseudo-Class Variants
 
-Using utilities to style and add effects to elements when on `hover`, `group-hover`, `group-focus`, `focus`, `active`, `disabled`, `visited`, `checked` or `theme`.
+Using utilities to style and add effects to elements when on:
+
+- `hover`, `group-hover`
+- `focus`, `group-focus`, `focus-visible`, `focus-within`
+- `active`
+- `visited`
+- `checked`
+- `disable`
+- `dark-mode`, `light-mode`
+- `portrait`, `landscape`
+- `reduce-motion`
 
 ### Hover
 
@@ -54,6 +64,17 @@ Add the `(focus-within)` prefix to an utility to enable on-focused for child ele
 <y class="(focus-within)text-red-600 (focus-within)bg-red-300">
   Title:
   <input placeholder="Focus me!">
+</y>
+```
+
+### Focus-Visible
+
+Add the `(focus-visible)` prefix to an utility to enable on-focused for child element.
+
+```html
+<!-- Example -->
+<y class="bg-gray-400 (focus-visible)bg-gray-600">
+  ...
 </y>
 ```
 
@@ -115,7 +136,7 @@ Add the `(disabled)` prefix to an utility to enable on-disabled.
 </button>
 ```
 
-### Dark Theme <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.0</span>
+### Dark Mode <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.0</span>
 
 Add the `(dark)` prefix to an utility when dark theme settings enabled.
 
@@ -125,6 +146,18 @@ Add the `(dark)` prefix to an utility when dark theme settings enabled.
   ...
 </y>
 ```
+
+### Light Mode <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.5</span>
+
+Add the `(light)` prefix to an utility when dark theme settings enabled.
+
+```html
+<!-- Example -->
+<y class="text-charcoal-100 (light)text-gray-100">
+  ...
+</y>
+```
+
 <y class="m-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 (dark)text-orange-500 bg-orange-200 (dark)bg-orange-900">
   <span class="pr-1 font-semibold">
     Note:
@@ -153,34 +186,43 @@ Add the `(dark)` prefix to an utility when dark theme settings enabled.
   </a>).
 </y>
 
-### Create Custom Variants
+### Portrait <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.5</span>
 
-Same like [responsive](/responsive/), the different is the file location. To create custom variants to a utility, look into directory `src/variants/{ non-responsive or responsive }/`, and then add a new `@include()` directive with defined utility name (e.g. `fontSize`), last the arguments into the variant file (e.g. `_hover.scss`).
+Add the `(portrait)` prefix to an utility when dark theme settings enabled.
 
-```scss
-// @file `variants/non-responsive/pseudo/_hover.scss`
-// @file `variants/responsive/pseudo/_hover.scss`
-@include fontSize($prefix-hover, $pseudo-hover, $class-false);
-
-// @file `variants/non-responsive/pseudo/_focus.scss`
-// @file `variants/responsive/pseudo/_focus.scss`
-@include fontSize($prefix-focus, $pseudo-focus, $class-false);
-
-// @file `variants/non-responsive/pseudo/_active.scss`
-// @file `variants/responsive/pseudo/_active.scss`
-@include fontSize($prefix-active, $pseudo-active, $class-false);
-
-// @file `variants/non-responsive/pseudo/_visited.scss`
-// @file `variants/responsive/pseudo/_visited.scss`
-@include fontSize($prefix-visited, $pseudo-visited, $class-false);
-
-// @file `variants/non-responsive/pseudo/_checked.scss`
-// @file `variants/responsive/pseudo/_checked.scss`
-@include fontSize($prefix-checked, $pseudo-checked, $class-false);
-
-// @file `variants/non-responsive/pseudo/_disabled.scss`
-// @file `variants/responsive/pseudo/_disabled.scss`
-@include fontSize($prefix-disabled, $pseudo-disabled, $class-false);
+```html
+<!-- Example -->
+<y class="(portrait)flex-col">
+  ...
+</y>
 ```
 
-Some utility has `negative` value and require to add `negative[true|false]` argument into `@include()` directive.
+### Landscape <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.5</span>
+
+Add the `(landscape)` prefix to an utility when dark theme settings enabled.
+
+```html
+<!-- Example -->
+<y class="(landscape)flex-col">
+  ...
+</y>
+```
+
+<y class="m-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 (dark)text-orange-500 bg-orange-200 (dark)bg-orange-900">
+  <span class="pr-1 font-semibold">
+    Note:
+  </span>
+  Default enabled utilities (
+  <a href="/flex-direction/">
+    Flex Direction
+  </a>).
+</y>
+
+### Create Custom Variants
+
+Read [Plugin API](/plugin-api/). Covering how to create:
+
+- `Create basic utility`
+- `Create responsive utility`
+- `Create responsive utility with variants`
+- `Create utility with negative values`

@@ -6,7 +6,7 @@
 
         {% for section in main.sections %}
 
-          <li class="mb-4">
+          <li class="mb-6">
 
             <span class="block mb-2 (xs)text-lg (sm)text-xs (lg)text-xs uppercase font-bold text-gray-900 (dark)text-orange-600">
 
@@ -22,8 +22,9 @@
 
               <li class="mb-px">
 
-                <a class="nav-link -mx-2 p-2 (hover)font-semibold (hover)underline {{ item.class }} {% if is_current_page %} selected {% endif %}"
+                <a class="nav-link -mx-4 p-2 (hover)font-semibold (hover)underline {{ item.class }} {% if is_current_page %} selected {% endif %}"
                    href="{{ item.url | safe }}"
+                   target="{{ item.target }}"
                    {% if is_current_page %}
                    aria-current="page"
                    {% endif %}>
@@ -49,7 +50,7 @@
 
         {% for data in extras.more %}
 
-          <li class="(sm)block (md)hidden (lg)hidden mb-4">
+          <li class="(sm)block (md)hidden (lg)hidden mb-6">
 
             <span class="block mb-2 (xs)text-lg (sm)text-xs (lg)text-xs uppercase font-bold text-gray-900 (dark)text-orange-600">
 
@@ -65,7 +66,7 @@
 
               <li class="mb-px">
 
-                <a class="nav-link -mx-2 p-2 (hover)font-semibold (hover)underline {{ item.class }} {% if is_current_page %} selected {% endif %}"
+                <a class="nav-link -mx-4 p-2 (hover)font-semibold (hover)underline {{ item.class }} {% if is_current_page %} selected {% endif %}"
                    href="{{ item.url | safe }}"
                    {% if is_current_page %}
                    aria-current="page"
@@ -92,7 +93,7 @@
 
         {% for section in navigation.sections %}
 
-          <li class="mb-4">
+          <li class="mb-6">
 
             <span class="block mb-2 (xs)text-lg (sm)text-xs (lg)text-xs uppercase font-bold text-gray-900 (dark)text-orange-600">
 
@@ -108,7 +109,7 @@
 
               <li class="mb-px">
 
-                <a class="nav-link -mx-2 p-2 (hover)font-semibold (hover)underline {{ item.class }} {% if is_current_page %} selected {% endif %}"
+                <a class="nav-link -mx-4 p-2 (hover)font-semibold (hover)underline {{ item.class }} {% if is_current_page %} selected {% endif %}"
                    href="{{ item.url | safe }}"
                    {% if is_current_page %}
                    aria-current="page"

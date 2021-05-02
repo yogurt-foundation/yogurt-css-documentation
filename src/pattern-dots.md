@@ -17,17 +17,10 @@ Utilities for sets an element's background dots pattern.
 
 | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> | |
 |:--|:--|:-:|
-| pattern <br> dots-sm | background-image: radial-gradient(currentColor 5px, transparent 5px); <br><br> background-size: calc(10 * 5px) calc(10 * 5px) | <y class="pattern dots-sm w-32 h-56"></y> |
-| pattern <br> dots-md | background-image: radial-gradient(currentColor 1px, transparent 1px); <br><br> background-size: calc(10 * 1px) calc(10 * 1px) | <y class="pattern dots-md w-32 h-56"></y> |
-| pattern <br> dots-lg | background-image: radial-gradient(currentColor 1.5px, transparent 1.5px); <br><br> background-size: calc(10 * 1.5px) calc(10 * 1.5px) | <y class="pattern dots-lg w-32 h-56"></y> |
-| pattern <br> dots-xl | background-image: radial-gradient(currentColor 2px, transparent 2px); <br><br> background-size: calc(10 * 2px) calc(10 * 2px) | <y class="pattern dots-xl w-32 h-56"></y> |
-
-<y class="m-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 (dark)bg-gray-800">
-  <span class="pr-1 font-semibold">
-    Note:
-  </span>
-  Utility customizing is unavailable.
-</y>
+| pattern <br> dots-sm | background-image: radial-gradient(currentColor 1px, transparent 1px); <br><br> background-size: calc(10 * 1px) calc(10 * 1px) | <y class="pattern dots-sm w-32 h-56"></y> |
+| pattern <br> dots-md | background-image: radial-gradient(currentColor 1.5px, transparent 1.5px); <br><br> background-size: calc(10 * 1.5px) calc(10 * 1.5px) | <y class="pattern dots-md w-32 h-56"></y> |
+| pattern <br> dots-lg | background-image: radial-gradient(currentColor 2px, transparent 2px); <br><br> background-size: calc(10 * 2px) calc(10 * 2px) | <y class="pattern dots-lg w-32 h-56"></y> |
+| pattern <br> dots-xl | background-image: radial-gradient(currentColor 5px, transparent 5px); <br><br> background-size: calc(10 * 5px) calc(10 * 5px) | <y class="pattern dots-xl w-32 h-56"></y> |
 
 ---
 
@@ -84,16 +77,7 @@ Set pattern clipping with text.
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | |
-| Dark Theme | | |
-| hover| | |
-| group-hover | | |
-| focus | | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for patterndots in variants.patterndots %}{% for item in patterndots.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+

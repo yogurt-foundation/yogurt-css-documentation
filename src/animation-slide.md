@@ -26,13 +26,6 @@ Utilities for sets the sliding animation to an element.
 | slide-out-left | @keyframes slide-out-left { from { transform: translate3d(0, 0, 0) } to { visibility: hidden; transform: translate3d(-100%, 0, 0) }} | <y class="text-lg animation slide-out-left duration-800 delay-2 loop-infinite">Text</y> |
 | slide-out-right | @keyframes slide-out-right { from { transform: translate3d(0, 0, 0) } to { visibility: hidden; transform: translate3d(100%, 0, 0) }} | <y class="text-lg animation slide-out-right duration-800 delay-2 loop-infinite">Text</y> |
 
-<y class="m-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 (dark)bg-gray-800">
-  <span class="pr-1 font-semibold">
-    Note:
-  </span>
-  Utility customizing is unavailable.
-</y>
-
 ---
 
 ## Usage
@@ -77,16 +70,7 @@ Mix with duration, delay and infinite looping.
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | |
-| Dark Theme | | |
-| hover | Yes | |
-| group-hover | | |
-| focus | | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for animationslide in variants.animationslide %}{% for item in animationslide.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+

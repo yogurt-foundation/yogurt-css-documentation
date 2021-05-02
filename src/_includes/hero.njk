@@ -6,16 +6,39 @@
       A colossal low-level utility CSS framework for crafting beautiful and elegant user interface at an atomic level.
     </y>
 
-    <a class="my-4"
-       href="/installation/"
-       rel="noopener"
-       title="Getting Started">
-      <y class="max-w-xxs px-6 py-3 text-center text-lg font-semibold text-white (hover)text-gray-800 (dark)text-gray-800 bg-gray-800 (hover)bg-gray-300 (dark)bg-gray-400 rounded transition duration-100 ease-in-out">
-        Getting Started
-      </y>
-    </a>
+    <y class="mt-4 flex flex-gap-4 (xs)flex-col (sm)flex-row items-center animation fade-in delay-2 duration-3000">
 
-    <y class="text-sm text-gray-600 (dark)text-gray-400">
+      <a class="my-4"
+        href="/getting-started/"
+        rel="noopener">
+        <y class="(xs)w-full (lg)max-w-xxs flex justify-center items-center h-12 px-5 text-md text-white (hover)text-gray-800 (dark)text-gray-800 bg-gray-800 (hover)bg-gray-200 (dark)bg-gray-400 border-4 border-gray-800 (dark)border-gray-300 (hover)border-gray-800 rounded-md transition duration-300 ease-in-out">
+          Getting Started
+        </y>
+      </a>
+
+      <y class="(group) max-w-xxs flex justify-center items-center my-4 h-12 px-4 text-center text-lg font-mono font-semibold text-gray-800 bg-gray-100 border-2 border-gray-500 (hover)border-gray-800 rounded-md transition duration-300 ease-in-out cursor-pointer"
+         onclick="copyCommand()"
+         title="Copy">
+
+        <y class="mt-1 block font-mono pr-2 opacity-50">$</y>
+
+        <input
+          class="mt-1 block outline-none bg-transparent w-full cursor-pointer"
+          type="text"
+          value="npm i yogurt-css"
+          id="copyNPMcommand"
+        >
+
+        <svg class="block h-4 w-4 fill-current stroke-current outline-none text-gray-500 (group-hover)text-gray-800 transition duration-300 ease-in-out"
+             viewBox="0 0 477.867 477.867">
+          <g><g><path d="M341.333,85.333H51.2c-28.277,0-51.2,22.923-51.2,51.2v290.133c0,28.277,22.923,51.2,51.2,51.2h290.133c28.277,0,51.2-22.923,51.251.2V136.533C392.533,108.256,369.61,85.333,341.333,85.333z M358.4,426.667c0,9.426-7.641,17.067-17.067,17.067H51.2c-9.426,0-17.067-7.641-17.067-17.067V136.533c0-9.426,7.641-17.067,17.067-17.067h290.133c9.426,0,17.067,7.641,17.067,17.067V426.667z"/></g></g><g><g><path d="M426.667,0h-307.2c-28.277,0-51.2,22.923-51.2,51.2c0,9.426,7.641,17.067,17.067,17.067S102.4,60.626,102.4,51.2s7.641-17.067,17.067-17.067h307.2c9.426,0,17.067,7.641,17.067,17.067v307.2c0,9.426-7.641,17.067-17.067,17.067s-17.067,7.641-17.067,17.067s7.641,17.067,17.067,17.067c28.277,0,51.2-22.923,51.2-51.2V51.2C477.867,22.923,454.944,0,426.667,0z"/></g></g>
+        </svg>
+
+      </y>
+
+    </y>
+
+    <y class="px-3 text-sm text-gray-600 (dark)text-gray-400 animation fade-in delay-3 duration-2000">
       v{{ site.version.core }}-solidcore
     </y>
 
@@ -25,3 +48,11 @@
 
 </y>
 
+<script>
+  function copyCommand() {
+    var copyText = document.getElementById("copyNPMcommand");
+    copyText.select();
+    copyText.setSelectionRange(0, 99999);
+    document.execCommand("copy");
+  }
+</script>

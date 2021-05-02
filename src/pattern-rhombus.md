@@ -22,13 +22,6 @@ Utilities for sets an element's background rhombus pattern.
 | pattern <br> rhombus-lg | background-image: background-image: linear-gradient(135deg, currentColor 25%, transparent 25%), linear-gradient(225deg, currentColor 25%, transparent 25%), linear-gradient(45deg, currentColor 25%, transparent 25%), linear-gradient(315deg, currentColor 25%, transparent 25%) <br> background-position: 50px 0, 50px 0, 0 0, 0 0 <br> background-size: 50px 50px <br> background-repeat: repeat | <y class="pattern rhombus-lg w-32 h-56"></y> |
 | pattern <br> rhombus-xl | background-image: background-image: linear-gradient(135deg, currentColor 25%, transparent 25%), linear-gradient(225deg, currentColor 25%, transparent 25%), linear-gradient(45deg, currentColor 25%, transparent 25%), linear-gradient(315deg, currentColor 25%, transparent 25%) <br> background-position: 100px 0, 100px 0, 0 0, 0 0 <br> background-size: 100px 100px <br> background-repeat: repeat | <y class="pattern rhombus-xl w-32 h-56"></y> |
 
-<y class="m-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 (dark)bg-gray-800">
-  <span class="pr-1 font-semibold">
-    Note:
-  </span>
-  Utility customizing is unavailable.
-</y>
-
 ---
 
 ## Usage
@@ -98,16 +91,7 @@ Set pattern clipping with text.
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | |
-| Dark Theme | | |
-| hover| | |
-| group-hover | | |
-| focus | | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for patternrhombus in variants.patternrhombus %}{% for item in patternrhombus.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+

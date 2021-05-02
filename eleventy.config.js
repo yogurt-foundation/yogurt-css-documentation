@@ -68,8 +68,8 @@ module.exports = eleventyConfig => {
       .trim();
   });
 
-  // eleventyConfig.addWatchTarget("js/");
-  // eleventyConfig.addWatchTarget("css/");
+  eleventyConfig.addWatchTarget("js/");
+  eleventyConfig.addWatchTarget("css/");
 
   return {
     templateFormats: ['md', 'njk'],

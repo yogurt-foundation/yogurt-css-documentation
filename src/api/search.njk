@@ -6,6 +6,7 @@ permalink: /api/search.json
 {% for page in collections.searchPages %}
   {
      "title":"{{page.data.title}}",
+     "description":"{{page.data.description}}",
      "url":"{{page.url}}",
      "content":"{% searchContent page %}"
   }{% if loop.last != true %},{% endif %}

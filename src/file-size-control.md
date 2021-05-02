@@ -40,5 +40,5 @@ Optionally to use the dedicated scaffolding app to create a new project with Pur
 $ npx create-yogurt-app my-new-project
 ```
 
-Read guide to [Create Empty Project Manually](/import-framework/#create-empty-project-manually) yourself without using the [Yogurt CLI](/installation/#using-yogurt-via-cli).
+Read guide to [Create Empty Project](/import-framework/#create-empty-project-manually) yourself without using the [Yogurt CLI](/installation/#using-yogurt-via-cli).
 
