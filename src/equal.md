@@ -118,13 +118,6 @@ Utilities for sets balancing the space in between child elements.
 | equal-x-reverse | --equal-x-reverse: 1 |
 | equal-y-reverse | --equal-y-reverse: 1 |
 
-<y class="m-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 (dark)bg-gray-800">
-  <span class="pr-1 font-semibold">
-    Note:
-  </span>
-  Utility customizing is unavailable.
-</y>
-
 ---
 
 ## Usage

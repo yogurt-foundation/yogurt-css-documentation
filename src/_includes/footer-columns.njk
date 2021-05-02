@@ -1,25 +1,25 @@
-<y class="(xs)p-4 (2k)px-64 py-8 flex (xs)flex-col (sm)flex-row flex-wrap justify-around items-start text-sm">
+<y class="(xs)p-4 (2k)px-64 py-8 flex (xs)flex-col (sm)flex-row flex-wrap justify-around items-start text-lg">
 
   {% for data in footer.columnone %}
 
     <y>
       <y class="py-4 font-semibold uppercase">
-        {{ columnone.label }}
+        {{ data.label }}
       </y>
 
       {% for item in data.items %}
 
         {% set is_current_page = page.url | replace('/', '') == item.url | replace('/', '') %}
 
-        <y class="flex flex-gap-2 flex-col justify-start font-semibold text-gray-600 (hover)text-gray-700">
+        <y class="flex flex-gap-2 flex-col justify-start text-gray-600 (hover)text-gray-700">
 
           <a class="pb-2 (hover)text-gray-800 (hover)underline transition duration-200 ease-in"
-              href="{{ item.url | safe }}"
-              target="{{ item.target }}"
-              rel="noopener"
-              {% if is_current_page %}
+             href="{{ item.url | safe }}"
+             target="{{ item.target }}"
+             rel="noopener"
+             {% if is_current_page %}
               aria-current="page"
-              {% endif %}>
+             {% endif %}>
 
             {{ item.label }}
 
@@ -32,26 +32,26 @@
 
   {% endfor %}
 
-  {% for columntwo in footer.columntwo %}
+  {% for data in footer.columntwo %}
 
     <y>
       <y class="py-4 font-semibold uppercase">
-        {{ columntwo.label }}
+        {{ data.label }}
       </y>
 
-      {% for item in columntwo.items %}
+      {% for item in data.items %}
 
         {% set is_current_page = page.url | replace('/', '') == item.url | replace('/', '') %}
 
-        <y class="flex flex-gap-2 flex-col justify-start font-semibold text-gray-600 (hover)text-gray-700">
+        <y class="flex flex-gap-2 flex-col justify-start text-gray-600 (hover)text-gray-700">
 
           <a class="pb-2 (hover)text-gray-800 (hover)underline transition duration-200 ease-in"
-              href="{{ item.url | safe }}"
-              target="_self"
-              rel="noopener"
-              {% if is_current_page %}
+             href="{{ item.url | safe }}"
+             target="_self"
+             rel="noopener"
+             {% if is_current_page %}
               aria-current="page"
-              {% endif %}>
+             {% endif %}>
 
             {{ item.label }}
 
@@ -64,26 +64,26 @@
 
   {% endfor %}
 
-  {% for columnthree in footer.columnthree %}
+  {% for data in footer.columnthree %}
 
     <y>
       <y class="py-4 font-semibold uppercase">
-        {{ columnthree.label }}
+        {{ data.label }}
       </y>
 
-      {% for item in columnthree.items %}
+      {% for item in data.items %}
 
         {% set is_current_page = page.url | replace('/', '') == item.url | replace('/', '') %}
 
-        <y class="flex flex-gap-2 flex-col justify-start font-semibold text-gray-600 (hover)text-gray-700">
+        <y class="flex flex-gap-2 flex-col justify-start text-gray-600 (hover)text-gray-700">
 
           <a class="pb-2 (hover)text-gray-800 (hover)underline transition duration-200 ease-in"
-              href="{{ item.url | safe }}"
-              target="_self"
-              rel="noopener"
-              {% if is_current_page %}
+             href="{{ item.url | safe }}"
+             target="_self"
+             rel="noopener"
+             {% if is_current_page %}
               aria-current="page"
-              {% endif %}>
+             {% endif %}>
 
             {{ item.label }}
 
@@ -96,26 +96,26 @@
 
   {% endfor %}
 
-{% for columnfour in footer.columnfour %}
+{% for data in footer.columnfour %}
 
     <y>
       <y class="py-4 font-semibold uppercase">
-        {{ columnfour.label }}
+        {{ data.label }}
       </y>
 
-      {% for item in columnfour.items %}
+      {% for item in data.items %}
 
         {% set is_current_page = page.url | replace('/', '') == item.url | replace('/', '') %}
 
-        <y class="flex flex-gap-2 flex-col justify-start font-semibold text-gray-600 (hover)text-gray-700">
+        <y class="flex flex-gap-2 flex-col justify-start text-gray-600 (hover)text-gray-700">
 
           <a class="pb-2 (hover)text-gray-800 (hover)underline transition duration-200 ease-in"
-              href="{{ item.url | safe }}"
-              target="{{ item.target }}"
-              rel="noopener"
-              {% if is_current_page %}
+             href="{{ item.url | safe }}"
+             target="{{ item.target }}"
+             rel="noopener"
+             {% if is_current_page %}
               aria-current="page"
-              {% endif %}>
+             {% endif %}>
 
             {{ item.label }}
 

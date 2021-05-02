@@ -3,12 +3,12 @@
     {
       "items": [
         {
-          "title": "4-8K Breakpoints",
+          "title": "4k-8K Breakpoints",
           "icon": "",
           "url": "/responsive/"
         },
         {
-          "title": "Dark Mode",
+          "title": "Dark/Light Mode",
           "icon": "",
           "url": "/pseudo-class-variants/#dark-mode-v1.1.0"
         },
