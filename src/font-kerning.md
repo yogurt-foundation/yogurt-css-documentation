@@ -95,4 +95,4 @@ Set a typo element to removing space in between each letter if any spaces are le
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for fontkerning in variants.fontkerning %}{% for item in fontkerning.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).

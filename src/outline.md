@@ -25,5 +25,5 @@ Utilities for sets native browser outline style to reset.
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for outline in variants.outline %}{% for item in outline.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
 

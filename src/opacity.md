@@ -56,4 +56,4 @@ Utilities for sets the transparency of an element.
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for opacity in variants.opacity %}{% for item in opacity.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).

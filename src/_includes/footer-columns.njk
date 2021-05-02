@@ -1,13 +1,13 @@
 <y class="(xs)p-4 (2k)px-64 py-8 flex (xs)flex-col (sm)flex-row flex-wrap justify-around items-start text-sm">
 
-  {% for columnone in footer.columnone %}
+  {% for data in footer.columnone %}
 
     <y>
       <y class="py-4 font-semibold uppercase">
         {{ columnone.label }}
       </y>
 
-      {% for item in columnone.items %}
+      {% for item in data.items %}
 
         {% set is_current_page = page.url | replace('/', '') == item.url | replace('/', '') %}
 

@@ -198,6 +198,6 @@ Set default background color to `<body>` tag.
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for backgroundcolor in variants.backgroundcolor %}{% for item in backgroundcolor.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
 
 

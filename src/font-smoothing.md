@@ -39,4 +39,4 @@ Set default font-smoothing with `<body>` tag.
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for fontsmoothing in variants.fontsmoothing %}{% for item in fontsmoothing.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).

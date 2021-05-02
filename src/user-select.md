@@ -28,5 +28,5 @@ Utilities for controls whether the user can select text.
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for userselect in variants.userselect %}{% for item in userselect.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
 

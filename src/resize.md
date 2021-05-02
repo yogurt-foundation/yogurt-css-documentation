@@ -28,5 +28,5 @@ Utilities for sets whether an element is resizable, along with direction.
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for resize in variants.resize %}{% for item in resize.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
 

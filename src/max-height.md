@@ -56,5 +56,5 @@ Utilities for sets the maximum height of an element.
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for maxheight in variants.maxheight %}{% for item in maxheight.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
 

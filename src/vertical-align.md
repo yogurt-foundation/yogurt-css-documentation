@@ -206,4 +206,4 @@ Set element vertical alignment to `middle`.
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for verticalalign in variants.verticalalign %}{% for item in verticalalign.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).

@@ -1,7 +1,7 @@
 <y class="flex flex-wrap justify-start items-center">
 
-  {% for n in community.sns %}
-    {% for item in n.networks %}
+  {% for data in community.sns %}
+    {% for item in data.networks %}
 
       <a class="block (xs)w-full (lg)w-1/2"
          href="{{ item.url | safe }}"

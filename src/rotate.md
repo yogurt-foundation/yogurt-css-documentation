@@ -163,5 +163,5 @@ Set the element rotation to `-45` degree.
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for rotate in variants.rotate %}{% for item in rotate.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
 

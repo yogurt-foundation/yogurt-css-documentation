@@ -60,5 +60,5 @@ Set pattern with color by using `text-{color}` utility. (See [Text Color](/text-
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for patternzigzag in variants.patternzigzag %}{% for item in patternzigzag.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
 

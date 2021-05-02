@@ -1,23 +1,26 @@
-<y class="my-5 flex flex-wrap flex-gap-10 justify-center items-stretch">
+<y class="flex flex-wrap justify-start items-start">
 
-  {% for data in features.features %}
+  {% for data in features.gettingstarted %}
     {% for item in data.items %}
 
-      <y class="p-6 (xs)w-full (lg)w-48 h-auto text-gray-800 bg-gray-300 rounded-lg shadow-sm-gray-300 animation fade-in-up duration-1000">
+      <a class="(group) w-1/3"
+         href="{{ item.url }}"
+         target="_self"
+         rel="noopener">
 
-        <y class="pb-4 text-xl font-semibold">
+        <y class="m-2 px-4 py-2 h-32 flex justify-center items-center bg-gray-200 border-4 border-gray-300 (hover)border-gray-800 shadow-sm rounded-lg transition duration-300 ease-in-out">
 
-          {{ item.title }}
+          <img class="hidden h-24 w-auto object-cover object-center overflow-hidden"
+               src="{{ item.icon }}"
+               title="{{ item.title }}">
+
+          <y class="font-semibold transition duration-300 ease-in-out transform (group-hover)translate-y-2">
+            {{ item.title }}
+          </y>
 
         </y>
 
-        <y class="text-sm">
-
-          {{ item.desc }}
-
-        </y>
-
-      </y>
+      </a>
 
     {% endfor %}
   {% endfor %}

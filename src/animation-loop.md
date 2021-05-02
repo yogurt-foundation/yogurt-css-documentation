@@ -60,5 +60,5 @@ Utilities for sets the animation control with limited loop or infinite.
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for animationloop in variants.animationloop %}{% for item in animationloop.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
 

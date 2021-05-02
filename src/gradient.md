@@ -245,6 +245,6 @@ Set default gradient to `<body>` tag.
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for gradient in variants.gradient %}{% for item in gradient.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
 
 

@@ -48,5 +48,5 @@ Set an element hidden from screen reader.
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for screenreader in variants.screenreader %}{% for item in screenreader.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
 

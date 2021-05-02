@@ -1,8 +1,12 @@
 {
   "sections": [
     {
-      "label": "Getting Started",
       "items": [
+        {
+          "label": "Getting Started",
+          "url": "/getting-started/",
+          "target": "_self"
+        },
         {
           "label": "Installation",
           "url": "/installation/",

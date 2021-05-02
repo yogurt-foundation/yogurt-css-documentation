@@ -58,5 +58,5 @@ Utilities for sets the miminum height of an element.
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for minheight in variants.minheight %}{% for item in minheight.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
 

@@ -41,5 +41,5 @@ Utilities for sets the animation control with durations.
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for animationduration in variants.animationduration %}{% for item in animationduration.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
 

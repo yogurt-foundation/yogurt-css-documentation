@@ -1,18 +1,66 @@
 {
-  "features": [
+  "gettingstarted": [
     {
       "items": [
         {
-          "title": "SEO and non-SEO Web UI",
-          "desc": "Create web UI running on both embedded or mainstream platforms."
+          "title": "4-8K Breakpoints",
+          "icon": "",
+          "url": "/responsive/"
         },
         {
-          "title": "Up to 8K Screen Size",
-          "desc": "Craft high-precision and detailed UI for the bigger screen resolution."
+          "title": "Dark Mode",
+          "icon": "",
+          "url": "/pseudo-class-variants/#dark-mode-v1.1.0"
         },
         {
-          "title": "Blazing Fast Prototyping",
-          "desc": "Meanwhile maintains a balance between consistency and flexibility design."
+          "title": "Color Palette",
+          "icon": "",
+          "url": ""
+        },
+        {
+          "title": "Variants",
+          "icon": "",
+          "url": "/pseudo-class-variants/"
+        },
+        {
+          "title": "Custom Gradient",
+          "icon": "",
+          "url": "/background-gradient/"
+        },
+        {
+          "title": "Gradient Presets",
+          "icon": "",
+          "url": "/gradient/"
+        },
+        {
+          "title": "Animations",
+          "icon": "",
+          "url": "/animation-fade/"
+        },
+        {
+          "title": "Filters",
+          "icon": "",
+          "url": "/filter-brightness/"
+        },
+        {
+          "title": "Patterns",
+          "icon": "",
+          "url": "/patterns-ripple/"
+        },
+        {
+          "title": "Fluids",
+          "icon": "",
+          "url": "/fluid-font-size/"
+        },
+        {
+          "title": "Orientation",
+          "icon": "",
+          "url": "/pseudo-class-variants/#portrait-v1.1.5"
+        },
+        {
+          "title": "Plugin API",
+          "icon": "",
+          "url": "/plugin-api/"
         }
       ]
     }

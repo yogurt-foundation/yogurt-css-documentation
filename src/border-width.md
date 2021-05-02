@@ -82,5 +82,5 @@ Utilities for sets border width in increments of 1px.
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for borderwidth in variants.borderwidth %}{% for item in borderwidth.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
 

@@ -117,4 +117,4 @@ To embed more than one Google Fonts.
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for fontfamily in variants.fontfamily %}{% for item in fontfamily.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).

@@ -1,7 +1,7 @@
 <y class="flex flex-wrap justify-start items-center">
 
-  {% for n in support.donation %}
-    {% for item in n.portal %}
+  {% for data in support.donation %}
+    {% for item in data.portal %}
 
       <a class="block (xs)w-full (lg)w-1/2"
          href="{{ item.url | safe }}"
@@ -10,7 +10,7 @@
 
         <y class="flex justify-start items-center pl-6 pr-4 py-4 (hover)bg-gray-200 border-4 border-transparent (hover)border-gray-400 rounded-lg transition duration-300 ease-in-out">
 
-          <img class="h-32 w-32 object-contain object-center overflow-hidden"
+          <img class="h-16 w-16 object-contain object-center overflow-hidden"
                src="{{ item.icon }}"
                title="{{ item.title }}"
                loading="lazy">

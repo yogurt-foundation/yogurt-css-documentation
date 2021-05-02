@@ -65,4 +65,4 @@ Set maximum height and width for the browser to start to render an element.
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for contentvisibility in variants.contentvisibility %}{% for item in contentvisibility.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).

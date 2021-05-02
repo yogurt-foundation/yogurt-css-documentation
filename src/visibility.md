@@ -64,4 +64,4 @@ Set `invisible` to an elment, the element property remains, but not hidden from 
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for visibility in variants.visibility %}{% for item in visibility.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).

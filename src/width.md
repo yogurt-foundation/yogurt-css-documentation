@@ -324,4 +324,4 @@ Set 12-column width `1/12` to an element.
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for width in variants.width %}{% for item in width.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).

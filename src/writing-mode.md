@@ -110,4 +110,4 @@ Set text element alignment to `horizontally` and `left to right` direction.
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for writingmode in variants.writingmode %}{% for item in writingmode.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).

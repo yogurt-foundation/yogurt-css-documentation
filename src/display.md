@@ -197,4 +197,4 @@ Set a complete set of table with `table`, `table-row`, `table-cell`, `table-capt
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for display in variants.display %}{% for item in display.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).

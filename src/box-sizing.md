@@ -26,4 +26,4 @@ Utilities for sets how the total width and height of an element is calculated.
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for boxsizing in variants.boxsizing %}{% for item in boxsizing.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
