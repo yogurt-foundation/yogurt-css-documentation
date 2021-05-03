@@ -41,8 +41,6 @@ Utilities for sets the animation control with limited loop or infinite.
 Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
 
 ```scss
-// @file: `src/plugins.scss`
-
 // Add Values
 @include yogurt(
   $class: 'animation.loop',

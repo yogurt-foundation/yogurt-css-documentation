@@ -56,8 +56,6 @@ Set font family to `<body>` as default.
 Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
 
 ```scss
-// @file: `src/plugins.scss`
-
 // Add Values
 @include yogurt(
   $class: 'font',
@@ -77,7 +75,6 @@ Read more information about using the [Plugin API](/plugin-api/), and  [Responsi
 Use Yogurt dedicated API to embedding the Google Fonts in the framework without manually adding the line `@import url(...);`.
 
 ```scss
-// @file: `src/plugins.scss`
 @include google-fonts(
   (
     font: 'Alata',
@@ -98,7 +95,6 @@ The generated code look like below in your Yogurt CSS final build.
 To embed more than one Google Fonts.
 
 ```scss
-// @file: `src/plugins.scss`
 @include google-fonts(
   (
     font: 'Alata',

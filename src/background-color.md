@@ -179,8 +179,6 @@ Set default background color to `<body>` tag.
 Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
 
 ```scss
-// @file: `src/plugins.scss`
-
 // Add Values
 @include yogurt(
   $class: 'bg-gray',
