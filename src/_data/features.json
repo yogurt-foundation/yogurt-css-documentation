@@ -35,7 +35,7 @@
         {
           "title": "Animations",
           "icon": "",
-          "url": "/animation-fade/"
+          "url": "/animations/"
         },
         {
           "title": "Filters",
@@ -45,7 +45,7 @@
         {
           "title": "Patterns",
           "icon": "",
-          "url": "/patterns-ripple/"
+          "url": "/patterns/"
         },
         {
           "title": "Fluids",

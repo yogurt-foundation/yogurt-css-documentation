@@ -102,3 +102,4 @@ Set text paragraph without preserved new line whitespaces.
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for whitespace in variants.whitespace %}{% for item in whitespace.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
