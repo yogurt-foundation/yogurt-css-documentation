@@ -7,7 +7,7 @@ layout: default
 
 > Core Concepts
 
-## Pseudo-Class Variants
+# Pseudo-Class Variants
 
 Using utilities to style and add effects to elements when on:
 
@@ -29,19 +29,6 @@ Add the `(hover)` prefix to an utility to enable on-hover.
 <!-- Example -->
 <y class="text-charcoal-100 (hover)text-white bg-white (hover)bg-charcoal-100">
   ...
-</y>
-```
-
-### Group-Hover
-
-Add `(group)` class to the parent element and add the `(group-hover)` prefix to an utility on the child element to enable group-hover.
-
-```html
-<!-- Example -->
-<y class="(group) bg-charcoal-100 (hover)bg-orange-400">
-  <y class="(group-hover)text-white">
-    ...
-  </y>
 </y>
 ```
 
@@ -75,19 +62,6 @@ Add the `(focus-visible)` prefix to an utility to enable on-focused for child el
 <!-- Example -->
 <y class="bg-gray-400 (focus-visible)bg-gray-600">
   ...
-</y>
-```
-
-### Group-Focus
-
-Add `(group)` class to the parent element and add the `(group-focus)` prefix to an utility on the child element to enable group-focus.
-
-```html
-<!-- Example -->
-<y class="(group) bg-charcoal-100 (focus)bg-orange-400">
-  <y class="(group-focus)text-white">
-    ...
-  </y>
 </y>
 ```
 
@@ -135,6 +109,40 @@ Add the `(disabled)` prefix to an utility to enable on-disabled.
   ...
 </button>
 ```
+
+---
+
+## Group
+
+### Group-Hover
+
+Add `(group)` class to the parent element and add the `(group-hover)` prefix to an utility on the child element to enable group-hover.
+
+```html
+<!-- Example -->
+<y class="(group) bg-charcoal-100 (hover)bg-orange-400">
+  <y class="(group-hover)text-white">
+    ...
+  </y>
+</y>
+```
+
+### Group-Focus
+
+Add `(group)` class to the parent element and add the `(group-focus)` prefix to an utility on the child element to enable group-focus.
+
+```html
+<!-- Example -->
+<y class="(group) bg-charcoal-100 (focus)bg-orange-400">
+  <y class="(group-focus)text-white">
+    ...
+  </y>
+</y>
+```
+
+---
+
+## Theme
 
 ### Dark Mode <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.0</span>
 
@@ -186,6 +194,10 @@ Add the `(light)` prefix to an utility when dark theme settings enabled.
   </a>).
 </y>
 
+---
+
+## Orientation
+
 ### Portrait <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.5</span>
 
 Add the `(portrait)` prefix to an utility when dark theme settings enabled.
@@ -218,7 +230,9 @@ Add the `(landscape)` prefix to an utility when dark theme settings enabled.
   </a>).
 </y>
 
-### Create Custom Variants
+---
+
+## Create Custom Variants
 
 Read [Plugin API](/plugin-api/). Covering how to create:
 

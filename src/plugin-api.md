@@ -7,11 +7,11 @@ layout: default
 
 > Customization
 
-## Plugin API <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.5</span>
+# Plugin API <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.5</span>
 
 Using plugin API to create your utility module and use it right away without modifying any of the Yogurt core files. Yogurt will generates after you run the build. All you need is write your plugins in the `src/plugins.scss` file.
 
-### Directive
+## Directive
 
 ```scss
 // @param: {String}  $class
@@ -119,7 +119,7 @@ Create utility with negative values.
 );
 ```
 
-### Compile
+## Compile
 
 After you finished editing the `plugins.scss` file, run one of these commands every time you make changes to the Yogurt files. And pretty much it is done, you can try out your new utility modules in your project.
 

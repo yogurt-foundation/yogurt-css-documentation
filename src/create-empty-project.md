@@ -7,7 +7,7 @@ layout: default
 
 > Customization
 
-## Create Empty Project
+# Create Empty Project
 
 These steps will help you understand the basic idea of how to install and configure the preprocessor and how to remove unused CSS classes from Yogurt.
 
@@ -38,7 +38,7 @@ These steps will help you understand the basic idea of how to install and config
   </a> without doing it yourself.)
 </y>
 
-### Let's Get Started
+## Let's Get Started
 
 Create a new empty project directory.
 

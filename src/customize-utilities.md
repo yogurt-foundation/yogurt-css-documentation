@@ -7,7 +7,7 @@ layout: default
 
 > Customization
 
-## Utilities
+# Utilities
 
 You can manually `exclude` or `include` the utility modules or components by `comment out` the lines in the `.scss` files. The final build file size will be smaller or bigger depends on how much utility you need.
 

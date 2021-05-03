@@ -15,7 +15,7 @@
         },
         {
           "title": "Playground",
-          "desc": "Build something with Yogurt in our online playground.",
+          "desc": "Build or testing something with Yogurt online.",
           "url": "/playground/",
           "button": "Start Testing",
           "target": "_blank",

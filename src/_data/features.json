@@ -10,7 +10,7 @@
         {
           "title": "Dark/Light Mode",
           "icon": "",
-          "url": "/pseudo-class-variants/#dark-mode-v1.1.0"
+          "url": "/pseudo-class-variants/#theme"
         },
         {
           "title": "Color Palette",
@@ -55,7 +55,7 @@
         {
           "title": "Orientation",
           "icon": "",
-          "url": "/pseudo-class-variants/#portrait-v1.1.5"
+          "url": "/pseudo-class-variants/#orientation"
         },
         {
           "title": "Plugin API",

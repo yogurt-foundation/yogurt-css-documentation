@@ -7,7 +7,7 @@ layout: default
 
 > Core Concepts
 
-## Extract Utility Classes
+# Extract Utility Classes
 
 Yogurt purely built on top of the SASS or SCSS ([Sassy CSS](https://sass-lang.com)). By using the existing Sassy `@extend` directive allows you to expose any Yogurt utility classes to your custom CSS.
 
@@ -28,7 +28,7 @@ Yogurt purely built on top of the SASS or SCSS ([Sassy CSS](https://sass-lang.co
   </a>. )
 </y>
 
-### @extend
+## @extend
 
 When using the **@extend `<selector ...>`** directive in your custom CSS, some unconventional rules that you need follow:
 

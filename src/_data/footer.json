@@ -31,11 +31,11 @@
       "label": "Core Concepts",
       "items": [
         {
-          "label": "Utility",
+          "label": "Utility Designs",
           "url": "/utility/"
         },
         {
-          "label": "Responsive",
+          "label": "Responsive and Breakpoints",
           "url": "/responsive/"
         },
         {

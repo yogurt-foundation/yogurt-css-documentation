@@ -7,7 +7,7 @@ layout: default
 
 > Core Concepts
 
-## Responsive
+# Responsive
 
 Craft an adaptive user interface with responsive utility variants.
 
@@ -26,7 +26,7 @@ Any of the breakpoints that prefixed with an utility, the utility value can be i
 
 We have text size is `lg` at `sm` breakpoint, and text size is `4xl` at `2k` breakpoint. The rest of the breakpoints that not defined are `sm`, `md`, `lg` and `xl` will inherit the `xs`'s utility value, at the same time `4k`, `8k` will inherit the `2k`'s utility value.
 
-### Common Breakpoints
+## Common Breakpoints
 
 These are the default breakpoints covering for almost all common device and HAT module (embedded platform) resolutions.
 
@@ -47,7 +47,7 @@ These are the default breakpoints covering for almost all common device and HAT 
 @media (min-width: 1280px) { ... }
 ```
 
-### Modern Breakpoints
+## Modern Breakpoints
 
 Some breakpoints for new modern ultra-largescreen and ultra-widescreen sizes are not enabled by default. It will come in handy when designing a user interface specifically for uncommon bigger screens.
 
@@ -87,7 +87,7 @@ To prefix the breakpoint name (e.g. `xs`, `sm`, `md`, `lg` and so on) before the
 </y>
 ```
 
-### Customizing
+## Customizing
 
 To completely customize breakpoints is in the `src/_config.scss` file,
 
@@ -109,7 +109,7 @@ $screens: (
 );
 ```
 
-### Create Custom Variants
+## Create Custom Variants
 
 Read [Plugin API](/plugin-api/). Covering how to create:
 

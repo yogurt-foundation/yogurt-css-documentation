@@ -7,7 +7,7 @@ layout: default
 
 > Core Concepts
 
-## Refactoring UI
+# Refactoring UI
 
 Refactoring UI is a tedious job for frontend developers. Yogurt was designed to solve this problem in a very simple way. Here you will understand some basics of how to refactor (migrate) the existing style sheets or CSS framework you use in your project with Yogurt.
 
@@ -27,7 +27,7 @@ We will be using the `@extend` directive to extract the Yogurt utility classes a
   </a>.)
 </y>
 
-### Examples
+## Examples
 
 <y class="my-4 mx-auto max-w-xxs">
   <y class="bg-white (dark)bg-gray-700 border border-gray-400 (dark)border-charcoal-100 rounded">
