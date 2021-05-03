@@ -61,7 +61,7 @@ Utilities for sets the z order (stack order) of a positioned element.
 Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
 
 ```scss
-// @file: `src/_plugins.scss`
+// @file: `src/plugins.scss`
 
 // Add Values
 @include yogurt(
@@ -71,20 +71,6 @@ Read more information about using the [Plugin API](/plugin-api/), and  [Responsi
     10: 10,
     20: 20
     //...
-  )
-);
-
-// Add Responsive
-@include yogurt(
-  $class: 'z',
-  $property: z-index,
-  $modifier: (
-    10: 10,
-    20: 20
-    //...
-  ),
-  $variant: (
-    'responsive'
   )
 );
 
@@ -98,9 +84,9 @@ Read more information about using the [Plugin API](/plugin-api/), and  [Responsi
     //...
   ),
   $variant: (
+    'responsive',
     'hover',
-    'focus-within',
-    'focus-visible'
+    'focus-within', 'focus-visible'
     //...
   )
 );

@@ -34,22 +34,38 @@ Utilities for sets the miminum height of an element.
 
 ---
 
-## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600" href="/plugin-api/">More</a>
+## Customization
+
+Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
 
 ```scss
-// @file: `src/_plugins.scss`
-@include plugin(
-  (
-    utility: 'min-h',
-    //variant: 'responsive',
-    property: 'min-height',
-    modifier: (
-      '...': '...',
-      '...': '...'
-      ...
-    )
+// @file: `src/plugins.scss`
+
+// Add Values
+@include yogurt(
+  $class: 'min-h',
+  $property: min-height,
+  $modifier: (
+    sm: 30%,
+    md: 50%
+    //...
   )
-)
+);
+
+// Add Variants
+@include yogurt(
+  $class: 'min-h',
+  $property: min-height,
+  $modifier: (
+    sm: 30%,
+    md: 50%
+    //...
+  ),
+  $variant: (
+    'responsive'
+    //...
+  )
+);
 ```
 
 ---

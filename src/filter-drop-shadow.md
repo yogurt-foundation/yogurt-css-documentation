@@ -76,22 +76,23 @@ Mix with other filters, such as [Brightness](/filter-brightness/), [Contrast](/f
 
 ---
 
-## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600" href="/plugin-api/">More</a>
+## Customization
+
+Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
 
 ```scss
-// @file: `src/_plugins.scss`
-@include plugin(
-  (
-    utility: 'filter.drop-shadow',
-    //variant: 'responsive',
-    property: '--drop-shadow',
-    modifier: (
-      '2xl': '0px 10px 15px rgba(0, 0, 0, 0.5)',
-      '3xl': '0px 10px 20px rgba(0, 0, 0, 0.5)'
-      //...
-    )
+// @file: `src/plugins.scss`
+
+// Add Values
+@include yogurt(
+  $class: 'filter.drop-shadow',
+  $property: --drop-shadow,
+  $modifier: (
+    2xl: 0px 10px 15px rgba(0, 0, 0, 0.5),
+    3xl: 0px 10px 20px rgba(0, 0, 0, 0.5)
+    //...
   )
-)
+);
 ```
 
 ---

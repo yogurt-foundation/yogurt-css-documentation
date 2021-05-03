@@ -36,7 +36,7 @@ Utilities for sets the transparency of an element.
 ## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600" href="/plugin-api/">More</a>
 
 ```scss
-// @file: `src/_plugins.scss`
+// @file: `src/plugins.scss`
 @include plugin(
   (
     utility: 'opacity',
@@ -50,6 +50,45 @@ Utilities for sets the transparency of an element.
   )
 )
 ```
+
+---
+
+## Customization
+
+Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
+
+```scss
+// @file: `src/plugins.scss`
+
+// Add Values
+@include yogurt(
+  $class: 'opacity',
+  $property: opacity,
+  $modifier: (
+    65: .65,
+    85: .85
+    //...
+  )
+);
+
+// Add Variants
+@include yogurt(
+  $class: 'opacity',
+  $property: opacity,
+  $modifier: (
+    65: .65,
+    85: .85
+    //...
+  ),
+  $variant: (
+    'responsive',
+    'hover',
+    'focus', 'focus-within', 'focus-visible'
+    //...
+  )
+);
+```
+
 ---
 
 ## Variant

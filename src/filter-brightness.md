@@ -76,22 +76,23 @@ Mix with other filters, such as [Contrast](/filter-contrast/), [Saturate](/filte
    style="background-image:url(...)"></y>
 ```
 
-## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600" href="/plugin-api/">More</a>
+## Customization
+
+Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
 
 ```scss
-// @file: `src/_plugins.scss`
-@include plugin(
-  (
-    utility: 'filter.brightness',
-    //variant: 'responsive',
-    property: '--brightness',
-    modifier: (
-      'brightness-11': '...',
-      'brightness-12': '...'
-      //...
-    )
+// @file: `src/plugins.scss`
+
+// Add Values
+@include yogurt(
+  $class: 'filter.brightness',
+  $property: --brightness,
+  $modifier: (
+    1: 1.10,
+    2: 2.20
+    //...
   )
-)
+);
 ```
 
 ## Variant

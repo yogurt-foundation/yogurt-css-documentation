@@ -37,6 +37,27 @@ Utilities for sets the animation control with durations.
 
 ---
 
+## Customization
+
+Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
+
+```scss
+// @file: `src/plugins.scss`
+
+// Add Values
+@include yogurt(
+  $class: 'animation.duration',
+  $property: animation-duration,
+  $modifier: (
+    5000: 5000ms,
+    6000: 6000ms
+    //...
+  )
+);
+```
+
+---
+
 ## Variant
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for animationduration in variants.animationduration %}{% for item in animationduration.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>

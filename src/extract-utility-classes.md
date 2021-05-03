@@ -43,7 +43,7 @@ When using the **@extend `<selector ...>`** directive in your custom CSS, some u
 You can create new or refactor existing CSS with Yogurt utility classes,
 
 ```scss
-// @file: `src/_plugins.scss` in .scss
+// @file: `src/plugins.scss` in .scss
 .btn {
   @extend
     // Yogurt utility classes

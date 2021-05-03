@@ -39,17 +39,17 @@ Utilities for sets filter backdrop saturate effect to an element.
 
 | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
-| saturate-0 | --saturate: 0 |
-| saturate-1 | --saturate: 1 |
-| saturate-2 | --saturate: 1.10 |
-| saturate-3 | --saturate: 1.20 |
-| saturate-4 | --saturate: 1.30 |
-| saturate-5 | --saturate: 1.40 |
-| saturate-6 | --saturate: 1.50 |
-| saturate-7 | --saturate: 1.60 |
-| saturate-8 | --saturate: 1.70 |
-| saturate-9 | --saturate: 1.80 |
-| saturate-10 | --saturate: 1.90 |
+| saturate-0 | --backdrop-saturate: 0 |
+| saturate-1 | --backdrop-saturate: 1 |
+| saturate-2 | --backdrop-saturate: 1.10 |
+| saturate-3 | --backdrop-saturate: 1.20 |
+| saturate-4 | --backdrop-saturate: 1.30 |
+| saturate-5 | --backdrop-saturate: 1.40 |
+| saturate-6 | --backdrop-saturate: 1.50 |
+| saturate-7 | --backdrop-saturate: 1.60 |
+| saturate-8 | --backdrop-saturate: 1.70 |
+| saturate-9 | --backdrop-saturate: 1.80 |
+| saturate-10 | --backdrop-saturate: 1.90 |
 
 ---
 
@@ -118,22 +118,23 @@ Mix with other filters, such as [Backdrop Brightness](/filter-backdrop-brightnes
 
 ---
 
-## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600" href="/plugin-api/">More</a>
+## Customization
+
+Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
 
 ```scss
-// @file: `src/_plugins.scss`
-@include plugin(
-  (
-    utility: 'backdrop.saturate',
-    //variant: 'responsive',
-    property: 'filter',
-    modifier: (
-      'saturate-11': '...',
-      'saturate-12': '...'
-      ...
-    )
+// @file: `src/plugins.scss`
+
+// Add Values
+@include yogurt(
+  $class: 'backdrop.saturate',
+  $property: --backdrop-saturate,
+  $modifier: (
+    1: 1.10,
+    2: 2.20
+    //...
   )
-)
+);
 ```
 
 ---

@@ -402,6 +402,43 @@ Utilities for sets the shadow color to an element.
 
 ---
 
+## Customization
+
+Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
+
+```scss
+// @file: `src/plugins.scss`
+
+// Add Values
+@include yogurt(
+  $class: 'shadow-md-gray',
+  $property: box-shadow,
+  $modifier: (
+    100: 0 0 6px #262626,
+    200: 0 0 6px #252525
+    //...
+  )
+);
+
+// Add Variants
+@include yogurt(
+  $class: 'shadow-md-gray',
+  $property: box-shadow,
+  $modifier: (
+    100: 0 0 6px #262626,
+    200: 0 0 6px #252525
+    //...
+  ),
+  $variant: (
+    'dark-mode',
+    'focus-within', 'focus-visible'
+    //...
+  )
+);
+```
+
+---
+
 ## Variant
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for boxshadowcolor in variants.boxshadowcolor %}{% for item in boxshadowcolor.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>

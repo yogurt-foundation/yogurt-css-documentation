@@ -16,7 +16,7 @@ Yogurt will generate thousand of CSS classes, which leads to increasing the file
 Implement the Node module from [PurgeCSS](https://purgecss.com/), which is the most recommended and effective way to strip down unused CSS classes in Yogurt and vastly reducing the CSS file size. With this, you can configure Yogurt to enable all utilities possible without worrying about the file size. Below is an example setting of [PurgeCSS using Gulp](https://purgecss.com/plugins/gulp.html) in the `gulpfile.js` file.
 
 ```js
-// @file: `src/_plugins.scss`
+// @file: `src/plugins.scss`
 const purgeCss = require('gulp-purgecss')
 gulp.task('purge-css', () => {
   return gulp.src('src/assets/css/yogurt.css')

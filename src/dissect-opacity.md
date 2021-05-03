@@ -40,9 +40,9 @@ Set `dissect-x-{value}` and `dissect-y-{value}` borders with `color` opacity to 
 ```html
 <!-- Example -->
 <y class="dissect-y-4 dissect-amber-400 dissect-opacity-50">
-  <y>1</y>
-  <y>2</y>
-  <y>3</y>
+  <y>...</y>
+  <y>...</y>
+  <y>...</y>
 </y>
 ```
 
@@ -59,9 +59,9 @@ Set `dissect-x-{value}` and `dissect-y-{value}` borders with `color` opacity to 
 ```html
 <!-- Example -->
 <y class="dissect-y-4 dissect-amber-400 dissect-opacity-25">
-  <y>1</y>
-  <y>2</y>
-  <y>3</y>
+  <y>...</y>
+  <y>...</y>
+  <y>...</y>
 </y>
 ```
 

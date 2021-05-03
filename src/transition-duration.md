@@ -138,22 +138,23 @@ Set transition duration `1000ms`.
 
 ---
 
-## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600" href="/plugin-api/">More</a>
+## Customization
+
+Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
 
 ```scss
-// @file: `src/_plugins.scss`
-@include plugin(
-  (
-    utility: 'duration',
-    //variant: 'responsive',
-    property: 'transition-duration',
-    modifier: (
-      '600': '...ms',
-      '800': '...ms'
-      ...
-    )
+// @file: `src/plugins.scss`
+
+// Add Values
+@include yogurt(
+  $class: 'duration',
+  $property: transition-duration,
+  $modifier: (
+    100: 100ms,
+    200: 200ms
+    //...
   )
-)
+);
 ```
 
 ---

@@ -241,6 +241,44 @@ Set default gradient to `<body>` tag.
 
 ---
 
+## Customization
+
+Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
+
+```scss
+// @file: `src/plugins.scss`
+
+// Add Values
+@include yogurt(
+  $class: 'gradient',
+  $property: background-image,
+  $modifier: (
+    warm-flame: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);,
+    night-shade: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    //...
+  )
+);
+
+// Add Variants
+@include yogurt(
+  $class: 'gradient',
+  $property: background-image,
+  $modifier: (
+    warm-flame: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);,
+    night-shade: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  //...
+  ),
+  $variant: (
+    'dark-mode',
+    'hover',
+    'focus-within', 'focus-visible'
+    //...
+  )
+);
+```
+
+---
+
 ## Variant
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for gradient in variants.gradient %}{% for item in gradient.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>

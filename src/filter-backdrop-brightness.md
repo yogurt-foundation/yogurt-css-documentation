@@ -39,17 +39,17 @@ Utilities for sets filter backdrop brightness effect to an element.
 
 | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
-| brightness-0 | --brightness: 0 |
-| brightness-1 | --brightness: 1 |
-| brightness-2 | --brightness: 1.10 |
-| brightness-3 | --brightness: 1.20 |
-| brightness-4 | --brightness: 1.30 |
-| brightness-5 | --brightness: 1.40 |
-| brightness-6 | --brightness: 1.50 |
-| brightness-7 | --brightness: 1.60 |
-| brightness-8 | --brightness: 1.70 |
-| brightness-9 | --brightness: 1.80 |
-| brightness-10 | --brightness: 1.90 |
+| brightness-0 | --backdrop-brightness: 0 |
+| brightness-1 | --backdrop-brightness: 1 |
+| brightness-2 | --backdrop-brightness: 1.10 |
+| brightness-3 | --backdrop-brightness: 1.20 |
+| brightness-4 | --backdrop-brightness: 1.30 |
+| brightness-5 | --backdrop-brightness: 1.40 |
+| brightness-6 | --backdrop-brightness: 1.50 |
+| brightness-7 | --backdrop-brightness: 1.60 |
+| brightness-8 | --backdrop-brightness: 1.70 |
+| brightness-9 | --backdrop-brightness: 1.80 |
+| brightness-10 | --backdrop-brightness: 1.90 |
 
 ---
 
@@ -118,22 +118,23 @@ Mix with other filters, such as [Backdrop Contrast](/filter-backdrop-contrast/),
 
 ---
 
-## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600" href="/plugin-api/">More</a>
+## Customization
+
+Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
 
 ```scss
-// @file: `src/_plugins.scss`
-@include plugin(
-  (
-    utility: 'backdrop.brightness',
-    //variant: 'responsive',
-    property: 'filter',
-    modifier: (
-      'brightness-11': '...',
-      'brightness-12': '...'
-      ...
-    )
+// @file: `src/plugins.scss`
+
+// Add Values
+@include yogurt(
+  $class: 'backdrop.brightness',
+  $property: --backdrop-brightness,
+  $modifier: (
+    1: 1.10,
+    2: 2.20
+    //...
   )
-)
+);
 ```
 
 ---

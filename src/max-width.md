@@ -46,22 +46,38 @@ Utilities for sets the maximum width of an element.
 ```
 ---
 
-## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600" href="/plugin-api/">More</a>
+## Customization
+
+Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
 
 ```scss
-// @file: `src/_plugins.scss`
-@include plugin(
-  (
-    utility: 'max-w',
-    //variant: 'responsive',
-    property: 'max-width',
-    modifier: (
-      '...': '...',
-      '...': '...'
-      ...
-    )
+// @file: `src/plugins.scss`
+
+// Add Values
+@include yogurt(
+  $class: 'max-w',
+  $property: max-width,
+  $modifier: (
+    sm: 30%,
+    md: 50%
+    //...
   )
-)
+);
+
+// Add Variants
+@include yogurt(
+  $class: 'max-w',
+  $property: max-width,
+  $modifier: (
+    sm: 30%,
+    md: 50%
+    //...
+  ),
+  $variant: (
+    'responsive'
+    //...
+  )
+);
 ```
 
 ---

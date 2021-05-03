@@ -58,22 +58,38 @@ Utilities for sets border width in increments of 1px.
 
 ---
 
-## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600" href="/plugin-api/">More</a>
+## Customization
+
+Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
 
 ```scss
-// @file: `src/_plugins.scss`
-@include plugin(
-  (
-    utility: 'border',
-    //variant: 'responsive',
-    property: 'border',
-    modifier: (
-      '10': '...px',
-      '12': '...px'
-      ...
-    )
+// @file: `src/plugins.scss`
+
+// Add Values
+@include yogurt(
+  $class: 'border',
+  $property: border,
+  $modifier: (
+    1: 3px,
+    2: 6px
+    //...
   )
-)
+);
+
+// Add Variants
+@include yogurt(
+  $class: 'border',
+  $property: border,
+  $modifier: (
+    1: 3px,
+    2: 6px
+    //...
+  ),
+  $variant: (
+    'focus'
+    //...
+  )
+);
 ```
 
 ---

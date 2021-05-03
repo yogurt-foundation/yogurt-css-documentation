@@ -39,17 +39,17 @@ Utilities for sets filter backdrop contrast effect to an element.
 
 | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
-| contrast-0 | --contrast: 0 |
-| contrast-1 | --contrast: 1 |
-| contrast-2 | --contrast: 1.10 |
-| contrast-3 | --contrast: 1.20 |
-| contrast-4 | --contrast: 1.30 |
-| contrast-5 | --contrast: 1.40 |
-| contrast-6 | --contrast: 1.50 |
-| contrast-7 | --contrast: 1.60 |
-| contrast-8 | --contrast: 1.70 |
-| contrast-9 | --contrast: 1.80 |
-| contrast-10 | --contrast: 1.90 |
+| contrast-0 | --backdrop-contrast: 0 |
+| contrast-1 | --backdrop-contrast: 1 |
+| contrast-2 | --backdrop-contrast: 1.10 |
+| contrast-3 | --backdrop-contrast: 1.20 |
+| contrast-4 | --backdrop-contrast: 1.30 |
+| contrast-5 | --backdrop-contrast: 1.40 |
+| contrast-6 | --backdrop-contrast: 1.50 |
+| contrast-7 | --backdrop-contrast: 1.60 |
+| contrast-8 | --backdrop-contrast: 1.70 |
+| contrast-9 | --backdrop-contrast: 1.80 |
+| contrast-10 | --backdrop-contrast: 1.90 |
 
 ---
 
@@ -118,22 +118,23 @@ Mix with other filters, such as [Backdrop Brightness](/filter-backdrop-brightnes
 
 ---
 
-## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600" href="/plugin-api/">More</a>
+## Customization
+
+Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
 
 ```scss
-// @file: `src/_plugins.scss`
-@include plugin(
-  (
-    utility: 'backdrop.contrast',
-    //variant: 'responsive',
-    property: 'filter',
-    modifier: (
-      'contrast-11': '...',
-      'contrast-12': '...'
-      ...
-    )
+// @file: `src/plugins.scss`
+
+// Add Values
+@include yogurt(
+  $class: 'backdrop.contrast',
+  $property: --backdrop-contrast,
+  $modifier: (
+    1: 1.10,
+    2: 2.20
+    //...
   )
-)
+);
 ```
 
 ---

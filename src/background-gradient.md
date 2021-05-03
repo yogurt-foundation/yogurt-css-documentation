@@ -231,61 +231,78 @@ Set background gradient to `<body>` tag.
 
 ---
 
-## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600" href="/plugin-api/">More</a>
+## Customization
+
+Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
 
 ```scss
-// @file: `src/_plugins.scss`
-@include plugin(
-  (
-    utility: 'angle',
-    //variant: 'responsive',
-    property: '--bg-gradient-angle',
-    modifier: (
-      '270': '270deg'
-      //...
-    )
-  ),
-  (
-    utility: 'start',
-    //variant: 'responsive',
-    property: '--bg-gradient-primary',
-    modifier: (
-      '15': '15%',
-      '25': '25%'
-      //...
-    )
-  ),
-  (
-    utility: 'Stop',
-    //variant: 'responsive',
-    property: '--bg-gradient-secondary',
-    modifier: (
-      '15': '15%',
-      '25': '25%'
-      //...
-    )
-  ),
-  (
-    utility: 'start-red',
-    //variant: 'responsive',
-    property: '--bg-gradient-start-color',
-    modifier: (
-      '100': '#...',
-      '200': '#...'
-      //...
-    )
-  ),
-  (
-    utility: 'stop-green',
-    //variant: 'responsive',
-    property: '--bg-gradient-stop-color',
-    modifier: (
-      '100': '#...',
-      '200': '#...'
-      //...
-    )
+// @file: `src/plugins.scss`
+
+// Add Values
+@include yogurt(
+  $class: 'bg-gradient.angle',
+  $property: --bg-gradient-angle,
+  $modifier: (
+    270: 270deg
+    //...
   )
-)
+);
+
+@include yogurt(
+  $class: 'bg-gradient.start',
+  $property: --bg-gradient-primary,
+  $modifier: (
+    15: 15%,
+    25: 25%
+    //...
+  )
+);
+
+@include yogurt(
+  $class: 'bg-gradient.stop',
+  $property: --bg-gradient-secondary,
+  $modifier: (
+    15: 15%,
+    25: 25%
+    //...
+  )
+);
+
+@include yogurt(
+  $class: 'bg-gradient.start-gray',
+  $property: --bg-gradient-start-color,
+  $modifier: (
+    100: #262626,
+    200: #252525
+    //...
+  )
+);
+
+@include yogurt(
+  $class: 'bg-gradient.stop-gray',
+  $property: --bg-gradient-stop-color,
+  $modifier: (
+    100: #262626,
+    200: #252525
+    //...
+  )
+);
+
+// Add Variants
+@include yogurt(
+  $class: 'bg-gradient.angle',
+  $property: --bg-gradient-angle,
+  $modifier: (
+    270: 270deg
+    //...
+  ),
+  $variant: (
+    'hover',
+    'focus-within',
+    'focus-visible'
+    //...
+  )
+);
 ```
 
 ---

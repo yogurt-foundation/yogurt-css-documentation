@@ -47,9 +47,9 @@ Set borders in between the elements horizontally, must companion with [flex](/fl
 ```html
 <!-- Example -->
 <y class="flex dissect-x-4">
-  <y>1</y>
-  <y>2</y>
-  <y>3</y>
+  <y>...</y>
+  <y>...</y>
+  <y>...</y>
 </y>
 ```
 
@@ -66,9 +66,9 @@ Set borders in between the elements vertically.
 ```html
 <!-- Example -->
 <y class="dissect-y-4">
-  <y>1</y>
-  <y>2</y>
-  <y>3</y>
+  <y>...</y>
+  <y>...</y>
+  <y>...</y>
 </y>
 ```
 

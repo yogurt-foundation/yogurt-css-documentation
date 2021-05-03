@@ -79,22 +79,39 @@ Set full height in viewport screen to an element.
 
 ---
 
-## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600" href="/plugin-api/">More</a>
+## Customization
+
+Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
 
 ```scss
-// @file: `src/_plugins.scss`
-@include plugin(
-  (
-    utility: 'h',
-    //variant: 'responsive',
-    property: 'height',
-    modifier: (
-      '...': '...',
-      '...': '...'
-      ...
-    )
+// @file: `src/plugins.scss`
+
+// Add Values
+@include yogurt(
+  $class: 'h',
+  $property: height,
+  $modifier: (
+    1: 1rem,
+    2: 2rem
+    //...
   )
-)
+);
+
+// Add Variants
+@include yogurt(
+  $class: 'h',
+  $property: height,
+  $modifier: (
+    1: 1rem,
+    2: 2rem
+    //...
+  ),
+  $variant: (
+    'responsive',
+    'hover'
+    //...
+  )
+);
 ```
 
 ---

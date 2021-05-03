@@ -134,52 +134,53 @@ Set background border solid and thicker.
 
 ---
 
-## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600" href="/plugin-api/">More</a>
+## Customization
+
+Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
 
 ```scss
-// @file: `src/_plugins.scss`
-@include plugin(
-  (
-    utility: 'length',
-    //variant: 'responsive',
-    property: '--bg-border-length',
-    modifier: (
-      '90': '90',
-      '100': '100'
-      //...
-    )
-  ),
-  (
-    utility: 'size',
-    //variant: 'responsive',
-    property: '--bg-border-size',
-    modifier: (
-      '64': '64px',
-      '72': '72px'
-      //...
-    )
-  ),
-  (
-    utility: 'space',
-    //variant: 'responsive',
-    property: '--bg-border-space',
-    modifier: (
-      '90': '90px',
-      '100': '100px'
-      //...
-    )
-  ),
-  (
-    utility: 'angle',
-    //variant: 'responsive',
-    property: '--bg-border-angle',
-    modifier: (
-      '90': '80deg',
-      '80': '90deg'
-      //...
-    )
+// @file: `src/plugins.scss`
+
+// Add Values
+@include yogurt(
+  $class: 'bg-border.length',
+  $property: --bg-border-length,
+  $modifier: (
+    90: 90,
+    100: 100
+    //...
   )
-)
+);
+
+@include yogurt(
+  $class: 'bg-border.size',
+  $property: --bg-border-size,
+  $modifier: (
+    64: 64px,
+    72: 72px
+    //...
+  )
+);
+
+@include yogurt(
+  $class: 'bg-border.space',
+  $property: --bg-border-space,
+  $modifier: (
+    90: 90px,
+    100: 100px
+    //...
+  )
+);
+
+@include yogurt(
+  $class: 'bg-border.angle',
+  $property: --bg-border-angle,
+  $modifier: (
+    80: 90deg,
+    90: 90deg
+    //...
+  )
+);
 ```
 
 ---

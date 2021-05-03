@@ -176,7 +176,7 @@ Set default text color to `<body>` tag.
 Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
 
 ```scss
-// @file: `src/_plugins.scss`
+// @file: `src/plugins.scss`
 
 // Add Values
 @include yogurt(
@@ -186,20 +186,6 @@ Read more information about using the [Plugin API](/plugin-api/), and  [Responsi
     100: #252525,
     200: #262626
     //...
-  )
-);
-
-// Add Responsive
-@include yogurt(
-  $class: 'text-gray',
-  $property: color,
-  $modifier: (
-    100: #252525,
-    200: #262626
-    //...
-  ),
-  $variant: (
-    'responsive'
   )
 );
 
@@ -213,6 +199,7 @@ Read more information about using the [Plugin API](/plugin-api/), and  [Responsi
     //...
   ),
   $variant: (
+    'responsive',
     'dark-mode',
     'hover', 'group-hover',
     'focus', 'focus-within', 'focus-visible',

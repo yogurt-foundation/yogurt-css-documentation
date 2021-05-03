@@ -74,22 +74,39 @@ Set basic solid shadow to an element.
 
 ---
 
-## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600" href="/plugin-api/">More</a>
+## Customization
+
+Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
 
 ```scss
-// @file: `src/_plugins.scss`
-@include plugin(
-  (
-    utility: 'shadow',
-    //variant: 'responsive',
-    property: 'box-shadow',
-    modifier: (
-      '3xl': '...',
-      '4xl': '...'
-      ...
-    )
+// @file: `src/plugins.scss`
+
+// Add Values
+@include yogurt(
+  $class: 'shadow',
+  $property: box-shadow,
+  $modifier: (
+    xs: 0 0 0 1px rgba(0, 0, 0, 0.05),
+    sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05)
+    //...
   )
-)
+);
+
+// Add Variants
+@include yogurt(
+  $class: 'shadow',
+  $property: box-shadow,
+  $modifier: (
+    xs: 0 0 0 1px rgba(0, 0, 0, 0.05),
+    sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05)
+    //...
+  ),
+  $variant: (
+    'hover',
+    'focus', 'focus-within', 'focus-visible'
+    //...
+  )
+);
 ```
 
 ---
