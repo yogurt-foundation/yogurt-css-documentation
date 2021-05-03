@@ -98,7 +98,14 @@
           "label": "Github",
           "url": "https://github.com/yogurt-foundation",
           "target": "_blank"
-        },
+        }
+      ]
+    }
+  ],
+  "columnfive": [
+    {
+      "label": "Support",
+      "items": [
         {
           "label": "Patreon",
           "url": "https://www.patreon.com/bePatron?u=5719325",
@@ -107,6 +114,11 @@
         {
           "label": "Ko-Fi",
           "url": "https://ko-fi.com/S6S01OZEW",
+          "target": "_blank"
+        },
+        {
+          "label": "PayPal",
+          "url": "https://paypal.me/loouisneedsbreakfast",
           "target": "_blank"
         }
       ]

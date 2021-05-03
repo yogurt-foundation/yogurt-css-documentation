@@ -26,12 +26,12 @@
                    href="{{ item.url | safe }}"
                    target="{{ item.target }}"
                    {% if is_current_page %}
-                   aria-current="page"
+                    aria-current="page"
                    {% endif %}>
 
                   <y class="flex justify-start items-center">
 
-                    <y class="mr-2 h-4 w-4 rounded-full bg-gray-400 (group-hover)bg-gray-800"></y>
+                    <y class="mr-2 h-4 w-4 bg-gray-800 (group-hover)bg-gray-800 rounded-full"></y>
 
                     <y>{{ item.label }}</y>
 
@@ -75,7 +75,7 @@
                 <a class="nav-link -mx-4 p-2 (hover)font-semibold (hover)underline {{ item.class }} {% if is_current_page %} selected {% endif %}"
                    href="{{ item.url | safe }}"
                    {% if is_current_page %}
-                   aria-current="page"
+                    aria-current="page"
                    {% endif %}>
 
                   {{ item.label }}
@@ -118,7 +118,7 @@
                 <a class="nav-link -mx-4 p-2 (hover)font-semibold (hover)underline {{ item.class }} {% if is_current_page %} selected {% endif %}"
                    href="{{ item.url | safe }}"
                    {% if is_current_page %}
-                   aria-current="page"
+                    aria-current="page"
                    {% endif %}>
 
                   {{ item.label }}
