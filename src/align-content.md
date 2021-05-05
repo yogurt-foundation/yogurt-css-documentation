@@ -2,6 +2,7 @@
 id: align-content
 title: Align Content
 description: Utilities for controls how lines are positioned in multi-line flex containers.
+category: Layouts
 layout: default
 ---
 

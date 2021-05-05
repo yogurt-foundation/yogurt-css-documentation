@@ -70,6 +70,7 @@ module.exports = eleventyConfig => {
 
   eleventyConfig.addWatchTarget("js/");
   eleventyConfig.addWatchTarget("css/");
+  eleventyConfig.addWatchTarget("cm/");
 
   return {
     templateFormats: ['md', 'njk'],

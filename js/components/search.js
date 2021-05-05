@@ -25,6 +25,8 @@ export default async () => {
       this.ref('id');
       this.field('title');
       this.field('description');
+      this.field('category');
+      this.field('tags');
       this.field('content');
 
       docs.forEach((doc, index) => {
@@ -61,6 +63,8 @@ export default async () => {
 
     let title = highlightWords(result.title, searchTermMatcher);
     let description = highlightWords(result.description, searchTermMatcher);
+    let category = highlightWords(result.category, searchTermMatcher);
+    let tags = highlightWords(result.tags, searchTermMatcher);
 
     let content = '';
     let contentMatch = result.content.match(searchTermMatcher);
@@ -93,6 +97,9 @@ export default async () => {
          href="${result.url}"
          target="_self"
          rel="noopener">
+        <p class="text-xs text-gray-500">
+          ${category}
+        </p>
         <p class="font-medium text-lg">
           ${title}
         </p>
