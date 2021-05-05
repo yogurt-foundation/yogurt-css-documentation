@@ -2,6 +2,7 @@
 id: flex-direction
 title: Flex Direction
 description: Utilities for sets direction of flex items.
+category: Flexbox
 layout: default
 ---
 

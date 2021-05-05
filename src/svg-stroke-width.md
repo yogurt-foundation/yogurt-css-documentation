@@ -2,6 +2,7 @@
 id: stroke-width
 title: Stroke Width
 description: Utilities for sets the outline width of an SVG.
+category: SVG
 layout: default
 ---
 

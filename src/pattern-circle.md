@@ -2,6 +2,7 @@
 id: pattern-circle
 title: Pattern Circle
 description: Utilities for sets an element's background circle pattern.
+category: Patterns
 layout: default
 ---
 

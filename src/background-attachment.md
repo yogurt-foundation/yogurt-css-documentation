@@ -2,6 +2,7 @@
 id: background-attachment
 title: Background Attachment
 description: Utilities for sets behaviour of background images when scrolling.
+category: Backgrounds
 layout: default
 ---
 

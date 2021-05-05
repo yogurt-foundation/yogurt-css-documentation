@@ -2,6 +2,7 @@
 id: align-self
 title: Align Self
 description: Utilities for controls how an individual flex item is positioned along container's cross axis.
+category: Flexbox
 layout: default
 ---
 

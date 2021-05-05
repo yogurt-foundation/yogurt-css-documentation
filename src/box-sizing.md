@@ -2,6 +2,7 @@
 id: box-sizing
 title: Box Sizing
 description: Utilities for sets how the total width and height of an element is calculated.
+category: Layouts
 layout: default
 ---
 

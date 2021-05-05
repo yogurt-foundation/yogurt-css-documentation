@@ -2,6 +2,7 @@
 id: flex-wrap
 title: Flex Wrap
 description: Utilities for creates how flex items wrap.
+category: Flexbox
 layout: default
 ---
 

@@ -2,6 +2,7 @@
 id: stroke-linecap
 title: Stroke LineCap
 description: Utilities for sets the outline shape of an SVG.
+category: SVG
 layout: default
 ---
 

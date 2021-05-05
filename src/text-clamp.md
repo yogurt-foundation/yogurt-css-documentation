@@ -2,6 +2,7 @@
 id: text-clamp
 title: Text Clamp
 description: Utilities for sets total display text line to an element.
+category: Typography
 layout: default
 ---
 

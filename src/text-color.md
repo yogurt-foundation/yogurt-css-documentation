@@ -2,6 +2,7 @@
 id: text-color
 title: Text Color
 description: Utilities for sets the text color.
+category: Typography
 layout: default
 ---
 

@@ -2,6 +2,7 @@
 id: text-align
 title: Text Align
 description: Utilities for sets the alignment of text.
+category: Typography
 layout: default
 ---
 

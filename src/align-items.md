@@ -2,6 +2,7 @@
 id: align-item
 title: Align Items
 description: Utilities for sets flex items position along a container's cross axis.
+category: Flexbox
 layout: default
 ---
 

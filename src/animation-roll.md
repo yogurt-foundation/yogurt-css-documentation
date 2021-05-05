@@ -2,6 +2,7 @@
 id: animation-roll
 title: Roll Animation
 description: Utilities for sets the rolling animation to an element.
+category: Animations
 layout: default
 ---
 

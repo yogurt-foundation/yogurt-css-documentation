@@ -2,6 +2,7 @@
 id: scale
 title: Scale
 description: Utilities for scales an element that has transform applied.
+category: Transforms
 layout: default
 ---
 

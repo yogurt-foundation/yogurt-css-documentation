@@ -2,6 +2,7 @@
 id: filter-drop-shadow
 title: Filter Drop Shadow
 description: Utilities for sets shadow filter to transparency image (SVG, PNG).
+category: Filters
 layout: default
 ---
 

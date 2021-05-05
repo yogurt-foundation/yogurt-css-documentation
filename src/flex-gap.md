@@ -2,6 +2,7 @@
 id: flex-gap
 title: Flex Gap
 description: Utilities for set inner spacing in between the flex child elements.
+category: Flexbox
 layout: default
 ---
 

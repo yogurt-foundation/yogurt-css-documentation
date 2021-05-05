@@ -2,6 +2,7 @@
 id: box-shadow-color
 title: Box Shadow Color
 description: Utilities for sets the shadow color.
+category: Effects
 layout: default
 ---
 

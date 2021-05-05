@@ -2,6 +2,7 @@
 id: pattern-horizontal-lines
 title: Pattern Horizontal Lines
 description: Utilities for sets an element's background horizontal-lines pattern.
+category: Patterns
 layout: default
 ---
 

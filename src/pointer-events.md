@@ -2,6 +2,7 @@
 id: pointer-events
 title: Pointer Events
 description: Utilities for specifies whether an element is the target of mouse events.
+category: Interactivity
 layout: default
 ---
 

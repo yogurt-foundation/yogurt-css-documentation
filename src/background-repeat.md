@@ -2,6 +2,7 @@
 id: background-repeat
 title: Background Repeat
 description: Utilities for sets repetition of a background image.
+category: Backgrounds
 layout: default
 ---
 

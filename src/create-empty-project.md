@@ -2,6 +2,7 @@
 id: create-empty-project
 title: Create Empty Project
 description: Get your hands dirty by creating an empty Yogurt project from scratch.
+category:  Customization
 layout: default
 ---
 

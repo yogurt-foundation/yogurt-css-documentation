@@ -2,6 +2,7 @@
 id: justify-content
 title: Justify Content
 description: Utilities for controls how flex items are positioned along container's main axis.
+category: Flexbox
 layout: default
 ---
 

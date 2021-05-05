@@ -1,7 +1,8 @@
 ---
 id: animations
 title: Animations
-description:
+description: Animations Introductions
+category: Animations
 layout: default
 ---
 

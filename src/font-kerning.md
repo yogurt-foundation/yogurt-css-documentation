@@ -2,6 +2,7 @@
 id: font-kerning
 title: Font Kerning
 description: Utilities for removing spacing for specific pairs of letters automatically.
+category: Typography
 layout: default
 ---
 

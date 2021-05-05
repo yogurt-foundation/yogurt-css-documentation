@@ -2,6 +2,7 @@
 id: visibility
 title: Visibility
 description: Utilities for show or hide without affecting the layout of the document.
+category: Layouts
 layout: default
 ---
 

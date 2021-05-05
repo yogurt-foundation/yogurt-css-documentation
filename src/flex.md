@@ -2,6 +2,7 @@
 id: flex
 title: Flex
 description: Utilities for controls how flex items grow and shrink.
+category: Flexbox
 layout: default
 ---
 

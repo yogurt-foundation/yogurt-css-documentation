@@ -2,6 +2,7 @@
 id: file-size-control
 title: File Size Control
 description: Ways to reduce the use of Yogurt CSS utilities.
+category: Customization
 layout: default
 ---
 

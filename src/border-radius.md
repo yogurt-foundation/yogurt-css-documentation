@@ -2,6 +2,7 @@
 id: border-radius
 title: Border Radius
 description: Utilities for sets border radius.
+category: Borders
 layout: default
 ---
 

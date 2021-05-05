@@ -2,6 +2,7 @@
 id: animation-blur
 title: Blur Animation
 description: Utilities for sets the blur animation to an element.
+category: Animations
 layout: default
 ---
 

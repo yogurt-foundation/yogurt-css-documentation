@@ -2,6 +2,7 @@
 id: filter-backdrop-contrast
 title: Filter Backdrop Contrast
 description: Utilities for sets filter backdrop contrast effect to an element.
+category: Filters
 layout: default
 ---
 

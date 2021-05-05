@@ -2,10 +2,11 @@
 id: background-border
 title: Background Border
 description: Utilities for sets background border to an element with flexible control over the border spacing, size, angle and length.
+category: Background
 layout: default
 ---
 
-> Background
+> Backgrounds
 
 # Background Border <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.0.9</span>
 

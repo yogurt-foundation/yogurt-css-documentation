@@ -2,6 +2,7 @@
 id: object-position
 title: Object Position
 description: Utilities for sets the alignment of the selected replaced element.
+category: Layouts
 layout: default
 ---
 

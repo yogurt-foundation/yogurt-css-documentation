@@ -2,6 +2,7 @@
 id: background-opacity
 title: Background Opacity
 description: Utilities for sets opacity of background color.
+category: Backgrounds
 layout: default
 ---
 

@@ -2,6 +2,7 @@
 id: import-framework
 title: Import Framework
 description: Import Yogurt into your project via, CDN, Package Manager or CLI.
+category: Core Concepts
 layout: default
 ---
 

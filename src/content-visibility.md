@@ -2,6 +2,7 @@
 id: content-visibility
 title: Render
 description: Utilities for sets skip rendering if element is off-screen to improve overall page rendering speed.
+category: Layouts
 layout: default
 ---
 

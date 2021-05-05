@@ -2,6 +2,7 @@
 id: whitespace
 title: Whitespace
 description: Utilities for sets the whitespace of an element.
+category: Typography
 layout: default
 ---
 

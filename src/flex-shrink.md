@@ -2,6 +2,7 @@
 id: flex-shrink
 title: Flex Shrink
 description: Utilities for controls how flex items shrink.
+category: Flexbox
 layout: default
 ---
 

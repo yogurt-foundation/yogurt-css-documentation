@@ -2,6 +2,7 @@
 id: max-width
 title: Max Width
 description: Utilities for sets the maximum width of an element.
+category: Sizing
 layout: default
 ---
 

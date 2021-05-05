@@ -2,6 +2,7 @@
 id: scroll-snap
 title: Scroll Snap
 description: Utilities for sets viewport lock to certain elements or locations after finished scrolling.
+category: Interactivity
 layout: default
 ---
 

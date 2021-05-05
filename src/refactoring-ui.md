@@ -2,6 +2,7 @@
 id: refactoring-ui
 title: Refactoring UI
 description: How to migrate the existing CSS or CSS framework you use in your project with Yogurt.
+category: Core Concepts
 layout: default
 ---
 

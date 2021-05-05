@@ -2,6 +2,7 @@
 id: font-weight
 title: Font Style
 description: Utilities for sets the font weight.
+category: Typography
 layout: default
 ---
 

@@ -2,6 +2,7 @@
 id: filter-backdrop-blur
 title: Filter Backdrop Blur
 description: Utilities for sets filter backdrop blur effect to an element.
+category: Filters
 layout: default
 ---
 

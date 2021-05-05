@@ -2,6 +2,7 @@
 id: animation-fade
 title: Fade Animation
 description: Utilities for sets the fading animation to an element.
+category: Animations
 layout: default
 ---
 

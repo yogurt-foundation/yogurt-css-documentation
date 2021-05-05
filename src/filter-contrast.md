@@ -2,6 +2,7 @@
 id: filter-contrast
 title: Filter Contrast
 description: Utilities for sets contrast filter to an element.
+category: Filters
 layout: default
 ---
 

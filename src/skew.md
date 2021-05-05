@@ -2,6 +2,7 @@
 id: skew
 title: Skew
 description: Utilities for skews an element that has transform applied.
+category: Transforms
 layout: default
 ---
 

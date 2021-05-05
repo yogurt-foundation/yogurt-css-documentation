@@ -2,6 +2,7 @@
 id: rotate
 title: Rotate
 description: Utilities for rotates an element that has transform applied.
+category: Transforms
 layout: default
 ---
 

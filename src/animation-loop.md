@@ -2,6 +2,7 @@
 id: animation-loop
 title: Animation Loop
 description: Utilities for sets the animation control with limited loop or infinite.
+category: Animations
 layout: default
 ---
 

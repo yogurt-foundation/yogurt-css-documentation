@@ -2,6 +2,7 @@
 id: top-bottom-left-right
 title: Top / Right / Bottom / Left
 description: Utilities for sets the placement of a positioned element.
+category: Layouts
 layout: default
 ---
 

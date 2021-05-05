@@ -2,6 +2,7 @@
 id: border-style
 title: Border Style
 description: Utilities for sets border style.
+category: Borders
 layout: default
 ---
 

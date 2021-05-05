@@ -2,6 +2,7 @@
 id: fluid-margin
 title: Fluid Margin
 description: Utilities for sets min and max margins for screen size without breakpoints.
+category: Effects
 layout: default
 ---
 

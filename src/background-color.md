@@ -2,6 +2,7 @@
 id: background-color
 title: Background Color
 description: Utilities for sets background color.
+category: Backgrounds
 layout: default
 ---
 

@@ -2,6 +2,7 @@
 id: flex-grow
 title: Flex Grow
 description: Utilities for controls how flex items grow.
+category: Flexbox
 layout: default
 ---
 

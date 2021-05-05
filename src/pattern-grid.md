@@ -2,6 +2,7 @@
 id: pattern-grid
 title: Pattern Grid
 description: Utilities for sets an element's background grid pattern.
+category: Patterns
 layout: default
 ---
 

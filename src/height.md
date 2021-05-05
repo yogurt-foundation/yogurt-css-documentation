@@ -2,6 +2,7 @@
 id: height
 title: Height
 description: Utilities for sets the height of an element.
+category: Sizing
 layout: default
 ---
 

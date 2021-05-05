@@ -2,6 +2,7 @@
 id: animation-duration
 title: Animation Duration
 description: Utilities for sets the animation control with durations.
+category: Animations
 layout: default
 ---
 

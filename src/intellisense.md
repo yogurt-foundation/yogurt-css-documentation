@@ -2,6 +2,7 @@
 id: intellisense
 title: Intellisense
 description: Yogurt CSS intellisense developer tooling for VSCODE
+category: VSCODE Extension
 layout: default
 ---
 

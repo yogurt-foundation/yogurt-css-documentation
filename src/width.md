@@ -2,6 +2,7 @@
 id: width
 title: Width
 description: Utilities for sets the width of an element.
+category: Sizing
 layout: default
 ---
 

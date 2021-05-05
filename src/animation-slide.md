@@ -2,6 +2,7 @@
 id: animation-slide
 title: Slide Animation
 description: Utilities for sets the sliding animation to an element.
+category: Animations
 layout: default
 ---
 

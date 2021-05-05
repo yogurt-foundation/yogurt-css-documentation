@@ -2,6 +2,7 @@
 id: list-style-position
 title: List Style Position
 description: Utilities for sets the position of a list's bullets.
+category: Typography
 layout: default
 ---
 

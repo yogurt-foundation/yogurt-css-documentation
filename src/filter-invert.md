@@ -2,6 +2,7 @@
 id: filter-invert
 title: Filter Invert
 description: Utilities for sets filter invert effect to an element.
+category: Filters
 layout: default
 ---
 

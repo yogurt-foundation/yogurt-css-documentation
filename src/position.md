@@ -2,6 +2,7 @@
 id: position
 title: Position
 description: Utilities for sets an element's position.
+category: Layouts
 layout: default
 ---
 

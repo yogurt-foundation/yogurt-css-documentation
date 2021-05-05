@@ -2,6 +2,7 @@
 id: clear
 title: Clear
 description: Utilities for set whether an element is moved below preceding floated elements.
+category: Layouts
 layout: default
 ---
 

@@ -2,6 +2,7 @@
 id: font-size
 title: Font Size
 description: Utilities for sets the font size.
+category: Typography
 layout: default
 ---
 

@@ -2,6 +2,7 @@
 id: pattern-checks
 title: Pattern Checks
 description: Utilities for sets an element's background checks pattern.
+category: Pattens
 layout: default
 ---
 

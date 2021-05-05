@@ -2,10 +2,11 @@
 id: background-gradient
 title: Background Gradient
 description: Utilities for sets the background gradient color to an element with flexible control over color, color space and angles.
+category: Backgrounds
 layout: default
 ---
 
-> Background
+> Backgrounds
 
 # Background Gradient <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.0.9</span>
 

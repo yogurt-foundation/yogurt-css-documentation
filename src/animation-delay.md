@@ -2,6 +2,7 @@
 id: animation-delay
 title: Animation Delay
 description: Utilities for sets the animation control with delays.
+category: Animations
 layout: default
 ---
 

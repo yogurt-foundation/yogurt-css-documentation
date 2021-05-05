@@ -2,6 +2,7 @@
 id: filter-backdrop-brightness
 title: Filter Backdrop Brightness
 description: Utilities for sets filter backdrop brightness effect to an element.
+category: Filters
 layout: default
 ---
 

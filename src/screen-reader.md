@@ -2,6 +2,7 @@
 id: screen-reader
 title: Screen Reader
 description: Utilities for controls whether an element is visually hidden but still accessible to screen readers.
+category: Accessibility
 layout: default
 ---
 

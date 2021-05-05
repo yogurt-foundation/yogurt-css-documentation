@@ -2,6 +2,7 @@
 id: responsive
 title: Responsive
 description: Craft an adaptive user interface with responsive utility variants.
+category: Core Concepts
 layout: default
 ---
 

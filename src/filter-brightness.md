@@ -2,6 +2,7 @@
 id: filter-brightness
 title: Filter Brightness
 description: Utilities for sets brightness filter to an element.
+category: Filters
 layout: default
 ---
 

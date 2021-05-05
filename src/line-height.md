@@ -2,6 +2,7 @@
 id: line-height
 title: Line Height
 description: Utilities for sets the line height.
+category: Typography
 layout: default
 ---
 

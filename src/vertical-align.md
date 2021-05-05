@@ -2,6 +2,7 @@
 id: vertical-align
 title: Vertical Align
 description: Utilities for sets the vertical alignment of an inline or table-cell box.
+category: Typography
 layout: default
 ---
 

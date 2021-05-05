@@ -2,6 +2,7 @@
 id: object-fit
 title: Object Fit
 description: Utilities for sets how the content of a replaced element (img or video tag) should be resized.
+category: Layouts
 layout: default
 ---
 

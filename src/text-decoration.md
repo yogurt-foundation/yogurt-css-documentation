@@ -2,6 +2,7 @@
 id: text-decoration
 title: Text Decoration
 description: Utilities for sets the text-decoration of an element.
+category: Typography
 layout: default
 ---
 

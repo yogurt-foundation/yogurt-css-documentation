@@ -2,6 +2,7 @@
 id: transform-origin
 title: Transform Origin
 description: Utilities for sets the origin of an element's transforms.
+category: Transforms
 layout: default
 ---
 

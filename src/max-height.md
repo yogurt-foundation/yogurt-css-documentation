@@ -2,6 +2,7 @@
 id: max-height
 title: Max Height
 description: Utilities for sets the maximum height of an element.
+category: Sizing
 layout: default
 ---
 

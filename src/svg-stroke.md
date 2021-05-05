@@ -2,6 +2,7 @@
 id: stroke
 title: Stroke
 description: Utilities for sets the outline color of an SVG.
+category: SVG
 layout: default
 ---
 

@@ -2,6 +2,7 @@
 id: opacity
 title: Opacity
 description: Utilities for sets the transparency of an element.
+category: Effects
 layout: default
 ---
 

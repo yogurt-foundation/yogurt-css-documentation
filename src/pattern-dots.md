@@ -2,6 +2,7 @@
 id: pattern-dots
 title: Pattern Dots
 description: Utilities for sets an element's background dots pattern.
+category: Patterns
 layout: default
 ---
 

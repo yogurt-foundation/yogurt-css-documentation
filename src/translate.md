@@ -2,6 +2,7 @@
 id: translate
 title: Translate
 description: Utilities for translate an element that has transform applied.
+category: Transforms
 layout: default
 ---
 

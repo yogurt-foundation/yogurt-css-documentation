@@ -2,6 +2,7 @@
 id: scroll-smooth
 title: Scroll Smooth
 description: Utilities for sets smooth animation of scroll anchored position within a scrolling box.
+category: Interactivity
 layout: default
 ---
 

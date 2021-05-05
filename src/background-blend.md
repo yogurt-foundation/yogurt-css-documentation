@@ -2,10 +2,11 @@
 id: background-blend
 title: Background Blend
 description: Utilities for sets the blending mode of each background layer (color or image).
+category: Backgrounds
 layout: default
 ---
 
-> Background
+> Backgrounds
 
 # Background Blend
 

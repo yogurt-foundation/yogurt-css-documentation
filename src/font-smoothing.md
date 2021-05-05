@@ -2,6 +2,7 @@
 id: font-smoothing
 title: Font Smoothing
 description: Utilities for sets the antialiasing of the font.
+category: Typography
 layout: default
 ---
 

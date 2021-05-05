@@ -2,6 +2,7 @@
 id: background-size
 title: Background Size
 description: Utilities for sets background size of a background image.
+category: Backgrounds
 layout: default
 ---
 

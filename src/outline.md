@@ -2,6 +2,7 @@
 id: outline
 title: Outline
 description: Utilities for sets native browser outline style to reset.
+category: Outline
 layout: default
 ---
 

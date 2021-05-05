@@ -2,6 +2,7 @@
 id: min-width
 title: Min Width
 description: Utilities for sets the minimum width of an element.
+category: Sizing
 layout: default
 ---
 

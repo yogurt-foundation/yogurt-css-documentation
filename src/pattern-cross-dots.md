@@ -2,6 +2,7 @@
 id: pattern-cross-dots
 title: Pattern Cross Dots
 description: Utilities for sets an element's background cross-dots pattern.
+category: Patterns
 layout: default
 ---
 

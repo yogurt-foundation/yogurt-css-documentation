@@ -2,6 +2,7 @@
 id: padding
 title: Padding
 description: Utilities for controls padding in 0.25rem increments.
+category: Spacing
 layout: default
 ---
 

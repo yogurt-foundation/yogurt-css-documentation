@@ -2,6 +2,7 @@
 id: pattern-vertical-stripes
 title: Pattern Vertical Stripes
 description: Utilities for sets an element's background vertical-stripes pattern.
+category: Patterns
 layout: default
 ---
 

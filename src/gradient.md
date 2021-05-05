@@ -2,6 +2,7 @@
 id: gradient
 title: Gradient
 description: Utilities for sets the gradient preset diagonally to an element.
+category: Effects
 layout: default
 ---
 

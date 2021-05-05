@@ -2,6 +2,7 @@
 id: border-color
 title: Border Color
 description: Utilities for sets border color.
+category: Borders
 layout: default
 ---
 

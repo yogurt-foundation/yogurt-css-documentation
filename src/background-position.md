@@ -2,6 +2,7 @@
 id: background-position
 title: Background Position
 description: Utilities for sets position of a background image.
+category: Backgrounds
 layout: default
 ---
 

@@ -2,6 +2,7 @@
 id: text-transform
 title: Text Transform
 description: Utilities for sets the capitalization of text.
+category: Typography
 layout: default
 ---
 

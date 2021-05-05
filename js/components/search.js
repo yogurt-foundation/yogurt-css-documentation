@@ -97,17 +97,18 @@ export default async () => {
          href="${result.url}"
          target="_self"
          rel="noopener">
-        <p class="text-xs text-gray-500">
+        <y class="pb-1 text-xs text-gray-600">
           ${category}
-        </p>
-        <p class="font-medium text-lg">
+        </y>
+        <y class="pb-1 font-medium text-xl">
           ${title}
-        </p>
-        ${description}
+        </y>
+				<y class="text-sm">
+					${description}
+				</y>
       </a>
       <y class="border border-gray-100 my-2"></y>
     `;
-    // ${content}
   }
 
   function highlightWords(string, wordExpression) {
