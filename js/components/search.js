@@ -93,17 +93,17 @@ export default async () => {
     }
 
     return `
-      <a class="z-10 search-result block m-0 p-5 outline-none border-2 border-transparent (focus)border-blue-400 rounded-lg"
+      <a class="(group) z-10 search-result block m-0 p-5 outline-none border-4 border-transparent (focus)border-orange-600 text-gray-800 bg-gray-100 rounded-lg"
          href="${result.url}"
          target="_self"
          rel="noopener">
-        <y class="pb-1 text-xs text-gray-600">
+        <y class="pb-1 text-xs text-gray-700 font-semibold (group-hover)text-gray-500">
           ${category}
         </y>
-        <y class="pb-1 font-medium text-xl">
+        <y class="pb-1 font-medium text-xl (group-hover)text-gray-100">
           ${title}
         </y>
-				<y class="text-sm">
+				<y class="text-md (group-hover)text-gray-300">
 					${description}
 				</y>
       </a>

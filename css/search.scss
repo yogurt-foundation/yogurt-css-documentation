@@ -23,7 +23,13 @@
 }
 
 .search-results mark {
-  background-color: #faf089;
+  background-color: transparent;
+  color: #f77723;
+  text-decoration: underline;
+}
+
+.search-results mark:hover {
+  color: #f87f2e;
 }
 
 .divider:last-child {
