@@ -3,6 +3,7 @@ id: z-index
 title: Z-Index
 description: Utilities for sets the z order (stack order) of a positioned element.
 category: Layouts
+tags: box-sizing, clear, container, render, display, float, object-fit, object-position, overflow, position, top/bottom/left/right, visibility
 layout: default
 ---
 

@@ -100,12 +100,15 @@ export default async () => {
         <y class="pb-1 text-xs text-gray-700 font-semibold (group-hover)text-gray-500">
           ${category}
         </y>
-        <y class="pb-1 font-medium text-xl (group-hover)text-gray-100">
-          ${title}
+        <y class="flex justify-start items-center">
+          <svg class="block mr-2 w-6 w-auto fill-current text-gray-800 (group-hover)text-gray-100 transition duration-300 ease-in-out" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve"><g><g><path d="M426,0H161.24c-3.978,0-7.793,1.58-10.606,4.394l-75.24,75.239C72.581,82.446,71,86.262,71,90.24V497 c0,8.284,6.716,15,15,15h340c8.284,0,15-6.716,15-15V15C441,6.716,434.284,0,426,0z M411,482H101V96.453L167.453,30H411V482z"/></g></g><g><g><path d="M366,326H146c-8.284,0-15,6.716-15,15s6.716,15,15,15h220c8.284,0,15-6.716,15-15S374.284,326,366,326z"/></g></g><g><g><path d="M226,251h-80c-8.284,0-15,6.716-15,15s6.716,15,15,15h80c8.284,0,15-6.716,15-15S234.284,251,226,251z"/></g></g><g><g><path d="M366,401h-80c-8.284,0-15,6.716-15,15s6.716,15,15,15h80c8.284,0,15-6.716,15-15S374.284,401,366,401z"/></g></g></svg>
+          <y class="pb-1 font-medium text-2xl (group-hover)text-gray-100">
+            ${title}
+          </y>
         </y>
-				<y class="pb-1 text-md (group-hover)text-gray-300">
-					${description}
-				</y>
+        <y class="pb-1 text-md (group-hover)text-gray-300">
+          ${description}
+        </y>
         <y class="text-xs text-gray-600 (group-hover)text-gray-500">
           <span class="mr-1 font-semibold">
             Related:

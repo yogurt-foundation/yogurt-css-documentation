@@ -3,6 +3,7 @@ id: container
 title: Container
 description: Utilities for set max-width to match min-width of the current breakpoint.
 category: Layouts
+tags: box-sizing, clear, render, display, float, object-fit, object-position, overflow, position, top/bottom/left/right, visibility, z-index
 layout: default
 ---
 

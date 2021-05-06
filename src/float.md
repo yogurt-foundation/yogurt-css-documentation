@@ -3,6 +3,7 @@ id: float
 title: Float
 description: Utilities for sets an element's placement to a side of its container and allows content to wrap around it.
 category: Layouts
+tags: box-sizing, clear, container, render, display, object-fit, object-position, overflow, position, top/bottom/left/right, visibility, z-index
 layout: default
 ---
 
