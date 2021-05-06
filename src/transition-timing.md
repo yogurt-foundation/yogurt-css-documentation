@@ -3,6 +3,7 @@ id: transition-timing
 title: Transition Timing
 description: Utilities for sets the easing function of transition animations.
 category: Transitions
+tags: transition-property, transition-duration
 layout: default
 ---
 

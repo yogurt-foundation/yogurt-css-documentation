@@ -3,6 +3,7 @@ id: filter-invert
 title: Filter Invert
 description: Utilities for sets filter invert effect to an element.
 category: Filters
+tags: filter-blur, filter-brightness, filter-contrast, filter-saturate, filter-drop-shadow
 layout: default
 ---
 

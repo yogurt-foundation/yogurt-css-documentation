@@ -3,6 +3,8 @@ id: min-width
 title: Min Width
 description: Utilities for sets the minimum width of an element.
 category: Sizing
+tags: width, max-width, height, min-height, max-height
+variant: responsive
 layout: default
 ---
 

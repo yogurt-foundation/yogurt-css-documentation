@@ -3,6 +3,7 @@ id: word-break
 title: Word Break
 description: Utilities for sets the word breaks of an element.
 category: Typography
+variant: responsive
 layout: default
 ---
 

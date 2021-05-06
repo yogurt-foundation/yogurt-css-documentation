@@ -4,6 +4,7 @@ title: Slide Animation
 description: Utilities for sets the sliding animation to an element.
 category: Animations
 tags: animation, animation-blur, animation-delay, animation-duration, animation-fade, animation-loop, animation-roll
+variant: hover
 layout: default
 ---
 

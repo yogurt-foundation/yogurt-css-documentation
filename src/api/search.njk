@@ -5,12 +5,12 @@ permalink: /api/search.json
 [
 {% for page in collections.searchPages %}
   {
-     "title":"{{page.data.title}}",
-     "description":"{{page.data.description}}",
-     "category": "{{page.data.category}}",
-     "tags": "{{page.data.tags}}",
-     "url":"{{page.url}}",
-     "content":"{% searchContent page %}"
+     "title":"{{ page.data.title }}",
+     "description":"{{ page.data.description }}",
+     "url":"{{ page.url }}",
+     "category": "{{ page.data.category }}",
+     "tags": "{{ page.data.tags }}",
+     "variant": "{{ page.data.variant }}"
   }{% if loop.last != true %},{% endif %}
 {% endfor %}
 ]

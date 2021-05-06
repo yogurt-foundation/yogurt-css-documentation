@@ -3,6 +3,8 @@ id: rotate
 title: Rotate
 description: Utilities for rotates an element that has transform applied.
 category: Transforms
+tags: translate, transform, scale, skew
+variant: hover, group-hover, focus, focus-visible
 layout: default
 ---
 

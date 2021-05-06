@@ -4,6 +4,7 @@ title: Background Blend
 description: Utilities for sets the blending mode of each background layer (color or image).
 category: Backgrounds
 tags: background-attachment, background-border, background-color, background-gradient, background-opacity, background-position, background-repeat, background-size
+variant: focus-visible, focus-within
 layout: default
 ---
 

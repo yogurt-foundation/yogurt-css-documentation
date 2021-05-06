@@ -4,6 +4,7 @@ title: Clear
 description: Utilities for set whether an element is moved below preceding floated elements.
 category: Layouts
 tags: box-sizing, container, render, display, float, object-fit, object-position, overflow, position, top/bottom/left/right, visibility, z-index
+variant: responsive
 layout: default
 ---
 

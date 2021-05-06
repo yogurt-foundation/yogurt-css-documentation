@@ -3,6 +3,8 @@ id: translate
 title: Translate
 description: Utilities for translate an element that has transform applied.
 category: Transforms
+tags: transform, rotate, scale, skew
+variant: hover, group-hover, focus, group-focus, focus-visible, focus-within
 layout: default
 ---
 

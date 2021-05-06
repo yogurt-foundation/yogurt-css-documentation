@@ -4,6 +4,7 @@ title: Overflow
 description: Utilities for sets how to handle content that's too big for it's container.
 category: Layouts
 tags: box-sizing, clear, container, render, display, float, object-fit, object-position, position, top/bottom/left/right, visibility, z-index
+variant: responsive, hover
 layout: default
 ---
 

@@ -3,6 +3,8 @@ id: transition-property
 title: Transition Property
 description: Utilities for sets the css properties affected by transition animations.
 category: Transitions
+tags: transition-duration, transition-timing
+variant: reduce-motion
 layout: default
 ---
 

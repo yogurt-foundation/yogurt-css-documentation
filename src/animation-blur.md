@@ -4,6 +4,7 @@ title: Blur Animation
 description: Utilities for sets the blur animation to an element.
 category: Animations
 tags: animation, animation-delay, animation-duration, animation-fade, animation-loop, animation-roll, animation-slide
+variant: hover
 layout: default
 ---
 

@@ -3,6 +3,7 @@ id: equal
 title: Equal
 description: Utilities for sets balancing the space in between child elements.
 category: Spacing
+tags: margin, padding
 layout: default
 ---
 

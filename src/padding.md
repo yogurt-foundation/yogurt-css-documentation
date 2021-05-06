@@ -3,6 +3,8 @@ id: padding
 title: Padding
 description: Utilities for controls padding in 0.25rem increments.
 category: Spacing
+tags: margin, equal, fluid-margin, fluid-padding
+variant: responsive
 layout: default
 ---
 

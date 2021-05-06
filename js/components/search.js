@@ -27,7 +27,7 @@ export default async () => {
       this.field('description');
       this.field('category');
       this.field('tags');
-      this.field('content');
+      this.field('variant');
 
       docs.forEach((doc, index) => {
         doc.id = index;
@@ -65,32 +65,7 @@ export default async () => {
     let description = highlightWords(result.description, searchTermMatcher);
     let category = highlightWords(result.category, searchTermMatcher);
     let tags = highlightWords(result.tags, searchTermMatcher);
-
-    let content = '';
-    let contentMatch = result.content.match(searchTermMatcher);
-
-    if (contentMatch) {
-      let start = contentMatch.index;
-      let end = start + contentMatch[0].length;
-
-      // Include surrounding text
-      start = Math.max(start - 30, 0); // 30, 0
-      end = Math.max(end + 110, result.content.length);
-
-      let value = result.content.slice(start, end).trim();
-
-      if (value.length > 0) {
-        value = value.replace(/\s*[\n]+\s*/g, '\n');
-        value = value.replace(/^\s+|\s+$/g, '');
-        content = [
-          '<p class="excerpt mt-2">',
-          start > 0 ? '...' : '',
-          highlightWords(value, searchTermMatcher),
-          end < result.content.length ? '...' : '',
-          '</p>'
-        ].join('');
-      }
-    }
+    let variant = highlightWords(result.variant, searchTermMatcher);
 
     return `
       <a class="(group) z-10 search-result block mb-2 p-5 outline-none border-4 border-transparent (focus)border-orange-600 text-gray-800 bg-gray-100 rounded-lg"
@@ -109,11 +84,11 @@ export default async () => {
         <y class="pb-1 text-md (group-hover)text-gray-300">
           ${description}
         </y>
-        <y class="text-xs text-gray-600 (group-hover)text-gray-500">
-          <span class="mr-1 font-semibold">
-            Related:
-          </span>
+        <y class="pb-1 text-xs text-gray-600 (group-hover)text-gray-500">
           ${tags}
+        </y>
+        <y class="text-xs font-mono font-semibold text-gray-600 (group-hover)text-gray-500">
+          ${variant}
         </y>
       </a>
     `;
@@ -156,7 +131,6 @@ export default async () => {
       else {
         searchResults.style.top = '';
       }
-
 
       // Lazy-load the first time the search field is shown
       if (!docs) {

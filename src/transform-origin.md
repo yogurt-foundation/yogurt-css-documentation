@@ -3,6 +3,8 @@ id: transform-origin
 title: Transform Origin
 description: Utilities for sets the origin of an element's transforms.
 category: Transforms
+tags: translate, rotate, scale, skew
+variant: hover, focus-visible, focus-within
 layout: default
 ---
 

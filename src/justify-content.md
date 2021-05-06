@@ -3,6 +3,8 @@ id: justify-content
 title: Justify Content
 description: Utilities for controls how flex items are positioned along container's main axis.
 category: Flexbox
+tags: flex, flex-direction, flex-grow, flex-shrink, flex-wrap, align-content, align-items, align-self
+variant: responsive
 layout: default
 ---
 

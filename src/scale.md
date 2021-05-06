@@ -3,6 +3,8 @@ id: scale
 title: Scale
 description: Utilities for scales an element that has transform applied.
 category: Transforms
+tags: translate, transform, rotate, skew
+variant: hover, group-hover, focus, focus-visible
 layout: default
 ---
 

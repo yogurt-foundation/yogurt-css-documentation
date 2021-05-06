@@ -3,6 +3,7 @@ id: touch-action
 title: Touch Action
 description: Utilities for set control over the effect of touchscreen interactions to an element.
 category: Interactivity
+variant: responsive
 layout: default
 ---
 

@@ -3,6 +3,7 @@ id: filter-contrast
 title: Filter Contrast
 description: Utilities for sets contrast filter to an element.
 category: Filters
+tags: filter-blur, filter-brightness, filter-saturate, filter-invert, filter-drop-shadow
 layout: default
 ---
 

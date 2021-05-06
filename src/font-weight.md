@@ -3,6 +3,7 @@ id: font-weight
 title: Font Style
 description: Utilities for sets the font weight.
 category: Typography
+variant: responsive, hover, group-hover, focus
 layout: default
 ---
 

@@ -4,6 +4,7 @@ title: Position
 description: Utilities for sets an element's position.
 category: Layouts
 tags: box-sizing, clear, container, render, display, float, object-fit, object-position, overflow, top/bottom/left/right, visibility, z-index
+variant: responsive, hover
 layout: default
 ---
 

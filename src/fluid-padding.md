@@ -3,6 +3,7 @@ id: fluid-padding
 title: Fluid Padding
 description: Utilities for sets min and max paddings for screen size without breakpoints.
 category: Effects
+tags: fluid-font-size, fluid-margin, margin, padding
 layout: default
 ---
 

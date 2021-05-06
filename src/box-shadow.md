@@ -3,6 +3,7 @@ id: box-shadow
 title: Box Shadow
 description: Utilities for sets the box-shadow property attaches one or more shadows to an element.
 category: Effects
+variant: hover, focus, focus-visible, focus-within
 layout: default
 ---
 

@@ -3,7 +3,7 @@ id: display
 title: Display
 description: Utilities for sets the display box type of an element.
 category: Layouts
-tags: box-sizing, clear, container, render, float, object-fit, object-position, overflow, position, top/bottom/left/right, visibility, z-index
+variant: responsive, hover, group-hover
 layout: default
 ---
 

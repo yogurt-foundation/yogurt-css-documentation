@@ -3,6 +3,8 @@ id: skew
 title: Skew
 description: Utilities for skews an element that has transform applied.
 category: Transforms
+tags: translate, transform, rotate, scale
+variant: hover, group-hover, focus, focus-visible
 layout: default
 ---
 

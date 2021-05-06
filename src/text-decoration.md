@@ -3,6 +3,7 @@ id: text-decoration
 title: Text Decoration
 description: Utilities for sets the text-decoration of an element.
 category: Typography
+variant: responsive, hover, group-hover, focus, focus-visible, focus-within
 layout: default
 ---
 

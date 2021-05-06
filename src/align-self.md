@@ -4,6 +4,7 @@ title: Align Self
 description: Utilities for controls how an individual flex item is positioned along container's cross axis.
 category: Flexbox
 tags: flex, flex-gap, flex-direction, flex-grow, flex-shrink, flex-wrap, align-content, align-items
+variant: responsive
 layout: default
 ---
 

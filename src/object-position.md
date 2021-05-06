@@ -4,6 +4,7 @@ title: Object Position
 description: Utilities for sets the alignment of the selected replaced element.
 category: Layouts
 tags: box-sizing, clear, container, render, display, float, object-fit, overflow, position, top/bottom/left/right, visibility, z-index
+variant: responsive
 layout: default
 ---
 

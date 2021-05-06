@@ -3,7 +3,6 @@ id: content-visibility
 title: Render (Content-Visibility)
 description: Utilities for sets skip rendering if element is off-screen to improve overall page rendering speed.
 category: Layouts
-tags: box-sizing, clear, container, display, float, object-fit, object-position, overflow, position, top/bottom/left/right, visibility, z-index
 layout: default
 ---
 

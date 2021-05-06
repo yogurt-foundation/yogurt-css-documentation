@@ -3,6 +3,7 @@ id: user-select
 title: User Select
 description: Utilities for controls whether the user can select text.
 category: Interactivity
+variant: responsive
 layout: default
 ---
 

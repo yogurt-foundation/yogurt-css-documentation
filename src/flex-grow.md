@@ -3,7 +3,8 @@ id: flex-grow
 title: Flex Grow
 description: Utilities for controls how flex items grow.
 category: Flexbox
-tags: flex, flex-gap, flex-direction, flex-shrink, flex-wrap, align-content, align-items, align-self
+tags: flex, flex-gap, flex-direction, flex-shrink, flex-wrap, align-content, align-items, align-self, justify-content
+variant: responsive
 layout: default
 ---
 

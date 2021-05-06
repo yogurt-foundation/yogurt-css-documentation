@@ -3,6 +3,7 @@ id: dissect-opacity
 title: Dissect Opacity
 description: Utilities for sets opacity to bottom border on each child elements of its parent.
 category: Borders
+tags: dissect, dissect-color
 layout: default
 ---
 

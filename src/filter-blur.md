@@ -3,6 +3,7 @@ id: filter-blur
 title: Filter Blur
 description: Utilities for sets filter blur effect to an element.
 category: Filters
+tags: filter-brightness, filter-contrast, filter-saturate, filter-invert, filter-drop-shadow
 layout: default
 ---
 

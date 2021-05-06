@@ -3,7 +3,8 @@ id: flex-wrap
 title: Flex Wrap
 description: Utilities for creates how flex items wrap.
 category: Flexbox
-tags: flex, flex-gap, flex-direction, flex-grow, flex-shrink, align-content, align-items, align-self
+tags: flex, flex-gap, flex-direction, flex-grow, flex-shrink, align-content, align-items, align-self, justify-content
+variant: responsive
 layout: default
 ---
 
