@@ -3,6 +3,7 @@ id: border-style
 title: Border Style
 description: Utilities for sets border style.
 category: Borders
+tags: border-color, border-radius, border-width
 layout: default
 ---
 

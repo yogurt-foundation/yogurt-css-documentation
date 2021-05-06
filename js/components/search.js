@@ -6,7 +6,7 @@ import setupHovers from 'components/hover.js';
 
 export default async () => {
 
-  const SEARCH_RESULT_LIMIT = 5;
+  const SEARCH_RESULT_LIMIT = 10;
 
   const searchInput = document.querySelector('.search-input');
   const searchResults = document.querySelector('.search-results');
@@ -93,7 +93,7 @@ export default async () => {
     }
 
     return `
-      <a class="(group) z-10 search-result block m-0 p-5 outline-none border-4 border-transparent (focus)border-orange-600 text-gray-800 bg-gray-100 rounded-lg"
+      <a class="(group) z-10 search-result block mb-2 p-5 outline-none border-4 border-transparent (focus)border-orange-600 text-gray-800 bg-gray-100 rounded-lg"
          href="${result.url}"
          target="_self"
          rel="noopener">
@@ -103,11 +103,16 @@ export default async () => {
         <y class="pb-1 font-medium text-xl (group-hover)text-gray-100">
           ${title}
         </y>
-				<y class="text-md (group-hover)text-gray-300">
+				<y class="pb-1 text-md (group-hover)text-gray-300">
 					${description}
 				</y>
+        <y class="text-xs text-gray-600 (group-hover)text-gray-500">
+          <span class="mr-1 font-semibold">
+            Related:
+          </span>
+          ${tags}
+        </y>
       </a>
-      <y class="border border-gray-100 my-2"></y>
     `;
   }
 

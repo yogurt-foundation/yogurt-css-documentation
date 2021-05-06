@@ -3,6 +3,7 @@ id: flex-direction
 title: Flex Direction
 description: Utilities for sets direction of flex items.
 category: Flexbox
+tags: flex, flex-gap, flex-grow, flex-shrink, flex-wrap, align-content, align-items, align-self
 layout: default
 ---
 

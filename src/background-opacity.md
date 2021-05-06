@@ -3,6 +3,7 @@ id: background-opacity
 title: Background Opacity
 description: Utilities for sets opacity of background color.
 category: Backgrounds
+tags: background-attachment, background-blend, background-border, background-color, background-gradient, background-position, background-repeat, background-size
 layout: default
 ---
 

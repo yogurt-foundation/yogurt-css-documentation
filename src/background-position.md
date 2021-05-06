@@ -3,6 +3,7 @@ id: background-position
 title: Background Position
 description: Utilities for sets position of a background image.
 category: Backgrounds
+tags: background-attachment, background-blend, background-border, background-color, background-gradient, background-opacity, background-repeat, background-size
 layout: default
 ---
 

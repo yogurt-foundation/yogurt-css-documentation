@@ -3,6 +3,7 @@ id: background-color
 title: Background Color
 description: Utilities for sets background color.
 category: Backgrounds
+tags: background-attachment, background-blend, background-border, background-gradient, background-opacity, background-position, background-repeat, background-size
 layout: default
 ---
 

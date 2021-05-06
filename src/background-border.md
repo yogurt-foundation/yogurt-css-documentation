@@ -3,6 +3,7 @@ id: background-border
 title: Background Border
 description: Utilities for sets background border to an element with flexible control over the border spacing, size, angle and length.
 category: Background
+tags: background-attachment, background-blend, background-color, background-gradient, background-opacity, background-position, background-repeat, background-size
 layout: default
 ---
 

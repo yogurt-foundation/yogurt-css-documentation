@@ -3,6 +3,7 @@ id: flex-gap
 title: Flex Gap
 description: Utilities for set inner spacing in between the flex child elements.
 category: Flexbox
+tags: flex, flex-direction, flex-grow, flex-shrink, flex-wrap, align-content, align-items, align-self
 layout: default
 ---
 

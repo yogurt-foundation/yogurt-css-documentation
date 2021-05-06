@@ -3,6 +3,7 @@ id: border-width
 title: Border Width
 description: Utilities for sets border width in increments of 1px.
 category: Borders
+tags: border-color, border-radius, border-style
 layout: default
 ---
 

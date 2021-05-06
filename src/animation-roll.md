@@ -3,6 +3,7 @@ id: animation-roll
 title: Roll Animation
 description: Utilities for sets the rolling animation to an element.
 category: Animations
+tags: animation, animation-blur, animation-delay, animation-duration, animation-fade, animation-loop, animation-slide
 layout: default
 ---
 

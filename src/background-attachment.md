@@ -3,6 +3,7 @@ id: background-attachment
 title: Background Attachment
 description: Utilities for sets behaviour of background images when scrolling.
 category: Backgrounds
+tags: background-blend, background-border, background-color, background-gradient, background-opacity, background-position, background-repeat, background-size
 layout: default
 ---
 

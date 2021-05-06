@@ -3,6 +3,7 @@ id: animation-fade
 title: Fade Animation
 description: Utilities for sets the fading animation to an element.
 category: Animations
+tags: animation, animation-blur, animation-delay, animation-duration, animation-loop, animation-roll, animation-slide
 layout: default
 ---
 
