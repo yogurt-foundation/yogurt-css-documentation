@@ -2,7 +2,7 @@
 id: order
 title: Order
 description: Utilities for controls how flex items are ordered.
-category: Flexbox
+topic: Flexbox
 variant: responsive
 layout: default
 ---

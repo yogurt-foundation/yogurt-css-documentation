@@ -2,7 +2,7 @@
 id: themes
 title: Themes
 description:
-category:
+topic:
 layout: default
 ---
 

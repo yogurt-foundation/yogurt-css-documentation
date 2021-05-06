@@ -2,8 +2,8 @@
 id: fluid-margin
 title: Fluid Margin
 description: Utilities for sets min and max margins for screen size without breakpoints.
-category: Effects
-tags: fluid-font-size, fluid-padding, margin, padding
+topic: Effects
+relate: fluid-font-size, fluid-padding, margin, padding
 layout: default
 ---
 

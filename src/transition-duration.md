@@ -2,8 +2,8 @@
 id: transition-duration
 title: Transition Duration
 description: Utilities for sets the length of time for a transition animations to complete.
-tags: transition-property, transition-timing
-category: Transitions
+relate: transition-property, transition-timing
+topic: Transitions
 layout: default
 ---
 

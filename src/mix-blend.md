@@ -2,7 +2,7 @@
 id: mix-blend
 title: Mix Blend
 description: Utilities for sets how an element's content should blend with its direct parent background.
-category: Effects
+topic: Effects
 layout: default
 ---
 

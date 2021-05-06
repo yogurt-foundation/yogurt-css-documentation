@@ -2,7 +2,7 @@
 id: cursor
 title: Cursor
 description: Utilities for changes the cursor when hovering over an element.
-category: Interactivity
+topic: Interactivity
 layout: default
 ---
 

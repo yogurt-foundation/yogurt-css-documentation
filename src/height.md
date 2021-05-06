@@ -2,8 +2,8 @@
 id: height
 title: Height
 description: Utilities for sets the height of an element.
-category: Sizing
-tags: width, min-width, max-width, min-height, max-height
+topic: Sizing
+relate: width, min-width, max-width, min-height, max-height
 variant: responsive, hover
 layout: default
 ---

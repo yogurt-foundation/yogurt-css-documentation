@@ -2,7 +2,7 @@
 id: utility
 title: Utility
 description: Yogurt is a utility-centric framework. Creating a complex component from a bunch of small functional CSS building blocks.
-category: Core Concepts
+topic: Core Concepts
 layout: default
 ---
 

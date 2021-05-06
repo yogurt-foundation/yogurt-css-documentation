@@ -2,8 +2,8 @@
 id: flex
 title: Flex
 description: Utilities for controls how flex items grow and shrink.
-category: Flexbox
-tags: flex-gap, flex-direction, flex-grow, flex-shrink, flex-wrap, align-content, align-items, align-self, justify-content
+topic: Flexbox
+relate: flex-gap, flex-direction, flex-grow, flex-shrink, flex-wrap, align-content, align-items, align-self, justify-content
 variant: responsive
 layout: default
 ---

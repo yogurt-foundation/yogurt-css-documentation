@@ -2,7 +2,7 @@
 id: pattern-diagonal-lines
 title: Pattern Diagonal Lines
 description: Utilities for sets an element's background diagonal-lines pattern.
-category: Patterns
+topic: Patterns
 layout: default
 ---
 

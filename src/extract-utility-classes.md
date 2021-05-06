@@ -2,7 +2,7 @@
 id: extract-utility-classes
 title: Extract Utility Classes
 description: Exposes Yogurt utility classes to your custom CSS with SASS @extend directive.
-category: Core Concepts
+topic: Core Concepts
 layout: default
 ---
 

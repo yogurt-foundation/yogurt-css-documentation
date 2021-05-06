@@ -2,8 +2,8 @@
 id: max-height
 title: Max Height
 description: Utilities for sets the maximum height of an element.
-category: Sizing
-tags: width, min-width, max-width, height, min-height
+topic: Sizing
+relate: width, min-width, max-width, height, min-height
 variant: responsive
 layout: default
 ---

@@ -2,8 +2,8 @@
 id: filter-backdrop-brightness
 title: Filter Backdrop Brightness
 description: Utilities for sets filter backdrop brightness effect to an element.
-category: Filters
-tags: filter-backdrop-blur, filter-backdrop-contrast, filter-backdrop-saturate
+topic: Filters
+relate: filter-backdrop-blur, filter-backdrop-contrast, filter-backdrop-saturate
 layout: default
 ---
 

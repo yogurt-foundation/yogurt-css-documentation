@@ -2,7 +2,7 @@
 id: image
 title: Image
 description: Utilities for sets an image or canvas renders if it is scaled up or down from its original dimensions.
-category: Rendering
+topic: Rendering
 layout: default
 ---
 

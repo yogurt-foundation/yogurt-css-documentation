@@ -2,8 +2,8 @@
 id: animation-delay
 title: Animation Delay
 description: Utilities for sets the animation control with delays.
-category: Animations
-tags: animation, animation-blur, animation-duration, animation-fade, animation-loop, animation-roll, animation-slide
+topic: Animations
+relate: animation, animation-blur, animation-duration, animation-fade, animation-loop, animation-roll, animation-slide
 layout: default
 ---
 

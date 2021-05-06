@@ -2,8 +2,8 @@
 id: background-gradient
 title: Background Gradient
 description: Utilities for sets the background gradient color to an element with flexible control over color, color space and angles.
-category: Backgrounds
-tags: background-attachment, background-blend, background-border, background-color, background-opacity, background-position, background-repeat, background-size
+topic: Backgrounds
+relate: background-attachment, background-blend, background-border, background-color, background-opacity, background-position, background-repeat, background-size
 variant: hover, focus-visible, focus-within
 layout: default
 ---

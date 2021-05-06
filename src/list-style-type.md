@@ -2,7 +2,7 @@
 id: line-style-type
 title: List Style Type
 description: Utilities for sets the bullet style of a list.
-category: Typography
+topic: Typography
 layout: default
 ---
 

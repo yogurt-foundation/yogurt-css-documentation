@@ -2,8 +2,8 @@
 id: background-size
 title: Background Size
 description: Utilities for sets background size of a background image.
-category: Backgrounds
-tags: background-attachment, background-blend, background-border, background-color, background-gradient, background-opacity, background-position, background-repeat
+topic: Backgrounds
+relate: background-attachment, background-blend, background-border, background-color, background-gradient, background-opacity, background-position, background-repeat
 layout: default
 ---
 

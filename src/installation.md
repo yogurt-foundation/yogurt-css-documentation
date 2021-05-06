@@ -2,7 +2,7 @@
 id: installation
 title: Installation
 description: Ways to install Yogurt CSS framework for your project.
-category: Installation
+topic: Installation
 layout: default
 ---
 

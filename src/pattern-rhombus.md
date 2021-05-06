@@ -2,7 +2,7 @@
 id: pattern-rhombus
 title: Pattern Rhombus
 description: Utilities for sets an element's background rhombus pattern.
-category: Patterns
+topic: Patterns
 layout: default
 ---
 

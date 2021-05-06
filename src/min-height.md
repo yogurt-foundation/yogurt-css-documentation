@@ -2,8 +2,8 @@
 id: min-height
 title: Min Height
 description: Utilities for sets the miminum height of an element.
-category: Sizing
-tags: width, min-width, max-width, height, max-height
+topic: Sizing
+relate: width, min-width, max-width, height, max-height
 variant: responsive
 layout: default
 ---

@@ -2,7 +2,7 @@
 id: patterns
 title: Patterns
 description:
-category:
+topic:
 layout: default
 ---
 

@@ -2,7 +2,7 @@
 id: fill
 title: SVG
 description: Utilities for sets the color to paint an SVG.
-category: SVG
+topic: SVG
 layout: default
 ---
 

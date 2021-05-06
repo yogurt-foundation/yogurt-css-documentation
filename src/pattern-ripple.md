@@ -2,7 +2,7 @@
 id: pattern-ripple
 title: Pattern Ripple
 description: Utilities for sets an element's background ripple pattern.
-category: Patterns
+topic: Patterns
 layout: default
 ---
 

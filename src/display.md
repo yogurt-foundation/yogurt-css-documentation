@@ -2,7 +2,7 @@
 id: display
 title: Display
 description: Utilities for sets the display box type of an element.
-category: Layouts
+topic: Layouts
 variant: responsive, hover, group-hover
 layout: default
 ---

@@ -2,8 +2,8 @@
 id: border-collapse
 title: Border Collapse
 description: Utilities for collapse or separate table borders.
-category: Tables
-tags: table-layout
+topic: Tables
+relate: table-layout
 layout: default
 ---
 

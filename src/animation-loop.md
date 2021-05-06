@@ -2,8 +2,8 @@
 id: animation-loop
 title: Animation Loop
 description: Utilities for sets the animation control with limited loop or infinite.
-category: Animations
-tags: animation, animation-blur, animation-delay, animation-duration, animation-fade, animation-roll, animation-slide
+topic: Animations
+relate: animation, animation-blur, animation-delay, animation-duration, animation-fade, animation-roll, animation-slide
 layout: default
 ---
 

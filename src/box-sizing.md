@@ -2,8 +2,8 @@
 id: box-sizing
 title: Box Sizing
 description: Utilities for sets how the total width and height of an element is calculated.
-category: Layouts
-tags: clear, container, render, display, float, object-fit, object-position, overflow, position, top/bottom/left/right, visibility, z-index
+topic: Layouts
+relate: clear, container, render, display, float, object-fit, object-position, overflow, position, top/bottom/left/right, visibility, z-index
 variant: responsive
 layout: default
 ---

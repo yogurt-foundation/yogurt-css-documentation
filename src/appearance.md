@@ -2,7 +2,7 @@
 id: appearance
 title: Appearance
 description: Utilities for disables native styling based on the native browser theme.
-category: Interactivity
+topic: Interactivity
 layout: default
 ---
 

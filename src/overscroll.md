@@ -2,7 +2,7 @@
 id: overscroll
 title: Overscroll
 description: Utilities for sets an scrollable element that won't affecting the parent scrollable element on touch device.
-category: Interactivity
+topic: Interactivity
 layout: default
 ---
 

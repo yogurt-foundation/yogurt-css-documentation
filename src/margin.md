@@ -2,8 +2,8 @@
 id: margin
 title: Margin
 description: Utilities for controls margin (and negative margin) in 0.25rem increments.
-category: Spacing
-tags: padding, equal, fluid-margin, fluid-padding
+topic: Spacing
+relate: padding, equal, fluid-margin, fluid-padding
 variant: responsive
 layout: default
 ---

@@ -2,7 +2,7 @@
 id: letter-spacing
 title: Letter Spacing
 description: Utilities for sets the spacing between letters.
-category: Typography
+topic: Typography
 variant: responsive
 layout: default
 ---

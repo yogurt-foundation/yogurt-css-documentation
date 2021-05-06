@@ -2,7 +2,7 @@
 id: pattern-diagonal-stripes
 title: Pattern Diagonal Stripes
 description: Utilities for sets an element's background diagonal-stripes pattern.
-category: Patterns
+topic: Patterns
 layout: default
 ---
 

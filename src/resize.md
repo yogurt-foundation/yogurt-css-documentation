@@ -2,7 +2,7 @@
 id: resize
 title: Resize
 description: Utilities for sets whether an element is resizable, along with direction.
-category: Interactivity
+topic: Interactivity
 variant: responsive
 layout: default
 ---

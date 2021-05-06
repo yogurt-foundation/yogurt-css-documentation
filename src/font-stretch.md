@@ -2,7 +2,7 @@
 id: font-stretch
 title: Font Stretch
 description: Utilities for define text narrower(condensed) or wider(expanded) for font faces matching the defined sizes.
-category: Typography
+topic: Typography
 layout: default
 ---
 

@@ -2,7 +2,7 @@
 id: pattern-horizontal-stripes
 title: Pattern Horizontal Stripes
 description: Utilities for sets an element's background horizontal-stripes pattern.
-category: Patterns
+topic: Patterns
 layout: default
 ---
 

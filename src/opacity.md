@@ -2,7 +2,7 @@
 id: opacity
 title: Opacity
 description: Utilities for sets the transparency of an element.
-category: Effects
+topic: Effects
 variant: responsive, hover, group-hover, focus, focus-visible, focus-within
 layout: default
 ---

@@ -2,7 +2,7 @@
 id: font-family
 title: Font Family
 description: Utilities for sets the font family and Google Fonts.
-category: Typography
+topic: Typography
 layout: default
 ---
 

@@ -2,7 +2,7 @@
 id: pseudo-class-variant
 title: Pseudo-Class Variants
 description: Using utilities to style and add effects to elements when on hover, group-hover, group-focus, group-focus, focus, active, disabled, visited, checked and so on.
-category: Core Concepts
+topic: Core Concepts
 layout: default
 ---
 

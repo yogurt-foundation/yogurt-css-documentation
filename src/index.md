@@ -2,7 +2,7 @@
 id: home
 title: Yogurt CSS
 description: Yogurt is a CSS framework for crafting custom UI designs by using very smaller building block to build a component, even a basic component like a button can look entirely different from one to another in your material designs and having a complex template design that you'd end up needing to override the CSS will only make the creation process more frustrating.
-category:
+topic:
 layout: home
 ---
 

@@ -2,7 +2,7 @@
 id: pattern-zigzag
 title: Pattern Zigzag
 description: Utilities for sets an element's background zigzag pattern.
-category: Patterns
+topic: Patterns
 layout: default
 ---
 

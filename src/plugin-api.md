@@ -2,7 +2,7 @@
 id: plugin-api
 title: Plugin API
 description: Using plugin API to create your utility module and use it right away without modifying any of the Yogurt core files.
-category: Customization
+topic: Customization
 layout: default
 ---
 

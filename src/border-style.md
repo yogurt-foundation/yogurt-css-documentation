@@ -2,8 +2,8 @@
 id: border-style
 title: Border Style
 description: Utilities for sets border style.
-category: Borders
-tags: border-color, border-radius, border-width
+topic: Borders
+relate: border-color, border-radius, border-width
 variant: focus
 layout: default
 ---

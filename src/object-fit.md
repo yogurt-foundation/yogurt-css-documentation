@@ -2,8 +2,8 @@
 id: object-fit
 title: Object Fit
 description: Utilities for sets how the content of a replaced element (img or video tag) should be resized.
-category: Layouts
-tags: box-sizing, clear, container, render, display, float, object-position, overflow, position, top/bottom/left/right, visibility, z-index
+topic: Layouts
+relate: box-sizing, clear, container, render, display, float, object-position, overflow, position, top/bottom/left/right, visibility, z-index
 variant: responsive
 layout: default
 ---

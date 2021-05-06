@@ -2,7 +2,7 @@
 id: theme-invert
 title: Theme Invert
 description: Utilities for sets page theme either dark or light by applying force invert.
-category: Theme
+topic: Theme
 layout: default
 ---
 

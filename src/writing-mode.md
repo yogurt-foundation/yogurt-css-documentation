@@ -2,7 +2,7 @@
 id: writing-mode
 title: Writing Mode
 description: Utilities for sets alignment of the text horizontally, vertically, or which direction depending on the language.
-category: Typography
+topic: Typography
 layout: default
 ---
 

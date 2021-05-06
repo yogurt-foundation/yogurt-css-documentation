@@ -2,7 +2,7 @@
 id: text-color
 title: Text Color
 description: Utilities for sets the text color.
-category: Typography
+topic: Typography
 variant: dark-mode, hover, group-hover, focus, group-focus, focus-visible, focus-within, active, visited
 layout: default
 ---

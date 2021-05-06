@@ -2,7 +2,7 @@
 id: customize-utilities
 title: Customize Utilities
 description: Include or exclude the utility modules or components in the framework.
-category: Customization
+topic: Customization
 layout: default
 ---
 

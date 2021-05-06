@@ -2,7 +2,7 @@
 id: pattern-vertical-lines
 title: Pattern Vertical Lines
 description: Utilities for sets an element's background vertical-lines pattern.
-category: Patterns
+topic: Patterns
 layout: default
 ---
 

@@ -2,7 +2,7 @@
 id: debugger
 title: Debugger
 description: Utilities for inspecting screen sizes and errors in spacing or overlapping elements.
-category: Debug
+topic: Debug
 layout: default
 ---
 

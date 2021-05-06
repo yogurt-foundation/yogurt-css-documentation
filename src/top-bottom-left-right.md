@@ -2,8 +2,8 @@
 id: top-bottom-left-right
 title: Top / Right / Bottom / Left
 description: Utilities for sets the placement of a positioned element.
-category: Layouts
-tags: box-sizing, clear, container, render, display, float, object-fit, object-position, overflow, position, visibility, z-index
+topic: Layouts
+relate: box-sizing, clear, container, render, display, float, object-fit, object-position, overflow, position, visibility, z-index
 variant: responsive
 layout: default
 ---

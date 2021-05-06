@@ -2,8 +2,8 @@
 id: animation-duration
 title: Animation Duration
 description: Utilities for sets the animation control with durations.
-category: Animations
-tags: animation, animation-blur, animation-delay, animation-fade, animation-loop, animation-roll, animation-slide
+topic: Animations
+relate: animation, animation-blur, animation-delay, animation-fade, animation-loop, animation-roll, animation-slide
 layout: default
 ---
 

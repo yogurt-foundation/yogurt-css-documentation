@@ -2,8 +2,8 @@
 id: background-repeat
 title: Background Repeat
 description: Utilities for sets repetition of a background image.
-category: Backgrounds
-tags: background-attachment, background-blend, background-border, background-color, background-gradient, background-opacity, background-position, background-size
+topic: Backgrounds
+relate: background-attachment, background-blend, background-border, background-color, background-gradient, background-opacity, background-position, background-size
 layout: default
 ---
 

@@ -2,8 +2,8 @@
 id: filter-drop-shadow
 title: Filter Drop Shadow
 description: Utilities for sets shadow filter to transparency image (SVG, PNG).
-category: Filters
-tags: filter-blur, filter-brightness, filter-contrast, filter-saturate, filter-invert
+topic: Filters
+relate: filter-blur, filter-brightness, filter-contrast, filter-saturate, filter-invert
 layout: default
 ---
 

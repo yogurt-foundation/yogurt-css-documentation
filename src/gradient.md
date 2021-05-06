@@ -2,8 +2,8 @@
 id: gradient
 title: Gradient
 description: Utilities for sets the gradient preset diagonally to an element.
-category: Effects
-tags: bg-gradient
+topic: Effects
+relate: bg-gradient
 variant: dark-mode, hover, focus-visible, focus-within
 layout: default
 ---

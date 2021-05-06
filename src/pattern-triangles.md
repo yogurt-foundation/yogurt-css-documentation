@@ -2,7 +2,7 @@
 id: pattern-triangles
 title: Pattern Triangles
 description: Utilities for sets an element's background triangles pattern.
-category: Patterns
+topic: Patterns
 layout: default
 ---
 

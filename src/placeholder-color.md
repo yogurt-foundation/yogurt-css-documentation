@@ -2,7 +2,7 @@
 id: placeholder-color
 title: Placeholder Color
 description: Utilities for sets the placeholder color using the ::placeholder pseudo element.
-category: Typography
+topic: Typography
 variant: dark-mode, focus
 layout: default
 ---

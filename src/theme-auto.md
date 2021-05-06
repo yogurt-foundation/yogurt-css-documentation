@@ -2,7 +2,7 @@
 id: theme-auto
 title: Theme Auto
 description: Utilities for sets page theme either dark or light based on web browser or app settings.
-category: Theme
+topic: Theme
 layout: default
 ---
 

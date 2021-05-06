@@ -2,7 +2,7 @@
 id: font-style
 title: Font Style
 description: Utilities for sets the style of the font.
-category: Typography
+topic: Typography
 layout: default
 ---
 

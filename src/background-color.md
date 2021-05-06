@@ -2,8 +2,8 @@
 id: background-color
 title: Background Color
 description: Utilities for sets background color.
-category: Backgrounds
-tags: background-attachment, background-blend, background-border, background-gradient, background-opacity, background-position, background-repeat, background-size
+topic: Backgrounds
+relate: background-attachment, background-blend, background-border, background-gradient, background-opacity, background-position, background-repeat, background-size
 variant: responsive, dark-mode, hover, group-hover, focus-visible, focus-within, active,visited
 layout: default
 ---

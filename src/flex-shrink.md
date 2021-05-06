@@ -2,8 +2,8 @@
 id: flex-shrink
 title: Flex Shrink
 description: Utilities for controls how flex items shrink.
-category: Flexbox
-tags: flex, flex-gap, flex-direction, flex-grow, flex-wrap, align-content, align-items, align-self, justify-content
+topic: Flexbox
+relate: flex, flex-gap, flex-direction, flex-grow, flex-wrap, align-content, align-items, align-self, justify-content
 variant: responsive
 layout: default
 ---

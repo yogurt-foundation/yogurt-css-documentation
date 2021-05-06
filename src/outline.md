@@ -2,7 +2,7 @@
 id: outline
 title: Outline
 description: Utilities for sets native browser outline style to reset.
-category: Outline
+topic: Outline
 variant: responsive, focus, group-focus, focus-visible
 layout: default
 ---
