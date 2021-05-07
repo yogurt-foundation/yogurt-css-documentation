@@ -7,13 +7,13 @@ var playgroundTemplate = '<!DOCTYPE html><html ><head><meta charset="utf-8"><met
       <y class="pb-10 text-2xl animation fade-in-up delay-2">\n\
         Welcome to\n\
         <span class="inline-block font-semibold underline">\n\
-          Yogurtland\n\
+          Yogurt CSS\n\
         </span>\n\
         playground\n\
       </y>\n\
-      <y class="(xs)max-w-full (sm)max-w-xs p-10 flex justify-around items-center bg-white (dark)bg-charcoal-900 rounded-lg shadow-dreamy w-full animation fade-in-up overflow-hidden">\n\
+      <y class="(xs)max-w-full (sm)max-w-xs p-10 flex (xs)flex-col (sm)flex-row justify-around items-center bg-white (dark)bg-charcoal-900 rounded-lg shadow-dreamy w-full animation fade-in-up overflow-hidden">\n\
         <y class="h-20 w-20 bg-gray-600 rounded-full"></y>\n\
-        <y class="text-xl text-gray-600">\n\
+        <y class="(xs)pt-4 (sm)pt-0 (xs)text-2xl (sm)text-xl text-gray-600">\n\
          	Hello World!\n\
         </y>\n\
       </y>\n\

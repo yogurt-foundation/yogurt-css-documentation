@@ -1,9 +1,7 @@
 ---
-id: animations
-title: Animations
+id: animationsintro
+title: Animations Animations Introductions
 description: Animations Introductions
-topic: Animations
-relate: animation-blur, animation-delay, animation-duration, animation-fade, animation-loop, animation-roll, animation-slide
 layout: default
 ---
 

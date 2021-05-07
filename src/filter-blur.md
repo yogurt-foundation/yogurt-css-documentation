@@ -11,7 +11,7 @@ layout: default
 
 # Blur <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.0.9</span>
 
-Utilities for sets filter blur effect to an element.
+Utility applies a Gaussian blur to the element.
 
 ---
 
@@ -48,7 +48,7 @@ Utilities for sets filter blur effect to an element.
     </y>
   </y>
   <y class="m-2 max-w-sm">
-    <img class="filter blur-2 w-full h-48 object-fit object-center overflow-hidden rounded-lg"
+    <img class="filter blur-2 w-full h-48 object-cover object-center overflow-hidden rounded-lg"
          src="https://picsum.photos/500?=4">
     <y class="pt-2 text-sm text-center">
       Filter: ON

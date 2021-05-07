@@ -11,7 +11,7 @@ layout: default
 
 # Saturate <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.0.9</span>
 
-Utilities for sets saturate filter to an element.
+Utility for sets saturates or desaturates to an element.
 
 ---
 
@@ -34,13 +34,6 @@ Utilities for sets saturate filter to an element.
 | saturate-8 | --saturate: 1.70 |
 | saturate-9 | --saturate: 1.80 |
 | saturate-10 | --saturate: 1.90 |
-
-<y class="m-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 (dark)text-orange-500 bg-orange-200 (dark)bg-orange-900">
-  <span class="pr-1 font-semibold">
-    Note:
-  </span>
-  Only supported web browsers can benefit from this utility.
-</y>
 
 ---
 

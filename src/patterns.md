@@ -1,8 +1,7 @@
 ---
-id: patterns
-title: Patterns
-description:
-topic:
+id: patternoverview
+title: Patterns Overview
+description: Patterns Overview
 layout: default
 ---
 

@@ -40,7 +40,7 @@
         {
           "title": "Filters",
           "icon": "",
-          "url": "/filter-brightness/"
+          "url": "/filters/"
         },
         {
           "title": "Patterns",
@@ -50,7 +50,7 @@
         {
           "title": "Fluids",
           "icon": "",
-          "url": "/fluid-font-size/"
+          "url": "/fluids/"
         },
         {
           "title": "Orientation",

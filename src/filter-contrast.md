@@ -35,13 +35,6 @@ Utilities for sets contrast filter to an element.
 | contrast-9 | --contrast: 1.80 |
 | contrast-10 | --contrast: 1.90 |
 
-<y class="m-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 (dark)text-orange-500 bg-orange-200 (dark)bg-orange-900">
-  <span class="pr-1 font-semibold">
-    Note:
-  </span>
-  Only supported web browsers can benefit from this utility.
-</y>
-
 ---
 
 ## Usage
