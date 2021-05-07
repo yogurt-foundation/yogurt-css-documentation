@@ -1,6 +1,6 @@
 ---
 id: font-weight
-title: Font Style
+title: Font Weight
 description: Utilities for sets the font weight.
 topic: Typography
 variant: responsive, hover, group-hover, focus
