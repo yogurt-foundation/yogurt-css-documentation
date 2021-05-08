@@ -158,7 +158,7 @@ Add the `(dark)` prefix to an utility when dark theme settings enabled.
 
 ### Light Mode <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.5</span>
 
-Add the `(light)` prefix to an utility when dark theme settings enabled.
+Add the `(light)` prefix to an utility when light theme settings enabled.
 
 ```html
 <!-- Example -->
