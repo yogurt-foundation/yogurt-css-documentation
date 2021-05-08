@@ -1,9 +1,13 @@
 ---
 id: filtersoverview
-title: Filters Overview
-description: Filters Overview
+title: Introduction of Filter Utilities
+description: Utilities for sets filter effect to an element.
+topic: Getting Started > Features
+relate: filter-brightness, filter-contrast, filter-saturate, filter-blur, filter-invert, filter-drop-shadow, filter-backdrop-brightness, filter-backdrop-contrast, filter-backdrop-saturate, filter-backdrop-blur, filter-backdrop-hue-rotate
 layout: default
 ---
+
+> Getting Started
 
 <y class="-mt-4 pt-4 (xs)text-3xl (lg)text-5xl font-semibold gap-tight">
   Filters
@@ -33,7 +37,7 @@ layout: default
 
 ## [Brightness](/filter-brightness/)
 
-Utilities for sets brightness filter to an element.
+Utilities for sets brightness filter to an element. [Find out more about the usage](/filter-brightness/).
 
 <y class="m-2 mx-auto flex bg-charcoal-500 rounded-lg">
   <y class="p-5 max-w-sm">
@@ -54,7 +58,7 @@ Utilities for sets brightness filter to an element.
 
 ## [Contrast](/filter-contrast/)
 
-Utilities for sets contrast filter to an element.
+Utilities for sets contrast filter to an element. [Find out more about the usage](/filter-contrast/).
 
 <y class="m-2 mx-auto flex bg-charcoal-100 rounded-lg">
   <y class="p-5 max-w-sm">
@@ -75,7 +79,7 @@ Utilities for sets contrast filter to an element.
 
 ## [Saturate](/filter-saturate/)
 
-Utility for sets saturates or desaturates to an element.
+Utility for sets saturates or desaturates to an element. [Find out more about the usage](/filter-saturate/).
 
 <y class="m-2 mx-auto flex bg-charcoal-100 rounded-lg">
   <y class="p-5 max-w-sm">
@@ -96,7 +100,7 @@ Utility for sets saturates or desaturates to an element.
 
 ## [Blur](/filter-blur/)
 
-Utility applies a Gaussian blur to the element.
+Utility applies a Gaussian blur to the element. [Find out more about the usage](/filter-blur/).
 
 <y class="m-2 mx-auto flex bg-charcoal-100 rounded-lg">
   <y class="p-5 max-w-sm">
@@ -117,7 +121,7 @@ Utility applies a Gaussian blur to the element.
 
 ## [Invert](/filter-invert/)
 
-Utility inverts the color samples in the element.
+Utility inverts the color samples in the element. [Find out more about the usage](/filter-invert/).
 
 <y class="m-2 mx-auto flex bg-charcoal-100 rounded-lg">
   <y class="p-5 max-w-sm">
@@ -138,7 +142,7 @@ Utility inverts the color samples in the element.
 
 ## [Drop Shadow](/filter-drop-shadow/)
 
-Utility applies a drop shadow effect to the element.
+Utility applies a drop shadow effect to the element. [Find out more about the usage](/filter-drop-shadow/).
 
 <y class="m-2 mx-auto flex bg-gray-300 rounded-lg">
   <y class="p-5 max-w-sm">
@@ -165,7 +169,7 @@ Utilities for sets graphical effects such as `blurring` or `color shifting` to t
 
 ## [Backdrop Brightness](/filter-backdrop-brightness/)
 
-Utilities for sets filter backdrop brightness effect to an element.
+Utilities for sets filter backdrop brightness effect to an element. [Find out more about the usage](/filter-backdrop-brightnesss/).
 
 <y class="m-2 flex bg-charcoal-800 rounded-lg">
   <y class="p-5 max-w-sm w-full">
@@ -190,7 +194,7 @@ Utilities for sets filter backdrop brightness effect to an element.
 
 ## [Backdrop Contrast](/filter-backdrop-contrast/)
 
-Utilities for sets filter backdrop contrast effect to an element.
+Utilities for sets filter backdrop contrast effect to an element. [Find out more about the usage](/filter-backdrop-contrast/).
 
 <y class="m-2 flex bg-charcoal-800 rounded-lg">
   <y class="p-5 max-w-sm w-full">
@@ -215,7 +219,7 @@ Utilities for sets filter backdrop contrast effect to an element.
 
 ## [Backdrop Saturate](/filter-backdrop-saturate/)
 
-Utilities for sets filter backdrop saturate effect to an element.
+Utilities for sets filter backdrop saturate effect to an element. [Find out more about the usage](/filter-backdrop-saturate/).
 
 <y class="m-2 flex bg-charcoal-800 rounded-lg">
   <y class="p-5 max-w-sm w-full">
@@ -240,7 +244,7 @@ Utilities for sets filter backdrop saturate effect to an element.
 
 ## [Backdrop Blur](/filter-backdrop-blur/)
 
-Utilities for sets filter backdrop blur effect to an element.
+Utilities for sets filter backdrop blur effect to an element. [Find out more about the usage](/filter-backdrop-blur/).
 
 <y class="m-2 flex bg-charcoal-800 rounded-lg">
   <y class="p-5 max-w-sm w-full">
@@ -265,7 +269,7 @@ Utilities for sets filter backdrop blur effect to an element.
 
 ## [Backdrop Hue Rotate](/filter-backdrop-hue-rotate/)
 
-Utilities for sets filter backdrop hue-rotate effect to an element.
+Utilities for sets filter backdrop hue-rotate effect to an element. [Find out more about the usage](/filter-backdrop-hue-rotate/).
 
 <y class="m-2 flex bg-charcoal-800 rounded-lg">
   <y class="p-5 max-w-sm w-full">
@@ -286,4 +290,16 @@ Utilities for sets filter backdrop hue-rotate effect to an element.
       Filter: ON
     </y>
   </y>
+</y>
+
+<y class="mt-16 mx-auto max-w-sm">
+  <a class="px-10 py-3 appearance-none (focus)outline-none text-md text-gray-800 (hover)text-gray-100 bg-gray-200 (hover)bg-gray-800 border-4 border-gray-300 (hover)border-gray-800 (focus)border-gray-800 rounded-lg transition duration-300 ease-in-out"
+     href="/getting-started/"
+     target="_self"
+     rel="noopener">
+    Back to
+    <span class="font-semibold">
+      Gettings Started
+    </span>
+  </a>
 </y>

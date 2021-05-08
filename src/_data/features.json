@@ -10,7 +10,7 @@
         {
           "title": "Dark/Light Mode",
           "icon": "",
-          "url": "/themes/"
+          "url": "/getting-started-themes/"
         },
         {
           "title": "Color Palette",
@@ -30,7 +30,7 @@
         {
           "title": "Gradient Presets",
           "icon": "",
-          "url": "/gradient/"
+          "url": "/getting-started-gradient/"
         },
         {
           "title": "Animations",
@@ -40,7 +40,7 @@
         {
           "title": "Filters",
           "icon": "",
-          "url": "/filters/"
+          "url": "/getting-started-filters/"
         },
         {
           "title": "Patterns",
