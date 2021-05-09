@@ -4,7 +4,7 @@
     {% for item in data.panels %}
 
       <y class="relative h-56 w-full transition duration-300 transform (hover)translate-y-2">
-        <y class="z-30 absolute px-10 py-8 (hover)shadow-md">
+        <y class="z-30 absolute px-10 py-8">
 
           <y class="pb-2 text-3xl text-gray-100">
             {{ item.title }}
@@ -30,7 +30,7 @@
         </y>
 
         <y class="z-20 absolute top-0 right-0 w-full">
-          <y class="h-72 w-full pattern ripple-lg opacity-25 rounded-lg"></y>
+          <y class="h-72 w-full pattern ripple-lg opacity-25 rounded-lg (hover)shadow-md"></y>
         </y>
 
         <y class="z-10 absolute top-0 right-0 w-full">
