@@ -2,678 +2,174 @@
   "presets": [
     {
       "items": [
-        {
-          "title": "Warm Flame",
-          "class": "gradient-warm-flame"
-        },
-        {
-          "title": "Night Fade",
-          "class": "gradient-night-fade"
-        },
-        {
-          "title": "Spring Warmth",
-          "class": "gradient-spring-warmth"
-        },
-        {
-          "title": "Juicy Pearch",
-          "class": "gradient-juicy-pearch"
-        },
-        {
-          "title": "Young Passion",
-          "class": "gradient-young-passion"
-        },
-        {
-          "title": "Lady Lips",
-          "class": "gradient-lady-lips"
-        },
-        {
-          "title": "Sunny Morning",
-          "class": "gradient-sunny-morning"
-        },
-        {
-          "title": "Rany Ashville",
-          "class": "gradient-rainy-ashville"
-        },
-        {
-          "title": "Frozen Dreams",
-          "class": "gradient-frozen-dreams"
-        },
-        {
-          "title": "Winter Neva",
-          "class": "gradient-winter-neva"
-        },
-        {
-          "title": "Dusty Grass",
-          "class": "gradient-dusty-grass"
-        },
-        {
-          "title": "Tempting Azure",
-          "class": "gradient-tempting-azure"
-        },
-        {
-          "title": "Heavy Rain",
-          "class": "gradient-heavy-rain"
-        },
-        {
-          "title": "Amy Crisp",
-          "class": "gradient-amy-crisp"
-        },
-        {
-          "title": "Mean Fruit",
-          "class": "gradient-mean-fruit"
-        },
-        {
-          "title": "Deep Blue",
-          "class": "gradient-deep-blue"
-        },
-        {
-          "title": "Ripe Malinka",
-          "class": "gradient-ripe-malinka"
-        },
-        {
-          "title": "Cloudy Knoxville",
-          "class": "gradient-cloudy-knoxville"
-        },
-        {
-          "title": "Malibu Beach",
-          "class": "gradient-malibu-beach"
-        },
-        {
-          "title": "New Life",
-          "class": "gradient-new-life"
-        },
-        {
-          "title": "True Sunset",
-          "class": "gradient-true-sunset"
-        },
-        {
-          "title": "Morpheus Den",
-          "class": "gradient-morpheus-den"
-        },
-        {
-          "title": "Rare Wind",
-          "class": "gradient-rare-wind"
-        },
-        {
-          "title": "Near Moon",
-          "class": "gradient-near-moon"
-        },
-        {
-          "title": "Wild Apple",
-          "class": "gradient-wild-apple"
-        },
-        {
-          "title": "Saint Petersburg",
-          "class": "gradient-saint-petersburg"
-        },
-        {
-          "title": "Plum Plate",
-          "class": "gradient-plum-plate"
-        },
-        {
-          "title": "Everlasting Sky",
-          "class": "gradient-everlasting-sky"
-        },
-        {
-          "title": "Happy Fisher",
-          "class": "gradient-happy-fisher"
-        },
-        {
-          "title": "Blessing",
-          "class": "gradient-blessing"
-        },
-        {
-          "title": "Sharp Eye Eagle",
-          "class": "gradient-sharpeye-eagle"
-        },
-        {
-          "title": "Ladoga Bottom",
-          "class": "gradient-ladoga-bottom"
-        },
-        {
-          "title": "Lemon Gate",
-          "class": "gradient-lemon-gate"
-        },
-        {
-          "title": "Hydrogen Ion",
-          "class": "gradient-hydrogen-ion"
-        },
-        {
-          "title": "Zeus Miracle",
-          "class": "gradient-zeus-miracle"
-        },
-        {
-          "title": "Old Hat",
-          "class": "gradient-old-hat"
-        },
-        {
-          "title": "Star Wine",
-          "class": "gradient-star-wine"
-        },
-        {
-          "title": "Deep Blue",
-          "class": "gradient-deep-blue"
-        },
-        {
-          "title": "Happy Acid",
-          "class": "gradient-happy-acid"
-        },
-        {
-          "title": "Awesome Pine",
-          "class": "gradient-awesome-pine"
-        },
-        {
-          "title": "New York",
-          "class": "gradient-new-york"
-        },
-        {
-          "title": "Shy Rainbow",
-          "class": "gradient-shy-rainbow"
-        },
-        {
-          "title": "Mixed Hopes",
-          "class": "gradient-mixed-hopes"
-        },
-        {
-          "title": "Fly High",
-          "class": "gradient-fly-high"
-        },
-        {
-          "title": "String Bliss",
-          "class": "gradient-strong-bliss"
-        },
-        {
-          "title": "Fresh Milk",
-          "class": "gradient-fresh-milk"
-        },
-        {
-          "title": "Snow Agian",
-          "class": "gradient-snow-again"
-        },
-        {
-          "title": "February Ink",
-          "class": "gradient-february-ink"
-        },
-        {
-          "title": "Kind Steel",
-          "class": "gradient-kind-steel"
-        },
-        {
-          "title": "Soft Grass",
-          "class": "gradient-soft-grass"
-        },
-        {
-          "title": "Grown Early",
-          "class": "gradient-grown-early"
-        },
-        {
-          "title": "Sharp Blues",
-          "class": "gradient-sharp-blues"
-        },
-        {
-          "title": "Shady Water",
-          "class": "gradient-shady-water"
-        },
-        {
-          "title": "Dirty Beauty",
-          "class": "gradient-dirty-beauty"
-        },
-        {
-          "title": "Great Whale",
-          "class": "gradient-great-whale"
-        },
-        {
-          "title": "Teen Notebook",
-          "class": "gradient-teen-notebook"
-        },
-        {
-          "title": "Polite Rumors",
-          "class": "gradient-polite-rumors"
-        },
-        {
-          "title": "Sweet Period",
-          "class": "gradient-sweet-period"
-        },
-        {
-          "title": "Wide Matrix",
-          "class": "gradient-wide-matrix"
-        },
-        {
-          "title": "Soft Cherish",
-          "class": "gradient-soft-cherish"
-        },
-        {
-          "title": "Red Salvation",
-          "class": "gradient-red-salvation"
-        },
-        {
-          "title": "Burning Spring",
-          "class": "gradient-burning-spring"
-        },
-        {
-          "title": "Night Party",
-          "class": "gradient-night-party"
-        },
-        {
-          "title": "Sky Glider",
-          "class": "gradient-sky-glider"
-        },
-        {
-          "title": "Heaven Peach",
-          "class": "gradient-heaven-peach"
-        },
-        {
-          "title": "Purple Division",
-          "class": "gradient-purple-division"
-        },
-        {
-          "title": "Aqua Splash",
-          "class": "gradient-aqua-splash"
-        },
-        {
-          "title": "Spiky Naga",
-          "class": "gradient-spiky-naga"
-        },
-        {
-          "title": "Love Kiss",
-          "class": "gradient-love-kiss"
-        },
-        {
-          "title": "Clean Mirroe",
-          "class": "gradient-clean-mirror"
-        },
-        {
-          "title": "Premium Dark",
-          "class": "gradient-premium-dark"
-        },
-        {
-          "title": "Cold Evening",
-          "class": "gradient-cold-evening"
-        },
-        {
-          "title": "Cochiti Lake",
-          "class": "gradient-cochiti-lake"
-        },
-        {
-          "title": "Summer Games",
-          "class": "gradient-summer-games"
-        },
-        {
-          "title": "Passionate Bed",
-          "class": "gradient-passionate-bed"
-        },
-        {
-          "title": "Mountain Rock",
-          "class": "gradient-mountain-rock"
-        },
-        {
-          "title": "Desert Hump",
-          "class": "gradient-desert-hump"
-        },
-        {
-          "title": "Jugle Day",
-          "class": "gradient-jungle-day"
-        },
-        {
-          "title": "Phoenix Start",
-          "class": "gradient-phoenix-start"
-        },
-        {
-          "title": "October Silence",
-          "class": "gradient-october-silence"
-        },
-        {
-          "title": "Faraway River",
-          "class": "gradient-faraway-river"
-        },
-        {
-          "title": "Alchemist Lab",
-          "class": "gradient-alchemist-lab"
-        },
-        {
-          "title": "Over Sun",
-          "class": "gradient-over-sun"
-        },
-        {
-          "title": "Premium White",
-          "class": "gradient-premium-white"
-        },
-        {
-          "title": "Mars Party",
-          "class": "gradient-mars-party"
-        },
-        {
-          "title": "Eternal Constance",
-          "class": "gradient-eternal-constance"
-        },
-        {
-          "title": "Japan Blush",
-          "class": "gradient-japan-blush"
-        },
-        {
-          "title": "Smilling Rain",
-          "class": "gradient-smiling-rain"
-        },
-        {
-          "title": "Cloudy Apple",
-          "class": "gradient-cloudy-apple"
-        },
-        {
-          "title": "Big Mango",
-          "class": "gradient-big-mango"
-        },
-        {
-          "title": "Healthy Water",
-          "class": "gradient-healthy-water"
-        },
-        {
-          "title": "Amour Amour",
-          "class": "gradient-amour-amour"
-        },
-        {
-          "title": "Risky Concrete",
-          "class": "gradient-risky-concrete"
-        },
-        {
-          "title": "String Stick",
-          "class": "gradient-strong-stick"
-        },
-        {
-          "title": "Vicious Stance",
-          "class": "gradient-vicious-stance"
-        },
-        {
-          "title": "Palo Alto",
-          "class": "gradient-palo-alto"
-        },
-        {
-          "title": "Happy Memories",
-          "class": "gradient-happy-memories"
-        },
-        {
-          "title": "Midnight Bloom",
-          "class": "gradient-midnight-bloom"
-        },
-        {
-          "title": "Crystalline",
-          "class": "gradient-crystalline"
-        },
-        {
-          "title": "Party Bliss",
-          "class": "gradient-party-bliss"
-        },
-        {
-          "title": "Confident Cloud",
-          "class": "gradient-confident-cloud"
-        },
-        {
-          "title": "Le Cocktail",
-          "class": "gradient-le-cocktail"
-        },
-        {
-          "title": "River City",
-          "class": "gradient-river-city"
-        },
-        {
-          "title": "Frozrn Berry",
-          "class": "gradient-frozen-berry"
-        },
-        {
-          "title": "Child Care",
-          "class": "gradient-child-care"
-        },
-        {
-          "title": "flying Lemon",
-          "class": "gradient-flying-lemon"
-        },
-        {
-          "title": "New Retrowave",
-          "class": "gradient-new-retrowave"
-        },
-        {
-          "title": "Hidden Jaguar",
-          "class": "gradient-hidden-jaguar"
-        },
-        {
-          "title": "Above The Sky",
-          "class": "gradient-above-the-sky"
-        },
-        {
-          "title": "Nega",
-          "class": "gradient-nega"
-        },
-        {
-          "title": "Dense Water",
-          "class": "gradient-dense-water"
-        },
-        {
-          "title": "Seashore",
-          "class": "gradient-seashore"
-        },
-        {
-          "title": "Marble Wall",
-          "class": "gradient-marble-wall"
-        },
-        {
-          "title": "Cheerful Caramel",
-          "class": "gradient-cheerful-caramel"
-        },
-        {
-          "title": "Night Sky",
-          "class": "gradient-night-sky"
-        },
-        {
-          "title": "Magic Lake",
-          "class": "gradient-magic-lake"
-        },
-        {
-          "title": "Young Grass",
-          "class": "gradient-young-grass"
-        },
-        {
-          "title": "Colorful Peach",
-          "class": "gradient-colorful-peach"
-        },
-        {
-          "title": "Gentle Care",
-          "class": "gradient-gentle-care"
-        },
-        {
-          "title": "Plum Bath",
-          "class": "gradient-plum-bath"
-        },
-        {
-          "title": "Happy Unicorn",
-          "class": "gradient-happy-unicorn"
-        },
-        {
-          "title": "African Field",
-          "class": "gradient-african-field"
-        },
-        {
-          "title": "Solid Stone",
-          "class": "gradient-solid-stone"
-        },
-        {
-          "title": "Orange Juice",
-          "class": "gradient-orange-juice"
-        },
-        {
-          "title": "Glass Water",
-          "class": "gradient-glass-water"
-        },
-        {
-          "title": "North Miracle",
-          "class": "gradient-north-miracle"
-        },
-        {
-          "title": "Fruit Blend",
-          "class": "gradient-fruit-blend"
-        },
-        {
-          "title": "Millennium Pine",
-          "class": "gradient-millennium-pine"
-        },
-        {
-          "title": "High Flight",
-          "class": "gradient-high-flight"
-        },
-        {
-          "title": "Mole Hall",
-          "class": "gradient-mole-hall"
-        },
-        {
-          "title": "Space Shift",
-          "class": "gradient-space-shift"
-        },
-        {
-          "title": "Forest Inei",
-          "class": "gradient-forest-inei"
-        },
-        {
-          "title": "Royal Garden",
-          "class": "gradient-royal-garden"
-        },
-        {
-          "title": "Rich Metal",
-          "class": "gradient-rich-metal"
-        },
-        {
-          "title": "Juicy Cake",
-          "class": "gradient-juicy-cake"
-        },
-        {
-          "title": "Smart Indigo",
-          "class": "gradient-smart-indigo"
-        },
-        {
-          "title": "Sand Strike",
-          "class": "gradient-sand-strike"
-        },
-        {
-          "title": "Norse Beauty",
-          "class": "gradient-norse-beauty"
-        },
-        {
-          "title": "Aqua Guidance",
-          "class": "gradient-aqua-guidance"
-        },
-        {
-          "title": "Sun Veggie",
-          "class": "gradient-sun-veggie"
-        },
-        {
-          "title": "Sea Lord",
-          "class": "gradient-sea-lord"
-        },
-        {
-          "title": "Black Sea",
-          "class": "gradient-black-sea"
-        },
-        {
-          "title": "Glass Shampoo",
-          "class": "gradient-grass-shampoo"
-        },
-        {
-          "title": "Landing Aircraft",
-          "class": "gradient-landing-aircraft"
-        },
-        {
-          "title": "Witch Dance",
-          "class": "gradient-witch-dance"
-        },
-        {
-          "title": "Sleepless Night",
-          "class": "gradient-sleepless-night"
-        },
-        {
-          "title": "Angle Care",
-          "class": "gradient-angle-care"
-        },
-        {
-          "title": "Crystal River",
-          "class": "gradient-crystal-river"
-        },
-        {
-          "title": "Soft Lipstick",
-          "class": "gradient-soft-lipstick"
-        },
-        {
-          "title": "Salt Mountain",
-          "class": "gradient-salt-mountain"
-        },
-        {
-          "title": "Perfect White",
-          "class": "gradient-perfect-white"
-        },
-        {
-          "title": "Fresh Oasis",
-          "class": "gradient-fresh-oasis"
-        },
-        {
-          "title": "Strict November",
-          "class": "gradient-strict-november"
-        },
-        {
-          "title": "Morning Salad",
-          "class": "gradient-morning-salad"
-        },
-        {
-          "title": "Deep Relief",
-          "class": "gradient-deep-relief"
-        },
-        {
-          "title": "Sear Strike",
-          "class": "gradient-sea-strike"
-        },
-        {
-          "title": "Night Call",
-          "class": "gradient-night-call"
-        },
-        {
-          "title": "Supreme Sky",
-          "class": "gradient-supreme-sky"
-        },
-        {
-          "title": "Light Blue",
-          "class": "gradient-light-blue"
-        },
-        {
-          "title": "Mind Crawl",
-          "class": "gradient-mind-crawl"
-        },
-        {
-          "title": "Sugar Lollipop",
-          "class": "gradient-sugar-lollipop"
-        },
-        {
-          "title": "Sweet Dessert",
-          "class": "gradient-sweet-dessert"
-        },
-        {
-          "title": "Magic Ray",
-          "class": "gradient-magic-ray"
-        },
-        {
-          "title": "Teen Party",
-          "class": "gradient-teen-party"
-        },
-        {
-          "title": "Frozen Heat",
-          "class": "gradient-frozen-heat"
-        },
-        {
-          "title": "Gagarin View",
-          "class": "gradient-gagarin-view"
-        },
-        {
-          "title": "Fabled Sunset",
-          "class": "gradient-fabled-sunset"
-        },
-        {
-          "title": "Perfect Blue",
-          "class": "gradient-perfect-blue"
-        }
+        { "title": "Warm Flame", "class": "gradient-warm-flame" },
+        { "title": "Night Fade", "class": "gradient-night-fade" },
+        { "title": "Spring Warmth", "class": "gradient-spring-warmth" },
+        { "title": "Juicy Pearch", "class": "gradient-juicy-pearch" },
+        { "title": "Young Passion", "class": "gradient-young-passion" },
+        { "title": "Lady Lips", "class": "gradient-lady-lips" },
+        { "title": "Sunny Morning", "class": "gradient-sunny-morning" },
+        { "title": "Rany Ashville", "class": "gradient-rainy-ashville" },
+        { "title": "Frozen Dreams", "class": "gradient-frozen-dreams" },
+        { "title": "Winter Neva", "class": "gradient-winter-neva" },
+        { "title": "Dusty Grass", "class": "gradient-dusty-grass" },
+        { "title": "Tempting Azure", "class": "gradient-tempting-azure" },
+        { "title": "Heavy Rain", "class": "gradient-heavy-rain" },
+        { "title": "Amy Crisp", "class": "gradient-amy-crisp" },
+        { "title": "Mean Fruit", "class": "gradient-mean-fruit" },
+        { "title": "Deep Blue", "class": "gradient-deep-blue" },
+        { "title": "Ripe Malinka", "class": "gradient-ripe-malinka" },
+        { "title": "Cloudy Knoxville", "class": "gradient-cloudy-knoxville" },
+        { "title": "Malibu Beach", "class": "gradient-malibu-beach" },
+        { "title": "New Life", "class": "gradient-new-life" },
+        { "title": "True Sunset", "class": "gradient-true-sunset" },
+        { "title": "Morpheus Den", "class": "gradient-morpheus-den" },
+        { "title": "Rare Wind", "class": "gradient-rare-wind" },
+        { "title": "Near Moon", "class": "gradient-near-moon" },
+        { "title": "Wild Apple", "class": "gradient-wild-apple" },
+        { "title": "Saint Petersburg", "class": "gradient-saint-petersburg" },
+        { "title": "Plum Plate", "class": "gradient-plum-plate" },
+        { "title": "Everlasting Sky", "class": "gradient-everlasting-sky" },
+        { "title": "Happy Fisher", "class": "gradient-happy-fisher" },
+        { "title": "Blessing", "class": "gradient-blessing" },
+        { "title": "Sharp Eye Eagle", "class": "gradient-sharpeye-eagle" },
+        { "title": "Ladoga Bottom", "class": "gradient-ladoga-bottom" },
+        { "title": "Lemon Gate", "class": "gradient-lemon-gate" },
+        { "title": "Hydrogen Ion", "class": "gradient-hydrogen-ion" },
+        { "title": "Zeus Miracle", "class": "gradient-zeus-miracle" },
+        { "title": "Old Hat", "class": "gradient-old-hat" },
+        { "title": "Star Wine", "class": "gradient-star-wine" },
+        { "title": "Deep Blue", "class": "gradient-deep-blue" },
+        { "title": "Happy Acid", "class": "gradient-happy-acid" },
+        { "title": "Awesome Pine", "class": "gradient-awesome-pine" },
+        { "title": "New York", "class": "gradient-new-york" },
+        { "title": "Shy Rainbow", "class": "gradient-shy-rainbow" },
+        { "title": "Mixed Hopes", "class": "gradient-mixed-hopes" },
+        { "title": "Fly High", "class": "gradient-fly-high" },
+        { "title": "String Bliss", "class": "gradient-strong-bliss" },
+        { "title": "Fresh Milk", "class": "gradient-fresh-milk" },
+        { "title": "Snow Agian", "class": "gradient-snow-again" },
+        { "title": "February Ink", "class": "gradient-february-ink" },
+        { "title": "Kind Steel", "class": "gradient-kind-steel" },
+        { "title": "Soft Grass", "class": "gradient-soft-grass" },
+        { "title": "Grown Early", "class": "gradient-grown-early" },
+        { "title": "Sharp Blues", "class": "gradient-sharp-blues" },
+        { "title": "Shady Water", "class": "gradient-shady-water" },
+        { "title": "Dirty Beauty", "class": "gradient-dirty-beauty" },
+        { "title": "Great Whale", "class": "gradient-great-whale" },
+        { "title": "Teen Notebook", "class": "gradient-teen-notebook" },
+        { "title": "Polite Rumors", "class": "gradient-polite-rumors" },
+        { "title": "Sweet Period", "class": "gradient-sweet-period" },
+        { "title": "Wide Matrix", "class": "gradient-wide-matrix" },
+        { "title": "Soft Cherish", "class": "gradient-soft-cherish" },
+        { "title": "Red Salvation", "class": "gradient-red-salvation" },
+        { "title": "Burning Spring", "class": "gradient-burning-spring" },
+        { "title": "Night Party", "class": "gradient-night-party" },
+        { "title": "Sky Glider", "class": "gradient-sky-glider" },
+        { "title": "Heaven Peach", "class": "gradient-heaven-peach" },
+        { "title": "Purple Division", "class": "gradient-purple-division" },
+        { "title": "Aqua Splash", "class": "gradient-aqua-splash" },
+        { "title": "Spiky Naga", "class": "gradient-spiky-naga" },
+        { "title": "Love Kiss", "class": "gradient-love-kiss" },
+        { "title": "Clean Mirroe", "class": "gradient-clean-mirror" },
+        { "title": "Premium Dark", "class": "gradient-premium-dark" },
+        { "title": "Cold Evening", "class": "gradient-cold-evening" },
+        { "title": "Cochiti Lake", "class": "gradient-cochiti-lake" },
+        { "title": "Summer Games", "class": "gradient-summer-games" },
+        { "title": "Passionate Bed", "class": "gradient-passionate-bed" },
+        { "title": "Mountain Rock", "class": "gradient-mountain-rock" },
+        { "title": "Desert Hump", "class": "gradient-desert-hump" },
+        { "title": "Jugle Day", "class": "gradient-jungle-day" },
+        { "title": "Phoenix Start", "class": "gradient-phoenix-start" },
+        { "title": "October Silence", "class": "gradient-october-silence" },
+        { "title": "Faraway River", "class": "gradient-faraway-river" },
+        { "title": "Alchemist Lab", "class": "gradient-alchemist-lab" },
+        { "title": "Over Sun", "class": "gradient-over-sun" },
+        { "title": "Premium White", "class": "gradient-premium-white" },
+        { "title": "Mars Party", "class": "gradient-mars-party" },
+        { "title": "Eternal Constance", "class": "gradient-eternal-constance" },
+        { "title": "Japan Blush", "class": "gradient-japan-blush" },
+        { "title": "Smilling Rain", "class": "gradient-smiling-rain" },
+        { "title": "Cloudy Apple", "class": "gradient-cloudy-apple" },
+        { "title": "Big Mango", "class": "gradient-big-mango" },
+        { "title": "Healthy Water", "class": "gradient-healthy-water" },
+        { "title": "Amour Amour", "class": "gradient-amour-amour" },
+        { "title": "Risky Concrete", "class": "gradient-risky-concrete" },
+        { "title": "String Stick", "class": "gradient-strong-stick" },
+        { "title": "Vicious Stance", "class": "gradient-vicious-stance" },
+        { "title": "Palo Alto", "class": "gradient-palo-alto" },
+        { "title": "Happy Memories", "class": "gradient-happy-memories" },
+        { "title": "Midnight Bloom", "class": "gradient-midnight-bloom" },
+        { "title": "Crystalline", "class": "gradient-crystalline" },
+        { "title": "Party Bliss", "class": "gradient-party-bliss" },
+        { "title": "Confident Cloud", "class": "gradient-confident-cloud" },
+        { "title": "Le Cocktail", "class": "gradient-le-cocktail" },
+        { "title": "River City", "class": "gradient-river-city" },
+        { "title": "Frozrn Berry", "class": "gradient-frozen-berry" },
+        { "title": "Child Care", "class": "gradient-child-care" },
+        { "title": "flying Lemon", "class": "gradient-flying-lemon" },
+        { "title": "New Retrowave", "class": "gradient-new-retrowave" },
+        { "title": "Hidden Jaguar", "class": "gradient-hidden-jaguar" },
+        { "title": "Above The Sky", "class": "gradient-above-the-sky" },
+        { "title": "Nega", "class": "gradient-nega" },
+        { "title": "Dense Water", "class": "gradient-dense-water" },
+        { "title": "Seashore", "class": "gradient-seashore" },
+        { "title": "Marble Wall", "class": "gradient-marble-wall" },
+        { "title": "Cheerful Caramel", "class": "gradient-cheerful-caramel" },
+        { "title": "Night Sky", "class": "gradient-night-sky" },
+        { "title": "Magic Lake", "class": "gradient-magic-lake" },
+        { "title": "Young Grass", "class": "gradient-young-grass" },
+        { "title": "Colorful Peach", "class": "gradient-colorful-peach" },
+        { "title": "Gentle Care", "class": "gradient-gentle-care" },
+        { "title": "Plum Bath", "class": "gradient-plum-bath" },
+        { "title": "Happy Unicorn", "class": "gradient-happy-unicorn" },
+        { "title": "African Field", "class": "gradient-african-field" },
+        { "title": "Solid Stone", "class": "gradient-solid-stone" },
+        { "title": "Orange Juice", "class": "gradient-orange-juice" },
+        { "title": "Glass Water", "class": "gradient-glass-water" },
+        { "title": "North Miracle", "class": "gradient-north-miracle" },
+        { "title": "Fruit Blend", "class": "gradient-fruit-blend" },
+        { "title": "Millennium Pine", "class": "gradient-millennium-pine" },
+        { "title": "High Flight", "class": "gradient-high-flight" },
+        { "title": "Mole Hall", "class": "gradient-mole-hall" },
+        { "title": "Space Shift", "class": "gradient-space-shift" },
+        { "title": "Forest Inei", "class": "gradient-forest-inei" },
+        { "title": "Royal Garden", "class": "gradient-royal-garden" },
+        { "title": "Rich Metal", "class": "gradient-rich-metal" },
+        { "title": "Juicy Cake", "class": "gradient-juicy-cake" },
+        { "title": "Smart Indigo", "class": "gradient-smart-indigo" },
+        { "title": "Sand Strike", "class": "gradient-sand-strike" },
+        { "title": "Norse Beauty", "class": "gradient-norse-beauty" },
+        { "title": "Aqua Guidance", "class": "gradient-aqua-guidance" },
+        { "title": "Sun Veggie", "class": "gradient-sun-veggie" },
+        { "title": "Sea Lord", "class": "gradient-sea-lord" },
+        { "title": "Black Sea", "class": "gradient-black-sea" },
+        { "title": "Glass Shampoo", "class": "gradient-grass-shampoo" },
+        { "title": "Landing Aircraft", "class": "gradient-landing-aircraft" },
+        { "title": "Witch Dance", "class": "gradient-witch-dance" },
+        { "title": "Sleepless Night", "class": "gradient-sleepless-night" },
+        { "title": "Angel Care", "class": "gradient-angel-care" },
+        { "title": "Crystal River", "class": "gradient-crystal-river" },
+        { "title": "Soft Lipstick", "class": "gradient-soft-lipstick" },
+        { "title": "Salt Mountain", "class": "gradient-salt-mountain" },
+        { "title": "Perfect White", "class": "gradient-perfect-white" },
+        { "title": "Fresh Oasis", "class": "gradient-fresh-oasis" },
+        { "title": "Strict November", "class": "gradient-strict-november" },
+        { "title": "Morning Salad", "class": "gradient-morning-salad" },
+        { "title": "Deep Relief", "class": "gradient-deep-relief" },
+        { "title": "Sear Strike", "class": "gradient-sea-strike" },
+        { "title": "Night Call", "class": "gradient-night-call" },
+        { "title": "Supreme Sky", "class": "gradient-supreme-sky" },
+        { "title": "Light Blue", "class": "gradient-light-blue" },
+        { "title": "Mind Crawl", "class": "gradient-mind-crawl" },
+        { "title": "Sugar Lollipop", "class": "gradient-sugar-lollipop" },
+        { "title": "Sweet Dessert", "class": "gradient-sweet-dessert" },
+        { "title": "Magic Ray", "class": "gradient-magic-ray" },
+        { "title": "Teen Party", "class": "gradient-teen-party" },
+        { "title": "Frozen Heat", "class": "gradient-frozen-heat" },
+        { "title": "Gagarin View", "class": "gradient-gagarin-view" },
+        { "title": "Fabled Sunset", "class": "gradient-fabled-sunset" },
+        { "title": "Perfect Blue", "class": "gradient-perfect-blue" }
       ]
     }
   ]

@@ -13,7 +13,7 @@ layout: default
   Gradients
 </y>
 
-Utilities for sets the gradient preset diagonally to an element. [Find more about the usage at](/gradient/).
+Utilities for sets the gradient preset diagonally to an element. Find more about the usage at [Gradient](/gradient/).
 
 ```html
 <!-- Example -->
@@ -35,7 +35,7 @@ Saturate the gradient with `filter` utilities. Find more about the usage [Satura
 
 ## All Gradients
 
-<y class="(group) flex flex-gap-8 flex-wrap justify-between items-stretch rounded-lg cursor-pointer">{% for data in gradient.presets %}{% for item in data.items %}<y class="flex flex-col justify-center items-center"><y class="w-24 h-24 {{ item.class }} rounded-full shadow-dreamy-sm border-8 border-gray-100 (group-hover)border-gray-800 transition duration-100 ease-in-out"></y><y class="pt-3 text-sm font-mono gap-tight">{{ item.title }}</y></y>{% endfor %}{% endfor %}</y>
+<y class="(group) flex flex-gap-8 flex-wrap justify-between items-stretch rounded-lg cursor-pointer">{% for data in gradient.presets %}{% for item in data.items %}<y class="flex flex-col justify-center items-center"><y class="w-24 h-24 {{ item.class }} rounded-full shadow-dreamy-md border-8 border-gray-100 (group-hover)border-gray-800 transition duration-100 ease-in-out"></y><y class="pt-3 text-sm text-gray-600 font-mono gap-tight">{{ item.title }}</y></y>{% endfor %}{% endfor %}</y>
 
 ---
 
@@ -59,7 +59,7 @@ Saturate the gradient with `filter` utilities. Find more about the usage [Satura
   </y>
 </y>
 
-<y class="(group) flex flex-gap-4 flex-wrap justify-between items-stretch">{% for data in gradient.presets %}{% for item in data.items %}<y class="relative (group) w-56 bg-gray-100 rounded-lg shadow-dreamy-sm transition duration-100 ease-in-out transform (xs)(group-hover)scale-100 (sm)(group-hover)scale-110 (md)(group-hover)scale-110 (lg)(group-hover)scale-110 cursor-pointer select-none"><y class="absolute top-0 left-0"><y class="{{ item.class }} filter-saturate-5 w-48 h-56 opacity-75 (group-hover)opacity-0 transition duration-100 ease-in-out rounded-l-md"></y></y><img class="w-56 h-56 object-cover object-center overflow-hidden border-8 border-gray-100 (group-hover)border-gray-800 rounded-md" src="https://picsum.photos/500?random=1" alt="{{ item.title }}"><y class="absolute bottom-4 left-4 px-5 py-1 font-default (xs)text-sm (sm)text-sm (md)text-sm (lg)text-sm font-mono text-center text-gray-100 (group-hover)text-charcoal-100 bg-charcoal-600 (group-hover)bg-gray-100 rounded-full shadow-dreamy-sm">{{ item.title }}</y></y>{% endfor %}{% endfor %}</y>
+<y class="(group) flex flex-gap-4 flex-wrap justify-between items-stretch">{% for data in gradient.presets %}{% for item in data.items %}<y class="relative (group) w-56 bg-gray-100 rounded-lg shadow-dreamy-sm transition duration-100 ease-in-out transform (xs)(group-hover)scale-100 (sm)(group-hover)scale-110 (md)(group-hover)scale-110 (lg)(group-hover)scale-110 cursor-pointer select-none"><y class="absolute top-0 left-0"><y class="{{ item.class }} filter-saturate-5 w-56 h-56 opacity-75 (group-hover)opacity-0 transition duration-100 ease-in-out rounded-md"></y></y><img class="w-56 h-56 object-cover object-center overflow-hidden rounded-md" src="https://picsum.photos/500?random=1" alt="{{ item.title }}"><y class="absolute top-2 left-2 h-10 w-10 {{ item.class }} rounded-full shadow-dreamy-md"></y><y class="absolute bottom-2 left-2 flex justify-center items-center px-4 h-8 font-default (xs)text-sm (sm)text-sm (md)text-sm (lg)text-sm font-mono text-center text-gray-100 (group-hover)text-charcoal-100 bg-charcoal-600 (group-hover)bg-gray-100 rounded-full shadow-dreamy-sm">{{ item.title }}</y></y>{% endfor %}{% endfor %}</y>
 
 <y class="mt-16 mx-auto max-w-sm">
   <a class="px-10 py-3 appearance-none (focus)outline-none text-md text-gray-800 (hover)text-gray-100 bg-gray-200 (hover)bg-gray-800 border-4 border-gray-300 (hover)border-gray-800 (focus)border-gray-800 rounded-lg transition duration-300 ease-in-out"
