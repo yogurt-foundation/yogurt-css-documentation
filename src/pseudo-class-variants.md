@@ -201,7 +201,7 @@ Add the `(light)` prefix to an utility when light theme settings enabled.
 
 ### Portrait <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.5</span>
 
-Add the `(portrait)` prefix to an utility when dark theme settings enabled.
+Add the `(portrait)` prefix to an utility when portrait settings enabled.
 
 ```html
 <!-- Example -->
@@ -212,7 +212,7 @@ Add the `(portrait)` prefix to an utility when dark theme settings enabled.
 
 ### Landscape <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.5</span>
 
-Add the `(landscape)` prefix to an utility when dark theme settings enabled.
+Add the `(landscape)` prefix to an utility when landscape settings enabled.
 
 ```html
 <!-- Example -->
