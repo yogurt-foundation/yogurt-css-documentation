@@ -1,0 +1,226 @@
+{
+  "amber": [
+    {
+      "label": "Amber",
+      "items": [
+        { "modifier": "100", "class": "bg-amber-100" },
+        { "modifier": "200", "class": "bg-amber-200" },
+        { "modifier": "300", "class": "bg-amber-300" },
+        { "modifier": "400", "class": "bg-amber-400" },
+        { "modifier": "500", "class": "bg-amber-500" },
+        { "modifier": "600", "class": "bg-amber-600" },
+        { "modifier": "700", "class": "bg-amber-700" },
+        { "modifier": "800", "class": "bg-amber-800" },
+        { "modifier": "900", "class": "bg-amber-900" }
+      ]
+    }
+  ],
+  "black": [
+    {
+      "label": "Black",
+      "items": [
+        { "modifier": "100", "class": "bg-black-100" },
+        { "modifier": "200", "class": "bg-black-200" },
+        { "modifier": "300", "class": "bg-black-300" },
+        { "modifier": "400", "class": "bg-black-400" },
+        { "modifier": "500", "class": "bg-black-500" },
+        { "modifier": "600", "class": "bg-black-600" },
+        { "modifier": "700", "class": "bg-black-700" },
+        { "modifier": "800", "class": "bg-black-800" },
+        { "modifier": "900", "class": "bg-black-900" }
+      ]
+    }
+  ],
+  "blue": [
+    {
+      "label": "Blue",
+      "items": [
+        { "modifier": "100", "class": "bg-blue-100" },
+        { "modifier": "200", "class": "bg-blue-200" },
+        { "modifier": "300", "class": "bg-blue-300" },
+        { "modifier": "400", "class": "bg-blue-400" },
+        { "modifier": "500", "class": "bg-blue-500" },
+        { "modifier": "600", "class": "bg-blue-600" },
+        { "modifier": "700", "class": "bg-blue-700" },
+        { "modifier": "800", "class": "bg-blue-800" },
+        { "modifier": "900", "class": "bg-blue-900" }
+      ]
+    }
+  ],
+  "charcoal": [
+    {
+      "label": "Charcoal",
+      "items": [
+        { "modifier": "100", "class": "bg-charcoal-100" },
+        { "modifier": "200", "class": "bg-charcoal-200" },
+        { "modifier": "300", "class": "bg-charcoal-300" },
+        { "modifier": "400", "class": "bg-charcoal-400" },
+        { "modifier": "500", "class": "bg-charcoal-500" },
+        { "modifier": "600", "class": "bg-charcoal-600" },
+        { "modifier": "700", "class": "bg-charcoal-700" },
+        { "modifier": "800", "class": "bg-charcoal-800" },
+        { "modifier": "900", "class": "bg-charcoal-900" }
+      ]
+    }
+  ],
+  "gray": [
+    {
+      "label": "Gray",
+      "items": [
+        { "modifier": "100", "class": "bg-gray-100" },
+        { "modifier": "200", "class": "bg-gray-200" },
+        { "modifier": "300", "class": "bg-gray-300" },
+        { "modifier": "400", "class": "bg-gray-400" },
+        { "modifier": "500", "class": "bg-gray-500" },
+        { "modifier": "600", "class": "bg-gray-600" },
+        { "modifier": "700", "class": "bg-gray-700" },
+        { "modifier": "800", "class": "bg-gray-800" },
+        { "modifier": "900", "class": "bg-gray-900" }
+      ]
+    }
+  ],
+  "green": [
+    {
+      "label": "Green",
+      "items": [
+        { "modifier": "100", "class": "bg-green-100" },
+        { "modifier": "200", "class": "bg-green-200" },
+        { "modifier": "300", "class": "bg-green-300" },
+        { "modifier": "400", "class": "bg-green-400" },
+        { "modifier": "500", "class": "bg-green-500" },
+        { "modifier": "600", "class": "bg-green-600" },
+        { "modifier": "700", "class": "bg-green-700" },
+        { "modifier": "800", "class": "bg-green-800" },
+        { "modifier": "900", "class": "bg-green-900" }
+      ]
+    }
+  ],
+  "indigo": [
+    {
+      "label": "Indigo",
+      "items": [
+        { "modifier": "100", "class": "bg-indigo-100" },
+        { "modifier": "200", "class": "bg-indigo-200" },
+        { "modifier": "300", "class": "bg-indigo-300" },
+        { "modifier": "400", "class": "bg-indigo-400" },
+        { "modifier": "500", "class": "bg-indigo-500" },
+        { "modifier": "600", "class": "bg-indigo-600" },
+        { "modifier": "700", "class": "bg-indigo-700" },
+        { "modifier": "800", "class": "bg-indigo-800" },
+        { "modifier": "900", "class": "bg-indigo-900" }
+      ]
+    }
+  ],
+  "khaki": [
+    {
+      "label": "Khaki",
+      "items": [
+        { "modifier": "100", "class": "bg-khaki-100" },
+        { "modifier": "200", "class": "bg-khaki-200" },
+        { "modifier": "300", "class": "bg-khaki-300" },
+        { "modifier": "400", "class": "bg-khaki-400" },
+        { "modifier": "500", "class": "bg-khaki-500" },
+        { "modifier": "600", "class": "bg-khaki-600" },
+        { "modifier": "700", "class": "bg-khaki-700" },
+        { "modifier": "800", "class": "bg-khaki-800" },
+        { "modifier": "900", "class": "bg-khaki-900" }
+      ]
+    }
+  ],
+  "nero": [
+    {
+      "label": "Nero",
+      "items": [
+        { "modifier": "100", "class": "bg-nero-100" },
+        { "modifier": "200", "class": "bg-nero-200" },
+        { "modifier": "300", "class": "bg-nero-300" },
+        { "modifier": "400", "class": "bg-nero-400" },
+        { "modifier": "500", "class": "bg-nero-500" },
+        { "modifier": "600", "class": "bg-nero-600" },
+        { "modifier": "700", "class": "bg-nero-700" },
+        { "modifier": "800", "class": "bg-nero-800" },
+        { "modifier": "900", "class": "bg-nero-900" }
+      ]
+    }
+  ],
+  "orange": [
+    {
+      "label": "Orange",
+      "items": [
+        { "modifier": "100", "class": "bg-orange-100" },
+        { "modifier": "200", "class": "bg-orange-200" },
+        { "modifier": "300", "class": "bg-orange-300" },
+        { "modifier": "400", "class": "bg-orange-400" },
+        { "modifier": "500", "class": "bg-orange-500" },
+        { "modifier": "600", "class": "bg-orange-600" },
+        { "modifier": "700", "class": "bg-orange-700" },
+        { "modifier": "800", "class": "bg-orange-800" },
+        { "modifier": "900", "class": "bg-orange-900" }
+      ]
+    }
+  ],
+  "pink": [
+    {
+      "label": "Pink",
+      "items": [
+        { "modifier": "100", "class": "bg-pink-100" },
+        { "modifier": "200", "class": "bg-pink-200" },
+        { "modifier": "300", "class": "bg-pink-300" },
+        { "modifier": "400", "class": "bg-pink-400" },
+        { "modifier": "500", "class": "bg-pink-500" },
+        { "modifier": "600", "class": "bg-pink-600" },
+        { "modifier": "700", "class": "bg-pink-700" },
+        { "modifier": "800", "class": "bg-pink-800" },
+        { "modifier": "900", "class": "bg-pink-900" }
+      ]
+    }
+  ],
+  "purple": [
+    {
+      "label": "Purple",
+      "items": [
+        { "modifier": "100", "class": "bg-purple-100" },
+        { "modifier": "200", "class": "bg-purple-200" },
+        { "modifier": "300", "class": "bg-purple-300" },
+        { "modifier": "400", "class": "bg-purple-400" },
+        { "modifier": "500", "class": "bg-purple-500" },
+        { "modifier": "600", "class": "bg-purple-600" },
+        { "modifier": "700", "class": "bg-purple-700" },
+        { "modifier": "800", "class": "bg-purple-800" },
+        { "modifier": "900", "class": "bg-purple-900" }
+      ]
+    }
+  ],
+  "red": [
+    {
+      "label": "Red",
+      "items": [
+        { "modifier": "100", "class": "bg-red-100" },
+        { "modifier": "200", "class": "bg-red-200" },
+        { "modifier": "300", "class": "bg-red-300" },
+        { "modifier": "400", "class": "bg-red-400" },
+        { "modifier": "500", "class": "bg-red-500" },
+        { "modifier": "600", "class": "bg-red-600" },
+        { "modifier": "700", "class": "bg-red-700" },
+        { "modifier": "800", "class": "bg-red-800" },
+        { "modifier": "900", "class": "bg-red-900" }
+      ]
+    }
+  ],
+  "teal": [
+    {
+      "label": "Teal",
+      "items": [
+        { "modifier": "100", "class": "bg-teal-100" },
+        { "modifier": "200", "class": "bg-teal-200" },
+        { "modifier": "300", "class": "bg-teal-300" },
+        { "modifier": "400", "class": "bg-teal-400" },
+        { "modifier": "500", "class": "bg-teal-500" },
+        { "modifier": "600", "class": "bg-teal-600" },
+        { "modifier": "700", "class": "bg-teal-700" },
+        { "modifier": "800", "class": "bg-teal-800" },
+        { "modifier": "900", "class": "bg-teal-900" }
+      ]
+    }
+  ]
+}
