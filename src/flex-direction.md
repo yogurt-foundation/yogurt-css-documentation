@@ -4,7 +4,7 @@ title: Flex Direction
 description: Utilities for sets direction of flex items.
 topic: Flexbox
 relate: flex, flex-gap, flex-grow, flex-shrink, flex-wrap, align-content, align-items, align-self, justify-content
-variant: responsive
+variant: responsive, portrait, landscape
 layout: default
 ---
 

@@ -205,7 +205,7 @@ Add the `(portrait)` prefix to an utility when portrait settings enabled.
 
 ```html
 <!-- Example -->
-<y class="(portrait)flex-col">
+<y class="flex (portrait)flex-col">
   ...
 </y>
 ```
@@ -216,7 +216,7 @@ Add the `(landscape)` prefix to an utility when landscape settings enabled.
 
 ```html
 <!-- Example -->
-<y class="(landscape)flex-col">
+<y class="flex (landscape)flex-col">
   ...
 </y>
 ```
