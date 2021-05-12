@@ -1,7 +1,7 @@
 ---
 id: paletteoverview
 title: Introduction of Color Palette
-description:
+description: Utilities for sets color to other utilties such as text, background, border, placeholder and dissect.
 topic: Getting Started > Features
 relate: text-color, bg-color, border-color, placeholder-color, dissect-color
 layout: default

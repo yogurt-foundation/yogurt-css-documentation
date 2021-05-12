@@ -8,15 +8,19 @@
          target="_self"
          rel="noopener">
 
-        <y class="m-2 px-4 py-2 h-24 flex justify-center items-center bg-gray-200 border-4 border-gray-300 (hover)border-gray-800 shadow-sm rounded-lg transition duration-300 ease-in-out">
+        <y class="m-2 px-4 py-2 h-24 flex flex-col justify-center items-center bg-gray-200 border-4 border-gray-300 (hover)border-gray-800 shadow-sm rounded-lg transition duration-300 ease-in-out">
 
           <img class="hidden h-24 w-auto object-cover object-center overflow-hidden"
                src="{{ item.icon }}"
                title="{{ item.title }}">
 
-          <y class="font-semibold transition duration-300 ease-in-out transform (group-hover)translate-y-2">
+          <y class="text-xl transition duration-300 ease-in-out transform (group-hover)translate-y-2">
             {{ item.title }}
           </y>
+
+          {# <y class="text-sm font-mono text-gray-600">
+            {{ item.desc }}
+          </y> #}
 
         </y>
 

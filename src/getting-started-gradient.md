@@ -1,6 +1,6 @@
 ---
 id: gradientsoverview
-title: Introduction of Gradient Presets
+title: Introduction of Gradient Presets Utilties
 description: Utilities for sets the gradient preset diagonally to an element.
 topic: Getting Started > Features
 relate: bg-gradient

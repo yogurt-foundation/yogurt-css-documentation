@@ -1,6 +1,6 @@
 ---
 id: fluidsoverview
-title: Introduction of Fluids
+title: Introduction of Fluids Utilities
 description: Utilities for sets min and max values with other utilities for screen size without breakpoints.
 topic: Getting Started > Features
 relate: fluid-font-size, fluid-margin, fluid-padding

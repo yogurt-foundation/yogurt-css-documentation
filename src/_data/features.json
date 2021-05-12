@@ -3,63 +3,51 @@
     {
       "items": [
         {
-          "title": "4k-8K Breakpoints",
-          "icon": "",
+          "title": "Breakpoints",
           "url": "/responsive/"
         },
         {
           "title": "Dark/Light Mode",
-          "icon": "",
           "url": "/getting-started-themes/"
         },
         {
-          "title": "Color Palette",
-          "icon": "",
-          "url": "/getting-started-palette/"
-        },
-        {
           "title": "Variants",
-          "icon": "",
           "url": "/pseudo-class-variants/"
         },
         {
-          "title": "Custom Gradient",
-          "icon": "",
-          "url": "/background-gradient/"
+          "title": "Color Palette",
+          "url": "/getting-started-palette/"
         },
         {
           "title": "Gradient Presets",
-          "icon": "",
           "url": "/getting-started-gradient/"
         },
         {
+          "title": "Custom Gradient",
+          "url": "/background-gradient/"
+        },
+        {
           "title": "Animations",
-          "icon": "",
           "url": "/animations/"
         },
         {
           "title": "Filters",
-          "icon": "",
           "url": "/getting-started-filters/"
         },
         {
           "title": "Patterns",
-          "icon": "",
-          "url": "/patterns/"
+          "url": "/getting-started-patterns/"
         },
         {
           "title": "Fluids",
-          "icon": "",
           "url": "/getting-started-fluids/"
         },
         {
           "title": "Orientation",
-          "icon": "",
           "url": "/getting-started-orientation"
         },
         {
           "title": "Plugin API",
-          "icon": "",
           "url": "/plugin-api/"
         }
       ]
