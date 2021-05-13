@@ -2,6 +2,9 @@
 id: transition-property
 title: Transition Property
 description: Utilities for sets the css properties affected by transition animations.
+topic: Transitions
+relate: transition-duration, transition-timing
+variant: reduce-motion
 layout: default
 ---
 
@@ -17,9 +20,8 @@ Utilities for sets the css properties affected by transition animations.
 
 | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
+| transition | transition-property: all |
 | transition-none | transition-property: none |
-| transition-all | transition-property: all |
-| transition | transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform |
 | transition-colors | transition-property: background-color, border-color, color, fill, stroke |
 | transition-opacity | transition-property: opacity |
 | transition-shadow | transition-property: box-shadow |
@@ -50,16 +52,6 @@ An example of transitioning an element with [Border Width](/border-width/) and [
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | |
-| Dark Theme | | |
-| hover| | |
-| group-hover | | |
-| focus | | |
-| focus-visible | Yes | |
-| focus-within | Yes | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for transitionproperty in variants.transitionproperty %}{% for item in transitionproperty.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).

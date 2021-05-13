@@ -1,14 +1,33 @@
 {
-  "sections": [{
-    "label": "Getting Started",
-    "items": [{
-        "label": "Introduction",
-        "url": "/"
-      },
-      {
-        "label": "Installation",
-        "url": "/installation/"
-      }
-    ]
-  }]
+  "sections": [
+    {
+      "items": [
+        {
+          "label": "Getting Started",
+          "url": "/getting-started/",
+          "target": "_self"
+        },
+        {
+          "label": "Installation",
+          "url": "/installation/",
+          "target": "_self"
+        },
+        {
+          "label": "IntelliSense",
+          "url": "/intellisense/",
+          "target": "_self"
+        },
+        {
+          "label": "Playground",
+          "url": "/playground/",
+          "target": "_blank"
+        },
+        {
+          "label": "Utility Map",
+          "url": "/utility-map/",
+          "target": "_self"
+        }
+      ]
+    }
+  ]
 }

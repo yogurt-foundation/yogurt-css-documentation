@@ -4,7 +4,7 @@ import throttle from 'lodash/throttle';
 import debounce from 'lodash/debounce';
 import setupHovers from 'components/hover.js';
 
-export default async() => {
+export default async () => {
 
   const SEARCH_RESULT_LIMIT = 10;
 
@@ -21,10 +21,13 @@ export default async() => {
     let result = await fetch('/api/search.json');
     docs = await result.json();
 
-    index = lunr(function() {
+    index = lunr(function () {
       this.ref('id');
       this.field('title');
-      this.field('content');
+      this.field('description');
+      this.field('topic');
+      this.field('relate');
+      this.field('variant');
 
       docs.forEach((doc, index) => {
         doc.id = index;
@@ -59,59 +62,48 @@ export default async() => {
     let searchTermMatcher = new RegExp(searchTerm.split(' ').join('|'), 'i');
 
     let title = highlightWords(result.title, searchTermMatcher);
-
-    let content = '';
-    let contentMatch = result.content.match(searchTermMatcher);
-
-    if (contentMatch) {
-      let start = contentMatch.index;
-      let end = start + contentMatch[0].length;
-
-      // Include surrounding text
-      start = Math.max(start - 30, 0);
-      end = Math.max(end + 110, result.content.length);
-
-      let value = result.content.slice(start, end).trim();
-
-      if (value.length > 0) {
-        value = value.replace(/\s*[\n]+\s*/g, '\n');
-        value = value.replace(/^\s+|\s+$/g, '');
-        content = [
-          '<p class="excerpt mt-2">',
-          start > 0 ? '...' : '',
-          highlightWords(value, searchTermMatcher),
-          end < result.content.length ? '...' : '',
-          '</p>'
-        ].join('');
-      }
-    }
+    let description = highlightWords(result.description, searchTermMatcher);
+    let topic = highlightWords(result.topic, searchTermMatcher);
+    let relate = highlightWords(result.relate, searchTermMatcher);
+    let variant = highlightWords(result.variant, searchTermMatcher);
 
     return `
-      <a class="z-10 search-result block m-0 p-5 outline-none border-2 border-transparent (focus)border-blue-400 rounded-lg"
+      <a class="(group) z-10 search-result block mb-2 p-5 outline-none border-4 border-transparent (focus)border-orange-600 text-gray-800 bg-gray-100 rounded-lg"
          href="${result.url}"
          target="_self"
-         rel="noopener"
-         title="${title}">
-        <p class="font-medium text-lg">
-          ${title}
-        </p>
-        ${content}
+         rel="noopener">
+        <y class="pb-1 text-xs text-gray-700 font-semibold (group-hover)text-gray-500">
+          ${topic}
+        </y>
+        <y class="flex justify-start items-center">
+          <svg class="block mr-2 w-6 w-auto fill-current text-gray-800 (group-hover)text-gray-100 transition duration-300 ease-in-out" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve"><g><g><path d="M426,0H161.24c-3.978,0-7.793,1.58-10.606,4.394l-75.24,75.239C72.581,82.446,71,86.262,71,90.24V497 c0,8.284,6.716,15,15,15h340c8.284,0,15-6.716,15-15V15C441,6.716,434.284,0,426,0z M411,482H101V96.453L167.453,30H411V482z"/></g></g><g><g><path d="M366,326H146c-8.284,0-15,6.716-15,15s6.716,15,15,15h220c8.284,0,15-6.716,15-15S374.284,326,366,326z"/></g></g><g><g><path d="M226,251h-80c-8.284,0-15,6.716-15,15s6.716,15,15,15h80c8.284,0,15-6.716,15-15S234.284,251,226,251z"/></g></g><g><g><path d="M366,401h-80c-8.284,0-15,6.716-15,15s6.716,15,15,15h80c8.284,0,15-6.716,15-15S374.284,401,366,401z"/></g></g></svg>
+          <y class="pb-1 font-medium text-2xl (group-hover)text-gray-100">
+            ${title}
+          </y>
+        </y>
+        <y class="pb-1 text-md (group-hover)text-gray-300">
+          ${description}
+        </y>
+        <y class="pb-1 text-xs text-gray-600 (group-hover)text-gray-500">
+          ${relate}
+        </y>
+        <y class="text-xs font-mono font-semibold text-gray-600 (group-hover)text-gray-500">
+          ${variant}
+        </y>
       </a>
-      <y class="border border-gray-100 my-2"></y>
     `;
-
   }
 
   function highlightWords(string, wordExpression) {
     return string.replace(new RegExp(wordExpression, 'gi'), '<mark>$&</mark>')
   }
 
-  function setState(state, description) {
+  function setState(state, desc) {
 
     searchResults.dataset.state = state;
 
-    if (typeof description === 'string') {
-      searchResults.innerHTML = `<span class="text-gray-500">${description}</span>`;
+    if (typeof desc === 'string') {
+      searchResults.innerHTML = `<span class="text-md text-gray-500">${desc}</span>`;
     }
   }
 
@@ -140,7 +132,6 @@ export default async() => {
         searchResults.style.top = '';
       }
 
-
       // Lazy-load the first time the search field is shown
       if (!docs) {
         load().then(
@@ -151,7 +142,7 @@ export default async() => {
             }
           },
           () => {
-            setState('loading-error', 'Failed to load search data 😭');
+            setState('loading-error', 'Failed to load search data!');
           }
         );
       }

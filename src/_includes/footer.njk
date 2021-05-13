@@ -1,57 +1,29 @@
-<footer class="footer mt-24 pt-8 px-4 w-full text-sm">
+<footer class="(xs)px-16 (xs)pb-8 (sm)p-12 (2k)px-72 mt-8 w-full">
 
-  <y class="flex justify-end">
+  <y class="flex justify-between items-center">
 
-    <y class="(xs)hidden (sm)hidden (md)block (lg)block p-2 text-md opacity-50 mr-auto">
-      Version {{site.version.core}}
+    <y class="flex-shrink-0">
+
+      <img theme="auto"
+           class="hidden mx-4 (sm)block h-10 w-auto object-cover object-center overflow-hidden opacity-75"
+           src="/images/logo/logo_full.svg"
+           loading="lazy"
+           alt="Yogurt CSS">
+
+      <img theme="auto"
+           class="block mr-4 (sm)hidden h-10 w-auto object-fit object-center overflow-hidden opacity-75"
+           src="/images/logo/logo_small.svg"
+           loading="lazy"
+           alt="Yogurt CSS">
     </y>
 
-    <y class="(sm)block (md)hidden (lg)hidden mt-1 ml-2 mr-auto">
-
-      {% include "sponsors.njk" %}
-
-    </y>
-
-    <a class="mx-1 p-2 opacity-25 (hover)opacity-75 (dark)invert-1"
-       href="{{ site.urls.discord }}"
-       target="_blank"
-       rel="noopener"
-       title="Discord">
-
-      {% include "images/icons/discord.svg" %}
-
-    </a>
-
-    <a class="mx-1 p-2 opacity-25 (hover)opacity-75 (dark)invert-1"
-       href="{{ site.urls.twitter }}"
-       target="_blank"
-       rel="noopener"
-       title="Twitter">
-
-      {% include "images/icons/twitter.svg" %}
-
-    </a>
-
-    <a class="mx-1 p-2 opacity-25 (hover)opacity-75 (dark)invert-1"
-       href="{{ site.urls.github }}"
-       target="_blank"
-       rel="noopener"
-       title="Github">
-
-      {% include "images/icons/github.svg" %}
-
-    </a>
-
-  </y>
-
-  <y class="clear-both flex justify-center py-8 w-full">
     <y class="text-sm text-gray-500 (dark)text-gray-700">
-       <strong>
-         {{site.appname}}
-       </strong>
-       is copyright &copy; {{site.author.name}}. {{site.author.license}} Licensed.
+      <strong>
+        {{site.appname}}
+      </strong>
+      is copyright &copy; {{site.author.name}}. {{site.author.license}} Licensed.
     </y>
+
   </y>
 
 </footer>
-

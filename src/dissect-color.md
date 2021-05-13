@@ -2,6 +2,8 @@
 id: dissect-color
 title: Dissect Color
 description: Utilities for sets bottom border color on each child elements of its parent.
+topic: Borders
+relate: dissect, dissect-opacity
 layout: default
 ---
 
@@ -146,13 +148,6 @@ Utilities for sets bottom border color on each child elements of its parent.
 | dissect-teal-800 | --dissect-opacity: 1; <br> border-color: #285e61; <br> border-color: rgba(40, 94, 97, var(--dissect-opacity)) | <y class="px-2 py-1 dissect-y-2 dissect-y dissect-teal-800"><y>Text</y><y>Text</y></y> |
 | dissect-teal-900 | --dissect-opacity: 1; <br> border-color: #234e52; <br> border-color: rgba(35, 78, 82, var(--dissect-opacity)) | <y class="px-2 py-1 dissect-y-2 dissect-y dissect-teal-900"><y>Text</y><y>Text</y></y> |
 
-<y class="m-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 (dark)bg-gray-800">
-  <span class="pr-1 font-semibold">
-    Note:
-  </span>
-  Utility customizing is unavailable.
-</y>
-
 ---
 
 ## Usage
@@ -170,9 +165,9 @@ Set `dissect-x-{value}` and `dissect-y-{value}` borders with colors.
 ```html
 <!-- Example -->
 <y class="dissect-y-4 dissect-amber-400">
-  <y>1</y>
-  <y>2</y>
-  <y>3</y>
+  <y>...</y>
+  <y>...</y>
+  <y>...</y>
 </y>
 ```
 
@@ -180,16 +175,7 @@ Set `dissect-x-{value}` and `dissect-y-{value}` borders with colors.
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | |
-| Dark Theme | | |
-| hover| | |
-| group-hover | | |
-| focus | | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for dissectcolor in variants.dissectcolor %}{% for item in dissectcolor.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+

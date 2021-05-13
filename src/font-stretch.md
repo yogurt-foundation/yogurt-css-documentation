@@ -2,6 +2,7 @@
 id: font-stretch
 title: Font Stretch
 description: Utilities for define text narrower(condensed) or wider(expanded) for font faces matching the defined sizes.
+topic: Typography
 layout: default
 ---
 
@@ -43,13 +44,6 @@ Utilities for define text narrower(condensed) or wider(expanded) for font faces 
     Note:
   </span>
   Your browser does not currently support the utilities.
-</y>
-
-<y class="mt-2 mx-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 (dark)bg-gray-800">
-  <span class="pr-1 font-semibold">
-    Note:
-  </span>
-  Utility customizing is unavailable.
 </y>
 
 ---

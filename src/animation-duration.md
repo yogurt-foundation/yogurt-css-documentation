@@ -2,6 +2,8 @@
 id: animation-duration
 title: Animation Duration
 description: Utilities for sets the animation control with durations.
+topic: Animations
+relate: animation, animation-blur, animation-delay, animation-fade, animation-loop, animation-roll, animation-slide
 layout: default
 ---
 
@@ -37,18 +39,28 @@ Utilities for sets the animation control with durations.
 
 ---
 
+## Customization
+
+Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
+
+```scss
+// Add Values
+@include yogurt(
+  $class: 'animation.duration',
+  $property: animation-duration,
+  $modifier: (
+    5000: 5000ms,
+    6000: 6000ms
+    //...
+  )
+);
+```
+
+---
+
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | |
-| Dark Theme | | |
-| hover| | |
-| group-hover | | |
-| focus | | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for animationduration in variants.animationduration %}{% for item in animationduration.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+

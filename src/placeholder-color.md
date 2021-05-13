@@ -2,6 +2,8 @@
 id: placeholder-color
 title: Placeholder Color
 description: Utilities for sets the placeholder color using the ::placeholder pseudo element.
+topic: Typography
+variant: dark-mode, focus
 layout: default
 ---
 
@@ -146,13 +148,6 @@ Utilities for sets the placeholder color using the ::placeholder pseudo element.
 | placeholder-nero-800 | color: #0e0f11 | <y class="border-2 border-gray-400 rounded px-2 text-lg text-nero-800 bg-white font-semibold">Text</y> |
 | placeholder-nero-900 | color: #0a0a0b | <y class="border-2 border-gray-400 rounded px-2 text-lg text-nero bg-white font-semibold">Text</y> |
 
-<y class="m-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 (dark)bg-gray-800">
-  <span class="pr-1 font-semibold">
-    Note:
-  </span>
-  Utility customizing is unavailable.
-</y>
-
 ---
 
 ## Usage
@@ -175,16 +170,6 @@ Utilities for sets the placeholder color using the ::placeholder pseudo element.
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | |
-| Dark Theme | Yes | |
-| hover| | |
-| group-hover | | |
-| focus | Yes | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for placeholdercolor in variants.placeholdercolor %}{% for item in placeholdercolor.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).

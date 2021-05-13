@@ -2,6 +2,9 @@
 id: transform-origin
 title: Transform Origin
 description: Utilities for sets the origin of an element's transforms.
+topic: Transforms
+relate: translate, rotate, scale, skew
+variant: hover, focus-visible, focus-within
 layout: default
 ---
 
@@ -157,16 +160,7 @@ Set the element origin to `top-left`.
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | |
-| Dark Theme | | |
-| hover| Yes | |
-| group-hover | | |
-| focus | | |
-| focus-visible | Yes | |
-| focus-within | Yes | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for transformorigin in variants.transformorigin %}{% for item in transformorigin.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+

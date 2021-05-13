@@ -2,6 +2,9 @@
 id: top-bottom-left-right
 title: Top / Right / Bottom / Left
 description: Utilities for sets the placement of a positioned element.
+topic: Layouts
+relate: box-sizing, clear, container, render, display, float, object-fit, object-position, overflow, position, visibility, z-index
+variant: responsive
 layout: default
 ---
 
@@ -106,38 +109,41 @@ Utilities for sets the placement of a positioned element.
 
 ---
 
-## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600" href="/plugin-api/">More</a>
+## Customization
+
+Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
 
 ```scss
-// @file: `src/_plugins.scss`
-@include plugin(
-  (
-    utility: 'top',
-    //variant: 'responsive',
-    property: 'top',
-    modifier: (
-      '1': '1rem',
-      '2': '2rem'
-      //...
-    )
+// Add Values
+@include yogurt(
+  $class: 'top',
+  $property: top,
+  $modifier: (
+    1: 0.25rem,
+    2: 5rem
+    //...
   )
-)
+);
+
+// Add Variants
+@include yogurt(
+  $class: 'top',
+  $property: top,
+  $modifier: (
+    1: 0.25rem,
+    2: 5rem
+    //...
+  ),
+  $variant: (
+    'responsive'
+  )
+);
 ```
 
 ---
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | Yes |
-| Dark Theme | | |
-| hover| | |
-| group-hover | | |
-| focus | | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for topbottomleftright in variants.topbottomleftright %}{% for item in topbottomleftright.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).

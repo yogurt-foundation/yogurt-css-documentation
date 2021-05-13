@@ -2,6 +2,7 @@
 id: scroll-smooth
 title: Scroll Smooth
 description: Utilities for sets smooth animation of scroll anchored position within a scrolling box.
+topic: Interactivity
 layout: default
 ---
 
@@ -52,16 +53,8 @@ Utilities for sets smooth animation of scroll anchored position within a scrolli
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | |
-| Dark Theme | | |
-| hover| | |
-| group-hover | | |
-| focus | | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for scrollbehaviour in variants.scrollbehaviour %}{% for item in scrollbehaviour.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+
+

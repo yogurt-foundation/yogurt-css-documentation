@@ -2,6 +2,8 @@
 id: touch-action
 title: Touch Action
 description: Utilities for set control over the effect of touchscreen interactions to an element.
+topic: Interactivity
+variant: responsive
 layout: default
 ---
 
@@ -102,16 +104,8 @@ Set an element with full touch manipulation, `x` and `y` panning is enabled.
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | Yes |
-| Dark Theme | | |
-| hover| | |
-| group-hover | | |
-| focus | | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for touchaction in variants.touchaction %}{% for item in touchaction.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+
+

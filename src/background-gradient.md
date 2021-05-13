@@ -2,10 +2,13 @@
 id: background-gradient
 title: Background Gradient
 description: Utilities for sets the background gradient color to an element with flexible control over color, color space and angles.
+topic: Backgrounds
+relate: background-attachment, background-blend, background-border, background-color, background-opacity, background-position, background-repeat, background-size
+variant: hover, focus-visible, focus-within
 layout: default
 ---
 
-> Background
+> Backgrounds
 
 # Background Gradient <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.0.9</span>
 
@@ -231,77 +234,84 @@ Set background gradient to `<body>` tag.
 
 ---
 
-## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600" href="/plugin-api/">More</a>
+## Customization
+
+Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
 
 ```scss
-// @file: `src/_plugins.scss`
-@include plugin(
-  (
-    utility: 'angle',
-    //variant: 'responsive',
-    property: '--bg-gradient-angle',
-    modifier: (
-      '270': '270deg'
-      //...
-    )
-  ),
-  (
-    utility: 'start',
-    //variant: 'responsive',
-    property: '--bg-gradient-primary',
-    modifier: (
-      '15': '15%',
-      '25': '25%'
-      //...
-    )
-  ),
-  (
-    utility: 'Stop',
-    //variant: 'responsive',
-    property: '--bg-gradient-secondary',
-    modifier: (
-      '15': '15%',
-      '25': '25%'
-      //...
-    )
-  ),
-  (
-    utility: 'start-red',
-    //variant: 'responsive',
-    property: '--bg-gradient-start-color',
-    modifier: (
-      '100': '#...',
-      '200': '#...'
-      //...
-    )
-  ),
-  (
-    utility: 'stop-green',
-    //variant: 'responsive',
-    property: '--bg-gradient-stop-color',
-    modifier: (
-      '100': '#...',
-      '200': '#...'
-      //...
-    )
+// Add Values
+@include yogurt(
+  $class: 'bg-gradient.angle',
+  $property: --bg-gradient-angle,
+  $modifier: (
+    270: 270deg
+    //...
   )
-)
+);
+
+@include yogurt(
+  $class: 'bg-gradient.start',
+  $property: --bg-gradient-primary,
+  $modifier: (
+    15: 15%,
+    25: 25%
+    //...
+  )
+);
+
+@include yogurt(
+  $class: 'bg-gradient.stop',
+  $property: --bg-gradient-secondary,
+  $modifier: (
+    15: 15%,
+    25: 25%
+    //...
+  )
+);
+
+@include yogurt(
+  $class: 'bg-gradient.start-gray',
+  $property: --bg-gradient-start-color,
+  $modifier: (
+    100: #262626,
+    200: #252525
+    //...
+  )
+);
+
+@include yogurt(
+  $class: 'bg-gradient.stop-gray',
+  $property: --bg-gradient-stop-color,
+  $modifier: (
+    100: #262626,
+    200: #252525
+    //...
+  )
+);
+
+// Add Variants
+@include yogurt(
+  $class: 'bg-gradient.angle',
+  $property: --bg-gradient-angle,
+  $modifier: (
+    270: 270deg
+    //...
+  ),
+  $variant: (
+    'hover',
+    'focus-within',
+    'focus-visible'
+    //...
+  )
+);
 ```
 
 ---
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | |
-| Dark Theme | | |
-| hover| Yes | |
-| group-hover | | |
-| focus | | |
-| focus-visible | Yes | |
-| focus-within | Yes | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for backgroundgradient in variants.backgroundgradient %}{% for item in backgroundgradient.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+
+

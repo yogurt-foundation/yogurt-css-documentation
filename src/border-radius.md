@@ -2,6 +2,9 @@
 id: border-radius
 title: Border Radius
 description: Utilities for sets border radius.
+topic: Borders
+relate: border-color, border-style, border-width
+variant: responsive
 layout: default
 ---
 
@@ -67,38 +70,42 @@ Utilities for sets border radius.
 
 ---
 
-## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600" href="/plugin-api/">More</a>
+## Customization
+
+Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
 
 ```scss
-// @file: `src/_plugins.scss`
-@include plugin(
-  (
-    utility: 'rounded',
-    //variant: 'responsive',
-    property: 'border-radius',
-    modifier: (
-      'xl': '...rem',
-      '2xl': '...rem'
-      ...
-    )
+// Add Values
+@include yogurt(
+  $class: 'rounded',
+  $property: border-radius,
+  $modifier: (
+    xl: 2rem,
+    2xl: 3rem
+    //...
   )
-)
+);
+
+// Add Variants
+@include yogurt(
+  $class: 'rounded',
+  $property: border-radius,
+  $modifier: (
+    xl: 2rem,
+    2xl: 3rem
+    //...
+  ),
+  $variant: (
+    'responsive'
+  )
+);
 ```
 
 ---
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | |
-| Dark Theme | | |
-| hover| | |
-| group-hover | | |
-| focus | | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for borderradius in variants.borderradius %}{% for item in borderradius.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+

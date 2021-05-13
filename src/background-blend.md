@@ -2,10 +2,13 @@
 id: background-blend
 title: Background Blend
 description: Utilities for sets the blending mode of each background layer (color or image).
+topic: Backgrounds
+relate: background-attachment, background-border, background-color, background-gradient, background-opacity, background-position, background-repeat, background-size
+variant: focus-visible, focus-within
 layout: default
 ---
 
-> Background
+> Backgrounds
 
 # Background Blend
 
@@ -250,16 +253,7 @@ Set `luminosity` blending mode to background image.
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | |
-| Dark Theme | | |
-| hover| | |
-| group-hover | | |
-| focus | | |
-| focus-visible | Yes | |
-| focus-within | Yes | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for backgroundblend in variants.backgroundblend %}{% for item in backgroundblend.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+

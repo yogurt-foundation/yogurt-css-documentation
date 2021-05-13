@@ -2,6 +2,8 @@
 id: filter-brightness
 title: Filter Brightness
 description: Utilities for sets brightness filter to an element.
+topic: Filters
+relate: filter-blur, filter-contrast, filter-saturate, filter-invert, filter-drop-shadow
 layout: default
 ---
 
@@ -32,13 +34,6 @@ Utilities for sets brightness filter to an element.
 | brightness-8 | --brightness: 1.70 |
 | brightness-9 | --brightness: 1.80 |
 | brightness-10 | --brightness: 1.90 |
-
-<y class="m-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 (dark)text-orange-500 bg-orange-200 (dark)bg-orange-900">
-  <span class="pr-1 font-semibold">
-    Note:
-  </span>
-  Only supported web browsers can benefit from this utility.
-</y>
 
 ---
 
@@ -83,36 +78,27 @@ Mix with other filters, such as [Contrast](/filter-contrast/), [Saturate](/filte
    style="background-image:url(...)"></y>
 ```
 
-## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600" href="/plugin-api/">More</a>
+## Customization
+
+Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
 
 ```scss
-// @file: `src/_plugins.scss`
-@include plugin(
-  (
-    utility: 'filter.brightness',
-    //variant: 'responsive',
-    property: '--brightness',
-    modifier: (
-      'brightness-11': '...',
-      'brightness-12': '...'
-      //...
-    )
+// Add Values
+@include yogurt(
+  $class: 'filter.brightness',
+  $property: --brightness,
+  $modifier: (
+    1: 1.10,
+    2: 2.20
+    //...
   )
-)
+);
 ```
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | |
-| Dark Theme | | |
-| hover| | |
-| group-hover | | |
-| focus | | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for filterbrightness in variants.filterbrightness %}{% for item in filterbrightness.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+
+

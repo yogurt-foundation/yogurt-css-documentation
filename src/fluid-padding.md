@@ -2,6 +2,8 @@
 id: fluid-padding
 title: Fluid Padding
 description: Utilities for sets min and max paddings for screen size without breakpoints.
+topic: Effects
+relate: fluid-font-size, fluid-margin, margin, padding
 layout: default
 ---
 
@@ -46,13 +48,6 @@ Utilities for sets min and max paddings for screen size without breakpoints.
 | 104 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | 26rem |
 | 112 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | 28rem |
 
-<y class="m-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 (dark)bg-gray-800">
-  <span class="pr-1 font-semibold">
-    Note:
-  </span>
-  Utility customizing is unavailable.
-</y>
-
 ---
 
 ## Usage
@@ -79,16 +74,7 @@ Mix with other fluid utilities, such as [Fluid Margin](/fluid-margin/), [Fluid F
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | |
-| Dark Theme | | |
-| hover| | |
-| group-hover | | |
-| focus | | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for fluidpadding in variants.fluidpadding %}{% for item in fluidpadding.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+

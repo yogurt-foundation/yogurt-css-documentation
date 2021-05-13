@@ -2,6 +2,7 @@
 id: stroke-linecap
 title: Stroke LineCap
 description: Utilities for sets the outline shape of an SVG.
+topic: SVG
 layout: default
 ---
 
@@ -94,16 +95,7 @@ Set a SVG image with stroke linecap property.
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | |
-| Dark Theme | | |
-| hover| | |
-| group-hover | | |
-| focus | | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for svgstrokelinecap in variants.svgstrokelinecap %}{% for item in svgstrokewidth.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+

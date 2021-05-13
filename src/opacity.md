@@ -2,6 +2,8 @@
 id: opacity
 title: Opacity
 description: Utilities for sets the transparency of an element.
+topic: Effects
+variant: responsive, hover, group-hover, focus, focus-visible, focus-within
 layout: default
 ---
 
@@ -33,38 +35,44 @@ Utilities for sets the transparency of an element.
 ```
 ---
 
-## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600" href="/plugin-api/">More</a>
+## Customization
+
+Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
 
 ```scss
-// @file: `src/_plugins.scss`
-@include plugin(
-  (
-    utility: 'opacity',
-    //variant: 'responsive',
-    property: 'opacity',
-    modifier: (
-      '85': '.85',
-      '45': '.45'
-      ...
-    )
+// Add Values
+@include yogurt(
+  $class: 'opacity',
+  $property: opacity,
+  $modifier: (
+    65: .65,
+    85: .85
+    //...
   )
-)
+);
+
+// Add Variants
+@include yogurt(
+  $class: 'opacity',
+  $property: opacity,
+  $modifier: (
+    65: .65,
+    85: .85
+    //...
+  ),
+  $variant: (
+    'responsive',
+    'hover',
+    'focus', 'focus-within', 'focus-visible'
+    //...
+  )
+);
 ```
 
 ---
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | Yes |
-| Dark Theme | | |
-| hover| Yes | |
-| group-hover | | |
-| focus | Yes | |
-| focus-visible | Yes | |
-| focus-within | Yes | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for opacity in variants.opacity %}{% for item in opacity.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).

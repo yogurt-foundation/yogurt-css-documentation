@@ -2,6 +2,8 @@
 id: background-opacity
 title: Background Opacity
 description: Utilities for sets opacity of background color.
+topic: Backgrounds
+relate: background-attachment, background-blend, background-border, background-color, background-gradient, background-position, background-repeat, background-size
 layout: default
 ---
 
@@ -84,38 +86,28 @@ Set background-color with `0%` opacity to an element.
 
 ---
 
-## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600" href="/plugin-api/">More</a>
+## Customization
+
+Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
 
 ```scss
-// @file: `src/_plugins.scss`
-@include plugin(
- (
-   utility: 'bg-opacity',
-   //variant: 'responsive',
-   property: '--bg-opacity',
-   modifier: (
-     '30': '.3',
-     '40': '.4'
-     //...
-   )
+// Add Values
+@include yogurt(
+  $class: 'bg-opacity',
+  $property: --bg-opacity,
+  $modifier: (
+    10: .3,
+    20: .2
+    //...
   )
-)
+);
 ```
 
 ---
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | |
-| Dark Theme | | |
-| hover| | |
-| group-hover | | |
-| focus | | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for backgroundopacity in variants.backgroundopacity %}{% for item in backgroundopacity.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+

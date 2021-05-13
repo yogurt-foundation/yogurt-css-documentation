@@ -1,14 +1,15 @@
 <y class="z-20 sidebar hidden h-screen w-full (lg)block (xs)fixed (lg)sticky (lg)top-16 inset-0 pt-16 (lg)pt-0 (lg)pb-16 (lg)-mb-16 bg-gray-100 (dark)bg-charcoal-100 (lg)w-1/5 (lg)overflow-y-visible">
   <y class="sidebar-inner overflow-hidden h-full">
+
     <nav class="sidebar-scroller px-6 py-8 inset-0 text-md (sm)text-sm overflow-y-auto overflow-x-hidden h-full">
 
       <ul class="-ml-8">
 
         {% for section in main.sections %}
 
-          <li class="mb-4">
+          <li class="mb-6">
 
-            <span class="block mb-2 (xs)text-lg (sm)text-xs (lg)text-xs uppercase font-bold text-gray-900 (dark)text-orange-600">
+            <span class="hidden block mb-2 (xs)text-lg (sm)text-xs (lg)text-xs uppercase font-bold text-gray-900 (dark)text-orange-600">
 
               {{ section.label }}
 
@@ -20,21 +21,28 @@
 
               {% set is_current_page = page.url | replace('/', '') == item.url | replace('/', '') %}
 
-              <li class="mb-px">
+              <li class="(group) mb-px">
 
-                <a class="nav-link -mx-2 p-2 (hover)font-semibold (hover)underline {{ item.class }} {% if is_current_page %} selected {% endif %}"
+                <a class="nav-link -mx-4 p-2 (hover)font-semibold (hover)underline {{ item.class }} {% if is_current_page %} selected {% endif %}"
                    href="{{ item.url | safe }}"
+                   target="{{ item.target }}"
                    {% if is_current_page %}
-                   aria-current="page"
+                    aria-current="page"
                    {% endif %}>
 
-                  {{ item.label }}
+                  <y class="flex justify-start items-center">
 
-                  {% if item.external %}
-                    <span class="exernal-link-icon">
-                      {% include "images/icons/arrow-right.svg" %}
-                    </span>
-                  {% endif %}
+                    <y class="mr-2 h-4 w-4 bg-gray-800 (group-hover)bg-gray-800 rounded-full"></y>
+
+                    <y>{{ item.label }}</y>
+
+                    {% if item.external %}
+                      <y class="exernal-link-icon">
+                        {% include "images/icons/arrow-right.svg" %}
+                      </y>
+                    {% endif %}
+
+                  </y>
 
                 </a>
 
@@ -49,7 +57,7 @@
 
         {% for data in extras.more %}
 
-          <li class="(sm)block (md)hidden (lg)hidden mb-4">
+          <li class="(sm)block (md)hidden (lg)hidden mb-6">
 
             <span class="block mb-2 (xs)text-lg (sm)text-xs (lg)text-xs uppercase font-bold text-gray-900 (dark)text-orange-600">
 
@@ -65,10 +73,10 @@
 
               <li class="mb-px">
 
-                <a class="nav-link -mx-2 p-2 (hover)font-semibold (hover)underline {{ item.class }} {% if is_current_page %} selected {% endif %}"
+                <a class="nav-link -mx-4 p-2 (hover)font-semibold (hover)underline {{ item.class }} {% if is_current_page %} selected {% endif %}"
                    href="{{ item.url | safe }}"
                    {% if is_current_page %}
-                   aria-current="page"
+                    aria-current="page"
                    {% endif %}>
 
                   {{ item.label }}
@@ -92,7 +100,7 @@
 
         {% for section in navigation.sections %}
 
-          <li class="mb-4">
+          <li class="mb-6">
 
             <span class="block mb-2 (xs)text-lg (sm)text-xs (lg)text-xs uppercase font-bold text-gray-900 (dark)text-orange-600">
 
@@ -108,10 +116,10 @@
 
               <li class="mb-px">
 
-                <a class="nav-link -mx-2 p-2 (hover)font-semibold (hover)underline {{ item.class }} {% if is_current_page %} selected {% endif %}"
+                <a class="nav-link -mx-4 p-2 (hover)font-semibold (hover)underline {{ item.class }} {% if is_current_page %} selected {% endif %}"
                    href="{{ item.url | safe }}"
                    {% if is_current_page %}
-                   aria-current="page"
+                    aria-current="page"
                    {% endif %}>
 
                   {{ item.label }}

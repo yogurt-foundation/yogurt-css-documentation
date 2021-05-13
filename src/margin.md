@@ -2,6 +2,9 @@
 id: margin
 title: Margin
 description: Utilities for controls margin (and negative margin) in 0.25rem increments.
+topic: Spacing
+relate: padding, equal, fluid-margin, fluid-padding
+variant: responsive
 layout: default
 ---
 
@@ -479,38 +482,41 @@ Set margin to `right`.
 
 ---
 
-## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600" href="/plugin-api/">More</a>
+## Customization
+
+Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
 
 ```scss
-// @file: `src/_plugins.scss`
-@include plugin(
-  (
-    utility: 'm',
-    //variant: 'responsive',
-    property: 'margin',
-    modifier: (
-      '72': '...rem',
-      '84': '...rem'
-      ...
-    )
+// Add Values
+@include yogurt(
+  $class: 'm',
+  $property: margin,
+  $modifier: (
+    1: .25rem,
+    2: 5rem
+    //...
   )
-)
+);
+
+// Add Variants
+@include yogurt(
+  $class: 'm',
+  $property: margin,
+  $modifier: (
+    1: .25rem,
+    2: 5rem
+    //...
+  ),
+  $variant: (
+    'responsive'
+  )
+);
 ```
 
 ---
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | Yes |
-| Dark Theme | | |
-| hover| | |
-| group-hover | | |
-| focus | | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for margin in variants.margin %}{% for item in margin.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).

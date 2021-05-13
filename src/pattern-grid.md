@@ -2,6 +2,7 @@
 id: pattern-grid
 title: Pattern Grid
 description: Utilities for sets an element's background grid pattern.
+topic: Patterns
 layout: default
 ---
 
@@ -21,13 +22,6 @@ Utilities for sets an element's background grid pattern.
 | pattern <br> grid-md | background-image: linear-gradient(currentColor 1px, transparent 1px), linear-gradient(to right, currentColor 1px, transparent 1px); <br><br> background-size: 25px 25px | <y class="pattern grid-md w-32 h-56"></y> |
 | pattern <br> grid-lg | background-image: linear-gradient(currentColor 1px, transparent 1px), linear-gradient(to right, currentColor 1px, transparent 1px); <br><br> background-size: 50px 50px | <y class="pattern grid-lg w-32 h-56"></y> |
 | pattern <br> grid-xl | background-image: linear-gradient(currentColor 1px, transparent 1px), linear-gradient(to right, currentColor 1px, transparent 1px); <br><br> background-size: 100px 100px | <y class="pattern grid-xl w-32 h-56"></y> |
-
-<y class="m-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 (dark)bg-gray-800">
-  <span class="pr-1 font-semibold">
-    Note:
-  </span>
-  Utility customizing is unavailable.
-</y>
 
 ---
 
@@ -84,16 +78,7 @@ Set pattern clipping with text.
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | |
-| Dark Theme | | |
-| hover| | |
-| group-hover | | |
-| focus | | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for patterngrid in variants.patterngrid %}{% for item in patterngrid.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+

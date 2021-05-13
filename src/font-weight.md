@@ -1,7 +1,9 @@
 ---
 id: font-weight
-title: Font Style
+title: Font Weight
 description: Utilities for sets the font weight.
+topic: Typography
+variant: responsive, hover, group-hover, focus
 layout: default
 ---
 
@@ -53,16 +55,6 @@ Set font-weight with `Google Fonts`. (See [Font Family](/font-family/#customize-
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | Yes |
-| Dark Theme | | |
-| hover| Yes | |
-| group-hover | | |
-| focus | Yes | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for fontweight in variants.fontweight %}{% for item in fontweight.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).

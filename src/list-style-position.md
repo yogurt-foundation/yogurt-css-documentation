@@ -2,6 +2,7 @@
 id: list-style-position
 title: List Style Position
 description: Utilities for sets the position of a list's bullets.
+topic: Typography
 layout: default
 ---
 
@@ -38,16 +39,6 @@ Utilities for sets the position of a list's bullets.
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | |
-| Dark Theme | | |
-| hover| | |
-| group-hover | | |
-| focus | | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for liststyleposition in variants.liststyleposition %}{% for item in liststyleposition.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).

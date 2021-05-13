@@ -1,28 +1,41 @@
 ---
 id: utility
 title: Utility
-description: Yogurt is a utility-centric framework. Meaning, creating a complex component from a bunch of small functional CSS building blocks.
+description: Yogurt is a utility-centric framework. Creating a complex component from a bunch of small functional CSS building blocks.
+topic: Core Concepts
 layout: default
 ---
 
 > Core Concepts
 
-## Utility
+# Utility
 
 Yogurt is a utility-centric framework. Which, creating a complex component from a bunch of small functional CSS building blocks.
 
-Each utility property can be configured for different conditions. Such as the value of the text size, spacing, color shades, which also can be configured to respond to different screen sizes and different types of interactivity such as hover, focus, active, and so on or both.
+Each utility property can be configured for different conditions. Such as the value of the text size, spacing, color shades, which also can be configured to respond to different screen sizes and different types of interactivity such as `hover`, `focus`, `active`, and so on or both.
 
-### Writing Styles
+<y class="mt-4 mx-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 (dark)bg-gray-800">
+  <span class="pr-1 font-semibold">
+    Note:
+  </span>
+  Read more information about the
+  <a href="/responsive/">
+    Responsive
+  </a> and
+  <a href="/pseudo-class-variants/">
+    Pseudo-Class Variants
+  </a>
+</y>
+
+## Writing Styles
 
 The idea of how the utility is actually work in the Yogurt CSS framework. To get you to understand it in a more comprehensive way, let have a look at below the two HTML and CSS writing examples.
 
-Usually, CSS is written in a separate CSS file with file extension `.css` or in a `<style>` tag inside of the `<head>` tag, or write CSS is inside of an HTML tag, using the style attribute as an inline style. Like an example below:
+### Conventional Style
 
 <y class="box-panel">
   <y class="box-content">
-    <img theme=""
-         src="https://i.pravatar.cc/100">
+    <img src="https://i.pravatar.cc/100">
     <span>
       John Doe
     </span>
@@ -97,12 +110,13 @@ Usually, CSS is written in a separate CSS file with file extension `.css` or in 
 </style>
 ```
 
+### Yogurt Style
+
 When styling the elements with Yogurt, you don't have to write like the example above traditionally. You can create your styling to your component right away in the HTML instead.
 
 <y class="mx-auto my-8 max-w-xs">
   <y class="flex justify-center items-center px-4 py-8 bg-white rounded-lg shadow-md">
-    <img theme=""
-         class="h-16 w-16 rounded-full object-cover object-center overflow-hidden"
+    <img class="h-16 w-16 rounded-full object-cover object-center overflow-hidden"
          src="https://i.pravatar.cc/100">
     <y class="px-4 text-charcoal-100 text-lg">
       John Doe
@@ -114,7 +128,7 @@ When styling the elements with Yogurt, you don't have to write like the example 
 <!-- Example -->
 <y class="mx-auto my-8 max-w-xs">
   <y class="flex justify-center items-center px-4 py-8 bg-white rounded-lg shadow-md">
-    <img class="h-16 w-16 rounded-full object-cover object-center overflow-hidden"
+    <img class="h-16 w-16 object-cover object-center rounded-full overflow-hidden"
          src="https://i.pravatar.cc/100">
     <y class="px-4 text-charcoal-100 text-lg">
       John Doe
@@ -122,20 +136,3 @@ When styling the elements with Yogurt, you don't have to write like the example 
   </y>
 </y>
 ```
-
-To find out more about the [Tag Shorthand](/#tag-shorthand), [Utility Class Design](/#utility-class-design) and [Best Practice](/#best-practice).
-
-Read more about advanced framework usages such as [Import Framework](/import-framework/), [Extract Utility Classes](/extract-utility-classes/), [Refactoring UI](/refactoring-ui/), and [Plugin API](/plugin-api/).
-
----
-
-### Benefit
-
-Styling with Yogurt CSS framework, you benefit from:
-
-- Blazing fast prototyping and make it production-ready.
-- Instant refactoring your existing UI with Yogurt utility modules.
-- Your CSS file will never grow, and no new stylesheet needed.
-- Your design always maintains a balance between consistency and flexibility design.
-- You never have to worry about overwriting existing stylesheets nightmare.
-- Compatible to all web browsers, including the old one.

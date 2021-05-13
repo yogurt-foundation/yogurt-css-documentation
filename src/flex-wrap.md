@@ -2,6 +2,9 @@
 id: flex-wrap
 title: Flex Wrap
 description: Utilities for creates how flex items wrap.
+topic: Flexbox
+relate: flex, flex-gap, flex-direction, flex-grow, flex-shrink, align-content, align-items, align-self, justify-content
+variant: responsive
 layout: default
 ---
 
@@ -48,16 +51,7 @@ Utilities for creates how flex items wrap.
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | Yes |
-| Dark Theme | | |
-| hover| | |
-| group-hover | | |
-| focus | | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for flexwrap in variants.flexwrap %}{% for item in flexwrap.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+

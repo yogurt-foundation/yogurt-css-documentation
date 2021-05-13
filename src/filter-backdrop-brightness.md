@@ -2,6 +2,8 @@
 id: filter-backdrop-brightness
 title: Filter Backdrop Brightness
 description: Utilities for sets filter backdrop brightness effect to an element.
+topic: Filters
+relate: filter-backdrop-blur, filter-backdrop-contrast, filter-backdrop-saturate
 layout: default
 ---
 
@@ -39,17 +41,17 @@ Utilities for sets filter backdrop brightness effect to an element.
 
 | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
-| brightness-0 | --brightness: 0 |
-| brightness-1 | --brightness: 1 |
-| brightness-2 | --brightness: 1.10 |
-| brightness-3 | --brightness: 1.20 |
-| brightness-4 | --brightness: 1.30 |
-| brightness-5 | --brightness: 1.40 |
-| brightness-6 | --brightness: 1.50 |
-| brightness-7 | --brightness: 1.60 |
-| brightness-8 | --brightness: 1.70 |
-| brightness-9 | --brightness: 1.80 |
-| brightness-10 | --brightness: 1.90 |
+| brightness-0 | --backdrop-brightness: 0 |
+| brightness-1 | --backdrop-brightness: 1 |
+| brightness-2 | --backdrop-brightness: 1.10 |
+| brightness-3 | --backdrop-brightness: 1.20 |
+| brightness-4 | --backdrop-brightness: 1.30 |
+| brightness-5 | --backdrop-brightness: 1.40 |
+| brightness-6 | --backdrop-brightness: 1.50 |
+| brightness-7 | --backdrop-brightness: 1.60 |
+| brightness-8 | --backdrop-brightness: 1.70 |
+| brightness-9 | --backdrop-brightness: 1.80 |
+| brightness-10 | --backdrop-brightness: 1.90 |
 
 ---
 
@@ -68,7 +70,7 @@ Utilities for sets filter backdrop brightness effect to an element.
   <y class="m-2 w-1/2">
     <y class="flex justify-center items-center w-full h-48 bg-auto bg-center bg-no-repeat rounded-lg"
        style="background-image:url('https://picsum.photos/500?=4')">
-      <y class="backdrop-filter brightness-5 w-32 h-32 bg-gray-100 bg-opacity-50"></y>
+      <y class="backdrop-filter brightness-8 w-32 h-32 bg-gray-100 bg-opacity-50"></y>
     </y>
     <y class="pt-2 text-sm text-center">
       Filter: ON
@@ -118,38 +120,29 @@ Mix with other filters, such as [Backdrop Contrast](/filter-backdrop-contrast/),
 
 ---
 
-## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600" href="/plugin-api/">More</a>
+## Customization
+
+Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
 
 ```scss
-// @file: `src/_plugins.scss`
-@include plugin(
-  (
-    utility: 'backdrop.brightness',
-    //variant: 'responsive',
-    property: 'filter',
-    modifier: (
-      'brightness-11': '...',
-      'brightness-12': '...'
-      ...
-    )
+// Add Values
+@include yogurt(
+  $class: 'backdrop.brightness',
+  $property: --backdrop-brightness,
+  $modifier: (
+    1: 1.10,
+    2: 2.20
+    //...
   )
-)
+);
 ```
 
 ---
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | |
-| Dark Theme | | |
-| hover| | |
-| group-hover | | |
-| focus | | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for filterbackdropbrightness in variants.filterbackdropbrightness %}{% for item in filterbackdropbrightness.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+
+

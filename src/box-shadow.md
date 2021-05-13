@@ -2,6 +2,8 @@
 id: box-shadow
 title: Box Shadow
 description: Utilities for sets the box-shadow property attaches one or more shadows to an element.
+topic: Effects
+variant: hover, focus, focus-visible, focus-within
 layout: default
 ---
 
@@ -74,38 +76,44 @@ Set basic solid shadow to an element.
 
 ---
 
-## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600" href="/plugin-api/">More</a>
+## Customization
+
+Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
 
 ```scss
-// @file: `src/_plugins.scss`
-@include plugin(
-  (
-    utility: 'shadow',
-    //variant: 'responsive',
-    property: 'box-shadow',
-    modifier: (
-      '3xl': '...',
-      '4xl': '...'
-      ...
-    )
+// Add Values
+@include yogurt(
+  $class: 'shadow',
+  $property: box-shadow,
+  $modifier: (
+    xs: 0 0 0 1px rgba(0, 0, 0, 0.05),
+    sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05)
+    //...
   )
-)
+);
+
+// Add Variants
+@include yogurt(
+  $class: 'shadow',
+  $property: box-shadow,
+  $modifier: (
+    xs: 0 0 0 1px rgba(0, 0, 0, 0.05),
+    sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05)
+    //...
+  ),
+  $variant: (
+    'hover',
+    'focus', 'focus-within', 'focus-visible'
+    //...
+  )
+);
 ```
 
 ---
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | |
-| Dark Theme | | |
-| hover| Yes | |
-| group-hover | | |
-| focus | Yes | |
-| focus-visible | Yes | |
-| focus-within | Yes | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for boxshadow in variants.boxshadow %}{% for item in boxshadow.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+

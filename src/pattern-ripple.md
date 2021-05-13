@@ -2,6 +2,7 @@
 id: pattern-ripple
 title: Pattern Ripple
 description: Utilities for sets an element's background ripple pattern.
+topic: Patterns
 layout: default
 ---
 
@@ -21,13 +22,6 @@ Utilities for sets an element's background ripple pattern.
 | pattern <br> ripple-md | background-image: repeating-radial-gradient(circle at 0 0, transparent 0, currentColor 25px), repeating-linear-gradient( currentColor, transparent ) | <y class="pattern ripple-md w-32 h-56"></y> |
 | pattern <br> ripple-lg | background-image: repeating-radial-gradient(circle at 0 0, transparent 0, currentColor 50px), repeating-linear-gradient( currentColor, transparent ) | <y class="pattern ripple-lg w-32 h-56"></y> |
 | pattern <br> ripple-xl | background-image: repeating-radial-gradient(circle at 0 0, transparent 0, currentColor 100px), repeating-linear-gradient( currentColor, transparent ) | <y class="pattern ripple-xl w-32 h-56"></y> |
-
-<y class="m-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 (dark)bg-gray-800">
-  <span class="pr-1 font-semibold">
-    Note:
-  </span>
-  Utility customizing is unavailable.
-</y>
 
 ---
 
@@ -98,16 +92,7 @@ Set pattern clipping with text.
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | |
-| Dark Theme | | |
-| hover| | |
-| group-hover | | |
-| focus | | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for patternripple in variants.patternripple %}{% for item in patternripple.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+

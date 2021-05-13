@@ -2,6 +2,7 @@
 id: installation
 title: Installation
 description: Ways to install Yogurt CSS framework for your project.
+topic: Installation
 layout: default
 ---
 
@@ -78,7 +79,7 @@ $ npm i yogurt-css
 You can include the Yogurt CSS file from the `node_modules` directory with an HTML `<link>` tag or import the `yogurt.scss` into `.scss` file with `@import` directive.
 
 ```bash
-# JS (v1.1.0)
+# JS
 import 'yogurt-css'
 
 # SCSS/SASS

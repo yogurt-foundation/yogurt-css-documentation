@@ -2,6 +2,8 @@
 id: filter-backdrop-blur
 title: Filter Backdrop Blur
 description: Utilities for sets filter backdrop blur effect to an element.
+topic: Filters
+relate: filter-backdrop-brightness, filter-backdrop-contrast, filter-backdrop-saturate
 layout: default
 ---
 
@@ -39,17 +41,17 @@ Utilities for sets filter backdrop blur effect to an element.
 
 | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
-| blur-0 | --blur: 0px |
-| blur-1 | --blur: 2px |
-| blur-2 | --blur: 4px |
-| blur-3 | --blur: 6px |
-| blur-4 | --blur: 8px |
-| blur-5 | --blur: 10px |
-| blur-6 | --blur: 12px |
-| blur-7 | --blur: 14px |
-| blur-8 | --blur: 16px |
-| blur-9 | --blur: 18px |
-| blur-10 | --blur: 20px |
+| blur-0 | --backdrop-blur: 0px |
+| blur-1 | --backdrop-blur: 2px |
+| blur-2 | --backdrop-blur: 4px |
+| blur-3 | --backdrop-blur: 6px |
+| blur-4 | --backdrop-blur: 8px |
+| blur-5 | --backdrop-blur: 10px |
+| blur-6 | --backdrop-blur: 12px |
+| blur-7 | --backdrop-blur: 14px |
+| blur-8 | --backdrop-blur: 16px |
+| blur-9 | --backdrop-blur: 18px |
+| blur-10 | --backdrop-blur: 20px |
 
 ---
 
@@ -118,38 +120,29 @@ Mix with other filters, such as [Backdrop Brightness](/filter-backdrop-brightnes
 
 ---
 
-## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600" href="/plugin-api/">More</a>
+## Customization
+
+Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
 
 ```scss
-// @file: `src/_plugins.scss`
-@include plugin(
-  (
-    utility: 'backdrop.blur',
-    //variant: 'responsive',
-    property: 'filter',
-    modifier: (
-      'blur-11': '...px',
-      'blur-12': '...px'
-      ...
-    )
+// Add Values
+@include yogurt(
+  $class: 'backdrop.blur',
+  $property: --backdrop-blur,
+  $modifier: (
+    1: 1px,
+    2: 2px
+    //...
   )
-)
+);
 ```
 
 ---
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | |
-| Dark Theme | | |
-| hover| | |
-| group-hover | | |
-| focus | | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for filterbackdropblur in variants.filterbackdropblur %}{% for item in filterbackdropblur.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+
+

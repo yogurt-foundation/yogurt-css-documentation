@@ -2,6 +2,9 @@
 id: translate
 title: Translate
 description: Utilities for translate an element that has transform applied.
+topic: Transforms
+relate: transform, rotate, scale, skew
+variant: hover, group-hover, focus, group-focus, focus-visible, focus-within
 layout: default
 ---
 
@@ -104,16 +107,7 @@ Utilities for translate an element that has transform applied.
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | |
-| Dark Theme | | |
-| hover| Yes | |
-| group-hover | | |
-| focus | | |
-| focus-visible | Yes | |
-| focus-within | Yes | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for translate in variants.translate %}{% for item in translate.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+

@@ -104,7 +104,7 @@ button {
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   z-index: -1;
   background-color: #e2e8f0;
   transition: opacity 0.2s $easeOutQuint,
@@ -120,7 +120,7 @@ button {
 }
 
 .search-result .r-anchor-background {
-  background-color: #edf2f7;
+  background-color: #2d3748;
 }
 
 ul {

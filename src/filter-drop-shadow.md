@@ -2,6 +2,8 @@
 id: filter-drop-shadow
 title: Filter Drop Shadow
 description: Utilities for sets shadow filter to transparency image (SVG, PNG).
+topic: Filters
+relate: filter-blur, filter-brightness, filter-contrast, filter-saturate, filter-invert
 layout: default
 ---
 
@@ -76,38 +78,29 @@ Mix with other filters, such as [Brightness](/filter-brightness/), [Contrast](/f
 
 ---
 
-## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600" href="/plugin-api/">More</a>
+## Customization
+
+Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
 
 ```scss
-// @file: `src/_plugins.scss`
-@include plugin(
-  (
-    utility: 'filter.drop-shadow',
-    //variant: 'responsive',
-    property: '--drop-shadow',
-    modifier: (
-      '2xl': '0px 10px 15px rgba(0, 0, 0, 0.5)',
-      '3xl': '0px 10px 20px rgba(0, 0, 0, 0.5)'
-      //...
-    )
+// Add Values
+@include yogurt(
+  $class: 'filter.drop-shadow',
+  $property: --drop-shadow,
+  $modifier: (
+    2xl: 0px 10px 15px rgba(0, 0, 0, 0.5),
+    3xl: 0px 10px 20px rgba(0, 0, 0, 0.5)
+    //...
   )
-)
+);
 ```
 
 ---
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | |
-| Dark Theme | | |
-| hover| | |
-| group-hover | | |
-| focus | | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for filterdropshadow in variants.filterdropshadow %}{% for item in filterdropshadow.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+
+

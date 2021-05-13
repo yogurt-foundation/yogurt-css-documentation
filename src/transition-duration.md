@@ -2,6 +2,8 @@
 id: transition-duration
 title: Transition Duration
 description: Utilities for sets the length of time for a transition animations to complete.
+relate: transition-property, transition-timing
+topic: Transitions
 layout: default
 ---
 
@@ -138,38 +140,29 @@ Set transition duration `1000ms`.
 
 ---
 
-## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600" href="/plugin-api/">More</a>
+## Customization
+
+Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
 
 ```scss
-// @file: `src/_plugins.scss`
-@include plugin(
-  (
-    utility: 'duration',
-    //variant: 'responsive',
-    property: 'transition-duration',
-    modifier: (
-      '600': '...ms',
-      '800': '...ms'
-      ...
-    )
+// Add Values
+@include yogurt(
+  $class: 'duration',
+  $property: transition-duration,
+  $modifier: (
+    100: 100ms,
+    200: 200ms
+    //...
   )
-)
+);
 ```
 
 ---
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | |
-| Dark Theme | | |
-| hover| | |
-| group-hover | | |
-| focus | | |
-| focus-visible | Yes | |
-| focus-within | Yes | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for transitionduration in variants.transitionduration %}{% for item in transitionduration.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+
+

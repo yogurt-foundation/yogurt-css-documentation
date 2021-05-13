@@ -2,6 +2,9 @@
 id: border-width
 title: Border Width
 description: Utilities for sets border width in increments of 1px.
+topic: Borders
+relate: border-color, border-radius, border-style
+variant: focus
 layout: default
 ---
 
@@ -58,38 +61,43 @@ Utilities for sets border width in increments of 1px.
 
 ---
 
-## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600" href="/plugin-api/">More</a>
+## Customization
+
+Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
 
 ```scss
-// @file: `src/_plugins.scss`
-@include plugin(
-  (
-    utility: 'border',
-    //variant: 'responsive',
-    property: 'border',
-    modifier: (
-      '10': '...px',
-      '12': '...px'
-      ...
-    )
+// Add Values
+@include yogurt(
+  $class: 'border',
+  $property: border,
+  $modifier: (
+    1: 3px,
+    2: 6px
+    //...
   )
-)
+);
+
+// Add Variants
+@include yogurt(
+  $class: 'border',
+  $property: border,
+  $modifier: (
+    1: 3px,
+    2: 6px
+    //...
+  ),
+  $variant: (
+    'focus'
+    //...
+  )
+);
 ```
 
 ---
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | |
-| Dark Theme | | |
-| hover| | |
-| group-hover | | |
-| focus | Yes | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for borderwidth in variants.borderwidth %}{% for item in borderwidth.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+

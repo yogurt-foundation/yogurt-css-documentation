@@ -1,7 +1,8 @@
 ---
 id: font-family
 title: Font Family
-description: Utilities for sets the font family.
+description: Utilities for sets the font family and Google Fonts.
+topic: Typography
 layout: default
 ---
 
@@ -9,7 +10,7 @@ layout: default
 
 # Font Family
 
-Utilities for sets the font family.
+Utilities for sets the font family and Google Fonts.
 
 ---
 
@@ -51,39 +52,37 @@ Set font family to `<body>` as default.
 
 ---
 
-## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600" href="/plugin-api/">More</a>
+## Customization
+
+Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
 
 ```scss
-// @file: `src/_plugins.scss`
-@include plugin(
-  (
-    utility: 'font',
-    //variant: 'responsive',
-    property: 'font-family',
-    modifier: (
-      '...': '...',
-      '...': '...'
-      ...
-    )
+// Add Values
+@include yogurt(
+  $class: 'font',
+  $property: font-family,
+  $modifier: (
+    noto: Noto Serif,
+    droid: Droid Serif
+    //...
   )
-)
+);
 ```
 
 ### Google Fonts <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.0</span>
 
 #### Embed Google Fonts
 
-Use Yogurt dedicated API to embedding the Google Fonts in the framework without manually adding the line `@import url(...)`.
-
+Use Yogurt dedicated API to embedding the Google Fonts in the framework without manually adding the line `@import url(...);`.
 
 ```scss
-// @file: `src/_plugins.scss`
 @include google-fonts(
   (
     font: 'Alata',
     weight: '400;500;800'
   )
-)
+  //...
+);
 ```
 
 The generated code look like below in your Yogurt CSS final build.
@@ -97,7 +96,6 @@ The generated code look like below in your Yogurt CSS final build.
 To embed more than one Google Fonts.
 
 ```scss
-// @file: `src/_plugins.scss`
 @include google-fonts(
   (
     font: 'Alata',
@@ -107,53 +105,13 @@ To embed more than one Google Fonts.
     font: 'Lato',
     weight: '400;500'
   )
-)
-```
-
-After the embedding, you can create new utility by using the [Plugin API](/plugin-api/).
-
-```scss
-// @file: `src/_plugins.scss`
-@include google-fonts(
-  (
-    font: 'Alata',
-    weight: '400;500;800'
-  ),
-  (
-    font: 'Lato',
-    weight: '400;500'
-  )
-  // ...
-)
-
-@include plugin(
-  (
-    utility: 'font',
-    //variant: 'responsive',
-    property: 'font-family',
-    modifier: (
-      'alata': '"Alata", sans-serif',
-      'lato': '"Lato", sans-serif'
-    )
-    // ...
-  )
-)
+);
 ```
 
 ---
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | |
-| Dark Theme | | |
-| hover| | |
-| group-hover | | |
-| focus | | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for fontfamily in variants.fontfamily %}{% for item in fontfamily.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).

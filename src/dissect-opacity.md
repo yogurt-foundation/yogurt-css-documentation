@@ -2,6 +2,8 @@
 id: dissect-opacity
 title: Dissect Opacity
 description: Utilities for sets opacity to bottom border on each child elements of its parent.
+topic: Borders
+relate: dissect, dissect-color
 layout: default
 ---
 
@@ -23,13 +25,6 @@ Utilities for sets opacity to bottom border on each child elements of its parent
 | dissect-opacity-75 | --dissect-opacity: .75 |
 | dissect-opacity-100 | --dissect-opacity: 1 |
 
-<y class="m-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 (dark)bg-gray-800">
-  <span class="pr-1 font-semibold">
-    Note:
-  </span>
-  Utility customizing is unavailable.
-</y>
-
 ---
 
 ## Usage
@@ -47,9 +42,9 @@ Set `dissect-x-{value}` and `dissect-y-{value}` borders with `color` opacity to 
 ```html
 <!-- Example -->
 <y class="dissect-y-4 dissect-amber-400 dissect-opacity-50">
-  <y>1</y>
-  <y>2</y>
-  <y>3</y>
+  <y>...</y>
+  <y>...</y>
+  <y>...</y>
 </y>
 ```
 
@@ -66,9 +61,9 @@ Set `dissect-x-{value}` and `dissect-y-{value}` borders with `color` opacity to 
 ```html
 <!-- Example -->
 <y class="dissect-y-4 dissect-amber-400 dissect-opacity-25">
-  <y>1</y>
-  <y>2</y>
-  <y>3</y>
+  <y>...</y>
+  <y>...</y>
+  <y>...</y>
 </y>
 ```
 
@@ -76,16 +71,7 @@ Set `dissect-x-{value}` and `dissect-y-{value}` borders with `color` opacity to 
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | |
-| Dark Theme | | |
-| hover| Yes | |
-| group-hover | | |
-| focus | | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for dissectopacity in variants.dissectopacity %}{% for item in dissectopacity.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+

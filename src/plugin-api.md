@@ -2,126 +2,127 @@
 id: plugin-api
 title: Plugin API
 description: Using plugin API to create your utility module and use it right away without modifying any of the Yogurt core files.
+topic: Customization
 layout: default
 ---
 
 > Customization
 
-## Plugin API <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.0.8</span>
+# Plugin API <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.5</span>
 
-Using plugin API to create your utility module and use it right away without modifying any of the Yogurt core files. Yogurt will generates after you run the build. All you need is write your plugins in the `src/_plugins.scss` file.
+Using plugin API to create your utility module and use it right away without modifying any of the Yogurt core files. Yogurt will generates after you run the build. All you need is write your plugins in the `src/plugins.scss` file.
 
-<y class="my-4 mx-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 (dark)text-orange-500 bg-orange-200 (dark)bg-orange-900">
-  <span class="pr-1 font-semibold">
-    Note:
-  </span>
-  Use keyword for
-  <strong>
-    variant
-  </strong>
-  to apply pseudo class variants, such as
-  <strong>
-    hover, focus, active, visited, checked, disabled, responsive, responsive-hover, responsive-focus, responsive-active, responsive-visited, responsive-checked, responsive-disabled
-  </strong>.
-</y>
+## Directive
 
-### Example
+```scss
+// @param: {String}  $class
+// @param: {String}  $property
+// @param: {List}    $modifier [()]
+// @param: {List}    $variant [()]
+// @param: {Bool}    $negative [null]
+// @param: {String}  $option [null]
+
+@include yogurt(
+  // Classname
+  $class: 'text', // (e.g. .text-)
+  // CSS Property
+  $property: font-size,
+  // Classname Modifier
+  $modifier: (
+    // (output: .text-xs { font-size: 0.75rem })
+    xs: 0.75rem,
+    // (output: .text-sm { font-size: 0.875rem })
+    sm: 0.875rem
+  ),
+  // Enable Negative Value (true|false)
+  $negative: true,
+  // Add Operators
+  $option: '',
+  // Enable Variants Settings
+  $variant: (
+    'responsive',
+    'dark-mode', 'light-mode',
+    'reduce-motion',
+    'portrait', 'landscape',
+    'hover', 'group-hover',
+    'focus', 'group-focus', 'focus-visible', 'focus-within',
+    'active',
+    'visited',
+    'checked',
+    'disabled'
+  )
+);
+```
+
+### Examples
 
 Create basic utility.
 
 ```scss
-// @file: `src/_plugins.scss`
-@include plugin(
-  (
-    utility: 'text',
-    property: 'font-size',
-    modifier: (
-      'xs': '0.75rem',
-      'sm': '0.875rem'
-    )
+// @file: `src/plugins.scss`
+@include yogurt(
+  $class: 'text',
+  $property: font-size,
+  $modifier: (
+    xs: 0.75rem,
+    sm: 0.875rem
   )
-)
+);
 ```
 
-Create default responsive utility.
+Create responsive utility.
 
 ```scss
-// @file: `src/_plugins.scss`
-@include plugin(
-  (
-    utility: 'text',
-    variant: 'responsive',
-    property: 'font-size',
-    modifier: (
-      'xs': '0.75rem',
-      'sm': '0.875rem'
-    )
+// @file: `src/plugins.scss`
+@include yogurt(
+  $class: 'text',
+  $property: font-size,
+  $modifier: (
+    xs: 0.75rem,
+    sm: 0.875rem
+  ),
+  $variant: (
+    'responsive'
   )
-)
+);
 ```
 
 Create responsive utility with variants.
 
 ```scss
-// @file: `src/_plugins.scss`
-@include plugin(
-  (
-    utility: 'text',
-    variant: 'responsive-hover',
-    property: 'font-size',
-    modifier: (
-      'xs': '0.75rem',
-      'sm': '0.875rem'
-    )
+// @file: `src/plugins.scss`
+@include yogurt(
+  $class: 'text',
+  $property: font-size,
+  $modifier: (
+    xs: 0.75rem,
+    sm: 0.875rem
+  ),
+  $variant: (
+    'responsive',
+    'hover', 'group-hover'
   )
-)
+);
 ```
 
-Create an array of utilities.
+Create utility with negative values.
 
 ```scss
-// @file: `src/_plugins.scss`
-@include plugin(
-  (
-    utility: 'text',
-    property: 'font-size',
-    modifier: (
-      'xs': '0.75rem',
-      'sm': '0.875rem'
-    )
+// @file: `src/plugins.scss`
+@include yogurt(
+  $class: 'm',
+  $property: margin,
+  $modifier: (
+    1: 1rem,
+    2: 2rem
   ),
-  (
-    utility: 'text',
-    property: 'font-size',
-    variant: 'hover',
-    modifier: (
-      'xs': '0.75rem',
-      'sm': '0.875rem'
-    )
-  ),
-  (
-    utility: 'text',
-    property: 'font-size',
-    variant: 'responsive',
-    modifier: (
-      'xs': '0.75rem',
-      'sm': '0.875rem'
-    )
-  ),
-  (
-    utility: 'text',
-    property: 'font-size',
-    variant: 'responsive-hover',
-    modifier: (
-      'xs': '0.75rem',
-      'sm': '0.875rem'
-    )
-  ),
-  // ...
-)
+  $negative: true
+);
 ```
 
-After you finished editing the `_plugins.scss` file, run one of these commands every time you make changes to the Yogurt files. And pretty much it is done, you can try out your new utility module in your project.
+## Compile
+
+After you finished editing the `plugins.scss` file, run one of these commands every time you make changes to the Yogurt files. And pretty much it is done, you can try out your new utility modules in your project.
 
 ```bash
 # YARN
@@ -130,3 +131,14 @@ $ yarn build
 $ npm run build
 ```
 
+Compiled outputs are located in:
+
+- **CSS** output directory `./dist/`.
+- **SCSS** output directory (root) `./`.
+
+```bash
+(root directory)
+├── dist
+│   └── (CSS outputs)
+└── (SCSS output)
+```

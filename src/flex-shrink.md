@@ -2,6 +2,9 @@
 id: flex-shrink
 title: Flex Shrink
 description: Utilities for controls how flex items shrink.
+topic: Flexbox
+relate: flex, flex-gap, flex-direction, flex-grow, flex-wrap, align-content, align-items, align-self, justify-content
+variant: responsive
 layout: default
 ---
 
@@ -24,16 +27,7 @@ Utilities for controls how flex items shrink.
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | Yes |
-| Dark Theme | | |
-| hover| | |
-| group-hover | | |
-| focus | | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for flexshrink in variants.flexshrink %}{% for item in flexshrink.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+

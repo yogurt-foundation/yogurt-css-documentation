@@ -2,6 +2,8 @@
 id: border-collapse
 title: Border Collapse
 description: Utilities for collapse or separate table borders.
+topic: Tables
+relate: table-layout
 layout: default
 ---
 
@@ -24,16 +26,7 @@ Utilities for collapse or separate table borders.
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | |
-| Dark Theme | | |
-| hover| | |
-| group-hover | | |
-| focus | | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for bordercollapse in variants.bordercollapse %}{% for item in bordercollapse.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+

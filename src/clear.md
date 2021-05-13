@@ -2,6 +2,9 @@
 id: clear
 title: Clear
 description: Utilities for set whether an element is moved below preceding floated elements.
+topic: Layouts
+relate: box-sizing, container, render, display, float, object-fit, object-position, overflow, position, top/bottom/left/right, visibility, z-index
+variant: responsive
 layout: default
 ---
 
@@ -26,16 +29,6 @@ Utilities for set whether an element is moved below preceding floated elements.
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | Yes |
-| Dark Theme | | |
-| hover| | |
-| group-hover | | |
-| focus | | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for clear in variants.clear %}{% for item in clear.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).

@@ -2,6 +2,9 @@
 id: height
 title: Height
 description: Utilities for sets the height of an element.
+topic: Sizing
+relate: width, min-width, max-width, min-height, max-height
+variant: responsive, hover
 layout: default
 ---
 
@@ -79,38 +82,44 @@ Set full height in viewport screen to an element.
 
 ---
 
-## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600" href="/plugin-api/">More</a>
+## Customization
+
+Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
 
 ```scss
-// @file: `src/_plugins.scss`
-@include plugin(
-  (
-    utility: 'h',
-    //variant: 'responsive',
-    property: 'height',
-    modifier: (
-      '...': '...',
-      '...': '...'
-      ...
-    )
+// Add Values
+@include yogurt(
+  $class: 'h',
+  $property: height,
+  $modifier: (
+    1: 1rem,
+    2: 2rem
+    //...
   )
-)
+);
+
+// Add Variants
+@include yogurt(
+  $class: 'h',
+  $property: height,
+  $modifier: (
+    1: 1rem,
+    2: 2rem
+    //...
+  ),
+  $variant: (
+    'responsive',
+    'hover'
+    //...
+  )
+);
 ```
 
 ---
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | Yes |
-| Dark Theme | | |
-| hover| Yes | |
-| group-hover | | |
-| focus | | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for height in variants.height %}{% for item in height.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+

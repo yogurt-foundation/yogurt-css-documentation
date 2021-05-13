@@ -2,6 +2,9 @@
 id: gradient
 title: Gradient
 description: Utilities for sets the gradient preset diagonally to an element.
+topic: Effects
+relate: bg-gradient
+variant: dark-mode, hover, focus-visible, focus-within
 layout: default
 ---
 
@@ -241,18 +244,46 @@ Set default gradient to `<body>` tag.
 
 ---
 
+## Customization
+
+Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
+
+```scss
+// Add Values
+@include yogurt(
+  $class: 'gradient',
+  $property: background-image,
+  $modifier: (
+    warm-flame: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);,
+    night-shade: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    //...
+  )
+);
+
+// Add Variants
+@include yogurt(
+  $class: 'gradient',
+  $property: background-image,
+  $modifier: (
+    warm-flame: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);,
+    night-shade: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  //...
+  ),
+  $variant: (
+    'dark-mode',
+    'hover',
+    'focus-within', 'focus-visible'
+    //...
+  )
+);
+```
+
+---
+
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | |
-| Dark Theme | Yes | |
-| hover| Yes | |
-| group-hover | | |
-| focus | | |
-| focus-visible | Yes | |
-| focus-within | Yes | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for gradient in variants.gradient %}{% for item in gradient.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+
+

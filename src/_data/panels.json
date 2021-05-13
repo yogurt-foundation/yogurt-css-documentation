@@ -1,0 +1,52 @@
+{
+  "gettingstarted": [
+    {
+      "panels": [
+        {
+          "title": "Read the Docs",
+          "desc": "Learn how to get Yogurt set up in your project.",
+          "url": "/installation/",
+          "button": "Start Learning",
+          "target": "_self",
+          "buttonbg": "bg-transparent",
+          "buttonbghover": "(hover)bg-gray-100",
+          "gradientstart": "start-gray-500",
+          "gradientend": "stop-gray-800"
+        },
+        {
+          "title": "Playground",
+          "desc": "Build or testing something with Yogurt online.",
+          "url": "/playground/",
+          "button": "Start Testing",
+          "target": "_blank",
+          "buttonbg": "bg-transparent",
+          "buttonbghover": "(hover)bg-gray-100",
+          "gradientstart": "start-gray-100",
+          "gradientend": "stop-gray-400"
+        },
+        {
+          "title": "Create Empty Project",
+          "desc": "Build project from scratch without CLI.",
+          "url": "/create-empty-project/",
+          "button": "Start Creating",
+          "target": "_self",
+          "buttonbg": "bg-transparent",
+          "buttonbghover": "(hover)bg-gray-100",
+          "gradientstart": "start-gray-500",
+          "gradientend": "stop-gray-800"
+        },
+        {
+          "title": "Utility Map",
+          "desc": "All yogurt utilities and components at a glance.",
+          "url": "/utility-map/",
+          "button": "Start Looking",
+          "target": "_self",
+          "buttonbg": "bg-transparent",
+          "buttonbghover": "(hover)bg-gray-100",
+          "gradientstart": "start-gray-100",
+          "gradientend": "stop-gray-400"
+        }
+      ]
+    }
+  ]
+}

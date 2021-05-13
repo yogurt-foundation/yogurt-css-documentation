@@ -2,6 +2,8 @@
 id: filter-blur
 title: Filter Blur
 description: Utilities for sets filter blur effect to an element.
+topic: Filters
+relate: filter-brightness, filter-contrast, filter-saturate, filter-invert, filter-drop-shadow
 layout: default
 ---
 
@@ -9,7 +11,7 @@ layout: default
 
 # Blur <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.0.9</span>
 
-Utilities for sets filter blur effect to an element.
+Utility applies a Gaussian blur to the element.
 
 ---
 
@@ -46,7 +48,7 @@ Utilities for sets filter blur effect to an element.
     </y>
   </y>
   <y class="m-2 max-w-sm">
-    <img class="filter blur-2 w-full h-48 object-fit object-center overflow-hidden rounded-lg"
+    <img class="filter blur-2 w-full h-48 object-cover object-center overflow-hidden rounded-lg"
          src="https://picsum.photos/500?=4">
     <y class="pt-2 text-sm text-center">
       Filter: ON
@@ -78,38 +80,28 @@ Mix with other filters, such as [Brightness](/filter-brightness/), [Contrast](/f
 
 ---
 
-## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600" href="/plugin-api/">More</a>
+## Customization
+
+Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
 
 ```scss
-// @file: `src/_plugins.scss`
-@include plugin(
-  (
-    utility: 'blur',
-    //variant: 'responsive',
-    property: 'filter',
-    modifier: (
-      'blur-11': '...',
-      'blur-12': '...'
-      ...
-    )
+// Add Values
+@include yogurt(
+  $class: 'filter.blur',
+  $property: --blur,
+  $modifier: (
+    1: 1.10,
+    2: 2.20
+    //...
   )
-)
+);
 ```
 
 ---
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | |
-| Dark Theme | | |
-| hover| | |
-| group-hover | | |
-| focus | | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for filterblur in variants.filterblur %}{% for item in filterblur.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+

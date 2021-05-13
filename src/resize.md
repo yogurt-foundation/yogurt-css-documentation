@@ -2,6 +2,8 @@
 id: resize
 title: Resize
 description: Utilities for sets whether an element is resizable, along with direction.
+topic: Interactivity
+variant: responsive
 layout: default
 ---
 
@@ -26,16 +28,7 @@ Utilities for sets whether an element is resizable, along with direction.
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | Yes |
-| Dark Theme | | |
-| hover| | |
-| group-hover | | |
-| focus | | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for resize in variants.resize %}{% for item in resize.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+

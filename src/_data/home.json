@@ -1,0 +1,20 @@
+{
+  "features": [
+    {
+      "items": [
+        {
+          "title": "SEO and non-SEO Web UI",
+          "desc": "Create web UI running on both embedded or mainstream platforms."
+        },
+        {
+          "title": "Up to 8K Screen Size",
+          "desc": "Craft high-precision and detailed UI for the bigger screen resolution."
+        },
+        {
+          "title": "Blazing Fast Prototyping",
+          "desc": "Meanwhile maintains a balance between consistency and flexibility design."
+        }
+      ]
+    }
+  ]
+}

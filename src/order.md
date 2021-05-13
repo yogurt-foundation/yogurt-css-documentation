@@ -2,6 +2,8 @@
 id: order
 title: Order
 description: Utilities for controls how flex items are ordered.
+topic: Flexbox
+variant: responsive
 layout: default
 ---
 
@@ -35,38 +37,43 @@ Utilities for controls how flex items are ordered.
 
 ---
 
-## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600" href="/plugin-api/">More</a>
+## Customization
+
+Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
 
 ```scss
-// @file: `src/_plugins.scss`
-@include plugin(
-  (
-    utility: 'order',
-    //variant: 'responsive',
-    property: 'order',
-    modifier: (
-      '13': '...',
-      '14': '...'
-      //...
-    )
+// Add Values
+@include yogurt(
+  $class: 'order',
+  $property: order,
+  $modifier: (
+    1: 1,
+    2: 2
+    //...
   )
-)
+);
+
+// Add Variants
+@include yogurt(
+  $class: 'order',
+  $property: order,
+  $modifier: (
+    1: 1,
+    2: 2
+    //...
+  ),
+  $variant: (
+    'responsive'
+    //...
+  )
+);
 ```
 
 ---
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | Yes |
-| Dark Theme | | |
-| hover| | |
-| group-hover | | |
-| focus | | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for order in variants.order %}{% for item in order.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+

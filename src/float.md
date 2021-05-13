@@ -2,6 +2,8 @@
 id: float
 title: Float
 description: Utilities for sets an element's placement to a side of its container and allows content to wrap around it.
+topic: Layouts
+variant: responsive
 layout: default
 ---
 
@@ -26,16 +28,6 @@ Utilities for sets an element's placement to a side of its container and allows 
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | Yes |
-| Dark Theme | | |
-| hover| | |
-| group-hover | | |
-| focus | | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for float in variants.float %}{% for item in float.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).

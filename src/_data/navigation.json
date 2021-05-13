@@ -1,7 +1,9 @@
 {
-  "sections": [{
+  "sections": [
+    {
       "label": "Layout",
-      "items": [{
+      "items": [
+        {
           "label": "Box Sizing",
           "url": "/box-sizing/"
         },
@@ -58,10 +60,11 @@
     },
     {
       "label": "Typography",
-      "items": [{
+      "items": [
+        {
           "label": "Font Family",
           "url": "/font-family/",
-          "version": "v1.1.0 (partial)"
+          "version": ""
         },
         {
           "label": "Font Size",
@@ -78,7 +81,7 @@
         {
           "label": "Font Kerning",
           "url": "/font-kerning/",
-          "version": "v1.1.1"
+          "version": ""
         },
         {
           "label": "Font Weight",
@@ -136,7 +139,7 @@
         {
           "label": "Writing Mode",
           "url": "/writing-mode/",
-          "version": "v1.1.1"
+          "version": ""
         },
         {
           "label": "Word Break",
@@ -146,26 +149,28 @@
     },
     {
       "label": "Spacing",
-      "items": [{
+      "items": [
+        {
           "label": "Equal",
           "url": "/equal/",
-          "version": "v1.0.8 (partial)"
+          "version": ""
         },
         {
           "label": "Margin",
           "url": "/margin/",
-          "version": "v1.1.3 (partial)"
+          "version": ""
         },
         {
           "label": "Padding",
           "url": "/padding/",
-          "version": "v1.1.3 (partial)"
+          "version": ""
         }
       ]
     },
     {
       "label": "Backgrounds",
-      "items": [{
+      "items": [
+        {
           "label": "Background Attachment",
           "url": "/background-attachment/"
         },
@@ -190,7 +195,7 @@
         {
           "label": "Background Opacity",
           "url": "/background-opacity/",
-          "version": "v1.0.8"
+          "version": ""
         },
         {
           "label": "Background Position",
@@ -208,7 +213,8 @@
     },
     {
       "label": "Borders",
-      "items": [{
+      "items": [
+        {
           "label": "Border Color",
           "url": "/border-color/"
         },
@@ -227,45 +233,47 @@
         {
           "label": "Dissect",
           "url": "/dissect/",
-          "version": "v1.0.8"
+          "version": ""
         },
         {
           "label": "Dissect Color",
           "url": "/dissect-color/",
-          "version": "v1.0.8"
+          "version": ""
         },
         {
           "label": "Dissect Opacity",
           "url": "/dissect-opacity/",
-          "version": "v1.0.8"
+          "version": ""
         }
       ]
     },
     {
       "label": "Fluids",
-      "items": [{
+      "items": [
+        {
           "label": "Fluid Font Size",
           "url": "/fluid-font-size/",
-          "version": "v1.0.8"
+          "version": ""
         },
         {
           "label": "Fluid Margin",
           "url": "/fluid-margin/",
-          "version": "v1.0.8 (partial)"
+          "version": ""
         },
         {
           "label": "Fluid Padding",
           "url": "/fluid-padding/",
-          "version": "v1.0.8 (partial)"
+          "version": ""
         }
       ]
     },
     {
       "label": "Effects",
-      "items": [{
+      "items": [
+        {
           "label": "Box Shadow",
           "url": "/box-shadow/",
-          "version": "v1.1.0 (partial)"
+          "version": ""
         },
         {
           "label": "Box Shadow Color",
@@ -287,10 +295,11 @@
     },
     {
       "label": "Sizing",
-      "items": [{
+      "items": [
+        {
           "label": "Width",
           "url": "/width/",
-          "version": "v1.1.3 (partial)"
+          "version": ""
         },
         {
           "label": "Min Width",
@@ -303,7 +312,7 @@
         {
           "label": "Height",
           "url": "/height/",
-          "version": "v1.1.3 (partial)"
+          "version": ""
         },
         {
           "label": "Min Height",
@@ -317,7 +326,8 @@
     },
     {
       "label": "Flexbox",
-      "items": [{
+      "items": [
+        {
           "label": "Flex",
           "url": "/flex/"
         },
@@ -328,7 +338,7 @@
         {
           "label": "Flex Gap",
           "url": "/flex-gap/",
-          "version": "v1.1.0"
+          "version": ""
         },
         {
           "label": "Flex Grow",
@@ -345,22 +355,22 @@
         {
           "label": "Align Items",
           "url": "/align-items/",
-          "version": "v1.1.1 (partial)"
+          "version": ""
         },
         {
           "label": "Align Content",
           "url": "/align-content/",
-          "version": "v1.1.1 (partial)"
+          "version": ""
         },
         {
           "label": "Align Self",
           "url": "/align-self/",
-          "version": "v1.1.1 (partial)"
+          "version": ""
         },
         {
           "label": "Justify Content",
           "url": "/justify-content/",
-          "version": "v1.1.1 (partial)"
+          "version": ""
         },
         {
           "label": "Order",
@@ -370,14 +380,15 @@
     },
     {
       "label": "Interactivity",
-      "items": [{
+      "items": [
+        {
           "label": "Appearance",
           "url": "/appearance/"
         },
         {
           "label": "Cursor",
           "url": "/cursor/",
-          "version": "v1.1.2 (partial)"
+          "version": ""
         },
         {
           "label": "Outline",
@@ -386,7 +397,7 @@
         {
           "label": "Overscroll",
           "url": "/overscroll/",
-          "version": "v1.1.0"
+          "version": ""
         },
         {
           "label": "Pointer Events",
@@ -399,17 +410,17 @@
         {
           "label": "Scroll Smooth",
           "url": "/scroll-behavior/",
-          "version": "v1.1.1"
+          "version": ""
         },
         {
           "label": "Scroll Snap",
           "url": "/scroll-snap/",
-          "version": "v1.1.0"
+          "version": ""
         },
         {
           "label": "Touch Action",
           "url": "/touch-action/",
-          "version": "v1.1.1"
+          "version": ""
         },
         {
           "label": "User Select",
@@ -419,7 +430,8 @@
     },
     {
       "label": "Filters",
-      "items": [{
+      "items": [
+        {
           "label": "Brightness",
           "url": "/filter-brightness/",
           "version": ""
@@ -451,28 +463,29 @@
         {
           "label": "Backdrop Brightness",
           "url": "/filter-backdrop-brightness/",
-          "version": "v1.1.0"
+          "version": ""
         },
         {
           "label": "Backdrop Blur",
           "url": "/filter-backdrop-blur/",
-          "version": "v1.1.0"
+          "version": ""
         },
         {
           "label": "Backdrop Contrast",
           "url": "/filter-backdrop-contrast/",
-          "version": "v1.1.0"
+          "version": ""
         },
         {
           "label": "Backdrop Saturate",
           "url": "/filter-backdrop-saturate/",
-          "version": "v1.1.0"
+          "version": ""
         }
       ]
     },
     {
       "label": "Patterns",
-      "items": [{
+      "items": [
+        {
           "label": "Checks",
           "url": "/pattern-checks/",
           "version": ""
@@ -480,17 +493,17 @@
         {
           "label": "Circle",
           "url": "/pattern-circle/",
-          "version": "v1.1.2"
+          "version": ""
         },
         {
           "label": "Ripple",
           "url": "/pattern-ripple/",
-          "version": "v1.1.2"
+          "version": ""
         },
         {
           "label": "Rhombus",
           "url": "/pattern-rhombus/",
-          "version": "v1.1.2"
+          "version": ""
         },
         {
           "label": "Cross Dots",
@@ -551,7 +564,8 @@
     },
     {
       "label": "Transforms",
-      "items": [{
+      "items": [
+        {
           "label": "Transform Origin",
           "url": "/transform-origin/"
         },
@@ -575,7 +589,8 @@
     },
     {
       "label": "Transitions",
-      "items": [{
+      "items": [
+        {
           "label": "Transition Property",
           "url": "/transition-property/"
         },
@@ -591,7 +606,8 @@
     },
     {
       "label": "Animations",
-      "items": [{
+      "items": [
+        {
           "label": "Animation Delay",
           "url": "/animation-delay/",
           "version": ""
@@ -604,7 +620,7 @@
         {
           "label": "Animation Loop",
           "url": "/animation-loop/",
-          "version": "v1.1.1"
+          "version": ""
         },
         {
           "label": "Blur",
@@ -630,7 +646,8 @@
     },
     {
       "label": "Tables",
-      "items": [{
+      "items": [
+        {
           "label": "Border Collapse",
           "url": "/border-collapse/"
         },
@@ -642,7 +659,8 @@
     },
     {
       "label": "Theme",
-      "items": [{
+      "items": [
+        {
           "label": "Theme Auto",
           "url": "/theme-auto/",
           "version": ""
@@ -656,40 +674,44 @@
     },
     {
       "label": "Rendering",
-      "items": [{
+      "items": [
+        {
           "label": "Image",
           "url": "/image-rendering/",
-          "version": "v1.1.3"
+          "version": ""
         }
       ]
     },
     {
       "label": "SVG",
-      "items": [{
+      "items": [
+        {
           "label": "Fill",
-          "url": "/fill/"
+          "url": "/svg-fill/"
         },
         {
           "label": "Stroke",
-          "url": "/stroke/"
+          "url": "/svg-stroke/"
         },
         {
           "label": "Stroke Width",
-          "url": "/stroke-width/"
+          "url": "/svg-stroke-width/"
         },
         {
           "label": "Stroke Line Cap",
-          "url": "/stroke-linecap/",
-          "version": "v1.1.1"
+          "url": "/svg-stroke-linecap/",
+          "version": ""
         }
       ]
     },
     {
       "label": "Accessibility",
-      "items": [{
-        "label": "Screen Reader",
-        "url": "/screen-reader/"
-      }]
+      "items": [
+        {
+          "label": "Screen Reader",
+          "url": "/screen-reader/"
+        }
+      ]
     }
   ]
 }

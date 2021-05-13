@@ -2,6 +2,9 @@
 id: z-index
 title: Z-Index
 description: Utilities for sets the z order (stack order) of a positioned element.
+topic: Layouts
+relate: box-sizing, clear, container, render, display, float, object-fit, object-position, overflow, position, top/bottom/left/right, visibility
+variant: hover, focus-visible, focus-within
 layout: default
 ---
 
@@ -56,38 +59,44 @@ Utilities for sets the z order (stack order) of a positioned element.
 
 ---
 
-## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600" href="/plugin-api/">More</a>
+## Customization
+
+Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
 
 ```scss
-// @file: `src/_plugins.scss`
-@include plugin(
-  (
-    utility: 'z-60',
-    //variant: 'responsive',
-    property: 'z-index',
-    modifier: (
-      '60': '...',
-      '70': '...'
-      ...
-    )
+// Add Values
+@include yogurt(
+  $class: 'z',
+  $property: z-index,
+  $modifier: (
+    10: 10,
+    20: 20
+    //...
   )
-)
+);
+
+// Add Variants
+@include yogurt(
+  $class: 'z',
+  $property: z-index,
+  $modifier: (
+    10: 10,
+    20: 20
+    //...
+  ),
+  $variant: (
+    'responsive',
+    'hover',
+    'focus-within', 'focus-visible'
+    //...
+  )
+);
 ```
 
 ---
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | Yes |
-| Dark Theme | | |
-| hover| Yes | |
-| group-hover | | |
-| focus | | |
-| focus-visible | Yes | |
-| focus-within | Yes | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for zindex in variants.zindex %}{% for item in zindex.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).

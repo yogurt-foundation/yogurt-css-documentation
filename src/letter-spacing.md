@@ -2,6 +2,8 @@
 id: letter-spacing
 title: Letter Spacing
 description: Utilities for sets the spacing between letters.
+topic: Typography
+variant: responsive
 layout: default
 ---
 
@@ -37,38 +39,41 @@ Utilities for sets the spacing between letters.
 
 ---
 
-## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600" href="/plugin-api/">More</a>
+## Customization
+
+Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
 
 ```scss
-// @file: `src/_plugins.scss`
-@include plugin(
-  (
-    utility: 'gap',
-    //variant: 'responsive',
-    property: 'letter-spacing',
-    modifier: (
-      'super': '.5em',
-      'ultra': '1em'
-      ...
-    )
+// Add Values
+@include yogurt(
+  $class: 'gap',
+  $property: letter-spacing,
+  $modifier: (
+    super: .5em,
+    ultra: 1em
+    //...
   )
-)
+);
+
+// Add Variants
+@include yogurt(
+  $class: 'gap',
+  $property: letter-spacing,
+  $modifier: (
+    super: .5em,
+    ultra: 1em
+    //...
+  ),
+  $variant: (
+    'responsive'
+  )
+);
 ```
 
 ---
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | Yes |
-| Dark Theme | | |
-| hover| | |
-| group-hover | | |
-| focus | | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for letterspacing in variants.letterspacing %}{% for item in letterspacing.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).

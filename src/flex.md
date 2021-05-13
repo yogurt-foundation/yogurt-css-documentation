@@ -2,6 +2,9 @@
 id: flex
 title: Flex
 description: Utilities for controls how flex items grow and shrink.
+topic: Flexbox
+relate: flex-gap, flex-direction, flex-grow, flex-shrink, flex-wrap, align-content, align-items, align-self, justify-content
+variant: responsive
 layout: default
 ---
 
@@ -38,16 +41,7 @@ Utilities for controls how flex items grow and shrink.
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | Yes |
-| Dark Theme | | |
-| hover| | |
-| group-hover | | |
-| focus | | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for flex in variants.flex %}{% for item in flex.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+

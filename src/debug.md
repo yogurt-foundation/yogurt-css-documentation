@@ -2,6 +2,7 @@
 id: debugger
 title: Debugger
 description: Utilities for inspecting screen sizes and errors in spacing or overlapping elements.
+topic: Debug
 layout: default
 ---
 
@@ -19,13 +20,6 @@ Utilities for inspecting screen sizes and errors in spacing or overlapping eleme
 |:--|:--|
 | debug="outline" | background: rgba(255, 0, 0, 0.1); <br> box-shadow: 0 0 0 1px red; <br> outline: 1px solid red |
 | debug="screen" <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.0</span> | @media (min-width: `{screen}`) { [debug="screen"]::after { content: "`{size}`" }} |
-
-<y class="m-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 (dark)bg-gray-800">
-  <span class="pr-1 font-semibold">
-    Note:
-  </span>
-  Utility customizing is unavailable.
-</y>
 
 ---
 
@@ -92,18 +86,3 @@ Apply `debug="screen"` to inspect the current screen size. The indicator will di
 
 ---
 
-## Variant
-
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | | |
-| Dark Theme | | |
-| hover| | |
-| group-hover | | |
-| focus | | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |

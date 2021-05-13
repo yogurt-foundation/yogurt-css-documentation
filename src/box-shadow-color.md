@@ -2,6 +2,8 @@
 id: box-shadow-color
 title: Box Shadow Color
 description: Utilities for sets the shadow color.
+topic: Effects
+variant: dark-mode, focus-visible, focus-within
 layout: default
 ---
 
@@ -378,13 +380,6 @@ Utilities for sets the shadow color to an element.
 | shadow-xl-pink-900 | box-shadow: 0 0 25px #702459 | <y class="w-16 h-6 rounded bg-white shadow-xl-pink-900"></y> |
 | shadow-2xl-pink-900 | box-shadow: 0 0 50px #702459 | <y class="w-16 h-6 rounded bg-white shadow-2xl-pink-900"></y> |
 
-<y class="m-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 (dark)bg-gray-800">
-  <span class="pr-1 font-semibold">
-    Note:
-  </span>
-  Utility customizing is unavailable.
-</y>
-
 ---
 
 ## Usage
@@ -409,18 +404,45 @@ Utilities for sets the shadow color to an element.
 
 ---
 
+## Customization
+
+Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
+
+```scss
+// Add Values
+@include yogurt(
+  $class: 'shadow-md-gray',
+  $property: box-shadow,
+  $modifier: (
+    100: 0 0 6px #262626,
+    200: 0 0 6px #252525
+    //...
+  )
+);
+
+// Add Variants
+@include yogurt(
+  $class: 'shadow-md-gray',
+  $property: box-shadow,
+  $modifier: (
+    100: 0 0 6px #262626,
+    200: 0 0 6px #252525
+    //...
+  ),
+  $variant: (
+    'dark-mode',
+    'focus-within', 'focus-visible'
+    //...
+  )
+);
+```
+
+---
+
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | |
-| Dark Theme | Yes | |
-| hover| | |
-| group-hover | | |
-| focus | | |
-| focus-visible | Yes | |
-| focus-within | Yes | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for boxshadowcolor in variants.boxshadowcolor %}{% for item in boxshadowcolor.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+
+

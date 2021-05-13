@@ -2,6 +2,8 @@
 id: dissect
 title: Dissect
 description: Utilities for sets bottom border on each child elements of its parent.
+topic: Borders
+relate: dissect-color, dissect-opacity
 layout: default
 ---
 
@@ -30,13 +32,6 @@ Utilities for sets bottom border on each child elements of its parent.
 | dissect-x-reverse | --dissect-x-reverse: 1 |
 | dissect-y-reverse | --dissect-y-reverse: 1 |
 
-<y class="m-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 (dark)bg-gray-800">
-  <span class="pr-1 font-semibold">
-    Note:
-  </span>
-  Utility customizing is unavailable.
-</y>
-
 ---
 
 ## Usage
@@ -54,9 +49,9 @@ Set borders in between the elements horizontally, must companion with [flex](/fl
 ```html
 <!-- Example -->
 <y class="flex dissect-x-4">
-  <y>1</y>
-  <y>2</y>
-  <y>3</y>
+  <y>...</y>
+  <y>...</y>
+  <y>...</y>
 </y>
 ```
 
@@ -73,9 +68,9 @@ Set borders in between the elements vertically.
 ```html
 <!-- Example -->
 <y class="dissect-y-4">
-  <y>1</y>
-  <y>2</y>
-  <y>3</y>
+  <y>...</y>
+  <y>...</y>
+  <y>...</y>
 </y>
 ```
 
@@ -83,16 +78,7 @@ Set borders in between the elements vertically.
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | |
-| Dark Theme | | |
-| hover| | |
-| group-hover | | |
-| focus | | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for dissect in variants.dissect %}{% for item in dissect.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+

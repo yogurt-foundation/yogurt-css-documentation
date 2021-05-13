@@ -2,10 +2,12 @@
 id: background-border
 title: Background Border
 description: Utilities for sets background border to an element with flexible control over the border spacing, size, angle and length.
+topic: Background
+relate: background-attachment, background-blend, background-color, background-gradient, background-opacity, background-position, background-repeat, background-size
 layout: default
 ---
 
-> Background
+> Backgrounds
 
 # Background Border <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.0.9</span>
 
@@ -134,68 +136,58 @@ Set background border solid and thicker.
 
 ---
 
-## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600" href="/plugin-api/">More</a>
+## Customization
+
+Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
 
 ```scss
-// @file: `src/_plugins.scss`
-@include plugin(
-  (
-    utility: 'length',
-    //variant: 'responsive',
-    property: '--bg-border-length',
-    modifier: (
-      '90': '90',
-      '100': '100'
-      //...
-    )
-  ),
-  (
-    utility: 'size',
-    //variant: 'responsive',
-    property: '--bg-border-size',
-    modifier: (
-      '64': '64px',
-      '72': '72px'
-      //...
-    )
-  ),
-  (
-    utility: 'space',
-    //variant: 'responsive',
-    property: '--bg-border-space',
-    modifier: (
-      '90': '90px',
-      '100': '100px'
-      //...
-    )
-  ),
-  (
-    utility: 'angle',
-    //variant: 'responsive',
-    property: '--bg-border-angle',
-    modifier: (
-      '90': '80deg',
-      '80': '90deg'
-      //...
-    )
+// Add Values
+@include yogurt(
+  $class: 'bg-border.length',
+  $property: --bg-border-length,
+  $modifier: (
+    90: 90,
+    100: 100
+    //...
   )
-)
+);
+
+@include yogurt(
+  $class: 'bg-border.size',
+  $property: --bg-border-size,
+  $modifier: (
+    64: 64px,
+    72: 72px
+    //...
+  )
+);
+
+@include yogurt(
+  $class: 'bg-border.space',
+  $property: --bg-border-space,
+  $modifier: (
+    90: 90px,
+    100: 100px
+    //...
+  )
+);
+
+@include yogurt(
+  $class: 'bg-border.angle',
+  $property: --bg-border-angle,
+  $modifier: (
+    80: 90deg,
+    90: 90deg
+    //...
+  )
+);
 ```
 
 ---
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | |
-| Dark Theme | | |
-| hover| | |
-| group-hover | | |
-| focus | | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for backgroundborder in variants.backgroundborder %}{% for item in backgroundborder.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+

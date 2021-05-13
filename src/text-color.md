@@ -2,6 +2,8 @@
 id: text-color
 title: Text Color
 description: Utilities for sets the text color.
+topic: Typography
+variant: dark-mode, hover, group-hover, focus, group-focus, focus-visible, focus-within, active, visited
 layout: default
 ---
 
@@ -171,38 +173,47 @@ Set default text color to `<body>` tag.
 
 ---
 
-## Customize <a class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600" href="/plugin-api/">More</a>
+## Customization
+
+Read more information about using the [Plugin API](/plugin-api/), and  [Responsive](/responsive) or [Pseudo-Class Variants](/pseudo-class-variants/) configuration with the Plugin API.
 
 ```scss
-// @file: `src/_plugins.scss`
-@include plugin(
-  (
-    utility: 'text-new-color',
-    //variant: 'responsive',
-    property: 'color',
-    modifier: (
-      '100': '#...',
-      '200': '#...'
-      ...
-    )
+// Add Values
+@include yogurt(
+  $class: 'text-gray',
+  $property: color,
+  $modifier: (
+    100: #252525,
+    200: #262626
+    //...
   )
-)
+);
+
+// Add Variants
+@include yogurt(
+  $class: 'text-gray',
+  $property: color,
+  $modifier: (
+    100: #252525,
+    200: #262626
+    //...
+  ),
+  $variant: (
+    'responsive',
+    'dark-mode',
+    'hover', 'group-hover',
+    'focus', 'focus-within', 'focus-visible',
+    'active',
+    'visited'
+    //...
+  )
+);
 ```
 
 ---
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | |
-| Dark Theme | Yes | |
-| hover| Yes | |
-| group-hover | Yes | |
-| focus | Yes | |
-| focus-visible | Yes | |
-| focus-within | Yes | |
-| active | Yes | |
-| visited | Yes | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for textcolor in variants.textcolor %}{% for item in textcolor.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).

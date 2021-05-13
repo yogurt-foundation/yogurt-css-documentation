@@ -2,6 +2,8 @@
 id: filter-invert
 title: Filter Invert
 description: Utilities for sets filter invert effect to an element.
+topic: Filters
+relate: filter-blur, filter-brightness, filter-contrast, filter-saturate, filter-drop-shadow
 layout: default
 ---
 
@@ -65,16 +67,7 @@ Utilities for sets filter inverts effect to an element.
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | |
-| Dark Theme | | |
-| hover| | |
-| group-hover | | |
-| focus | | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for filterinvert in variants.filterinvert %}{% for item in filterinvert.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+

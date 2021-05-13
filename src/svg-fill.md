@@ -1,15 +1,16 @@
 ---
-id: stroke
-title: Stroke
-description: Utilities for sets the outline color of an SVG.
+id: fill
+title: SVG
+description: Utilities for sets the color to paint an SVG.
+topic: SVG
 layout: default
 ---
 
 > SVG
 
-# Stroke
+# Fill
 
-Utilities for sets the outline color of an SVG.
+Utilities for sets the color to paint an SVG.
 
 ---
 
@@ -17,16 +18,16 @@ Utilities for sets the outline color of an SVG.
 
 | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
-| stroke-current | stroke: currentColor |
+| fill-current | fill: currentColor |
 
 ---
 
 ## Usage
 
-Set a SVG image with stroke color overrides by using `text-{color}` utility. (See [Text Color](/text-color/)).
+Set a SVG image with color overrides by using `text-{color}` utility. (See [Text Color](/text-color/)).
 
 <y class="px-4 my-2 mx-auto w-56">
-  <svg class="w-full h-24 stroke-current text-amber-400" role="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 46.8 46.8" enable-background="new 0 0 46.8 46.8" xml:space="preserve">
+  <svg class="w-full h-24 fill-current text-amber-400" role="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 46.8 46.8" enable-background="new 0 0 46.8 46.8" xml:space="preserve">
   <g>
   	<path display="none" fill="#FFFFFF" d="M49.8,45.3c-16.3,0-32.5,0-48.8,0C1,30.6,1,16,1,1.4c16.3,0,32.5,0,48.8,0
   		C49.8,16,49.8,30.6,49.8,45.3z M8.8,38.6c0.1-0.2,0.2-0.3,0.3-0.5c3.3-5.9,6.7-11.8,9.9-17.8c1.5-2.7,1.4-1.8,1.4-5.2
@@ -52,7 +53,7 @@ Set a SVG image with stroke color overrides by using `text-{color}` utility. (Se
 
 ```html
 <!-- Example -->
-<svg class="stroke-current text-amber-400">
+<svg class="fill-current text-amber-400">
   ...
 </svg>
 ```
@@ -61,16 +62,7 @@ Set a SVG image with stroke color overrides by using `text-{color}` utility. (Se
 
 ## Variant
 
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | |
-| Dark Theme | | |
-| hover| | |
-| group-hover | | |
-| focus | | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |
+<y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for svgfill in variants.svgfill %}{% for item in svgfill.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
+
+Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+

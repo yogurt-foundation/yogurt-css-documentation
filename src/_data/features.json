@@ -1,17 +1,56 @@
 {
-  "features": [{
-    "items": [{
-        "title": "SEO and non-SEO Web UI",
-        "desc": "Create web UI running on both embedded or mainstream platforms."
-      },
-      {
-        "title": "Up to 8K Screen Size",
-        "desc": "Craft high-precision and detailed UI for the bigger screen resolution."
-      },
-      {
-        "title": "Blazing Fast Prototyping",
-        "desc": "Meanwhile maintains a balance between consistency and flexibility design."
-      }
-    ]
-  }]
+  "gettingstarted": [
+    {
+      "items": [
+        {
+          "title": "Breakpoints",
+          "url": "/responsive/"
+        },
+        {
+          "title": "Dark/Light Mode",
+          "url": "/getting-started-themes/"
+        },
+        {
+          "title": "Variants",
+          "url": "/pseudo-class-variants/"
+        },
+        {
+          "title": "Color Palette",
+          "url": "/getting-started-palette/"
+        },
+        {
+          "title": "Gradient Presets",
+          "url": "/getting-started-gradient/"
+        },
+        {
+          "title": "Custom Gradient",
+          "url": "/background-gradient/"
+        },
+        {
+          "title": "Animations",
+          "url": "/getting-started-animations/"
+        },
+        {
+          "title": "Filters",
+          "url": "/getting-started-filters/"
+        },
+        {
+          "title": "Patterns",
+          "url": "/getting-started-patterns/"
+        },
+        {
+          "title": "Fluids",
+          "url": "/getting-started-fluids/"
+        },
+        {
+          "title": "Orientation",
+          "url": "/getting-started-orientation"
+        },
+        {
+          "title": "Plugin API",
+          "url": "/plugin-api/"
+        }
+      ]
+    }
+  ]
 }
