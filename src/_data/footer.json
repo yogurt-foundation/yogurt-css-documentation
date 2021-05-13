@@ -11,7 +11,7 @@
         {
           "label": "IntelliSense",
           "url": "/intellisense/",
-          "target": "_blank"
+          "target": "_self"
         },
         {
           "label": "Playground",
