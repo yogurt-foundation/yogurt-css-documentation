@@ -3,7 +3,7 @@ id: border-radius
 title: Border Radius
 description: Utilities for sets border radius.
 topic: Borders
-relate: border-color, border-style, border-width
+relate: border-color, border-style, border-width, curve-object
 variant: responsive
 layout: default
 ---

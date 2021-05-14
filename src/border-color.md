@@ -3,7 +3,7 @@ id: border-color
 title: Border Color
 description: Utilities for sets border color.
 topic: Borders
-relate: border-radius, border-style, border-width
+relate: border-radius, border-style, border-width, curve-object
 variant: dark-mode, hover, focus-visible, focus-within
 layout: default
 ---

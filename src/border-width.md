@@ -3,7 +3,7 @@ id: border-width
 title: Border Width
 description: Utilities for sets border width in increments of 1px.
 topic: Borders
-relate: border-color, border-radius, border-style
+relate: border-color, border-radius, border-style, curve-object
 variant: focus
 layout: default
 ---
