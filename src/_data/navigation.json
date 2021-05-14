@@ -147,7 +147,10 @@
         { "label": "Drop Shadow", "url": "/filter-drop-shadow/" },
         { "label": "Invert", "url": "/filter-invert/" },
         { "label": "Saturate", "url": "/filter-saturate/" },
-        { "label": "Backdrop Brightness", "url": "/filter-backdrop-brightness/" },
+        {
+          "label": "Backdrop Brightness",
+          "url": "/filter-backdrop-brightness/"
+        },
         { "label": "Backdrop Blur", "url": "/filter-backdrop-blur/" },
         { "label": "Backdrop Contrast", "url": "/filter-backdrop-contrast/" },
         { "label": "Backdrop Saturate", "url": "/filter-backdrop-saturate/" }
@@ -168,7 +171,10 @@
         { "label": "Diagonal Lines", "url": "/pattern-diagonal-lines/" },
         { "label": "Diagonal Stripes", "url": "/pattern-diagonal-stripes/" },
         { "label": "Horizontal Lines", "url": "/pattern-horizontal-lines/" },
-        { "label": "Horizontal Stripes", "url": "/pattern-horizontal-stripes/" },
+        {
+          "label": "Horizontal Stripes",
+          "url": "/pattern-horizontal-stripes/"
+        },
         { "label": "Vertical Lines", "url": "/pattern-vertical-lines/" },
         { "label": "Vertical Stripes", "url": "/pattern-vertical-stripes/" }
       ]
@@ -204,6 +210,14 @@
       ]
     },
     {
+      "label": "Clipping",
+      "items": [
+        { "label": "Clip Polygon", "url": "/clip-polygon/" },
+        { "label": "Clip Circle", "url": "/clip-circle/" },
+        { "label": "Clip Ellipse", "url": "/clip-ellipse/" }
+      ]
+    },
+    {
       "label": "Tables",
       "items": [
         { "label": "Border Collapse", "url": "/border-collapse/" },
@@ -219,9 +233,7 @@
     },
     {
       "label": "Rendering",
-      "items": [
-        { "label": "Image", "url": "/image-rendering/" }
-      ]
+      "items": [{ "label": "Image", "url": "/image-rendering/" }]
     },
     {
       "label": "SVG",
@@ -234,9 +246,7 @@
     },
     {
       "label": "Accessibility",
-      "items": [
-        { "label": "Screen Reader", "url": "/screen-reader/" }
-      ]
+      "items": [{ "label": "Screen Reader", "url": "/screen-reader/" }]
     }
   ]
 }

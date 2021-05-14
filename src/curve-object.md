@@ -171,7 +171,7 @@ Read more information about using the [Plugin API](/plugin-api/), and  [Responsi
 ```scss
 // Add Values
 @include yogurt(
-  $class: 'cur-object',
+  $class: 'curve-object',
   $property: border-radius,
   $modifier: (
     abstract-a: (20% 40% 20% 60% / 70% 30% 20% 50%),
