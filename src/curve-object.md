@@ -160,8 +160,8 @@ Utilities for set border-radius to draw multiple curves abstract object to an el
 <!-- Example -->
 <y class="
   curve-object
-  rad-tl-10 rad-tr-100 rad-br-10 rad-bl-100
-  cur-ltb-10 cur-rtb-100 cur-lbt-100 cur-rbt-100
+  rad-tl-0 rad-tr-100 rad-br-0 rad-bl-100
+  cur-ltb-0 cur-rtb-100 cur-lbt-100 cur-rbt-100
   ... bg-teal-600
 "></y>
 ```
