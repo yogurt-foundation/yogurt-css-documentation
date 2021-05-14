@@ -7,7 +7,7 @@ relate: clip-circle, clip-ellipse
 layout: default
 ---
 
-> Rendering
+> Clipping
 
 # Clip Polygon <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.6</span>
 
