@@ -1,5 +1,5 @@
 ---
-id: cur-object
+id: curve-object
 title: Curve Object
 description: Utilities for set border-radius to draw multiple curves abstract object to an element.
 topic: Borders
@@ -19,7 +19,7 @@ Utilities for set border-radius to draw multiple curves abstract object to an el
 
 | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
-| cur-object `{radius-top-left}` `{radius-top-right}` `{radius-bottom-right}` `{radius-bottom-left}` `{cur-left-top-bottom}` `{cur-right-top-bottom}` `{cur-right-bottom-top}` `{cur-left-bottom-top}`| border-radius: var(--radius-top-left) var(--radius-top-right) var(--radius-bottom-right) var(--radius-bottom-left) / var(--cur-left-top-bottom) var(--cur-right-top-bottom) var(--cur-right-bottom-top) var(--cur-left-bottom-top); |
+| curve-object `{radius-top-left}` `{radius-top-right}` `{radius-bottom-right}` `{radius-bottom-left}` `{cur-left-top-bottom}` `{cur-right-top-bottom}` `{cur-right-bottom-top}` `{cur-left-bottom-top}`| border-radius: var(--radius-top-left) var(--radius-top-right) var(--radius-bottom-right) var(--radius-bottom-left) / var(--cur-left-top-bottom) var(--cur-right-top-bottom) var(--cur-right-bottom-top) var(--cur-left-bottom-top); |
 
 | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> | |
 |:--|:--|:-:|
