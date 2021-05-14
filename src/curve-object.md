@@ -134,10 +134,8 @@ Utilities for set border-radius to draw multiple curves abstract object to an el
       z-10
       absolute top-0 left-0
       curve-object
-      rad-tl-0 rad-tr-100
-      rad-br-0 rad-bl-100
-      cur-ltb-0 cur-rtb-100
-      cur-lbt-100 cur-rbt-100 ...
+      rad-tr-100 rad-bl-100
+      cur-rtb-100 cur-lbt-100 cur-rbt-100 ...
       transform (group-hover)scale-50 (group-hover)rotate-45 ...
       transition duration-200 ease ...
       bg-teal-400 w-48 h-48
@@ -160,8 +158,8 @@ Utilities for set border-radius to draw multiple curves abstract object to an el
 <!-- Example -->
 <y class="
   curve-object
-  rad-tl-0 rad-tr-100 rad-br-0 rad-bl-100
-  cur-ltb-0 cur-rtb-100 cur-lbt-100 cur-rbt-100
+  rad-tr-100 rad-bl-100
+  cur-rtb-100 cur-lbt-100 cur-rbt-100
   ... bg-teal-600
 "></y>
 ```
