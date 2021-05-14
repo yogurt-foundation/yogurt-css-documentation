@@ -3,714 +3,239 @@
     {
       "label": "Layout",
       "items": [
-        {
-          "label": "Box Sizing",
-          "url": "/box-sizing/"
-        },
-        {
-          "label": "Clear",
-          "url": "/clear/"
-        },
-        {
-          "label": "Container",
-          "url": "/container/"
-        },
-        {
-          "label": "Display",
-          "url": "/display/"
-        },
-        {
-          "label": "Float",
-          "url": "/float/"
-        },
-        {
-          "label": "Object Fit",
-          "url": "/object-fit/"
-        },
-        {
-          "label": "Object Position",
-          "url": "/object-position/"
-        },
-        {
-          "label": "Overflow",
-          "url": "/overflow/"
-        },
-        {
-          "label": "Position",
-          "url": "/position/"
-        },
-        {
-          "label": "Render",
-          "url": "/content-visibility/",
-          "version": ""
-        },
-        {
-          "label": "Top/Bottom/Left/Right",
-          "url": "/top-bottom-left-right/"
-        },
-        {
-          "label": "Visibility",
-          "url": "/visibility/"
-        },
-        {
-          "label": "Z-Index",
-          "url": "/z-index/"
-        }
+        { "label": "Box Sizing", "url": "/box-sizing/" },
+        { "label": "Clear", "url": "/clear/" },
+        { "label": "Container", "url": "/container/" },
+        { "label": "Display", "url": "/display/" },
+        { "label": "Float", "url": "/float/" },
+        { "label": "Object Fit", "url": "/object-fit/" },
+        { "label": "Object Position", "url": "/object-position/" },
+        { "label": "Overflow", "url": "/overflow/" },
+        { "label": "Position", "url": "/position/" },
+        { "label": "Render", "url": "/content-visibility/" },
+        { "label": "Top/Bottom/Left/Right", "url": "/top-bottom-left-right/" },
+        { "label": "Visibility", "url": "/visibility/" },
+        { "label": "Z-Index", "url": "/z-index/" }
       ]
     },
     {
       "label": "Typography",
       "items": [
-        {
-          "label": "Font Family",
-          "url": "/font-family/",
-          "version": ""
-        },
-        {
-          "label": "Font Size",
-          "url": "/font-size/"
-        },
-        {
-          "label": "Font Smoothing",
-          "url": "/font-smoothing/"
-        },
-        {
-          "label": "Font Style",
-          "url": "/font-style/"
-        },
-        {
-          "label": "Font Kerning",
-          "url": "/font-kerning/",
-          "version": ""
-        },
-        {
-          "label": "Font Weight",
-          "url": "/font-weight/"
-        },
-        {
-          "label": "Letter Spacing",
-          "url": "/letter-spacing/"
-        },
-        {
-          "label": "Line Height",
-          "url": "/line-height/"
-        },
-        {
-          "label": "List Style Type",
-          "url": "/list-style-type/"
-        },
-        {
-          "label": "List Style Position",
-          "url": "/list-style-position/"
-        },
-        {
-          "label": "Placeholder Color",
-          "url": "/placeholder-color/"
-        },
-        {
-          "label": "Text Align",
-          "url": "/text-align/"
-        },
-        {
-          "label": "Text Color",
-          "url": "/text-color/"
-        },
-        {
-          "label": "Text Clamp",
-          "url": "/text-clamp/",
-          "version": ""
-        },
-        {
-          "label": "Text Decoration",
-          "url": "/text-decoration/"
-        },
-        {
-          "label": "Text Transform",
-          "url": "/text-transform/"
-        },
-        {
-          "label": "Vertical Align",
-          "url": "/vertical-align/"
-        },
-        {
-          "label": "Whitespace",
-          "url": "/whitespace/"
-        },
-        {
-          "label": "Writing Mode",
-          "url": "/writing-mode/",
-          "version": ""
-        },
-        {
-          "label": "Word Break",
-          "url": "/word-break/"
-        }
+        { "label": "Font Family", "url": "/font-family/" },
+        { "label": "Font Size", "url": "/font-size/" },
+        { "label": "Font Smoothing", "url": "/font-smoothing/" },
+        { "label": "Font Style", "url": "/font-style/" },
+        { "label": "Font Kerning", "url": "/font-kerning/" },
+        { "label": "Font Weight", "url": "/font-weight/" },
+        { "label": "Letter Spacing", "url": "/letter-spacing/" },
+        { "label": "Line Height", "url": "/line-height/" },
+        { "label": "List Style Type", "url": "/list-style-type/" },
+        { "label": "List Style Position", "url": "/list-style-position/" },
+        { "label": "Placeholder Color", "url": "/placeholder-color/" },
+        { "label": "Text Align", "url": "/text-align/" },
+        { "label": "Text Color", "url": "/text-color/" },
+        { "label": "Text Clamp", "url": "/text-clamp/" },
+        { "label": "Text Decoration", "url": "/text-decoration/" },
+        { "label": "Text Transform", "url": "/text-transform/" },
+        { "label": "Vertical Align", "url": "/vertical-align/" },
+        { "label": "Whitespace", "url": "/whitespace/" },
+        { "label": "Writing Mode", "url": "/writing-mode/" },
+        { "label": "Word Break", "url": "/word-break/" }
       ]
     },
     {
       "label": "Spacing",
       "items": [
-        {
-          "label": "Equal",
-          "url": "/equal/",
-          "version": ""
-        },
-        {
-          "label": "Margin",
-          "url": "/margin/",
-          "version": ""
-        },
-        {
-          "label": "Padding",
-          "url": "/padding/",
-          "version": ""
-        }
+        { "label": "Equal", "url": "/equal/" },
+        { "label": "Margin", "url": "/margin/" },
+        { "label": "Padding", "url": "/padding/" }
       ]
     },
     {
       "label": "Backgrounds",
       "items": [
-        {
-          "label": "Background Attachment",
-          "url": "/background-attachment/"
-        },
-        {
-          "label": "Background Blend",
-          "url": "/background-blend/"
-        },
-        {
-          "label": "Background Border",
-          "url": "/background-border/",
-          "version": ""
-        },
-        {
-          "label": "Background Color",
-          "url": "/background-color/"
-        },
-        {
-          "label": "Background Gradient",
-          "url": "/background-gradient/",
-          "version": ""
-        },
-        {
-          "label": "Background Opacity",
-          "url": "/background-opacity/",
-          "version": ""
-        },
-        {
-          "label": "Background Position",
-          "url": "/background-position/"
-        },
-        {
-          "label": "Background Repeat",
-          "url": "/background-repeat/"
-        },
-        {
-          "label": "Background Size",
-          "url": "/background-size/"
-        }
+        { "label": "Background Attachment", "url": "/background-attachment/" },
+        { "label": "Background Blend", "url": "/background-blend/" },
+        { "label": "Background Border", "url": "/background-border/" },
+        { "label": "Background Color", "url": "/background-color/" },
+        { "label": "Background Gradient", "url": "/background-gradient/" },
+        { "label": "Background Opacity", "url": "/background-opacity/" },
+        { "label": "Background Position", "url": "/background-position/" },
+        { "label": "Background Repeat", "url": "/background-repeat/" },
+        { "label": "Background Size", "url": "/background-size/" }
       ]
     },
     {
       "label": "Borders",
       "items": [
-        {
-          "label": "Border Color",
-          "url": "/border-color/"
-        },
-        {
-          "label": "Border Radius",
-          "url": "/border-radius/"
-        },
-        {
-          "label": "Border Style",
-          "url": "/border-style/"
-        },
-        {
-          "label": "Border Width",
-          "url": "/border-width/"
-        },
-        {
-          "label": "Dissect",
-          "url": "/dissect/",
-          "version": ""
-        },
-        {
-          "label": "Dissect Color",
-          "url": "/dissect-color/",
-          "version": ""
-        },
-        {
-          "label": "Dissect Opacity",
-          "url": "/dissect-opacity/",
-          "version": ""
-        }
+        { "label": "Border Color", "url": "/border-color/" },
+        { "label": "Border Radius", "url": "/border-radius/" },
+        { "label": "Border Style", "url": "/border-style/" },
+        { "label": "Border Width", "url": "/border-width/" },
+        { "label": "Curve Object", "url": "/curve-object/" },
+        { "label": "Dissect", "url": "/dissect/" },
+        { "label": "Dissect Color", "url": "/dissect-color/" },
+        { "label": "Dissect Opacity", "url": "/dissect-opacity/" }
       ]
     },
     {
       "label": "Fluids",
       "items": [
-        {
-          "label": "Fluid Font Size",
-          "url": "/fluid-font-size/",
-          "version": ""
-        },
-        {
-          "label": "Fluid Margin",
-          "url": "/fluid-margin/",
-          "version": ""
-        },
-        {
-          "label": "Fluid Padding",
-          "url": "/fluid-padding/",
-          "version": ""
-        }
+        { "label": "Fluid Font Size", "url": "/fluid-font-size/" },
+        { "label": "Fluid Margin", "url": "/fluid-margin/" },
+        { "label": "Fluid Padding", "url": "/fluid-padding/" }
       ]
     },
     {
       "label": "Effects",
       "items": [
-        {
-          "label": "Box Shadow",
-          "url": "/box-shadow/",
-          "version": ""
-        },
-        {
-          "label": "Box Shadow Color",
-          "url": "/box-shadow-color/"
-        },
-        {
-          "label": "Gradient",
-          "url": "/gradient/"
-        },
-        {
-          "label": "Mix Blend",
-          "url": "/mix-blend/"
-        },
-        {
-          "label": "Opacity",
-          "url": "/opacity/"
-        }
+        { "label": "Box Shadow", "url": "/box-shadow/" },
+        { "label": "Box Shadow Color", "url": "/box-shadow-color/" },
+        { "label": "Gradient", "url": "/gradient/" },
+        { "label": "Mix Blend", "url": "/mix-blend/" },
+        { "label": "Opacity", "url": "/opacity/" }
       ]
     },
     {
       "label": "Sizing",
       "items": [
-        {
-          "label": "Width",
-          "url": "/width/",
-          "version": ""
-        },
-        {
-          "label": "Min Width",
-          "url": "/min-width/"
-        },
-        {
-          "label": "Max Width",
-          "url": "/max-width/"
-        },
-        {
-          "label": "Height",
-          "url": "/height/",
-          "version": ""
-        },
-        {
-          "label": "Min Height",
-          "url": "/min-height/"
-        },
-        {
-          "label": "Max Height",
-          "url": "/max-height/"
-        }
+        { "label": "Width", "url": "/width/" },
+        { "label": "Min Width", "url": "/min-width/" },
+        { "label": "Max Width", "url": "/max-width/" },
+        { "label": "Height", "url": "/height/" },
+        { "label": "Min Height", "url": "/min-height/" },
+        { "label": "Max Height", "url": "/max-height/" }
       ]
     },
     {
       "label": "Flexbox",
       "items": [
-        {
-          "label": "Flex",
-          "url": "/flex/"
-        },
-        {
-          "label": "Flex Direction",
-          "url": "/flex-direction/"
-        },
-        {
-          "label": "Flex Gap",
-          "url": "/flex-gap/",
-          "version": ""
-        },
-        {
-          "label": "Flex Grow",
-          "url": "/flex-grow/"
-        },
-        {
-          "label": "Flex Shrink",
-          "url": "/flex-shrink/"
-        },
-        {
-          "label": "Flex Wrap",
-          "url": "/flex-wrap/"
-        },
-        {
-          "label": "Align Items",
-          "url": "/align-items/",
-          "version": ""
-        },
-        {
-          "label": "Align Content",
-          "url": "/align-content/",
-          "version": ""
-        },
-        {
-          "label": "Align Self",
-          "url": "/align-self/",
-          "version": ""
-        },
-        {
-          "label": "Justify Content",
-          "url": "/justify-content/",
-          "version": ""
-        },
-        {
-          "label": "Order",
-          "url": "/order/"
-        }
+        { "label": "Flex", "url": "/flex/" },
+        { "label": "Flex Direction", "url": "/flex-direction/" },
+        { "label": "Flex Gap", "url": "/flex-gap/" },
+        { "label": "Flex Grow", "url": "/flex-grow/" },
+        { "label": "Flex Shrink", "url": "/flex-shrink/" },
+        { "label": "Flex Wrap", "url": "/flex-wrap/" },
+        { "label": "Align Items", "url": "/align-items/" },
+        { "label": "Align Content", "url": "/align-content/" },
+        { "label": "Align Self", "url": "/align-self/" },
+        { "label": "Justify Content", "url": "/justify-content/" },
+        { "label": "Order", "url": "/order/" }
       ]
     },
     {
       "label": "Interactivity",
       "items": [
-        {
-          "label": "Appearance",
-          "url": "/appearance/"
-        },
-        {
-          "label": "Cursor",
-          "url": "/cursor/",
-          "version": ""
-        },
-        {
-          "label": "Outline",
-          "url": "/outline/"
-        },
-        {
-          "label": "Overscroll",
-          "url": "/overscroll/",
-          "version": ""
-        },
-        {
-          "label": "Pointer Events",
-          "url": "/pointer-events/"
-        },
-        {
-          "label": "Resize",
-          "url": "/resize/"
-        },
-        {
-          "label": "Scroll Smooth",
-          "url": "/scroll-behavior/",
-          "version": ""
-        },
-        {
-          "label": "Scroll Snap",
-          "url": "/scroll-snap/",
-          "version": ""
-        },
-        {
-          "label": "Touch Action",
-          "url": "/touch-action/",
-          "version": ""
-        },
-        {
-          "label": "User Select",
-          "url": "/user-select/"
-        }
+        { "label": "Appearance", "url": "/appearance/" },
+        { "label": "Cursor", "url": "/cursor/" },
+        { "label": "Outline", "url": "/outline/" },
+        { "label": "Overscroll", "url": "/overscroll/" },
+        { "label": "Pointer Events", "url": "/pointer-events/" },
+        { "label": "Resize", "url": "/resize/" },
+        { "label": "Scroll Smooth", "url": "/scroll-behavior/" },
+        { "label": "Scroll Snap", "url": "/scroll-snap/" },
+        { "label": "Touch Action", "url": "/touch-action/" },
+        { "label": "User Select", "url": "/user-select/" }
       ]
     },
     {
       "label": "Filters",
       "items": [
-        {
-          "label": "Brightness",
-          "url": "/filter-brightness/",
-          "version": ""
-        },
-        {
-          "label": "Blur",
-          "url": "/filter-blur/",
-          "version": ""
-        },
-        {
-          "label": "Contrast",
-          "url": "/filter-contrast/",
-          "version": ""
-        },
-        {
-          "label": "Drop Shadow",
-          "url": "/filter-drop-shadow/",
-          "version": ""
-        },
-        {
-          "label": "Invert",
-          "url": "/filter-invert/"
-        },
-        {
-          "label": "Saturate",
-          "url": "/filter-saturate/",
-          "version": ""
-        },
-        {
-          "label": "Backdrop Brightness",
-          "url": "/filter-backdrop-brightness/",
-          "version": ""
-        },
-        {
-          "label": "Backdrop Blur",
-          "url": "/filter-backdrop-blur/",
-          "version": ""
-        },
-        {
-          "label": "Backdrop Contrast",
-          "url": "/filter-backdrop-contrast/",
-          "version": ""
-        },
-        {
-          "label": "Backdrop Saturate",
-          "url": "/filter-backdrop-saturate/",
-          "version": ""
-        }
+        { "label": "Brightness", "url": "/filter-brightness/" },
+        { "label": "Blur", "url": "/filter-blur/" },
+        { "label": "Contrast", "url": "/filter-contrast/" },
+        { "label": "Drop Shadow", "url": "/filter-drop-shadow/" },
+        { "label": "Invert", "url": "/filter-invert/" },
+        { "label": "Saturate", "url": "/filter-saturate/" },
+        { "label": "Backdrop Brightness", "url": "/filter-backdrop-brightness/" },
+        { "label": "Backdrop Blur", "url": "/filter-backdrop-blur/" },
+        { "label": "Backdrop Contrast", "url": "/filter-backdrop-contrast/" },
+        { "label": "Backdrop Saturate", "url": "/filter-backdrop-saturate/" }
       ]
     },
     {
       "label": "Patterns",
       "items": [
-        {
-          "label": "Checks",
-          "url": "/pattern-checks/",
-          "version": ""
-        },
-        {
-          "label": "Circle",
-          "url": "/pattern-circle/",
-          "version": ""
-        },
-        {
-          "label": "Ripple",
-          "url": "/pattern-ripple/",
-          "version": ""
-        },
-        {
-          "label": "Rhombus",
-          "url": "/pattern-rhombus/",
-          "version": ""
-        },
-        {
-          "label": "Cross Dots",
-          "url": "/pattern-cross-dots/",
-          "version": ""
-        },
-        {
-          "label": "Dots",
-          "url": "/pattern-dots/",
-          "version": ""
-        },
-        {
-          "label": "Grid",
-          "url": "/pattern-grid/",
-          "version": ""
-        },
-        {
-          "label": "Triangles",
-          "url": "/pattern-triangles/",
-          "version": ""
-        },
-        {
-          "label": "Zigzag",
-          "url": "/pattern-zigzag/",
-          "version": ""
-        },
-        {
-          "label": "Diagonal Lines",
-          "url": "/pattern-diagonal-lines/",
-          "version": ""
-        },
-        {
-          "label": "Diagonal Stripes",
-          "url": "/pattern-diagonal-stripes/",
-          "version": ""
-        },
-        {
-          "label": "Horizontal Lines",
-          "url": "/pattern-horizontal-lines/",
-          "version": ""
-        },
-        {
-          "label": "Horizontal Stripes",
-          "url": "/pattern-horizontal-stripes/",
-          "version": ""
-        },
-        {
-          "label": "Vertical Lines",
-          "url": "/pattern-vertical-lines/",
-          "version": ""
-        },
-        {
-          "label": "Vertical Stripes",
-          "url": "/pattern-vertical-stripes/",
-          "version": ""
-        }
+        { "label": "Checks", "url": "/pattern-checks/" },
+        { "label": "Circle", "url": "/pattern-circle/" },
+        { "label": "Ripple", "url": "/pattern-ripple/" },
+        { "label": "Rhombus", "url": "/pattern-rhombus/" },
+        { "label": "Cross Dots", "url": "/pattern-cross-dots/" },
+        { "label": "Dots", "url": "/pattern-dots/" },
+        { "label": "Grid", "url": "/pattern-grid/" },
+        { "label": "Triangles", "url": "/pattern-triangles/" },
+        { "label": "Zigzag", "url": "/pattern-zigzag/" },
+        { "label": "Diagonal Lines", "url": "/pattern-diagonal-lines/" },
+        { "label": "Diagonal Stripes", "url": "/pattern-diagonal-stripes/" },
+        { "label": "Horizontal Lines", "url": "/pattern-horizontal-lines/" },
+        { "label": "Horizontal Stripes", "url": "/pattern-horizontal-stripes/" },
+        { "label": "Vertical Lines", "url": "/pattern-vertical-lines/" },
+        { "label": "Vertical Stripes", "url": "/pattern-vertical-stripes/" }
       ]
     },
     {
       "label": "Transforms",
       "items": [
-        {
-          "label": "Transform Origin",
-          "url": "/transform-origin/"
-        },
-        {
-          "label": "Rotate",
-          "url": "/rotate/"
-        },
-        {
-          "label": "Scale",
-          "url": "/scale/"
-        },
-        {
-          "label": "Skew",
-          "url": "/skew/"
-        },
-        {
-          "label": "Translate",
-          "url": "/translate/"
-        }
+        { "label": "Transform Origin", "url": "/transform-origin/" },
+        { "label": "Rotate", "url": "/rotate/" },
+        { "label": "Scale", "url": "/scale/" },
+        { "label": "Skew", "url": "/skew/" },
+        { "label": "Translate", "url": "/translate/" }
       ]
     },
     {
       "label": "Transitions",
       "items": [
-        {
-          "label": "Transition Property",
-          "url": "/transition-property/"
-        },
-        {
-          "label": "Transition Duration",
-          "url": "/transition-duration/"
-        },
-        {
-          "label": "Transition Timing",
-          "url": "/transition-timing/"
-        }
+        { "label": "Transition Property", "url": "/transition-property/" },
+        { "label": "Transition Duration", "url": "/transition-duration/" },
+        { "label": "Transition Timing", "url": "/transition-timing/" }
       ]
     },
     {
       "label": "Animations",
       "items": [
-        {
-          "label": "Animation Delay",
-          "url": "/animation-delay/",
-          "version": ""
-        },
-        {
-          "label": "Animation Duration",
-          "url": "/animation-duration/",
-          "version": ""
-        },
-        {
-          "label": "Animation Loop",
-          "url": "/animation-loop/",
-          "version": ""
-        },
-        {
-          "label": "Blur",
-          "url": "/animation-blur/",
-          "version": ""
-        },
-        {
-          "label": "Fade",
-          "url": "/animation-fade/",
-          "version": ""
-        },
-        {
-          "label": "Roll",
-          "url": "/animation-roll/",
-          "version": ""
-        },
-        {
-          "label": "Slide",
-          "url": "/animation-slide/",
-          "version": ""
-        }
+        { "label": "Animation Delay", "url": "/animation-delay/" },
+        { "label": "Animation Duration", "url": "/animation-duration/" },
+        { "label": "Animation Loop", "url": "/animation-loop/" },
+        { "label": "Blur", "url": "/animation-blur/" },
+        { "label": "Fade", "url": "/animation-fade/" },
+        { "label": "Roll", "url": "/animation-roll/" },
+        { "label": "Slide", "url": "/animation-slide/" }
       ]
     },
     {
       "label": "Tables",
       "items": [
-        {
-          "label": "Border Collapse",
-          "url": "/border-collapse/"
-        },
-        {
-          "label": "Table Layout",
-          "url": "/table-layout/"
-        }
+        { "label": "Border Collapse", "url": "/border-collapse/" },
+        { "label": "Table Layout", "url": "/table-layout/" }
       ]
     },
     {
       "label": "Theme",
       "items": [
-        {
-          "label": "Theme Auto",
-          "url": "/theme-auto/",
-          "version": ""
-        },
-        {
-          "label": "Theme Invert",
-          "url": "/theme-invert/",
-          "version": ""
-        }
+        { "label": "Theme Auto", "url": "/theme-auto/" },
+        { "label": "Theme Invert", "url": "/theme-invert/" }
       ]
     },
     {
       "label": "Rendering",
       "items": [
-        {
-          "label": "Image",
-          "url": "/image-rendering/",
-          "version": ""
-        }
+        { "label": "Image", "url": "/image-rendering/" }
       ]
     },
     {
       "label": "SVG",
       "items": [
-        {
-          "label": "Fill",
-          "url": "/svg-fill/"
-        },
-        {
-          "label": "Stroke",
-          "url": "/svg-stroke/"
-        },
-        {
-          "label": "Stroke Width",
-          "url": "/svg-stroke-width/"
-        },
-        {
-          "label": "Stroke Line Cap",
-          "url": "/svg-stroke-linecap/",
-          "version": ""
-        }
+        { "label": "Fill", "url": "/svg-fill/" },
+        { "label": "Stroke", "url": "/svg-stroke/" },
+        { "label": "Stroke Width", "url": "/svg-stroke-width/" },
+        { "label": "Stroke Line Cap", "url": "/svg-stroke-linecap/" }
       ]
     },
     {
       "label": "Accessibility",
       "items": [
-        {
-          "label": "Screen Reader",
-          "url": "/screen-reader/"
-        }
+        { "label": "Screen Reader", "url": "/screen-reader/" }
       ]
     }
   ]

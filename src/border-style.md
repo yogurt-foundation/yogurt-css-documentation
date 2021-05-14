@@ -3,7 +3,7 @@ id: border-style
 title: Border Style
 description: Utilities for sets border style.
 topic: Borders
-relate: border-color, border-radius, border-width
+relate: border-color, border-radius, border-width, curve-object
 variant: focus
 layout: default
 ---

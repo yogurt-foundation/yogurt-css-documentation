@@ -5,8 +5,13 @@ description: Getting
 layout: default
 ---
 
-<y class="-mt-4 py-4 (xs)text-3xl (lg)text-5xl font-semibold gap-tight">
-  Getting Started
+<y class="-mt-4 py-4 flex (xs)justify-start (sm)justify-between items-center">
+  <y class="(xs)text-3xl (lg)text-5xl font-semibold gap-tight">
+    Getting Started
+  </y>
+  <y class="(xs)hidden (sm)block text-sm text-gray-600 font-mono">
+    version {{ site.version.core }}-solidcore
+  </y>
 </y>
 
 {% include "getting-started.njk" %}
