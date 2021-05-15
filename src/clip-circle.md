@@ -81,14 +81,103 @@ Utilities for sets outside clipping circle path of image or element invisible, i
 
 ## Usage
 
-<y class="px-4 mt-2 mb-56 mx-auto w-64">
+### Clipping Image
 
+<y class="px-4 my-2 mx-auto w-full">
+	<y class="flex flex-gap-10 flex-row flex-wrap justify-center items-center">
+  	<y class="h-48 w-48 bg-orange-200">
+    	<y>
+      	<img class="h-48 w-48 object-cover object-center overflow-hidden rounded-lg shadow"
+        	   src="https://i.pravatar.cc/500?=1">
+    	</y>
+		</y>
+	  <y class="h-48 w-48 bg-orange-200 border-2 border-dashed border-orange-300 rounded-lg">
+  	  <y class="clip-circle focus-30 plot-x-10 plot-y-40">
+    	  <img class="h-48 w-48 object-cover object-center"
+      	     src="https://i.pravatar.cc/500?=1">
+  	  </y>
+	  </y>
+    <y class="h-48 w-48 bg-orange-200 border-2 border-dashed border-orange-300 rounded-lg">
+      <y class="clip-circle focus-30 plot-x-60 plot-y-70">
+        <img class="h-48 w-48 object-cover object-center"
+             src="https://i.pravatar.cc/500?=1">
+      </y>
+    </y>
+  </y>
 </y>
 
 ```html
 <!-- Example -->
-<y class="
-"></y>
+<y class="clip-circle focus-30 plot-x-60 plot-y-70">
+  <img class="h-64 w-64 .. object-cover object-center"
+       src="...">
+</y>
+```
+
+### Clipping Background
+
+<y class="px-4 my-2 mx-auto w-full">
+	<y class="flex flex-gap-10 flex-row flex-wrap justify-center items-center">
+  	<y class="h-48 w-48">
+    	<y>
+      	<y class="h-48 w-48 gradient-true-sunset rounded-lg"></y>
+    	</y>
+		</y>
+	  <y class="h-48 w-48 bg-orange-200 border-2 border-dashed border-orange-300 rounded-lg">
+  	  <y class="clip-circle focus-30 plot-x-10 plot-y-40">
+    	  <y class="h-48 w-48 gradient-true-sunset rounded-lg"></y>
+  	  </y>
+	  </y>
+    <y class="h-48 w-48 bg-orange-200 border-2 border-dashed border-orange-300 rounded-lg">
+      <y class="clip-circle focus-30 plot-x-60 plot-y-70">
+        <y class="h-48 w-48 gradient-true-sunset rounded-lg"></y>
+      </y>
+    </y>
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<y class="clip-circle focus-30 plot-x-60 plot-y-70">
+  <y class="h-48 w-48 ... gradient-true-sunset"></y>
+</y>
+```
+
+### Clipping text
+
+<y class="px-4 my-2 mx-auto w-full">
+	<y class="flex flex-gap-10 flex-row flex-wrap justify-center items-center">
+  	<y class="h-48 w-48">
+    	<y>
+      	<y class="h-48 w-48 text-xs overflow-hidden">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at nunc scelerisque, pretium arcu nec, convallis ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec fermentum magna turpis, nec facilisis justo dapibus volutpat. Mauris sagittis pretium sem et consequat. Curabitur a tellus sem. Morbi non auctor elit. Donec tortor nunc, auctor vel sem ac, aliquam cursus nisi. Praesent lobortis urna ex, ut iaculis nulla porttitor in. Curabitur orci augue, pellentesque sed orci et, ultrices tempor dolor. Aenean tincidunt posuere lobortis. In ac tortor quis lorem lacinia gravida quis tincidunt lorem. Nunc ac ultrices leo. Ut sodales, nibh ut consequat fermentum, mi justo cursus quam, eget sodales dui risus ac odio. Proin efficitur lacinia lobortis. Integer efficitur ligula non ultricies sollicitudin. Praesent efficitur augue justo, sit amet dignissim nunc mollis vel.
+        </y>
+    	</y>
+		</y>
+	  <y class="h-48 w-48 bg-orange-200 border-2 border-dashed border-orange-300 rounded-lg">
+  	  <y class="clip-circle focus-30 plot-x-10 plot-y-40">
+    	  <y class="h-48 w-48 text-xs overflow-hidden">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at nunc scelerisque, pretium arcu nec, convallis ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec fermentum magna turpis, nec facilisis justo dapibus volutpat. Mauris sagittis pretium sem et consequat. Curabitur a tellus sem. Morbi non auctor elit. Donec tortor nunc, auctor vel sem ac, aliquam cursus nisi. Praesent lobortis urna ex, ut iaculis nulla porttitor in. Curabitur orci augue, pellentesque sed orci et, ultrices tempor dolor. Aenean tincidunt posuere lobortis. In ac tortor quis lorem lacinia gravida quis tincidunt lorem. Nunc ac ultrices leo. Ut sodales, nibh ut consequat fermentum, mi justo cursus quam, eget sodales dui risus ac odio. Proin efficitur lacinia lobortis. Integer efficitur ligula non ultricies sollicitudin. Praesent efficitur augue justo, sit amet dignissim nunc mollis vel.
+        </y>
+  	  </y>
+	  </y>
+    <y class="h-48 w-48 bg-orange-200 border-2 border-dashed border-orange-300 rounded-lg">
+      <y class="clip-circle focus-30 plot-x-70 plot-y-60">
+        <y class="h-48 w-48 text-xs overflow-hidden">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at nunc scelerisque, pretium arcu nec, convallis ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec fermentum magna turpis, nec facilisis justo dapibus volutpat. Mauris sagittis pretium sem et consequat. Curabitur a tellus sem. Morbi non auctor elit. Donec tortor nunc, auctor vel sem ac, aliquam cursus nisi. Praesent lobortis urna ex, ut iaculis nulla porttitor in. Curabitur orci augue, pellentesque sed orci et, ultrices tempor dolor. Aenean tincidunt posuere lobortis. In ac tortor quis lorem lacinia gravida quis tincidunt lorem. Nunc ac ultrices leo. Ut sodales, nibh ut consequat fermentum, mi justo cursus quam, eget sodales dui risus ac odio. Proin efficitur lacinia lobortis. Integer efficitur ligula non ultricies sollicitudin. Praesent efficitur augue justo, sit amet dignissim nunc mollis vel.
+        </y>
+      </y>
+    </y>
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<y class="clip-circle focus-30 plot-x-60 plot-y-70">
+  <y class="h-64 w-64 text-xs">
+    ...
+  </y>
+</y>
 ```
 
 ---

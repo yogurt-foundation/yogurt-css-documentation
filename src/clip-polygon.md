@@ -264,7 +264,7 @@ Utilities for sets outside clipping path of image or element invisible, inside t
               plot-right-x-90
               plot-right-y-40
               ... h-64 w-64">
-      <y class="h-64 w-64 bg-amber-600"></y>
+      <y class="h-64 w-64 gradient-true-sunset"></y>
     </y>
     <y class="clip-polygon
               plot-top-x-20
@@ -276,7 +276,7 @@ Utilities for sets outside clipping path of image or element invisible, inside t
               plot-right-x-90
               plot-right-y-40
               ... h-64 w-64">
-      <y class="h-64 w-64 bg-indigo-600"></y>
+      <y class="h-64 w-64 gradient-true-sunset"></y>
     </y>
     <y class="clip-polygon
               plot-top-x-70
@@ -288,7 +288,7 @@ Utilities for sets outside clipping path of image or element invisible, inside t
               plot-right-x-0
               plot-right-y-100
               ... h-64 w-64">
-      <y class="h-64 w-64 bg-teal-600"></y>
+      <y class="h-64 w-64 gradient-true-sunset"></y>
     </y>
   </y>
 </y>
