@@ -254,8 +254,8 @@ Read more information about using the [Plugin API](/plugin-api/), and  [Responsi
   $class: 'gradient',
   $property: background-image,
   $modifier: (
-    warm-flame: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);,
-    night-shade: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    warm-flame: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%),
+    night-shade: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%)
     //...
   )
 );
@@ -265,8 +265,8 @@ Read more information about using the [Plugin API](/plugin-api/), and  [Responsi
   $class: 'gradient',
   $property: background-image,
   $modifier: (
-    warm-flame: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);,
-    night-shade: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    warm-flame: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%),
+    night-shade: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%)
   //...
   ),
   $variant: (

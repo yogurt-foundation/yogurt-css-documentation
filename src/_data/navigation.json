@@ -27,6 +27,7 @@
         { "label": "Font Style", "url": "/font-style/" },
         { "label": "Font Kerning", "url": "/font-kerning/" },
         { "label": "Font Weight", "url": "/font-weight/" },
+        { "label": "Glyphs", "url": "/glyphs/" },
         { "label": "Letter Spacing", "url": "/letter-spacing/" },
         { "label": "Line Height", "url": "/line-height/" },
         { "label": "List Style Type", "url": "/list-style-type/" },
