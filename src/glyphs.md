@@ -37,7 +37,7 @@ Utilities for sets alternate glyphs for numbers, fractions, and ordinal markers 
 	<y class="flex (xs)flex-gap-8 (sm)flex-gap-24 flex-wrap justify-center items-center">
 		<y class="flex flex-col justify-center items-center">
 			<y class="p-6 bg-gray-200 rounded-lg">
-				<y class="glphys-normal text-3xl font-semibold text-gray-600">
+				<y class="glyphs-normal text-3xl font-semibold text-gray-600">
   	  		2/4 4/5 3/6 4/8
   			</y>
 			</y>
@@ -47,7 +47,7 @@ Utilities for sets alternate glyphs for numbers, fractions, and ordinal markers 
 		</y>
 		<y class="flex flex-col justify-center items-center">
 			<y class="p-6 bg-gray-200 rounded-lg">
-				<y class="glphys-diagonal-fractions text-3xl font-semibold text-gray-600">
+				<y class="glyphs-diagonal-fractions text-3xl font-semibold text-gray-600">
   	  		2/4 4/5 3/6 4/8
   			</y>
 			</y>
@@ -60,7 +60,7 @@ Utilities for sets alternate glyphs for numbers, fractions, and ordinal markers 
 
 ```html
 <!-- Example -->
-<y class="glphys-diagonal-fractions">
+<y class="glyphs-diagonal-fractions">
   ...
 </y>
 ```
