@@ -24,6 +24,9 @@ Utilities for rotates an element that has transform applied.
 | rotate-45 | --transform-rotate: 45deg |
 | rotate-90 | --transform-rotate: 90deg |
 | rotate-180 | --transform-rotate: 180deg |
+
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+|:--|:--|
 | -rotate-180 | --transform-rotate: -180deg |
 | -rotate-90 | --transform-rotate: -90deg |
 | -rotate-45 | --transform-rotate: -45deg |

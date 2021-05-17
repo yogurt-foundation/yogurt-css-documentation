@@ -44,6 +44,9 @@ Utilities for sets outside clipping path of image or element invisible, inside t
 | -plot-top-x-80 | --clip-polygon-plot-top-x: -80% |
 | -plot-top-x-90 | --clip-polygon-plot-top-x: -90% |
 | -plot-top-x-100 | --clip-polygon-plot-top-x: -100% |
+
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+|:--|:--|
 | plot-top-y-0 | --clip-polygon-plot-top-y: 0% |
 | plot-top-y-10 | --clip-polygon-plot-top-y: 10% |
 | plot-top-y-20 | --clip-polygon-plot-top-y: 20% |
@@ -65,6 +68,9 @@ Utilities for sets outside clipping path of image or element invisible, inside t
 | -plot-top-y-80 | --clip-polygon-plot-top-y: -80% |
 | -plot-top-y-90 | --clip-polygon-plot-top-y: -90% |
 | -plot-top-y-100 | --clip-polygon-plot-top-y: -100% |
+
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+|:--|:--|
 | plot-bottom-x-0 | --clip-polygon-plot-bottom-x: 0% |
 | plot-bottom-x-10 | --clip-polygon-plot-bottom-x: 10% |
 | plot-bottom-x-20 | --clip-polygon-plot-bottom-x: 20% |
@@ -86,6 +92,9 @@ Utilities for sets outside clipping path of image or element invisible, inside t
 | -plot-bottom-x-80 | --clip-polygon-plot-bottom-x: -80% |
 | -plot-bottom-x-90 | --clip-polygon-plot-bottom-x: -90% |
 | -plot-bottom-x-100 | --clip-polygon-plot-bottom-x: -100% |
+
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+|:--|:--|
 | plot-bottom-y-0 | --clip-polygon-plot-bottom-y: 0% |
 | plot-bottom-y-10 | --clip-polygon-plot-bottom-y: 10% |
 | plot-bottom-y-20 | --clip-polygon-plot-bottom-y: 20% |
@@ -107,6 +116,9 @@ Utilities for sets outside clipping path of image or element invisible, inside t
 | -plot-bottom-y-80 | --clip-polygon-plot-bottom-y: -80% |
 | -plot-bottom-y-90 | --clip-polygon-plot-bottom-y: -90% |
 | -plot-bottom-y-100 | --clip-polygon-plot-bottom-y: -100% |
+
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+|:--|:--|
 | plot-left-x-0 | --clip-polygon-plot-left-x: 0% |
 | plot-left-x-10 | --clip-polygon-plot-left-x: 10% |
 | plot-left-x-20 | --clip-polygon-plot-left-x: 20% |
@@ -128,6 +140,9 @@ Utilities for sets outside clipping path of image or element invisible, inside t
 | -plot-left-x-80 | --clip-polygon-plot-left-x: -80% |
 | -plot-left-x-90 | --clip-polygon-plot-left-x: -90% |
 | -plot-left-x-100 | --clip-polygon-plot-left-x: -100% |
+
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+|:--|:--|
 | plot-left-y-0 | --clip-polygon-plot-left-y: 0% |
 | plot-left-y-10 | --clip-polygon-plot-left-y: 10% |
 | plot-left-y-20 | --clip-polygon-plot-left-y: 20% |
@@ -149,6 +164,9 @@ Utilities for sets outside clipping path of image or element invisible, inside t
 | -plot-left-y-80 | --clip-polygon-plot-left-y: -80% |
 | -plot-left-y-90 | --clip-polygon-plot-left-y: -90% |
 | -plot-left-y-100 | --clip-polygon-plot-left-y: -100% |
+
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+|:--|:--|
 | plot-right-x-0 | --clip-polygon-plot-right-x: 0% |
 | plot-right-x-10 | --clip-polygon-plot-right-x: 10% |
 | plot-right-x-20 | --clip-polygon-plot-right-x: 20% |
@@ -170,6 +188,9 @@ Utilities for sets outside clipping path of image or element invisible, inside t
 | -plot-right-x-80 | --clip-polygon-plot-right-x: -80% |
 | -plot-right-x-90 | --clip-polygon-plot-right-x: -90% |
 | -plot-right-x-100 | --clip-polygon-plot-right-x: -100% |
+
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+|:--|:--|
 | plot-right-y-0 | --clip-polygon-plot-right-y: 0% |
 | plot-right-y-10 | --clip-polygon-plot-right-y: 10% |
 | plot-right-y-20 | --clip-polygon-plot-right-y: 20% |

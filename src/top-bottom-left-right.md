@@ -26,6 +26,9 @@ Utilities for sets the placement of a positioned element.
 | inset-auto | top: auto; <br> right: auto; <br> bottom: auto; <br> left: auto |
 | inset-y-auto | top: auto; <br> bottom: auto |
 | inset-x-auto | left: auto; <br> right: auto |
+
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+|:--|:--|
 | top-auto | top: auto |
 | top-0 | top: 0 |
 | top-px | top: 1px |
@@ -46,6 +49,9 @@ Utilities for sets the placement of a positioned element.
 | top-48 | top: 12rem |
 | top-56 | top: 14rem |
 | top-64 | top: 16rem |
+
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+|:--|:--|
 | bottom-auto | bottom: auto |
 | bottom-0 | bottom: 0 |
 | bottom-px | bottom: 1px |
@@ -66,6 +72,9 @@ Utilities for sets the placement of a positioned element.
 | bottom-48 | bottom: 12rem |
 | bottom-56 | bottom: 14rem |
 | bottom-64 | bottom: 16rem |
+
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+|:--|:--|
 | left-auto | left: auto |
 | left-0 | left: 0 |
 | left-px | left: 1px |
@@ -86,6 +95,9 @@ Utilities for sets the placement of a positioned element.
 | left-48 | left: 12rem |
 | left-56 | left: 14rem |
 | left-64 | left: 16rem |
+
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+|:--|:--|
 | right-auto | right: auto |
 | right-0 | right: 0 |
 | right-px | right: 1px |

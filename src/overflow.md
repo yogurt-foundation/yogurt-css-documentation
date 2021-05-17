@@ -24,6 +24,9 @@ Utilities for sets how to handle content that's too big for it's container.
 | overflow-hidden | overflow: hidden |
 | overflow-visible | overflow: visible |
 | overflow-scroll | overflow: scroll |
+
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+|:--|:--|
 | overflow-x-auto | overflow-x: auto |
 | overflow-y-auto | overflow-y: auto |
 | overflow-x-hidden | overflow-x: hidden |
@@ -32,6 +35,9 @@ Utilities for sets how to handle content that's too big for it's container.
 | overflow-y-visible | overflow-y: visible |
 | overflow-x-scroll | overflow-x: scroll |
 | overflow-y-scroll | overflow-y: scroll |
+
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+|:--|:--|
 | scrolling-touch | -webkit-overflow-scrolling: touch |
 | scrolling-auto | -webkit-overflow-scrolling: auto |
 

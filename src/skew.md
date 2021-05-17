@@ -27,6 +27,9 @@ Utilities for skews an element that has transform applied.
 | -skew-x-12 | --transform-skew-x: -12deg |
 | -skew-x-6 | --transform-skew-x: -6deg |
 | -skew-x-3 | --transform-skew-x: -3deg |
+
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+|:--|:--|
 | skew-y-0 | --transform-skew-y: 0 |
 | skew-y-3 | --transform-skew-y: 3deg |
 | skew-y-6 | --transform-skew-y: 6deg |

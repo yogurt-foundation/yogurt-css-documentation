@@ -25,6 +25,9 @@ Utilities for sets the display box type of an element.
 | inline-block | display: inline-block |
 | flex | display: flex |
 | inline-flex | display: inline-flex |
+
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+|:--|:--|
 | table | display: table |
 | table-caption <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.0.8</span> | display: table-caption |
 | table-cell | display: table-cell |
