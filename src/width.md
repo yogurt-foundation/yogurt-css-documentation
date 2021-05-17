@@ -23,6 +23,9 @@ Utilities for sets the width of an element.
 | w-auto | width: auto |
 | w-full | width: 100% |
 | w-screen | width: 100vw |
+
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+|:--|:--|
 | w-px | width: 1px |
 | w-0 | width: 0 |
 | w-1 | width: 0.25rem |

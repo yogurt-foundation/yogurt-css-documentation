@@ -20,6 +20,7 @@ Utilities for sets the alignment of the selected replaced element.
 
 | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
+| object-top | object-position: top |
 | object-bottom | object-position: bottom |
 | object-center | object-position: center |
 | object-left | object-position: left |
@@ -28,7 +29,6 @@ Utilities for sets the alignment of the selected replaced element.
 | object-right | object-position: right |
 | object-right-bottom | object-position: right bottom |
 | object-right-top | object-position: right top |
-| object-top | object-position: top |
 
 ---
 

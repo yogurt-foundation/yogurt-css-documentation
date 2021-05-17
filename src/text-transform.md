@@ -19,10 +19,10 @@ Utilities for sets the capitalization of text.
 
 | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> | |
 |:--|:--|:-:|
+| normal-case | text-transform: none | <y class="text-lg none">text</y> |
 | uppercase | text-transform: uppercase | <y class="text-lg uppercase">text</y> |
 | lowercase | text-transform: lowercase | <y class="text-lg lowercase">TEXT</y> |
 | capitalize | text-transform: capitalize | <y class="text-lg capitalize">text</y> |
-| normal-case | text-transform: none | <y class="text-lg none">text</y> |
 
 ---
 

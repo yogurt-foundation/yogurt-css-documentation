@@ -66,10 +66,10 @@ Utilities for sets viewport lock to certain elements or locations after finished
 
 | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
-| align-none | scroll-snap-align: none |
 | align-start | scroll-snap-align: start |
 | align-center | scroll-snap-align: center |
 | align-end | scroll-snap-align: end |
+| align-none | scroll-snap-align: none |
 
 ---
 
