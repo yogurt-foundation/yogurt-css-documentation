@@ -34,6 +34,9 @@ Utilities for set border-radius to draw multiple curves abstract object to an el
 | rad-tl-80 | --object-radius-top-left: 80% |
 | rad-tl-90 | --object-radius-top-left: 90% |
 | rad-tl-100 | --object-radius-top-left: 100% |
+
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+|:--|:--|
 | rad-tr-0 | --object-radius-top-right: 0% |
 | rad-tr-10 | --object-radius-top-right: 10% |
 | rad-tr-20 | --object-radius-top-right: 20% |
@@ -45,6 +48,9 @@ Utilities for set border-radius to draw multiple curves abstract object to an el
 | rad-tr-80 | --object-radius-top-right: 80% |
 | rad-tr-90 | --object-radius-top-right: 90% |
 | rad-tr-100 | --object-radius-top-right: 100% |
+
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+|:--|:--|
 | rad-br-0 | --object-radius-bottom-right: 0% |
 | rad-br-10 | --object-radius-bottom-right: 10% |
 | rad-br-20 | --object-radius-bottom-right: 20% |
@@ -56,6 +62,9 @@ Utilities for set border-radius to draw multiple curves abstract object to an el
 | rad-br-80 | --object-radius-bottom-right: 80% |
 | rad-br-90 | --object-radius-bottom-right: 90% |
 | rad-br-100 | --object-radius-bottom-right: 100% |
+
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+|:--|:--|
 | rad-bl-0 | --object-radius-bottom-left: 0% |
 | rad-bl-10 | --object-radius-bottom-left: 10% |
 | rad-bl-20 | --object-radius-bottom-left: 20% |
@@ -67,6 +76,9 @@ Utilities for set border-radius to draw multiple curves abstract object to an el
 | rad-bl-80 | --object-radius-bottom-left: 80% |
 | rad-bl-90 | --object-radius-bottom-left: 90% |
 | rad-bl-100 | --object-radius-bottom-left: 100%  |
+
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+|:--|:--|
 | cur-ltb-0 | --object-curve-left-top-bottom: 0%  |
 | cur-ltb-10 | --object-curve-left-top-bottom: 10% |
 | cur-ltb-20 | --object-curve-left-top-bottom: 20% |
@@ -78,6 +90,9 @@ Utilities for set border-radius to draw multiple curves abstract object to an el
 | cur-ltb-80 | --object-curve-left-top-bottom: 80% |
 | cur-ltb-90 | --object-curve-left-top-bottom: 90% |
 | cur-ltb-100 | --curveradius-left-top-bottom: 100% |
+
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+|:--|:--|
 | cur-rtb-0 | --object-curve-right-top-bottom: 0% |
 | cur-rtb-10 | --object-curve-right-top-bottom: 10% |
 | cur-rtb-20 | --object-curve-right-top-bottom: 20% |
@@ -89,6 +104,9 @@ Utilities for set border-radius to draw multiple curves abstract object to an el
 | cur-rtb-80 | --object-curve-right-top-bottom: 80% |
 | cur-rtb-90 | --object-curve-right-top-bottom: 90% |
 | cur-rtb-100 | --object-curve-right-top-bottom: 100% |
+
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+|:--|:--|
 | cur-rbt-0 | --object-curve-right-bottom-top: 0% |
 | cur-rbt-10 | --object-curve-right-bottom-top: 10% |
 | cur-rbt-20 | --object-curve-right-bottom-top: 20% |
@@ -100,6 +118,9 @@ Utilities for set border-radius to draw multiple curves abstract object to an el
 | cur-rbt-80 | --object-curve-right-bottom-top: 80% |
 | cur-rbt-90 | --object-curve-right-bottom-top: 90% |
 | cur-rbt-100 | --object-curve-right-bottom-top: 100% |
+
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+|:--|:--|
 | cur-lbt-0 | --object-curve-left-bottom-top: 0% |
 | cur-lbt-10 | --object-curve-left-bottom-top: 10% |
 | cur-lbt-20 | --object-curve-left-bottom-top: 20% |

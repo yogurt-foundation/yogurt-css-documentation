@@ -25,6 +25,9 @@ Utilities for sets the line height.
 | depth-normal | line-height: 1.5 |
 | depth-relaxed | line-height: 1.625 |
 | depth-loose | line-height: 2 |
+
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+|:--|:--|
 | depth-3 | line-height: .75rem |
 | depth-4 | line-height: 1rem |
 | depth-5 | line-height: 1.25rem |

@@ -34,6 +34,9 @@ Utilities for sets outside clipping circle path of image or element invisible, i
 | focus-80 | --clip-circle-focus: 80% |
 | focus-90 | --clip-circle-focus: 90% |
 | focus-100 | --clip-circle-focus: 100% |
+
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+|:--|:--|
 | plot-x-0 | --clip-circle-plot-x: 0% |
 | plot-x-10 | --clip-circle-plot-x: 10% |
 | plot-x-20 | --clip-circle-plot-x: 20% |
@@ -55,6 +58,9 @@ Utilities for sets outside clipping circle path of image or element invisible, i
 | -plot-x-80 | --clip-circle-plot-x: -80% |
 | -plot-x-90 | --clip-circle-plot-x: -90% |
 | -plot-x-100 | --clip-circle-plot-x: -100% |
+
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+|:--|:--|
 | plot-y-0 | --clip-circle-plot-y: 0% |
 | plot-y-10 | --clip-circle-plot-y: 10% |
 | plot-y-20 | --clip-circle-plot-y: 20% |

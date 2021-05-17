@@ -61,6 +61,9 @@ Utilities for translate an element that has transform applied.
 | -translate-x-1/2 | --transform-translate-x: -50% |
 | translate-x-1/2 | --transform-translate-x: 50% |
 | translate-x-full | --transform-translate-x: 100% |
+
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+|:--|:--|
 | translate-y-0 | --transform-translate-y: 0 |
 | translate-y-1 | --transform-translate-y: 0.25rem |
 | translate-y-2 | --transform-translate-y: 0.5rem |

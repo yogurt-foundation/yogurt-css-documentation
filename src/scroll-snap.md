@@ -43,12 +43,24 @@ Utilities for sets viewport lock to certain elements or locations after finished
 |:--|:--|
 | x-mandatory | scroll-snap-type: x mandatory |
 | y-mandatory | scroll-snap-type: y mandatory |
+
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+|:--|:--|
 | x-proximity | scroll-snap-type: x proximity |
 | y-proximity | scroll-snap-type: y proximity |
+
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+|:--|:--|
 | block-mandatory | scroll-snap-type: block mandatory |
 | block-proximity | scroll-snap-type: block proximity |
+
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+|:--|:--|
 | inline-mandatory | scroll-snap-type: inline mandatory |
 | inline-proximity | scroll-snap-type: inline proximity |
+
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+|:--|:--|
 | both-mandatory | scroll-snap-type: both mandatory |
 | both-proximity | scroll-snap-type: both proximity |
 
