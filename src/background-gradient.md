@@ -171,6 +171,9 @@ Utilities for sets the background gradient color to an element with flexible con
 | start-70 | --bg-gradient-primary: 70% |
 | start-80 | --bg-gradient-primary: 80% |
 | start-90 | --bg-gradient-primary: 90% |
+
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+|:--|:--|
 | stop-10 | --bg-gradient-secondary: 10% |
 | stop-20 | --bg-gradient-secondary: 20% |
 | stop-30 | --bg-gradient-secondary: 30% |
