@@ -20,9 +20,12 @@ Utilities for sets border radius.
 
 | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> | |
 |:--|:--|:-:|
-| rounded-none | border-radius: 0 | <y class="w-8 h-8 rounded-none bg-gray-300 border-2"></y> |
-| rounded-sm | border-radius: 0.125rem | <y class="w-8 h-8 rounded-sm bg-gray-300 border-2"></y> |
 | rounded | border-radius: 0.25rem | <y class="w-8 h-8 rounded bg-gray-300 border-2"></y> |
+| rounded-none | border-radius: 0 | <y class="w-8 h-8 rounded-none bg-gray-300 border-2"></y> |
+
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+|:--|:--|
+| rounded-sm | border-radius: 0.125rem | <y class="w-8 h-8 rounded-sm bg-gray-300 border-2"></y> |
 | rounded-md | border-radius: 0.375rem | <y class="w-8 h-8 rounded-md bg-gray-300 border-2"></y> |
 | rounded-lg | border-radius: 0.5rem | <y class="w-8 h-8 rounded-lg bg-gray-300 border-2"></y> |
 | rounded-full | border-radius: 9999px | <y class="w-8 h-8 rounded-full bg-gray-300 border-2"></y> |
@@ -36,17 +39,17 @@ Utilities for sets border radius.
 
 | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
-| rounded-t-sm | border-top-left-radius: 0.125rem; <br> border-top-right-radius: 0.125rem | <y class="w-8 h-8 rounded-t-sm bg-gray-300 border-2"></y> |
-| rounded-r-sm | border-top-right-radius: 0.125rem; <br> border-bottom-right-radius: 0.125rem | <y class="w-8 h-8 rounded-r-sm bg-gray-300 border-2"></y> |
-| rounded-b-sm | border-bottom-right-radius: 0.125rem; <br> border-bottom-left-radius: 0.125rem | <y class="w-8 h-8 rounded-b-sm bg-gray-300 border-2"></y> |
-| rounded-l-sm | border-top-left-radius: 0.125rem; <br> border-bottom-left-radius: 0.125rem | <y class="w-8 h-8 rounded-l-sm bg-gray-300 border-2"></y> |
-
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
-|:--|:--|
 | rounded-t | border-top-left-radius: 0.25rem; <br> border-top-right-radius: 0.25rem | <y class="w-8 h-8 rounded-t bg-gray-300 border-2"></y> |
 | rounded-r | border-top-right-radius: 0.25rem; <br> border-bottom-right-radius: 0.25rem | <y class="w-8 h-8 rounded-r bg-gray-300 border-2"></y> |
 | rounded-b | border-bottom-right-radius: 0.25rem; <br> border-bottom-left-radius: 0.25rem | <y class="w-8 h-8 rounded-b bg-gray-300 border-2"></y> |
 | rounded-l | border-top-left-radius: 0.25rem; <br> border-bottom-left-radius: 0.25rem | <y class="w-8 h-8 rounded-l bg-gray-300 border-2"></y> |
+
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+|:--|:--|
+| rounded-t-sm | border-top-left-radius: 0.125rem; <br> border-top-right-radius: 0.125rem | <y class="w-8 h-8 rounded-t-sm bg-gray-300 border-2"></y> |
+| rounded-r-sm | border-top-right-radius: 0.125rem; <br> border-bottom-right-radius: 0.125rem | <y class="w-8 h-8 rounded-r-sm bg-gray-300 border-2"></y> |
+| rounded-b-sm | border-bottom-right-radius: 0.125rem; <br> border-bottom-left-radius: 0.125rem | <y class="w-8 h-8 rounded-b-sm bg-gray-300 border-2"></y> |
+| rounded-l-sm | border-top-left-radius: 0.125rem; <br> border-bottom-left-radius: 0.125rem | <y class="w-8 h-8 rounded-l-sm bg-gray-300 border-2"></y> |
 
 | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|

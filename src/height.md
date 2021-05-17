@@ -23,6 +23,9 @@ Utilities for sets the height of an element.
 | h-auto | height: auto |
 | h-full | height: 100% |
 | h-screen | height: 100vh |
+
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+|:--|:--|
 | h-px | height: 1px |
 | h-0 | height: 0 |
 | h-1 | height: 0.25rem |

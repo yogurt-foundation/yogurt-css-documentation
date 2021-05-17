@@ -20,15 +20,15 @@ Utilities for sets the origin of an element's transforms.
 
 | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
-| origin-center | transform-origin: center |
 | origin-top | transform-origin: top |
-| origin-top-right | transform-origin: top right |
-| origin-right | transform-origin: right |
-| origin-bottom-right | transform-origin: bottom right |
 | origin-bottom | transform-origin: bottom |
-| origin-bottom-left | transform-origin: bottom left |
 | origin-left | transform-origin: left |
+| origin-right | transform-origin: right |
+| origin-center | transform-origin: center |
 | origin-top-left | transform-origin: top left |
+| origin-top-right | transform-origin: top right |
+| origin-bottom-left | transform-origin: bottom left |
+| origin-bottom-right | transform-origin: bottom right |
 
 ---
 

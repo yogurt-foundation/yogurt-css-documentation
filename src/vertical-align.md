@@ -19,8 +19,8 @@ Utilities for sets the vertical alignment of an inline or table-cell box.
 
 | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
-| align-baseline | vertical-align: baseline |
 | align-top | vertical-align: top |
+| align-baseline | vertical-align: baseline |
 | align-middle | vertical-align: middle |
 | align-bottom | vertical-align: bottom |
 | align-text-top | vertical-align: text-top |

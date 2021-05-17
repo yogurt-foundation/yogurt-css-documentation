@@ -18,15 +18,15 @@ Utilities for define text narrower(condensed) or wider(expanded) for font faces 
 
 | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
-| font-stretch-ultra-condensed | font-stretch: ultra-condensed |
-| font-stretch-extra-condensed | font-stretch: extra-condensed |
-| font-stretch-condensed | font-stretch: condensed |
-| font-stretch-semi-condensed | font-stretch: semi-condensed |
 | font-stretch-normal | font-stretch: normal |
-| font-stretch-semi-expanded | font-stretch: semi-expanded |
 | font-stretch-expanded | font-stretch: expanded |
+| font-stretch-condensed | font-stretch: condensed |
+| font-stretch-extra-condensed | font-stretch: extra-condensed |
+| font-stretch-ultra-condensed | font-stretch: ultra-condensed |
 | font-stretch-extra-expanded | font-stretch: extra-expanded |
 | font-stretch-ultra-expanded | font-stretch: ultra-expanded |
+| font-stretch-semi-condensed | font-stretch: semi-condensed |
+| font-stretch-semi-expanded | font-stretch: semi-expanded |
 
 <style>
 .supports {
