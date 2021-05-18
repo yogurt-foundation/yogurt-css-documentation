@@ -211,8 +211,7 @@ Read more information about using the [Plugin API](/plugin-api/), and  [Responsi
     'hover', 'group-hover',
     'focus', 'focus-within', 'focus-visible',
     'active',
-    'visited',
-    'selection'
+    'visited'
     //...
   )
 );
