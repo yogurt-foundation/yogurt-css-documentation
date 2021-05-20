@@ -19,7 +19,7 @@ Utilities for sets min and max margins for screen size without breakpoints.
 
 | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
-| fluid <br> m-min-`{value}` <br> m-max-`{value}` | @media screen and (min-width: 20rem) { .fluid.m-min-`{modifier}`.m-max-`{modifier}` { margin: calc(`{min}` + 0 * ((100vw - 20rem) / 30)) } } @media screen and (min-width: 50rem) {  .fluid.m-min-`{modifier}`.m-max-`{modifier}` { margin: `{max}` } } |
+| fluid m-min-`{value}` m-max-`{value}` | @media screen and (min-width: 20rem) { .fluid.m-min-{modifier}.m-max-{modifier} { margin: calc({min} + 0 * ((100vw - 20rem) / 30)) } } @media screen and (min-width: 50rem) {  .fluid.m-min-{modifier}.m-max-{modifier} { margin: {max} } } |
 
 | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">value</span> | <span class="px-3 py-1 text-white bg-charcoal-100 rounded-full">modifier</span> | |
 |:--|:--|:-:|

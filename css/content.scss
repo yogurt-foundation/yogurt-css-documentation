@@ -167,7 +167,10 @@
   overflow-y: auto;
   overflow-x: auto;
   display: block;
-  -ms-scroll-chaining: none;
+  font-weight: 600;
+  font-family: monospace;
+  font-size: 12px;
+    -ms-scroll-chaining: none;
   overscroll-behavior: contain;
 
   th {

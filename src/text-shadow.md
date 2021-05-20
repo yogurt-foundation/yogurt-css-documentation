@@ -18,7 +18,7 @@ Utilities for sets text shadow with shadow x or y coordinates, shadow blur and s
 
 | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
-| text-shadow `{shadow-x}` `{shadow-y}` `{shadow-blur}` `{shadow-color}` | text-shadow: var(--text-shadow-x) var(--text-shadow-y) var(--text-shadow-blur) var(--text-shadow-color); |
+| text-shadow `{shadow-x}` `{shadow-y}` `{shadow-blur}` `{shadow-color}`  | text-shadow: var(`--text-shadow-x`) var(`--text-shadow-y`) var(`--text-shadow-blur`) var(`--text-shadow-color`); |
 
 | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|

@@ -19,7 +19,7 @@ Utilities for sets min and max font sizes for screen size without breakpoints.
 
 | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
-| fluid <br> text-min-`{value}` <br> text-max-`{value}` | @media screen and (min-width: 20rem) { .fluid.text-min-`{modifier}`.text-max-`{modifier}` { font-size: calc(`{min}` + 0 * ((100vw - 20rem) / 30)) } } @media screen and (min-width: 50rem) {  .fluid.text-min-`{modifier}`.text-max-`{modifier}` { font-size: `{max}` } } |
+| fluid text-min-`{value}` text-max-`{value}` | @media screen and (min-width: 20rem) { .fluid.text-min-{modifier}.text-max-{modifier} { font-size: calc({min} + 0 * ((100vw - 20rem) / 30)) } } @media screen and (min-width: 50rem) {  .fluid.text-min-{modifier}.text-max-{modifier} { font-size: {max} } } |
 
 | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> | |
 |:--|:--|:-:|
