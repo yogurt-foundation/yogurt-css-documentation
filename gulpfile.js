@@ -104,6 +104,11 @@ gulp.task('app-manifest', () => {
     .pipe(gulp.dest('./dist'))
 })
 
+gulp.task('move-playground', () => {
+  return gulp.src('./playground/**/**/*')
+    .pipe(gulp.dest('./dist/playground'))
+})
+
 gulp.task('remove-residual-files', () => {
   return gulp.src([
       'dist/pre.css',
@@ -123,7 +128,8 @@ gulp.task('build',
     'service-worker',
     'app-manifest',
     'codemirror',
-    'codemirror-yogurtcss'
+    'codemirror-yogurtcss',
+    'move-playground'
   )
 )
 
