@@ -19,7 +19,6 @@ Utilities for sets balancing the space in between child elements.
 
 | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
-| equal-x-px | --equal-x-reverse: 0; <br> margin-right: calc(1px * var(--equal-x-reverse)); <br> margin-left: calc(1px * calc(1 - var(--equal-x-reverse))) |
 | equal-x-0 | --equal-x-reverse: 0; <br> margin-right: calc(0 * var(--equal-x-reverse)); <br> margin-left: calc(0 * calc(1 - var(--equal-x-reverse))) |
 | equal-x-1 | --equal-x-reverse: 0; <br> margin-right: calc(0.25rem * var(--equal-x-reverse)); <br> margin-left: calc(0.25rem * calc(1 - var(--equal-x-reverse))) |
 | equal-x-2 | --equal-x-reverse: 0; <br> margin-right: calc(0.5rem * var(--equal-x-reverse)); <br> margin-left: calc(0.5rem * calc(1 - var(--equal-x-reverse))) |
