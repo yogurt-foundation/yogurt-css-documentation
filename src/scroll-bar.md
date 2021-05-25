@@ -399,7 +399,7 @@ Utilities for sets scrollbar styling such as thumb size, track color, thumb colo
 
 ```html
 <!-- Example -->
-<body class="scrollbar bar-sm track-amber-200 thumb-rad-md thumb-amber-500 thumb-hoveramber-700">
+<body class="scrollbar bar-sm track-amber-200 thumb-rad-md thumb-amber-500 thumb-hover-amber-700">
   ...
 </body>
 ```
