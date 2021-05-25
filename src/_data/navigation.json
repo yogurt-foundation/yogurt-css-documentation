@@ -136,6 +136,7 @@
         { "label": "Resize", "url": "/resize/" },
         { "label": "Scroll Smooth", "url": "/scroll-behavior/" },
         { "label": "Scroll Snap", "url": "/scroll-snap/" },
+        { "label": "Scroll Bar", "url": "/scroll-bar/" },
         { "label": "Touch Action", "url": "/touch-action/" },
         { "label": "User Select", "url": "/user-select/" }
       ]
