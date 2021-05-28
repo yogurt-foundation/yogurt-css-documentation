@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/07b893f5-2d17-413d-a3b6-e657ef9dbef3/deploy-status)](https://app.netlify.com/sites/yogurt-css-documentation/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b68ec73a-d36a-4b8f-aff3-6ca8b8040a87/deploy-status)](https://app.netlify.com/sites/yogurtcss/deploys)
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/yogurt-foundation/yogurt-css-documentation/2.0.0/images/github/promo.png"
