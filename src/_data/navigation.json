@@ -139,6 +139,7 @@
         { "label": "Scroll Bar", "url": "/scroll-bar/" },
         { "label": "Scroll Smooth", "url": "/scroll-behavior/" },
         { "label": "Scroll Snap", "url": "/scroll-snap/" },
+        { "label": "Text Highlight", "url": "/text-highlight/" },
         { "label": "Touch Action", "url": "/touch-action/" },
         { "label": "User Select", "url": "/user-select/" }
       ]
