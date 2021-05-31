@@ -8,11 +8,18 @@ layout: default
 
 > Getting Started
 
-## Using Yogurt via CDN
+# via CDN
 
 ```html
 <!-- HTML -->
-<link defer href="https://unpkg.com/yogurt-css@{{ site.version.core }}/dist/yogurt-{{ site.version.core }}_solidcore.min.css" rel="stylesheet" rel="preload" as="style" media="all">
+<link
+  href="https://unpkg.com/yogurt-css@{{ site.version.core }}/dist/yogurt-{{ site.version.core }}_solidcore.min.css"
+  rel="stylesheet"
+  rel="preload"
+  as="style"
+  media="all"
+  defer
+>
 
 <!-- CSS -->
 @import "https://unpkg.com/yogurt-css@{{ site.version.core }}/dist/yogurt-{{ site.version.core }}_solidcore.min.css";
@@ -67,7 +74,7 @@ layout: default
   </a>)
 </y>
 
-## Using Yogurt via Package Manager <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.0.9</span>
+# via Package Manager <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.0.9</span>
 
 ```bash
 # YARN
@@ -86,8 +93,14 @@ import 'yogurt-css'
 @import 'node_modules/yogurt-css/yogurt';
 
 # HTML
-<link href="node_modules/yogurt-css/dist/yogurt-{{ site.version.core }}_solidcore.css">
-<link href="node_modules/yogurt-css/dist/yogurt-{{ site.version.core }}_solidcore.min.css">
+<link
+  href="node_modules/yogurt-css/dist/yogurt-{{ site.version.core }}_solidcore.min.css"
+  rel="stylesheet"
+  rel="preload"
+  as="style"
+  media="all"
+  defer
+>
 ```
 
 <y class="mt-4 mx-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 (dark)bg-gray-800">
@@ -118,7 +131,7 @@ import 'yogurt-css'
   </a>)
 </y>
 
-## Using Yogurt via CLI
+# via CLI
 
 To create a new project, run:
 
@@ -154,9 +167,10 @@ $ yogurt my-new-project
 </y>
 
 <y class="mx-4 py-4">
-  <img theme=""
-       class="filter saturate-5 w-full h-full object-fit object-center rounded-lg"
-       src="/images/content/yogurt_cli_screenshot_01.png"
-       loading="lazy"
-       alt="Yogurt Playground">
+  <img
+    class="filter saturate-5 w-full h-full object-fit object-center rounded-lg"
+    src="/images/content/yogurt_cli_screenshot_01.png"
+    loading="lazy"
+    alt="Yogurt CLI"
+  >
 </y>

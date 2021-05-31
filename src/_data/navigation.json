@@ -22,26 +22,27 @@
       "label": "Typography",
       "items": [
         { "label": "Font Family", "url": "/font-family/" },
+        { "label": "Font Kerning", "url": "/font-kerning/" },
         { "label": "Font Size", "url": "/font-size/" },
         { "label": "Font Smoothing", "url": "/font-smoothing/" },
         { "label": "Font Style", "url": "/font-style/" },
-        { "label": "Font Kerning", "url": "/font-kerning/" },
         { "label": "Font Weight", "url": "/font-weight/" },
+        { "label": "Counter", "url": "/counter/" },
         { "label": "Glyphs", "url": "/glyphs/" },
         { "label": "Letter Spacing", "url": "/letter-spacing/" },
         { "label": "Line Height", "url": "/line-height/" },
-        { "label": "List Style Type", "url": "/list-style-type/" },
         { "label": "List Style Position", "url": "/list-style-position/" },
+        { "label": "List Style Type", "url": "/list-style-type/" },
         { "label": "Placeholder Color", "url": "/placeholder-color/" },
         { "label": "Text Align", "url": "/text-align/" },
-        { "label": "Text Color", "url": "/text-color/" },
         { "label": "Text Clamp", "url": "/text-clamp/" },
+        { "label": "Text Color", "url": "/text-color/" },
         { "label": "Text Decoration", "url": "/text-decoration/" },
         { "label": "Text Transform", "url": "/text-transform/" },
         { "label": "Vertical Align", "url": "/vertical-align/" },
         { "label": "Whitespace", "url": "/whitespace/" },
-        { "label": "Writing Mode", "url": "/writing-mode/" },
-        { "label": "Word Break", "url": "/word-break/" }
+        { "label": "Word Break", "url": "/word-break/" },
+        { "label": "Writing Mode", "url": "/writing-mode/" }
       ]
     },
     {
@@ -96,6 +97,7 @@
         { "label": "Gradient", "url": "/gradient/" },
         { "label": "Mix Blend", "url": "/mix-blend/" },
         { "label": "Opacity", "url": "/opacity/" }
+
       ]
     },
     {
@@ -118,8 +120,8 @@
         { "label": "Flex Grow", "url": "/flex-grow/" },
         { "label": "Flex Shrink", "url": "/flex-shrink/" },
         { "label": "Flex Wrap", "url": "/flex-wrap/" },
-        { "label": "Align Items", "url": "/align-items/" },
         { "label": "Align Content", "url": "/align-content/" },
+        { "label": "Align Items", "url": "/align-items/" },
         { "label": "Align Self", "url": "/align-self/" },
         { "label": "Justify Content", "url": "/justify-content/" },
         { "label": "Order", "url": "/order/" }
@@ -134,9 +136,9 @@
         { "label": "Overscroll", "url": "/overscroll/" },
         { "label": "Pointer Events", "url": "/pointer-events/" },
         { "label": "Resize", "url": "/resize/" },
+        { "label": "Scroll Bar", "url": "/scroll-bar/" },
         { "label": "Scroll Smooth", "url": "/scroll-behavior/" },
         { "label": "Scroll Snap", "url": "/scroll-snap/" },
-        { "label": "Scroll Bar", "url": "/scroll-bar/" },
         { "label": "Touch Action", "url": "/touch-action/" },
         { "label": "User Select", "url": "/user-select/" }
       ]
@@ -150,10 +152,7 @@
         { "label": "Drop Shadow", "url": "/filter-drop-shadow/" },
         { "label": "Invert", "url": "/filter-invert/" },
         { "label": "Saturate", "url": "/filter-saturate/" },
-        {
-          "label": "Backdrop Brightness",
-          "url": "/filter-backdrop-brightness/"
-        },
+        { "label": "Backdrop Brightness", "url": "/filter-backdrop-brightness/" },
         { "label": "Backdrop Blur", "url": "/filter-backdrop-blur/" },
         { "label": "Backdrop Contrast", "url": "/filter-backdrop-contrast/" },
         { "label": "Backdrop Saturate", "url": "/filter-backdrop-saturate/" }
@@ -164,20 +163,17 @@
       "items": [
         { "label": "Checks", "url": "/pattern-checks/" },
         { "label": "Circle", "url": "/pattern-circle/" },
-        { "label": "Ripple", "url": "/pattern-ripple/" },
-        { "label": "Rhombus", "url": "/pattern-rhombus/" },
         { "label": "Cross Dots", "url": "/pattern-cross-dots/" },
         { "label": "Dots", "url": "/pattern-dots/" },
         { "label": "Grid", "url": "/pattern-grid/" },
+        { "label": "Rhombus", "url": "/pattern-rhombus/" },
+        { "label": "Ripple", "url": "/pattern-ripple/" },
         { "label": "Triangles", "url": "/pattern-triangles/" },
         { "label": "Zigzag", "url": "/pattern-zigzag/" },
         { "label": "Diagonal Lines", "url": "/pattern-diagonal-lines/" },
         { "label": "Diagonal Stripes", "url": "/pattern-diagonal-stripes/" },
         { "label": "Horizontal Lines", "url": "/pattern-horizontal-lines/" },
-        {
-          "label": "Horizontal Stripes",
-          "url": "/pattern-horizontal-stripes/"
-        },
+        { "label": "Horizontal Stripes", "url": "/pattern-horizontal-stripes/" },
         { "label": "Vertical Lines", "url": "/pattern-vertical-lines/" },
         { "label": "Vertical Stripes", "url": "/pattern-vertical-stripes/" }
       ]
@@ -186,10 +182,11 @@
       "label": "Transforms",
       "items": [
         { "label": "Transform Origin", "url": "/transform-origin/" },
+        { "label": "Translate", "url": "/translate/" },
         { "label": "Rotate", "url": "/rotate/" },
         { "label": "Scale", "url": "/scale/" },
-        { "label": "Skew", "url": "/skew/" },
-        { "label": "Translate", "url": "/translate/" }
+        { "label": "Skew", "url": "/skew/" }
+
       ]
     },
     {
@@ -215,9 +212,9 @@
     {
       "label": "Clipping",
       "items": [
-        { "label": "Clip Polygon", "url": "/clip-polygon/" },
         { "label": "Clip Circle", "url": "/clip-circle/" },
-        { "label": "Clip Ellipse", "url": "/clip-ellipse/" }
+        { "label": "Clip Ellipse", "url": "/clip-ellipse/" },
+        { "label": "Clip Polygon", "url": "/clip-polygon/" }
       ]
     },
     {
