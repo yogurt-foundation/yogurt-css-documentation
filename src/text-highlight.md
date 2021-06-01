@@ -269,16 +269,16 @@ Try to drag and highlight all the text below to see different colors highlighted
 
 <y class="px-4 my-2 mx-auto w-full">
   <y class="flex flex-col justify-center items-center">
-    <y class="highlight rear-teal-400 text-3xl">
+    <y class="highlight fore-teal-700 rear-teal-400 text-3xl">
       Lorem ipsum dolor sit amet
     </y>
-    <y class="highlight rear-amber-400 text-3xl">
+    <y class="highlight fore-amber-700 rear-amber-400 text-3xl">
       Lorem ipsum dolor sit amet
     </y>
-    <y class="highlight rear-indigo-400 text-3xl">
+    <y class="highlight fore-gray-100 rear-indigo-400 text-3xl">
       Lorem ipsum dolor sit amet
     </y>
-    <y class="highlight rear-red-400 text-3xl">
+    <y class="highlight fore-red-800 rear-red-400 text-3xl">
       Lorem ipsum dolor sit amet
     </y>
   </y>
@@ -286,7 +286,7 @@ Try to drag and highlight all the text below to see different colors highlighted
 
 ```html
 <!-- Example -->
-<y class="highlight-teal-400">
+<y class="highlight fore-teal-700 rear-teal-400">
   ...
 </y>
 ```
