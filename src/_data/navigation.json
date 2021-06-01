@@ -234,7 +234,10 @@
     },
     {
       "label": "Rendering",
-      "items": [{ "label": "Image", "url": "/image-rendering/" }]
+      "items": [
+        { "label": "Image", "url": "/image-rendering/" },
+        { "label": "Text", "url": "/text-rendering/" }
+      ]
     },
     {
       "label": "SVG",

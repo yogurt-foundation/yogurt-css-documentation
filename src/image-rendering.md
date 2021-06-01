@@ -18,9 +18,9 @@ Utilities for sets an image or canvas renders if it is scaled up or down from it
 
 | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> | |
 |:--|:--|:-:|
-| image-auto | image-rendering: auto |
-| image-crisp | image-rendering: crisp-edges |
-| image-pixelated | image-rendering: pixelated |
+| image-optimize-auto | image-rendering: auto |
+| image-optimize-crisp | image-rendering: crisp-edges |
+| image-optimize-pixelated | image-rendering: pixelated |
 
 <style>
 .supports {
@@ -46,11 +46,11 @@ Utilities for sets an image or canvas renders if it is scaled up or down from it
 
 ```html
 <!-- Example -->
-<img class="image-crisp">
+<img class="image-optimize-crisp">
 
-<canvas class="image-crisp"></canvas>
+<canvas class="image-optimize-crisp"></canvas>
 
-<y class="image-crisp"
+<y class="image-optimize-crisp"
    style="background-image: url(...)"></y>
 ```
 
