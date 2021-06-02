@@ -1,25 +1,22 @@
-<y class="my-5 flex flex-wrap flex-gap-10 justify-center items-stretch">
+<y class="my-5 flex flex-wrap flex-gap-4 justify-center items-stretch">
 
   {% for data in home.features %}
     {% for item in data.items %}
 
-      <y class="p-6 (xs)w-full (lg)w-48 h-auto text-gray-800 bg-gray-300 rounded-lg shadow-sm-gray-300 animation fade-in-up duration-800">
-
-        <y class="pb-4 text-xl font-semibold">
-
-          {{ item.title }}
-
+      <y class="p-4 h-auto w-56 flex justify-center items-start text-gray-700 bg-transparent rounded-lg shadow-dreamy-lg backdrop-filter blur-4">
+        <y>
+          <y class="pb-4 fluid text-min-2xl text-max-xl font-thin uppercase depth-tight">
+            {{ item.title }}
+          </y>
+          <y class="fluid text-min-lg text-max-md depth-tight">
+            {{ item.desc }}
+          </y>
         </y>
-
-        <y class="text-sm">
-
-          {{ item.desc }}
-
-        </y>
-
       </y>
 
     {% endfor %}
   {% endfor %}
 
 </y>
+
+
