@@ -1,45 +1,39 @@
-<y class="pb-20 flex flex-gap-6 flex-wrap justify-center items-center">
+<y class="w-full">
 
-  {% for data in panels.gettingstarted %}
-    {% for item in data.panels %}
+  <y class="flex flex-gap-5 flex-wrap justify-center items-start">
 
-      <y class="relative h-56 w-full transition duration-300 transform (hover)translate-y-2">
-        <y class="z-30 absolute px-10 py-8">
+    {% for data in panels.gettingstarted %}
+      {% for item in data.panels %}
 
-          <y class="pb-2 text-3xl text-gray-100">
+        <y class="(group) p-12 h-auto w-80 bg-transparent backdrop-filter blur-2 shadow-lg rounded-lg">
+
+          <y class="pb-2 text-3xl text-gray-600 (group-hover)text-orange-600 font-thin depth-tight filter saturate-4 transition duration-300 linear">
+
             {{ item.title }}
+
           </y>
 
-          <y class="pb-8 text-lg text-gray-100">
+          <y class="mb-6 text-xl text-gray-500 (group-hover)text-gray-600 depth-tight transition duration-300 linear">
+
             {{ item.desc }}
+
           </y>
 
-          {% set is_current_page = page.url | replace('/', '') == item.url | replace('/', '') %}
-
-          <a class="my-4 px-5 py-4 text-white (hover)text-gray-800 font-semibold {{ item.buttonbg }} {{ item.buttonbghover }} border-2 border-white shadow-dreamy-sm (hover)shadow-dreamy-md text-center rounded-md transition duration-300 ease-in-out"
-           href="{{ item.url | safe }}"
-           target="{{ item.target }}"
-           rel="noopener"
-           {% if is_current_page %}
+          <a class="block px-6 py-3 text-lg text-center text-gray-600 font-semibold bg-white border-4 border-transparent (group-hover)border-gray-600 rounded-lg transition duration-300 linear"
+            href="{{ item.url | safe }}"
+            target="{{ item.target }}"
+            rel="noopener"
+            {% if is_current_page %}
             aria-current="page"
-           {% endif %}>
+            {% endif %}>
 
             {{ item.button }}
 
           </a>
         </y>
 
-        <y class="z-20 absolute top-0 right-0 w-full">
-          <y class="h-72 w-full pattern ripple-lg opacity-25 rounded-lg (hover)shadow-md"></y>
-        </y>
-
-        <y class="z-10 absolute top-0 right-0 w-full">
-          <y class="h-72 w-full bg-gradient {{ item.gradientstart }} start-10 {{ item.gradientend }} stop-90 -angle-45 rounded-md"></y>
-        </y>
-
-      </y>
-
+      {% endfor %}
     {% endfor %}
-  {% endfor %}
 
+  </y>
 </y>
