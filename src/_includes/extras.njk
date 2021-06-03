@@ -33,7 +33,7 @@
 
                 {% if item.label %}
 
-                <a class="nav-link -mx-8 px-2 py-2 (hover)font-semibold (hover)underline {{ item.class }} {% if is_current_page %} selected {% endif %}"
+                <a class="nav-link -mx-8 px-2 py-2 (hover)font-semibold (hover)underline rounded {{ item.class }} {% if is_current_page %} selected {% endif %}"
                    href="{{ item.url | safe }}"
                    {% if is_current_page %}
                     aria-current="page"
@@ -47,7 +47,7 @@
 
                 {% if item.url_external %}
 
-                  <a class="nav-link -mx-8 px-2 py-2 (hover)font-semibold (hover)underline {{ item.class }} {% if is_current_page %} selected {% endif %}"
+                  <a class="nav-link -mx-8 px-2 py-2 (hover)font-semibold (hover)underline {{ item.class }} {% if is_current_page %} selected rounded {% endif %}"
                      href="{{ item.url_external | safe }}"
                      target="_blank"
                      rel="noopener"
