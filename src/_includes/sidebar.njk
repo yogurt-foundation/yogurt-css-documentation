@@ -23,7 +23,7 @@
 
               <li class="(group) mb-px">
 
-                <a class="nav-link -mx-4 p-2 (hover)font-semibold (hover)underline {{ item.class }} {% if is_current_page %} selected {% endif %}"
+                <a class="nav-link -mx-4 mb-1 px-2 py-1 text-lg (hover)font-semibold (hover)underline {{ item.class }} {% if is_current_page %} selected {% endif %} rounded"
                    href="{{ item.url | safe }}"
                    target="{{ item.target }}"
                    {% if is_current_page %}
@@ -32,12 +32,12 @@
 
                   <y class="flex justify-start items-center">
 
-                    <y class="mr-2 h-4 w-4 bg-gray-800 (group-hover)bg-gray-800 rounded-full"></y>
+                    {# <y class="mr-2 h-4 w-4 bg-gray-800 (group-hover)bg-gray-800 rounded-full"></y> #}
 
                     <y>{{ item.label }}</y>
 
                     {% if item.external %}
-                      <y class="exernal-link-icon">
+                      <y class="external-link-icon">
                         {% include "images/icons/arrow-right.svg" %}
                       </y>
                     {% endif %}
@@ -73,7 +73,7 @@
 
               <li class="mb-px">
 
-                <a class="nav-link -mx-4 p-2 (hover)font-semibold (hover)underline {{ item.class }} {% if is_current_page %} selected {% endif %}"
+                <a class="nav-link -mx-4 p-2 (hover)font-semibold (hover)underline {{ item.class }} {% if is_current_page %} selected {% endif %} rounded"
                    href="{{ item.url | safe }}"
                    {% if is_current_page %}
                     aria-current="page"
@@ -82,7 +82,7 @@
                   {{ item.label }}
 
                   {% if item.external %}
-                    <span class="exernal-link-icon">
+                    <span class="exrernal-link-icon">
                       {% include "images/icons/arrow-right.svg" %}
                     </span>
                   {% endif %}
@@ -116,7 +116,7 @@
 
               <li class="mb-px">
 
-                <a class="nav-link -mx-4 p-2 (hover)font-semibold (hover)underline {{ item.class }} {% if is_current_page %} selected {% endif %}"
+                <a class="nav-link -mx-4 p-2 (hover)font-semibold (hover)underline {{ item.class }} {% if is_current_page %} selected {% endif %} rounded"
                    href="{{ item.url | safe }}"
                    {% if is_current_page %}
                     aria-current="page"
@@ -125,7 +125,7 @@
                   {{ item.label }}
 
                   {% if item.external %}
-                    <span class="exernal-link-icon">
+                    <span class="exrernal-link-icon">
                       {% include "images/icons/arrow-right.svg" %}
                     </span>
                   {% endif %}
