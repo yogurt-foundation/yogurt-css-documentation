@@ -19,6 +19,7 @@
         },
         {
           "label": "Playground",
+          "url": "/playground/",
           "external": "/playground/",
           "target": "_blank"
         },

@@ -72,7 +72,7 @@ When writing HTML with Yogurt CSS, the best way is to put the `class=""` to a to
 
 <a href="/installation">
   Read more about the Installation
-  <span class="exrernal-link-icon">
+  <span class="external-link-icon">
     {% include "images/icons/arrow-right.svg" %}
   </span>
 </a>
