@@ -68,7 +68,7 @@ export default async () => {
     let variant = highlightWords(result.variant, searchTermMatcher);
 
     return `
-      <a class="(group) z-10 search-result block mb-2 p-5 outline-none border-4 border-transparent (focus)border-orange-600 text-gray-800 bg-gray-100 rounded-lg"
+      <a class="(group) z-10 search-result block mb-2 p-5 outline-none border-4 border-transparent (focus)border-orange-600 text-gray-800 bg-gray-100 (hover)bg-gray-800 rounded-lg"
          href="${result.url}"
          target="_self"
          rel="noopener">
