@@ -90,7 +90,7 @@ gulp.task('app-manifest', () => {
     .pipe(gulp.dest('./dist'))
 })
 
-gulp.task('integrate-playground', () => {
+gulp.task('playground', () => {
   return gulp.src('./playground/**/**/*')
     .pipe(gulp.dest('./dist/playground'))
 })
