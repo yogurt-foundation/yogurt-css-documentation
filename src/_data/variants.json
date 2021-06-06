@@ -1385,7 +1385,7 @@
       ]
     }
   ],
-  "offsetshadow": [
+  "offsettextshadow": [
     {
       "pseudo": [
         { "variant": "Responsive", "enable": "n" },
