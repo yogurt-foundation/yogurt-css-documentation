@@ -93,11 +93,11 @@
       "items": [
         { "label": "Box Shadow", "url": "/box-shadow/" },
         { "label": "Box Shadow Color", "url": "/box-shadow-color/" },
-        { "label": "Text Shadow", "url": "/text-shadow/" },
+        { "label": "Text Offset Shadow", "url": "/text-offset-shadow/" },
+        { "label": "Text Neon Shadow", "url": "/text-neon-shadow/" },
         { "label": "Gradient", "url": "/gradient/" },
         { "label": "Mix Blend", "url": "/mix-blend/" },
         { "label": "Opacity", "url": "/opacity/" }
-
       ]
     },
     {

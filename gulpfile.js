@@ -83,20 +83,6 @@ gulp.task('service-worker', () => {
     .pipe(gulp.dest('./dist'))
 })
 
-gulp.task('codemirror', () => {
-  return gulp.src([
-      'cm/*'
-    ])
-    .pipe(gulp.dest('./dist/codemirror'))
-})
-
-gulp.task('codemirror-yogurtcss', () => {
-  return gulp.src([
-      'css/yogurt-*_solidcore.min.css'
-    ])
-    .pipe(gulp.dest('./dist'))
-})
-
 gulp.task('app-manifest', () => {
   return gulp.src([
       'pwa/manifest.json'
@@ -104,7 +90,7 @@ gulp.task('app-manifest', () => {
     .pipe(gulp.dest('./dist'))
 })
 
-gulp.task('move-playground', () => {
+gulp.task('playground', () => {
   return gulp.src('./playground/**/**/*')
     .pipe(gulp.dest('./dist/playground'))
 })
@@ -127,9 +113,7 @@ gulp.task('build',
     'css',
     'service-worker',
     'app-manifest',
-    'codemirror',
-    'codemirror-yogurtcss',
-    'move-playground'
+    'playground'
   )
 )
 
