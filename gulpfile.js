@@ -90,6 +90,11 @@ gulp.task('app-manifest', () => {
     .pipe(gulp.dest('./dist'))
 })
 
+gulp.task('monaco-editor', () => {
+  return gulp.src('./monaco-editor/**/**/*')
+    .pipe(gulp.dest('./dist/monaco-editor'))
+})
+
 gulp.task('playground', () => {
   return gulp.src('./playground/**/**/*')
     .pipe(gulp.dest('./dist/playground'))
@@ -113,6 +118,7 @@ gulp.task('build',
     'css',
     'service-worker',
     'app-manifest',
+    'monaco-editor',
     'playground'
   )
 )

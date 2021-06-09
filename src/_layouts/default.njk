@@ -21,6 +21,10 @@
   <link rel="stylesheet"
         href="/main.css{{ helpers.assetSuffix }}">
 
+  <link rel="stylesheet"
+        data-name="vs/editor/editor.main"
+        href="/monaco-editor/min/vs/editor/editor.main.css">
+
   <!-- pwa -->
   <link rel="manifest"
         href="manifest.json">
@@ -53,6 +57,8 @@
 
         <article class="article flex flex-1 flex-col (focus)outline-none w-full max-w-6xl ml-auto mr-auto px-6"
                  tabindex="-1">
+
+          {# {% include "monaco-codeblock.njk" %} #}
 
           {{ content | safe }}
 
