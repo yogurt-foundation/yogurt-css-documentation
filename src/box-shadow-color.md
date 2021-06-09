@@ -390,7 +390,9 @@ Utilities for sets the shadow color to an element.
 
 ```html
 <!-- Example -->
-<y class="shadow-lg-red-400 ... bg-white h-32 w-32"></y>
+<y class="shadow-lg-red-400 ... bg-white h-32 w-32">
+  ...
+</y>
 ```
 
 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.0</span> Set auto dark theme enabled to an element with added `(dark)` prefix.
@@ -443,6 +445,6 @@ Read more information about using the [Plugin API](/plugin-api/), and  [Responsi
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for boxshadowcolor in variants.boxshadowcolor %}{% for item in boxshadowcolor.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
 
 

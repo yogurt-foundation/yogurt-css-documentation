@@ -175,12 +175,7 @@ Utilities for set border-radius to draw multiple curves abstract object to an el
 
 ```html
 <!-- Example -->
-<y class="
-  curve-object
-  rad-tr-100 rad-bl-100
-  cur-rtb-100 cur-lbt-100 cur-rbt-100
-  ... bg-teal-600
-"></y>
+<y class="curve-object rad-tr-100 rad-bl-100 cur-rtb-100 cur-lbt-100 cur-rbt-100 ... bg-teal-600"></y>
 ```
 
 ---
@@ -208,5 +203,5 @@ Read more information about using the [Plugin API](/plugin-api/), and  [Responsi
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for curveobject in variants.curveobject %}{% for item in curveobject.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
 

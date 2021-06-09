@@ -115,8 +115,10 @@ Utilities for sets outside clipping circle path of image or element invisible, i
 ```html
 <!-- Example -->
 <y class="clip-circle focus-30 plot-x-60 plot-y-70">
-  <img class="h-64 w-64 .. object-cover object-center"
-       src="...">
+  <img
+    class="h-64 w-64 .. object-cover object-center"
+    src="..."
+  >
 </y>
 ```
 
@@ -211,5 +213,5 @@ Read more information about using the [Plugin API](/plugin-api/), and  [Responsi
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for clipcircle in variants.clipcircle %}{% for item in clipcircle.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
 

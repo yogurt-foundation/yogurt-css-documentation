@@ -74,11 +74,15 @@ Set the element scale to `50` times smaller.
 
 ```html
 <!-- Example -->
-<img class="transform scale-50 ... h-32 w-24"
-     src="...">
+<img
+  class="transform scale-50 ... h-32 w-24"
+  src="..."
+>
 
-<y class="transform scale-50 ... h-32 w-24"
-   style="background-image:utl(...)">
+<y
+  class="transform scale-50 ... h-32 w-24"
+  style="background-image:utl(...)">
+</y>
 ```
 
 Set the element scale to `150` times larger.
@@ -92,11 +96,15 @@ Set the element scale to `150` times larger.
 
 ```html
 <!-- Example -->
-<img class="transform scale-150 ... h-32 w-24"
-     src="...">
+<img
+  class="transform scale-150 ... h-32 w-24"
+  src="..."
+>
 
-<y class="transform scale-150 ... h-32 w-24"
-   style="background-image:utl(...)">
+<y
+  class="transform scale-150 ... h-32 w-24"
+  style="background-image:utl(...)">
+</y>
 ```
 
 Set the element scale `horizontal` to `50` times smaller.
@@ -113,8 +121,10 @@ Set the element scale `horizontal` to `50` times smaller.
 <img class="transform scale-x-50 ... h-32 w-24"
      src="...">
 
-<y class="transform scale-x-50 ... h-32 w-24"
-   style="background-image:utl(...)">
+<y
+  class="transform scale-x-50 ... h-32 w-24"
+  style="background-image:utl(...)">
+</y>
 ```
 
 Set the element scale `vertical` to `50` times smaller.
@@ -128,11 +138,15 @@ Set the element scale `vertical` to `50` times smaller.
 
 ```html
 <!-- Example -->
-<img class="transform scale-y-50 ... h-32 w-24"
-     src="...">
+<img
+  class="transform scale-y-50 ... h-32 w-24"
+  src="..."
+>
 
-<y class="transform scale-y-50 ... h-32 w-24"
-   style="background-image:utl(...)">
+<y
+  class="transform scale-y-50 ... h-32 w-24"
+  style="background-image:utl(...)">
+</y>
 ```
 
 ---
@@ -141,5 +155,5 @@ Set the element scale `vertical` to `50` times smaller.
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for scale in variants.scale %}{% for item in scale.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
 

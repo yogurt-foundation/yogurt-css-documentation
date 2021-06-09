@@ -297,4 +297,4 @@ Try to drag and highlight all the text below to see different colors highlighted
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for texthighlight in variants.texthighlight %}{% for item in texthighlight.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).

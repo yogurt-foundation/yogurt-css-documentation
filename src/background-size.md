@@ -36,8 +36,10 @@ Set default background image size with HTML inline attribute `style="..."` and a
 
 ```html
 <!-- Example -->
-<y class="bg-auto ... bg-center bg-no-repeat ... h-48 w-full"
-   style="background-image:url(...)"></y>
+<y
+  class="bg-auto ... bg-center bg-no-repeat ... h-48 w-full"
+  style="background-image:url(...)">
+</y>
 ```
 
 Set cropped and stretched background image to an element.
@@ -49,8 +51,10 @@ Set cropped and stretched background image to an element.
 
 ```html
 <!-- Example -->
-<y class="bg-cover ... bg-center bg-no-repeat ... h-48 w-full"
-   style="background-image:url(...)"></y>
+<y
+  class="bg-cover ... bg-center bg-no-repeat ... h-48 w-full"
+  style="background-image:url(...)">
+</y>
 ```
 
 Set background image contains an element with cropped and stretched.
@@ -62,8 +66,10 @@ Set background image contains an element with cropped and stretched.
 
 ```html
 <!-- Example -->
-<y class="bg-contain ... bg-center bg-no-repeat ... h-48 w-full"
-   style="background-image:url(...)"></y>
+<y
+  class="bg-contain ... bg-center bg-no-repeat ... h-48 w-full"
+  style="background-image:url(...)">
+</y>
 ```
 
 ---
@@ -72,5 +78,5 @@ Set background image contains an element with cropped and stretched.
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for backgroundsize in variants.backgroundsize %}{% for item in backgroundsize.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
 

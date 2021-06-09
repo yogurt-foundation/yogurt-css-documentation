@@ -168,6 +168,6 @@ Set the `horizontal` and `vertical` scroll image gallery. The image snaps to the
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for scrollsnap in variants.scrollsnap %}{% for item in scrollsnap.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
 
 

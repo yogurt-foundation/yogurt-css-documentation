@@ -57,4 +57,4 @@ Set font-weight with `Google Fonts`. (See [Font Family](/font-family/#customize-
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for fontweight in variants.fontweight %}{% for item in fontweight.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).

@@ -109,8 +109,10 @@ Utilities for sets outside clipping ellipse path of image or element invisible, 
 ```html
 <!-- Example -->
 <y class="clip-ellipse focus-x-50 focus-y-30 plot-x-40 plot-y-50">
-  <img class="h-48 w-48 ... object-cover object-center"
-        src="...">
+  <img
+    class="h-48 w-48 ... object-cover object-center"
+    src="..."
+  >
 </y>
 ```
 
@@ -205,5 +207,5 @@ Read more information about using the [Plugin API](/plugin-api/), and  [Responsi
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for clipellipse in variants.clipellipse %}{% for item in clipellipse.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
 

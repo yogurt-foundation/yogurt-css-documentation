@@ -50,8 +50,10 @@ Set `normal` blending mode background image with HTML inline attribute `style=".
 
 ```html
 <!-- Example -->
-<y class="bg-amber-600 bg-blend-normal ... bg-auto bg-center bg-no-repeat  ... h-48 w-full"
-   style="background-image:url(...)"></y>
+<y
+  class="bg-amber-600 bg-blend-normal ... bg-auto bg-center bg-no-repeat  ... h-48 w-full"
+  style="background-image:url(...)">
+</y>
 ```
 
 Set `multiply` blending mode to background image.
@@ -63,8 +65,10 @@ Set `multiply` blending mode to background image.
 
 ```html
 <!-- Example -->
-<y class="bg-amber-600 bg-blend-multiply ... bg-auto bg-center bg-no-repeat  ... h-48 w-full"
-   style="background-image:url(...)"></y>
+<y
+  class="bg-amber-600 bg-blend-multiply ... bg-auto bg-center bg-no-repeat  ... h-48 w-full"
+  style="background-image:url(...)">
+</y>
 ```
 
 Set `screen` blending mode to background image.
@@ -76,8 +80,10 @@ Set `screen` blending mode to background image.
 
 ```html
 <!-- Example -->
-<y class="bg-amber-600 bg-blend-screen ... bg-auto bg-center bg-no-repeat  ... h-48 w-full"
-   style="background-image:url(...)"></y>
+<y
+  class="bg-amber-600 bg-blend-screen ... bg-auto bg-center bg-no-repeat  ... h-48 w-full"
+  style="background-image:url(...)">
+</y>
 ```
 
 Set `overlay` blending mode to background image.
@@ -89,8 +95,10 @@ Set `overlay` blending mode to background image.
 
 ```html
 <!-- Example -->
-<y class="bg-amber-600 bg-blend-overlay ... bg-auto bg-center bg-no-repeat  ... h-48 w-full"
-   style="background-image:url(...)"></y>
+<y
+  class="bg-amber-600 bg-blend-overlay ... bg-auto bg-center bg-no-repeat  ... h-48 w-full"
+  style="background-image:url(...)">
+</y>
 ```
 
 Set `darken` blending mode to background image.
@@ -102,8 +110,10 @@ Set `darken` blending mode to background image.
 
 ```html
 <!-- Example -->
-<y class="bg-amber-600 bg-blend-darken ... bg-auto bg-center bg-no-repeat  ... h-48 w-full"
-   style="background-image:url(...)"></y>
+<y
+  class="bg-amber-600 bg-blend-darken ... bg-auto bg-center bg-no-repeat  ... h-48 w-full"
+  style="background-image:url(...)">
+</y>
 ```
 
 Set `lighten` blending mode to background image.
@@ -115,8 +125,10 @@ Set `lighten` blending mode to background image.
 
 ```html
 <!-- Example -->
-<y class="bg-amber-600 bg-blend-lighten ... bg-auto bg-center bg-no-repeat  ... h-48 w-full"
-   style="background-image:url(...)"></y>
+<y
+  class="bg-amber-600 bg-blend-lighten ... bg-auto bg-center bg-no-repeat  ... h-48 w-full"
+  style="background-image:url(...)">
+</y>
 ```
 
 Set `color` blending mode to background image.
@@ -128,8 +140,10 @@ Set `color` blending mode to background image.
 
 ```html
 <!-- Example -->
-<y class="bg-amber-600 bg-blend-color ... bg-auto bg-center bg-no-repeat  ... h-48 w-full"
-   style="background-image:url(...)"></y>
+<y
+  class="bg-amber-600 bg-blend-color ... bg-auto bg-center bg-no-repeat  ... h-48 w-full"
+  style="background-image:url(...)">
+</y>
 ```
 
 Set `color-dodge` blending mode to background image.
@@ -141,8 +155,10 @@ Set `color-dodge` blending mode to background image.
 
 ```html
 <!-- Example -->
-<y class="bg-amber-600 bg-blend-color-dodge ... bg-auto bg-center bg-no-repeat  ... h-48 w-full"
-   style="background-image:url(...)"></y>
+<y
+  class="bg-amber-600 bg-blend-color-dodge ... bg-auto bg-center bg-no-repeat  ... h-48 w-full"
+  style="background-image:url(...)">
+</y>
 ```
 
 Set `color-burn` blending mode to background image.
@@ -154,8 +170,10 @@ Set `color-burn` blending mode to background image.
 
 ```html
 <!-- Example -->
-<y class="bg-amber-600 bg-blend-color-burn ... bg-auto bg-center bg-no-repeat  ... h-48 w-full"
-   style="background-image:url(...)"></y>
+<y
+  class="bg-amber-600 bg-blend-color-burn ... bg-auto bg-center bg-no-repeat  ... h-48 w-full"
+  style="background-image:url(...)">
+</y>
 ```
 
 Set `hard-light` blending mode to background image.
@@ -167,8 +185,10 @@ Set `hard-light` blending mode to background image.
 
 ```html
 <!-- Example -->
-<y class="bg-amber-600 bg-blend-hard-light ... bg-auto bg-center bg-no-repeat  ... h-48 w-full"
-   style="background-image:url(...)"></y>
+<y
+  class="bg-amber-600 bg-blend-hard-light ... bg-auto bg-center bg-no-repeat  ... h-48 w-full"
+  style="background-image:url(...)">
+</y>
 ```
 
 Set `soft-light` blending mode to background image.
@@ -180,8 +200,10 @@ Set `soft-light` blending mode to background image.
 
 ```html
 <!-- Example -->
-<y class="bg-amber-600 bg-blend-soft-light ... bg-auto bg-center bg-no-repeat  ... h-48 w-full"
-   style="background-image:url(...)"></y>
+<y
+  class="bg-amber-600 bg-blend-soft-light ... bg-auto bg-center bg-no-repeat  ... h-48 w-full"
+  style="background-image:url(...)">
+</y>
 ```
 
 Set `different` blending mode to background image.
@@ -193,8 +215,10 @@ Set `different` blending mode to background image.
 
 ```html
 <!-- Example -->
-<y class="bg-amber-600 bg-blend-different ... bg-auto bg-center bg-no-repeat  ... h-48 w-full"
-   style="background-image:url(...)"></y>
+<y
+  class="bg-amber-600 bg-blend-different ... bg-auto bg-center bg-no-repeat  ... h-48 w-full"
+  style="background-image:url(...)">
+</y>
 ```
 
 Set `exclusion` blending mode to background image.
@@ -206,8 +230,10 @@ Set `exclusion` blending mode to background image.
 
 ```html
 <!-- Example -->
-<y class="bg-amber-600 bg-blend-exclusion ... bg-auto bg-center bg-no-repeat  ... h-48 w-full"
-   style="background-image:url(...)"></y>
+<y
+  class="bg-amber-600 bg-blend-exclusion ... bg-auto bg-center bg-no-repeat  ... h-48 w-full"
+  style="background-image:url(...)">
+</y>
 ```
 
 Set `hue` blending mode to background image.
@@ -219,8 +245,10 @@ Set `hue` blending mode to background image.
 
 ```html
 <!-- Example -->
-<y class="bg-amber-600 bg-blend-hue ... bg-auto bg-center bg-no-repeat  ... h-48 w-full"
-   style="background-image:url(...)"></y>
+<y
+  class="bg-amber-600 bg-blend-hue ... bg-auto bg-center bg-no-repeat  ... h-48 w-full"
+  style="background-image:url(...)">
+</y>
 ```
 
 Set `saturation` blending mode to background image.
@@ -232,8 +260,10 @@ Set `saturation` blending mode to background image.
 
 ```html
 <!-- Example -->
-<y class="bg-amber-600 bg-blend-saturation ... bg-auto bg-center bg-no-repeat  ... h-48 w-full"
-   style="background-image:url(...)"></y>
+<y
+  class="bg-amber-600 bg-blend-saturation ... bg-auto bg-center bg-no-repeat  ... h-48 w-full"
+  style="background-image:url(...)">
+</y>
 ```
 
 Set `luminosity` blending mode to background image.
@@ -245,8 +275,10 @@ Set `luminosity` blending mode to background image.
 
 ```html
 <!-- Example -->
-<y class="bg-amber-600 bg-blend-luminosity ... bg-auto bg-center bg-no-repeat  ... h-48 w-full"
-   style="background-image:url(...)"></y>
+<y
+  class="bg-amber-600 bg-blend-luminosity ... bg-auto bg-center bg-no-repeat  ... h-48 w-full"
+  style="background-image:url(...)">
+</y>
 ```
 
 ---
@@ -255,5 +287,5 @@ Set `luminosity` blending mode to background image.
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for backgroundblend in variants.backgroundblend %}{% for item in backgroundblend.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
 

@@ -94,4 +94,4 @@ Utilities for sets total display text line to an element.
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for textclamp in variants.textclamp %}{% for item in textclamp.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).

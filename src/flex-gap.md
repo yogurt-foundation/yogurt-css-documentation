@@ -61,7 +61,7 @@ Utilities for set inner spacing in between the flex child elements.
 <y class="flex flex-wrap flex-gap-4">
   <y> ... </y>
   <y> ... </y>
-  ...
+  <y> ... </y>
 </y>
 ```
 
@@ -71,5 +71,5 @@ Utilities for set inner spacing in between the flex child elements.
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for flexgap in variants.flexgap %}{% for item in flexgap.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
 

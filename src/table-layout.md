@@ -28,5 +28,5 @@ Utilities for defines the algorithm used to layout table cells, rows and columns
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for tabletlayout in variants.tabletlayout %}{% for item in tabletlayout.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
 

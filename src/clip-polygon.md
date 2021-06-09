@@ -266,8 +266,10 @@ Utilities for sets outside clipping path of image or element invisible, inside t
 ```html
 <!-- Example -->
 <y class="clip-polygon plot-top-x-80 plot-top-y-0 plot-bottom-x-30 plot-bottom-y-100 plot-left-x-0 plot-left-y-30 plot-right-x-90 plot-right-y-40 ... h-64 w-64">
-  <img class="h-64 w-64"
-       src="...">
+  <img
+    class="h-64 w-64"
+    src="..."
+  >
 </y>
 ```
 
@@ -404,5 +406,5 @@ Read more information about using the [Plugin API](/plugin-api/), and  [Responsi
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for clippolygon in variants.clippolygon %}{% for item in clippolygon.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
 

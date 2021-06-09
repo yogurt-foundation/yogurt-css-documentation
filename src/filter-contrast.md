@@ -60,22 +60,30 @@ Apply the `filter` class first, and then set the filter in any order when with o
 
 ```html
 <!-- Example -->
-<img class="filter contrast-10 ..."
-     src="...">
+<img
+  class="filter contrast-10 ..."
+  src="..."
+>
 
-<y class="filter contrast-10 ..."
-   style="background-image:url(...)"></y>
+<y
+  class="filter contrast-10 ..."
+  style="background-image:url(...)">
+</y>
 ```
 
 Mix with other filters, such as [Brightness](/filter-brightness/), [Saturate](/filter-saturate/), [Blur](/filter-blur/) and [Drop Shadow](/filter-drop-shadow/).
 
 ```html
 <!-- Example -->
-<img class="filter contrast-10 brightness-10 saturate-5 blur-5 drop-shadow-md ..."
-     src="...">
+<img
+  class="filter contrast-10 brightness-10 saturate-5 blur-5 drop-shadow-md ..."
+  src="..."
+>
 
-<y class="filter contrast-10 brightness-10 saturate-5 blur-5 ..."
-   style="background-image:url(...)"></y>
+<y
+  class="filter contrast-10 brightness-10 saturate-5 blur-5 ..."
+  style="background-image:url(...)">
+</y>
 ```
 
 ---
@@ -103,6 +111,6 @@ Read more information about using the [Plugin API](/plugin-api/), and  [Responsi
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for filtercontrast in variants.filtercontrast %}{% for item in filtercontrast.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
 
 

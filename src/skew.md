@@ -55,11 +55,15 @@ Set the element skew `horizontal`.
 
 ```html
 <!-- Example -->
-<img class="transform skew-x-12 ... h-32 w-24"
-     src="...">
+<img
+  class="transform skew-x-12 ... h-32 w-24"
+  src="..."
+>
 
-<y class="transform skew-x-12 ... h-32 w-24"
-   style="background-image:utl(...)">
+<y
+  class="transform skew-x-12 ... h-32 w-24"
+  style="background-image:utl(...)">
+</y>
 ```
 
 Set the element skew `vertical`.
@@ -73,11 +77,15 @@ Set the element skew `vertical`.
 
 ```html
 <!-- Example -->
-<img class="transform skew-y-12 ... h-32 w-24"
-     src="...">
+<img
+  class="transform skew-y-12 ... h-32 w-24"
+  src="..."
+>
 
-<y class="transform skew-y-12 ... h-32 w-24"
-   style="background-image:utl(...)">
+<y
+  class="transform skew-y-12 ... h-32 w-24"
+  style="background-image:utl(...)">
+</y>
 ```
 
 Set the element skew reverse `horizontal`.
@@ -91,11 +99,15 @@ Set the element skew reverse `horizontal`.
 
 ```html
 <!-- Example -->
-<img class="transform -skew-x-12 ... h-32 w-24"
-     src="...">
+<img
+  class="transform -skew-x-12 ... h-32 w-24"
+  src="..."
+>
 
-<y class="transform -skew-x-12 ... h-32 w-24"
-   style="background-image:utl(...)">
+<y
+  class="transform -skew-x-12 ... h-32 w-24"
+  style="background-image:utl(...)">
+</y>
 ```
 
 Set the element skew reverse `vertical`.
@@ -109,11 +121,15 @@ Set the element skew reverse `vertical`.
 
 ```html
 <!-- Example -->
-<img class="transform -skew-y-12 ... h-32 w-24"
-     src="...">
+<img
+  class="transform -skew-y-12 ... h-32 w-24"
+  src="..."
+>
 
-<y class="transform -skew-y-12 ... h-32 w-24"
-   style="background-image:utl(...)">
+<y
+  class="transform -skew-y-12 ... h-32 w-24"
+  style="background-image:utl(...)">
+</y>
 ```
 
 ---
@@ -122,5 +138,5 @@ Set the element skew reverse `vertical`.
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for skew in variants.skew %}{% for item in skew.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
 

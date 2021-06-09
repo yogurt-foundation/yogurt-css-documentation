@@ -58,7 +58,9 @@ Set multiplied dreamy shadow to an element.
 
 ```html
 <!-- Example -->
-<y class="shadow-dreamy ... bg-white h-32 w-32"></y>
+<y class="shadow-dreamy ... bg-white h-32 w-32">
+  ...
+</y>
 ```
 
 Set basic solid shadow to an element.
@@ -71,7 +73,9 @@ Set basic solid shadow to an element.
 
 ```html
 <!-- Example -->
-<y class="shadow ... bg-white h-32 w-32"></y>
+<y class="shadow ... bg-white h-32 w-32">
+  ...
+</y>
 ```
 
 ---
@@ -115,5 +119,5 @@ Read more information about using the [Plugin API](/plugin-api/), and  [Responsi
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for boxshadow in variants.boxshadow %}{% for item in boxshadow.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
 
