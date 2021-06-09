@@ -66,5 +66,5 @@ To simulate `theme="auto"` on a Chrome-based web browser at the developer tools,
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for themeauto in variants.themeauto %}{% for item in themeauto.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
 

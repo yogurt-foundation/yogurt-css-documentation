@@ -156,4 +156,4 @@ Set `center` position background image.
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for backgroundposition in variants.backgroundposition %}{% for item in backgroundposition.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).

@@ -122,5 +122,5 @@ Set the element skew reverse `vertical`.
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for skew in variants.skew %}{% for item in skew.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
 

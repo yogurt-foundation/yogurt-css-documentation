@@ -141,5 +141,5 @@ Set the element scale `vertical` to `50` times smaller.
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for scale in variants.scale %}{% for item in scale.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
 

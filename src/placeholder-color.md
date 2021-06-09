@@ -175,4 +175,4 @@ Utilities for sets the placeholder color using the ::placeholder pseudo element.
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for placeholdercolor in variants.placeholdercolor %}{% for item in placeholdercolor.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).

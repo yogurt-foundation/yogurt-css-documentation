@@ -71,5 +71,5 @@ Mix with duration, delay and infinite looping.
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for animationroll in variants.animationroll %}{% for item in animationroll.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
 

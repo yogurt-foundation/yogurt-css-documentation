@@ -410,5 +410,5 @@ Utilities for sets scrollbar styling such as thumb size, track color, thumb colo
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for scrollbar in variants.scrollbar %}{% for item in scrollbar.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
 

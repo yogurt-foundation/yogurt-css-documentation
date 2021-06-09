@@ -32,5 +32,5 @@ Utilities for controls how flex items are positioned along container's main axis
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for justifycontent in variants.justifycontent %}{% for item in justifycontent.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
 

@@ -162,5 +162,5 @@ Set the element origin to `top-left`.
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for transformorigin in variants.transformorigin %}{% for item in transformorigin.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
 

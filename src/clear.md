@@ -31,4 +31,4 @@ Utilities for set whether an element is moved below preceding floated elements.
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for clear in variants.clear %}{% for item in clear.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).

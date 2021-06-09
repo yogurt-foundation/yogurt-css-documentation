@@ -86,5 +86,5 @@ Set borders in between the elements vertically.
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for dissect in variants.dissect %}{% for item in dissect.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
 

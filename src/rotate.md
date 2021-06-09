@@ -308,8 +308,10 @@ Set the element rotation to `0` degree.
 
 <y class="my-6 mx-auto w-32">
   <y class="h-24 w-24 bg-red-300 flex justify-center items-center">
-    <img class="h-20 w-20 transform rotate-0 rounded shadow"
-       src="https://picsum.photos/80?=1">
+    <img
+      class="h-20 w-20 transform rotate-0 rounded shadow"
+      src="https://picsum.photos/80?=1"
+    >
   </y>
 </y>
 
@@ -331,8 +333,10 @@ Set the element rotation to `45` degree.
 
 <y class="my-6 mx-auto w-32">
   <y class="h-24 w-24 bg-red-300 flex justify-center items-center">
-    <img class="h-20 w-20 transform rotate-45 rounded shadow"
-       src="https://picsum.photos/80?=1">
+    <img
+      class="h-20 w-20 transform rotate-45 rounded shadow"
+      src="https://picsum.photos/80?=1"
+    >
   </y>
 </y>
 
@@ -354,8 +358,10 @@ Set the element rotation to `90` degree.
 
 <y class="my-6 mx-auto w-32">
   <y class="h-24 w-24 bg-red-300 flex justify-center items-center">
-    <img class="h-20 w-20 transform rotate-90 rounded shadow"
-       src="https://picsum.photos/80?=1">
+    <img
+      class="h-20 w-20 transform rotate-90 rounded shadow"
+      src="https://picsum.photos/80?=1"
+    >
   </y>
 </y>
 
@@ -377,8 +383,10 @@ Set the element rotation to `180` degree.
 
 <y class="my-6 mx-auto w-32">
   <y class="h-24 w-24 bg-red-300 flex justify-center items-center">
-    <img class="h-20 w-20 transform rotate-180 rounded shadow"
-       src="https://picsum.photos/80?=1">
+    <img
+      class="h-20 w-20 transform rotate-180 rounded shadow"
+      src="https://picsum.photos/80?=1"
+    >
   </y>
 </y>
 
@@ -400,8 +408,10 @@ Set the element rotation to `-180` degree.
 
 <y class="my-6 mx-auto w-32">
   <y class="h-24 w-24 bg-red-300 flex justify-center items-center">
-    <img class="h-20 w-20 transform -rotate-180 rounded shadow"
-       src="https://picsum.photos/80?=1">
+    <img
+      class="h-20 w-20 transform -rotate-180 rounded shadow"
+      src="https://picsum.photos/80?=1"
+    >
   </y>
 </y>
 
@@ -423,8 +433,10 @@ Set the element rotation to `-90` degree.
 
 <y class="my-6 mx-auto w-32">
   <y class="h-24 w-24 bg-red-300 flex justify-center items-center">
-    <img class="h-20 w-20 transform -rotate-90 rounded shadow"
-       src="https://picsum.photos/80?=1">
+    <img
+      class="h-20 w-20 transform -rotate-90 rounded shadow"
+      src="https://picsum.photos/80?=1"
+    >
   </y>
 </y>
 
@@ -446,8 +458,10 @@ Set the element rotation to `-45` degree.
 
 <y class="my-6 mx-auto w-32">
   <y class="h-24 w-24 bg-red-300 flex justify-center items-center">
-    <img class="h-20 w-20 transform -rotate-45 rounded shadow"
-       src="https://picsum.photos/80?=1">
+    <img
+      class="h-20 w-20 transform -rotate-45 rounded shadow"
+      src="https://picsum.photos/80?=1"
+    >
   </y>
 </y>
 
@@ -467,10 +481,12 @@ Set the element rotation to `-45` degree.
 
 Set the element rotation with 3D perspective using `rotate-x`, `rotate-y` and `rotate-z`, apply `hover` to create animated effect.
 
-<y class="my-6 mx-auto w-32">
-  <y class="h-24 w-24 bg-red-300 flex justify-center items-center">
-    <img class="h-20 w-20 perspective-1500 transform rotate-x-18 (hover)rotate-x-0 -rotate-y-18 (hover)rotate-y-0 rotate-z-3 (hover)rotate-z-0 rounded shadow"
-       src="https://picsum.photos/80?=1">
+<y class="my-6 mx-auto w-full flex justify-center items-center">
+  <y class="h-72 w-72">
+    <img
+      class="h-64 w-64 perspective-1500 transform rotate-x-18 (hover)rotate-x-0 -rotate-y-18 (hover)rotate-y-0 rotate-z-3 (hover)rotate-z-0 rounded shadow transition duration-500 ease-in-out cursor-pointer"
+      src="https://picsum.photos/400?=1"
+    >
   </y>
 </y>
 
@@ -478,13 +494,13 @@ Set the element rotation with 3D perspective using `rotate-x`, `rotate-y` and `r
 ```html
 <!-- Example -->
 <img
-  class="perspective-1500 transform rotate-x-18 (hover)rotate-x-0 -rotate-y-18 (hover)rotate-y-0 rotate-z-3 (hover)rotate-z-0 ... h-32 w-24"
+  class="perspective-1500 transform rotate-x-18 (hover)rotate-x-0 -rotate-y-18 (hover)rotate-y-0 rotate-z-3 (hover)rotate-z-0 ... h-32 w-24 ... transition duration-500 ease-in-out"
   src="..."
 >
 
 <!-- Example -->
 <y
-  class="perspective-1500 transform rotate-x-18 (hover)rotate-x-0 -rotate-y-18 (hover)rotate-y-0 rotate-z-3 (hover)rotate-z-0 ... h-32 w-24"
+  class="perspective-1500 transform rotate-x-18 (hover)rotate-x-0 -rotate-y-18 (hover)rotate-y-0 rotate-z-3 (hover)rotate-z-0 ... h-32 w-24 ... transition duration-500 ease-in-out"
   style="background-image:url(...)">
 </y>
 ```
@@ -495,5 +511,5 @@ Set the element rotation with 3D perspective using `rotate-x`, `rotate-y` and `r
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for rotate in variants.rotate %}{% for item in rotate.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
 

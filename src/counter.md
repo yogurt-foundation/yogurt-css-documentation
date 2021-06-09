@@ -113,4 +113,4 @@ Utilities for sets automatically counter to an element can be grouped separately
 
 <y class="flex flex-gap-2 flex-wrap justify-start items-center">{% for counter in variants.counter %}{% for item in counter.pseudo %}{% include "variants.njk" %}{% endfor %}{% endfor %}</y>
 
-Default enabled variants. Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
+Read more information about the [Responsive](/responsive) and [Pseudo-Class Variants](/pseudo-class-variants/).
