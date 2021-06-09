@@ -50,8 +50,10 @@ Utilities for sets an image or canvas renders if it is scaled up or down from it
 
 <canvas class="image-optimize-crisp"></canvas>
 
-<y class="image-optimize-crisp"
-   style="background-image: url(...)"></y>
+<y
+  class="image-optimize-crisp"
+  style="background-image: url(...)">
+</y>
 ```
 
 ---

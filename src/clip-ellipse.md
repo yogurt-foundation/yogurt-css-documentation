@@ -109,8 +109,10 @@ Utilities for sets outside clipping ellipse path of image or element invisible, 
 ```html
 <!-- Example -->
 <y class="clip-ellipse focus-x-50 focus-y-30 plot-x-40 plot-y-50">
-  <img class="h-48 w-48 ... object-cover object-center"
-        src="...">
+  <img
+    class="h-48 w-48 ... object-cover object-center"
+    src="..."
+  >
 </y>
 ```
 

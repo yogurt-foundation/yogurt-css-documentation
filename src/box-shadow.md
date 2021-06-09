@@ -58,7 +58,9 @@ Set multiplied dreamy shadow to an element.
 
 ```html
 <!-- Example -->
-<y class="shadow-dreamy ... bg-white h-32 w-32"></y>
+<y class="shadow-dreamy ... bg-white h-32 w-32">
+  ...
+</y>
 ```
 
 Set basic solid shadow to an element.
@@ -71,7 +73,9 @@ Set basic solid shadow to an element.
 
 ```html
 <!-- Example -->
-<y class="shadow ... bg-white h-32 w-32"></y>
+<y class="shadow ... bg-white h-32 w-32">
+  ...
+</y>
 ```
 
 ---

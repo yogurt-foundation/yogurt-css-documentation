@@ -48,7 +48,9 @@ Set background-color with `75%` opacity to an element.
 
 ```html
 <!-- Example -->
-<y class="bg-amber-500 bg-opacity-75 ... h-32 w-64"></y>
+<y class="bg-amber-500 bg-opacity-75 ... h-32 w-64">
+  ...
+</y>
 ```
 
 Set background-color with `50%` opacity to an element.
@@ -59,7 +61,9 @@ Set background-color with `50%` opacity to an element.
 
 ```html
 <!-- Example -->
-<y class="bg-amber-500 bg-opacity-50 ... h-32 w-64"></y>
+<y class="bg-amber-500 bg-opacity-50 ... h-32 w-64">
+  ...
+</y>
 ```
 
 Set background-color with `25%` opacity to an element.
@@ -70,7 +74,9 @@ Set background-color with `25%` opacity to an element.
 
 ```html
 <!-- Example -->
-<y class="bg-amber-500 bg-opacity-25 ... h-32 w-64"></y>
+<y class="bg-amber-500 bg-opacity-25 ... h-32 w-64">
+  ...
+</y>
 ```
 
 Set background-color with `0%` opacity to an element.
@@ -81,7 +87,9 @@ Set background-color with `0%` opacity to an element.
 
 ```html
 <!-- Example -->
-<y class="bg-amber-500 bg-opacity-0 ... h-32 w-64"></y>
+<y class="bg-amber-500 bg-opacity-0 ... h-32 w-64">
+  ...
+</y>
 ```
 
 ---

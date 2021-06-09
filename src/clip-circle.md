@@ -115,8 +115,10 @@ Utilities for sets outside clipping circle path of image or element invisible, i
 ```html
 <!-- Example -->
 <y class="clip-circle focus-30 plot-x-60 plot-y-70">
-  <img class="h-64 w-64 .. object-cover object-center"
-       src="...">
+  <img
+    class="h-64 w-64 .. object-cover object-center"
+    src="..."
+  >
 </y>
 ```
 

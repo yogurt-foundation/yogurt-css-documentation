@@ -45,22 +45,30 @@ Utilities for sets filter inverts effect to an element.
 
 ```html
 <!-- Example -->
-<img class="invert-1 ..."
-     src="...">
+<img
+  class="invert-1 ..."
+  src="..."
+>
 
-<y class="invert-1 ..."
-   style="background-image:url(...)"></y>
+<y
+  class="invert-1 ..."
+  style="background-image:url(...)">
+</y>
 ```
 
 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.1</span> Set auto dark theme enabled to an element with added `(dark)` prefix.
 
 ```html
 <!-- Example -->
-<img class="invert-1 (dark)invert-0 ..."
-     src="...">
+<img
+  class="invert-1 (dark)invert-0 ..."
+  src="..."
+>
 
-<y class="invert-1 (dark)invert-0 ..."
-   style="background-image:url(...)"></y>
+<y
+  class="invert-1 (dark)invert-0 ..."
+  style="background-image:url(...)">
+</y>
 ```
 
 ---

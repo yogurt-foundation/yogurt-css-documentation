@@ -157,16 +157,20 @@ Utilities for sets the placeholder color using the ::placeholder pseudo element.
 
 ```html
 <!-- Example -->
-<input class="placeholder-red-500 ..."
-       placeholder="...">
+<input
+  class="placeholder-red-500 ..."
+  placeholder="..."
+>
 ```
 
 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.0</span> Set auto dark theme enabled to an element with added `(dark)` prefix.
 
 ```html
 <!-- Example -->
-<input class="placeholder-red-500 ... (dark)placeholder-gray-200"
-       placeholder="...">
+<input
+  class="placeholder-red-500 ... (dark)placeholder-gray-200"
+  placeholder="..."
+>
 ```
 
 ---

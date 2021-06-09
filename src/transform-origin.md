@@ -47,8 +47,10 @@ Set the element origin to `center`.
 
 ```html
 <!-- Example -->
-<img class="origin-center ... transform rotate-45 ... h-32 w-24"
-     src="...">
+<img
+  class="origin-center ... transform rotate-45 ... h-32 w-24"
+  src="..."
+>
 ```
 
 Set the element origin to `top-left`.
@@ -62,8 +64,10 @@ Set the element origin to `top-left`.
 
 ```html
 <!-- Example -->
-<img class="origin-top-left ... transform rotate-45 ... h-32 w-24"
-     src="...">
+<img
+  class="origin-top-left ... transform rotate-45 ... h-32 w-24"
+  src="..."
+>
 ```
 
 Set the element origin to `bottom-right`.
@@ -77,8 +81,10 @@ Set the element origin to `bottom-right`.
 
 ```html
 <!-- Example -->
-<img class="origin-bottom-right ... transform rotate-45 ... h-32 w-24"
-     src="...">
+<img
+  class="origin-bottom-right ... transform rotate-45 ... h-32 w-24"
+  src="..."
+>
 ```
 
 Set the element origin to `right`.
@@ -92,8 +98,10 @@ Set the element origin to `right`.
 
 ```html
 <!-- Example -->
-<img class="origin-right ... transform rotate-45 ... h-32 w-24"
-     src="...">
+<img
+  class="origin-right ... transform rotate-45 ... h-32 w-24"
+  src="..."
+>
 ```
 
 Set the element origin to `bottom-right`.
@@ -107,8 +115,10 @@ Set the element origin to `bottom-right`.
 
 ```html
 <!-- Example -->
-<img class="origin-center ... transform rotate-45 ... h-32 w-24"
-     src="...">
+<img
+  class="origin-center ... transform rotate-45 ... h-32 w-24"
+  src="..."
+>
 ```
 
 Set the element origin to `bottom-left`.
@@ -122,8 +132,10 @@ Set the element origin to `bottom-left`.
 
 ```html
 <!-- Example -->
-<img class="origin-bottom-left ... transform rotate-45 ... h-32 w-24"
-     src="...">
+<img
+  class="origin-bottom-left ... transform rotate-45 ... h-32 w-24"
+  src="..."
+>
 ```
 
 Set the element origin to `left`.
@@ -137,8 +149,10 @@ Set the element origin to `left`.
 
 ```html
 <!-- Example -->
-<img class="origin-left ... transform rotate-45 ... h-32 w-24"
-     src="...">
+<img
+  class="origin-left ... transform rotate-45 ... h-32 w-24"
+  src="..."
+>
 ```
 
 Set the element origin to `top-left`.
@@ -152,8 +166,10 @@ Set the element origin to `top-left`.
 
 ```html
 <!-- Example -->
-<img class="origin-top-left ... transform rotate-45 ... h-32 w-24"
-     src="...">
+<img
+  class="origin-top-left ... transform rotate-45 ... h-32 w-24"
+  src="..."
+>
 ```
 
 ---

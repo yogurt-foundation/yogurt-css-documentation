@@ -390,7 +390,9 @@ Utilities for sets the shadow color to an element.
 
 ```html
 <!-- Example -->
-<y class="shadow-lg-red-400 ... bg-white h-32 w-32"></y>
+<y class="shadow-lg-red-400 ... bg-white h-32 w-32">
+  ...
+</y>
 ```
 
 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.0</span> Set auto dark theme enabled to an element with added `(dark)` prefix.

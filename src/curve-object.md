@@ -175,12 +175,7 @@ Utilities for set border-radius to draw multiple curves abstract object to an el
 
 ```html
 <!-- Example -->
-<y class="
-  curve-object
-  rad-tr-100 rad-bl-100
-  cur-rtb-100 cur-lbt-100 cur-rbt-100
-  ... bg-teal-600
-"></y>
+<y class="curve-object rad-tr-100 rad-bl-100 cur-rtb-100 cur-lbt-100 cur-rbt-100 ... bg-teal-600"></y>
 ```
 
 ---

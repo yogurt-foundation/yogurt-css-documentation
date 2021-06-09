@@ -42,8 +42,10 @@ Set `left-top` position background image with HTML inline attribute `style="..."
 
 ```html
 <!-- Example -->
-<y class="bg-left-top ... bg-no-repeat ... h-32 w-64"
-   style="background-image:url(...)"></y>
+<y
+  class="bg-left-top ... bg-no-repeat ... h-32 w-64"
+  style="background-image:url(...)">
+</y>
 ```
 
 Set `top` position background image.
@@ -55,8 +57,10 @@ Set `top` position background image.
 
 ```html
 <!-- Example -->
-<y class="bg-top ... bg-no-repeat ... h-32 w-64"
-   style="background-image:url(...)"></y>
+<y
+  class="bg-top ... bg-no-repeat ... h-32 w-64"
+  style="background-image:url(...)">
+</y>
 ```
 
 Set `right-top` position background image.
@@ -68,8 +72,10 @@ Set `right-top` position background image.
 
 ```html
 <!-- Example -->
-<y class="bg-right-top ... bg-no-repeat ... h-32 w-64"
-   style="background-image:url(...)"></y>
+<y
+  class="bg-right-top ... bg-no-repeat ... h-32 w-64"
+  style="background-image:url(...)">
+</y>
 ```
 
 Set `right` position background image.
@@ -81,8 +87,10 @@ Set `right` position background image.
 
 ```html
 <!-- Example -->
-<y class="bg-right ... bg-no-repeat ... h-32 w-64"
-   style="background-image:url(...)"></y>
+<y
+  class="bg-right ... bg-no-repeat ... h-32 w-64"
+  style="background-image:url(...)">
+</y>
 ```
 
 Set `right bottom` position background image.
@@ -94,8 +102,10 @@ Set `right bottom` position background image.
 
 ```html
 <!-- Example -->
-<y class="bg-right-bottom ... bg-no-repeat ... h-32 w-64"
-   style="background-image:url(...)"></y>
+<y
+  class="bg-right-bottom ... bg-no-repeat ... h-32 w-64"
+  style="background-image:url(...)">
+</y>
 ```
 
 Set `bottom` position background image.
@@ -107,8 +117,10 @@ Set `bottom` position background image.
 
 ```html
 <!-- Example -->
-<y class="bg-bottom ... bg-no-repeat ... h-32 w-64"
-   style="background-image:url(...)"></y>
+<y
+  class="bg-bottom ... bg-no-repeat ... h-32 w-64"
+  style="background-image:url(...)">
+</y>
 ```
 
 Set `left-bottom` position background image.
@@ -120,8 +132,10 @@ Set `left-bottom` position background image.
 
 ```html
 <!-- Example -->
-<y class="bg-left-bottom ... bg-no-repeat ... h-32 w-64"
-   style="background-image:url(...)"></y>
+<y
+  class="bg-left-bottom ... bg-no-repeat ... h-32 w-64"
+  style="background-image:url(...)">
+</y>
 ```
 
 Set `left` position background image.
@@ -133,8 +147,10 @@ Set `left` position background image.
 
 ```html
 <!-- Example -->
-<y class="bg-left ... bg-no-repeat ... h-32 w-64"
-   style="background-image:url(...)"></y>
+<y
+  class="bg-left ... bg-no-repeat ... h-32 w-64"
+  style="background-image:url(...)">
+</y>
 ```
 
 Set `center` position background image.
@@ -146,8 +162,10 @@ Set `center` position background image.
 
 ```html
 <!-- Example -->
-<y class="bg-center ... bg-no-repeat ... h-32 w-64"
-   style="background-image:url(...)"></y>
+<y
+  class="bg-center ... bg-no-repeat ... h-32 w-64"
+  style="background-image:url(...)">
+</y>
 ```
 
 ---

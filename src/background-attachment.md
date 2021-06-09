@@ -38,8 +38,10 @@ Set fixed background image with HTML inline attribute `style="..."` and a CSS pr
 
 ```html
 <!-- Example -->
-<y class="bg-fixed ... w-56 h-24 overflow-y-scroll"
-   style="background-image:url(...)"></y>
+<y
+  class="bg-fixed ... w-56 h-24 overflow-y-scroll"
+  style="background-image:url(...)"
+></y>
 ```
 
 Set a scrollable background image in the browser viewport and the element container.
@@ -53,8 +55,10 @@ Set a scrollable background image in the browser viewport and the element contai
 
 ```html
 <!-- Example -->
-<y class="bg-local ... w-56 h-24 overflow-y-scroll"
-   style="background-image:url(...)"></y>
+<y
+  class="bg-local ... w-56 h-24 overflow-y-scroll"
+  style="background-image:url(...)"
+></y>
 ```
 
 Set a scrollable background image in the browser viewport.
@@ -68,8 +72,10 @@ Set a scrollable background image in the browser viewport.
 
 ```html
 <!-- Example -->
-<y class="bg-scroll ... w-56 h-24 overflow-y-scroll"
-   style="background-image:url(...)"></y>
+<y
+  class="bg-scroll ... w-56 h-24 overflow-y-scroll"
+  style="background-image:url(...)"
+></y>
 ```
 
 ---

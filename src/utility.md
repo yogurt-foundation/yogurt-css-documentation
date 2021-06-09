@@ -128,8 +128,10 @@ When styling the elements with Yogurt, you don't have to write like the example 
 <!-- Example -->
 <y class="mx-auto my-8 max-w-xs">
   <y class="flex justify-center items-center px-4 py-8 bg-white rounded-lg shadow-md">
-    <img class="h-16 w-16 object-cover object-center rounded-full overflow-hidden"
-         src="https://i.pravatar.cc/100">
+    <img
+      class="h-16 w-16 object-cover object-center rounded-full overflow-hidden"
+      src="https://i.pravatar.cc/100"
+    >
     <y class="px-4 text-charcoal-100 text-lg">
       John Doe
     </y>

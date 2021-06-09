@@ -61,7 +61,7 @@ Utilities for set inner spacing in between the flex child elements.
 <y class="flex flex-wrap flex-gap-4">
   <y> ... </y>
   <y> ... </y>
-  ...
+  <y> ... </y>
 </y>
 ```
 

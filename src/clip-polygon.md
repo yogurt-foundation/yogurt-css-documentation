@@ -266,8 +266,10 @@ Utilities for sets outside clipping path of image or element invisible, inside t
 ```html
 <!-- Example -->
 <y class="clip-polygon plot-top-x-80 plot-top-y-0 plot-bottom-x-30 plot-bottom-y-100 plot-left-x-0 plot-left-y-30 plot-right-x-90 plot-right-y-40 ... h-64 w-64">
-  <img class="h-64 w-64"
-       src="...">
+  <img
+    class="h-64 w-64"
+    src="..."
+  >
 </y>
 ```
 
