@@ -20,6 +20,7 @@ Utilities for translate an element that has transform applied.
 
 | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
+| translate-x-px | --transform-translate-x: 1px |
 | translate-x-0 | --transform-translate-x: 0 |
 | translate-x-1 | --transform-translate-x: 0.25rem |
 | translate-x-2 | --transform-translate-x: 0.5rem |
@@ -38,7 +39,8 @@ Utilities for translate an element that has transform applied.
 | translate-x-48 | --transform-translate-x: 12rem |
 | translate-x-56 | --transform-translate-x: 14rem |
 | translate-x-64 | --transform-translate-x: 16rem |
-| translate-x-px | --transform-translate-x: 1px |
+| translate-x-1/2 | --transform-translate-x: 50% |
+| translate-x-full | --transform-translate-x: 100% |
 | -translate-x-1 | --transform-translate-x: -0.25rem |
 | -translate-x-2 | --transform-translate-x: -0.5rem |
 | -translate-x-3 | --transform-translate-x: -0.75rem |
@@ -59,11 +61,10 @@ Utilities for translate an element that has transform applied.
 | -translate-x-px | --transform-translate-x: -1px |
 | -translate-x-full | --transform-translate-x: -100% |
 | -translate-x-1/2 | --transform-translate-x: -50% |
-| translate-x-1/2 | --transform-translate-x: 50% |
-| translate-x-full | --transform-translate-x: 100% |
 
 | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
+| translate-y-px | --transform-translate-y: 1px |
 | translate-y-0 | --transform-translate-y: 0 |
 | translate-y-1 | --transform-translate-y: 0.25rem |
 | translate-y-2 | --transform-translate-y: 0.5rem |
@@ -82,7 +83,8 @@ Utilities for translate an element that has transform applied.
 | translate-y-48 | --transform-translate-y: 12rem |
 | translate-y-56 | --transform-translate-y: 14rem |
 | translate-y-64 | --transform-translate-y: 16rem |
-| translate-y-px | --transform-translate-y: 1px |
+| translate-y-1/2 | --transform-translate-y: 50% |
+| translate-y-full | --transform-translate-y: 100% |
 | -translate-y-1 | --transform-translate-y: -0.25rem |
 | -translate-y-2 | --transform-translate-y: -0.5rem |
 | -translate-y-3 | --transform-translate-y: -0.75rem |
@@ -103,11 +105,10 @@ Utilities for translate an element that has transform applied.
 | -translate-y-px | --transform-translate-y: -1px |
 | -translate-y-full | --transform-translate-y: -100% |
 | -translate-y-1/2 | --transform-translate-y: -50% |
-| translate-y-1/2 | --transform-translate-y: 50% |
-| translate-y-full | --transform-translate-y: 100% |
 
 | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
+| translate-z-px | --transform-translate-z: 1px |
 | translate-z-0 | --transform-translate-z: 0 |
 | translate-z-1 | --transform-translate-z: 0.25rem |
 | translate-z-2 | --transform-translate-z: 0.5rem |
@@ -126,7 +127,8 @@ Utilities for translate an element that has transform applied.
 | translate-z-48 | --transform-translate-z: 12rem |
 | translate-z-56 | --transform-translate-z: 14rem |
 | translate-z-64 | --transform-translate-z: 16rem |
-| translate-z-px | --transform-translate-z: 1px |
+| translate-z-1/2 | --transform-translate-z: 50% |
+| translate-z-full | --transform-translate-z: 100% |
 | -translate-z-1 | --transform-translate-z: -0.25rem |
 | -translate-z-2 | --transform-translate-z: -0.5rem |
 | -translate-z-3 | --transform-translate-z: -0.75rem |
@@ -147,8 +149,6 @@ Utilities for translate an element that has transform applied.
 | -translate-z-px | --transform-translate-z: -1px |
 | -translate-z-full | --transform-translate-z: -100% |
 | -translate-z-1/2 | --transform-translate-z: -50% |
-| translate-z-1/2 | --transform-translate-z: 50% |
-| translate-z-full | --transform-translate-z: 100% |
 
 ---
 
