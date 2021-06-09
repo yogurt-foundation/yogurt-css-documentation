@@ -106,6 +106,50 @@ Utilities for translate an element that has transform applied.
 | translate-y-1/2 | --transform-translate-y: 50% |
 | translate-y-full | --transform-translate-y: 100% |
 
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+|:--|:--|
+| translate-z-0 | --transform-translate-z: 0 |
+| translate-z-1 | --transform-translate-z: 0.25rem |
+| translate-z-2 | --transform-translate-z: 0.5rem |
+| translate-z-3 | --transform-translate-z: 0.75rem |
+| translate-z-4 | --transform-translate-z: 1rem |
+| translate-z-5 | --transform-translate-z: 1.25rem |
+| translate-z-6 | --transform-translate-z: 1.5rem |
+| translate-z-8 | --transform-translate-z: 2rem |
+| translate-z-10 | --transform-translate-z: 2.5rem |
+| translate-z-12 | --transform-translate-z: 3rem |
+| translate-z-16 | --transform-translate-z: 4rem |
+| translate-z-20 | --transform-translate-z: 5rem |
+| translate-z-24 | --transform-translate-z: 6rem |
+| translate-z-32 | --transform-translate-z: 8rem |
+| translate-z-40 | --transform-translate-z: 10rem |
+| translate-z-48 | --transform-translate-z: 12rem |
+| translate-z-56 | --transform-translate-z: 14rem |
+| translate-z-64 | --transform-translate-z: 16rem |
+| translate-z-px | --transform-translate-z: 1px |
+| -translate-z-1 | --transform-translate-z: -0.25rem |
+| -translate-z-2 | --transform-translate-z: -0.5rem |
+| -translate-z-3 | --transform-translate-z: -0.75rem |
+| -translate-z-4 | --transform-translate-z: -1rem |
+| -translate-z-5 | --transform-translate-z: -1.25rem |
+| -translate-z-6 | --transform-translate-z: -1.5rem |
+| -translate-z-8 | --transform-translate-z: -2rem |
+| -translate-z-10 | --transform-translate-z: -2.5rem |
+| -translate-z-12 | --transform-translate-z: -3rem |
+| -translate-z-16 | --transform-translate-z: -4rem |
+| -translate-z-20 | --transform-translate-z: -5rem |
+| -translate-z-24 | --transform-translate-z: -6rem |
+| -translate-z-32 | --transform-translate-z: -8rem |
+| -translate-z-40 | --transform-translate-z: -10rem |
+| -translate-z-48 | --transform-translate-z: -12rem |
+| -translate-z-56 | --transform-translate-z: -14rem |
+| -translate-z-64 | --transform-translate-z: -16rem |
+| -translate-z-px | --transform-translate-z: -1px |
+| -translate-z-full | --transform-translate-z: -100% |
+| -translate-z-1/2 | --transform-translate-z: -50% |
+| translate-z-1/2 | --transform-translate-z: 50% |
+| translate-z-full | --transform-translate-z: 100% |
+
 ---
 
 ## Variant
