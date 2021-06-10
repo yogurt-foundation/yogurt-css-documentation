@@ -57,6 +57,19 @@ Utilities for scales an element that has transform applied.
 | scale-y-125 | --transform-scale-y: 1.25 |
 | scale-y-150 | --transform-scale-y: 1.5 |
 
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+|:--|:--|
+| scale-z-0 | --transform-scale-z: 0 |
+| scale-z-50 | --transform-scale-z: .5 |
+| scale-z-75 | --transform-scale-z: .75 |
+| scale-z-90 | --transform-scale-z: .9 |
+| scale-z-95 | --transform-scale-z: .95 |
+| scale-z-100 | --transform-scale-z: 1 |
+| scale-z-105 | --transform-scale-z: 1.05 |
+| scale-z-110 | --transform-scale-z: 1.1 |
+| scale-z-125 | --transform-scale-z: 1.25 |
+| scale-z-150 | --transform-scale-z: 1.5 |
+
 ---
 
 ## Usage
@@ -67,8 +80,10 @@ Set the element scale to `50` times smaller.
 
 <y class="my-6 mx-auto w-32">
   <y class="h-24 w-24 bg-red-300 flex justify-center items-center">
-    <img class="h-20 w-20 transform scale-50 rounded shadow"
-       src="https://picsum.photos/80?=1">
+    <img 
+      class="h-20 w-20 transform scale-50 rounded shadow"
+      src="https://picsum.photos/80?=1"
+    >
   </y>
 </y>
 
