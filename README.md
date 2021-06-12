@@ -1,14 +1,9 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b68ec73a-d36a-4b8f-aff3-6ca8b8040a87/deploy-status)](https://app.netlify.com/sites/yogurtcss/deploys)
 
-<p align="center">
-  <img
-    src="https://raw.githubusercontent.com/yogurt-foundation/yogurt-css-documentation/2.0.0/images/github/promo.png"
-    height="auto"
-    width="auto"
-  >
-</p>
+<img
+    src="https://raw.githubusercontent.com/yogurt-foundation/yogurt-css-documentation/2.0.0/images/github/promo.png">
 
-# Yogurt CSS Documentation
+## Yogurt CSS Documentation
 
 > [Read the official documentation](https://yogurtcss.netlify.app)
 
@@ -45,7 +40,7 @@ $ yarn
 $ npm i
 ```
 
-serve the dev project,
+run locally,
 
 ```bash
 # YARN
