@@ -88,7 +88,7 @@ Utilities for rotates an element that has transform applied.
 | -rotate-120 | --transform-rotate: -120deg |
 | -rotate-180 | --transform-rotate: -180deg |
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> <span class="ml-1 px-2 py-1 text-xs font-semibold text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600 rounded-full">v1.1.6</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
 | rotate-x-0 | --transform-rotate-x: 0deg |
 | rotate-x-3 | --transform-rotate-x: 3deg |
@@ -158,7 +158,7 @@ Utilities for rotates an element that has transform applied.
 | -rotate-x-120 | --transform-rotate-x: -120deg |
 | -rotate-x-180 | --transform-rotate-x: -180deg |
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> <span class="ml-1 px-2 py-1 text-xs font-semibold text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600 rounded-full">v1.1.6</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
 | rotate-y-0 | --transform-rotate-y: 0deg |
 | rotate-y-3 | --transform-rotate-y: 3deg |
@@ -228,7 +228,7 @@ Utilities for rotates an element that has transform applied.
 | -rotate-y-120 | --transform-rotate-y: -120deg |
 | -rotate-y-180 | --transform-rotate-y: -180deg |
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> <span class="ml-1 px-2 py-1 text-xs font-semibold text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600 rounded-full">v1.1.6</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
 | rotate-z-0 | --transform-rotate-z: 0deg |
 | rotate-z-3 | --transform-rotate-z: 3deg |
@@ -307,10 +307,10 @@ Set basic [Transform Origin](/transform-origin/) with [Rotate](/rotate/) utility
 Set the element rotation to `0` degree.
 
 <y class="my-6 mx-auto w-32">
-  <y class="h-24 w-24 bg-red-300 flex justify-center items-center">
+  <y class="h-48 w-48 bg-red-300 flex justify-center items-center">
     <img
-      class="h-20 w-20 transform rotate-0 rounded shadow"
-      src="https://picsum.photos/80?=1"
+      class="h-32 w-32 transform rotate-0 rounded shadow"
+      src="https://picsum.photos/100?=1"
     >
   </y>
 </y>
@@ -325,16 +325,16 @@ Set the element rotation to `0` degree.
 <!-- Example -->
 <y
   class="transform rotate-0 ... h-32 w-24"
-  style="background-image:utl(...)"
-></y>
+  style="background-image:utl(...)">
+</y>
 ```
 
 Set the element rotation to `45` degree.
 
 <y class="my-6 mx-auto w-32">
-  <y class="h-24 w-24 bg-red-300 flex justify-center items-center">
+  <y class="h-48 w-48 bg-red-300 flex justify-center items-center">
     <img
-      class="h-20 w-20 transform rotate-45 rounded shadow"
+      class="h-32 w-32 transform rotate-45 rounded shadow"
       src="https://picsum.photos/80?=1"
     >
   </y>
@@ -357,9 +357,9 @@ Set the element rotation to `45` degree.
 Set the element rotation to `90` degree.
 
 <y class="my-6 mx-auto w-32">
-  <y class="h-24 w-24 bg-red-300 flex justify-center items-center">
+  <y class="h-48 w-48 bg-red-300 flex justify-center items-center">
     <img
-      class="h-20 w-20 transform rotate-90 rounded shadow"
+      class="h-32 w-32 transform rotate-90 rounded shadow"
       src="https://picsum.photos/80?=1"
     >
   </y>
@@ -382,9 +382,9 @@ Set the element rotation to `90` degree.
 Set the element rotation to `180` degree.
 
 <y class="my-6 mx-auto w-32">
-  <y class="h-24 w-24 bg-red-300 flex justify-center items-center">
+  <y class="h-48 w-48 bg-red-300 flex justify-center items-center">
     <img
-      class="h-20 w-20 transform rotate-180 rounded shadow"
+      class="h-32 w-32 transform rotate-180 rounded shadow"
       src="https://picsum.photos/80?=1"
     >
   </y>
@@ -407,9 +407,9 @@ Set the element rotation to `180` degree.
 Set the element rotation to `-180` degree.
 
 <y class="my-6 mx-auto w-32">
-  <y class="h-24 w-24 bg-red-300 flex justify-center items-center">
+  <y class="h-48 w-484 bg-red-300 flex justify-center items-center">
     <img
-      class="h-20 w-20 transform -rotate-180 rounded shadow"
+      class="h-32 w-32 transform -rotate-180 rounded shadow"
       src="https://picsum.photos/80?=1"
     >
   </y>
@@ -432,9 +432,9 @@ Set the element rotation to `-180` degree.
 Set the element rotation to `-90` degree.
 
 <y class="my-6 mx-auto w-32">
-  <y class="h-24 w-24 bg-red-300 flex justify-center items-center">
+  <y class="h-48 w-48 bg-red-300 flex justify-center items-center">
     <img
-      class="h-20 w-20 transform -rotate-90 rounded shadow"
+      class="h-32 w-32 transform -rotate-90 rounded shadow"
       src="https://picsum.photos/80?=1"
     >
   </y>
@@ -457,9 +457,9 @@ Set the element rotation to `-90` degree.
 Set the element rotation to `-45` degree.
 
 <y class="my-6 mx-auto w-32">
-  <y class="h-24 w-24 bg-red-300 flex justify-center items-center">
+  <y class="h-48 w-48 bg-red-300 flex justify-center items-center">
     <img
-      class="h-20 w-20 transform -rotate-45 rounded shadow"
+      class="h-32 w-32 transform -rotate-45 rounded shadow"
       src="https://picsum.photos/80?=1"
     >
   </y>
