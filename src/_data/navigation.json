@@ -183,6 +183,7 @@
       "label": "Transforms",
       "items": [
         { "label": "Transform Origin", "url": "/transform-origin/" },
+        { "label": "Transform Perspective", "url": "/transform-perspective/" },
         { "label": "Translate", "url": "/translate/" },
         { "label": "Rotate", "url": "/rotate/" },
         { "label": "Scale", "url": "/scale/" },
