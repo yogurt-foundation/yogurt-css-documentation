@@ -2,15 +2,11 @@ const autoPrefixer = require('autoprefixer')
 const clean = require('gulp-clean')
 const concat = require('gulp-concat')
 const gulp = require('gulp')
-const path = require('path')
 const postcss = require('gulp-postcss')
 const purgeCss = require('gulp-purgecss')
 const rename = require('gulp-rename')
 const sass = require('gulp-sass')
 const webpack = require('webpack-stream')
-
-const pkg = require('./package.json')
-
 
 gulp.task('js', () => gulp.src(['js/main.js'])
   .pipe(webpack({
