@@ -2639,6 +2639,28 @@
       ]
     }
   ],
+  "transformperspective": [
+    {
+      "pseudo": [
+        { "variant": "Responsive", "enable": "n" },
+        { "variant": "Dark Mode", "enable": "n" },
+        { "variant": "Light Mode", "enable": "n" },
+        { "variant": "Reduce-Motion", "enable": "n" },
+        { "variant": "Portrait", "enable": "n" },
+        { "variant": "Landscape", "enable": "n" },
+        { "variant": "Hover", "enable": "n" },
+        { "variant": "Group-Hover", "enable": "n" },
+        { "variant": "Focus", "enable": "n" },
+        { "variant": "Group-Focus", "enable": "n" },
+        { "variant": "Focus-Visible", "enable": "n" },
+        { "variant": "Focus-Within", "enable": "n" },
+        { "variant": "Active", "enable": "n" },
+        { "variant": "Visited", "enable": "n" },
+        { "variant": "Checked", "enable": "n" },
+        { "variant": "Disabled", "enable": "n" }
+      ]
+    }
+  ],
   "rotate": [
     {
       "pseudo": [
