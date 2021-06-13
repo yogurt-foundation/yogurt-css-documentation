@@ -3,7 +3,7 @@ id: filter-brightness
 title: Filter Brightness
 description: Utilities for sets brightness filter to an element.
 topic: Filters
-relate: filter-blur, filter-contrast, filter-saturate, filter-invert, filter-drop-shadow
+relate: filter-blur, filter-contrast, filter-saturate, filter-invert, filter-drop-shadow, filter-smooth
 layout: default
 ---
 
