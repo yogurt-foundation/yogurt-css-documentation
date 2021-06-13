@@ -153,6 +153,7 @@
         { "label": "Drop Shadow", "url": "/filter-drop-shadow/" },
         { "label": "Invert", "url": "/filter-invert/" },
         { "label": "Saturate", "url": "/filter-saturate/" },
+        { "label": "Smooth", "url": "/filter-smooth/" },
         { "label": "Backdrop Brightness", "url": "/filter-backdrop-brightness/" },
         { "label": "Backdrop Blur", "url": "/filter-backdrop-blur/" },
         { "label": "Backdrop Contrast", "url": "/filter-backdrop-contrast/" },

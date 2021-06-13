@@ -3,7 +3,7 @@ id: filter-saturate
 title: Filter Saturate
 description: Utilities for sets saturate filter to an element.
 topic: Filters
-relate: filter-blur, filter-brightness, filter-contrast, filter-invert, filter-drop-shadow
+relate: filter-blur, filter-brightness, filter-contrast, filter-invert, filter-drop-shadow, filter-smooth
 layout: default
 ---
 

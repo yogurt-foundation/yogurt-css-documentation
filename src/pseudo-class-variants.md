@@ -21,6 +21,7 @@ Using utilities to style and add effects to elements when on:
 - `dark-mode`, `light-mode`
 - `portrait`, `landscape`
 - `reduce-motion`
+- `selection-hover`
 
 ### Hover
 
@@ -137,6 +138,29 @@ Add `(group)` class to the parent element and add the `(group-focus)` prefix to 
 <y class="(group) bg-charcoal-100 (focus)bg-orange-400">
   <y class="(group-focus)text-white">
     ...
+  </y>
+</y>
+```
+
+### Selection-Hover
+
+Add `(selection-hover)` prefix to `filter` utilities with set up parent and child elements. Deselected elements are affected by the `filter` configurations.
+
+```html
+<!-- Example -->
+<!-- parent -->
+<y class="(selection-hover)filter saturate-0 blur-10 ... smooth-200">
+  <!-- child -->
+  <y>
+    <y>
+      ...
+    </y>
+  </y>
+  <!-- child -->
+  <y>
+    <y>
+      ...
+    </y>
   </y>
 </y>
 ```
