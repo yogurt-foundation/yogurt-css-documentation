@@ -7,16 +7,16 @@
 
         <y class="(group) p-12 h-auto w-80 bg-transparent backdrop-filter blur-6 shadow-md (hover)shadow-lg rounded-lg">
 
-          <y class="pb-2 text-3xl text-gray-600 (group-hover)text-orange-600 font-thin depth-tight filter saturate-4 transition duration-300 linear">
+          <y class="pb-2 text-3xl font-thin text-gray-300 (group-hover)text-orange-600 depth-tight text-offset-shadow offset-x-0 offset-y-0 offset-blur-4 offset-gray-800 filter saturate-4 brightness-2 transition duration-300 linear">
             {{ item.title }}
           </y>
 
-          <y class="mb-6 text-xl text-gray-500 (group-hover)text-gray-600 depth-tight transition duration-300 linear">
+          <y class="mb-6 text-xl text-gray-500 (group-hover)text-gray-600 depth-tight text-offset-shadow offset-x-0 offset-y-0 offset-blur-4 offset-gray-800 transition duration-300 linear">
             {{ item.desc }}
           </y>
 
           <a
-            class="block px-6 py-3 text-lg text-center text-gray-500 (group-hover)text-gray-200 font-semibold bg-transparent border-4 border-gray-500 (group-hover)border-orange-600 rounded-lg transition duration-300 linear filter saturate-4"
+            class="block px-6 py-3 text-lg text-center text-gray-500 (group-hover)text-gray-200 font-semibold text-offset-shadow offset-x-0 offset-y-0 offset-blur-4 offset-gray-800 bg-transparent border-4 border-gray-500 (group-hover)border-orange-600 rounded-lg transition duration-300 linear filter saturate-4"
             href="{{ item.url | safe }}"
             target="{{ item.target }}"
             rel="noopener"
