@@ -17,12 +17,12 @@ Utilities for sets the placeholder color using the ::placeholder pseudo element.
 
 ## Class
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |  |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> |  |
 |:--|:--|:-:|
 | placeholder-transparent | color: transparent | <y class="border-2 border-gray-400 rounded px-2 text-lg text-transparent font-semibold">Text</y> |
 | placeholder-white | color: #fff | <y class="border-2 border-gray-400 rounded px-2 text-lg text-white font-semibold">Text</y> |
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |  |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> |  |
 |:--|:--|:-:|
 | placeholder-black-100 | color: #b9b9b9 | <y class="border-2 border-gray-400 rounded px-2 text-lg text-black-100 bg-white font-semibold">Text</y> |
 | placeholder-black-200 | color: #a2a2a2 | <y class="border-2 border-gray-400 rounded px-2 text-lg text-black-200 bg-white font-semibold">Text</y> |

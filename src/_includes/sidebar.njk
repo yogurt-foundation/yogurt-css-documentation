@@ -1,4 +1,4 @@
-<y class="z-20 sidebar hidden h-screen w-full (lg)block sticky (lg)top-16 inset-0 (xs)pt-0 (lg)pt-0 (lg)pt-0 (lg)pb-16 (lg)-mb-16 bg-gray-100 (dark)bg-charcoal-100 (lg)w-1/5 (lg)overflow-y-visible">
+<y class="z-20 sidebar hidden h-screen w-full (lg)block sticky (lg)top-16 inset-0 (xs)pt-0 (lg)pt-0 (lg)pt-0 (lg)pb-16 (lg)-mb-16 bg-white (dark)bg-charcoal-100 (lg)w-1/5 (lg)overflow-y-visible">
   <y class="sidebar-inner overflow-hidden h-full">
 
     <nav class="sidebar-scroller px-6 py-8 inset-0 text-md (sm)text-sm overflow-y-auto overflow-x-hidden h-full">
@@ -9,10 +9,8 @@
 
           <li class="mb-6">
 
-            <span class="hidden block mb-2 (xs)text-lg (sm)text-xs (lg)text-xs uppercase font-bold text-gray-900 (dark)text-orange-600">
-
+            <span class="hidden block mb-2 (xs)text-lg (sm)text-xs (lg)text-2xl uppercase font-bold text-gray-700 (dark)text-orange-600">
               {{ section.label }}
-
             </span>
 
             <ul class="-ml-8">
@@ -22,30 +20,26 @@
               {% set is_current_page = page.url | replace('/', '') == item.url | replace('/', '') %}
 
               <li class="(group) mb-px">
+                <a
+                  class="nav-link -mx-4 mb-1 px-2 py-2 text-lg (hover)font-semibold (hover)underline {{ item.class }} {% if is_current_page %} selected {% endif %} rounded-lg"
+                  href="{{ item.url | safe }}"
+                  target="{{ item.target }}"
 
-                <a class="nav-link -mx-4 mb-1 px-2 py-2 text-lg (hover)font-semibold (hover)underline {{ item.class }} {% if is_current_page %} selected {% endif %} rounded"
-                   href="{{ item.url | safe }}"
-                   target="{{ item.target }}"
-                   {% if is_current_page %}
+                  {% if is_current_page %}
                     aria-current="page"
-                   {% endif %}>
-
+                  {% endif %}
+                >
                   <y class="flex justify-start items-center">
-
-                    {# <y class="mr-2 h-4 w-4 bg-gray-800 (group-hover)bg-gray-800 rounded-full"></y> #}
-
-                    <y>{{ item.label }}</y>
-
+                    <y>
+                      {{ item.label }}
+                    </y>
                     {% if item.external %}
                       <y class="external-link-icon">
                         {% include "images/icons/arrow-right.svg" %}
                       </y>
                     {% endif %}
-
                   </y>
-
                 </a>
-
               </li>
 
               {% endfor %}
@@ -59,10 +53,8 @@
 
           <li class="(sm)block (md)hidden (lg)hidden mb-6">
 
-            <span class="block mb-2 (xs)text-lg (sm)text-xs (lg)text-xs uppercase font-bold text-gray-900 (dark)text-orange-600">
-
+            <span class="block mb-2 (xs)text-lg (sm)text-xs (lg)text-xl uppercase font-bold text-gray-700 (dark)text-orange-600">
               {{ data.label }}
-
             </span>
 
             <ul class="-ml-8">
@@ -72,23 +64,21 @@
               {% set is_current_page = page.url | replace('/', '') == item.url | replace('/', '') %}
 
               <li class="mb-px">
+                <a
+                  class="nav-link -mx-4 p-2 (hover)font-semibold (hover)underline {{ item.class }} {% if is_current_page %} selected {% endif %} rounded-lg"
+                  href="{{ item.url | safe }}"
 
-                <a class="nav-link -mx-4 p-2 (hover)font-semibold (hover)underline {{ item.class }} {% if is_current_page %} selected {% endif %} rounded"
-                   href="{{ item.url | safe }}"
-                   {% if is_current_page %}
+                  {% if is_current_page %}
                     aria-current="page"
-                   {% endif %}>
-
+                  {% endif %}
+                >
                   {{ item.label }}
-
                   {% if item.external %}
                     <span class="external-link-icon">
                       {% include "images/icons/arrow-right.svg" %}
                     </span>
                   {% endif %}
-
                 </a>
-
               </li>
 
               {% endfor %}
@@ -102,10 +92,8 @@
 
           <li class="mb-6">
 
-            <span class="block mb-2 (xs)text-lg (sm)text-xs (lg)text-xs uppercase font-bold text-gray-900 (dark)text-orange-600">
-
+            <span class="block mb-2 (xs)text-lg (sm)text-xs (lg)text-xl uppercase font-bold text-gray-700 (dark)text-orange-600">
               {{ section.label }}
-
             </span>
 
             <ul class="-ml-8">
@@ -115,23 +103,21 @@
               {% set is_current_page = page.url | replace('/', '') == item.url | replace('/', '') %}
 
               <li class="mb-px">
+                <a
+                  class="nav-link -mx-4 p-2 (hover)font-semibold (hover)underline {{ item.class }} {% if is_current_page %} selected {% endif %} rounded-lg"
+                  href="{{ item.url | safe }}"
 
-                <a class="nav-link -mx-4 p-2 (hover)font-semibold (hover)underline {{ item.class }} {% if is_current_page %} selected {% endif %} rounded"
-                   href="{{ item.url | safe }}"
-                   {% if is_current_page %}
+                  {% if is_current_page %}
                     aria-current="page"
-                   {% endif %}>
-
+                  {% endif %}
+                >
                   {{ item.label }}
-
                   {% if item.external %}
                     <span class="external-link-icon">
                       {% include "images/icons/arrow-right.svg" %}
                     </span>
                   {% endif %}
-
                 </a>
-
               </li>
 
               {% endfor %}

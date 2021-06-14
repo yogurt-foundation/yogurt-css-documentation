@@ -17,11 +17,11 @@ Utilities for sets outside clipping ellipse path of image or element invisible, 
 
 ## Class
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
 | clip-ellipse `{focus-x}` `{focus-y}` `{plot-x}` `{plot-y}` | clip-path: ellipse(var(--clip-ellipse-focus-x) var(--clip-ellipse-focus-y) at var(--clip-ellipse-plot-x) var(--clip-ellipse-plot-y)); |
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
 | focus-x-0 | --clip-ellipse-focus-x: 0% |
 | focus-x-10 | --clip-ellipse-focus-x: 10% |
@@ -35,7 +35,7 @@ Utilities for sets outside clipping ellipse path of image or element invisible, 
 | focus-x-90 | --clip-ellipse-focus-x: 90% |
 | focus-x-100 | --clip-ellipse-focus-x: 100% |
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
 | focus-y-0 | --clip-ellipse-focus-y 0% |
 | focus-y-10 | --clip-ellipse-focus-y: 10% |
@@ -49,7 +49,7 @@ Utilities for sets outside clipping ellipse path of image or element invisible, 
 | focus-y-90 | --clip-ellipse-focus-y: 90% |
 | focus-y-100 | --clip-ellipse-focus-y 100% |
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
 | plot-x-0 | --clip-ellipse-plot-x: 0% |
 | plot-x-10 | --clip-ellipse-plot-x: 10% |
@@ -63,7 +63,7 @@ Utilities for sets outside clipping ellipse path of image or element invisible, 
 | plot-x-90 | --clip-ellipse-plot-x: 90% |
 | plot-x-100 | --clip-ellipse-plot-x: 100% |
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
 | plot-y-0 | --clip-ellipse-plot-y 0% |
 | plot-y-10 | --clip-ellipse-plot-y: 10% |

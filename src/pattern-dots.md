@@ -16,7 +16,7 @@ Utilities for sets an element's background dots pattern.
 
 ## Class
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> | |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> | |
 |:--|:--|:-:|
 | pattern <br> dots-sm | background-image: radial-gradient(currentColor 1px, transparent 1px); <br><br> background-size: calc(10 * 1px) calc(10 * 1px) | <y class="pattern dots-sm w-32 h-56"></y> |
 | pattern <br> dots-md | background-image: radial-gradient(currentColor 1.5px, transparent 1.5px); <br><br> background-size: calc(10 * 1.5px) calc(10 * 1.5px) | <y class="pattern dots-md w-32 h-56"></y> |

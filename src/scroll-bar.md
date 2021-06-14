@@ -16,11 +16,11 @@ Utilities for sets scrollbar styling such as thumb size, track color, thumb colo
 
 ## Class
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
 | scrollbar `{bar-size}` `{track-color}` `{thumb-color}` `{thumb-radius}` `{thumb-hover-color}` | ::-webkit-scrollbar { width: var(--scrollbar-size); height: var(--scrollbar-size) } <br><br> ::-webkit-scrollbar-track { background-color: var(--scrollbar-track-color) } <br><br> ::-webkit-scrollbar-thumb { background-color: var(--scrollbar-thumb-bgcolor); border-radius: var(--scrollbar-radius); border: var(--scrollbar-width) solid var(--scrollbar-thumb-color); background-clip: content-box } <br><br> ::-webkit-scrollbar-thumb:hover { background-color: var(--scrollbar-hover-bgcolor) } &nbsp; |
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
 | bar-xs | --scrollbar-size: 4px |
 | bar-sm | --scrollbar-size: 8px |
@@ -28,14 +28,14 @@ Utilities for sets scrollbar styling such as thumb size, track color, thumb colo
 | bar-lg | --scrollbar-size: 16px |
 | bar-xl | --scrollbar-size: 20px |
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
 | thumb-rad-sm | --scrollbar-radius: 0.125rem |
 | thumb-rad-md | --scrollbar-radius: 0.375rem |
 | thumb-rad-lg | --scrollbar-radius: 0.5rem |
 | thumb-rad-xl | --scrollbar-radius: 9999px |
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |  |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> |  |
 |:--|:--|:-:|
 | track-charcoal-100 | --scrollbar-track-color: #222c35 | <y class="w-16 h-8 rounded bg-charcoal-100 "></y> |
 | track-charcoal-200 | --scrollbar-track-color: #1f2831 | <y class="w-16 h-8 rounded bg-charcoal-200 "></y> |
@@ -155,7 +155,7 @@ Utilities for sets scrollbar styling such as thumb size, track color, thumb colo
 | track-nero-800 | --scrollbar-track-color: #0e0f11 | <y class="w-16 h-8 rounded bg-nero-800 "></y> |
 | track-nero-900 | --scrollbar-track-color: #0a0a0b | <y class="w-16 h-8 rounded bg-nero-900 "></y> |
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |  |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> |  |
 |:--|:--|:-:|
 | thumb-charcoal-100 | --scrollbar-thumb-color: #222c35 | <y class="w-16 h-8 rounded bg-charcoal-100 "></y> |
 | thumb-charcoal-200 | --scrollbar-thumb-color: #1f2831 | <y class="w-16 h-8 rounded bg-charcoal-200 "></y> |
@@ -275,7 +275,7 @@ Utilities for sets scrollbar styling such as thumb size, track color, thumb colo
 | thumb-nero-800 | --scrollbar-thumb-color: #0e0f11 | <y class="w-16 h-8 rounded bg-nero-800 "></y> |
 | thumb-nero-900 | --scrollbar-thumb-color: #0a0a0b | <y class="w-16 h-8 rounded bg-nero-900 "></y> |
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |  |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> |  |
 |:--|:--|:-:|
 | thumb-hover-charcoal-100 | --scrollbar-hover-color: #222c35 | <y class="w-16 h-8 rounded bg-charcoal-100 "></y> |
 | thumb-hover-charcoal-200 | --scrollbar-hover-color: #1f2831 | <y class="w-16 h-8 rounded bg-charcoal-200 "></y> |

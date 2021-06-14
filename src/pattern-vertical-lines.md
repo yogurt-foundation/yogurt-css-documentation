@@ -16,7 +16,7 @@ Utilities for sets an element's background vertical-lines pattern.
 
 ## Class
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> | |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> | |
 |:--|:--|:-:|
 | pattern <br> vertical-lines-sm | background-image: repeating-linear-gradient(to right, currentColor, currentColor 1px, transparent 1px, transparent); <br><br> background-size: 10px 10px | <y class="pattern vertical-lines-sm w-32 h-56"></y> |
 | pattern <br> vertical-lines-md | background-image: repeating-linear-gradient(to right, currentColor, currentColor 1px, transparent 1px, transparent); <br><br> background-size: 25px 25px | <y class="pattern vertical-lines-md w-32 h-56"></y> |

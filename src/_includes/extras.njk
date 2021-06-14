@@ -3,9 +3,7 @@
 
     {% if helpers.environment == "production" %}
 
-    <y class="mb-4 pb-4 border-b border-gray-300">
-
-    </y>
+    <y class="mb-4 pb-4 border-b border-gray-300"></y>
 
     {% endif %}
 
@@ -17,10 +15,8 @@
 
           <li class="mb-0">
 
-            <y class="py-2 text-sm font-semibold">
-
+            <y class="py-2 text-sm text-gray-700 (dark)text-orange-600 font-semibold">
               {{ data.label }}
-
             </y>
 
             <ul class="-ml-3">
@@ -33,30 +29,32 @@
 
                 {% if item.label %}
 
-                <a class="nav-link -mx-8 px-2 py-2 (hover)font-semibold (hover)underline rounded {{ item.class }} {% if is_current_page %} selected {% endif %}"
-                   href="{{ item.url | safe }}"
-                   {% if is_current_page %}
+                <a
+                  class="nav-link -mx-8 px-2 py-2 text-gray-700 (hover)font-semibold (hover)underline rounded-lg {{ item.class }} {% if is_current_page %} selected {% endif %}"
+                  href="{{ item.url | safe }}"
+
+                  {% if is_current_page %}
                     aria-current="page"
-                   {% endif %}>
-
+                  {% endif %}
+                >
                   {{ item.label }}
-
                 </a>
 
                 {% endif %}
 
                 {% if item.url_external %}
 
-                  <a class="nav-link -mx-8 px-2 py-2 (hover)font-semibold (hover)underline {{ item.class }} {% if is_current_page %} selected rounded {% endif %}"
-                     href="{{ item.url_external | safe }}"
-                     target="_blank"
-                     rel="noopener"
-                     {% if is_current_page %}
+                  <a
+                    class="nav-link -mx-8 px-2 py-2 text-gray-700 (hover)font-semibold (hover)underline {{ item.class }} {% if is_current_page %} selected rounded-lg {% endif %}"
+                    href="{{ item.url_external | safe }}"
+                    target="_blank"
+                    rel="noopener"
+
+                    {% if is_current_page %}
                       aria-current="page"
-                     {% endif %}>
-
+                    {% endif %}
+                  >
                     {{ item.label_external }}
-
                   </a>
 
                   <span class="external-link-icon">

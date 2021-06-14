@@ -16,7 +16,7 @@ Utilities for sets an element's background ripple pattern.
 
 ## Class
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> | |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> | |
 |:--|:--|:-:|
 | pattern <br> ripple-sm | background-image: repeating-radial-gradient(circle at 0 0, transparent 0, currentColor 10px), repeating-linear-gradient( currentColor, transparent ) | <y class="pattern ripple-sm w-32 h-56"></y> |
 | pattern <br> ripple-md | background-image: repeating-radial-gradient(circle at 0 0, transparent 0, currentColor 25px), repeating-linear-gradient( currentColor, transparent ) | <y class="pattern ripple-md w-32 h-56"></y> |

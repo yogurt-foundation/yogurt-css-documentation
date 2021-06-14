@@ -1,5 +1,4 @@
 code {
-
   &.language-html {
     // color: #686e77;
     color: #a0aec0;
@@ -24,11 +23,9 @@ code {
     // color: #686e77;
     color: #a0aec0;
   }
-
 }
 
 span {
-
   &.token.comment {
     // color: #a0aec0;
     color: #5f6b79;
@@ -46,7 +43,8 @@ span {
 
   &.token.attr-value {
     // color: #2d3748;
-    color: #FFC107;
+    // color: #FFC107;
+    color: #f8761f;
   }
 
   &.token.punctuation {
@@ -69,7 +67,7 @@ span {
   }
 
   &.token.function {
-    color: #FFC107!important;
+    // color: #FFC107!important;
+    color: #f8761f !important;
   }
-
 }

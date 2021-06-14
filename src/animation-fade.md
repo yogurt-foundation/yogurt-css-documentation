@@ -18,7 +18,7 @@ Utilities for sets the fading animation to an element.
 
 ## Class
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> | |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> | |
 |:--|:--|:-:|
 | fade-in | @keyframes fade-in { from { opacity: 0 } to { opacity: 1 }} | <y class="text-lg animation fade-in duration-800 delay-2 loop-infinite">Text</y> |
 | fade-in-bottom-left | @keyframes fade-in-bottom-left { from { opacity: 0; transform: translate3d(-100%, 100%, 0) } to { opacity: 1; transform: translate3d(0, 0, 0) }} | <y class="text-lg animation fade-in-bottom-left duration-800 delay-2 loop-infinite">Text</y> |

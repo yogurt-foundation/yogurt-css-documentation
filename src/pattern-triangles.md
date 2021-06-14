@@ -16,7 +16,7 @@ Utilities for sets an element's background triangles pattern.
 
 ## Class
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> | |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> | |
 |:--|:--|:-:|
 | pattern <br> triangles-sm | background-image: linear-gradient(45deg, currentColor 50%, transparent 50%); <br><br> background-size: 10px 10px | <y class="pattern triangles-sm w-32 h-56"></y> |
 | pattern <br> triangles-md | background-image: linear-gradient(45deg, currentColor 50%, transparent 50%); <br><br> background-size: 25px 25px | <y class="pattern triangles-md w-32 h-56"></y> |

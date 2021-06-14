@@ -13,7 +13,7 @@ layout: default
 ```html
 <!-- HTML -->
 <link
-  href="https://unpkg.com/yogurt-css@{{ site.version.core }}/dist/yogurt-{{ site.version.core }}_solidcore.min.css"
+  href="https://unpkg.com/yogurt-css@{{ site.version.framework }}/dist/yogurt-{{ site.version.framework }}_solidcore.min.css"
   rel="stylesheet"
   rel="preload"
   as="style"
@@ -22,7 +22,7 @@ layout: default
 >
 
 <!-- CSS -->
-@import "https://unpkg.com/yogurt-css@{{ site.version.core }}/dist/yogurt-{{ site.version.core }}_solidcore.min.css";
+@import "https://unpkg.com/yogurt-css@{{ site.version.framework }}/dist/yogurt-{{ site.version.framework }}_solidcore.min.css";
 ```
 
 <y class="mt-4 mx-4 p-3 border-l-8 border-gray-600 text-sm text-gray-600 bg-gray-200 (dark)bg-gray-800">
@@ -94,7 +94,7 @@ import 'yogurt-css'
 
 # HTML
 <link
-  href="node_modules/yogurt-css/dist/yogurt-{{ site.version.core }}_solidcore.min.css"
+  href="node_modules/yogurt-css/dist/yogurt-{{ site.version.framework }}_solidcore.min.css"
   rel="stylesheet"
   rel="preload"
   as="style"

@@ -17,7 +17,7 @@ Utilities for sets the shadow color to an element.
 
 ## Class
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |  |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> |  |
 |:--|:--|:--|:-:|
 | shadow-md-charcoal-100 | box-shadow: 0 0 6px #222c35 | <y class="w-16 h-6 rounded bg-white shadow-md-charcoal-100"></y> |
 | shadow-lg-charcoal-100 | box-shadow: 0 0 15px #222c35 | <y class="w-16 h-6 rounded bg-white shadow-lg-charcoal-100"></y> |

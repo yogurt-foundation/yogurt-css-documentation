@@ -17,7 +17,7 @@ Utilities for sets the transparency of an element.
 
 ## Class
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> | |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> | |
 |:--|:--|:-:|
 | opacity-100 | opacity: 1 | <y class="w-16 h-8 p-1 inline-block text-white bg-charcoal-100 rounded opacity-100">Text</y> |
 | opacity-75 | opacity: .75 | <y class="w-16 h-8 p-1 inline-block text-white bg-charcoal-100 rounded opacity-75">Text</y> |

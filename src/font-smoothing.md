@@ -16,7 +16,7 @@ Utilities for sets the antialiasing of the font.
 
 ## Class
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
 | antialiased | -webkit-font-smoothing: antialiased; <br> -moz-osx-font-smoothing: grayscale |
 | subpixel-antialiased | -webkit-font-smoothing: auto; <br> -moz-osx-font-smoothing: auto |

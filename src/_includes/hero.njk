@@ -1,17 +1,19 @@
-<y class="h-full w-full pattern ripple-lg p-6 flex justify-center items-start text-gray-100 (dark)text-charcoal-100 bg-gray-400 (dark)bg-gray-800 rounded-b-lg shadow">
+<y class="h-full w-full pattern ripple-lg mt-20 p-6 flex justify-center items-start text-white (dark)text-charcoal-100 bg-gray-200 (dark)bg-gray-800 rounded-b-lg">
 
-  <y class="p-6 text-gray-900 (dark)text-gray-400 w-screen flex flex-col justify-center items-center">
+  <y class="p-6 text-gray-700 (dark)text-gray-400 w-screen flex flex-col justify-center items-center">
 
-    <y class="my-2 (2k)mx-24 (lg)px-32 (2k)px-64 (xs)text-2xl (lg)text-4xl text-center depth-wider">
-      A colossal low-level utility CSS framework for crafting beautiful and elegant user interface at an atomic level.
+    <y class="my-2 (2k)mx-24 (lg)px-32 (2k)px-64 (xs)text-2xl (lg)text-5xl text-center depth-tight font-medium">
+      A colossal low-level utility CSS framework for crafting a beautiful and elegant user interface at an atomic level.
     </y>
 
     <y class="relative mt-4 flex flex-gap-4 (xs)flex-col (sm)flex-row items-center animation fade-in duration-800">
 
-      <a class="my-4"
+      <a
+        class="my-4"
         href="/getting-started/"
-        rel="noopener">
-        <y class="(xs)w-full (lg)max-w-xxs flex justify-center items-center h-16 px-8 text-lg text-white (hover)text-gray-800 (dark)text-gray-800 bg-gray-800 (hover)bg-gray-200 (dark)bg-gray-400 border-4 border-gray-800 (dark)border-gray-300 (hover)border-gray-800 rounded-md transition duration-300 ease-in-out">
+        rel="noopener"
+      >
+        <y class="(xs)w-full (lg)max-w-xxs flex justify-center items-center h-16 px-8 text-lg text-white (hover)text-gray-800 (dark)text-gray-500 bg-gray-800 (hover)bg-gray-200 (dark)bg-charcoal-100 border-4 border-gray-800 (dark)border-gray-300 (hover)border-gray-800 rounded-md transition duration-300 ease-in-out">
           Getting Started
         </y>
       </a>
@@ -28,8 +30,10 @@
           id="copyNPMcommand"
         >
 
-        <svg class="h-4 w-4 fill-current stroke-current outline-none text-gray-500 (group-hover)text-gray-800 transition duration-300 ease-in-out"
-             viewBox="0 0 477.867 477.867">
+        <svg
+          class="h-4 w-4 fill-current stroke-current outline-none text-gray-500 (group-hover)text-gray-800 transition duration-300 ease-in-out"
+          viewBox="0 0 477.867 477.867"
+        >
           <g><g><path d="M341.333,85.333H51.2c-28.277,0-51.2,22.923-51.2,51.2v290.133c0,28.277,22.923,51.2,51.2,51.2h290.133c28.277,0,51.2-22.923,51.251.2V136.533C392.533,108.256,369.61,85.333,341.333,85.333z M358.4,426.667c0,9.426-7.641,17.067-17.067,17.067H51.2c-9.426,0-17.067-7.641-17.067-17.067V136.533c0-9.426,7.641-17.067,17.067-17.067h290.133c9.426,0,17.067,7.641,17.067,17.067V426.667z"/></g></g><g><g><path d="M426.667,0h-307.2c-28.277,0-51.2,22.923-51.2,51.2c0,9.426,7.641,17.067,17.067,17.067S102.4,60.626,102.4,51.2s7.641-17.067,17.067-17.067h307.2c9.426,0,17.067,7.641,17.067,17.067v307.2c0,9.426-7.641,17.067-17.067,17.067s-17.067,7.641-17.067,17.067s7.641,17.067,17.067,17.067c28.277,0,51.2-22.923,51.2-51.2V51.2C477.867,22.923,454.944,0,426.667,0z"/></g></g>
         </svg>
 
@@ -43,8 +47,8 @@
 
     </y>
 
-    <y class="px-3 text-sm text-gray-600 font-mono (dark)text-gray-400 animation fade-in delay-1 duration-2000">
-      v{{ site.version.core }}-solidcore
+    <y class="px-3 text-md text-gray-700 font-mono (dark)text-gray-400 animation fade-in delay-1 duration-2000">
+      v{{ site.version.framework }}-solidcore
     </y>
 
     {% include "home-features.njk" %}
