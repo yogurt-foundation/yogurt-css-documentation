@@ -16,7 +16,7 @@ Utilities for sets the style of the font.
 
 ## Class
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> | |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> | |
 |:--|:--|:-:|
 | text-italic | font-style: italic | <y class="text-lg text-italic">Text</y> |
 | text-not-italic | font-style: normal | <y class="text-lg text-not-italic">Text</y> |

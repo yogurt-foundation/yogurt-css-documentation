@@ -16,7 +16,7 @@ Utilities for sets an element's background circle pattern.
 
 ## Class
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> | |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> | |
 |:--|:--|:-:|
 | pattern <br> circle-sm | background-image: radial-gradient(circle at center center, currentColor, transparent), repeating-radial-gradient(circle at center center, currentColor, currentColor, 2px, transparent 10px, transparent 20px) | <y class="pattern circle-sm w-32 h-56"></y> |
 | pattern <br> circle-md | background-image: radial-gradient(circle at center center, currentColor, transparent), repeating-radial-gradient(circle at center center, currentColor, currentColor, 2px, transparent 25px, transparent 20px) | <y class="pattern circle-md w-32 h-56"></y> |

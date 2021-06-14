@@ -18,7 +18,7 @@ Utilities for scales an element that has transform applied.
 
 ## Class
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
 | scale-0 | --transform-scale-x: 0; <br> --transform-scale-y: 0 |
 | scale-50 | --transform-scale-x: .5; <br> --transform-scale-y: .5 |
@@ -31,7 +31,7 @@ Utilities for scales an element that has transform applied.
 | scale-125 | --transform-scale-x: 1.25; <br> --transform-scale-y: 1.25 |
 | scale-150 | --transform-scale-x: 1.5; <br> --transform-scale-y: 1.5 |
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
 | scale-x-0 | --transform-scale-x: 0 |
 | scale-x-50 | --transform-scale-x: .5 |
@@ -44,7 +44,7 @@ Utilities for scales an element that has transform applied.
 | scale-x-125 | --transform-scale-x: 1.25 |
 | scale-x-150 | --transform-scale-x: 1.5 |
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
 | scale-y-0 | --transform-scale-y: 0 |
 | scale-y-50 | --transform-scale-y: .5 |
@@ -57,7 +57,7 @@ Utilities for scales an element that has transform applied.
 | scale-y-125 | --transform-scale-y: 1.25 |
 | scale-y-150 | --transform-scale-y: 1.5 |
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
 | scale-z-0 | --transform-scale-z: 0 |
 | scale-z-50 | --transform-scale-z: .5 |
@@ -80,7 +80,7 @@ Set the element scale to `50` times smaller.
 
 <y class="my-6 mx-auto w-32">
   <y class="h-24 w-24 bg-red-300 flex justify-center items-center">
-    <img 
+    <img
       class="h-20 w-20 transform scale-50 rounded shadow"
       src="https://picsum.photos/80?=1"
     >

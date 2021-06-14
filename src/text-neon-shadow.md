@@ -17,11 +17,11 @@ Utilities for sets text shadow with multiple stepping glowing shadow colors to a
 
 ## Class
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
 | text-neon-shadow `{start-color}` `{stop-color}` | text-shadow: 0 0 7px var(--text-neon-shadow-start-color), 0 0 10px var(--text-neon-shadow-start-color), 0 0 21px var(--text-neon-shadow-start-color), 0 0 42px var(--text-neon-shadow-stop-color),  0 0 82px var(--text-neon-shadow-stop-color),  0 0 92px var(--text-neon-shadow-stop-color); |
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> | |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> | |
 |:--|:--|:-:|
 | <span class="text-gray-600">start</span>/<span class="text-gray-600">stop</span>-charcoal-100 | --text-neon-shadow-<span class="text-gray-600">start</span>/<span class="text-gray-600">stop</span>-color: #222c35 | <y class="w-16 h-8 rounded bg-charcoal-100 "></y> |
 | <span class="text-gray-600">start</span>/<span class="text-gray-600">stop</span>-charcoal-200 | --text-neon-shadow-<span class="text-gray-600">start</span>/<span class="text-gray-600">stop</span>-color: #1f2831 | <y class="w-16 h-8 rounded bg-charcoal-200 "></y> |

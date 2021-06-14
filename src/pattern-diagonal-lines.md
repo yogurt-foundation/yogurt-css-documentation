@@ -16,7 +16,7 @@ Utilities for sets an element's background diagonal-lines pattern.
 
 ## Class
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> | |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> | |
 |:--|:--|:-:|
 | pattern <br> diagonal-lines-sm | background-image: repeating-linear-gradient(45deg, currentColor 0, currentColor 1px, transparent 0, transparent 50%); <br><br> background-size: 10px 10px | <y class="pattern diagonal-lines-sm w-32 h-56"></y> |
 | pattern <br> diagonal-lines-md | background-image: repeating-linear-gradient(45deg, currentColor 0, currentColor 1px, transparent 0, transparent 50%); <br><br> background-size: 25px 25px | <y class="pattern diagonal-lines-md w-32 h-56"></y> |

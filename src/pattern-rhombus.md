@@ -16,7 +16,7 @@ Utilities for sets an element's background rhombus pattern.
 
 ## Class
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> | |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> | |
 |:--|:--|:-:|
 | pattern <br> rhombus-sm | background-image: linear-gradient(135deg, currentColor 25%, transparent 25%), linear-gradient(225deg, currentColor 25%, transparent 25%), linear-gradient(45deg, currentColor 25%, transparent 25%), linear-gradient(315deg, currentColor 25%, transparent 25%) <br> background-position: 10px 0, 10px 0, 0 0, 0 0 <br> background-size: 10px 10px <br> background-repeat: repeat | <y class="pattern rhombus-sm w-32 h-56"></y> |
 | pattern <br> rhombus-md | background-image: background-image: linear-gradient(135deg, currentColor 25%, transparent 25%), linear-gradient(225deg, currentColor 25%, transparent 25%), linear-gradient(45deg, currentColor 25%, transparent 25%), linear-gradient(315deg, currentColor 25%, transparent 25%) <br> background-position: 20px 0, 25px 0, 0 0, 0 0 <br> background-size: 25px 25px <br> background-repeat: repeat | <y class="pattern rhombus-md w-32 h-56"></y> |

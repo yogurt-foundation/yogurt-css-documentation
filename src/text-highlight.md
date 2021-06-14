@@ -17,11 +17,11 @@ Utilities for overrides browser-level or system-level text highlight color to an
 
 ## Class
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
 | hightlight-`{color}`| ::selection { background: `{color}`; |
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |  |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> |  |
 |:--|:--|:-:|
 | fore-charcoal-100 | color: #222c35 | <y class="px-2 text-md text-charcoal-100 font-semibold">Text</y> |
 | fore-charcoal-200 | color: #1f2831 | <y class="px-2 text-md text-charcoal-200 font-semibold">Text</y> |
@@ -141,7 +141,7 @@ Utilities for overrides browser-level or system-level text highlight color to an
 | fore-nero-800 | color: #0e0f11 | <y class="px-2 text-md text-nero-800 font-semibold">Text</y> |
 | fore-nero-900 | color: #0a0a0b | <y class="px-2 text-md text-nero-900 font-semibold">Text</y> |
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |  |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> |  |
 |:--|:--|:-:|
 | rear-charcoal-100 | background: #222c35 | <y class="px-2 text-md text-white bg-charcoal-100 font-semibold">Text</y> |
 | rear-charcoal-200 | background: #1f2831 | <y class="px-2 text-md text-white bg-charcoal-200 font-semibold">Text</y> |

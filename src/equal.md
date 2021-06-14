@@ -17,7 +17,7 @@ Utilities for sets balancing the space in between child elements.
 
 ## Class
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
 | equal-x-0 | --equal-x-reverse: 0; <br> margin-right: calc(0 * var(--equal-x-reverse)); <br> margin-left: calc(0 * calc(1 - var(--equal-x-reverse))) |
 | equal-x-1 | --equal-x-reverse: 0; <br> margin-right: calc(0.25rem * var(--equal-x-reverse)); <br> margin-left: calc(0.25rem * calc(1 - var(--equal-x-reverse))) |
@@ -67,7 +67,7 @@ Utilities for sets balancing the space in between child elements.
 | -equal-x-104 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | --equal-x-reverse: 0; <br> margin-right: calc(-26rem * var(--equal-x-reverse)); <br> margin-left: calc(-26rem * calc(1 - var(--equal-x-reverse))) |
 | -equal-x-112 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | --equal-x-reverse: 0; <br> margin-right: calc(-28rem * var(--equal-x-reverse)); <br> margin-left: calc(-28rem * calc(1 - var(--equal-x-reverse))) |
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
 | equal-y-0 | --equal-y-reverse: 0; <br> margin-top: calc(0 * calc(1 - var(--equal-y-reverse))); <br> margin-bottom: calc(0 * var(--equal-y-reverse)) |
 | equal-y-1 | --equal-y-reverse: 0; <br> margin-top: calc(0.25rem * calc(1 - var(--equal-y-reverse))); <br> margin-bottom: calc(0.25rem * var(--equal-y-reverse)) |
@@ -117,7 +117,7 @@ Utilities for sets balancing the space in between child elements.
 | -equal-y-104 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | --equal-y-reverse: 0; <br> margin-top: calc(-26rem * calc(1 - var(--equal-y-reverse))); <br> margin-bottom: calc(-26rem * var(--equal-y-reverse)) |
 | -equal-y-112 <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.3</span> | --equal-y-reverse: 0; <br> margin-top: calc(-28rem * calc(1 - var(--equal-y-reverse))); <br> margin-bottom: calc(-28rem * var(--equal-y-reverse)) |
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
 | equal-x-reverse | --equal-x-reverse: 1 |
 | equal-y-reverse | --equal-y-reverse: 1 |

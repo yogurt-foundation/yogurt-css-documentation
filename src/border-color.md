@@ -18,13 +18,13 @@ Utilities for sets border color.
 
 ## Class
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |  |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> |  |
 |:--|:--|:-:|
 | border-transparent | border-color: transparent | <y class="w-16 h-8 rounded border-2 border-transparent"></y> |
 | border-current | border-color: currentColor | <y class="w-16 h-8 rounded border-2 border-current"></y> |
 | border-white | border-color: #fff | <y class="w-16 h-8 rounded border-2 border-white shadow"></y> |
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |  |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> |  |
 |:--|:--|:-:|
 | border-black-100 | border-color: #b9b9b9 | <y class="w-16 h-8 rounded border-2 border-black-100 "></y> |
 | border-black-200 | border-color: #a2a2a2 | <y class="w-16 h-8 rounded border-2 border-black-200 "></y> |

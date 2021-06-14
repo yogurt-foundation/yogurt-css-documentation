@@ -17,12 +17,12 @@ Utilities for sets bottom border color on each child elements of its parent.
 
 ## Class
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> | |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> | |
 |:--|:--|:-:|
 | dissect-transparent | border-color: transparent | <y class="px-2 py-1 dissect-y-2 dissect-y dissect-transparent"><y>Text</y><y>Text</y></y> |
 | dissect-current | border-color: currentColor | <y class="px-2 py-1 dissect-y-2 dissect-y dissect-current"><y>Text</y><y>Text</y></y> |
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |  |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> |  |
 |:--|:--|:-:|
 | dissect-amber-100 | --dissect-opacity: 1; <br> border-color: #fff9e6; <br> border-color: rgba(255, 249, 230, var(--dissect-opacity)) | <y class="px-2 py-1 dissect-y-2 dissect-y dissect-amber-100"><y>Text</y><y>Text</y></y> |
 | dissect-amber-200 | --dissect-opacity: 1; <br> border-color: #fff0bf; <br> border-color: rgba(255, 240, 191, var(--dissect-opacity)) | <y class="px-2 py-1 dissect-y-2 dissect-y dissect-amber-200"><y>Text</y><y>Text</y></y> |

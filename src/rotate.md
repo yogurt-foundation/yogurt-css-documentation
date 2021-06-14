@@ -18,7 +18,7 @@ Utilities for rotates an element that has transform applied.
 
 ## Class
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
 | rotate-0 | --transform-rotate: 0deg |
 | rotate-3 | --transform-rotate: 3deg |
@@ -88,7 +88,7 @@ Utilities for rotates an element that has transform applied.
 | -rotate-120 | --transform-rotate: -120deg |
 | -rotate-180 | --transform-rotate: -180deg |
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> <span class="ml-1 px-2 py-1 text-xs font-semibold text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600 rounded-full">v1.1.6</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> <span class="ml-1 px-2 py-1 text-xs font-semibold text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600 rounded-full">v1.1.6</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
 | rotate-x-0 | --transform-rotate-x: 0deg |
 | rotate-x-3 | --transform-rotate-x: 3deg |
@@ -158,7 +158,7 @@ Utilities for rotates an element that has transform applied.
 | -rotate-x-120 | --transform-rotate-x: -120deg |
 | -rotate-x-180 | --transform-rotate-x: -180deg |
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> <span class="ml-1 px-2 py-1 text-xs font-semibold text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600 rounded-full">v1.1.6</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> <span class="ml-1 px-2 py-1 text-xs font-semibold text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600 rounded-full">v1.1.6</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
 | rotate-y-0 | --transform-rotate-y: 0deg |
 | rotate-y-3 | --transform-rotate-y: 3deg |
@@ -228,7 +228,7 @@ Utilities for rotates an element that has transform applied.
 | -rotate-y-120 | --transform-rotate-y: -120deg |
 | -rotate-y-180 | --transform-rotate-y: -180deg |
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> <span class="ml-1 px-2 py-1 text-xs font-semibold text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600 rounded-full">v1.1.6</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> <span class="ml-1 px-2 py-1 text-xs font-semibold text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600 rounded-full">v1.1.6</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
 | rotate-z-0 | --transform-rotate-z: 0deg |
 | rotate-z-3 | --transform-rotate-z: 3deg |

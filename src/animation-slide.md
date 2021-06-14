@@ -18,7 +18,7 @@ Utilities for sets the sliding animation to an element.
 
 ## Class
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> | |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> | |
 |:--|:--|:-:|
 | slide-in-up | @keyframes slide-in-up { from { transform: translate3d(0, 100%, 0); visibility: visible } to { transform: translate3d(0, 0, 0) }} | <y class="text-lg animation slide-in-up duration-800 delay-2 loop-infinite">Text</y> |
 | slide-in-down | @keyframes slide-in-down { from { transform: translate3d(0, -100%, 0); visibility: visible } to { transform: translate3d(0, 0, 0) }} | <y class="text-lg animation slide-in-down duration-800 delay-2 loop-infinite">Text</y> |

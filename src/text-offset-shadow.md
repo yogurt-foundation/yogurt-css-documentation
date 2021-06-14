@@ -17,11 +17,11 @@ Utilities for sets text shadow with offset x or y coordinates, offset blur and o
 
 ## Class
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> |
 |:--|:--|
 | text-offset-shadow `{offset-x}` `{offset-y}` `{offset-blur}` `{offset-color}`  | text-shadow: var(`--text-offset-shadow-x`) var(`--text-offset-shadow-y`) var(`--text-offset-shadow-blur`) var(`--text-offset-shadow-color`); |
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> | |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> | |
 |:--|:--|:-:|
 | offset-x-1 | --text-offset-shadow-x: 1px | <y class="px-2 text-lg text-offset-shadow offset-x-1 offset-y-1 offset-blur-4 offset-charcoal-100 bg-white font-semibold">Text</y> |
 | offset-x-2 | --text-offset-shadow-x: 2px | <y class="px-2 text-lg text-offset-shadow offset-x-2 offset-y-1 offset-blur-4 offset-charcoal-100 bg-white font-semibold">Text</y> |
@@ -36,7 +36,7 @@ Utilities for sets text shadow with offset x or y coordinates, offset blur and o
 | offset-x-11 | --text-offset-shadow-x: 11px | <y class="px-2 text-lg text-offset-shadow offset-x-11 offset-y-1 offset-blur-4 offset-charcoal-100 bg-white font-semibold">Text</y> |
 | offset-x-12 | --text-offset-shadow-x: 12px | <y class="px-2 text-lg text-offset-shadow offset-x-12 offset-y-1 offset-blur-4 offset-charcoal-100 bg-white font-semibold">Text</y> |
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> | |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> | |
 |:--|:--|:-:|
 | offset-y-1 | --text-offset-shadow-y: 1px | <y class="px-2 text-lg text-offset-shadow offset-x-1 offset-y-1 offset-blur-4 offset-charcoal-100 bg-white font-semibold">Text</y> |
 | offset-y-2 | --text-offset-shadow-y: 2px | <y class="px-2 text-lg text-offset-shadow offset-x-1 offset-y-2 offset-blur-4 offset-charcoal-100 bg-white font-semibold">Text</y> |
@@ -51,7 +51,7 @@ Utilities for sets text shadow with offset x or y coordinates, offset blur and o
 | offset-y-11 | --text-offset-shadow-y: 11px | <y class="px-2 text-lg text-offset-shadow offset-x-1 offset-y-11 offset-blur-4 offset-charcoal-100 bg-white font-semibold">Text</y> |
 | offset-y-12 | --text-offset-shadow-y: 12px | <y class="px-2 text-lg text-offset-shadow offset-x-1 offset-y-12 offset-blur-4 offset-charcoal-100 bg-white font-semibold">Text</y> |
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> | |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> | |
 |:--|:--|:-:|
 | offset-blur-0 | --text-offset-shadow-blur: 0px | <y class="px-2 text-lg text-offset-shadow offset-x-1 offset-y-1 offset-blur-0 offset-charcoal-100 bg-white font-semibold">Text</y> |
 | offset-blur-1 | --text-offset-shadow-blur: 1px | <y class="px-2 text-lg text-offset-shadow offset-x-1 offset-y-1 offset-blur-1 offset-charcoal-100 bg-white font-semibold">Text</y> |
@@ -67,7 +67,7 @@ Utilities for sets text shadow with offset x or y coordinates, offset blur and o
 | offset-blur-11 | --text-offset-shadow-blur: 11px | <y class="px-2 text-lg text-offset-shadow offset-x-1 offset-y-1 offset-blur-11 offset-charcoal-100 bg-white font-semibold">Text</y> |
 | offset-blur-12 | --text-offset-shadow-blur: 12px | <y class="px-2 text-lg text-offset-shadow offset-x-1 offset-y-1 offset-blur-12 offset-charcoal-100 bg-white font-semibold">Text</y> |
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |  |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> |  |
 |:--|:--|:-:|
 | offset-charcoal-100 | --text-offset-shadow-color:#222c35 | <y class="px-2 text-lg text-offset-shadow offset-x-1 offset-y-1 offset-blur-8 offset-charcoal-100 bg-white font-semibold">Text</y> |
 | offset-charcoal-200 | --text-offset-shadow-color:#1f2831 | <y class="px-2 text-lg text-offset-shadow offset-x-1 offset-y-1 offset-blur-8 offset-charcoal-200 bg-white font-semibold">Text</y> |

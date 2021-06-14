@@ -16,7 +16,7 @@ Utilities for sets the font family and Google Fonts.
 
 ## Class
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> | |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> | |
 |:--|:--|:-:|
 | font-default | font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif | <y class="px-2 text-lg font-default bg-white">Text</y> |
 | font-sans | font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif | <y class="px-2 text-lg font-sans bg-white">Text</y> |
@@ -88,7 +88,7 @@ Use Yogurt dedicated API to embedding the Google Fonts in the framework without 
 The generated code look like below in your Yogurt CSS final build.
 
 ```css
-/* @file: `dist/yogurt-{{ site.version.core }}_solidcore.css` */
+/* @file: `dist/yogurt-{{ site.version.framework }}_solidcore.css` */
 @import url("https://fonts.googleapis.com/css2?family=Alata&:wght@400;500;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&:wght@400;500&display=swap");
 ```

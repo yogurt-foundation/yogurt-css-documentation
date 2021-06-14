@@ -1,46 +1,61 @@
 <!doctype html>
 
-<html theme=""
-      class="scroll-smooth logo-visible text-md (sm)text-md"
-      lang="en">
+<html
+  class="scroll-smooth logo-visible text-md (sm)text-md"
+  lang="en"
+>
 
 <head>
 
   <meta charset="utf-8">
 
-  <meta name="viewport"
-        content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+  >
 
   <title>
     Yogurt CSS - A colossal low-level utility CSS framework for crafting beautiful and elegant user interface
   </title>
 
-  <meta name="description"
-        content="{% if description %}{{ description }}{% else %}{{ excerpt }}{% endif %}">
+  <meta
+    name="description"
+    content="{% if description %}{{ description }}{% else %}{{ excerpt }}{% endif %}"
+  >
 
-  <link rel="stylesheet"
-        href="/main.css{{ helpers.assetSuffix }}">
+  <link
+    rel="stylesheet"
+    href="/main.css{{ helpers.assetSuffix }}"
+  >
 
   <!-- pwa -->
-  <link rel="manifest"
-        href="manifest.json">
+  <link
+    rel="manifest"
+    href="manifest.json"
+  >
   <!--// pwa -->
 
   {% include "meta.njk" %}
 
-  <link rel="icon"
-        type="image/svg+xml"
-        href="{{ site.images.favicon }}">
+  <link
+    rel="icon"
+    type="image/svg+xml"
+    href="{{ site.images.favicon }}"
+  >
 
-  <link rel="canonical"
-        href="{{ site.url }}{{ page.url }}">
+  <link
+    rel="canonical"
+    href="{{ site.url }}{{ page.url }}"
+  >
 
   {% include "google-analytics.njk" %}
 
 </head>
 
-<body class="render-auto font-default antialiased text-gray-900 (dark)text-gray-400 depth-normal bg-gray-100 (dark)bg-charcoal-100 highlight fore-gray-100 rear-gray-800"
-      data-page="{{ id }}">
+<body
+  class="render-auto font-default antialiased image-optimize-crisp text-gray-900 (dark)text-gray-400 depth-normal bg-white (dark)bg-charcoal-100"
+  data-page="{{ id }}"
+>
 
   {% include "header.njk" %}
 

@@ -16,7 +16,7 @@ Utilities for sets an element's background horizontal-stripes pattern.
 
 ## Class
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> | |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> | |
 |:--|:--|:-:|
 | pattern <br> horizontal-stripes-sm | background-image: linear-gradient(0deg, transparent 50%, currentColor 50%); <br><br> background-size: 10px 10px | <y class="pattern horizontal-stripes-sm w-32 h-56"></y> |
 | pattern <br> horizontal-stripes-md | background-image: linear-gradient(0deg, transparent 50%, currentColor 50%); <br><br> background-size: 25px 25px | <y class="pattern horizontal-stripes-md w-32 h-56"></y> |

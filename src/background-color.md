@@ -18,12 +18,12 @@ Utilities for sets background color.
 
 ## Class
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |  |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> |  |
 |:--|:--|:-:|
 | bg-transparent | background-color: transparent | <y class="w-16 h-8 rounded bg-transparent"></y> |
 | bg-white | background-color: #fff | <y class="w-16 h-8 rounded bg-white shadow"></y> |
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> |  |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> |  |
 |:--|:--|:-:|
 | bg-charcoal-100 | background-color: #222c35 | <y class="w-16 h-8 rounded bg-charcoal-100 "></y> |
 | bg-charcoal-200 | background-color: #1f2831 | <y class="w-16 h-8 rounded bg-charcoal-200 "></y> |

@@ -3,8 +3,8 @@
   "appname": "Yogurt CSS",
   "url": "https://yogurtcss.netlify.app",
   "version": {
-    "core": "1.1.5",
-    "docs": "2.0.0"
+    "framework": "1.1.5",
+    "doc": "2.0.0"
   },
   "urls": {
     "discord": "https://discord.gg/A62YjNR",

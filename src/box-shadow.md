@@ -19,7 +19,7 @@ Utilities for sets the box-shadow property attaches one or more shadows to an el
 
 ### Dreamy <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.0</span>
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> | |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> | |
 |:--|:--|:-:|
 | shadow-dreamy-xs | box-shadow: <br> 0 0 0 1px rgba(0, 0, 0, 0.04), 0 0 0 1px rgba(0, 0, 0, 0.03), 0 0 0 1px rgba(0, 0, 0, 0.02), 0 0 0 1px rgba(0, 0, 0, 0.01) | <y class="p-3 inline-block (dark)bg-white"><y class="w-16 h-6 rounded bg-white shadow-dreamy-xs"></y></y> |
 | shadow-dreamy-sm | box-shadow: <br> 0 1px 2px 0 rgba(0, 0, 0, 0.05), 0 1px 4px 0 rgba(0, 0, 0, 0.04), 0 1px 6px 0 rgba(0, 0, 0, 0.03), 0 1px 8px 0 rgba(0, 0, 0, 0.02) | <y class="p-3 inline-block (dark)bg-white"><y class="w-16 h-6 rounded bg-white shadow-dreamy-sm"></y></y> |
@@ -31,7 +31,7 @@ Utilities for sets the box-shadow property attaches one or more shadows to an el
 
 ### Solid
 
-| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-charcoal-100 (dark)bg-gray-600 rounded-full">css</span> | |
+| <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">class</span> | <span class="px-3 py-1 text-white (dark)text-charcoal-100 bg-gray-700 (dark)bg-gray-600 rounded-full">css</span> | |
 |:--|:--|:-:|
 | shadow-xs | box-shadow: <br> 0 0 0 1px rgba(0, 0, 0, 0.05) | <y class="p-3 inline-block (dark)bg-white"><y class="w-16 h-6 rounded bg-white shadow-xs"></y></y> |
 | shadow-sm | box-shadow: <br> 0 1px 2px 0 rgba(0, 0, 0, 0.05) | <y class="p-3 inline-block (dark)bg-white"><y class="w-16 h-6 rounded bg-white shadow-sm"></y></y> |
