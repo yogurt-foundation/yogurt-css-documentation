@@ -1,14 +1,14 @@
 ---
 id: intellisense
 title: Intellisense
-description: Yogurt CSS intellisense developer tooling for VSCODE
+description: Yogurt CSS intellisense developer tooling for Visual Studio Code extension.
 topic: VSCODE Extension
 layout: default
 ---
 
 > IntelliSense
 
-## VSCODE Extension
+## Visua Studio Code Extension
 
 <y class="flex flex-gap-2 flex-wrap items-center">
 
@@ -22,14 +22,14 @@ layout: default
 
 </y>
 
-An intellisense tool for VSCODE, fast manipulating Yogurt CSS Low-level Framework faster and convenient.
+An intellisense tool for VS Code, fast manipulating Yogurt CSS Low-level Framework faster and convenient.
 
 <y class="mx-4 py-4">
   <img theme=""
        class="filter saturate-5 w-full h-full object-fit object-center rounded-lg"
        src="/images/content/yogurt_vscode_intellisense.png"
        loading="lazy"
-       alt="Yogurt VSCODE IntelliSense">
+       alt="Yogurt VS Code IntelliSense">
 </y>
 
 ## Installation
