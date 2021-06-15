@@ -1,9 +1,9 @@
-<y class="my-5 flex flex-wrap flex-gap-4 justify-center items-stretch">
+<y class="my-5 flex (xs)flex-col (lg)flex-row justify-center items-stretch">
 
   {% for data in home.features %}
     {% for item in data.items %}
 
-      <y class="p-4 h-auto w-56 flex justify-center items-start text-gray-700 bg-transparent rounded-lg shadow-dreamy-lg backdrop-filter blur-4">
+      <y class="(xs)m-4 (sm)m-4 p-4 h-auto (xs)w-full (sm)max-w-lg (lg)w-56 flex justify-center items-start text-gray-700 bg-transparent rounded-lg shadow-dreamy-lg backdrop-filter blur-4">
         <y>
           <y class="pb-4 (dark)text-gray-500 fluid text-min-2xl text-max-xl font-thin uppercase depth-tight">
             {{ item.title }}

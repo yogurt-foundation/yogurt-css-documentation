@@ -4,15 +4,15 @@
     {% for item in data.networks %}
 
       <a
-        class="block (xs)w-full (lg)w-1/2"
+        class="block (xs)w-full (sm)w-1/2"
         href="{{ item.url | safe }}"
         target="_blank"
         rel="noopener"
       >
-        <y class="flex justify-start items-center pl-6 pr-4 py-4 border-4 border-transparent (hover)border-gray-400 rounded-lg transition duration-300 ease-in-out">
+        <y class="(group) flex justify-start items-center pl-6 pr-4 py-4 border-4 border-transparent (hover)border-gray-400 rounded-lg transition duration-300 ease-in-out">
           <img
             theme="auto"
-            class="h-32 w-32 object-contain object-center overflow-hidden"
+            class="opacity-75 (group-hover)opacity-50 h-24 w-24 object-contain object-center overflow-hidden transition duration-300 ease-in-out"
             src="{{ item.icon }}"
             loading="lazy"
             alt="{{ item.title }}"
@@ -25,9 +25,7 @@
               {{ item.desc }}
             </y>
           </y>
-
         </y>
-
       </a>
 
     {% endfor %}
