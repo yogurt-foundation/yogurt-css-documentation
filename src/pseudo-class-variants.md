@@ -175,7 +175,7 @@ Add `(expand)` prefix to a utility in a parent element, the utility will take ef
 ```html
 <!-- Example -->
 <!-- parent -->
-<y class="(expand)rounded-lg">
+<y class="(expand)m-2 (expand)p-4">
   <!-- child -->
   <y>...</y>
   <y>...</y>
