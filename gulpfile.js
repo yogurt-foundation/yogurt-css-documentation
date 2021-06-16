@@ -95,6 +95,11 @@ gulp.task('playground', () => {
   return gulp.src('./playground/**/**/*')
     .pipe(gulp.dest('./dist/playground'))
 })
+gulp.task('embed-playground', () => {
+  return gulp.src('./playground/index.html')
+    .pipe(rename('playground.njk'))
+    .pipe(gulp.dest('./src/layouts'))
+})
 
 gulp.task('remove-residual-files', () => {
   return gulp.src([

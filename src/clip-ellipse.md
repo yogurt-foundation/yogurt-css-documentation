@@ -87,20 +87,26 @@ Utilities for sets outside clipping ellipse path of image or element invisible, 
 	<y class="flex flex-gap-10 flex-row flex-wrap justify-center items-center">
   	<y class="h-48 w-48 bg-orange-200">
     	<y>
-      	<img class="h-48 w-48 object-cover object-center overflow-hidden rounded-lg shadow"
-        	   src="https://i.pravatar.cc/500?=1">
+      	<img
+          class="h-48 w-48 object-cover object-center overflow-hidden rounded-lg shadow"
+          src="https://i.pravatar.cc/500?=1"
+        >
     	</y>
 		</y>
 	  <y class="h-48 w-48 bg-orange-200 border-2 border-dashed border-orange-300 rounded-lg">
   	  <y class="clip-ellipse focus-x-50 focus-y-30 plot-x-40 plot-y-50">
-    	  <img class="h-48 w-48 object-cover object-center"
-      	     src="https://i.pravatar.cc/500?=1">
+    	  <img
+          class="h-48 w-48 object-cover object-center"
+          src="https://i.pravatar.cc/500?=1"
+        >
   	  </y>
 	  </y>
     <y class="h-48 w-48 bg-orange-200 border-2 border-dashed border-orange-300 rounded-lg">
       <y class="clip-ellipse focus-x-50 focus-y-70 plot-x-10 plot-y-20">
-        <img class="h-48 w-48 object-cover object-center"
-             src="https://i.pravatar.cc/500?=1">
+        <img
+          class="h-48 w-48 object-cover object-center"
+          src="https://i.pravatar.cc/500?=1"
+        >
       </y>
     </y>
   </y>

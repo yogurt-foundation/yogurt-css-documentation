@@ -36,8 +36,10 @@ Utilities for sets position of a background image.
 Set `left-top` position background image with HTML inline attribute `style="..."` and a CSS property `background-image: url(...)` to an element.
 
 <y class="my-2 mx-auto w-64 bg-red-200 border-2 border-dashed border-red-300">
-  <y class="h-32 w-64 bg-left-top bg-no-repeat"
-     style="background-image:url(https://picsum.photos/90?=1)"></y>
+  <y
+    class="h-32 w-64 bg-left-top bg-no-repeat"
+    style="background-image:url(https://picsum.photos/90?=1)">
+  </y>
 </y>
 
 ```html
@@ -51,8 +53,10 @@ Set `left-top` position background image with HTML inline attribute `style="..."
 Set `top` position background image.
 
 <y class="my-2 mx-auto w-64 bg-red-200 border-2 border-dashed border-red-300">
-  <y class="h-32 w-64 bg-top bg-no-repeat"
-     style="background-image:url(https://picsum.photos/90?=1)"></y>
+  <y
+    class="h-32 w-64 bg-top bg-no-repeat"
+    style="background-image:url(https://picsum.photos/90?=1)">
+  </y>
 </y>
 
 ```html
@@ -66,8 +70,10 @@ Set `top` position background image.
 Set `right-top` position background image.
 
 <y class="my-2 mx-auto w-64 bg-red-200 border-2 border-dashed border-red-300">
-  <y class="h-32 w-64 bg-right-top bg-no-repeat"
-     style="background-image:url(https://picsum.photos/90?=1)"></y>
+  <y
+    class="h-32 w-64 bg-right-top bg-no-repeat"
+    style="background-image:url(https://picsum.photos/90?=1)">
+  </y>
 </y>
 
 ```html
@@ -81,8 +87,10 @@ Set `right-top` position background image.
 Set `right` position background image.
 
 <y class="my-2 mx-auto w-64 bg-red-200 border-2 border-dashed border-red-300">
-  <y class="h-32 w-64 bg-right bg-no-repeat"
-     style="background-image:url(https://picsum.photos/90?=1)"></y>
+  <y
+    class="h-32 w-64 bg-right bg-no-repeat"
+    style="background-image:url(https://picsum.photos/90?=1)">
+  </y>
 </y>
 
 ```html
@@ -96,8 +104,10 @@ Set `right` position background image.
 Set `right bottom` position background image.
 
 <y class="my-2 mx-auto w-64 bg-red-200 border-2 border-dashed border-red-300">
-  <y class="h-32 w-64 bg-right-bottom bg-no-repeat"
-     style="background-image:url(https://picsum.photos/90?=1)"></y>
+  <y
+    class="h-32 w-64 bg-right-bottom bg-no-repeat"
+    style="background-image:url(https://picsum.photos/90?=1)">
+  </y>
 </y>
 
 ```html
@@ -111,8 +121,10 @@ Set `right bottom` position background image.
 Set `bottom` position background image.
 
 <y class="my-2 mx-auto w-64 bg-red-200 border-2 border-dashed border-red-300">
-  <y class="h-32 w-64 bg-bottom bg-no-repeat"
-     style="background-image:url(https://picsum.photos/90?=1)"></y>
+  <y
+    class="h-32 w-64 bg-bottom bg-no-repeat"
+    style="background-image:url(https://picsum.photos/90?=1)">
+  </y>
 </y>
 
 ```html
@@ -126,8 +138,10 @@ Set `bottom` position background image.
 Set `left-bottom` position background image.
 
 <y class="my-2 mx-auto w-64 bg-red-200 border-2 border-dashed border-red-300">
-  <y class="h-32 w-64 bg-left-bottom bg-no-repeat"
-     style="background-image:url(https://picsum.photos/90?=1)"></y>
+  <y
+    class="h-32 w-64 bg-left-bottom bg-no-repeat"
+    style="background-image:url(https://picsum.photos/90?=1)">
+  </y>
 </y>
 
 ```html
@@ -141,8 +155,10 @@ Set `left-bottom` position background image.
 Set `left` position background image.
 
 <y class="my-2 mx-auto w-64 bg-red-200 border-2 border-dashed border-red-300">
-  <y class="h-32 w-64 bg-left bg-no-repeat"
-     style="background-image:url(https://picsum.photos/90?=1)"></y>
+  <y
+    class="h-32 w-64 bg-left bg-no-repeat"
+    style="background-image:url(https://picsum.photos/90?=1)">
+  </y>
 </y>
 
 ```html
@@ -156,8 +172,10 @@ Set `left` position background image.
 Set `center` position background image.
 
 <y class="my-2 mx-auto w-64 bg-red-200 border-2 border-dashed border-red-300">
-  <y class="h-32 w-64 bg-center bg-no-repeat"
-     style="background-image:url(https://picsum.photos/90?=1)"></y>
+  <y
+    class="h-32 w-64 bg-center bg-no-repeat"
+    style="background-image:url(https://picsum.photos/90?=1)">
+  </y>
 </y>
 
 ```html

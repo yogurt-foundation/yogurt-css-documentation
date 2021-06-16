@@ -31,8 +31,10 @@ Set fixed background image with HTML inline attribute `style="..."` and a CSS pr
 
 <y class="my-2 mx-auto max-w-sm bg-red-300">
   <y class="h-32 w-full overflow-y-scroll">
-    <y class="h-64 w-64 bg-fixed"
-       style="background-image:url(https://picsum.photos/300?=1)"></y>
+    <y
+      class="h-64 w-64 bg-fixed"
+      style="background-image:url(https://picsum.photos/300?=1)">
+    </y>
   </y>
 </y>
 
@@ -48,8 +50,10 @@ Set a scrollable background image in the browser viewport and the element contai
 
 <y class="my-2 mx-auto max-w-sm bg-red-300">
   <y class="h-32 w-full overflow-y-scroll">
-    <y class="h-64 w-64 bg-local"
-       style="background-image:url(https://picsum.photos/300?=1)"></y>
+    <y
+      class="h-64 w-64 bg-local"
+      style="background-image:url(https://picsum.photos/300?=1)">
+    </y>
   </y>
 </y>
 
@@ -65,8 +69,10 @@ Set a scrollable background image in the browser viewport.
 
 <y class="my-2 mx-auto max-w-sm bg-red-300">
   <y class="h-32 w-full overflow-y-scroll">
-    <y class="h-64 w-64 bg-scroll"
-       style="background-image:url(https://picsum.photos/300?=1)"></y>
+    <y
+      class="h-64 w-64 bg-scroll"
+      style="background-image:url(https://picsum.photos/300?=1)">
+    </y>
   </y>
 </y>
 

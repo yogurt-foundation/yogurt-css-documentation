@@ -41,15 +41,19 @@ Utilities for sets brightness filter to an element. [Find out more about the usa
 
 <y class="m-2 mx-auto flex bg-charcoal-500 rounded-lg">
   <y class="p-5 max-w-sm">
-    <img class="w-full h-48 object-cover object-center overflow-hidden rounded-md shadow"
-         src="https://picsum.photos/500?=1">
+    <img
+      class="w-full h-48 object-cover object-center overflow-hidden rounded-md shadow"
+      src="https://picsum.photos/500?=1"
+    >
     <y class="pt-4 text-sm text-center text-gray-100">
       Filter: OFF
     </y>
   </y>
   <y class="p-5 max-w-sm">
-    <img class="filter brightness-8 w-full h-48 object-cover object-center overflow-hidden rounded-md shadow"
-         src="https://picsum.photos/500?=1">
+    <img
+      class="filter brightness-8 w-full h-48 object-cover object-center overflow-hidden rounded-md shadow"
+      src="https://picsum.photos/500?=1"
+    >
     <y class="pt-4 text-sm text-center text-gray-100">
       Filter: ON
     </y>
@@ -62,15 +66,19 @@ Utilities for sets contrast filter to an element. [Find out more about the usage
 
 <y class="m-2 mx-auto flex bg-charcoal-100 rounded-lg">
   <y class="p-5 max-w-sm">
-    <img class="w-full h-48 object-cover object-center overflow-hidden rounded-md shadow"
-         src="https://picsum.photos/500?=1">
+    <img
+      class="w-full h-48 object-cover object-center overflow-hidden rounded-md shadow"
+      src="https://picsum.photos/500?=1"
+    >
     <y class="pt-4 text-sm text-center text-gray-100">
       Filter: OFF
     </y>
   </y>
   <y class="p-5 max-w-sm">
-    <img class="filter contrast-8 w-full h-48 object-cover object-center overflow-hidden rounded-md shadow"
-         src="https://picsum.photos/500?=1">
+    <img
+      class="filter contrast-8 w-full h-48 object-cover object-center overflow-hidden rounded-md shadow"
+      src="https://picsum.photos/500?=1"
+    >
     <y class="pt-4 text-sm text-center text-gray-100">
       Filter: ON
     </y>
@@ -83,15 +91,19 @@ Utility for sets saturates or desaturates to an element. [Find out more about th
 
 <y class="m-2 mx-auto flex bg-charcoal-100 rounded-lg">
   <y class="p-5 max-w-sm">
-    <img class="w-full h-48 object-cover object-center overflow-hidden rounded-md shadow"
-         src="https://picsum.photos/500?=1">
+    <img
+      class="w-full h-48 object-cover object-center overflow-hidden rounded-md shadow"
+      src="https://picsum.photos/500?=1"
+    >
     <y class="pt-4 text-sm text-center text-gray-100">
       Filter: OFF
     </y>
   </y>
   <y class="p-5 max-w-sm">
-    <img class="filter saturate-10 w-full h-48 object-cover object-center overflow-hidden rounded-md shadow"
-         src="https://picsum.photos/500?=1">
+    <img
+      class="filter saturate-10 w-full h-48 object-cover object-center overflow-hidden rounded-md shadow"
+      src="https://picsum.photos/500?=1"
+    >
     <y class="pt-4 text-sm text-center text-gray-100">
       Filter: ON
     </y>
@@ -104,15 +116,19 @@ Utility applies a Gaussian blur to the element. [Find out more about the usage](
 
 <y class="m-2 mx-auto flex bg-charcoal-100 rounded-lg">
   <y class="p-5 max-w-sm">
-    <img class="w-full h-48 object-cover object-center overflow-hidden rounded-md shadow"
-         src="https://picsum.photos/500?=1">
+    <img
+      class="w-full h-48 object-cover object-center overflow-hidden rounded-md shadow"
+      src="https://picsum.photos/500?=1"
+    >
     <y class="pt-4 text-sm text-center text-gray-100">
       Filter: OFF
     </y>
   </y>
   <y class="m-5 max-w-sm">
-    <img class="filter blur-2 w-full h-48 object-cover object-center overflow-hidden rounded-md"
-         src="https://picsum.photos/500?=1">
+    <img
+      class="filter blur-2 w-full h-48 object-cover object-center overflow-hidden rounded-md"
+      src="https://picsum.photos/500?=1"
+    >
     <y class="pt-4 text-sm text-center text-gray-100">
       Filter: ON
     </y>
@@ -125,15 +141,19 @@ Utility inverts the color samples in the element. [Find out more about the usage
 
 <y class="m-2 mx-auto flex bg-charcoal-100 rounded-lg">
   <y class="p-5 max-w-sm">
-    <img class="w-full h-48 object-cover object-center overflow-hidden rounded-md shadow"
-         src="https://picsum.photos/500?=1">
+    <img
+      class="w-full h-48 object-cover object-center overflow-hidden rounded-md shadow"
+      src="https://picsum.photos/500?=1"
+    >
     <y class="pt-4 text-sm text-center text-gray-100">
       Filter: OFF
     </y>
   </y>
   <y class="m-5 max-w-sm">
-    <img class="invert-1 w-full h-48 object-cover object-center overflow-hidden rounded-md"
-         src="https://picsum.photos/500?=1">
+    <img
+      class="invert-1 w-full h-48 object-cover object-center overflow-hidden rounded-md"
+      src="https://picsum.photos/500?=1"
+    >
     <y class="pt-4 text-sm text-center text-gray-100">
       Filter: ON
     </y>
@@ -146,15 +166,19 @@ Utility applies a drop shadow effect to the element. [Find out more about the us
 
 <y class="m-2 mx-auto flex bg-gray-300 rounded-lg">
   <y class="p-5 max-w-sm">
-    <img class="w-full h-48 object-contain object-center overflow-hidden"
-         src="https://images.vexels.com/media/users/3/196998/isolated/preview/3421fa2cd778f85dfc33c72728b57d1e-tyrannosaurus-dino-cute-by-vexels.png">
+    <img
+      class="w-full h-48 object-contain object-center overflow-hidden"
+      src="https://images.vexels.com/media/users/3/196998/isolated/preview/3421fa2cd778f85dfc33c72728b57d1e-tyrannosaurus-dino-cute-by-vexels.png"
+    >
     <y class="pt-4 text-sm text-center text-gray-800">
       Filter: OFF
     </y>
   </y>
   <y class="p-5 max-w-sm">
-    <img class="filter drop-shadow-md w-full h-48 object-contain object-center overflow-hidden"
-         src="https://images.vexels.com/media/users/3/196998/isolated/preview/3421fa2cd778f85dfc33c72728b57d1e-tyrannosaurus-dino-cute-by-vexels.png">
+    <img
+      class="filter drop-shadow-md w-full h-48 object-contain object-center overflow-hidden"
+      src="https://images.vexels.com/media/users/3/196998/isolated/preview/3421fa2cd778f85dfc33c72728b57d1e-tyrannosaurus-dino-cute-by-vexels.png"
+    >
     <y class="pt-4 text-sm text-center text-gray-800">
       Filter: ON
     </y>
@@ -173,8 +197,10 @@ Utilities for sets filter backdrop brightness effect to an element. [Find out mo
 
 <y class="m-2 flex bg-charcoal-800 rounded-lg">
   <y class="p-5 max-w-sm w-full">
-    <y class="flex justify-center items-center h-48 bg-auto bg-center bg-no-repeat rounded-lg"
-       style="background-image:url('https://picsum.photos/500?=1')">
+    <y
+      class="flex justify-center items-center h-48 bg-auto bg-center bg-no-repeat rounded-lg"
+      style="background-image:url('https://picsum.photos/500?=1')"
+    >
       <y class="w-40 h-32 bg-gray-100 bg-opacity-50"></y>
     </y>
     <y class="pt-4 text-sm text-center text-gray-100">
@@ -182,8 +208,10 @@ Utilities for sets filter backdrop brightness effect to an element. [Find out mo
     </y>
   </y>
   <y class="p-5 max-w-sm w-full">
-    <y class="flex justify-center items-center h-48 bg-auto bg-center bg-no-repeat rounded-lg"
-       style="background-image:url('https://picsum.photos/500?=1')">
+    <y
+      class="flex justify-center items-center h-48 bg-auto bg-center bg-no-repeat   rounded-lg"
+      style="background-image:url('https://picsum.photos/500?=1')"
+    >
       <y class="backdrop-filter brightness-8 w-40 h-32 bg-gray-100 bg-opacity-50"></y>
     </y>
     <y class="pt-4 text-sm text-center text-gray-100">
@@ -198,8 +226,10 @@ Utilities for sets filter backdrop contrast effect to an element. [Find out more
 
 <y class="m-2 flex bg-charcoal-800 rounded-lg">
   <y class="p-5 max-w-sm w-full">
-    <y class="flex justify-center items-center w-full h-48 bg-auto bg-center bg-no-repeat rounded-lg"
-       style="background-image:url('https://picsum.photos/500?=1')">
+    <y
+      class="flex justify-center items-center w-full h-48 bg-auto bg-center bg-no-repeat rounded-lg"
+      style="background-image:url('https://picsum.photos/500?=1')"
+    >
       <y class="w-40 h-32 bg-gray-100 bg-opacity-50"></y>
     </y>
     <y class="pt-4 text-sm text-center text-gray-100">
@@ -207,8 +237,10 @@ Utilities for sets filter backdrop contrast effect to an element. [Find out more
     </y>
   </y>
   <y class="p-5 max-w-sm w-full">
-    <y class="flex justify-center items-center h-48 bg-auto bg-center bg-no-repeat rounded-lg"
-       style="background-image:url('https://picsum.photos/500?=1')">
+    <y
+      class="flex justify-center items-center h-48 bg-auto bg-center bg-no-repeat rounded-lg"
+      style="background-image:url('https://picsum.photos/500?=1')"
+    >
       <y class="backdrop-filter contrast-8 w-40 h-32 bg-gray-100 bg-opacity-50"></y>
     </y>
     <y class="pt-4 text-sm text-center text-gray-100">
@@ -223,8 +255,10 @@ Utilities for sets filter backdrop saturate effect to an element. [Find out more
 
 <y class="m-2 flex bg-charcoal-800 rounded-lg">
   <y class="p-5 max-w-sm w-full">
-    <y class="flex justify-center items-center h-48 bg-auto bg-center bg-no-repeat rounded-lg"
-       style="background-image:url('https://picsum.photos/500?=1')">
+    <y
+      class="flex justify-center items-center h-48 bg-auto bg-center bg-no-repeat rounded-lg"
+      style="background-image:url('https://picsum.photos/500?=1')"
+    >
       <y class="w-40 h-32 bg-gray-100 bg-opacity-50"></y>
     </y>
     <y class="pt-4 text-sm text-center text-gray-100">
@@ -232,8 +266,10 @@ Utilities for sets filter backdrop saturate effect to an element. [Find out more
     </y>
   </y>
   <y class="p-5 max-w-sm w-full">
-    <y class="flex justify-center items-center h-48 bg-auto bg-center bg-no-repeat rounded-lg"
-       style="background-image:url('https://picsum.photos/500?=1')">
+    <y
+      class="flex justify-center items-center h-48 bg-auto bg-center bg-no-repeat rounded-lg"
+      style="background-image:url('https://picsum.photos/500?=1')"
+    >
       <y class="backdrop-filter saturate-10 w-40 h-32 bg-gray-100 bg-opacity-50"></y>
     </y>
     <y class="pt-4 text-sm text-center text-gray-100">
@@ -248,8 +284,10 @@ Utilities for sets filter backdrop blur effect to an element. [Find out more abo
 
 <y class="m-2 flex bg-charcoal-800 rounded-lg">
   <y class="p-5 max-w-sm w-full">
-    <y class="flex justify-center items-center h-48 bg-auto bg-center bg-no-repeat rounded-lg"
-       style="background-image:url('https://picsum.photos/500?=1')">
+    <y
+      class="flex justify-center items-center h-48 bg-auto bg-center bg-no-repeat rounded-lg"
+      style="background-image:url('https://picsum.photos/500?=1')"
+    >
       <y class="w-40 h-32 bg-gray-100 bg-opacity-50"></y>
     </y>
     <y class="pt-4 text-sm text-center text-gray-100">
@@ -257,8 +295,10 @@ Utilities for sets filter backdrop blur effect to an element. [Find out more abo
     </y>
   </y>
   <y class="p-5 max-w-sm w-full">
-    <y class="flex justify-center items-center h-48 bg-auto bg-center bg-no-repeat rounded-lg"
-       style="background-image:url('https://picsum.photos/500?=1')">
+    <y
+      class="flex justify-center items-center h-48 bg-auto bg-center bg-no-repeat rounded-lg"
+      style="background-image:url('https://picsum.photos/500?=1')"
+    >
       <y class="backdrop-filter blur-3 w-40 h-32 bg-gray-100 bg-opacity-50"></y>
     </y>
     <y class="pt-4 text-sm text-center text-gray-100">
@@ -273,8 +313,10 @@ Utilities for sets filter backdrop hue-rotate effect to an element. [Find out mo
 
 <y class="m-2 flex bg-charcoal-800 rounded-lg">
   <y class="p-5 max-w-sm w-full">
-    <y class="flex justify-center items-center h-48 bg-auto bg-center bg-no-repeat rounded-lg"
-       style="background-image:url('https://picsum.photos/500?=1')">
+    <y
+      class="flex justify-center items-center h-48 bg-auto bg-center bg-no-repeat rounded-lg"
+      style="background-image:url('https://picsum.photos/500?=1')"
+    >
       <y class="w-40 h-32 bg-gray-100 bg-opacity-50"></y>
     </y>
     <y class="pt-4 text-sm text-center text-gray-100">
@@ -282,8 +324,10 @@ Utilities for sets filter backdrop hue-rotate effect to an element. [Find out mo
     </y>
   </y>
   <y class="p-5 max-w-sm w-full">
-    <y class="flex justify-center items-center h-48 bg-auto bg-center bg-no-repeat rounded-lg"
-       style="background-image:url('https://picsum.photos/500?=1')">
+    <y
+      class="flex justify-center items-center h-48 bg-auto bg-center bg-no-repeat rounded-lg"
+      style="background-image:url('https://picsum.photos/500?=1')"
+    >
       <y class="backdrop-filter hue-rotate-60 w-40 h-32 bg-gray-100 bg-opacity-50"></y>
     </y>
     <y class="pt-4 text-sm text-center text-gray-100">
@@ -293,10 +337,12 @@ Utilities for sets filter backdrop hue-rotate effect to an element. [Find out mo
 </y>
 
 <y class="mt-16 mx-auto max-w-sm">
-  <a class="px-10 py-3 appearance-none (focus)outline-none text-md text-gray-800 (hover)text-gray-100 bg-gray-200 (hover)bg-gray-800 border-4 border-gray-300 (hover)border-gray-800 (focus)border-gray-800 rounded-lg transition duration-300 ease-in-out"
-     href="/getting-started/"
-     target="_self"
-     rel="noopener">
+  <a
+    class="px-10 py-3 appearance-none (focus)outline-none text-md text-gray-800 (hover)text-gray-100 bg-gray-200 (hover)bg-gray-800 border-4 border-gray-300 (hover)border-gray-800 (focus)border-gray-800 rounded-lg transition duration-300 ease-in-out"
+    href="/getting-started/"
+    target="_self"
+    rel="noopener"
+  >
     Back to
     <span class="font-semibold">
       Gettings Started

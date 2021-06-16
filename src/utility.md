@@ -46,7 +46,9 @@ The idea of how the utility is actually work in the Yogurt CSS framework. To get
   .box-panel {
     background-color: #fff;
     border-radius: 0.5rem;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-shadow:
+      0 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0 2px 4px -1px rgba(0, 0, 0, 0.06);
     margin: 2rem auto;
     max-width: 300px;
     padding: 2rem 1rem;
@@ -116,8 +118,10 @@ When styling the elements with Yogurt, you don't have to write like the example 
 
 <y class="mx-auto my-8 max-w-xs">
   <y class="flex justify-center items-center px-4 py-8 bg-white rounded-lg shadow-md">
-    <img class="h-16 w-16 rounded-full object-cover object-center overflow-hidden"
-         src="https://i.pravatar.cc/100">
+    <img
+      class="h-16 w-16 rounded-full object-cover object-center overflow-hidden"
+      src="https://i.pravatar.cc/100"
+    >
     <y class="px-4 text-charcoal-100 text-lg">
       John Doe
     </y>

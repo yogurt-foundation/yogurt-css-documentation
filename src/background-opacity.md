@@ -32,7 +32,7 @@ Utilities for sets opacity of background color.
 Set background-color with `100%` opacity to an element.
 
 <y class="my-2 mx-auto w-64">
- <y class="h-32 bg-amber-500 bg-opacity-100 border border-gray-300"></y>
+  <y class="h-32 bg-amber-500 bg-opacity-100 border border-gray-300"></y>
 </y>
 
 ```html
@@ -43,7 +43,7 @@ Set background-color with `100%` opacity to an element.
 Set background-color with `75%` opacity to an element.
 
 <y class="my-2 mx-auto w-64">
- <y class="h-32 bg-amber-500 bg-opacity-75 border border-gray-300"></y>
+  <y class="h-32 bg-amber-500 bg-opacity-75 border border-gray-300"></y>
 </y>
 
 ```html
@@ -56,7 +56,7 @@ Set background-color with `75%` opacity to an element.
 Set background-color with `50%` opacity to an element.
 
 <y class="my-2 mx-auto w-64">
- <y class="h-32 bg-amber-500 bg-opacity-50 border border-gray-300"></y>
+  <y class="h-32 bg-amber-500 bg-opacity-50 border border-gray-300"></y>
 </y>
 
 ```html
@@ -69,7 +69,7 @@ Set background-color with `50%` opacity to an element.
 Set background-color with `25%` opacity to an element.
 
 <y class="my-2 mx-auto w-64">
- <y class="h-32 bg-amber-500 bg-opacity-25 border border-gray-300"></y>
+  <y class="h-32 bg-amber-500 bg-opacity-25 border border-gray-300"></y>
 </y>
 
 ```html
@@ -82,7 +82,7 @@ Set background-color with `25%` opacity to an element.
 Set background-color with `0%` opacity to an element.
 
 <y class="my-2 mx-auto w-64">
- <y class="h-32 bg-amber-500 bg-opacity-0 border border-gray-300"></y>
+  <y class="h-32 bg-amber-500 bg-opacity-0 border border-gray-300"></y>
 </y>
 
 ```html

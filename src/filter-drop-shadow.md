@@ -45,15 +45,19 @@ Utilities for sets shadow filter to transparency image (SVG, PNG).
 
 <y class="mx-2 my-2 mx-auto flex">
   <y class="max-w-sm">
-    <img class="w-full h-48 object-contain object-center overflow-hidden"
-         src="https://images.vexels.com/media/users/3/196998/isolated/preview/3421fa2cd778f85dfc33c72728b57d1e-tyrannosaurus-dino-cute-by-vexels.png">
+    <img
+      class="w-full h-48 object-contain object-center overflow-hidden"
+      src="https://images.vexels.com/media/users/3/196998/isolated/preview/3421fa2cd778f85dfc33c72728b57d1e-tyrannosaurus-dino-cute-by-vexels.png"
+    >
     <y class="pt-2 text-sm text-center">
       Filter: OFF
     </y>
   </y>
   <y class="p-2 max-w-sm">
-    <img class="filter drop-shadow-md w-full h-48 object-contain object-center overflow-hidden"
-         src="https://images.vexels.com/media/users/3/196998/isolated/preview/3421fa2cd778f85dfc33c72728b57d1e-tyrannosaurus-dino-cute-by-vexels.png">
+    <img
+      class="filter drop-shadow-md w-full h-48 object-contain object-center overflow-hidden"
+      src="https://images.vexels.com/media/users/3/196998/isolated/preview/3421fa2cd778f85dfc33c72728b57d1e-tyrannosaurus-dino-cute-by-vexels.png"
+    >
     <y class="pt-2 text-sm text-center">
       Filter: ON
     </y>
@@ -64,16 +68,20 @@ Apply the `filter` class first, and then set the filter in any order when with o
 
 ```html
 <!-- Example -->
-<img class="filter drop-shadow-md ..."
-     src="...">
+<img
+  class="filter drop-shadow-md ..."
+  src="..."
+>
 ```
 
 Mix with other filters, such as [Brightness](/filter-brightness/), [Contrast](/filter-contrast/), [Saturate](/filter/saturate) and [Blur](/filter-blur/).
 
 ```html
 <!-- Example -->
-<img class="filter drop-shadow-md brightness-10 contrast-5 saturate-4 blur-5 ..."
-     src="...">
+<img
+  class="filter drop-shadow-md brightness-10 contrast-5 saturate-4 blur-5 ..."
+  src="..."
+>
 ```
 
 ---

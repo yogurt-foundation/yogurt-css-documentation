@@ -41,15 +41,19 @@ Utility for sets saturates or desaturates to an element.
 
 <y class="mx-2 my-2 mx-auto flex">
   <y class="p-2 max-w-sm">
-    <img class="w-full h-48 object-cover object-center overflow-hidden rounded-lg shadow"
-         src="https://picsum.photos/500?=3">
+    <img
+      class="w-full h-48 object-cover object-center overflow-hidden rounded-lg shadow"
+      src="https://picsum.photos/500?=3"
+    >
     <y class="pt-2 text-sm text-center">
       Filter: OFF
     </y>
   </y>
   <y class="p-2 max-w-sm">
-    <img class="filter saturate-10 w-full h-48 object-cover object-center overflow-hidden rounded-lg shadow"
-         src="https://picsum.photos/500?=3">
+    <img
+      class="filter saturate-10 w-full h-48 object-cover object-center overflow-hidden rounded-lg shadow"
+      src="https://picsum.photos/500?=3"
+    >
     <y class="pt-2 text-sm text-center">
       Filter: ON
     </y>
