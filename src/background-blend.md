@@ -44,8 +44,10 @@ Utilities for sets the blending mode of each background layer (color or image).
 Set `normal` blending mode background image with HTML inline attribute `style="..."` and a CSS property `background-image: url(...)` to an element.
 
 <y class="my-2 mx-auto w-64">
-  <y class="bg-amber-600 bg-blend-normal bg-auto bg-center bg-no-repeat h-48 w-full"
-     style="background-image:url(https://picsum.photos/400?=1)"></y>
+  <y
+    class="bg-amber-600 bg-blend-normal bg-auto bg-center bg-no-repeat h-48 w-full"
+    style="background-image:url(https://picsum.photos/400?=1)">
+  </y>
 </y>
 
 ```html
@@ -59,8 +61,10 @@ Set `normal` blending mode background image with HTML inline attribute `style=".
 Set `multiply` blending mode to background image.
 
 <y class="my-2 mx-auto w-64">
-  <y class="bg-amber-600 bg-blend-multiply bg-auto bg-center bg-no-repeat h-48 w-full"
-     style="background-image:url(https://picsum.photos/400?=1)"></y>
+  <y
+    class="bg-amber-600 bg-blend-multiply bg-auto bg-center bg-no-repeat h-48 w-full"
+    style="background-image:url(https://picsum.photos/400?=1)">
+  </y>
 </y>
 
 ```html
@@ -74,8 +78,10 @@ Set `multiply` blending mode to background image.
 Set `screen` blending mode to background image.
 
 <y class="my-2 mx-auto w-64">
-  <y class="bg-amber-600 bg-blend-screen bg-auto bg-center bg-no-repeat h-48 w-full"
-     style="background-image:url(https://picsum.photos/400?=1)"></y>
+  <y
+    class="bg-amber-600 bg-blend-screen bg-auto bg-center bg-no-repeat h-48 w-full"
+    style="background-image:url(https://picsum.photos/400?=1)">
+  </y>
 </y>
 
 ```html
@@ -89,8 +95,10 @@ Set `screen` blending mode to background image.
 Set `overlay` blending mode to background image.
 
 <y class="my-2 mx-auto w-64">
-  <y class="bg-amber-600 bg-blend-overlay bg-auto bg-center bg-no-repeat h-48 w-full"
-     style="background-image:url(https://picsum.photos/400?=1)"></y>
+  <y
+    class="bg-amber-600 bg-blend-overlay bg-auto bg-center bg-no-repeat h-48 w-full"
+    style="background-image:url(https://picsum.photos/400?=1)">
+  </y>
 </y>
 
 ```html
@@ -104,8 +112,10 @@ Set `overlay` blending mode to background image.
 Set `darken` blending mode to background image.
 
 <y class="my-2 mx-auto w-64">
-  <y class="bg-amber-600 bg-blend-darken bg-auto bg-center bg-no-repeat h-48 w-full"
-     style="background-image:url(https://picsum.photos/400?=1)"></y>
+  <y
+    class="bg-amber-600 bg-blend-darken bg-auto bg-center bg-no-repeat h-48 w-full"
+    style="background-image:url(https://picsum.photos/400?=1)">
+  </y>
 </y>
 
 ```html
@@ -119,8 +129,10 @@ Set `darken` blending mode to background image.
 Set `lighten` blending mode to background image.
 
 <y class="my-2 mx-auto w-64">
-  <y class="bg-amber-600 bg-blend-lighten bg-auto bg-center bg-no-repeat h-48 w-full"
-     style="background-image:url(https://picsum.photos/400?=1)"></y>
+  <y
+    class="bg-amber-600 bg-blend-lighten bg-auto bg-center bg-no-repeat h-48 w-full"
+    style="background-image:url(https://picsum.photos/400?=1)">
+  </y>
 </y>
 
 ```html
@@ -134,8 +146,10 @@ Set `lighten` blending mode to background image.
 Set `color` blending mode to background image.
 
 <y class="my-2 mx-auto w-64">
-  <y class="bg-amber-600 bg-blend-color bg-auto bg-center bg-no-repeat h-48 w-full"
-     style="background-image:url(https://picsum.photos/400?=1)"></y>
+  <y
+    class="bg-amber-600 bg-blend-color bg-auto bg-center bg-no-repeat h-48 w-full"
+    style="background-image:url(https://picsum.photos/400?=1)">
+  </y>
 </y>
 
 ```html
@@ -149,8 +163,10 @@ Set `color` blending mode to background image.
 Set `color-dodge` blending mode to background image.
 
 <y class="my-2 mx-auto w-64">
-  <y class="bg-amber-600 bg-blend-color-dodge bg-auto bg-center bg-no-repeat h-48 w-full"
-     style="background-image:url(https://picsum.photos/400?=1)"></y>
+  <y
+    class="bg-amber-600 bg-blend-color-dodge bg-auto bg-center bg-no-repeat h-48 w-full"
+    style="background-image:url(https://picsum.photos/400?=1)">
+  </y>
 </y>
 
 ```html
@@ -164,8 +180,10 @@ Set `color-dodge` blending mode to background image.
 Set `color-burn` blending mode to background image.
 
 <y class="my-2 mx-auto w-64">
-  <y class="bg-amber-600 bg-blend-color-burn bg-auto bg-center bg-no-repeat h-48 w-full"
-     style="background-image:url(https://picsum.photos/400?=1)"></y>
+  <y
+    class="bg-amber-600 bg-blend-color-burn bg-auto bg-center bg-no-repeat h-48 w-full"
+    style="background-image:url(https://picsum.photos/400?=1)">
+  </y>
 </y>
 
 ```html
@@ -179,8 +197,10 @@ Set `color-burn` blending mode to background image.
 Set `hard-light` blending mode to background image.
 
 <y class="my-2 mx-auto w-64">
-  <y class="bg-amber-600 bg-blend-hard-light bg-auto bg-center bg-no-repeat h-48 w-full"
-     style="background-image:url(https://picsum.photos/400?=1)"></y>
+  <y
+    class="bg-amber-600 bg-blend-hard-light bg-auto bg-center bg-no-repeat h-48 w-full"
+    style="background-image:url(https://picsum.photos/400?=1)">
+  </y>
 </y>
 
 ```html
@@ -194,8 +214,10 @@ Set `hard-light` blending mode to background image.
 Set `soft-light` blending mode to background image.
 
 <y class="my-2 mx-auto w-64">
-  <y class="bg-amber-600 bg-blend-soft-light bg-auto bg-center bg-no-repeat h-48 w-full"
-     style="background-image:url(https://picsum.photos/400?=1)"></y>
+  <y
+    class="bg-amber-600 bg-blend-soft-light bg-auto bg-center bg-no-repeat h-48 w-full"
+    style="background-image:url(https://picsum.photos/400?=1)">
+  </y>
 </y>
 
 ```html
@@ -209,8 +231,10 @@ Set `soft-light` blending mode to background image.
 Set `different` blending mode to background image.
 
 <y class="my-2 mx-auto w-64">
-  <y class="bg-amber-600 bg-blend-different bg-auto bg-center bg-no-repeat h-48 w-full"
-     style="background-image:url(https://picsum.photos/400?=1)"></y>
+  <y
+    class="bg-amber-600 bg-blend-different bg-auto bg-center bg-no-repeat h-48 w-full"
+    style="background-image:url(https://picsum.photos/400?=1)">
+  </y>
 </y>
 
 ```html
@@ -224,8 +248,10 @@ Set `different` blending mode to background image.
 Set `exclusion` blending mode to background image.
 
 <y class="my-2 mx-auto w-64">
-  <y class="bg-amber-600 bg-blend-exclusion bg-auto bg-center bg-no-repeat h-48 w-full"
-     style="background-image:url(https://picsum.photos/400?=1)"></y>
+  <y
+    class="bg-amber-600 bg-blend-exclusion bg-auto bg-center bg-no-repeat h-48 w-full"
+    style="background-image:url(https://picsum.photos/400?=1)">
+  </y>
 </y>
 
 ```html
@@ -239,8 +265,10 @@ Set `exclusion` blending mode to background image.
 Set `hue` blending mode to background image.
 
 <y class="my-2 mx-auto w-64">
-  <y class="bg-amber-600 bg-blend-hue bg-auto bg-center bg-no-repeat h-48 w-full"
-     style="background-image:url(https://picsum.photos/400?=1)"></y>
+  <y
+    class="bg-amber-600 bg-blend-hue bg-auto bg-center bg-no-repeat h-48 w-full"
+    style="background-image:url(https://picsum.photos/400?=1)">
+  </y>
 </y>
 
 ```html
@@ -254,8 +282,10 @@ Set `hue` blending mode to background image.
 Set `saturation` blending mode to background image.
 
 <y class="my-2 mx-auto w-64">
-  <y class="bg-amber-600 bg-blend-saturation bg-auto bg-center bg-no-repeat h-48 w-full"
-     style="background-image:url(https://picsum.photos/400?=1)"></y>
+  <y
+    class="bg-amber-600 bg-blend-saturation bg-auto bg-center bg-no-repeat h-48 w-full"
+    style="background-image:url(https://picsum.photos/400?=1)">
+  </y>
 </y>
 
 ```html
@@ -269,8 +299,10 @@ Set `saturation` blending mode to background image.
 Set `luminosity` blending mode to background image.
 
 <y class="my-2 mx-auto w-64">
-  <y class="bg-amber-600 bg-blend-luminosity bg-auto bg-center bg-no-repeat h-48 w-full"
-     style="background-image:url(https://picsum.photos/400?=1)"></y>
+  <y
+    class="bg-amber-600 bg-blend-luminosity bg-auto bg-center bg-no-repeat h-48 w-full"
+    style="background-image:url(https://picsum.photos/400?=1)">
+  </y>
 </y>
 
 ```html

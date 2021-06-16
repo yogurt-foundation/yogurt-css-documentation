@@ -1,7 +1,6 @@
 ---
 id: utility-map
 title: View All Yogurt CSS Utilities and components
-topic:
 layout: default
 ---
 
@@ -18,9 +17,9 @@ layout: default
 
   {% for section in navigation.sections %}
 
-    <y class="(xs)w-full (lg)w-1/3 p-4">
+    <y class="(xs)w-full (sm)w-1/2 (lg)w-1/3 p-4">
 
-      <y class="py-2 text-gray-900 (dark)text-orange-600 (xs)text-2xl (lg)text-xl font-semibold uppercase">
+      <y class="py-2 text-gray-700 (dark)text-orange-600 (xs)text-2xl (lg)text-xl font-semibold uppercase filter saturate-4">
         {{ section.label }}
       </y>
 
@@ -32,12 +31,14 @@ layout: default
 
             <y class="flex">
 
-              <a class="{{ item.class }} (xs)py-2 (lg)py-1 (xs)text-md (lg)text-sm (hover)font-semibold (hover)underline"
-                 href="{{ item.url | safe }}"
-                 {% if is_current_page %}
-                 aria-current="page"
-                 {% endif %}>
+              <a
+                class="{{ item.class }} (xs)py-2 (lg)py-1 (xs)text-md (lg)text-sm (hover)font-semibold (hover)underline"
+                href="{{ item.url | safe }}"
 
+                {% if is_current_page %}
+                  aria-current="page"
+                {% endif %}
+              >
                 {{ item.label }}
 
                 {% if item.external %}

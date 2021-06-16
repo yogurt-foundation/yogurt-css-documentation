@@ -122,18 +122,22 @@ To override theme invert to an element. Find out more about the usage [`theme-au
 To simulate [`(dark)`](/pseudo-class-variants/#dark-mode-v1.1.0), [`(light)`](/pseudo-class-variants/#light-mode-v1.1.5), [`theme="auto"`](/theme-auto/), [`theme="invert"`](/theme-invert/) on a Chrome-based web browser, open the developer tools, by pressing `CTRL+SHIFT+I` and find your way to enable the `Rendering` options in the picture below. You 'll find the `Emulate CSS media feature prefers-color-scheme` menu.
 
 <y class="mx-4 py-4">
-  <img theme="auto"
-       class="w-full h-full object-fit object-center rounded-lg"
-       src="/images/content/simulate_theme.jpg"
-       loading="lazy"
-       alt="Chrome prefers-color-scheme simulator">
+  <img
+    theme="auto"
+    class="w-full h-full object-fit object-center rounded-lg"
+    src="/images/content/simulate_theme.jpg"
+    loading="lazy"
+    alt="Chrome prefers-color-scheme simulator"
+  >
 </y>
 
 <y class="mt-16 mx-auto max-w-sm">
-  <a class="px-10 py-3 appearance-none (focus)outline-none text-md text-gray-800 (hover)text-gray-100 bg-gray-200 (hover)bg-gray-800 border-4 border-gray-300 (hover)border-gray-800 (focus)border-gray-800 rounded-lg transition duration-300 ease-in-out"
-     href="/getting-started/"
-     target="_self"
-     rel="noopener">
+  <a
+    class="px-10 py-3 appearance-none (focus)outline-none text-md text-gray-800 (hover)text-gray-100 bg-gray-200 (hover)bg-gray-800 border-4 border-gray-300 (hover)border-gray-800 (focus)border-gray-800 rounded-lg transition duration-300 ease-in-out"
+    href="/getting-started/"
+    target="_self"
+    rel="noopener"
+  >
     Back to
     <span class="font-semibold">
       Gettings Started

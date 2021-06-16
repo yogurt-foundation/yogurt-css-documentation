@@ -79,28 +79,40 @@ Set the `horizontal` scroll image gallery. The image snaps to the `left` contain
 
 <y class="my-2 mx-auto (xs)max-w-full (sm)max-w-full (md)max-w-md (lg)max-w-md scroll-snap x-mandatory align-start flex h-48 overflow-x-scroll">
   <y class="m-1">
-    <img class="max-w-xxs h-40"
-         src="https://picsum.photos/300?=1">
+    <img
+      class="max-w-xxs h-40"
+      src="https://picsum.photos/300?=1"
+    >
   </y>
   <y class="m-1">
-    <img class="max-w-xxs h-40"
-         src="https://picsum.photos/300?=2">
+    <img
+      class="max-w-xxs h-40"
+      src="https://picsum.photos/300?=2"
+    >
   </y>
   <y class="m-1">
-    <img class="max-w-xxs h-40"
-         src="https://picsum.photos/300?=3">
+    <img
+      class="max-w-xxs h-40"
+      src="https://picsum.photos/300?=3"
+    >
   </y>
   <y class="m-1">
-    <img class="max-w-xxs h-40"
-         src="https://picsum.photos/300?=4">
+    <img
+      class="max-w-xxs h-40"
+      src="https://picsum.photos/300?=4"
+    >
   </y>
   <y class="m-1">
-    <img class="max-w-xxs h-40"
-         src="https://picsum.photos/300?=5">
+    <img
+      class="max-w-xxs h-40"
+      src="https://picsum.photos/300?=5"
+    >
   </y>
   <y class="m-1">
-    <img class="max-w-xxs h-40"
-         src="https://picsum.photos/300?=6">
+    <img
+      class="max-w-xxs h-40"
+      src="https://picsum.photos/300?=6"
+    >
   </y>
 </y>
 
@@ -117,28 +129,40 @@ Set the `vertical` scroll image gallery. The image snaps to the `top` container 
 
 <y class="my-2 mx-auto max-w-xs scroll-snap y-mandatory align-start h-64 overflow-y-scroll">
   <y class="m-1">
-    <img class="max-w-xxs h-40"
-         src="https://picsum.photos/300?=1">
+    <img
+      class="max-w-xxs h-40"
+      src="https://picsum.photos/300?=1"
+    >
   </y>
   <y class="m-1">
-    <img class="max-w-xxs h-40"
-         src="https://picsum.photos/300?=2">
+    <img
+      class="max-w-xxs h-40"
+      src="https://picsum.photos/300?=2"
+    >
   </y>
   <y class="m-1">
-    <img class="max-w-xxs h-40"
-         src="https://picsum.photos/300?=3">
+    <img
+      class="max-w-xxs h-40"
+      src="https://picsum.photos/300?=3"
+    >
   </y>
   <y class="m-1">
-    <img class="max-w-xxs h-40"
-         src="https://picsum.photos/300?=4">
+    <img
+      class="max-w-xxs h-40"
+      src="https://picsum.photos/300?=4"
+    >
   </y>
   <y class="m-1">
-    <img class="max-w-xxs h-40"
-         src="https://picsum.photos/300?=5">
+    <img
+      class="max-w-xxs h-40"
+      src="https://picsum.photos/300?=5"
+    >
   </y>
   <y class="m-1">
-    <img class="max-w-xxs h-40"
-         src="https://picsum.photos/300?=6">
+    <img
+      class="max-w-xxs h-40"
+      src="https://picsum.photos/300?=6"
+    >
   </y>
 </y>
 

@@ -6,6 +6,8 @@ topic: Typography
 layout: default
 ---
 
+<!-- ON PENDING -->
+
 > Typography
 
 # Font Kerning <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.1</span>
@@ -48,23 +50,3 @@ Utilities for define text narrower(condensed) or wider(expanded) for font faces 
 
 ---
 
-## Usage
-
-
----
-
-## Variant
-
-| <span class="font-semibold underline">Variant</span> | <span class="font-semibold underline">Enabled</span> | <span class="font-semibold underline">Responsive</span> |
-|:-:|:-:|:-:|
-| Default | Yes | Yes |
-| Dark Theme | | |
-| hover| | |
-| group-hover | | |
-| focus | | |
-| focus-visible | | |
-| focus-within | | |
-| active | | |
-| visited | | |
-| checked | | |
-| disabled | | |

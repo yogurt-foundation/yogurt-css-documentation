@@ -37,12 +37,16 @@ Set a SVG image with stroke linecap property.
 `stroke-butt` ends the stroke with a sharp 90-degree angle.
 
 <y class="px-4 my-2 mx-auto flex justify-center items-center">
-  <svg class="my-4 h-10"
-       xmlns="http://www.w3.org/2000/svg"
-       version="1.1">
-    <line class="fill-current text-amber-400 stroke-current stroke-width-mockup stroke-butt"
-          x1="40" x2="250"
-          y1="20" y2="20" />
+  <svg
+    class="my-4 h-10"
+    xmlns="http://www.w3.org/2000/svg"
+    version="1.1"
+  >
+    <line
+      class="fill-current text-amber-400 stroke-current stroke-width-mockup stroke-butt"
+      x1="40" x2="250"
+      y1="20" y2="20"
+    />
   </svg>
 </y>
 

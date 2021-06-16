@@ -3,8 +3,8 @@
   "version": "2.0.0",
   "description": "The official Yogurt CSS documentation website",
   "scripts": {
-    "dev": "NODE_ENV=development npx @11ty/eleventy --config=eleventy.config.js --serve && gulp && gulp css && gulp move-css && npm test && gulp monaco-editor &&gulp playground",
-    "prod": "NODE_ENV=production gulp build && NODE_ENV=production npx @11ty/eleventy --config=eleventy.config.js && gulp purge-css && gulp remove-residual-files && gulp monaco-editor && gulp playground",
+    "dev": "gulp embed-playground && NODE_ENV=development npx @11ty/eleventy --config=eleventy.config.js --serve && gulp && gulp css && gulp move-css && npm test && gulp monaco-editor && gulp playground",
+    "prod": "gulp embed-playground && NODE_ENV=production gulp build && NODE_ENV=production npx @11ty/eleventy --config=eleventy.config.js && gulp purge-css && gulp remove-residual-files && gulp monaco-editor && gulp playground",
     "test": "mdspell -r -n -a --en-us 'src/*.md' 'src/**/*.md'",
     "clean": "rm -rfv ./dist/*"
   },

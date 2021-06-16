@@ -17,10 +17,12 @@ These steps will help you understand the basic idea of how to install and config
     Note:
   </span>
   Just to be sure you have
-  <a href="https://nodejs.org/en/"
-     target="_blank"
-     rel="noopener"
-     title="Download NodeJS">
+  <a
+    href="https://nodejs.org/en/"
+    target="_blank"
+    rel="noopener"
+    title="Download NodeJS"
+  >
     NodeJS
   </a> installed.
 </y>

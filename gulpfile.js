@@ -34,12 +34,12 @@ gulp.task('js', () => gulp.src(['js/main.js'])
 
 gulp.task('js-bundle', () => {
   return gulp.src([
-      'pwa/krugurt+cache.min.js',
-      'pwa/krugurt+utility.js',
-      'dist/pre.js'
-    ])
-    .pipe(concat('main.js'))
-    .pipe(gulp.dest('./dist'))
+    'pwa/krugurt+cache.min.js',
+    'pwa/krugurt+utility.js',
+    'dist/pre.js'
+  ])
+  .pipe(concat('main.js'))
+  .pipe(gulp.dest('./dist'))
 })
 
 gulp.task('css', () => gulp.src(['css/main.scss'])
@@ -57,33 +57,33 @@ gulp.task('move-css', () => {
 // (production)
 gulp.task('purge-css', () => {
   return gulp.src('./dist/pre.css')
-    .pipe(purgeCss({
-        content: [
-          'dist/**/**/*.html',
-          'dist/**/**/*.js'
-        ],
-        // make compatible for `Yogurt CSS framework`
-        defaultExtractor: content => content.match(/[\w-/:()]+(?<!:)/g) || [],
-        whitelistPatterns: [/-webkit-scrollbar-thumb$/],
-        keyframes: true
-    }))
-    .pipe(rename('main.css'))
-    .pipe(gulp.dest('./dist'))
+  .pipe(purgeCss({
+      content: [
+        'dist/**/**/*.html',
+        'dist/**/**/*.js'
+      ],
+      // make compatible for `Yogurt CSS framework`
+      defaultExtractor: content => content.match(/[\w-/:()]+(?<!:)/g) || [],
+      whitelistPatterns: [/-webkit-scrollbar-thumb$/],
+      keyframes: true
+  }))
+  .pipe(rename('main.css'))
+  .pipe(gulp.dest('./dist'))
 })
 
 gulp.task('service-worker', () => {
   return gulp.src([
-      'pwa/krugurt+init.min.js',
-      'pwa/krugurt+sw.min.js'
-    ])
-    .pipe(gulp.dest('./dist'))
+    'pwa/krugurt+init.min.js',
+    'pwa/krugurt+sw.min.js'
+  ])
+  .pipe(gulp.dest('./dist'))
 })
 
 gulp.task('app-manifest', () => {
   return gulp.src([
-      'pwa/manifest.json'
-    ])
-    .pipe(gulp.dest('./dist'))
+    'pwa/manifest.json'
+  ])
+  .pipe(gulp.dest('./dist'))
 })
 
 gulp.task('monaco-editor', () => {
@@ -95,16 +95,21 @@ gulp.task('playground', () => {
   return gulp.src('./playground/**/**/*')
     .pipe(gulp.dest('./dist/playground'))
 })
+gulp.task('embed-playground', () => {
+  return gulp.src('./playground/index.html')
+    .pipe(rename('playground.njk'))
+    .pipe(gulp.dest('./src/_layouts'))
+})
 
 gulp.task('remove-residual-files', () => {
   return gulp.src([
-      'dist/pre.css',
-      'dist/pre.js'
-    ], {
-      read: false,
-      allowEmpty: true
-    })
-    .pipe(clean())
+    'dist/pre.css',
+    'dist/pre.js'
+  ], {
+    read: false,
+    allowEmpty: true
+  })
+  .pipe(clean())
 })
 
 gulp.task('build',

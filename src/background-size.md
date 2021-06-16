@@ -30,8 +30,10 @@ Utilities for sets background size of a background image.
 Set default background image size with HTML inline attribute `style="..."` and a CSS property `background-image: url(...)` to an element.
 
 <y class="my-2 mx-auto w-64 bg-red-200">
-  <y class="h-48 w-full bg-auto bg-center bg-no-repeat"
-     style="background-image:url(https://picsum.photos/400?=1)"></y>
+  <y
+    class="h-48 w-full bg-auto bg-center bg-no-repeat"
+    style="background-image:url(https://picsum.photos/400?=1)">
+  </y>
 </y>
 
 ```html
@@ -45,8 +47,10 @@ Set default background image size with HTML inline attribute `style="..."` and a
 Set cropped and stretched background image to an element.
 
 <y class="my-2 mx-auto w-64 bg-red-200">
-  <y class="h-48 w-full bg-cover bg-center bg-no-repeat"
-     style="background-image:url(https://picsum.photos/400?=1)"></y>
+  <y
+    class="h-48 w-full bg-cover bg-center bg-no-repeat"
+    style="background-image:url(https://picsum.photos/400?=1)">
+  </y>
 </y>
 
 ```html
@@ -60,8 +64,10 @@ Set cropped and stretched background image to an element.
 Set background image contains an element with cropped and stretched.
 
 <y class="my-2 mx-auto w-64 bg-red-200">
-  <y class="h-48 w-full bg-contain bg-center bg-no-repeat"
-     style="background-image:url(https://picsum.photos/400?=1)"></y>
+  <y
+    class="h-48 w-full bg-contain bg-center bg-no-repeat"
+    style="background-image:url(https://picsum.photos/400?=1)">
+  </y>
 </y>
 
 ```html

@@ -93,20 +93,26 @@ Utilities for sets outside clipping circle path of image or element invisible, i
 	<y class="flex flex-gap-10 flex-row flex-wrap justify-center items-center">
   	<y class="h-48 w-48 bg-orange-200">
     	<y>
-      	<img class="h-48 w-48 object-cover object-center overflow-hidden rounded-lg shadow"
-        	   src="https://i.pravatar.cc/500?=1">
+      	<img
+          class="h-48 w-48 object-cover object-center overflow-hidden rounded-lg shadow"
+          src="https://i.pravatar.cc/500?=1"
+        >
     	</y>
 		</y>
 	  <y class="h-48 w-48 bg-orange-200 border-2 border-dashed border-orange-300 rounded-lg">
   	  <y class="clip-circle focus-30 plot-x-10 plot-y-40">
-    	  <img class="h-48 w-48 object-cover object-center"
-      	     src="https://i.pravatar.cc/500?=1">
+    	  <img
+          class="h-48 w-48 object-cover object-center"
+          src="https://i.pravatar.cc/500?=1"
+        >
   	  </y>
 	  </y>
     <y class="h-48 w-48 bg-orange-200 border-2 border-dashed border-orange-300 rounded-lg">
       <y class="clip-circle focus-30 plot-x-60 plot-y-70">
-        <img class="h-48 w-48 object-cover object-center"
-             src="https://i.pravatar.cc/500?=1">
+        <img
+          class="h-48 w-48 object-cover object-center"
+          src="https://i.pravatar.cc/500?=1"
+        >
       </y>
     </y>
   </y>

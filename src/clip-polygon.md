@@ -221,44 +221,44 @@ Utilities for sets outside clipping path of image or element invisible, inside t
 
 <y class="px-4 my-2 mx-auto w-full">
   <y class="flex flex-row justify-center items-center">
-    <y class="clip-polygon
-              plot-top-x-80
-              plot-top-y-0
-              plot-bottom-x-30
-              plot-bottom-y-100
-              plot-left-x-0
-              plot-left-y-30
-              plot-right-x-90
-              plot-right-y-40
-              ... h-64 w-64">
-      <img class="h-64 w-64 bg-gray-600"
-            src="https://picsum.photos/500?=1">
+    <y class="
+      clip-polygon
+      plot-top-x-80 plot-top-y-0
+      plot-bottom-x-30 plot-bottom-y-100
+      plot-left-x-0 plot-left-y-30
+      plot-right-x-90 plot-right-y-40
+      ... h-64 w-64"
+    >
+      <img
+        class="h-64 w-64 bg-gray-600"
+        src="https://picsum.photos/500?=1"
+      >
     </y>
-    <y class="clip-polygon
-              plot-top-x-20
-              plot-top-y-0
-              plot-bottom-x-80
-              plot-bottom-y-100
-              plot-left-x-0
-              plot-left-y-60
-              plot-right-x-90
-              plot-right-y-40
-              ... h-64 w-64">
-      <img class="h-64 w-64 bg-gray-600"
-            src="https://picsum.photos/500?=1">
+    <y class="
+      clip-polygon
+      plot-top-x-20 plot-top-y-0
+      plot-bottom-x-80 plot-bottom-y-100
+      plot-left-x-0 plot-left-y-60
+      plot-right-x-90 plot-right-y-40
+      ... h-64 w-64"
+    >
+      <img
+        class="h-64 w-64 bg-gray-600"
+        src="https://picsum.photos/500?=1"
+      >
     </y>
-    <y class="clip-polygon
-              plot-top-x-70
-              plot-top-y-0
-              plot-bottom-x-30
-              plot-bottom-y-100
-              plot-left-x-90
-              plot-left-y-100
-              plot-right-x-0
-              plot-right-y-100
-              ... h-64 w-64">
-      <img class="h-64 w-64 bg-gray-600"
-            src="https://picsum.photos/500?=1">
+    <y class="
+      clip-polygon
+      plot-top-x-70 plot-top-y-0
+      plot-bottom-x-30 plot-bottom-y-100
+      plot-left-x-90 plot-left-y-100
+      plot-right-x-0 plot-right-y-100
+      ... h-64 w-64"
+    >
+      <img
+        class="h-64 w-64 bg-gray-600"
+        src="https://picsum.photos/500?=1"
+      >
     </y>
   </y>
 </y>
@@ -277,40 +277,34 @@ Utilities for sets outside clipping path of image or element invisible, inside t
 
 <y class="px-4 my-2 mx-auto w-full">
   <y class="flex flex-row justify-center items-center">
-    <y class="clip-polygon
-              plot-top-x-80
-              plot-top-y-0
-              plot-bottom-x-30
-              plot-bottom-y-100
-              plot-left-x-0
-              plot-left-y-30
-              plot-right-x-90
-              plot-right-y-40
-              ... h-64 w-64">
+    <y class="
+      clip-polygon
+      plot-top-x-80 plot-top-y-0
+      plot-bottom-x-30 plot-bottom-y-100
+      plot-left-x-0 plot-left-y-30
+      plot-right-x-90 plot-right-y-40
+      ... h-64 w-64"
+    >
       <y class="h-64 w-64 gradient-true-sunset"></y>
     </y>
-    <y class="clip-polygon
-              plot-top-x-20
-              plot-top-y-0
-              plot-bottom-x-80
-              plot-bottom-y-100
-              plot-left-x-0
-              plot-left-y-60
-              plot-right-x-90
-              plot-right-y-40
-              ... h-64 w-64">
+    <y class="
+      clip-polygon
+      plot-top-x-20 plot-top-y-0
+      plot-bottom-x-80 plot-bottom-y-100
+      plot-left-x-0 plot-left-y-60
+      plot-right-x-90 plot-right-y-40
+      ... h-64 w-64"
+    >
       <y class="h-64 w-64 gradient-true-sunset"></y>
     </y>
-    <y class="clip-polygon
-              plot-top-x-70
-              plot-top-y-0
-              plot-bottom-x-30
-              plot-bottom-y-100
-              plot-left-x-90
-              plot-left-y-100
-              plot-right-x-0
-              plot-right-y-100
-              ... h-64 w-64">
+    <y class="
+      clip-polygon
+      plot-top-x-70 plot-top-y-0
+      plot-bottom-x-30 plot-bottom-y-100
+      plot-left-x-90 plot-left-y-100
+      plot-right-x-0 plot-right-y-100
+      ... h-64 w-64"
+    >
       <y class="h-64 w-64 gradient-true-sunset"></y>
     </y>
   </y>
@@ -327,44 +321,38 @@ Utilities for sets outside clipping path of image or element invisible, inside t
 
 <y class="px-4 my-2 mx-auto w-full">
   <y class="flex flex-row justify-center items-center">
-    <y class="clip-polygon
-              plot-top-x-80
-              plot-top-y-0
-              plot-bottom-x-30
-              plot-bottom-y-100
-              plot-left-x-0
-              plot-left-y-30
-              plot-right-x-90
-              plot-right-y-40
-              ... h-64 w-64">
+    <y class="
+      clip-polygon
+      plot-top-x-80 plot-top-y-0
+      plot-bottom-x-30 plot-bottom-y-100
+      plot-left-x-0 plot-left-y-30
+      plot-right-x-90 plot-right-y-40
+      ... h-64 w-64"
+    >
       <y class="h-64 w-64 text-xs">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at nunc scelerisque, pretium arcu nec, convallis ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec fermentum magna turpis, nec facilisis justo dapibus volutpat. Mauris sagittis pretium sem et consequat. Curabitur a tellus sem. Morbi non auctor elit. Donec tortor nunc, auctor vel sem ac, aliquam cursus nisi. Praesent lobortis urna ex, ut iaculis nulla porttitor in. Curabitur orci augue, pellentesque sed orci et, ultrices tempor dolor. Aenean tincidunt posuere lobortis. In ac tortor quis lorem lacinia gravida quis tincidunt lorem. Nunc ac ultrices leo. Ut sodales, nibh ut consequat fermentum, mi justo cursus quam, eget sodales dui risus ac odio. Proin efficitur lacinia lobortis. Integer efficitur ligula non ultricies sollicitudin. Praesent efficitur augue justo, sit amet dignissim nunc mollis vel.
       </y>
     </y>
-    <y class="clip-polygon
-              plot-top-x-20
-              plot-top-y-0
-              plot-bottom-x-80
-              plot-bottom-y-100
-              plot-left-x-0
-              plot-left-y-60
-              plot-right-x-90
-              plot-right-y-40
-              ... h-64 w-64">
+    <y class="
+      clip-polygon
+      plot-top-x-20 plot-top-y-0
+      plot-bottom-x-80 plot-bottom-y-100
+      plot-left-x-0 plot-left-y-60
+      plot-right-x-90 plot-right-y-40
+      ... h-64 w-64"
+    >
       <y class="h-64 w-64 text-xs">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at nunc scelerisque, pretium arcu nec, convallis ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec fermentum magna turpis, nec facilisis justo dapibus volutpat. Mauris sagittis pretium sem et consequat. Curabitur a tellus sem. Morbi non auctor elit. Donec tortor nunc, auctor vel sem ac, aliquam cursus nisi. Praesent lobortis urna ex, ut iaculis nulla porttitor in. Curabitur orci augue, pellentesque sed orci et, ultrices tempor dolor. Aenean tincidunt posuere lobortis. In ac tortor quis lorem lacinia gravida quis tincidunt lorem. Nunc ac ultrices leo. Ut sodales, nibh ut consequat fermentum, mi justo cursus quam, eget sodales dui risus ac odio. Proin efficitur lacinia lobortis. Integer efficitur ligula non ultricies sollicitudin. Praesent efficitur augue justo, sit amet dignissim nunc mollis vel.
       </y>
     </y>
-    <y class="clip-polygon
-              plot-top-x-70
-              plot-top-y-0
-              plot-bottom-x-30
-              plot-bottom-y-100
-              plot-left-x-90
-              plot-left-y-100
-              plot-right-x-0
-              plot-right-y-100
-              ... h-64 w-64">
+    <y class="
+      clip-polygon
+      plot-top-x-70 plot-top-y-0
+      plot-bottom-x-30 plot-bottom-y-100
+      plot-left-x-90 plot-left-y-100
+      plot-right-x-0 plot-right-y-100
+      ... h-64 w-64"
+    >
       <y class="h-64 w-64 text-xs">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at nunc scelerisque, pretium arcu nec, convallis ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec fermentum magna turpis, nec facilisis justo dapibus volutpat. Mauris sagittis pretium sem et consequat. Curabitur a tellus sem. Morbi non auctor elit. Donec tortor nunc, auctor vel sem ac, aliquam cursus nisi. Praesent lobortis urna ex, ut iaculis nulla porttitor in. Curabitur orci augue, pellentesque sed orci et, ultrices tempor dolor. Aenean tincidunt posuere lobortis. In ac tortor quis lorem lacinia gravida quis tincidunt lorem. Nunc ac ultrices leo. Ut sodales, nibh ut consequat fermentum, mi justo cursus quam, eget sodales dui risus ac odio. Proin efficitur lacinia lobortis. Integer efficitur ligula non ultricies sollicitudin. Praesent efficitur augue justo, sit amet dignissim nunc mollis vel.
       </y>

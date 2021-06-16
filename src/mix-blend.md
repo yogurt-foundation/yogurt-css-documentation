@@ -57,10 +57,14 @@ Mix blend with background colors.
 Mix blend with images.
 
 <y class="px-4 my-2 mx-auto w-64">
-  <img class="w-48 h-32 bg-amber-400 blend-darken"
-       src="https://picsum.photos/400?=1">
-  <img class="-mt-24 ml-10 w-48 h-32 bg-khaki-400 blend-darken"
-       src="https://picsum.photos/400?=2">
+  <img
+    class="w-48 h-32 bg-amber-400 blend-darken"
+    src="https://picsum.photos/400?=1"
+  >
+  <img
+    class="-mt-24 ml-10 w-48 h-32 bg-khaki-400 blend-darken"
+    src="https://picsum.photos/400?=2"
+  >
 </y>
 
 ```html

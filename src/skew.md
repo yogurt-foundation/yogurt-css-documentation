@@ -48,8 +48,10 @@ Set the element skew `horizontal`.
 
 <y class="my-6 mx-auto w-32">
   <y class="h-24 w-24 bg-red-300 flex justify-center items-center">
-    <img class="h-20 w-20 transform skew-x-12 rounded shadow"
-       src="https://picsum.photos/80?=1">
+    <img
+      class="h-20 w-20 transform skew-x-12 rounded shadow"
+      src="https://picsum.photos/80?=1"
+    >
   </y>
 </y>
 
@@ -70,8 +72,10 @@ Set the element skew `vertical`.
 
 <y class="my-6 mx-auto w-32">
   <y class="h-24 w-24 bg-red-300 flex justify-center items-center">
-    <img class="h-20 w-20 transform skew-y-12 rounded shadow"
-       src="https://picsum.photos/80?=1">
+    <img
+      class="h-20 w-20 transform skew-y-12 rounded shadow"
+      src="https://picsum.photos/80?=1"
+    >
   </y>
 </y>
 
@@ -114,8 +118,10 @@ Set the element skew reverse `vertical`.
 
 <y class="my-6 mx-auto w-32">
   <y class="h-24 w-24 bg-red-300 flex justify-center items-center">
-    <img class="h-20 w-20 transform -skew-y-12 rounded shadow"
-       src="https://picsum.photos/80?=1">
+    <img
+      class="h-20 w-20 transform -skew-y-12 rounded shadow"
+      src="https://picsum.photos/80?=1"
+    >
   </y>
 </y>
 
