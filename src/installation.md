@@ -168,7 +168,7 @@ $ yogurt my-new-project
 
 <y class="mx-4 py-4">
   <img
-    class="filter saturate-5 w-full h-full object-fit object-center rounded-lg"
+    class="image-optimize-crisp filter saturate-5 w-full h-full object-fit object-center rounded-lg"
     src="/images/content/yogurt_cli_screenshot_01.png"
     loading="lazy"
     alt="Yogurt CLI"
