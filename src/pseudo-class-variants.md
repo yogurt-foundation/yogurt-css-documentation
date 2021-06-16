@@ -22,6 +22,7 @@ Using utilities to style and add effects to elements when on:
 - `portrait`, `landscape`
 - `reduce-motion`
 - `selection-hover`
+- `expand`
 
 ### Hover
 
@@ -142,7 +143,9 @@ Add `(group)` class to the parent element and add the `(group-focus)` prefix to 
 </y>
 ```
 
-### Selection-Hover
+---
+
+### Selection-Hover <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.6</span>
 
 Add `(selection-hover)` prefix to `filter` utilities with set up parent and child elements. Deselected elements are affected by the `filter` configurations.
 
@@ -162,6 +165,21 @@ Add `(selection-hover)` prefix to `filter` utilities with set up parent and chil
       ...
     </y>
   </y>
+</y>
+```
+
+### Expand <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.6</span>
+
+Add `(expand)` prefix to a utility in a parent element, the utility will take effect to all child elements.
+
+```html
+<!-- Example -->
+<!-- parent -->
+<y class="(expand)rounded-lg">
+  <!-- child -->
+  <y>...</y>
+  <y>...</y>
+  <y>...</y>
 </y>
 ```
 
