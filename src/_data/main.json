@@ -8,6 +8,11 @@
           "target": "_self"
         },
         {
+          "label": "News",
+          "url": "/news/",
+          "target": "_self"
+        },
+        {
           "label": "Installation",
           "url": "/installation/",
           "target": "_self"
