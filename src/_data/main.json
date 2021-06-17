@@ -8,11 +8,6 @@
           "target": "_self"
         },
         {
-          "label": "News",
-          "url": "/news/",
-          "target": "_self"
-        },
-        {
           "label": "Installation",
           "url": "/installation/",
           "target": "_self"
@@ -27,6 +22,11 @@
           "url": "/playground/",
           "external": "/playground/",
           "target": "_blank"
+        },
+        {
+          "label": "News & Releases",
+          "url": "/news-releases/",
+          "target": "_self"
         },
         {
           "label": "Utility Map",
