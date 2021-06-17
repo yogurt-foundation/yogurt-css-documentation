@@ -131,16 +131,6 @@ To simulate [`(dark)`](/pseudo-class-variants/#dark-mode-v1.1.0), [`(light)`](/p
   >
 </y>
 
-<y class="mt-16 mx-auto max-w-sm">
-  <a
-    class="px-10 py-3 appearance-none (focus)outline-none text-md text-gray-800 (hover)text-gray-100 bg-gray-200 (hover)bg-gray-800 border-4 border-gray-300 (hover)border-gray-800 (focus)border-gray-800 rounded-lg transition duration-300 ease-in-out"
-    href="/getting-started/"
-    target="_self"
-    rel="noopener"
-  >
-    Back to
-    <span class="font-semibold">
-      Gettings Started
-    </span>
-  </a>
-</y>
+---
+
+{% include "button-getting-started.njk" %}
