@@ -8,7 +8,7 @@ layout: default
 
 > IntelliSense
 
-## Visua Studio Code Extension
+## Visual Studio Code Extension
 
 <y class="flex flex-gap-2 flex-wrap items-center">
 
