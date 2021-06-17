@@ -24,6 +24,11 @@
           "target": "_blank"
         },
         {
+          "label": "News & Releases",
+          "url": "/news-releases/",
+          "target": "_self"
+        },
+        {
           "label": "Utility Map",
           "url": "/utility-map/",
           "target": "_self"
