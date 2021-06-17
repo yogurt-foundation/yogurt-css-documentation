@@ -43,6 +43,8 @@ Using plugin API to create your utility module and use it right away without mod
     'responsive',
     'dark-mode', 'light-mode',
     'reduce-motion',
+    'selection-hover',
+    'expand',
     'portrait', 'landscape',
     'hover', 'group-hover',
     'focus', 'group-focus', 'focus-visible', 'focus-within',
