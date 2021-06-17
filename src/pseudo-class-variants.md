@@ -12,17 +12,18 @@ layout: default
 
 Using utilities to style and add effects to elements when on:
 
+- `responsive`
+- `dark-mode`, `light-mode`
+- `reduce-motion`
+- `selection-hover`
+- `expand`
+- `portrait`, `landscape`
 - `hover`, `group-hover`
 - `focus`, `group-focus`, `focus-visible`, `focus-within`
 - `active`
 - `visited`
 - `checked`
-- `disable`
-- `dark-mode`, `light-mode`
-- `portrait`, `landscape`
-- `reduce-motion`
-- `selection-hover`
-- `expand`
+- `disabled`
 
 ### Hover
 
