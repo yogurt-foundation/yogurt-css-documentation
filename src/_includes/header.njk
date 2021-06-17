@@ -74,7 +74,7 @@
           </a>
         </li>
 
-        <li class="{% if id == "home" %} hidden {% else %} block {% endif %}">
+        <li class="{% if id == "home" %} hidden {% elseif id == "404" %} {% else %} block {% endif %}">
           <button class="menu-toggle inline-block ml-2 py-1">
             <svg
               class="fill-current text-gray-700 (dark)text-gray-400"

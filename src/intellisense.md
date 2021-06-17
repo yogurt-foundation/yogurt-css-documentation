@@ -36,7 +36,7 @@ An intellisense tool for VS Code, fast manipulating Yogurt CSS Low-level Framewo
 ## Installation
 
 - Download and Install [Visual Studio Code IDE](https://code.visualstudio.com/download).
-- Download extension: Navigate to `Extension` window or press `Ctrl+Shift+x` to search `Yogurt CSS IntelliSense`.
+- Download extension: Navigate to `Extension` window or press `Ctrl+Shift+X` to search `Yogurt CSS IntelliSense`.
 - Once installed, the extension run automatically at VS Code startup.
 - Basically, no settings required. Or if you need one, you can do it [here](/intellisense/#settings).
 
