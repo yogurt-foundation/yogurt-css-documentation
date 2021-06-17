@@ -64,7 +64,7 @@ Utilities for sets brightness filter to an element. [Find out more about the usa
 
 Utilities for sets contrast filter to an element. [Find out more about the usage](/filter-contrast/).
 
-<y class="m-2 mx-auto flex bg-charcoal-100 rounded-lg">
+<y class="m-2 mx-auto flex bg-charcoal-500 rounded-lg">
   <y class="p-5 max-w-sm">
     <img
       class="w-full h-48 object-cover object-center overflow-hidden rounded-md shadow"
@@ -89,7 +89,7 @@ Utilities for sets contrast filter to an element. [Find out more about the usage
 
 Utility for sets saturates or desaturates to an element. [Find out more about the usage](/filter-saturate/).
 
-<y class="m-2 mx-auto flex bg-charcoal-100 rounded-lg">
+<y class="m-2 mx-auto flex bg-charcoal-500 rounded-lg">
   <y class="p-5 max-w-sm">
     <img
       class="w-full h-48 object-cover object-center overflow-hidden rounded-md shadow"
@@ -114,7 +114,7 @@ Utility for sets saturates or desaturates to an element. [Find out more about th
 
 Utility applies a Gaussian blur to the element. [Find out more about the usage](/filter-blur/).
 
-<y class="m-2 mx-auto flex bg-charcoal-100 rounded-lg">
+<y class="m-2 mx-auto flex bg-charcoal-500 rounded-lg">
   <y class="p-5 max-w-sm">
     <img
       class="w-full h-48 object-cover object-center overflow-hidden rounded-md shadow"
@@ -139,7 +139,7 @@ Utility applies a Gaussian blur to the element. [Find out more about the usage](
 
 Utility inverts the color samples in the element. [Find out more about the usage](/filter-invert/).
 
-<y class="m-2 mx-auto flex bg-charcoal-100 rounded-lg">
+<y class="m-2 mx-auto flex bg-charcoal-500 rounded-lg">
   <y class="p-5 max-w-sm">
     <img
       class="w-full h-48 object-cover object-center overflow-hidden rounded-md shadow"
@@ -195,7 +195,7 @@ Utilities for sets graphical effects such as `blurring` or `color shifting` to t
 
 Utilities for sets filter backdrop brightness effect to an element. [Find out more about the usage](/filter-backdrop-brightnesss/).
 
-<y class="m-2 flex bg-charcoal-800 rounded-lg">
+<y class="m-2 flex bg-charcoal-500 rounded-lg">
   <y class="p-5 max-w-sm w-full">
     <y
       class="flex justify-center items-center h-48 bg-auto bg-center bg-no-repeat rounded-lg"
@@ -224,7 +224,7 @@ Utilities for sets filter backdrop brightness effect to an element. [Find out mo
 
 Utilities for sets filter backdrop contrast effect to an element. [Find out more about the usage](/filter-backdrop-contrast/).
 
-<y class="m-2 flex bg-charcoal-800 rounded-lg">
+<y class="m-2 flex bg-charcoal-500 rounded-lg">
   <y class="p-5 max-w-sm w-full">
     <y
       class="flex justify-center items-center w-full h-48 bg-auto bg-center bg-no-repeat rounded-lg"
@@ -253,7 +253,7 @@ Utilities for sets filter backdrop contrast effect to an element. [Find out more
 
 Utilities for sets filter backdrop saturate effect to an element. [Find out more about the usage](/filter-backdrop-saturate/).
 
-<y class="m-2 flex bg-charcoal-800 rounded-lg">
+<y class="m-2 flex bg-charcoal-500 rounded-lg">
   <y class="p-5 max-w-sm w-full">
     <y
       class="flex justify-center items-center h-48 bg-auto bg-center bg-no-repeat rounded-lg"
@@ -282,7 +282,7 @@ Utilities for sets filter backdrop saturate effect to an element. [Find out more
 
 Utilities for sets filter backdrop blur effect to an element. [Find out more about the usage](/filter-backdrop-blur/).
 
-<y class="m-2 flex bg-charcoal-800 rounded-lg">
+<y class="m-2 flex bg-charcoal-500 rounded-lg">
   <y class="p-5 max-w-sm w-full">
     <y
       class="flex justify-center items-center h-48 bg-auto bg-center bg-no-repeat rounded-lg"
@@ -311,7 +311,7 @@ Utilities for sets filter backdrop blur effect to an element. [Find out more abo
 
 Utilities for sets filter backdrop hue-rotate effect to an element. [Find out more about the usage](/filter-backdrop-hue-rotate/).
 
-<y class="m-2 flex bg-charcoal-800 rounded-lg">
+<y class="m-2 flex bg-charcoal-500 rounded-lg">
   <y class="p-5 max-w-sm w-full">
     <y
       class="flex justify-center items-center h-48 bg-auto bg-center bg-no-repeat rounded-lg"
