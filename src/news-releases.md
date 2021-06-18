@@ -14,8 +14,13 @@ layout: default
 
 {% include "news/23-june-2021.njk" %}
 {% include "news/13-may-2021.njk" %}
+{% include "news/19-april-2021.njk" %}
 {% include "news/14-mar-2021.njk" %}
 {% include "news/09-dec-2020.njk" %}
+
+---
+
+{% include "misc/posts-footer.njk" %}
 
 ---
 
