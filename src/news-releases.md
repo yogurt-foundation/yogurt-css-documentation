@@ -13,6 +13,7 @@ layout: default
 <!-- TODO: Maybe doing it more programmatically? -->
 
 {% include "news/23-june-2021.njk" %}
+{% include "news/11-june-2021.njk" %}
 {% include "news/13-may-2021.njk" %}
 {% include "news/13-2-may-2021.njk" %}
 {% include "news/19-april-2021.njk" %}
