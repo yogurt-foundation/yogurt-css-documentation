@@ -61,4 +61,4 @@ $screens: (
 ...
 ```
 
-For the most recommended and effective way to strip down unused CSS classes is using [PurgeCSS](https://purgecss.com/) or using [Yogurt CLI tool](/installation/#using-yogurt-via-cli). (See also, [Purge Unused Classes](/file-size-control/#purge-unused-classes)).
+The most recommended and effective way to strip down unused CSS classes is using [PurgeCSS](https://purgecss.com/) or using [Yogurt CLI tool](/installation/#using-yogurt-via-cli). (See also, [Purge Unused Classes](/file-size-control/#purge-unused-classes)).

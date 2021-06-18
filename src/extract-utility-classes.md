@@ -67,7 +67,9 @@ You can mix `@extend` with normal CSS,
 
 ```scss
 .btn-large {
+  // SASS/SCSS
   @extend
+    // Yogurt utility classes
     .font-semibold,
     .text-khaki-700,
     .bg-khaki-600,

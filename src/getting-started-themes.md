@@ -34,7 +34,7 @@ Utilities to sets `dark` or `light` theme to an element.
   </y>
 </y>
 
-Add the `(dark)` prefix to an utility when dark theme settings enabled. Find out more about the usage [Pseudo Class Variants](/pseudo-class-variants/#dark-mode-v1.1.0).
+Add the `(dark)` prefix to a utility when dark theme settings enabled. Find out more about the usage [Pseudo Class Variants](/pseudo-class-variants/#dark-mode-v1.1.0).
 
 ```html
 <!-- Example -->
@@ -58,7 +58,7 @@ Add the `(dark)` prefix to an utility when dark theme settings enabled. Find out
 
 # Light
 
-Add the `(light)` prefix to an utility when light theme settings enabled. Find out more about the usage at [Pseudo Class Variants](/pseudo-class-variants/#light-mode-v1.1.5).
+Add the `(light)` prefix to a utility when light theme settings enabled. Find out more about the usage at [Pseudo Class Variants](/pseudo-class-variants/#light-mode-v1.1.5).
 
 <y class="px-4 py-2 w-full">
   <y class="relative flex justify-center items-center bg-gray-400 border border-gray-400 h-48 w-full pattern ripple-lg text-gray-100 rounded-lg overflow-hidden">

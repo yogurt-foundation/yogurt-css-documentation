@@ -16,7 +16,7 @@ Every utility class in Yogurt can be configured instantly with different breakpo
 
 ## Inherit
 
-Any of the breakpoints that prefixed with an utility, the utility value can be inherit from the smaller width to the maximum width. Which is mean, the smaller-breakpoint-first, the rest follows it. Take an example below.
+Any of the breakpoints that are prefixed with a utility, the utility value can be inherited from the smaller width to the maximum width. It means, the smaller-breakpoint-first, the rest follows it. Take an example below.
 
 ```html
 <!-- Example -->
@@ -25,7 +25,7 @@ Any of the breakpoints that prefixed with an utility, the utility value can be i
 </y>
 ```
 
-We have text size is `lg` at `sm` breakpoint, and text size is `4xl` at `2k` breakpoint. The rest of the breakpoints that not defined are `sm`, `md`, `lg` and `xl` will inherit the `xs`'s utility value, at the same time `4k`, `8k` will inherit the `2k`'s utility value.
+We have text size is `lg` at `sm` breakpoint, and text size is `4xl` at `2k` breakpoint. The rest of the breakpoints that are not defined are `sm`, `md`, `lg` and `xl` will inherit the `xs`'s utility value, at the same time `4k`, `8k` will inherit the `2k`'s utility value.
 
 ## Common Breakpoints
 
@@ -50,7 +50,7 @@ These are the default breakpoints covering for almost all common device and HAT 
 
 ## Modern Breakpoints
 
-Some breakpoints for new modern ultra-largescreen and ultra-widescreen sizes are not enabled by default. It will come in handy when designing a user interface specifically for uncommon bigger screens.
+Some breakpoints for new modern ultra-large screen and ultra-widescreen sizes are not enabled by default. It will come in handy when designing a user interface specifically for uncommon bigger screens.
 
 ```css
 /* 3k */
