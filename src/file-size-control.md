@@ -35,7 +35,7 @@ gulp.task('purge-css', () => {
 })
 ```
 
-Optionally to use the dedicated scaffolding app to create a new project with PurgeCSS built-in on-the-go.
+Optionally to use the dedicated scaffolding app to create a new project with PurgeCSS built-in on the go.
 
 ```bash
 $ npx create-yogurt-app my-new-project

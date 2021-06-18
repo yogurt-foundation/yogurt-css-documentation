@@ -27,7 +27,7 @@ Using utilities to style and add effects to elements when on:
 
 ### Hover
 
-Add the `(hover)` prefix to an utility to enable on-hover.
+Add the `(hover)` prefix to a utility to enable on-hover.
 
 ```html
 <!-- Example -->
@@ -38,7 +38,7 @@ Add the `(hover)` prefix to an utility to enable on-hover.
 
 ### Focus
 
-Add the `(focus)` prefix to an utility to enable on-focus.
+Add the `(focus)` prefix to a utility to enable on-focus.
 
 ```html
 <!-- Example -->
@@ -50,7 +50,7 @@ Add the `(focus)` prefix to an utility to enable on-focus.
 
 ### Focus-Within
 
-Add the `(focus-within)` prefix to an utility to enable on-focused for child element.
+Add the `(focus-within)` prefix to a utility to enable on-focused for child element.
 
 ```html
 <!-- Example -->
@@ -61,7 +61,7 @@ Add the `(focus-within)` prefix to an utility to enable on-focused for child ele
 
 ### Focus-Visible
 
-Add the `(focus-visible)` prefix to an utility to enable on-focused for child element.
+Add the `(focus-visible)` prefix to a utility to enable on-focused for child element.
 
 ```html
 <!-- Example -->
@@ -72,7 +72,7 @@ Add the `(focus-visible)` prefix to an utility to enable on-focused for child el
 
 ### Active
 
-Add the `(active)` prefix to an utility to enable on-active.
+Add the `(active)` prefix to a utility to enable on-active.
 
 ```html
 <!-- Example -->
@@ -83,7 +83,7 @@ Add the `(active)` prefix to an utility to enable on-active.
 
 ### Visited
 
-Add the `(visited)` prefix to an utility to enable on-visited.
+Add the `(visited)` prefix to a utility to enable on-visited.
 
 ```html
 <!-- Example -->
@@ -95,26 +95,22 @@ Add the `(visited)` prefix to an utility to enable on-visited.
 
 ### Checked
 
-Add the `(checked)` prefix to an utility to enable on-checked.
+Add the `(checked)` prefix to a utility to enable on-checked.
 
 ```html
 <!-- Example -->
-<button
-  class="(checked)text-white (checked)bg-red-400 (checked)underline"
->
+<button class="(checked)text-white (checked)bg-red-400 (checked)underline">
   ...
 </button>
 ```
 
 ### Disabled
 
-Add the `(disabled)` prefix to an utility to enable on-disabled.
+Add the `(disabled)` prefix to a utility to enable on-disabled.
 
 ```html
 <!-- Example -->
-<button
-  class="(disabled)text-gray-600 (disabled)bg-gray-400"
->
+<button class="(disabled)text-gray-600 (disabled)bg-gray-400">
   ...
 </button>
 ```
@@ -125,7 +121,7 @@ Add the `(disabled)` prefix to an utility to enable on-disabled.
 
 ### Group-Hover
 
-Add `(group)` class to the parent element and add the `(group-hover)` prefix to an utility on the child element to enable group-hover.
+Add `(group)` class to the parent element and add the `(group-hover)` prefix to a utility on the child element to enable group-hover.
 
 ```html
 <!-- Example -->
@@ -138,7 +134,7 @@ Add `(group)` class to the parent element and add the `(group-hover)` prefix to 
 
 ### Group-Focus
 
-Add `(group)` class to the parent element and add the `(group-focus)` prefix to an utility on the child element to enable group-focus.
+Add `(group)` class to the parent element and add the `(group-focus)` prefix to a utility on the child element to enable group-focus.
 
 ```html
 <!-- Example -->
@@ -195,7 +191,7 @@ Add `(expand)` prefix to a utility in a parent element, the utility will take ef
 
 ### Dark Mode <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.0</span>
 
-Add the `(dark)` prefix to an utility when dark theme settings enabled.
+Add the `(dark)` prefix to a utility when dark theme settings enabled.
 
 ```html
 <!-- Example -->
@@ -206,7 +202,7 @@ Add the `(dark)` prefix to an utility when dark theme settings enabled.
 
 ### Light Mode <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.5</span>
 
-Add the `(light)` prefix to an utility when light theme settings enabled.
+Add the `(light)` prefix to a utility when light theme settings enabled.
 
 ```html
 <!-- Example -->
@@ -249,7 +245,7 @@ Add the `(light)` prefix to an utility when light theme settings enabled.
 
 ### Portrait <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.5</span>
 
-Add the `(portrait)` prefix to an utility when portrait settings enabled.
+Add the `(portrait)` prefix to a utility when portrait settings enabled.
 
 ```html
 <!-- Example -->
@@ -260,7 +256,7 @@ Add the `(portrait)` prefix to an utility when portrait settings enabled.
 
 ### Landscape <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.5</span>
 
-Add the `(landscape)` prefix to an utility when landscape settings enabled.
+Add the `(landscape)` prefix to a utility when landscape settings enabled.
 
 ```html
 <!-- Example -->

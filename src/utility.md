@@ -29,7 +29,7 @@ Each utility property can be configured for different conditions. Such as the va
 
 ## Writing Styles
 
-The idea of how the utility is actually work in the Yogurt CSS framework. To get you to understand it in a more comprehensive way, let have a look at below the two HTML and CSS writing examples.
+The idea of how the utility works in the Yogurt CSS framework. To get you to understand it more comprehensively, let have a look at the two HTML and CSS writing examples.
 
 ### Conventional Style
 
