@@ -42,8 +42,10 @@ Add the `(focus)` prefix to an utility to enable on-focus.
 
 ```html
 <!-- Example -->
-<input class="bg-gray-100 (focus)bg-charcoal-100 border-transparent (focus)border-gray-200"
-       placeholder="Focus me!">
+<input
+  class="bg-gray-100 (focus)bg-charcoal-100 border-transparent (focus)border-gray-200"
+  placeholder="Focus me!"
+>
 ```
 
 ### Focus-Within
@@ -53,8 +55,7 @@ Add the `(focus-within)` prefix to an utility to enable on-focused for child ele
 ```html
 <!-- Example -->
 <y class="(focus-within)text-red-600 (focus-within)bg-red-300">
-  Title:
-  <input placeholder="Focus me!">
+  Title: <input placeholder="Focus me!">
 </y>
 ```
 
@@ -98,7 +99,9 @@ Add the `(checked)` prefix to an utility to enable on-checked.
 
 ```html
 <!-- Example -->
-<button class="(checked)text-white (checked)bg-red-400 (checked)underline">
+<button
+  class="(checked)text-white (checked)bg-red-400 (checked)underline"
+>
   ...
 </button>
 ```
@@ -109,7 +112,9 @@ Add the `(disabled)` prefix to an utility to enable on-disabled.
 
 ```html
 <!-- Example -->
-<button class="(disabled)text-gray-600 (disabled)bg-gray-400">
+<button
+  class="(disabled)text-gray-600 (disabled)bg-gray-400"
+>
   ...
 </button>
 ```
