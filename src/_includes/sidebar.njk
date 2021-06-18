@@ -7,7 +7,7 @@
 
         {% for section in main.sections %}
 
-          <li class="mb-6">
+          <li class="mb-10">
 
             <span class="hidden block mb-2 text-2xl uppercase font-bold text-gray-700 (dark)text-orange-600">
               {{ section.label }}
@@ -21,7 +21,7 @@
 
               <li class="(group) mb-px">
                 <a
-                  class="nav-link -mx-4 mb-1 px-2 py-2 text-lg (hover)font-semibold (hover)underline {{ item.class }} {% if is_current_page %} selected {% endif %} rounded-lg"
+                  class="nav-link -mx-4 px-2 py-2 text-lg (hover)font-semibold (hover)underline {{ item.class }} {% if is_current_page %} selected {% endif %} rounded-lg"
                   href="{{ item.url | safe }}"
                   target="{{ item.target }}"
 
