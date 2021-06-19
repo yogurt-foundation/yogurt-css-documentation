@@ -83,6 +83,29 @@ Set full height in viewport screen to an element.
 </y>
 ```
 
+Use `(expand)` variant to apply height to all child elements.
+
+<y class="my-2 mx-auto flex justify-center items-center">
+  <y class="inline-block">
+    <y class="flex justify-center items-center (expand)m-4 (expand)h-32 (expand)w-24">
+      <y class="bg-gray-400"></y>
+      <y class="bg-gray-500"></y>
+      <y class="bg-gray-400"></y>
+    </y>
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<!-- Parent -->
+<y class="(expand)h-24">
+  <!-- Child -->
+  <y>...</y>
+  <y>...</y>
+  <y>...</y>
+</y>
+```
+
 ---
 
 ## Customization
@@ -112,7 +135,8 @@ Read more information about using the [Plugin API](/plugin-api/), and  [Responsi
   ),
   $variant: (
     'responsive',
-    'hover'
+    'hover',
+    'expand'
     //...
   )
 );
