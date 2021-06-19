@@ -25,7 +25,7 @@ Any of the breakpoints that are prefixed with a utility, the utility value can b
 </y>
 ```
 
-We have text size is `lg` at `sm` breakpoint, and text size is `4xl` at `2k` breakpoint. The rest of the breakpoints that are not defined are `sm`, `md`, `lg` and `xl` will inherit the `xs`'s utility value, at the same time `4k`, `8k` will inherit the `2k`'s utility value.
+We have text size is `(lg)` at `(sm)` breakpoint, and text size is `(4xl)` at `(2k)` breakpoint. The rest of the breakpoints that are not defined are `(sm)`, `(md)`, `(lg)` and `(xl)` will inherit the `(xs)`'s utility value, at the same time `(4k)`, `(8k)` will inherit the `(2k)`'s utility value.
 
 ## Common Breakpoints
 
@@ -72,7 +72,7 @@ Some breakpoints for new modern ultra-large screen and ultra-widescreen sizes ar
 @media (min-width: 7680px) { ... }
 ```
 
-To prefix the breakpoint name (e.g. `xs`, `sm`, `md`, `lg` and so on) before the `{class}` or `class name` wrapped with the `(`, `)` parenthesis characters.
+To prefix the breakpoint name (e.g. `(xs)`, `(sm)`, `(md)`, `(lg)` and so on) before the `{class}` or `class name` wrapped with the `(`, `)` parenthesis characters.
 
 ```html
 <!-- Examples -->
