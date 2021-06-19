@@ -12,18 +12,29 @@ layout: default
 
 Using utilities to style and add effects to elements when on:
 
-- `responsive`
-- `dark-mode`, `light-mode`
-- `reduce-motion`
-- `selection-hover`
-- `expand`
-- `portrait`, `landscape`
-- `hover`, `group-hover`
-- `focus`, `group-focus`, `focus-visible`, `focus-within`
-- `active`
-- `visited`
-- `checked`
-- `disabled`
+- [responsive](/pseudo-class-variants/#responsive)
+- [dark-mode](/pseudo-class-variants/#dark-mode-v1.1.0), [light-mode](/pseudo-class-variants/#light-mode-v1.1.0)
+- [reduce-motion](/pseudo-class-variants/#reduce-motion-v1.1.6)
+- [selection-hover](/pseudo-class-variants/#selection-hover-v1.1.6)
+- [expand](/pseudo-class-variants/#expand-v1.1.6)
+- [portrait](/pseudo-class-variants/#portrait-v1.1.5), [landscape](/pseudo-class-variants/#landscape-v1.1.5)
+- [hover](/pseudo-class-variants/#hover), [group-hover](/pseudo-class-variants/#group-hover)
+- [focus](/pseudo-class-variants/#focus), [group-focus](/pseudo-class-variants/#group-focus), [focus-visible](/pseudo-class-variants/#focus-visible), [focus-within](/pseudo-class-variants/#focus-within)
+- [active](/pseudo-class-variants/#active)
+- [visited](/pseudo-class-variants/#visited)
+- [checked](/pseudo-class-variants/#checked)
+- [disabled](/pseudo-class-variants/#disabled)
+
+### responsive
+
+Add the one of these prefixes `(xs)`, `(sm)`, `(md)`, `(lg)`, `(xl)`, `(2k)`, `(3k)`, `(4k)`, `(8k)` to a utility to enable responsive response to different screen sizes.
+
+```html
+<!-- Example -->
+<y class="(xs)text-lg (2k)text-4xl">
+  ...
+</y>
+```
 
 ### Hover
 
@@ -238,6 +249,19 @@ Add the `(light)` prefix to a utility when light theme settings enabled.
     Text Color
   </a>).
 </y>
+
+---
+
+### Reduce-Motion <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.6span>
+
+Add the `(reduce-motion)` prefix to a utility reduce animation motion for readers with vestibular motion disorders.
+
+```html
+<!-- Example -->
+<y class="(reduce-motion)transition duration-300 ease-in-out border-4 border-gray-400 (hover)border-gray-500 (hover)shadow-lg ... w-32 h-24">
+  ...
+</y>
+```
 
 ---
 
