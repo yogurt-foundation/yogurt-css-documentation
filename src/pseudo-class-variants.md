@@ -252,7 +252,7 @@ Add the `(light)` prefix to a utility when light theme settings enabled.
 
 ---
 
-### Reduce-Motion <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.6span>
+### Reduce-Motion <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.6</span>
 
 Add the `(reduce-motion)` prefix to a utility reduce animation motion for readers with vestibular motion disorders.
 
