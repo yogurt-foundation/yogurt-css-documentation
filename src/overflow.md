@@ -41,6 +41,27 @@ Utilities for sets how to handle content that's too big for it's container.
 | scrolling-touch | -webkit-overflow-scrolling: touch |
 | scrolling-auto | -webkit-overflow-scrolling: auto |
 
+## Usage
+
+```html
+<y class="overflow-hidden">
+  ...
+</y>
+```
+
+Use `(expand)` variant to apply overflow to all child elements.
+
+```html
+<!-- Example -->
+<!-- Parent -->
+<y class="(expand)overflow-hidden">
+  <!-- Child -->
+  <y>...</y>
+  <y>...</y>
+  <y>...</y>
+</y>
+```
+
 ---
 
 ## Variant

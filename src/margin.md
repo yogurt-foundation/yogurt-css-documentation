@@ -498,6 +498,29 @@ Set margin to `right`.
 </y>
 ```
 
+Use `(expand)` variant to apply margin to all child elements.
+
+<y class="my-2 mx-auto flex justify-center items-center">
+  <y class="bg-gray-100 inline-block">
+    <y class="flex justify-center items-center (expand)m-4 (expand)h-32 (expand)w-32">
+      <y class="bg-gray-400"></y>
+      <y class="bg-gray-500"></y>
+      <y class="bg-gray-400"></y>
+    </y>
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<!-- Parent -->
+<y class="(expand)m-4">
+  <!-- Child -->
+  <y>...</y>
+  <y>...</y>
+  <y>...</y>
+</y>
+```
+
 ---
 
 ## Customization
@@ -526,7 +549,8 @@ Read more information about using the [Plugin API](/plugin-api/), and  [Responsi
     //...
   ),
   $variant: (
-    'responsive'
+    'responsive',
+    'expand'
   )
 );
 ```

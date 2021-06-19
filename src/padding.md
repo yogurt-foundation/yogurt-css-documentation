@@ -323,6 +323,29 @@ Set padding to `right`.
 </y>
 ```
 
+Use `(expand)` variant to apply padding to all child elements.
+
+<y class="my-2 mx-auto flex justify-center items-center">
+  <y class="inline-block">
+    <y class="flex justify-center items-center (expand)m-4 (expand)p-4 (expand)h-32 (expand)w-32">
+      <y class="bg-gray-400">TEST</y>
+      <y class="bg-gray-500">TEST</y>
+      <y class="bg-gray-400">TEST</y>
+    </y>
+  </y>
+</y>
+
+```html
+<!-- Example -->
+<!-- Parent -->
+<y class="(expand)p-4">
+  <!-- Child -->
+  <y>...</y>
+  <y>...</y>
+  <y>...</y>
+</y>
+```
+
 ---
 
 ## Customization
@@ -351,7 +374,8 @@ Read more information about using the [Plugin API](/plugin-api/), and  [Responsi
     //...
   ),
   $variant: (
-    'responsive'
+    'responsive',
+    'expand'
   )
 );
 ```
