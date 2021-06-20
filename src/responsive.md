@@ -72,7 +72,7 @@ Some breakpoints for new modern ultra-large screen and ultra-widescreen sizes ar
 @media (min-width: 7680px) { ... }
 ```
 
-To prefix the breakpoint name (e.g. `(xs)`, `(sm)`, `(md)`, `(lg)` and so on) before the `{class}` or `class name` wrapped with the `(`, `)` parenthesis characters.
+To prefix the breakpoint name (e.g. `(xs)`, `(sm)`, `(md)`, `(lg)` and so on) before the `{class}` or `class name` wrapped with the `()` parenthesis characters.
 
 ```html
 <!-- Examples -->
