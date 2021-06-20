@@ -1,4 +1,9 @@
-<header class="z-50 header {% if id == "home" %} fixed {% else %} sticky {% endif %} h-20 top-0 flex items-center bg-white (dark)bg-charcoal-100 w-full">
+<header class="z-50 header {% if id == "home" %} fixed__ {% else %} sticky {% endif %} h-20 top-0 flex flex-col items-center bg-white (dark)bg-charcoal-100 w-full">
+
+  {% if id == "home" %}
+    {% include "news-bar.njk" %}
+  {% endif %}
+
   <y class="relative px-6 max-w-screen-xl mx-auto flex flex-row items-center justify-between w-full">
 
     <y class="header-left mr-2 flex-shrink-0">
