@@ -181,6 +181,15 @@ Add `(selection-hover)` prefix to `filter` utilities with set up parent and chil
 </y>
 ```
 
+Default selected **Filters** utilities for `(selection-hover)` variant.
+
+- [Brightness](/filter-brightness/)
+- [Contrast](/filter-contrast/)
+- [Saturate](/filter-saturate/)
+- [Drop Shadow](/filter-drop-shadow/)
+- [Blur](/filter-blur/)
+- [Smooth](/filter-smooth/)
+
 ### Expand <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.6</span>
 
 Add `(expand)` prefix to a utility in a parent element, the utility will take effect to all child elements.
@@ -195,6 +204,14 @@ Add `(expand)` prefix to a utility in a parent element, the utility will take ef
   <y>...</y>
 </y>
 ```
+
+Default selected few utilities for `(expand)` variant.
+
+- **Borders:** [Border Radius](/border-radius/)
+- **Effects:** [Box Shadow](/box-shadow-color/)
+- **Sizing:** [Height](/height/), [Width](/width/)
+- **Spacing:** [Margin](/margin/), [Padding](/padding/)
+- **Layout:** [Overflow](/overflow/)
 
 ---
 
