@@ -57,4 +57,8 @@ $ npm run dev
 
 ---
 
+Those who are using the CSS Framework that I created. To have a professional and beautiful user interface design. Brings happiness, eliminate troubles, and plant the seeds of Buddha, after all, they are free from suffering. Namo Amitabha. 凡是用了我所制造的 CSS 框架的众生，都得专业美美的平面设计效果，开开心心的，烦恼消灭，皆种成佛种子，毕竟离苦得乐。南无阿弥佗佛。
+
+---
+
 [MIT](https://github.com/yogurt-foundation/yogurt-css/blob/master/LICENSE)
