@@ -27,7 +27,7 @@ Using utilities to style and add effects to elements when on:
 
 ### responsive
 
-Add the one of these prefixes `(xs)`, `(sm)`, `(md)`, `(lg)`, `(xl)`, `(2k)`, `(3k)`, `(4k)`, `(8k)` to a utility to enable responsive response to different screen sizes.
+Add the one of these prefixes `(xs)`, `(sm)`, `(md)`, `(lg)`, `(xl)`, `(2k)`, `(4k)`, `(8k)` to a utility to enable responsive response to different screen sizes.
 
 ```html
 <!-- Example -->
