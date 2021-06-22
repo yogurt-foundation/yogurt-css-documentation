@@ -39,6 +39,8 @@
         { "label": "Text Color", "url": "/text-color/" },
         { "label": "Text Decoration", "url": "/text-decoration/" },
         { "label": "Text Transform", "url": "/text-transform/" },
+        { "label": "Text Stroke", "url": "/text-stroke/" },
+        { "label": "Text Stroke Color", "url": "/text-stroke-color/" },
         { "label": "Vertical Align", "url": "/vertical-align/" },
         { "label": "Whitespace", "url": "/whitespace/" },
         { "label": "Word Break", "url": "/word-break/" },
