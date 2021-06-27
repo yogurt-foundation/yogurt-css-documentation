@@ -1,0 +1,75 @@
+<!doctype html>
+
+<!--
+凡是用了我所制造的 CSS 框架的众生，都得专业美美的平面设计效果，开开心心的，烦恼消灭，皆种成佛种子，毕竟离苦得乐。南无阿弥佗佛。
+Those who are using the CSS Framework that I created. To have a professional and beautiful user interface design. Brings happiness, eliminate troubles, and plant the seeds of Buddha, after all, they are free from suffering. Namo Amitabha.
+-->
+
+<html
+  class="scroll-smooth logo-visible text-md (sm)text-md"
+  lang="en"
+>
+
+<head>
+
+  <meta charset="utf-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+  >
+
+  <title>
+    Vault UI
+  </title>
+
+  <meta
+    name="description"
+    content="{% if description %}{{ description }}{% else %}{{ excerpt }}{% endif %}"
+  >
+
+  <link
+    rel="stylesheet"
+    href="/main.css{{ helpers.assetSuffix }}"
+  >
+
+  <!-- pwa -->
+  <link
+    rel="manifest"
+    href="manifest.json"
+  >
+  <!--// pwa -->
+
+  {% include "meta.njk" %}
+
+  <link
+    rel="icon"
+    type="image/svg+xml"
+    href="{{ site.images.favicon }}"
+  >
+
+  <link
+    rel="canonical"
+    href="{{ site.url }}{{ page.url }}"
+  >
+
+  {% include "google-analytics.njk" %}
+
+</head>
+
+<body
+  class="font-default antialiased text-gray-900 (dark)text-gray-400 depth-normal bg-white (dark)bg-charcoal-100"
+  data-page="{{ id }}"
+>
+
+  {% include "vault-ui/header.njk" %}
+
+  {{ content | safe }}
+
+  {% include "vault-ui/footer.njk" %}
+
+  <script defer src="/main.js{{ helpers.assetSuffix }}"></script>
+
+</body>
+
+</html>
