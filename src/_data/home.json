@@ -13,6 +13,10 @@
         {
           "title": "Blazing Fast Prototyping",
           "desc": "Meanwhile maintains a balance between consistency and flexibility design."
+        },
+        {
+          "title": "Lightning Fast CSS Preprocessing",
+          "desc": "No preprocessing in development mode. Update new changes instantly."
         }
       ]
     }
