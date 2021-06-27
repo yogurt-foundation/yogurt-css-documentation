@@ -69,7 +69,7 @@ Utilities for set dimension of aspect ratio to an element.
 ```html
 <!-- Example -->
 <img
-  class="aspect-ratio-21/9 object-cover object-center w-32 flex justify-center items-center bg-gray-400 border border-gray-500"
+  class="aspect-ratio-21/9 ... w-32 ... object-cover object-center ... flex justify-center items-center ... bg-gray-400 ... border border-gray-500"
   src="..."
 >
 ```
