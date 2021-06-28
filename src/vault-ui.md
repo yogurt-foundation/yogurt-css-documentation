@@ -1,6 +1,6 @@
 ---
 id: vault-ui
 title: Vault UI
-description:
+description: A collection of UI Components crafted by Yogurt CSS.
 layout: vault
 ---
