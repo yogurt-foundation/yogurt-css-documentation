@@ -15,7 +15,7 @@
           "desc": "Meanwhile maintains a balance between consistency and flexibility design."
         },
         {
-          "title": "Ship Less CSS",
+          "title": "Ship Less CSS in Production",
           "desc": "Strip down unused CSS classes by using PurgeCSS and improve performance."
         }
       ]
