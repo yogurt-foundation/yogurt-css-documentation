@@ -8,6 +8,16 @@ variant: responsive
 layout: default
 ---
 
+<style>
+  .supports { display: block }
+  @supports (aspect-ratio: 1/1) { .supports { display: none } }
+</style>
+
+<y class="supports my-4 p-3 border-l-8 border-orange-600 text-sm text-orange-600 (dark)text-orange-500 bg-orange-200 (dark)bg-orange-900">
+  <span class="pr-1 font-semibold">Note:</span>
+  This web browser does not currently support the utilities.
+</y>
+
 > Layouts
 
 # Aspect Ratio <span class="ml-1 px-2 py-1 text-sm text-gray-600 (dark)text-charcoal-100 bg-gray-300 (dark)bg-gray-600">v1.1.7</span>

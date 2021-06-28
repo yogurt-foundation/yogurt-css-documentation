@@ -15,8 +15,8 @@
           "desc": "Meanwhile maintains a balance between consistency and flexibility design."
         },
         {
-          "title": "Lightning Fast CSS Preprocessing",
-          "desc": "No preprocessing in development mode. Update new changes instantly."
+          "title": "CSS Preprocessing with PurgeCSS",
+          "desc": "Update new changes instantly in development mode with Yogurt CLI."
         }
       ]
     }
