@@ -15,8 +15,8 @@
           "desc": "Meanwhile maintains a balance between consistency and flexibility design."
         },
         {
-          "title": "CSS Preprocessing with PurgeCSS",
-          "desc": "Update new changes instantly in development mode with Yogurt CLI."
+          "title": "Ship Less CSS",
+          "desc": "Strip down unused CSS classes by using PurgeCSS and improve performance."
         }
       ]
     }
