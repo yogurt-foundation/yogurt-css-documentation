@@ -62,11 +62,13 @@ Those who are using the CSS Framework that I created. To have a professional and
   data-page="{{ id }}"
 >
 
-  {% include "vault-ui/header.njk" %}
+  {# {% include "vault-ui/header.njk" %} #}
+
+  {% include "vault-ui/hero.njk" %}
 
   {{ content | safe }}
 
-  {% include "vault-ui/footer.njk" %}
+  {# {% include "vault-ui/footer.njk" %} #}
 
   <script defer src="/main.js{{ helpers.assetSuffix }}"></script>
 

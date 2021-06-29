@@ -16,7 +16,7 @@
         },
         {
           "title": "Ship Less CSS in Production",
-          "desc": "Strip down unused CSS classes by using PurgeCSS and improve performance."
+          "desc": "Strip down unused CSS classes by using PurgeCSS and improve load performance."
         }
       ]
     }
