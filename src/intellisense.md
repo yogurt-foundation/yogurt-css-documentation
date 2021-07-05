@@ -12,13 +12,13 @@ layout: default
 
 <y class="flex flex-gap-2 flex-wrap items-center">
 
-  <img class="rounded" src="https://img.shields.io/visual-studio-marketplace/v/LoouisLow.yogurtcss-vscode-intellisense?style=flat-square&label=VS%20Marketplace&logo=visual-studio-code" loading="lazy">
+  <img class="rounded" src="https://img.shields.io/visual-studio-marketplace/v/LewisLow.yogurtcss-vscode-intellisense?style=flat-square&label=VS%20Marketplace&logo=visual-studio-code" loading="lazy">
 
-  <img class="rounded" src="https://img.shields.io/visual-studio-marketplace/d/LoouisLow.yogurtcss-vscode-intellisense?style=flat-square&label=downloads&logo=visual-studio-code" loading="lazy">
+  <img class="rounded" src="https://img.shields.io/visual-studio-marketplace/d/LewisLow.yogurtcss-vscode-intellisense?style=flat-square&label=downloads&logo=visual-studio-code" loading="lazy">
 
-  <img class="rounded" src="https://img.shields.io/visual-studio-marketplace/r/LoouisLow.yogurtcss-vscode-intellisense?style=flat-square&label=rating&logo=visual-studio-code" loading="lazy">
+  <img class="rounded" src="https://img.shields.io/visual-studio-marketplace/r/LewisLow.yogurtcss-vscode-intellisense?style=flat-square&label=rating&logo=visual-studio-code" loading="lazy">
 
-  <img class="rounded" src="https://img.shields.io/visual-studio-marketplace/stars/LoouisLow.yogurtcss-vscode-intellisense?style=flat-square&label=stars&logo=visual-studio-code" loading="lazy">
+  <img class="rounded" src="https://img.shields.io/visual-studio-marketplace/stars/LewisLow.yogurtcss-vscode-intellisense?style=flat-square&label=stars&logo=visual-studio-code" loading="lazy">
 
 </y>
 
@@ -40,11 +40,11 @@ An intellisense tool for VS Code, fast manipulating Yogurt CSS Low-level Framewo
 - Once installed, the extension run automatically at VS Code startup.
 - Basically, no settings required. Or if you need one, you can do it [here](/intellisense/#settings).
 
-To manual install extension, visit [Visual Studio Market](https://marketplace.visualstudio.com/items?itemName=LoouisLow.yogurtcss-vscode-intellisense), or run the below command line in the Terminal.
+To manual install extension, visit [Visual Studio Market](https://marketplace.visualstudio.com/items?itemName=LewisLow.yogurtcss-vscode-intellisense), or run the below command line in the Terminal.
 
 ```bash
 # Terminal
-$ ext install LoouisLow.yogurtcss-vscode-intellisense
+$ ext install LewisLow.yogurtcss-vscode-intellisense
 ```
 
 ## Supported Languages
