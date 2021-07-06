@@ -13,11 +13,6 @@
           "target": "_self"
         },
         {
-          "label": "IntelliSense",
-          "url": "/intellisense/",
-          "target": "_self"
-        },
-        {
           "label": "Playground",
           "url": "/playground/",
           "external": "/playground/",
